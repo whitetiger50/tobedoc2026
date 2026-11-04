@@ -1,5 +1,7 @@
 # Clinical feature audit of patient persona systems
 
+최신 진행: 로드맵 2단계의 [본 실험 설계](share/main-comparison-v01/본실험_한장설계.md)와 [블라인드16개 검토](share/main-comparison-v01/블라인드16개_검토.md)를 준비했다. 사용자 단독 검토 후 평가 규칙을 고정해야 하며 본 실험·연구 종료 단계가 아니다. 체크포인트: config/research-checkpoint-v15.json.
+
 ## 2026-11-04 최신 결과
 
 로드맵 1단계 내 두 번째 탐색: [INC3 어휘 구성 분해 보고서](share/inc3-mechanism-v01/INC3_어휘구성분해보고서.md). 기능어 목록의 반복 손실 변화가 Claude +0.2391, GPT-4.1 −0.0699로 전체 MATTR의 반대 방향을 설명했다. 목록 외 단어의 MATTR25 차이는 각각 +0.0093/+0.0092로 작았다. 고정 목록의 산술 분해이며 품사·임상 타당도 검증이나 인과 기전은 아니다. Ollama 6회로 24개 원문을 보조 검토했고 인용 불일치 2개와 해석 한계를 기록했다. 최신 체크포인트는 config/research-checkpoint-v14.json이다. 현재는 초기 탐색이며, 앞으로 약 한 달간 본 실험·필요시 수정·미사용 조건 검증을 진행한 뒤 논문을 작성한다.
