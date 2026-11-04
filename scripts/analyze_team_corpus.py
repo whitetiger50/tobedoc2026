@@ -78,7 +78,7 @@ def write_json(name,obj):
 
 def write_csv(name,rows):
     with (OUT/name).open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
