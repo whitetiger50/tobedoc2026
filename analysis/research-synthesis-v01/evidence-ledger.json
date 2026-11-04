@@ -198,5 +198,19 @@
     },
     "generation_protocols_differ": true,
     "claude_pilot_ids": null
+  },
+  "inc3_followup_20261104": {
+    "status": "complete",
+    "report": "share/inc3-mechanism-v01/INC3_어휘구성분해보고서.md",
+    "verification": "analysis/inc3-mechanism-v01/verification.json",
+    "function_repeat_loss_delta": {
+      "Claude": 0.23908138618295469,
+      "GPT-4.1": -0.06992586309073168
+    },
+    "nonlist_mattr25_delta": {
+      "Claude": 0.009275110425566169,
+      "GPT-4.1": 0.0092038894153502
+    },
+    "scope": "post-hoc lexical accounting; not clinical/causal validation"
   }
 }
