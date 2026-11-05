@@ -1,8 +1,6 @@
 # Clinical feature audit of patient persona systems
 
-2026-11-05 최신: 2단계 평가 준거 재검토 중. 단독 B 판독은 확인적 주 결과로 쓰지 않으며 16개 검토는 필수 과제가 아니다. 기존 분석은 유지한다. config/research-checkpoint-v16.json 참조.
-
-최신 진행: 로드맵 2단계의 [본 실험 설계](share/main-comparison-v01/본실험_한장설계.md)와 [블라인드16개 검토](share/main-comparison-v01/블라인드16개_검토.md)를 준비했다. 사용자 단독 검토 후 평가 규칙을 고정해야 하며 본 실험·연구 종료 단계가 아니다. 체크포인트: config/research-checkpoint-v15.json.
+2026-11-05 현재: 로드맵 2/6. [개발용 AI 판독 기준 및 자문 계획](share/main-comparison-v01/AI판독기준_v1.md) 고정. 원문 16개에서 연결 불명확 있음 3·없음 9·불확실 4. 사람 판독 0, 새 발화 0. 다음: 본 비교 조건·사실 목록과 사례/질문 명세를 결과 확인 전에 고정.
 
 ## 2026-11-04 최신 결과
 
