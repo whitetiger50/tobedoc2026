@@ -1,5 +1,7 @@
 # Clinical feature audit of patient persona systems
 
+회의 자료: [2쪽 중간보고서 PDF](share/meeting-20261108/중간회의_연구보고서.pdf) · [편집용 Word](share/meeting-20261108/중간회의_연구보고서.docx) · [Git 이력과 이전 산출물](archive/README.md).
+
 2026-11-08 · 로드맵 3/6: [기존 자료 강도 비교 마감](share/team-strength-v01/강도비교_마감결과.md). GPT-4.1 중간 불확실 4개 → 강한 지시에서 있음 1·불확실 2·없음 1. Claude는 두 지시 모두 5/5 있음(천장). 기존 팀 자료 탐색을 닫고 본 실험 실행 결정은 별도로 둔다.
 
 ## 2026-11-04 최신 결과
