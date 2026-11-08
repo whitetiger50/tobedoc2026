@@ -1,6 +1,6 @@
 # Clinical feature audit of patient persona systems
 
-2026-11-08 현재: 로드맵 3/6. 기존 서점 발화의 동일 질문·seed 경계 사례 3쌍을 추출했다. 대표 표본이 아닌 자문용 자료이며 전문의 판독은 0건이다. [연구팀 해설](share/main-boundary-v01/연구팀용_경계사례해설.md) · [검토자용 원문](share/main-boundary-v01/검토자용_원문6개.md).
+2026-11-08 최신: 로드맵 3/6. [팀 자료 내 30개 질문 대응 비교](share/team-transition-v01/전환지시_질문대응비교.md): DER2 전환 있음 Claude 5/5, GPT-4.1 0/5(불확실 4). 관련 다주제 조건은 양쪽 모두 0/5. 새 발화·전문의 판독 0건.
 
 ## 2026-11-04 최신 결과
 
