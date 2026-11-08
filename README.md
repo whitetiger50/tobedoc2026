@@ -1,6 +1,6 @@
 # Clinical feature audit of patient persona systems
 
-2026-11-05 현재: 로드맵 3/6: 기존 서점 발화 16개 비교 완료. 구체 지시 Derailment 4/4 불확실, 완전 블록 0/4, 상호작용 범위 −50~+100%p. 새 생성 및 전문의 판독 0. [비교 결과](share/main-dev-v01/서점사례_대응비교.md)
+2026-11-08 현재: 로드맵 3/6. 기존 서점 발화의 동일 질문·seed 경계 사례 3쌍을 추출했다. 대표 표본이 아닌 자문용 자료이며 전문의 판독은 0건이다. [연구팀 해설](share/main-boundary-v01/연구팀용_경계사례해설.md) · [검토자용 원문](share/main-boundary-v01/검토자용_원문6개.md).
 
 ## 2026-11-04 최신 결과
 
