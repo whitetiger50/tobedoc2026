@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "mode": "read_only_real_records",
+  "shared_verbosity": {
+    "responses": 80,
+    "checks": {
+      "model_matches": 80,
+      "non_fixture": 80,
+      "normal_stop": 80,
+      "prompt_hash_matches": 80,
+      "raw_text_matches": 80,
+      "request_hash_matches": 80,
+      "saved_metrics_match": 80
+    },
+    "source_sha256": {
+      "evidence/snapshots/psi_styles.txt": "237057a7c64ae7fac5128a358690476347e0dda43a998339d83beb57a734bf02",
+      "evidence/snapshots/patientsim_personality.txt": "0b37082184ea3c726f8f438d5c605db527ead81d6967f2b2c0586eaca7e8128b"
+    },
+    "conditions_sha256": "24891fda4f1af14a302de84f022d3c6106e797827f2b664c0476ebbd1e3d0ec1",
+    "arms": {
+      "neutral": {
+        "responses": 16,
+        "mean_words": 28.25,
+        "requested_references": 59,
+        "reference_denominator": 64,
+        "maximum_output_tokens": 64
+      },
+      "psi_verbose": {
+        "responses": 16,
+        "mean_words": 238.5625,
+        "requested_references": 62,
+        "reference_denominator": 64,
+        "maximum_output_tokens": 422
+      },
+      "sim_concise": {
+        "responses": 16,
+        "mean_words": 18.5625,
+        "requested_references": 60,
+        "reference_denominator": 64,
+        "maximum_output_tokens": 34
+      },
+      "sim_verbose": {
+        "responses": 16,
+        "mean_words": 309.6875,
+        "requested_references": 64,
+        "reference_denominator": 64,
+        "maximum_output_tokens": 443
+      },
+      "simple_verbose": {
+        "responses": 16,
+        "mean_words": 127.1875,
+        "requested_references": 64,
+        "reference_denominator": 64,
+        "maximum_output_tokens": 208
+      }
+    },
+    "psi_minus_simple_words": 111.375,
+    "sim_minus_simple_words": 182.5,
+    "scope": "Extracted instruction modules on one Qwen backend; not native-system or clinical validation."
+  },
+  "team_corpus": {
+    "source_sha256": "5b8d11491f2ab5fc4ef0612e6ddc28411c59e70719ecf3147fd400775185c116",
+    "rows": 228,
+    "unique_cells": 228,
+    "unique_texts": 228,
+    "personas": 1,
+    "saved_feature_rows_matched": 228,
+    "lexical_words": {
+      "minimum": 123,
+      "median": 155.0,
+      "maximum": 180,
+      "within_150_170": 168
+    },
+    "contrasts": {
+      "Claude": {
+        "per3_minus_n0_trigram": 0.2693936399825266,
+        "positive_questions": 6,
+        "question_count": 6,
+        "exact_sign_flip_p": 0.03125,
+        "inc3_minus_n0_mattr50": -0.23796049749075832,
+        "inc_positive_questions": 0,
+        "holm_two_tests": 0.0625
+      },
+      "GPT-4.1": {
+        "per3_minus_n0_trigram": 0.08437717185212854,
+        "positive_questions": 6,
+        "question_count": 6,
+        "exact_sign_flip_p": 0.03125,
+        "inc3_minus_n0_mattr50": 0.05752554861666161,
+        "inc_positive_questions": 5,
+        "holm_two_tests": 0.0625
+      }
+    },
+    "scope": "Exploratory synthetic corpus; generator and generation procedure confounded; no clinical ratings recomputed."
+  },
+  "return_control": {
+    "source_sha256": "638ca6df88f05b1a99fb33553cddad8cacccff30a5317fbb658a8bc1b582310e",
+    "rows": 64,
+    "cells": {
+      "continuation_challenge:clarified": {
+        "responses": 16,
+        "other_event_present": 12,
+        "primary_return": 16,
+        "non_echo_responses": 11,
+        "non_echo_primary_return": 11
+      },
+      "continuation_challenge:original": {
+        "responses": 16,
+        "other_event_present": 12,
+        "primary_return": 16,
+        "non_echo_responses": 10,
+        "non_echo_primary_return": 10
+      },
+      "free_reply:clarified": {
+        "responses": 16,
+        "other_event_present": 1,
+        "primary_return": 0,
+        "non_echo_responses": 16,
+        "non_echo_primary_return": 0
+      },
+      "free_reply:original": {
+        "responses": 16,
+        "other_event_present": 5,
+        "primary_return": 1,
+        "non_echo_responses": 16,
+        "non_echo_primary_return": 1
+      }
+    },
+    "scope": "Recount of saved response-level annotations, not independent semantic reannotation."
+  },
+  "m18": {
+    "source_schedule_sha256": "c7e730ebe1eee13c357e55cf82abf3c81a71b1f5646dafa1cccaeca831faef91",
+    "response_manifest_sha256": "2b9db07cf985a9cb842ac03584a8e2860be2415f8310c66249640dd0fcb61c61",
+    "schedule_slots": 252,
+    "unique_scheduled_items": 21,
+    "natural_dialogues": 9,
+    "totals": {
+      "json_objects_parsed": 251,
+      "numeric_status_matches_saved": 252,
+      "numeric_valid": 251,
+      "responses": 252,
+      "saved_schema_pass": 147
+    },
+    "cells": {
+      "ccf:claude": {
+        "json_objects_parsed": 62,
+        "numeric_status_matches_saved": 63,
+        "numeric_valid": 62,
+        "responses": 63,
+        "saved_schema_pass": 14
+      },
+      "ccf:codex": {
+        "json_objects_parsed": 63,
+        "numeric_status_matches_saved": 63,
+        "numeric_valid": 63,
+        "responses": 63,
+        "saved_schema_pass": 7
+      },
+      "realism:claude": {
+        "json_objects_parsed": 63,
+        "numeric_status_matches_saved": 63,
+        "numeric_valid": 63,
+        "responses": 63,
+        "saved_schema_pass": 63
+      },
+      "realism:codex": {
+        "json_objects_parsed": 63,
+        "numeric_status_matches_saved": 63,
+        "numeric_valid": 63,
+        "responses": 63,
+        "saved_schema_pass": 63
+      }
+    },
+    "natural_cells": {
+      "ccf:claude": {
+        "planned_ratings": 27,
+        "score_distribution": {
+          "4": 26,
+          "missing": 1
+        },
+        "available_pairs": 25,
+        "equal_pairs": 25,
+        "complete_dialogues": 8,
+        "identical_complete_triples": 8
+      },
+      "ccf:codex": {
+        "planned_ratings": 27,
+        "score_distribution": {
+          "4": 27
+        },
+        "available_pairs": 27,
+        "equal_pairs": 27,
+        "complete_dialogues": 9,
+        "identical_complete_triples": 9
+      },
+      "realism:claude": {
+        "planned_ratings": 27,
+        "score_distribution": {
+          "3": 27
+        },
+        "available_pairs": 27,
+        "equal_pairs": 27,
+        "complete_dialogues": 9,
+        "identical_complete_triples": 9
+      },
+      "realism:codex": {
+        "planned_ratings": 27,
+        "score_distribution": {
+          "4": 27
+        },
+        "available_pairs": 27,
+        "equal_pairs": 27,
+        "complete_dialogues": 9,
+        "identical_complete_triples": 9
+      }
+    },
+    "json_parse_failures": [
+      {
+        "item_id": "DEV-M18-01-rep01-v02",
+        "criterion": "ccf",
+        "provider": "claude",
+        "repetition": 3,
+        "failure_type": "JSONDecodeError",
+        "response": "development/rubric-comparison-m18-v01/reviews/claude/b3a033b7777211a8bf/response.txt"
+      }
+    ],
+    "scope": "Raw numeric scores independently reparsed without repairs; schema passes recount saved validator decisions, not independent schema revalidation. Constant natural scores cannot establish fine discrimination or clinical validity."
+  }
+}

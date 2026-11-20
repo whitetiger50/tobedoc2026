@@ -1,5 +1,7 @@
 # 투비닥터 후속 연구 전체 작업본
 
+2026-11-20 · [한국어 주간 회고 연구 설계와 다음 주 실행 카드](docs/2026-11-20-korean-writing/README.md) · [10–11월 성과 재검토와 독립 비평](docs/2026-11-20-korean-writing/REASSESSMENT.md). 새 연구는 설계 단계이며 기존 실험의 원응답 재검산 결과를 함께 제공한다.
+
 이 저장소의 최상위 `data/`, `config/`, `scripts/`, `analysis/`, `share/`, `archive/`에 그동안의 연구 원문·생성 설명서·조건·코드·판정·결과·보고서가 들어 있습니다. [중간 회의 PDF](share/meeting-20261108/중간회의_연구보고서.pdf) · [원자료 228개](data/team-corpus-20261104/utterances.csv) · [연구 이력](archive/README.md)
 
 # Clinical feature audit of patient persona systems
