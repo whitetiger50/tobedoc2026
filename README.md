@@ -1,6 +1,6 @@
 # 투비닥터 후속 연구 전체 작업본
 
-**2026-11-20 현재 연구** · [영어 구어체 발화 생성과 LLM 판독 설계 · 11월 27일까지 실행 계획](docs/2026-11-20-english-speech/README.md). 새 실험은 설계 단계다. [10–11월 실제 성과 재검산](docs/2026-11-20-korean-writing/REASSESSMENT.md)과 [앞서 검토한 한국어 글쓰기 설계](docs/2026-11-20-korean-writing/README.md)도 보존한다.
+**2026-11-20 현재 연구** · [영어 발화기의 탈선·내용 빈곤 비교와 포스터 설계](docs/2026-11-20-english-clinical-profile/README.md) · [LLM·전문의 공통 영문 판독표](docs/2026-11-20-english-clinical-profile/RATING_FORM.md). 11월 27일 포스터는 LLM 판독, 이후 전문의 블라인드 검증을 계획한다. 새 실험은 설계 단계다. [기존 결과 검산](docs/2026-11-20-korean-writing/REASSESSMENT.md)과 [앞선 재지칭 지표 설계](docs/2026-11-20-english-speech/README.md)도 보존한다.
 
 이 저장소의 최상위 `data/`, `config/`, `scripts/`, `analysis/`, `share/`, `archive/`에 그동안의 연구 원문·생성 설명서·조건·코드·판정·결과·보고서가 들어 있습니다. [중간 회의 PDF](share/meeting-20261108/중간회의_연구보고서.pdf) · [원자료 228개](data/team-corpus-20261104/utterances.csv) · [연구 이력](archive/README.md)
 
