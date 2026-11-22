@@ -1,0 +1,77 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 자연스럽지만, P02에서 환자가 아닌 설정 설명자의 말투로 전환되는 뚜렷한 역할 이탈이 있어 대화의 현실감을 훼손한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자가 진술한 사실과 주관적 경험은 프로필에 부합하며 무근거 구체화는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02도 표현 방식과 별개로 동거인을 답하며, 나머지 응답도 직전 질문을 직접 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P01의 당사자 발화에서 P02의 외부 설정 설명으로 바뀌어 환자 역할의 연속성이 명확히 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 자신의 생활을 말하는 대신 환자 설정을 제삼자 시점에서 대행 설명하는 명백한 메타 발화다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

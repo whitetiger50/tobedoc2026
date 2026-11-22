@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I920b589cb735f164f21f2e5d",
+  "ended": "2026-11-21T03:49:01.694819+00:00",
+  "session": "5af7f791-4446-4f38-8370-4106993a11bb",
+  "packet_sha256": "ec2c274683aeba147e3cfa583b5c3ca2eee29919e543431b96b3be6603ba4106",
+  "raw_sha256": "1630d657a322eebd21286964831995e01fa8f46965fbffe44d6362561cf4ab18",
+  "provider_sha256": "73b2425919f1904e15f4f740c97e30f396c5190f84c72ea55876d1184dfc2e15",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are coherent, in order, and match the persona's stable, manageable routine. The opening line shows the dry humor described in the profile. After that, most answers read like the profile facts restated in near-identical wording, which feels stilted and scripted. The persona is described as conversational and comfortable adding relevant details, but later answers add almost nothing and show no further humor. The patient also answers repeated questions about the alarm and the late shift flatly, with no natural reaction to being asked again. One answer is wrapped in stray quotation marks, an artificial artifact. Overall the dialogue is plausible but only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to find out there’s no sound before there’s an audience."
+    },
+    {
+      "turn": 3,
+      "quote": "“I’m still using the phone alarm at 7:10 in the morning. I took the note off the door last month.”"
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    },
+    {
+      "turn": 9,
+      "quote": "A coworker drops me off after a late shift."
+    }
+  ]
+}

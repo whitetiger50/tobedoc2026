@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What has occupied most of your attention this past week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-2945-7850-aa69-91353f9cf497",
+  "raw": "Mostly getting the reading done for my geography class. I like the course, but I want to stop leaving the reading until the trip there. I used a slip of paper under the line last week, and that helped me finish a short passage.\n\nAnd I straightened a bent mudguard on my sibling’s bike last weekend. I get quite absorbed in that—if I lose track, I can look at the wheel and see where I was. With reading, it’s harder to find my way back.",
+  "raw_sha256": "f2e20d5db7c500d5b79e84733817d7e54d5c3f09cf8b566b895c2a0dbab99c0f",
+  "request_sha256": "85dcb71a4dc7aff34ee924ff1ed84bfe7748c71fddfdb41867d75f5231e2e184",
+  "started_utc": "2026-11-20T20:57:39.820798+00:00",
+  "completed_utc": "2026-11-20T20:57:46.079787+00:00",
+  "usage": {
+    "input_tokens": 6027,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "56f428bfe9fdadc5f113e276647f2f24862e192c460c3b4b5ac153e8cbd46f30",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2de2bbab7c91d3ab3446e1d7888e02de76e11e9b5fb3b5dec617ab30897025a6"
+}

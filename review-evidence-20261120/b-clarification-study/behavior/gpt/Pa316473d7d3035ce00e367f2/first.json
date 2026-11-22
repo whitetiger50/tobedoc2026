@@ -1,0 +1,81 @@
+{
+  "id": "Pa316473d7d3035ce00e367f2",
+  "reader": "gpt",
+  "session": "01a1fc43-42e0-7880-a7f4-0ef6075a1d95",
+  "attempt": "attempt-01",
+  "packet_sha256": "ad709feccef32000c35fc69a1a0687f89015de39a39215fef338057dde80ba34",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "990386ac17bb3ab9d8345a293d62f6ce2009cb612ff85246bfef24225429b447",
+  "raw_sha256": "8a324553466bc07ad148d32e44fd726d5a36164cae93d4a26e387cce7aaab814",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you take food with you for your shift?",
+        "reason": "This is a clear habitual question about bringing food to work, without requiring a choice between early and late shifts.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan routinely brings food to work.",
+            "answer": "Morgan packs a sandwich for every shift, early or late."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement",
+        "reason": "The singular replacement could refer to either the badge or the key, but neither cost anything.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron paid for the replacement ID badge.",
+            "answer": "The replacement ID badge was free."
+          },
+          {
+            "meaning": "Whether Cameron paid for the replacement locker key.",
+            "answer": "The replacement locker key was free."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "a deadline to reply to the letter",
+        "reason": "Both letters are explicitly foregrounded without selecting one, and their reply requirements differ even though Alex could explain both directly.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter has a reply deadline.",
+            "answer": "The housing office requires a reply by Friday."
+          },
+          {
+            "meaning": "Whether the employer's letter has a reply deadline.",
+            "answer": "The employer's letter is informational and requires no reply."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you hear it",
+        "reason": "The immediately preceding exchange specifically establishes the high ringing as the topic, making it the clear referent of 'it'.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high-pitched ringing occurs in one ear or both.",
+            "answer": "The high-pitched ringing occurs in both ears."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:00:47.820531+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I98a929dea3e4fe9682f51da2",
+  "ended": "2026-11-21T03:49:57.725943+00:00",
+  "session": "3f8c6071-d005-43d4-9c45-cd0e75b357e0",
+  "packet_sha256": "b189f549ed9656390e3f15091b6d42eaf804489a0611f183cc4680bbbda63009",
+  "raw_sha256": "9bfa25597fd1b12da26a793f21511867adc209db64a991fda20c47f1ea784281",
+  "provider_sha256": "3a98e3c568fed1694098a6c7d73ec8c951a5b2852601f72a56ca4ddbd050cfaf",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. The answers are warm, matter-of-fact, coherent and open, as expected for 'thoughts are well connected' and 'generally open'. The patient briefly admits embarrassment about the missed tablet, which matches the profile's guardedness note. A few minor issues reduce realism. The crossword detail is repeated almost word for word across turns 2–4, including in turn 3 where it wasn't asked for, which feels scripted. Several answers echo the profile's wording closely ('a nuisance', 'less bothersome', 'just for pleasure'). Answers are also fairly terse for someone described as readily chatting about everyday activities. These issues don't seriously undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 8,
+      "quote": "A bit embarrassing, but I haven’t missed any since starting it two weeks ago."
+    },
+    {
+      "turn": 3,
+      "quote": "About three hours. We usually do a crossword together."
+    },
+    {
+      "turn": 4,
+      "quote": "It’s nice to sit and chat while we puzzle over the clues."
+    },
+    {
+      "turn": 6,
+      "quote": "On the old dose it was a nuisance, so that’s been a welcome change."
+    }
+  ]
+}

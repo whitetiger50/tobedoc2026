@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T1",
+  "turn": 11,
+  "question": "Has the way you experience a bus ride changed over the last couple of years?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-952a-7213-9d4c-ed316db1bd0d",
+  "raw": "Yes. Two years ago it seemed people were talking about me. I haven’t had that feeling on recent trips.",
+  "raw_sha256": "95fc3551d341fb30cdf7c64c09faa492f463d69840e18a91ea0a29dc60053b87",
+  "request_sha256": "a56f97c41fe50909a9973cc58e77df86050fafaf94b2e2b2dd5a985afeafa02e",
+  "started_utc": "2026-11-20T21:03:35.115457+00:00",
+  "completed_utc": "2026-11-20T21:03:38.612667+00:00",
+  "usage": {
+    "input_tokens": 7476,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e87f2bf7ef764bc87177399db5e571d4d2d35cc0fbd7270a59553c4c84d86f1b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ecaaca5ed9fbef6bfe5cb33ae5d8078a96b0dd539b1e2e1162f5419aa7c6af91"
+}

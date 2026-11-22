@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "T1",
+  "turn": 5,
+  "question": "How does the setup go?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-fb04-7ee3-b553-b09a8cdf0edf",
+  "raw": "Do you mean setting up the stall before we open, or what I was doing when I heard the voice?",
+  "raw_sha256": "18b32e4463594427688a5f5fa2bf1fad96ab2578035181a403d408f2903b6f28",
+  "request_sha256": "4063843a872788eb8cd0760d28a802ddbaf3549a7538c959cdba20bc9460518f",
+  "started_utc": "2026-11-20T20:39:59.392005+00:00",
+  "completed_utc": "2026-11-20T20:40:03.752010+00:00",
+  "usage": {
+    "input_tokens": 7228,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 29
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7cad127f81afd33b9618b28fb609129ac4dbe4873653d93e43dcbd336410c892",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b61640c7345de74da0a23379908af7650c1c62b8994295b20d79ad0ea517ed1e"
+}

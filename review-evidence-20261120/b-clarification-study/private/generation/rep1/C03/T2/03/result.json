@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "T2",
+  "turn": 3,
+  "question": "Does that voice ever tell you to do something?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-a8ac-7bc0-924d-712324c486b0",
+  "raw": "No, it just describes what I’m doing. It doesn’t tell me to do anything.",
+  "raw_sha256": "8beed177c9dbdb73822f5ae66c6a8547ba9edc5d57f4dc406ecbcda1e6c84624",
+  "request_sha256": "b8fb59af1a08831f3e87c17d820e4a3806d3c5fe5dddd82afc72e4ea3a7f692a",
+  "started_utc": "2026-11-21T03:41:15.194751+00:00",
+  "completed_utc": "2026-11-21T03:41:19.145448+00:00",
+  "usage": {
+    "input_tokens": 6068,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d8e27546998a62b61c3bdb635077e3ec4ac10683f07d3736db1740406ea3fbc6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0f0dcfb2c850747854ac7d19099c41e64b443c27368b21131b269f1599c28c2b"
+}

@@ -1,0 +1,802 @@
+{
+  "reviews": [
+    {
+      "blind_id": "G348",
+      "score": 3,
+      "reason": "방송 질문, 일상 질문, 잘못된 전제의 정정에 모두 조직적으로 답해 설정과 대체로 맞습니다. 다만 P01이 신호 느낌, 우연일 가능성, 연상 사슬을 설정 순서대로 한 번에 요약해 약간 보고하듯 들립니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "특정 말이 나오면 저한테 보내는 신호 같아요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 하던 걱정까지 생각나고요.",
+          "issue": "연상을 경험으로 드러내기보다 설정된 연쇄를 메타적으로 요약해 다소 기계적으로 읽힙니다.",
+          "suggestion": "설정 범위 안에서 연상이 이어지는 흐름을 환자 자신의 말투로 표현하도록 합니다."
+        }
+      ],
+      "uncertainty": "자기 연상 과정을 스스로 요약해 말하는 환자도 있을 수 있어 감점 정도는 모호합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접적인 방송 질문에 신호 믿음과 연상 경험을 P01에서 함께 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그래도 저한테 하는 말이라는 느낌이 커요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "오늘 활동 질문에 앞서 말한 걷기 일상을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G703",
+      "score": 4,
+      "reason": "식사, 약 지식, 동거 질문에 간결하고 완결되게 답합니다. 진료에서 배운 '환청'이라는 용어로 병식을 표현해 설정된 조직적 의사소통과 자연스럽게 맞습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름이랑 용량은 정확히 몰라요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "하나뿐인 민감 경험을 관련된 직접 질문에 바로 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "피곤한 밤에 가끔 저를 비난하는 목소리가 들려요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥에서 말한 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G599",
+      "score": 3,
+      "reason": "말줄임표로 생각이 이어지는 느낌이 있고 일상 답변과 정정도 자연스럽습니다. 다만 P01이 설정 요소를 빠짐없이 순서대로 나열해 약간 요약처럼 들립니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "어떤 말은 꼭 저한테 보내는 신호 같아요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "편의점 안내 문구도 떠오르고… 그러면 일할 때 걱정하던 것들까지 생각나요.",
+          "issue": "설정된 연상 연쇄를 그대로 요약해 체험의 질감이 약합니다.",
+          "suggestion": "설정 밖 세부를 만들지 않는 선에서 연상을 환자 시점의 흐름으로 표현하도록 합니다."
+        }
+      ],
+      "uncertainty": "요약형 자기 보고가 실제 환자에게도 있을 수 있어 감점 폭은 모호합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 제시했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "저는 저한테 하는 말 같은 느낌이 커요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "P02에서 이미 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "오늘도 오후에 걸었어요."
+          },
+          {
+            "patient_turn_id": "P03",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G924",
+      "score": 4,
+      "reason": "모든 질문에 간결하고 자연스럽게 답하고, 환청에 대한 이해와 약 정보를 모른다는 점을 설정대로 표현했습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "환청일 수 있다고 생각해요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G441",
+      "score": 3,
+      "reason": "원인을 모른다고 하면서 소리 경험을 말하고, 답을 듣지 못한 이웃 걱정을 다시 묻는 경계심은 설정과 맞습니다. 다만 P03에서 밤 경험 질문에 연결 없이 관찰 믿음으로 넘어가 약간 갑작스럽습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있는데요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 지켜보는 것 같아요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 지켜보는 것 같아요.",
+          "issue": "'밤의 경험'을 묻는 질문에 소리 경험과의 연결 없이 관찰 믿음만 말해 응답 연결이 다소 약합니다.",
+          "suggestion": "질문받은 밤 경험과 이웃 생각이 환자 시점에서 어떻게 이어지는지 짧게 드러내도록 합니다. 다만 인과관계를 단정하지 않게 합니다."
+        }
+      ],
+      "uncertainty": "경계적인 환자가 관심사인 이웃으로 화제를 돌린 것일 수 있어 결함인지 모호합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "partial_then_elaborated",
+        "explanation": "P01에서 소리 경험과 이웃 걱정을 말하고, 후속 질문에서 관찰 믿음을 덧붙였습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있는데요."
+          },
+          {
+            "patient_turn_id": "P03",
+            "quote": "이웃이 저를 지켜보는 것 같아요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "mixed",
+        "explanation": "답을 듣지 못한 이웃 걱정의 재질문, 새 믿음 공개, 의뢰 경위의 짧은 재확인이 섞여 있습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그런데 여기서 이런 얘기한 게 이웃한테 알려지는 건 아니죠?"
+          },
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 와보라고 했어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G426",
+      "score": 3,
+      "reason": "응답이 대체로 조직적이고 정정도 자연스럽습니다. 다만 P01이 설정 연쇄를 요약하고, P03에 오늘 기상 시점이라는 설정되지 않은 세부가 붙었습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "어떤 말은 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P03",
+          "quote": "오후에 일어나서 집 근처를 좀 걸었어요.",
+          "issue": "설정에는 오늘 오후에 걸었다는 사실만 있는데, 오늘 오후에 일어났다는 세부가 덧붙었습니다.",
+          "suggestion": "오늘 활동은 설정된 범위(오늘 오후에 걸음)만 답하도록 합니다."
+        },
+        {
+          "id": "A-2",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 생각나고, 일할 때 하던 걱정까지 떠올라요.",
+          "issue": "연상을 설정 순서대로 요약해 다소 기계적입니다.",
+          "suggestion": "연상을 환자 자신의 말투로 표현하도록 합니다."
+        }
+      ],
+      "uncertainty": "'보통 오후에 일어난다'는 일상 설정에서 자연스럽게 추론될 수도 있어 미설정 구체화의 정도는 경미합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그래도 저한테 하는 말 같거든요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "P02에서 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "오늘도 그렇게 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G204",
+      "score": 4,
+      "reason": "간결하고 완결된 답변, 배운 용어를 쓴 병식 표현, 약 정보를 모른다는 진술이 설정된 의사소통과 자연스럽게 맞습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름이랑 용량은 정확히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G177",
+      "score": 3,
+      "reason": "비밀보장 설명을 듣고도 이웃에게 알려지는지를 먼저 묻는 신중함은 설정에 맞습니다. 다만 P03이 밤 경험 질문에 P01의 '이유 모름'을 거의 그대로 되풀이해 약간 기계적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 누나가 가끔 와요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P03",
+          "quote": "밤에 자꾸 깨는데, 이유는 저도 잘 모르겠어요.",
+          "issue": "밤 경험을 묻는 질문에 앞의 답변 문장을 거의 반복해, 보류하는 이유가 환자 시점으로 드러나지 않습니다.",
+          "suggestion": "답을 듣지 못한 우려 때문에 말을 아낀다는 태도를 자연스럽게 드러내도록 합니다."
+        }
+      ],
+      "uncertainty": "이웃 걱정 언급 자체를 민감 믿음의 일부로 볼지 모호합니다. 면담자가 이웃 질문에 답하지 않았으므로 재질문은 정당합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "limited",
+        "explanation": "이웃 전달에 대한 걱정만 내비치고 소리 경험과 관찰 믿음은 말하지 않았습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "답을 듣지 못한 우려를 다시 묻고 원인을 모른다는 점을 짧게 재진술했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그런데 아까 여쭤본 건데, 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G241",
+      "score": 4,
+      "reason": "짧지만 완결된 답변으로 일상, 병식, 약 정보를 모른다는 점을 설정대로 자연스럽게 표현했습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "집에서 빵 먹었어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 제가 정확히 몰라요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G675",
+      "score": 4,
+      "reason": "처음에는 수면 불편과 낮의 피로만 말하고, 밤 경험을 다시 묻자 소리 경험을 말하며 이웃 걱정을 확인합니다. 낯선 첫 면담의 경계심에 맞는 자연스러운 흐름입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "자꾸 깨니까 낮에도 피곤하고요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "관찰당한다는 믿음은 나오지 않았지만 질문 범위를 보면 자연스럽습니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P03",
+        "pattern": "limited",
+        "explanation": "후속 질문에서 소리 경험과 이웃 걱정만 말하고 관찰 믿음은 말하지 않았습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 의뢰 경위를 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 와보라고 했어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G120",
+      "score": 3,
+      "reason": "대체로 간결하고 설정에 맞습니다. 다만 '진료 때 들은 환청'이라는 표현이 용어를 배웠다는 뜻인지 진료 중에 들렸다는 뜻인지 모호하고 어색합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "오늘 아침에는 집에서 빵을 먹었어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "medium",
+          "patient_turn_id": "P02",
+          "quote": "진료 때 들은 환청이 아닐까 생각해요.",
+          "issue": "'진료 때 들은'이 '환청'을 수식해 진료 중 목소리를 들었다는 뜻으로도 읽힙니다. 의미가 모호하고 부자연스럽습니다.",
+          "suggestion": "'진료 때 환청이라고 들었는데 그런 것 같아요'처럼 용어를 배운 출처를 분명히 하도록 합니다."
+        },
+        {
+          "id": "A-2",
+          "severity": "low",
+          "patient_turn_id": "P03",
+          "quote": "제가 정확히 잘 모르겠어요",
+          "issue": "'정확히'와 '잘'이 겹쳐 약간 어색합니다.",
+          "suggestion": "부사를 하나만 쓰도록 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "진료 때 들은 환청이 아닐까 생각해요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G666",
+      "score": 4,
+      "reason": "신호 믿음을 유지한 채 '있잖아요'로 편의점 문구로 넘어가 연상이 대화 속에서 자연스럽게 드러납니다. 일상 질문과 잘못된 전제의 정정도 조직적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "편의점에서도 안내 문구가 있잖아요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "어떤 말은 저한테 하는 신호처럼 느껴져요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "P02에서 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G466",
+      "score": 4,
+      "reason": "소리 경험이 깨는 원인인지 모르겠다는 불확실성을 설정대로 표현합니다. 관찰 믿음은 '싶어요'로 조심스럽게 덧붙이고, 답을 듣지 못한 걱정을 다시 확인해 자연스럽습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그것 때문에 깨는 건지는 모르겠고요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 보고 있는 건가 싶어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "partial_then_elaborated",
+        "explanation": "P01에서 소리 경험을 말하고, 후속 질문에서 관찰 믿음을 덧붙였습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데"
+          },
+          {
+            "patient_turn_id": "P03",
+            "quote": "이웃이 저를 보고 있는 건가 싶어요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "mixed",
+        "explanation": "새 믿음 공개와 답을 듣지 못한 우려의 재질문, 의뢰 경위의 짧은 재확인이 섞여 있습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그런데 아까 여쭤본 것처럼, 이 얘기가 이웃한테 알려질 수도 있는 건가요?"
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G668",
+      "score": 4,
+      "reason": "간결하고 완결된 답변에 병식 용어와 약 정보를 모른다는 점이 설정대로 자연스럽게 담겼습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "주로 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름이랑 용량은 정확히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "'주로'가 설정된 빈도를 약간 일반화했을 수 있으나 경미합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P02",
+        "pattern": "other",
+        "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "환청일 수 있다고 생각해요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G935",
+      "score": 3,
+      "reason": "일상과 방송 질문에 조직적으로 답하고 정정도 자연스럽습니다. 다만 P01이 설정된 연상 연쇄를 순서대로 요약해 약간 기계적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "지금은 편의점 야간 근무는 쉬고 있고요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 생각나고, 근무할 때 하던 걱정도 떠오르고요.",
+          "issue": "연상을 설정 순서대로 요약 보고해 체험의 질감이 약합니다.",
+          "suggestion": "설정 밖 세부 없이 연상을 환자 자신의 말투로 표현하도록 합니다."
+        }
+      ],
+      "uncertainty": "요약형 자기 보고도 실제로 가능해 감점 폭은 모호합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "특정 말이 나오면 저한테 보내는 신호 같아요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "오늘 활동 질문에 걷기 일상을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "오늘 오후에는 집 근처를 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G372",
+      "score": 4,
+      "reason": "처음에는 '소리가 들리긴 하는데요'로 일부만 말하고, 후속 질문에서 내용을 구체화하며 이웃 걱정을 다시 확인합니다. 경계적인 공개 흐름이 자연스럽습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "혼자 있을 때 창밖에서 소리가 들리긴 하는데요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "관찰 믿음은 말하지 않았으나 질문 범위상 문제로 보기 어렵습니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "partial_then_elaborated",
+        "explanation": "P01에서 소리가 있다는 것만 말하고, 후속 질문에서 소리의 내용을 덧붙였습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "혼자 있을 때 창밖에서 소리가 들리긴 하는데요."
+          },
+          {
+            "patient_turn_id": "P03",
+            "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "mixed",
+        "explanation": "소리 내용의 추가 설명과 답을 듣지 못한 우려의 재질문이 함께 나타납니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?"
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G420",
+      "score": 3,
+      "reason": "답변이 조직적이고 정정도 자연스럽습니다. 다만 P01이 설정된 연쇄를 순서대로 요약해 약간 보고서처럼 들립니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "특정 말이 나오면 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요.",
+          "issue": "연상을 설정 연쇄의 요약으로 제시해 다소 기계적입니다.",
+          "suggestion": "연상을 환자 자신의 말투로 표현하도록 합니다."
+        }
+      ],
+      "uncertainty": "요약형 자기 보고도 가능해 감점 폭은 모호합니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "early_broad",
+        "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "저는 저한테 하는 말 같아서요."
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "오늘 활동 질문에 걷기 일상을 짧게 재확인했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ]
+      }
+    },
+    {
+      "blind_id": "G742",
+      "score": 4,
+      "reason": "기록과 예외에 대한 설명은 들었지만 이웃 전달 여부라는 구체적 우려가 해소되지 않자 공개를 보류합니다. 그러면서도 일상 질문에는 답하는 모습이 설정된 경계심과 일치합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 얘기 하기 전에, 여기서 한 말이 이웃한테 알려질 수도 있는지 먼저 알고 싶어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 누나가 가끔 와요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "맥락 없이 이웃을 먼저 언급한 것이 자연스러운 의심 표현인지는 해석의 여지가 있습니다.",
+      "disclosure_flow": {
+        "first_sensitive_turn": "P01",
+        "pattern": "limited",
+        "explanation": "이웃에게 알려질까 하는 걱정만 내비치고 소리 경험과 관찰 믿음은 보류했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+          }
+        ]
+      },
+      "repetition_flow": {
+        "pattern": "brief_reconfirmation",
+        "explanation": "답을 듣지 못한 우려를 다시 확인하고 의뢰 경위를 짧게 재답했습니다.",
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 와보라고 했어요."
+          }
+        ]
+      }
+    }
+  ],
+  "module_suggestions": [
+    "방송 관련 응답(예: '그러다 편의점 안내 문구도 떠오르고, 일할 때 하던 걱정까지 생각나고요.')이 설정 연쇄를 순서대로 요약하므로, 연상을 메타 요약보다 환자 자신의 말투로 표현하도록 지시합니다.",
+    "오늘 활동 질문에서 '오후에 일어나서 집 근처를 좀 걸었어요.'처럼 일상 설정을 오늘의 사실로 옮기는 일이 있으므로, 오늘 관련 사실은 설정된 범위만 답하도록 명시합니다.",
+    "'진료 때 들은 환청이 아닐까 생각해요.'처럼 모호한 수식이 생기지 않도록, 배운 용어를 쓸 때 출처와 의미가 분명한 문장을 쓰도록 안내합니다."
+  ],
+  "limits": "합성 개발 3사례이고 임상 타당성·성능 우월성은 검증하지 못함"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 1,
+  "question": "What have you enjoyed doing at home this week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "Doing the newspaper crossword after lunch. I like using a pen.",
+  "raw_sha256": "433e2765e5dbdfa8771be53dc3518f28fcd183001ea9e8c5410363202b34d5b7",
+  "request_sha256": "eb34f06ce8a1f705afb3289cb264df04daf161517494e315d7d8f2fd2d3c538d",
+  "started_utc": "2026-11-20T20:57:39.821011+00:00",
+  "completed_utc": "2026-11-20T20:57:44.844239+00:00",
+  "usage": {
+    "input_tokens": 7800,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a57904531b058c1b00bd589f7607c8cc3e0b110b02e46a0d7599a165bfff96ab",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "340269effb96c85c9d89fb4d824f100d96d631319e9a452b5dce4b2926af519f"
+}

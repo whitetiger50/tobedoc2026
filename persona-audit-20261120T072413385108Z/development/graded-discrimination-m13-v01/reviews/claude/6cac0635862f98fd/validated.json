@@ -1,0 +1,91 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 턴은 조심스럽고 간결한 환자 말투이며 프로필과도 잘 맞는다. 다만 P02에서 환자가 자기 설정을 3인칭 서술문으로 읽어 역할이 뚜렷하게 깨져, 대화 전체의 진정성이 눈에 띄게 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "대부분 프로필 사실과 일치하지만, P02의 '둘이'는 프로필에 없는 '딸과 단둘이 산다'는 배타적 구성을 확정할 소지가 있는 경미한 이탈이다. 다만 자연스러운 바꿔 말하기로 볼 여지도 있어 불확실하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 딸과 둘이 함께 사는 것으로",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 턴이 직전 질문의 대상에 직접 답한다. P02도 형식은 부적절하지만 동거인 질문의 내용에는 답하고 있다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "1인칭으로 말하던 환자가 P02에서 '이 환자는 … 설정되어 있다'는 3인칭 설정 서술로 전환해 역할과 문맥이 파괴된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 환자 시점의 말이 아니라 설정 항목을 보고서식으로 대행한 역할 설명이다. 나머지 턴은 자연스러운 일상 구어체다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

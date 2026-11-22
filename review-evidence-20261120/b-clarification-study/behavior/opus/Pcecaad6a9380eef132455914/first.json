@@ -1,0 +1,81 @@
+{
+  "id": "Pcecaad6a9380eef132455914",
+  "reader": "opus",
+  "session": "6f3f98a5-b83b-4759-a104-6d95080f71c7",
+  "attempt": "attempt-01",
+  "packet_sha256": "0cd2b2db7bb3b7ecf56c64b8ffdafbdec2e9f23f26924fc6cfc49f3eaf9e4c85",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "fab3a0fe3570d139e1e4e4aae110a277500a6b4964825756e7f895c6469babad",
+  "raw_sha256": "60e84214b42df346623f7286f1888600d99382ccd08efd1848beb70ee36f51e8",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The immediately preceding exchange confirmed that Morgan still uses the phone alarm for the pass and that the note was removed, so 'it' clearly refers to the phone alarm.",
+        "alternatives": [
+          {
+            "meaning": "The time the phone alarm for remembering the staff pass is set to go off.",
+            "answer": "Morgan sets it for 7:10 in the morning."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "The question names both the housing letter and the employer's letter, so 'it' could mean either one, but both arrived by post and the reply is the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing office's letter arrived by post.",
+            "answer": "Yes, the housing letter came by post."
+          },
+          {
+            "meaning": "Whether the employer's letter arrived by post.",
+            "answer": "Yes, the letter from work also came by post."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The immediately preceding question narrowed the topic to Thursday's outage, so 'that day' clearly means Thursday, when Sam was listening to the music request show.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to on Thursday when the radio lost reception.",
+            "answer": "Sam was listening to the music request show."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "The question reintroduces both the book group and Mom's place, so 'there' could mean either destination, but Ren walks to both and the reply would be the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the book group.",
+            "answer": "Yes, Ren walks to the book group."
+          },
+          {
+            "meaning": "Whether Ren usually walks to Mom's apartment.",
+            "answer": "Yes, Ren walks to Mom's apartment."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:57.440856+00:00"
+}

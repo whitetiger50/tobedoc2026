@@ -1,0 +1,89 @@
+{
+  "id": "P1bdba5b0d7fa24be9279ab7d",
+  "reader": "gpt",
+  "session": "01a1fc43-e8b7-7041-9de5-ac33c373ada7",
+  "attempt": "attempt-01",
+  "packet_sha256": "6ced5263d12513477685c8dcf02277cb90853f5908abb61cd4edc85d0bf418f7",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b40748b030535ad96bd8bbf1b4620e88e19c2356332a9be134130a381efb4f44",
+  "raw_sha256": "e2e11c2d9b8e7a20b76f96a62b5f9289aeca7545e0e5e337b990ba38901075ed",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "The question could concern either activity, but both finished by six, so the replies are materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class finished by six.",
+            "answer": "The cooking class finished by six."
+          },
+          {
+            "meaning": "Whether the swimming lesson finished by six.",
+            "answer": "The swimming lesson finished by six."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "Both devices remain plausible referents for 'it', and they run for different durations.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "The fan runs all night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "The speaker stops on a twenty-minute timer."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Are you still using the reminder?",
+        "reason": "Neither of the two reminders is singled out, and Morgan still uses one but has removed the other.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan still uses the phone alarm.",
+            "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+          },
+          {
+            "meaning": "Whether Morgan still uses the note on the door.",
+            "answer": "Morgan took the note down last month."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "The question explicitly introduces both transport options without selecting one, and a conditional answer could cover their different boarding stops without eliminating the ambiguity.",
+        "alternatives": [
+          {
+            "meaning": "Where Alex boards the number 8 bus.",
+            "answer": "Alex boards the number 8 bus at Orchard Road."
+          },
+          {
+            "meaning": "Where Alex boards the tram.",
+            "answer": "Alex boards the tram at Bell Square."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:01:30.000250+00:00"
+}

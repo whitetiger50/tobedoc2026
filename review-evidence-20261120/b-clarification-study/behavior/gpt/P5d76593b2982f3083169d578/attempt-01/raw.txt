@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Do you usually walk there?",
+    "reason": "Both destinations are live referents for “there,” but Ren walks to either destination.",
+    "alternatives": [
+      {
+        "meaning": "Walking to the book group.",
+        "answer": "Ren usually walks to the book group."
+      },
+      {
+        "meaning": "Walking to Mom’s apartment.",
+        "answer": "Ren usually walks to Mom’s apartment."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "how do you get home after your shift?",
+    "reason": "The explicit reference to early and late shifts supports a general question about the transport routine across both, rather than requiring selection of one shift type.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home depending on the type of shift.",
+        "answer": "Morgan takes the bus after early shifts and gets a lift from a coworker after late shifts."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "a deadline to reply to the letter",
+    "reason": "Both letters are explicitly foregrounded, and their different reply requirements do not establish which singular letter the interviewer means.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing letter has a reply deadline.",
+        "answer": "The housing office requires a reply by Friday."
+      },
+      {
+        "meaning": "Whether the employer’s letter has a reply deadline.",
+        "answer": "The employer’s letter is informational and requires no reply."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Did you hand the old one back?",
+    "reason": "“The old one” could refer to either replaced item, and Cameron returned the badge but not the key.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron returned the old ID badge.",
+        "answer": "The cracked badge was handed back."
+      },
+      {
+        "meaning": "Whether Cameron returned the old locker key.",
+        "answer": "The key was lost and could not be handed back."
+      }
+    ]
+  }
+}

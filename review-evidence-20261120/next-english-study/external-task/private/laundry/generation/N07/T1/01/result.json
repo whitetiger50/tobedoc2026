@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-e232-7650-849b-94de9302caa4",
+  "raw": "“First you gather the dirty clothes and sort them—light things from dark things, and anything that needs a special wash. Check the labels and empty the pockets. Then put a load in the machine, not packed too tightly, add detergent, and choose the setting.\n\n“Once it’s finished, take everything out and hang it up or use a dryer, depending on the fabric. The labels matter there too—something can wash all right but shrink in the dryer. Then, when it’s dry, fold it or put it on hangers and put it away.”",
+  "raw_sha256": "67881043ed2a6e0ec885ebd4651fc2516399dccff2e8ac3ce52b6d58d4e409d9",
+  "request_sha256": "79eddf17409b00e42be90ade32a7141b3aa02df6b260ff4a1e551f10ea111525",
+  "started_utc": "2026-11-20T21:24:39.998302+00:00",
+  "completed_utc": "2026-11-20T21:24:47.955132+00:00",
+  "usage": {
+    "input_tokens": 7021,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 150,
+    "reasoning_output_tokens": 30
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c828759b1b4df6d0d64f8dfd4bc9a9803fe335320cf07107d898ce3c7660338f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c8b5193d412f9f137be27b3e15dbc6234e2ff0d1d081b6ef01d02161b9594fac"
+}

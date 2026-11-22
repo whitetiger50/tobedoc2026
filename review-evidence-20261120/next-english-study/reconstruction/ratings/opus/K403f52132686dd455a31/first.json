@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T23:00:27.332399+00:00",
+  "attempt": "attempt-01",
+  "id": "K403f52132686dd455a31",
+  "reader": "opus",
+  "session": "63a94f2a-4aff-478d-aad8-f4557fcc1e6d",
+  "packet_sha256": "99430465c3c92ff22ff1e775f9518643a77a03d847bc8598f42978d68af0dd74",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "7bb323fccefef5c1a8e6ded7d75c3ebfaaf9a51a992f520b09919011cbab228f",
+  "raw_sha256": "756a5ee7f43d5b17258c17d0ad0e4550b805f375b066cc17a88157ba1f690851",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says they waited at the same shelter on Wednesday and 'felt fine, unlike Monday'. This contrasts Wednesday with Monday, when they felt singled out and looked at, so the patient's own words indicate the sense of being watched was absent on Wednesday.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "I waited there on Wednesday and felt fine",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "On Wednesday I waited at the same shelter and felt fine, unlike Monday.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says several times that they are still unsure whether the people recognized them or were just looking for the bus, and never says they are fairly sure.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus. I’m still not sure.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "I’m still not sure whether they recognized me or were just looking for the bus.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "I still don’t know.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

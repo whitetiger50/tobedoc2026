@@ -1,0 +1,109 @@
+{
+  "id": "Vd6930f186fbe9a23de57f0a6",
+  "reader": "opus",
+  "session": "f646ecde-ed8b-41a8-b4e4-6fbf516f8def",
+  "attempt": "attempt-01",
+  "packet_sha256": "a5a4304aa302b565c7a849966b9e7f15ec63467b23e91db71813b2eef19caece",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "fcddbc0140b12b61c78a82a66f07a6f50e8a9e985cc994cb5dd742f7ecd9e60c",
+  "provider_sha256": "0a82f6f79026fcadbdd5ddd4b6ce19a1d68c4cf6581cba14e76f2763f2c7b86c",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "My sister came to the optician. I went to the care coordinator alone.",
+        "reason": "The reply answers both appointments directly: the sister accompanied the patient to the optician, and the patient attended the care coordinator alone.",
+        "A": {
+          "state": "supported",
+          "quote": "My sister came to the optician."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I went to the care coordinator alone."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The housing one needs a reply by Friday. The one from work doesn’t need a reply—it’s just for information.",
+        "reason": "The reply gives the Friday deadline for the housing letter and says the work letter needs no reply.",
+        "A": {
+          "state": "supported",
+          "quote": "The housing one needs a reply by Friday."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The one from work doesn’t need a reply"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean Inez or Pat?",
+        "reason": "The reply only asks which person was meant and gives no information about either branch.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I called my brother back, but not Mr. Bell yet.",
+        "reason": "After asking for clarification, the reply also states that the brother was called back and Mr. Bell has not been called back yet.",
+        "A": {
+          "state": "supported",
+          "quote": "I called my brother back"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "but not Mr. Bell yet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:56.354249+00:00"
+}

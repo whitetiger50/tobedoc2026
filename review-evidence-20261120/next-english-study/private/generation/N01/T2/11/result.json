@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T2",
+  "turn": 11,
+  "question": "Going back to your mornings, how do you usually feel when you first get up?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-952b-7750-8196-b8e68322e9be",
+  "raw": "“Ready to leap out of bed” would be overstating it. Some mornings it’s hard to get up with the alarm, but once I’m up and into the routine, I’m usually all right.",
+  "raw_sha256": "2068cfb8e79b04c2e7dc7c694ca55e633a8987d53da7bc846c6870d86061f2cb",
+  "request_sha256": "af231d4f4786ae969ce365130e7fad560da68bffcc79d584c42ef3a51562d30a",
+  "started_utc": "2026-11-20T21:03:35.115022+00:00",
+  "completed_utc": "2026-11-20T21:03:39.725292+00:00",
+  "usage": {
+    "input_tokens": 6745,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5151dc7cbb5c73e1f8446745faa9705d876505c15536e36afcfcd0578ced244b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "04963dd70f0b9b7d2087205961099a635ee9d501c590536fc7fcb1c15974b6d1"
+}

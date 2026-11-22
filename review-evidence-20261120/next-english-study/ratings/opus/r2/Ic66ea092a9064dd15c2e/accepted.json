@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ic66ea092a9064dd15c2e",
+  "ended": "2026-11-20T21:06:21.035410+00:00",
+  "session": "2b0b8082-4dfd-4d6c-8444-c6ef54c17f53",
+  "packet_sha256": "ea19aeebdb89c02cc596d91a39148c8e329432692ed3bc8d295802a944ed5b57",
+  "raw_sha256": "36aca304bd7a15a49d52d7f91bf1906e6f5e6fe552222bb5c74d193687b76e42",
+  "provider_sha256": "1cb5929222ac53cca2d4abb0b1be16d504f6beb464b6b1f7deb2d1c853b9c686",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication mostly fits a quiet outpatient with reduced verbal output. Answers are brief and on-topic, never start a new subject, and keep ideas distinct. Concrete details appear naturally, such as the pen crossword at the kitchen table and the Tuesday bread errand by the river. Two things reduce realism. First, several answers repeat earlier wording almost word for word instead of acknowledging the repetition: turn 5 repeats turn 4, turn 9 repeats turn 8's 'choosing where to go the night before', and turn 11 repeats turn 7. Second, the replies are uniformly polished and sound like the profile facts read aloud. They show none of the hesitation or deliberation implied by 'takes time to decide what to say', and none of the expected animation about the crossword. These are minor-to-moderate flaws that don't break the overall realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "The newspaper crossword. I like doing it with a pen at the kitchen table after lunch."
+    },
+    {
+      "turn": 3,
+      "quote": "Enjoying it once I’m out. Getting started is the harder part."
+    },
+    {
+      "turn": 5,
+      "quote": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river."
+    },
+    {
+      "turn": 9,
+      "quote": "I think choosing where to go the night before might help."
+    }
+  ]
+}

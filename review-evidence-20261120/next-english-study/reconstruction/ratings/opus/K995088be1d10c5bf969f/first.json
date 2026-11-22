@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-20T23:01:05.937100+00:00",
+  "attempt": "attempt-01",
+  "id": "K995088be1d10c5bf969f",
+  "reader": "opus",
+  "session": "64cc0b0f-73e9-4349-a063-dde2e6cdab20",
+  "packet_sha256": "b88c01c7511712caf0dc0f48bd4cdecb1099ab68375a6610de99626715fd90f3",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "107226da704757691320eab88a88bafbfe5a0548154124e86ba71b85cf47fcfe",
+  "raw_sha256": "b869b782bcbaa804d1f144c444ab88893f13b085d98ea3b514c599f187b8437f",
+  "items": {
+    "item1": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "Turn 12 only asks what time of day would suit a family visit. No question states or presupposes an afternoon preference, energy level, or whether the visit continues through or ends before dinner.",
+      "evidence": []
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "Turn 4 asks how often the patient wakes earlier than wanted. No question states or presupposes waking around dawn or what happens afterward, whether falling back asleep or staying awake.",
+      "evidence": []
+    }
+  }
+}

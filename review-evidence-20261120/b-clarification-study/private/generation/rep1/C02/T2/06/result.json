@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "T2",
+  "turn": 6,
+  "question": "How is your dry mouth on the lower dose?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-9210-75b3-8a5d-a79fdea1bd55",
+  "raw": "It’s less bothersome on the lower dose. It was quite a nuisance before.",
+  "raw_sha256": "15daa64595dc8f4a5c37ca365e368a84d3b142825195f9f3b4c323bb2ae74109",
+  "request_sha256": "7be1066156b104be3cc8fa1d275964813fb3734e1183943f0573b5a1a8e8a2ba",
+  "started_utc": "2026-11-21T03:43:20.492568+00:00",
+  "completed_utc": "2026-11-21T03:43:25.084088+00:00",
+  "usage": {
+    "input_tokens": 6202,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "90d5db9bf32424615001b0d6f02f41661ba53ec3897b276bbfc2515d7e2e5c4d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f9415acb28832f7777345fc39b56de724531edb787d990f9d66a6b72c7d7c0b5"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 8,
+  "question": "Thinking of the early and late shifts on that rota, how do you get home after your shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e2-7b93-81c2-db72fe1a7c09",
+  "raw": "Do you mean after an early shift or a late one?",
+  "raw_sha256": "a1d1640f0c6b668d7f70b359c549f1f7e18b4e78333ce4d3faa24a86569d4a8f",
+  "request_sha256": "4e4f5eac2bcae709645916b73a5fb304eb036fab065421c8b93b334b0c4c75e9",
+  "started_utc": "2026-11-21T03:44:56.943555+00:00",
+  "completed_utc": "2026-11-21T03:45:01.418770+00:00",
+  "usage": {
+    "input_tokens": 63911,
+    "cached_input_tokens": 52864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 253,
+    "reasoning_output_tokens": 88
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "daf0b20ff726efe85c19ef3effe813b9f1863c63cb54e95a3f8407983e8e5649",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e930e4e952299710153e2ab319794a7aebff3c4168d7e25ffccd3b13f8ce76c3"
+}

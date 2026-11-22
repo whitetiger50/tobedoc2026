@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T2",
+  "turn": 8,
+  "question": "What arrangements do you make for appointments and for errands?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-0220-7032-8c5d-39102f0ecdf0",
+  "raw": "I put my next appointment on a paper calendar. For errands, it helps when my cousin asks me to pick something up.",
+  "raw_sha256": "a2afd3f0518e0849bcbb1c90cf27c5af5b3fb283e343bb5b2948922c308cb722",
+  "request_sha256": "5bdc35fa4e91003175360b28f6903f264968f9d39dc5292f4fd8b34a0a476e91",
+  "started_utc": "2026-11-20T21:01:51.935676+00:00",
+  "completed_utc": "2026-11-20T21:01:56.950872+00:00",
+  "usage": {
+    "input_tokens": 6331,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9fbecfb916e60f8a127e9b00bec634d05013a0495d1bf2f279416f0b1a11cc7a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c2df3a47d4625efc58ed78e9b24a3e58edae7dd97c69c05763db5530089b6c8e"
+}

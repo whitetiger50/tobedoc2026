@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "Both medicines are explicitly mentioned, and their different storage locations make the unresolved reference consequential.",
+    "alternatives": [
+      {
+        "meaning": "The medicine refers to the eye drops.",
+        "answer": "The drops are kept on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "The medicine refers to the daily tablets.",
+        "answer": "The tablets are kept in the kitchen cabinet."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Do you usually walk there?",
+    "reason": "There can refer to either destination, but Ren walks to both, so the replies are materially equivalent.",
+    "alternatives": [
+      {
+        "meaning": "There refers to the book group.",
+        "answer": "Ren walks to the book group."
+      },
+      {
+        "meaning": "There refers to Mom’s apartment.",
+        "answer": "Ren walks to Mom’s apartment."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement",
+    "reason": "The replacement can refer to either listed item, but neither replacement cost anything.",
+    "alternatives": [
+      {
+        "meaning": "The replacement refers to the ID badge.",
+        "answer": "The replacement ID badge was free."
+      },
+      {
+        "meaning": "The replacement refers to the locker key.",
+        "answer": "The replacement locker key was free."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "Both reminders remain possible referents, and Morgan still uses one but has discontinued the other.",
+    "alternatives": [
+      {
+        "meaning": "The reminder refers to the phone alarm.",
+        "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "The reminder refers to the note on the door.",
+        "answer": "Morgan took the note down last month and no longer uses it."
+      }
+    ]
+  }
+}

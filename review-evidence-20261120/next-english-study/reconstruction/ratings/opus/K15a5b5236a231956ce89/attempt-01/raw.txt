@@ -1,0 +1,20 @@
+```json
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says an afternoon visit suits them better than staying through dinner. They would head home before dinner, before they get too tired.",
+    "citations": [
+      {"turn": 2, "role": "patient", "quote": "An afternoon visit with my sister suits me better than staying through dinner.", "supports": "B"},
+      {"turn": 12, "role": "patient", "quote": "then head home before dinner, before I get too tired", "supports": "B"}
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient says that after waking around dawn they usually get back to sleep.",
+    "citations": [
+      {"turn": 2, "role": "patient", "quote": "I’ve been waking around dawn some mornings, but I usually get back to sleep.", "supports": "A"},
+      {"turn": 4, "role": "patient", "quote": "It’s usually just once around dawn, and then I get back to sleep.", "supports": "A"}
+    ]
+  }
+}
+```

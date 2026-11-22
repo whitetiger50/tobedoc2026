@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I889c6ae5ff411419be34de19",
+  "ended": "2026-11-21T03:49:29.240537+00:00",
+  "session": "b280f984-5ac3-4600-a30a-38a016048aa5",
+  "packet_sha256": "4520d2551a12347fd9f8e956bf4baeee1b8751be1b2b20fbce1957e42e77b3bb",
+  "raw_sha256": "2822a18e36b6d7983199b277d14fa69b71ba385001634859c179ba041b0b11dc",
+  "provider_sha256": "cc77b9c2050583b0b4445cfde72d3beb5f7484851f9768d1a7345e3a04af3b4a",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. It is organized, conversational and reflective, with good insight that announcements are meant for everyone, matching the self-understanding in the profile. Paperwork topics are handled comfortably. Answers to repeated questions are brief and consistent, which is realistic. Several things reduce authenticity: (1) the tram experience is disclosed readily on the first question, with little sign of the profile's 'somewhat private' guardedness about the tram; (2) answers closely mirror the profile's fact wording and add almost no personal or spontaneous detail; (3) turn 7 appears wrapped in stray quotation marks, which reads as a generation artifact. These are minor rather than major problems, so the dialogue stays mostly realistic.",
+  "evidence": [
+    {
+      "turn": 6,
+      "quote": "Sometimes, when it’s crowded, it feels like it’s directed at me, though I know it’s an announcement for everyone."
+    },
+    {
+      "turn": 7,
+      "quote": "“It feels like it’s meant for me, like I’m the one being told to move."
+    },
+    {
+      "turn": 8,
+      "quote": "It gives me something real to focus on."
+    },
+    {
+      "turn": 12,
+      "quote": "No, I’ve been to every scheduled shift in the past month."
+    }
+  ]
+}

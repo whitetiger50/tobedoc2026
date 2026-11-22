@@ -1,0 +1,220 @@
+{
+  "review_date": "2026-11-17",
+  "review_type": "Targeted primary-literature review; not systematic or exhaustive",
+  "new_experimental_results": false,
+  "v1_decision": "Do not use v1 unchanged as the final evaluation specification. Preserve its files; revise and pilot measurement before a held-out comparison.",
+  "studies": [
+    {
+      "id": "patient-psi",
+      "name": "PATIENT-Ψ",
+      "year": 2024,
+      "venue": "EMNLP main",
+      "domain": "CBT·상담",
+      "url": "https://aclanthology.org/2024.emnlp-main.711.pdf",
+      "locator": "Appendix F, Figures 21–23; PDF page 23",
+      "measure": "인지모형 충실도·감정·대화 스타일에 대한 인간/LLM 평가",
+      "finding": "세부 현실성 차원에서 GPT-4와 Llama 3가 전문가와 반대 순위를 보였다.",
+      "transfer": "포괄적인 LLM 현실성 채점의 판독 능력을 가정하지 않는다.",
+      "limitation": "CBT 내담자 비교이며 한국어 사고형식장애 판독 검증이 아니다."
+    },
+    {
+      "id": "eeyore",
+      "name": "Eeyore",
+      "year": 2025,
+      "venue": "Findings of ACL",
+      "domain": "우울증",
+      "url": "https://aclanthology.org/2025.findings-acl.707.pdf",
+      "locator": "Section 4.2.1, Table 2; PDF page 9",
+      "measure": "증상 강도·인지왜곡·우울증 강도의 프로필 정합성 5점",
+      "finding": "자동 평가는 높은 점수에 몰려 인간 평가에서 관찰된 미세한 차이를 놓쳤다.",
+      "transfer": "평가 점수의 천장효과와 과장 선호를 사전 점검한다.",
+      "limitation": "학습된 모델을 포함한다. 모든 인간 비교가 유의했던 것은 아니다."
+    },
+    {
+      "id": "mi-client",
+      "name": "Consistent Client Simulation",
+      "year": 2025,
+      "venue": "ACL main",
+      "domain": "동기강화면담",
+      "url": "https://aclanthology.org/2025.acl-long.1021.pdf",
+      "locator": "Sections 3.3, 4.2–4.3; Tables 2–4",
+      "measure": "프로필 함의 비율·수용성 순위상관·인간 현실성 평가",
+      "finding": "과도한 수용성을 줄이고 신념·동기·계획의 설정과 상태를 유지하도록 설계했다.",
+      "transfer": "면담 중 병식·경계심·신념 변경과 공개 행동을 평가한다.",
+      "limitation": "MI의 변화 단계는 조현병 면담의 정답이 아니다. 전문가 일부는 공저자다."
+    },
+    {
+      "id": "psi-bench",
+      "name": "PSI-Bench",
+      "year": 2026,
+      "venue": "MultiPsyche workshop",
+      "domain": "우울증",
+      "url": "https://aclanthology.org/2026.multipsyche-1.10.pdf",
+      "locator": "Sections 3–6; Table 2; Limitations",
+      "measure": "시간별 정서·서사 분포, 어휘 다양성, 길이, 언어 표지의 참조 정합도",
+      "finding": "사람 참조와 분포를 직접 비교했다. 쌍대 순위 검증은 네 순위 이상 떨어진 쌍이었다.",
+      "transfer": "다중 턴·변동성·과도한 장문을 점검하되 참조 없이 인간 유사도 점수를 만들지 않는다.",
+      "limitation": "연기·크라우드소싱 참조이며 실제 치료 녹취가 아니다. 근접 시스템 판별력을 보장하지 않는다."
+    },
+    {
+      "id": "amdp-judge",
+      "name": "Psychopathological assessment benchmark",
+      "year": 2026,
+      "venue": "npj Digital Medicine",
+      "domain": "복수 정신질환",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342660/",
+      "locator": "Abstract; Results: Clinicians and LLMs performance; Methods",
+      "measure": "전문가 합의 AMDP 항목 대비 정확도",
+      "finding": "최상위 주 비교 설정의 전체 정확도 0.72, 조현병 시나리오 0.60이었다.",
+      "transfer": "공개 전사·참조 평점으로 평가자 점검의 출발점을 검토할 수 있다.",
+      "limitation": "독일어 연기 면담 세 개. 인간은 영상·음성, LLM은 텍스트를 평가했다.",
+      "resource": "https://github.com/42elenz/LLMs_psychopathologies"
+    },
+    {
+      "id": "psyche",
+      "name": "PSYCHE",
+      "year": 2025,
+      "venue": "arXiv v1",
+      "domain": "복수 정신질환",
+      "url": "https://arxiv.org/html/2501.01594v1",
+      "locator": "MFC, Validation of PSYCHE-SP, PSYCHE SCORE sections",
+      "measure": "환자 구성 충실도 평가와 의사 에이전트 정보 파악 점수를 구분",
+      "finding": "PSYCHE SCORE의 평가 대상은 면담하는 의사 에이전트다.",
+      "transfer": "프로필·병력·행동의 분리를 참고한다.",
+      "limitation": "v1의 주 검증에 조현병이 포함되지 않았다. SCORE는 발화 현실성 점수가 아니다."
+    },
+    {
+      "id": "roleplay-doh",
+      "name": "Roleplay-doh",
+      "year": 2024,
+      "venue": "EMNLP main",
+      "domain": "CBT·상담",
+      "url": "https://aclanthology.org/2024.emnlp-main.591/",
+      "locator": "Abstract; Evaluation sections; PDF Appendix Table 6",
+      "measure": "전문가 행동 원칙 준수·현실성·선호",
+      "finding": "전문가 피드백을 구체적인 생성 원칙으로 바꿔 평가했다.",
+      "transfer": "발화 모듈의 행동 규칙을 명시하고 준수와 현실성을 구별한다.",
+      "limitation": "원칙 준수가 임상 타당성과 같지 않다. 인간 판단의 신뢰도도 확인해야 한다."
+    },
+    {
+      "id": "stacer",
+      "name": "STACER Agentic System",
+      "year": 2026,
+      "venue": "JMIR Medical Education",
+      "domain": "우울증",
+      "url": "https://mededu.jmir.org/2026/1/e88580",
+      "locator": "Abstract; patient-agent evaluation; rater-agent reliability",
+      "measure": "환자 에이전트의 정확성·충실도·관련성·역할 준수; 면담자 평가 신뢰도",
+      "finding": "평가자의 재채점 안정성, 인간과의 일치, 항목/합계 수준 성능은 서로 다르다.",
+      "transfer": "일관성과 정확도를 따로 보고한다. 일반 명료성 규칙은 사고형식장애에 맞춰야 한다.",
+      "limitation": "면담자 평가 신뢰도를 환자 발화 현실성 검증으로 사용하지 않는다."
+    },
+    {
+      "id": "psychiatry-voice",
+      "name": "Psychiatric voice prototype",
+      "year": 2026,
+      "venue": "Academic Psychiatry",
+      "domain": "복수 정신질환",
+      "url": "https://link.springer.com/article/10.1007/s40596-026-02422-9",
+      "locator": "Methods: Persona Development, Iterative Development; Results; Limitations",
+      "measure": "전문가의 임상 충실도·일관성·음성 표현 평가",
+      "finding": "네 질환의 개발·예비 내용 검증을 보고하고 정형화된 연기를 한계로 제시했다.",
+      "transfer": "제한된 자원에서도 개발 연구가 가능하나 검증 수준을 제한해 주장한다.",
+      "limitation": "한 명의 전문가가 개발에도 참여했다. 독립 검증이나 교육 효과 입증이 아니다."
+    },
+    {
+      "id": "patientsim",
+      "name": "PATIENTSIM",
+      "year": 2025,
+      "venue": "NeurIPS Datasets and Benchmarks",
+      "domain": "일반 표준화 환자",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/24945e3bdc7b3f4b2e64b9979a16f38e-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "locator": "Factual accuracy evaluation; evaluator validation; expert study",
+      "measure": "정보 포함·모순·근거 없는 생성과 페르소나 일관성",
+      "finding": "생성된 환자 평가와 자동 판독기 검증을 구분했다.",
+      "transfer": "프로필 보존·모순율을 유지하고 판독기를 별도 자료로 점검한다.",
+      "limitation": "MIMIC 기반 임상 사례이며 조현병 발화 현실성 검증이 아니다."
+    },
+    {
+      "id": "spbench",
+      "name": "SPBench / EasyMED",
+      "year": 2026,
+      "venue": "ACL main",
+      "domain": "일반 표준화 환자",
+      "url": "https://aclanthology.org/2026.acl-long.1243/",
+      "locator": "SPBench criteria, automated evaluation and human validation sections",
+      "measure": "사례 일관성·통제된 정보 공개 등 8개 기준",
+      "finding": "인간 표준화 환자 기반의 질문 조건과 전문가 기준을 사용했다.",
+      "transfer": "같은 질문과 사례에서 공개 행동·태도를 비교한다.",
+      "limitation": "논리성·응답 완결성은 의도된 탈선·말수 감소와 충돌할 수 있다."
+    },
+    {
+      "id": "tlc",
+      "name": "TLC: clinical definitions and reliability",
+      "year": 1979,
+      "venue": "Archives of General Psychiatry",
+      "domain": "임상 척도",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/article-abstract/492217",
+      "locator": "Abstract, clinical definitions and reliability",
+      "measure": "환자 면담에서 직접 관찰할 수 있는 언어·의사소통 행동",
+      "finding": "관찰 가능한 행동을 정의해 평가 신뢰도를 검토했다.",
+      "transfer": "자기보고와 발화 형태를 구별하고 원척도와 자체 척도를 구분한다.",
+      "limitation": "조현병 특이 척도가 아니다. AI 한국어 짧은 면담의 척도 타당성을 보장하지 않는다."
+    },
+    {
+      "id": "clientcast",
+      "name": "ClientCAST",
+      "year": 2024,
+      "venue": "arXiv v2",
+      "domain": "상담자 평가",
+      "url": "https://arxiv.org/abs/2406.12266",
+      "locator": "Abstract",
+      "measure": "내담자가 응답한 세션 결과·치료 동맹·느낌 설문",
+      "finding": "환자 시뮬레이션을 이용해 상담자 LLM을 평가한다.",
+      "transfer": "환자 모듈의 직접적 주 평가로 가져오지 않는다.",
+      "limitation": "측정 대상이 다르다. 설문이 수치라는 이유로 환자 충실도 지표가 되지 않는다."
+    }
+  ],
+  "metric_decisions": [
+    {
+      "name": "목표 증상 출현율",
+      "decision": "주 평가에서 내림",
+      "reason": "강도 과장·비맥락적 반복에도 성공하므로 개발 진단용으로 유지한다."
+    },
+    {
+      "name": "0–3 강도 평균 오차",
+      "decision": "재설계",
+      "reason": "자체 순서척도의 등간성·판독 신뢰도가 미검증이다. 일치·과잉·과소·판정 불가를 먼저 보고한다."
+    },
+    {
+      "name": "비목표 증상 발생률",
+      "decision": "조건부 유지",
+      "reason": "명시적 음성 목표에만 적용한다. 미지정 특징과 가능한 동반 양상을 일괄 벌점 처리하지 않는다."
+    },
+    {
+      "name": "사실 보존·모순율",
+      "decision": "유지·구분 강화",
+      "reason": "묻지 않은 사실의 누락과 오류, 환자 신념과 객관적 병력을 구별한다."
+    },
+    {
+      "name": "상호작용 준수",
+      "decision": "구체화",
+      "reason": "공개 조건·병식·태도·역할과 시간에 따른 상태 유지를 사전에 명시한다."
+    },
+    {
+      "name": "가린 쌍대 현실성 선호",
+      "decision": "보조 후보 추가",
+      "reason": "순서 반전·무승부·근거를 사용해도 LLM 선호이며 임상적 참값은 아니다."
+    },
+    {
+      "name": "문체·시간·변동성 분포",
+      "decision": "진단용 추가",
+      "reason": "적절한 참조 없이 길이·다양성을 인간 유사도나 품질로 바꾸지 않는다."
+    },
+    {
+      "name": "평가자 정확도·재현성",
+      "decision": "평가 전 점검",
+      "reason": "참조 대비 판독 정확도, 재채점 일치, 다른 모델과의 일치는 서로 다른 값이다."
+    }
+  ]
+}

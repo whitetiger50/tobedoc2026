@@ -1,0 +1,26 @@
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient explicitly says the slip of paper helped them finish a short passage last week.",
+    "citations": [
+      {
+        "turn": 5,
+        "role": "patient",
+        "quote": "The slip of paper under the line helps—it gives me somewhere to come back to. It helped me finish a short passage last week.",
+        "supports": "B"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient contrasts readily finding their place in the bike task with greater difficulty resuming reading when people are talking.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "With a bike, I can look at it and see where I left off. With reading, if people are talking, I lose my place and it’s harder to get back into it.",
+        "supports": "A"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I5da3c4651ad025c4f604",
+  "ended": "2026-11-20T21:06:05.220773+00:00",
+  "session": "e56a3ede-0d0f-4677-bed7-ffaf214715c1",
+  "packet_sha256": "0e7cee598245147dbf0b9d553feb5ef98b48d9f89e990296686dcda532b338ba",
+  "raw_sha256": "eee5eebd98c10f6a945a80b14f4cd9d7f39b07dfb21bb1d8ff45c16488a4370d",
+  "provider_sha256": "fdc79a05cbf39ac7f27b5896cdad016064f999a88c494d33d441430c971c693b",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are fluent, friendly, and plausible for an outpatient. One good touch is that the patient asks for clarification when a question is ambiguous (turn 3). Overall, though, the communication feels too tidy and scripted for this persona. Most answers restate profile facts almost word for word, and the same phrasing comes back across turns (e.g., 'something to do with our hands... That felt easy' in turns 1 and 6). The profile describes tangential asides, loosely related memories that interrupt the point, enjoyment of neighborhood stories, and pausing to choose between recent events. None of these appear: every answer is linear and goal-directed. The sensitive disclosure about overlapping voices comes immediately and without any hesitation or hedging (turn 11). Several answers also contain stray quotation marks, an artificial artifact. The result is a moderately authentic dialogue with noticeable unrealistic elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "That was nice, just having something to do with our hands. It felt easy."
+    },
+    {
+      "turn": 6,
+      "quote": "It was nice having something to do with our hands. That felt easy."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?"
+    },
+    {
+      "turn": 11,
+      "quote": "Yes, about three weeks ago, one evening when I was alone. I heard familiar voices, several of them seeming to overlap."
+    },
+    {
+      "turn": 10,
+      "quote": "I pick up a box of tablets from the pharmacy every four weeks. I’ve got the refill date written inside the kitchen cupboard"
+    }
+  ]
+}

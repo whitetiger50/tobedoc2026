@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 9,
+  "question": "How does meeting up usually go?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "My longtime friend and I meet for a drink after a swim a couple of times a month. We catch up and talk about everyday stresses. It’s nice having someone I’ve known that long to talk things through with.",
+  "raw_sha256": "aa4386ca5f616ef87eb94b48e86fd4b55c69381465784e94fee35e1871d01341",
+  "request_sha256": "b66f87d50a052a97543c8e5f113ce5699cdf3f4173b313284e4c4d5249089d2d",
+  "started_utc": "2026-11-20T20:41:46.450741+00:00",
+  "completed_utc": "2026-11-20T20:41:50.808456+00:00",
+  "usage": {
+    "input_tokens": 71449,
+    "cached_input_tokens": 53888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 438,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "86302e37c702b42e0c38083f4f7312d486bf2b49d90628a1754c61d027b0ca64",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "57ea8259eb5141fa38e9db6a717185ed866f0358da743db83dda5cc666080969"
+}

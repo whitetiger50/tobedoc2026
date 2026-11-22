@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "B",
+  "turn": 2,
+  "question": "What has stood out there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f1b-7040-a85f-83a0a7fab294",
+  "raw": "Well, the sound, I suppose. I’m a little hesitant to talk about it… I was sorting sewing supplies at home and heard a voice say “too slow.” It happened on two evenings last week.",
+  "raw_sha256": "aa5efb0cba46403592d072b016fb0734c01226abb58ec2b38608136c5a60b4d3",
+  "request_sha256": "e8923c3e437a2e4d517cb1c7798b0854485a22a39fc0277e5a6637fdef1bffb9",
+  "started_utc": "2026-11-20T20:58:18.134365+00:00",
+  "completed_utc": "2026-11-20T20:58:22.221582+00:00",
+  "usage": {
+    "input_tokens": 15695,
+    "cached_input_tokens": 7424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b81942136cc1aedf5388d8cd4870913f7d74bff213dd684aa3db7159babfcd22",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7cb619009f6e3544e8954773c7f6c35cf85dc326ddbbfffc44acaa35fac9e41e"
+}

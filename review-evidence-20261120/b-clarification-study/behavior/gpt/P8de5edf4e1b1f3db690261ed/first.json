@@ -1,0 +1,85 @@
+{
+  "id": "P8de5edf4e1b1f3db690261ed",
+  "reader": "gpt",
+  "session": "01a1fc42-4a8f-7dd2-a172-3efe3ff377e6",
+  "attempt": "attempt-01",
+  "packet_sha256": "e5ab4e36e0618f7db741b35443a09893d3983dc85ce52536d80048781c19710e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "77de34a25d19a1c0b1006a30d8b7a13a213a09c2d458c192d8303045f6f60c4b",
+  "raw_sha256": "e9f565843eb0e40491a4d2d128d358bbc2494ff349ee94097c7628326a4fb37d",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for",
+        "reason": "The immediately preceding exchange makes the question about the announcement’s felt personal target, not its actual intended audience.",
+        "alternatives": [
+          {
+            "meaning": "Who the doors-clear announcement feels directed at.",
+            "answer": "It sometimes feels directed personally at Alex, despite Alex recognizing that it may simply be the recording everyone hears."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the appointment",
+        "reason": "Both appointments are explicitly reintroduced, and whether someone accompanied Taylor differs between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether someone accompanied Taylor to the optician.",
+            "answer": "Taylor’s sister went along."
+          },
+          {
+            "meaning": "Whether someone accompanied Taylor to the care coordinator.",
+            "answer": "Taylor went alone."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "Both outages remain live referents with different durations, even though an answer distinguishing both could cover the ambiguity.",
+        "alternatives": [
+          {
+            "meaning": "The duration of Monday’s radio outage.",
+            "answer": "The radio was silent for about ten minutes."
+          },
+          {
+            "meaning": "The duration of Thursday’s radio outage.",
+            "answer": "The radio was silent for most of the afternoon."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "“He” could refer to either the brother or Mr. Bell, but both called Ari’s mobile.",
+        "alternatives": [
+          {
+            "meaning": "Whether the brother called Ari on the mobile.",
+            "answer": "The brother rang Ari’s mobile last week."
+          },
+          {
+            "meaning": "Whether Mr. Bell called Ari on the mobile.",
+            "answer": "Mr. Bell rang Ari’s mobile last week."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:46.137723+00:00"
+}

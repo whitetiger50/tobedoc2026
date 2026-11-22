@@ -1,0 +1,85 @@
+{
+  "id": "P3ef64a5c5d7f6d4e1267324d",
+  "reader": "opus",
+  "session": "6144d19c-4afc-4c3d-8d34-aa2c85a88796",
+  "attempt": "attempt-01",
+  "packet_sha256": "9ab95712b01ccc02d0396a8199ef4341d41da57556fc97fbfdd565539b4fcd31",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "cce1ea1dea381c95b98699a189566b5556d2fcbf41d072e3f0ef3368cce7003b",
+  "raw_sha256": "0554767261d267879c62d67eb8d8a4dfe2d48a0a4dcf3fff3b13decc32c64491",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "The question names both the brother and the building manager before asking about 'him', and Ari's earlier request to clarify which man was meant was never answered, so two readings remain with opposite answers: Ari called the brother back but has not yet called Mr. Bell.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari returned the brother's call from last week.",
+            "answer": "Yes, Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari returned the call from Mr. Bell, the building manager, who rang about replacing the hall light.",
+            "answer": "No, Ari has not called the building manager back yet."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "'It' could refer to either the housing letter or the employer's letter, but both arrived by post, so either reading leads to the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing office letter arrived by post.",
+            "answer": "Yes, the housing letter came through the post."
+          },
+          {
+            "meaning": "Whether the employer's letter arrived by post.",
+            "answer": "Yes, the letter from work also came through the post."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The previous exchange had already narrowed the reminder to the phone alarm, which is the only reminder that is set for a time, so 'it' clearly refers to the phone alarm.",
+        "alternatives": [
+          {
+            "meaning": "The time Morgan's phone alarm for remembering the staff pass is set for.",
+            "answer": "The phone alarm is set for 7:10 in the morning."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you have to pay for the replacement?",
+        "reason": "The singular 'replacement' could mean the ID badge, the locker key, or both together, but neither replacement cost anything, so every reading leads to the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron paid for the replacement ID badge.",
+            "answer": "No, the replacement badge did not cost anything."
+          },
+          {
+            "meaning": "Whether Cameron paid for the replacement locker key, given that the old key was lost.",
+            "answer": "No, the replacement locker key did not cost anything either."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:35.688604+00:00"
+}

@@ -1,0 +1,131 @@
+{
+  "attempt": "attempt-01",
+  "id": "I78791768143b2d8c28c8",
+  "reader": "opus",
+  "session": "73eedca7-6056-44b3-a9e3-eb7e74690cbe",
+  "raw_sha256": "7d3426eec2c5b8bb90f0c15c8e79bbb6cadb9602c9a3aeff7a078844c953f494",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "004556fa60d86cd31b6ee7de320d9cbb5c7f94f9a967976cded6844e55bfdc79",
+  "provider_sha256": "2c70fd41adc376b0cd7cf8b9211d4929f3d489fe7483a32e485657875e5d4c0f",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "uncertain",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "8": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "it’s easier to settle into it once I’m home",
+            "reason": "The question asks how getting around and interests fitted into the week. The Monday/Wednesday contrast and the mention of drawing after work answer that. The added point that it is easier to settle into drawing at home repeats turn 2 in paraphrase. It does not clearly serve the scheduling question, though it could be read as a brief characterisation of the week, so this is coded as uncertain.",
+            "earlier_turn": 2,
+            "earlier_quote": "Once I’m home, I’m more comfortable and it’s easier to concentrate on my drawing"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Two people looked up at the same time, and I felt noticed, so I moved farther away.",
+            "reason": "Answers the explicit request for a specific recent time in public with a concrete episode: Monday at the bus shelter, with a specific action (moving away). This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:29.870888+00:00"
+}

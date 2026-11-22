@@ -1,0 +1,57 @@
+{
+  "realism_score": 3,
+  "realism_reason": "모든 답이 프로필 사실에 맞고 질문에 직접 답하며, 일상적인 한국어 환자 말투로 자연스럽다. 다만 대처 방법 문구(라디오를 켜고 다른 소리에 집중)가 P01·P06·P08에서 거의 같은 형태로 되풀이되고, P08이 P01을 거의 다시 말해 다소 정형적이다. 설정된 양가적 자기이해(실제로 옆에서 말한 것처럼 느껴짐)가 드러날 기회도 적어 진정성이 약간 덜하다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "증상·양상·대처·수면·생활·직업·목표 모두 프로필 범위 안에서 바꿔 말했고, 새 사건이나 구체적 시각을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문(동거인, 낮 활동, 발생 시기, 대응, 수면, 다음 진료 목표)에 직접 맞게 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "재확인 질문(D04)에 대한 같은 답은 자연스럽고, 앞선 말과 모순되지 않는다. 반복 문구 문제는 naturalness에서 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "대처 문구가 세 번 거의 같은 형태로 반복되고, P08이 P01의 요청을 거의 그대로 되풀이해 국소적으로 정형적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "fact:coping",
+        "fact:goal"
+      ]
+    }
+  }
+}

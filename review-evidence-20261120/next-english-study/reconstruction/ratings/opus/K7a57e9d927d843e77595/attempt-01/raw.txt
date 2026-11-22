@@ -1,0 +1,21 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says that once in the shop they start sorting pretty easily, which matches A and contradicts B.",
+    "citations": [
+      {
+        "turn": 6,
+        "role": "patient",
+        "quote": "Once I’m in the shop, I get on with sorting pretty easily.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "insufficient",
+    "reason": "The patient denies recently feeling that people were talking about them (in turns 10 and 11), which rules out A. They never say that nearby conversations seemed to be about unrelated things, so B is not established either.",
+    "citations": []
+  }
+}
+```

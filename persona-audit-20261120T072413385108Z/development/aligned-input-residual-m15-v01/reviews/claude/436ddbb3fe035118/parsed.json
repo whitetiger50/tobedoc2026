@@ -1,0 +1,53 @@
+{
+  "realism_score": 3,
+  "realism_reason": "환자 답변은 간결하고 일상적인 한국어로, 증상에 대한 불확실성도 설정에 맞게 드러나 대체로 자연스럽다. 다만 P08이 P01의 긴 표현을 거의 그대로 되풀이하는 등 프로필 문장을 옮겨 적은 듯한 정형성이 약간 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확신이 없는데, 그 얘기를 좀 하고 싶어요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 진술이 프로필의 동거, 일, 아침식사, 증상 양상, 대처, 수면, 목표 사실과 일치하고 새로운 사실을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 직접 대상에 맞게 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발언과 모순이 없고, P08의 주제 반복은 다음 진료 주제를 묻는 질문에 대한 응답이라 연결 문제로 보기 어렵다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08이 P01의 긴 표현을 거의 그대로 반복해 정형적으로 들린다. 그 외 표현은 환자 시점에서 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  }
+}

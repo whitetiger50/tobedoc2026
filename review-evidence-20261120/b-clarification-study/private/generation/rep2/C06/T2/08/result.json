@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 8,
+  "question": "How long was the radio out on Thursday?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc34-996b-7c32-a408-2b6f561e5b9f",
+  "raw": "Most of the afternoon on Thursday.",
+  "raw_sha256": "73891dccf787bd4876415e052d02af58d5bae7a872ab10aa8d4e44758e22c1f3",
+  "request_sha256": "a8a0c1aa549fb0b88256d2744e875a6d48ba027999d03006549e73627e594228",
+  "started_utc": "2026-11-21T03:44:27.882411+00:00",
+  "completed_utc": "2026-11-21T03:44:32.647805+00:00",
+  "usage": {
+    "input_tokens": 6338,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a91d2e3e5f7ec3097c3865e6266edc663b0c6d9e0af6a1e602d8e065e188d6f7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3f69c5ccc6f163989ea927c93a4b106783fbb97fcce69fd7d760278a20f8a45f"
+}

@@ -1,0 +1,128 @@
+{
+  "attempt": "attempt-01",
+  "id": "I5da3c4651ad025c4f604",
+  "reader": "gpt",
+  "session": "01a1faca-887b-7890-8bd1-6b334dfdbfb0",
+  "raw_sha256": "120c649ec082f14e7424d709cac3acffb03551866278f5af776324b6c18bc210",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "2a2809cbaab300ac6527477df598ba823fd82ad94c865ee83890845e09811b78",
+  "provider_sha256": "a603fc2b7c60d45726e5757ee45267a8c8f2311e062913045304a8d9e5a2acd2",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "positive",
+        "8": "negative"
+      },
+      "events": {
+        "3": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+            "reason": "Asks which of two previously discussed experiences the ambiguous question refers to, then yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "My sister had set it aside, and we repotted it together after lunch on my last visit.",
+            "reason": "Answers the explicit example request with a specific shared activity on the last visit."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:11.617626+00:00"
+}

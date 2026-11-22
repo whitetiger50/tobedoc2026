@@ -1,0 +1,79 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 프로필에 맞게 짧고 경계심 있는 화법을 보인다. 답을 듣지 못한 이웃 걱정을 다시 묻는 흐름도 자연스럽다. 다만 잘못된 전제를 정정하는 일부 답변이 '말씀드린/말씀드렸지만' 식으로 자기 발화를 정리하는 정형적·메타적 표현이라 약간 인위적이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테도 알려질 수 있나요?",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 내원 경위, 수면, 소리 경험, 이웃 걱정, 원인 불확실성이 모두 프로필 사실과 일치하고, 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답하거나 잘못된 전제(어젯밤 여부, 누나가 환자, 소리가 원인)를 적절히 정정했다. P01도 이유를 모른다고 제한하며 질문 대상에 반응했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이웃 관련 재질문은 답을 듣지 못한 걱정의 반복으로 자연스럽다. P08은 재질문에 대한 짧은 동일 답이다. 의사가 D03에서 미공개 '밤의 경험'을 전제한 점은 기록할 만하나 환자 오류는 아니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "전제 정정 답변에서 자신의 이전 발화를 정리·구분하는 메타적이고 정형적인 표현이 국소적으로 반복된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "어젯밤을 따로 말씀드린 건 아니에요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D07",
+        "fact:sleep_voice_relation"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

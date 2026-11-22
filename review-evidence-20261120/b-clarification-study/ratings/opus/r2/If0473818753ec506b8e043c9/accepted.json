@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "If0473818753ec506b8e043c9",
+  "ended": "2026-11-21T03:50:59.772823+00:00",
+  "session": "46be198f-6e8d-40ca-8f64-fc0bf649bb5c",
+  "packet_sha256": "721e671ccb620875dc76ef61763af218ca3dc0db2ec1ae4c73a0f92296c158b1",
+  "raw_sha256": "ef1a7a3a94c568af4d941a5484d970675ee46bfb30a5d9b7d18f7c5f3e62753f",
+  "provider_sha256": "a9d2de8704c6c60742af2769920c152e8485627f0ae133957f4a6b5d6268160c",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The replies fit the persona well. They are quiet, direct, use everyday words, show decreased verbal productivity, and give no detail until a specific question asks for it. That matches someone with schizophrenia who finds starting conversation effortful but is comfortable with the clinician. Asking for clarification when a question is ambiguous is also plausible. However, the answers are uniformly clipped and tidy, with no hesitation, filler or small personal touches, which makes them feel somewhat scripted. They also closely echo the profile's wording. Turn 8 feels mechanical: in turn 6 the patient readily answered for 'both' appointments, yet here asks which one is meant instead of simply saying who went where. These are minor issues, so the dialogue is mostly realistic rather than fully convincing.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "No, it stops after twenty minutes."
+    },
+    {
+      "turn": 6,
+      "quote": "Yes, I took the bus to both."
+    },
+    {
+      "turn": 8,
+      "quote": "Which appointment do you mean?"
+    },
+    {
+      "turn": 11,
+      "quote": "Baseball."
+    }
+  ]
+}

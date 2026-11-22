@@ -1,0 +1,89 @@
+{
+  "id": "P6e23f32d76f7357c87467014",
+  "reader": "gpt",
+  "session": "01a1fc3f-c5f1-73b0-aa03-4440d938e046",
+  "attempt": "attempt-01",
+  "packet_sha256": "d9ca8edbf128037f8c847b42e8168f7db749911aaa6276d36bdc83af965fae87",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "5a87a6195704c9b8c1e1d693d534a92a77109c9c5ea8a3f9edfd62349e5fcec5",
+  "raw_sha256": "7f8f3b22753d07595fc1adba3f7179897f5e95e88b030c81d8244e827c0db184",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "Either man can be the referent of “he,” but both called Ari’s mobile, so the phone-channel answer is materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari’s brother called Ari on the mobile.",
+            "answer": "The brother rang Ari’s mobile last week."
+          },
+          {
+            "meaning": "Whether Mr. Bell called Ari on the mobile.",
+            "answer": "Mr. Bell rang Ari’s mobile last week."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "Both transport options remain live, and their boarding stops differ even though Alex could directly explain both.",
+        "alternatives": [
+          {
+            "meaning": "Where Alex boards the number 8 bus.",
+            "answer": "The bus boarding stop is Orchard Road."
+          },
+          {
+            "meaning": "Where Alex boards the tram.",
+            "answer": "The tram boarding stop is Bell Square."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the appointment",
+        "reason": "Either visit could be intended, and the earlier shared bus answer does not resolve which visit is now being discussed.",
+        "alternatives": [
+          {
+            "meaning": "Whether somebody accompanied Taylor to the optician.",
+            "answer": "Taylor’s sister accompanied Taylor to the optician."
+          },
+          {
+            "meaning": "Whether somebody accompanied Taylor to the care coordinator.",
+            "answer": "Taylor attended the care coordinator appointment alone."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "Either Inez or Pat could be intended, but neither expected payment, making the replies materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez expected payment for her help.",
+            "answer": "Inez did not expect payment."
+          },
+          {
+            "meaning": "Whether Pat expected payment for her help.",
+            "answer": "Pat did not expect payment."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:57:03.419223+00:00"
+}

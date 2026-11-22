@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "Do you mean my sister Inez, or Pat from the café?",
+    "reason": "The reply asks who was meant without stating whether either person came over.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v2": {
+    "quote": "Do you mean since our last visit, or since I started the lower dose?",
+    "reason": "The reply asks which period was meant without stating whether any tablets were missed during either period.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v3": {
+    "quote": "Do you mean the shorter shifts or the later start?",
+    "reason": "The reply asks which change was meant without stating whether either change was requested.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v4": {
+    "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+    "reason": "The reply explicitly states that commentary stops while music plays but ringing continues.",
+    "A": {
+      "state": "supported",
+      "quote": "The commentary stops while I’m playing quiet music through my headphones."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "But the high ringing in both ears keeps going, even with the music on."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 1,
+  "question": "What has been taking up your time recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa7-2af0-7173-af48-5da43364dd36",
+  "raw": "“I’ve been helping a relative with a little allotment. I like having something practical to get on with. We keep spare gloves by the front door—otherwise you get there and… oh, it was string last time. I went to fetch some, stopped to rinse a pot, and then found I’d left the string in the shed. I’m better at keeping on with things before lunch.”",
+  "raw_sha256": "0a651ea2e41541bed0e2a0a2986c9d46f036b9a4cfcd89c16e6698589871a44a",
+  "request_sha256": "5e18be37243f8ddcce167d22104032fd22d2ec305daa19cbd63779f3202c2599",
+  "started_utc": "2026-11-20T20:30:21.849137+00:00",
+  "completed_utc": "2026-11-20T20:31:59.147265+00:00",
+  "usage": {
+    "input_tokens": 6759,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 140,
+    "reasoning_output_tokens": 54
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a81b0621328c4faa2a3cff1e609ae4039f201e9c198a1007ac88eca1478e5e86",
+  "trace_sha256": "f846e2ceadc9b7fc0fcf11e80c1e7ceb1e08d33dfba81d74200cfc4af685d276"
+}

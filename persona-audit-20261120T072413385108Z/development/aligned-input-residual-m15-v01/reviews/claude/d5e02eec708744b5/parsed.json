@@ -1,0 +1,53 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 짧고 일상적인 말투로 프로필에 맞게 답했습니다. 안내 방송이 자신을 가리키는지 확신하지 않는 태도도 설정과 일관됩니다. 다만 마지막 답이 첫 호소를 거의 같은 문구로 반복해 다소 정형적으로 느껴집니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확신이 없는데"
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 일, 아침식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치합니다. 무근거로 추가된 사실도 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 맞게 답했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 말과 모순되거나 문맥이 끊기는 부분이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08이 P01의 호소를 거의 같은 표현으로 되풀이해, 다음 진료 목표를 설정 문구처럼 읽는 듯한 국소적 정형 반복이 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요"
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "fact:goal"
+      ]
+    }
+  }
+}

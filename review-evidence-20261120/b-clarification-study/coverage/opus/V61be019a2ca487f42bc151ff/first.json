@@ -1,0 +1,109 @@
+{
+  "id": "V61be019a2ca487f42bc151ff",
+  "reader": "opus",
+  "session": "2fbf2816-d1cd-4eb4-9547-7995e601d9ad",
+  "attempt": "attempt-01",
+  "packet_sha256": "64a22267c8dee9e31ca014335f0629e30a25d79b74f9ec4fee9229d6e5db6ec6",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "c104c298ec6a87ff02fc28e9518e81f3192a1acd56103ad864475e81f0e9538e",
+  "provider_sha256": "2ec62094d93e8ae76145b17f816ee82bec13334f37ca3dbdcb77a5755b0e17fb",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "My sister came with me to the optician.",
+        "reason": "The reply states that the sister went to the optician visit and that the patient went to the care coordinator alone.",
+        "A": {
+          "state": "supported",
+          "quote": "My sister came with me to the optician."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I went to the care coordinator on my own."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Which one do you mean—my brother or Mr. Bell?",
+        "reason": "The reply only asks which caller is meant and says nothing about whether either call was returned.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift, I take the bus home.",
+        "reason": "The reply says the patient takes the bus home after early shifts and a coworker drops them off after late shifts.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift, I take the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "If it’s a late one, a coworker drops me off."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the housing letter or the one from work?",
+        "reason": "The reply only asks which letter is meant and says nothing about either letter's reply deadline.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:51.054999+00:00"
+}

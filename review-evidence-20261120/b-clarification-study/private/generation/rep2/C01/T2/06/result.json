@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 6,
+  "question": "How much sleep do you get on a work night?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-c56e-7133-a994-eaa6f1068cc2",
+  "raw": "Usually about seven hours on a work night.",
+  "raw_sha256": "c6e6fe47cdff8d53e34e6305506545b60bf6ce0d03c4eef76b701bc3ea03f7e1",
+  "request_sha256": "376453695688d03f4b2b0d6afa5a9294ee37d2b610431fb4f6c5a2dda60eff6e",
+  "started_utc": "2026-11-21T03:43:33.610015+00:00",
+  "completed_utc": "2026-11-21T03:43:38.263938+00:00",
+  "usage": {
+    "input_tokens": 6181,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 13,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c19c575c6d819e73d0b2dd7ab104e137f653847e32a8ce4e5c5ab96dff4d71f0",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "129971e697f0140ab3e8b06416ed4f574fa070f426e098595ac50c7e0e5b2dc0"
+}

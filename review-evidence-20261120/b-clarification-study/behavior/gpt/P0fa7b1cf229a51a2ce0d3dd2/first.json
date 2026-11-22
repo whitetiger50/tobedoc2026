@@ -1,0 +1,89 @@
+{
+  "id": "P0fa7b1cf229a51a2ce0d3dd2",
+  "reader": "gpt",
+  "session": "01a1fc44-ca8a-72e1-ab7c-6a6397f60dea",
+  "attempt": "attempt-01",
+  "packet_sha256": "fffd29ce964387186a729b8f73132c1fe384d5e7c37d531c0c30440d2bc4fed4",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "848a200db0dc57a7bd48e6798151a8f70a8974de9c81ccf55abfb3c5ccd91f6c",
+  "raw_sha256": "289d81d0624f0d295abb4876adef83aa2632c4d154180bc7cdad1cbc3b14eb37",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "deadline to reply to the letter",
+        "reason": "Both letters are explicitly foregrounded without selecting one, and their reply requirements differ.",
+        "alternatives": [
+          {
+            "meaning": "The question concerns the housing letter.",
+            "answer": "The housing office requires a reply by Friday."
+          },
+          {
+            "meaning": "The question concerns the employer’s letter.",
+            "answer": "The employer’s letter requires no reply, so there is no reply deadline."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "Both the last visit and the lower-dose start are identified as possible reference points, and the missed tablet falls between them.",
+        "alternatives": [
+          {
+            "meaning": "The period begins at the last visit three weeks ago.",
+            "answer": "One tablet was missed during that period, the evening before the lower dose began."
+          },
+          {
+            "meaning": "The period begins when the lower dose started two weeks ago.",
+            "answer": "No tablets have been missed during that period."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "to the appointment",
+        "reason": "Both appointments are reintroduced without selecting one, and Taylor had company at only one of them.",
+        "alternatives": [
+          {
+            "meaning": "The question concerns the optician appointment.",
+            "answer": "Taylor’s sister went along."
+          },
+          {
+            "meaning": "The question concerns the care coordinator appointment.",
+            "answer": "Taylor went alone."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "The question reintroduces both women without selecting one, but neither expected payment.",
+        "alternatives": [
+          {
+            "meaning": "The question asks whether Inez expected payment.",
+            "answer": "Inez did not expect payment for helping."
+          },
+          {
+            "meaning": "The question asks whether Pat expected payment.",
+            "answer": "Pat did not expect payment for helping."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:02:39.862756+00:00"
+}

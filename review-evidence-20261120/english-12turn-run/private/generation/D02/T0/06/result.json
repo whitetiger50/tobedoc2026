@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 6,
+  "question": "I mean when you arrive at the allotment. How do you decide which job to start with?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-5097-7871-be28-667c3e0557b0",
+  "raw": "Do you mean whether I go with a job in mind, or choose something once I’m there?",
+  "raw_sha256": "f43ce413b12d178900c3fc282edfb39c3edb96491c024faf07cba3151945a404",
+  "request_sha256": "a7daa79d099dc2eeb49cffab0c68bdd537949d7d272adf559d27d59bbcbad779",
+  "started_utc": "2026-11-20T20:32:42.575001+00:00",
+  "completed_utc": "2026-11-20T20:32:50.860635+00:00",
+  "usage": {
+    "input_tokens": 7197,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 169,
+    "reasoning_output_tokens": 143
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "64b1cf52d67a937a4a05b6810cb80d04d499ce3837763c6f72f437b71281a255",
+  "trace_sha256": "0cbf0bccfeb3683c67c2054ee2a21458a18df7c127e7329f07b6b372401335ed"
+}

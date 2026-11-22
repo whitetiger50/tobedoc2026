@@ -1,0 +1,116 @@
+{
+  "attempt": "attempt-01",
+  "id": "I3e6a2ad9e05ae98572c5",
+  "reader": "gpt",
+  "session": "01a1facc-5afe-79e0-8995-0a54b68acac6",
+  "raw_sha256": "0dfa319366f28983f6ee86ea825bd143eec126f9e52fb96e1cf8cf87e2e3fc93",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "8c47c325691192ead6f493cc1caae49b557da1bbff879e00cba3c9d67f9cc414",
+  "provider_sha256": "76a1ff26b86bc77894506b041b2342a3d87d223294842c5f82ba3f409cbd34a3",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "Tuesday, for bread. I took the long way back by the river.",
+            "reason": "Answers the explicit example request with a specific recent errand and the route taken home."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:11:09.110718+00:00"
+}

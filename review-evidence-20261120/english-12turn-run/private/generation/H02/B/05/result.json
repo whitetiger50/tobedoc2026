@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "B",
+  "turn": 5,
+  "question": "How does it work once you get started?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-7122-bd1b-bc7db5bb8bd5",
+  "raw": "“Once I get going with a pile, it usually goes all right. I leave a blank bookmark where I’ve stopped—that was my idea. If someone asks me something, though, I might come back holding a book and have to work out what I was doing with it.”",
+  "raw_sha256": "f0b7ef7b28c1360bc912cb875db5cfa4fe6b121b481af549b7cf3b893813869d",
+  "request_sha256": "f69fe895d3e4b245a695edfc6bc5a90dfdc66b1e19a84c44013cb165e7f26205",
+  "started_utc": "2026-11-20T20:40:19.288762+00:00",
+  "completed_utc": "2026-11-20T20:40:25.079289+00:00",
+  "usage": {
+    "input_tokens": 39026,
+    "cached_input_tokens": 26240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0f18ffdf437e6f0709795f9afe66821234ccc974a6a6f8ddcbbbdfb73fe62c9f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3ee4697e2537d7ad315f2fbf5f6514e04e5464569867dd68da5fa108db2ffb3c"
+}

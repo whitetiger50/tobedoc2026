@@ -1,0 +1,82 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적인 말투는 짧고 일상적이며 증상에 대한 양가적 인식도 자연스럽게 드러나 페르소나와 대체로 맞다. 다만 P02에서 남편과 함께 산다는 프로필 사실을 '혼자 산다'로 뒤집어 페르소나 일치도가 떨어진다. P07에서 묻지 않은 목표를 미리 덧붙인 부분도 다소 각본처럼 읽힌다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 남편과 함께 산다는 핵심 생활 사실을 혼자 산다고 명백히 반전했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 질문의 대상(불편, 거주, 일과, 식사, 발생 시점, 대처, 수면, 계획)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 말과 모순되는 부분은 없다. P08이 P07의 목표를 반복한 것은 D08 질문에 대한 짧은 재답변이라 문제로 보지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "수면 질문(D07)에 답하면서 묻지 않은 목표 항목을 덧붙여, 설정 항목을 미리 꺼내 놓는 듯한 경미한 정형성이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

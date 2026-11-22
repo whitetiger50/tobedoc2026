@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-18T05:12:33.773852+00:00",
+  "packet_sha256": "030baa73d6d075159bd3beadf736601d68d0b316b4bd3bae52de14d7a68ec48e",
+  "role_sha256": "35d5c867a5a8776ed56a503a9f8a1062fceea847f775f4b5da487d71ef1bb24e",
+  "requested_reviewers": [
+    "gpt-6.1-sol_high",
+    "claude-opus-5-5"
+  ],
+  "calls_per_reviewer": 1,
+  "aggregation": "arithmetic_mean_per_case_of_two_original_scores",
+  "mapping": {
+    "M1-A": {
+      "case_id": "DEV-M0-02",
+      "transcript_sha256": "3965bbb495a72b851d8d3c322278de513f0bbc53fe815206420ee60e98d4a979"
+    },
+    "M1-B": {
+      "case_id": "DEV-M0-03",
+      "transcript_sha256": "e1ab7f9a03fc592ac4a01a1e39a8b91044d8218bec25fddfafebd1657612fb12"
+    },
+    "M1-C": {
+      "case_id": "DEV-M0-01",
+      "transcript_sha256": "0702ea96f7cae1312545a69dd15752572328e2467a8156dacd1b15d5d69a1f06"
+    }
+  },
+  "self_judging_limit": "GPT reviewer is same model family as generator; source hidden but not independent external validation"
+}

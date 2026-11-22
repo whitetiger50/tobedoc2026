@@ -1,0 +1,162 @@
+{
+  "item_id": "DEV-M18-01-rep02-v02",
+  "case_id": "DEV-M18-01",
+  "generation_replicate": 2,
+  "partition": "development",
+  "module_version": "schizophrenia-speech-m1-v0.2",
+  "patient": {
+    "case_id": "DEV-M18-01",
+    "partition": "development",
+    "provenance": "M18newCodex-authoredsyntheticprofile;notpatient/cliniciandata;final12notread",
+    "facts": [
+      {
+        "id": "demographic",
+        "kind": "background",
+        "content": "28세 남성이다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "living",
+        "kind": "background",
+        "content": "형과 함께 산다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "work",
+        "kind": "background",
+        "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "symptom",
+        "kind": "subjective_experience",
+        "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "pattern",
+        "kind": "subjective_experience",
+        "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "coping",
+        "kind": "background",
+        "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "sleep",
+        "kind": "background",
+        "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "goal",
+        "kind": "background",
+        "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      }
+    ],
+    "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+  },
+  "communication": {
+    "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+    "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+    "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+    "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+  },
+  "authored_context": [],
+  "generated_dialogue": [
+    {
+      "turn_id": "D01",
+      "speaker": "clinician",
+      "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+    },
+    {
+      "turn_id": "P01",
+      "speaker": "patient",
+      "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요."
+    },
+    {
+      "turn_id": "D02",
+      "speaker": "clinician",
+      "text": "집에서는 누구와 함께 지내세요?"
+    },
+    {
+      "turn_id": "P02",
+      "speaker": "patient",
+      "text": "형이랑 같이 살고 있어요."
+    },
+    {
+      "turn_id": "D03",
+      "speaker": "clinician",
+      "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+    },
+    {
+      "turn_id": "P03",
+      "speaker": "patient",
+      "text": "낮에는 동네 반려동물용품점에서 일해요. 주로 물품 정리하는 일을 하고 있어요."
+    },
+    {
+      "turn_id": "D04",
+      "speaker": "clinician",
+      "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+    },
+    {
+      "turn_id": "P04",
+      "speaker": "patient",
+      "text": "형이랑 같이 살고 있어요."
+    },
+    {
+      "turn_id": "D05",
+      "speaker": "clinician",
+      "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+    },
+    {
+      "turn_id": "P05",
+      "speaker": "patient",
+      "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 못 느껴요."
+    },
+    {
+      "turn_id": "D06",
+      "speaker": "clinician",
+      "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+    },
+    {
+      "turn_id": "P06",
+      "speaker": "patient",
+      "text": "그 소리가 들리면 라디오를 켜고 잠깐 다른 소리에 집중해요."
+    },
+    {
+      "turn_id": "D07",
+      "speaker": "clinician",
+      "text": "요즘 잠은 어떠세요?"
+    },
+    {
+      "turn_id": "P07",
+      "speaker": "patient",
+      "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요."
+    },
+    {
+      "turn_id": "D08",
+      "speaker": "clinician",
+      "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+    },
+    {
+      "turn_id": "P08",
+      "speaker": "patient",
+      "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요."
+    }
+  ],
+  "selection": "Firstandonlyactualanswerperturn;notpost-edited",
+  "question_design": "M18newprofilesandquestions;explicitlivingreconfirmation/goalreference"
+}

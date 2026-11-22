@@ -1,0 +1,89 @@
+{
+  "id": "P16cd0cb791af99b9a6e9da8e",
+  "reader": "gpt",
+  "session": "01a1fc41-b383-7943-8ca8-e3354391f433",
+  "attempt": "attempt-01",
+  "packet_sha256": "4b790460c619ae789e748e641c7cf83ea9f4d80469a7a6b0a3398342a5fc62ba",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "aa9d782ed9f192f2e1153c6211e7fc7616724c53c5433e699a7312bf5fc4ea18",
+  "raw_sha256": "1f3233268856530098083c4b8d565e3480c45bb79bc1571ac4466721d20c98b6",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you pay a fee to take the class?",
+        "reason": "Both classes are explicitly foregrounded without selecting one, and their costs differ.",
+        "alternatives": [
+          {
+            "meaning": "The class means cooking.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "The class means swimming.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "The question names both replaced items without identifying which old item, and their return histories differ.",
+        "alternatives": [
+          {
+            "meaning": "The old one means the ID badge.",
+            "answer": "The cracked badge was handed back."
+          },
+          {
+            "meaning": "The old one means the locker key.",
+            "answer": "The lost key could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "Both letters are foregrounded again, and Alex's expressed uncertainty about the work letter keeps it a live referent alongside the housing letter.",
+        "alternatives": [
+          {
+            "meaning": "The letter means the housing letter.",
+            "answer": "The housing office requires a reply by Friday."
+          },
+          {
+            "meaning": "The letter means the employer's letter.",
+            "answer": "The employer's letter is informational and requires no reply, so there is no reply deadline."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "Although Pat was the recent focus, the question foregrounds both women again, and neither expected payment.",
+        "alternatives": [
+          {
+            "meaning": "She means Inez.",
+            "answer": "Inez did not expect payment for helping."
+          },
+          {
+            "meaning": "She means Pat.",
+            "answer": "Pat did not expect payment for helping."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:24.675028+00:00"
+}

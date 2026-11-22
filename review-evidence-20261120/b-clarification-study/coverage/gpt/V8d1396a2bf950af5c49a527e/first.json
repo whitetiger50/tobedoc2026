@@ -1,0 +1,109 @@
+{
+  "id": "V8d1396a2bf950af5c49a527e",
+  "reader": "gpt",
+  "session": "01a1fc4a-ee88-70a0-9f32-a611c1803029",
+  "attempt": "attempt-01",
+  "packet_sha256": "3445b75d3e48c1cf6ef2f735f2282c1e8b4bd27811c1d27f0e3efe95bbf8d69b",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "54baa941f388e5e7e95b95ecbf86939b17460a930fdf188eed2c75dfc0ce9cda",
+  "provider_sha256": "f0e541ad05a9c86914c7f2bc1dd0a94420f18e6068a1745a2d95ea02d8c2bb74",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+        "reason": "The reply explicitly gives the expected duration for each day's outage.",
+        "A": {
+          "state": "supported",
+          "quote": "About ten minutes on Monday"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "most of the afternoon on Thursday."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+        "reason": "The reply places the tablets in the kitchen and the eye drops on the bedside table.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I did miss one, the evening before I started the lower dose.",
+        "reason": "The reply acknowledges one missed tablet in the earlier interval and explicitly denies any since starting the lower dose.",
+        "A": {
+          "state": "supported",
+          "quote": "I did miss one, the evening before I started the lower dose."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I haven’t missed any since starting it two weeks ago."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the phone alarm or the note on the door?",
+        "reason": "The reply only asks which reminder is meant and does not say whether either is still used.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:05.876705+00:00"
+}

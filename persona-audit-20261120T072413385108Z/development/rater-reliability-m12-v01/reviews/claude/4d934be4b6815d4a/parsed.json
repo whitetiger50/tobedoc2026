@@ -1,0 +1,56 @@
+{
+  "realism_score": 3,
+  "realism_reason": "환자의 답변은 대부분 자연스럽고 프로필에 맞다. 짧게 답하고, 민감한 소리 경험을 말한 직후 이웃에게 알려질지 걱정하는 모습이 설정된 경계심과 잘 맞는다. 의사의 잘못된 전제도 적절히 정정한다. 다만 P05와 P07은 자기 이전 발화를 메타적으로 정리하는 말투라 실제 환자 말로서는 약간 어색하다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주 형태, 누나의 권유, 수면 문제, 창밖 소리, 이웃 걱정, 소리와 수면의 관계에 대한 불확실성이 모두 프로필과 일치하고, 새로 확정한 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답하거나 잘못된 전제를 정정했고(P05, P06, P07), 알 수 없는 부분은 모른다고 제한했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이전 문맥에서 보인 기록 걱정이 P03의 이웃 걱정으로 이어진다. P08이 P02와 같은 내용을 반복한 것은 의사의 재확인 질문에 대한 짧은 동일 답이라 문제가 아니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "전반적으로 환자 시점의 표현이지만, P05와 P07에서 자신이 한 말을 항목처럼 구분해 정리하는 메타적 표현이 국소적으로 나타나 다소 정형적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 밤에 자주 깬다는 얘기였어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "turn:D05"
+      ]
+    }
+  }
+}

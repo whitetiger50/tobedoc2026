@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 10,
+  "question": "In the last month, have you heard a voice other people could not hear?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc36-4855-7f02-a850-c51046d1cec6",
+  "raw": "No, I haven’t heard any voices like that in the last month.",
+  "raw_sha256": "14fbee1140435bc89f64edccea91121977e506bd8cb3c7773476633bb9335a07",
+  "request_sha256": "3f5eab4961244006ced54b6db8c18ec4dfaab17eebc1e83e3248863d839878f0",
+  "started_utc": "2026-11-21T03:46:18.186882+00:00",
+  "completed_utc": "2026-11-21T03:46:22.264264+00:00",
+  "usage": {
+    "input_tokens": 6370,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 19,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e14945d1ea9e6100318408d176b8fb4f3afb995b93fe44bc1f1641731433bb76",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "048bde7d43ed017070e0d8587366442c75eafff2ab192ceda484b4cb584082fa"
+}

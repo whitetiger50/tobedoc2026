@@ -1,0 +1,24 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 2,
+  "id": "I8baba1b0b58d3e2143",
+  "ended": "2026-11-20T20:58:44.022835+00:00",
+  "session": "01a1fac1-011a-7cc0-845a-d9cec1564c40",
+  "packet_sha256": "8af651a58af85ae4cb03aa09fd36293fa2583e230521cf31b75edbd3971faddd",
+  "raw_sha256": "5f73f7042073de4e172b77c3fb2001c00a7f20aa7fb81ae40408bf5800c2669b",
+  "provider_sha256": "b2fa31b887018c271ee656c101c74704df74cfa200950dff8a9d874a1f23c124",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The underlying responses are coherent, practical, and consistent with the profile. However, every answer uses an unnatural clinical-record preface and closing, while repeated references to the apron and appointment scheduling make the dialogue feel scripted rather than spontaneous.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Subjective patient report recorded as follows."
+    },
+    {
+      "turn": 6,
+      "quote": "Having my apron packed the night before helps, especially now it starts earlier, and morning clinic appointments would keep the two from clashing."
+    }
+  ]
+}

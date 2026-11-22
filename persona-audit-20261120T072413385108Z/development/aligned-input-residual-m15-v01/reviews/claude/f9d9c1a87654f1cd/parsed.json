@@ -1,0 +1,53 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 프로필에 맞는 간결하고 협조적인 환자 말투이며, 증상에 대한 양가적 인식도 자연스럽다. 다만 P07에서 수면 질문에 답한 뒤 다음 진료 계획을 묻지도 않았는데 갑자기 덧붙이고, 답변이 프로필 문장을 거의 그대로 옮긴 듯 경직된 부분이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠지만, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 사실과 자기이해 범위 안에 있고, 새 사건이나 구체적 시각·횟수를 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 맞게 답했고, P07의 추가 진술도 수면 질문에 먼저 답한 뒤 덧붙인 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 말과 모순이 없고, P08은 직접 질문에 앞서 말한 계획을 짧게 다시 답한 것이어서 연결상 문제로 보지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P07에서 수면 상태를 말하다가 묻지 않은 다음 진료 계획을 프로필 항목처럼 곧바로 덧붙여, 설정을 순서대로 소진하는 듯한 정형성이 국소적으로 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:goal",
+        "fact:sleep"
+      ]
+    }
+  }
+}

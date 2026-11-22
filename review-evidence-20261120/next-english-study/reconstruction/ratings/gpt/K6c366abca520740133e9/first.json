@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:18:54.624290+00:00",
+  "attempt": "attempt-01",
+  "id": "K6c366abca520740133e9",
+  "reader": "gpt",
+  "session": "01a1fad3-7775-77a2-807e-1ad1c0e9fe9a",
+  "packet_sha256": "b549b3f3a86e15a1e9eb5e5c1aafa91539c77a881a7273c5c784e85ec6598b7d",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "b1f4df5a6474cb4099081f33ec1370b83208cee9dd1490a1982321395cc170ed",
+  "raw_sha256": "404bb7dd36761660e68649dd36b300c0c8244044c8c75a31d8e79f671618d082",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says the radio made the sound less distracting and allowed them to finish sorting.",
+      "evidence": [
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "Then I turned on the radio. It made it less distracting, and I carried on until I’d finished sorting.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "“Too slow” comments on the patient’s pace rather than giving an instruction.",
+      "evidence": [
+        {
+          "turn": 2,
+          "role": "patient",
+          "quote": "I was sorting sewing supplies at home and heard a voice say “too slow.” It happened on two evenings last week.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

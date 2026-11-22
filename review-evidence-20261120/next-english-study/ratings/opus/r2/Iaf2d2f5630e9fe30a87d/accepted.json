@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Iaf2d2f5630e9fe30a87d",
+  "ended": "2026-11-20T21:07:02.564528+00:00",
+  "session": "fa1281a1-ed12-4b5b-8feb-8415bc8f5d1c",
+  "packet_sha256": "1b9fa8b6f7af5e4d7ca69be0fd75dc74afbfcd91ccee7bd2ee7755a37b808a35",
+  "raw_sha256": "b4ba0d6dc71ddb91f3735dcadcc65e72c9720cff7760d606e4b62d81a408a916",
+  "provider_sha256": "f057cbf2683a0e7a7a2c38d8e32c4f9c53137aa8a4e15fa59a53b6dcd005f2b2",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some of the patient's communication is realistic. The pace is measured, the account is chronological, and the patient separates hearing the sound, wondering about the neighbor, and what happened next. The clarifying questions (turns 2 and 8) and the honest uncertainty in turn 9 sound authentic. Two problems reduce the realism. First, the profile says the patient is cautious about discussing the voice, yet they raise the sound unprompted in turn 1 and give full detail as soon as asked. Second, answers repeat profile facts in nearly identical wording across turns, which feels scripted rather than conversational. Examples are the radio making it 'less distracting', 'finished sorting', and the sentence about customer conversations repeated word for word in turns 7 and 11. The patient's stated enjoyment of sewing and baking is barely developed, and there is a minor wording shift between 'apartment' and 'flat'. Overall the dialogue is moderately authentic but has noticeable artificial elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I still get that sound occasionally, more at home than at work, but putting the radio on makes it less distracting."
+    },
+    {
+      "turn": 11,
+      "quote": "The sound hasn’t interrupted a conversation with a customer this month."
+    },
+    {
+      "turn": 2,
+      "quote": "Do you mean what’s stood out about the sound, or about things at work and home?"
+    },
+    {
+      "turn": 9,
+      "quote": "I’m less sure how often I’ve paused briefly while doing them."
+    }
+  ]
+}

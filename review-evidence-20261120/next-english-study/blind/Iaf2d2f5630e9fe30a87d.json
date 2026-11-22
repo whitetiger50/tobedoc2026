@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "background": "A 37-year-old adult works at an alterations counter and lives alone. Experiments with bread recipes on days off.",
+    "history": "Attends outpatient care for schizophrenia. An occasional voice has continued during otherwise fairly steady months on medication.",
+    "organization": "Recounts events chronologically and distinguishes the sound, the interpretation, and what happened next.",
+    "spontaneity": "Generally starts with the most recent relevant event. Happy to talk about sewing or baking.",
+    "guardedness": "Cautious about discussing the voice because of a past awkward conversation with a friend.",
+    "expression": "Measured conversational pace. Occasionally stops to clarify a word that could give the wrong impression. Usually offers a short connected account. Can explain a particular episode in greater detail.",
+    "self_understanding": "Has considered several explanations for the voice and remains unsure. Knows the experience is more distracting after work than during it.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "content": "Repairs hems and zippers at work. Listening to a radio show while making dough is a favorite evening activity.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work and home routines.",
+        "kind": "background"
+      },
+      {
+        "content": "Two evenings last week, heard a voice say “too slow” while sorting sewing supplies at home. It did not give any directions.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Hearing an unexpected sound or voice.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Sometimes wonders whether a neighbor is speaking through the wall. Also remembers hearing it once when that apartment was vacant.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Interpretation of the sound and degree of certainty.",
+        "kind": "subjective_belief"
+      },
+      {
+        "content": "Turning on the radio can make the sound less distracting. It is still possible to finish sorting thread.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Effects on a task and how the evening continues.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Takes prescribed medication before bed. Remembers the evening dose by putting the unopened packet near the toothbrush.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Treatment routine and remembering medication.",
+        "kind": "treatment"
+      },
+      {
+        "content": "Closed the alterations counter with a coworker on Friday and finished all the tickets before going home.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Recent workday and ability to finish tasks.",
+        "kind": "background"
+      },
+      {
+        "content": "The sound has not interrupted a conversation with a customer this month.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Differences between work and home.",
+        "kind": "subjective_experience"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "How have things been at work and at home since your last visit?",
+      "answer": "“Work’s been fairly steady. On Friday I closed with a coworker, and we finished all the tickets before going home. At home I’ve been doing some baking and sorting my sewing supplies. I still get that sound occasionally, more at home than at work, but putting the radio on makes it less distracting. I can carry on with what I’m doing.”"
+    },
+    {
+      "question": "What has stood out there?",
+      "answer": "Do you mean what’s stood out about the sound, or about things at work and home?"
+    },
+    {
+      "question": "I meant at home. What has caught your attention there in the last week?",
+      "answer": "Two evenings last week, while I was sorting my sewing supplies, I heard a voice say “too slow.” It wasn’t telling me to do anything. I put the radio on, and it was less distracting, so I finished sorting the thread."
+    },
+    {
+      "question": "Have you heard any sounds or voices lately that were hard to place?",
+      "answer": "Yes, that voice I mentioned, on those two evenings last week. It said “too slow.” Sometimes I wonder if it’s a neighbor through the wall, but I’ve heard it when that apartment was empty too, so I’m not sure where it comes from."
+    },
+    {
+      "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+      "answer": "The more recent of those two evenings, I was sorting thread and heard “too slow.” I wondered if it was the neighbor, but remembering I’d heard it when that apartment was empty left me unsure. I put the radio on, which made it less distracting, and finished sorting. Later, before bed, I took my medication. I keep the unopened packet by my toothbrush to remind me."
+    },
+    {
+      "question": "What sense, if any, have you made of your experiences in the evenings?",
+      "answer": "I haven’t really settled on an explanation. Sometimes I think it could be the neighbor, but hearing it when that flat was empty makes me doubt that. It’s more distracting after work than when I’m there, but I don’t know why."
+    },
+    {
+      "question": "How are you managing work tasks and the things you do in the evening?",
+      "answer": "I’m getting the work done—the hems and zippers—and the sound hasn’t interrupted a conversation with a customer this month. In the evenings it can be more distracting, but with the radio on I can still finish what I’m doing. I’m still baking and doing my sewing, too."
+    },
+    {
+      "question": "Do you ever have to stop?",
+      "answer": "Do you mean stop what I’m doing because of the sound? It can distract me, but I don’t have to leave the task unfinished. Putting the radio on helps me carry on."
+    },
+    {
+      "question": "I was asking about work. How often have you had to interrupt a task at the counter lately?",
+      "answer": "I can’t give you an exact number. It hasn’t interrupted a customer conversation this month, and I’m getting the hems and zippers finished. I’m less sure how often I’ve paused briefly while doing them."
+    },
+    {
+      "question": "What is your current routine for any medication you take?",
+      "answer": "I take my prescribed medication before bed. I keep the unopened packet by my toothbrush so it reminds me to take the evening dose."
+    },
+    {
+      "question": "Thinking just about conversations with customers, how has it been to stay with those conversations this month?",
+      "answer": "I’ve been able to stay with them. The sound hasn’t interrupted a conversation with a customer this month."
+    },
+    {
+      "question": "When you sit down to a task at home, what helps you finish it?",
+      "answer": "Having the radio on helps. When I was sorting the thread last week, it made the voice less distracting, and I finished sorting. I also like listening to a radio show while I’m making dough."
+    }
+  ]
+}

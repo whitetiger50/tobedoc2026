@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:19:52.506367+00:00",
+  "attempt": "attempt-01",
+  "id": "K403f52132686dd455a31",
+  "reader": "gpt",
+  "session": "01a1fad4-5ec6-7350-95ae-e44db070f1f2",
+  "packet_sha256": "c5d13ebf3603b29cd12a3cf35e3cf8627df0bc275d2b614a1488ae4bc6be6a8d",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "883ce331db62d87cb6ae87ba3df2f65757a3d332ca37b204128e58a9d4920ac9",
+  "raw_sha256": "ad17e979d2667d368c4d9849cb0f5222a068f12608958b24dc6eb3a40f7c6aee",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient contrasts feeling fine at the same shelter on Wednesday with Monday’s uncomfortable experience.",
+      "evidence": [
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "On Wednesday I waited at the same shelter and felt fine, unlike Monday.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient explicitly remains unsure whether the looks reflected recognition or looking for the bus.",
+      "evidence": [
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "I’m still not sure whether they recognized me or were just looking for the bus.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

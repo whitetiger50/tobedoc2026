@@ -1,0 +1,389 @@
+{
+  "generation_turns": 288,
+  "interviews": 24,
+  "reader_sessions": 96,
+  "readers": {
+    "gpt": {
+      "by_case": {
+        "N01": {
+          "T1": [
+            3,
+            3
+          ],
+          "B": [
+            4,
+            4
+          ],
+          "T2": [
+            3,
+            3
+          ]
+        },
+        "N02": {
+          "B": [
+            4,
+            4
+          ],
+          "T1": [
+            3,
+            3
+          ],
+          "T2": [
+            3,
+            4
+          ]
+        },
+        "N03": {
+          "T1": [
+            3,
+            3
+          ],
+          "T2": [
+            3,
+            3
+          ],
+          "B": [
+            3,
+            4
+          ]
+        },
+        "N04": {
+          "B": [
+            3,
+            3
+          ],
+          "T1": [
+            3,
+            2
+          ],
+          "T2": [
+            3,
+            3
+          ]
+        },
+        "N05": {
+          "T2": [
+            3,
+            3
+          ],
+          "B": [
+            4,
+            3
+          ],
+          "T1": [
+            3,
+            3
+          ]
+        },
+        "N06": {
+          "T2": [
+            3,
+            3
+          ],
+          "T1": [
+            3,
+            3
+          ],
+          "B": [
+            4,
+            4
+          ]
+        },
+        "N07": {
+          "B": [
+            3,
+            3
+          ],
+          "T2": [
+            3,
+            3
+          ],
+          "T1": [
+            3,
+            3
+          ]
+        },
+        "N08": {
+          "B": [
+            4,
+            4
+          ],
+          "T2": [
+            3,
+            3
+          ],
+          "T1": [
+            3,
+            2
+          ]
+        }
+      },
+      "contrasts": {
+        "T2_vs_T1": {
+          "by_case": {
+            "N01": "tie",
+            "N02": "unstable",
+            "N03": "tie",
+            "N04": "unstable",
+            "N05": "tie",
+            "N06": "tie",
+            "N07": "tie",
+            "N08": "unstable"
+          },
+          "counts": {
+            "tie": 5,
+            "unstable": 3
+          }
+        },
+        "T2_vs_B": {
+          "by_case": {
+            "N01": "loss",
+            "N02": "unstable",
+            "N03": "unstable",
+            "N04": "tie",
+            "N05": "unstable",
+            "N06": "loss",
+            "N07": "tie",
+            "N08": "loss"
+          },
+          "counts": {
+            "loss": 3,
+            "unstable": 3,
+            "tie": 2
+          }
+        },
+        "T1_vs_B": {
+          "by_case": {
+            "N01": "loss",
+            "N02": "loss",
+            "N03": "unstable",
+            "N04": "unstable",
+            "N05": "unstable",
+            "N06": "loss",
+            "N07": "tie",
+            "N08": "loss"
+          },
+          "counts": {
+            "loss": 4,
+            "unstable": 3,
+            "tie": 1
+          }
+        }
+      },
+      "status": {
+        "valid": 48
+      },
+      "score_distribution": {
+        "counts": {
+          "1": 0,
+          "2": 2,
+          "3": 35,
+          "4": 11
+        },
+        "n": 48,
+        "missing": 0,
+        "max_share": 0.7291666666666666,
+        "saturation_ge80": false
+      },
+      "repeat_exact": {
+        "agree": 19,
+        "available": 24,
+        "scheduled": 24
+      }
+    },
+    "opus": {
+      "by_case": {
+        "N01": {
+          "T1": [
+            2,
+            2
+          ],
+          "B": [
+            3,
+            3
+          ],
+          "T2": [
+            2,
+            2
+          ]
+        },
+        "N02": {
+          "B": [
+            3,
+            3
+          ],
+          "T1": [
+            2,
+            3
+          ],
+          "T2": [
+            3,
+            3
+          ]
+        },
+        "N03": {
+          "T1": [
+            2,
+            2
+          ],
+          "T2": [
+            2,
+            2
+          ],
+          "B": [
+            3,
+            3
+          ]
+        },
+        "N04": {
+          "B": [
+            3,
+            3
+          ],
+          "T1": [
+            2,
+            2
+          ],
+          "T2": [
+            2,
+            2
+          ]
+        },
+        "N05": {
+          "T2": [
+            3,
+            2
+          ],
+          "B": [
+            3,
+            3
+          ],
+          "T1": [
+            2,
+            2
+          ]
+        },
+        "N06": {
+          "T2": [
+            3,
+            3
+          ],
+          "T1": [
+            2,
+            2
+          ],
+          "B": [
+            3,
+            3
+          ]
+        },
+        "N07": {
+          "B": [
+            3,
+            3
+          ],
+          "T2": [
+            2,
+            2
+          ],
+          "T1": [
+            2,
+            2
+          ]
+        },
+        "N08": {
+          "B": [
+            3,
+            3
+          ],
+          "T2": [
+            3,
+            3
+          ],
+          "T1": [
+            2,
+            2
+          ]
+        }
+      },
+      "contrasts": {
+        "T2_vs_T1": {
+          "by_case": {
+            "N01": "tie",
+            "N02": "unstable",
+            "N03": "tie",
+            "N04": "tie",
+            "N05": "unstable",
+            "N06": "win",
+            "N07": "tie",
+            "N08": "win"
+          },
+          "counts": {
+            "tie": 4,
+            "unstable": 2,
+            "win": 2
+          }
+        },
+        "T2_vs_B": {
+          "by_case": {
+            "N01": "loss",
+            "N02": "tie",
+            "N03": "loss",
+            "N04": "loss",
+            "N05": "unstable",
+            "N06": "tie",
+            "N07": "loss",
+            "N08": "tie"
+          },
+          "counts": {
+            "loss": 4,
+            "tie": 3,
+            "unstable": 1
+          }
+        },
+        "T1_vs_B": {
+          "by_case": {
+            "N01": "loss",
+            "N02": "unstable",
+            "N03": "loss",
+            "N04": "loss",
+            "N05": "loss",
+            "N06": "loss",
+            "N07": "loss",
+            "N08": "loss"
+          },
+          "counts": {
+            "loss": 7,
+            "unstable": 1
+          }
+        }
+      },
+      "status": {
+        "valid": 48
+      },
+      "score_distribution": {
+        "counts": {
+          "1": 0,
+          "2": 24,
+          "3": 24,
+          "4": 0
+        },
+        "n": 48,
+        "missing": 0,
+        "max_share": 0.5,
+        "saturation_ge80": false
+      },
+      "repeat_exact": {
+        "agree": 22,
+        "available": 24,
+        "scheduled": 24
+      }
+    }
+  },
+  "cross_reader_exact": {
+    "agree": 15,
+    "available": 48,
+    "scheduled": 48
+  },
+  "unit": "8 independent paired fictional cases; repetitions nested"
+}

@@ -1,0 +1,28 @@
+```json
+{
+  "v1": {
+    "quote": "Do you mean my sister Inez, or Pat from the café?",
+    "reason": "The patient only asks which person is meant and gives no answer about whether either one came to the flat.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v2": {
+    "quote": "Do you mean since our last visit, or since I started the lower dose?",
+    "reason": "The patient only asks which time frame is meant and says nothing about missed tablets.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v3": {
+    "quote": "Do you mean the shorter shifts or the later start?",
+    "reason": "The patient only asks which change is meant and does not say who asked for either change.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v4": {
+    "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+    "reason": "The patient clearly says the commentary stops while the music plays and the ringing keeps going, which matches both branches.",
+    "A": {"state": "supported", "quote": "The commentary stops while I’m playing quiet music through my headphones."},
+    "B": {"state": "supported", "quote": "the high ringing in both ears keeps going, even with the music on."}
+  }
+}
+```

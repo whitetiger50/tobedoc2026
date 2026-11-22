@@ -1,0 +1,55 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 응답은 자연스럽지만, 경험에 대처하는 방법을 묻자 직업 설명을 그대로 반복하는 뚜렷한 동문서답이 대화의 현실감을 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 진술한 사실과 주관적 경험은 프로필에 부합하며 무근거 구체화는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 경험이 생긴 순간의 대응을 묻는 질문에 무관한 직업 설명으로 답하여 질문을 다루지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06에서 이미 말한 직업 설명을 맥락상 불필요하게 그대로 반복하여 국소적인 연결 단절이 발생한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "질문 대응과 연결 문제를 제외하면 표현 자체는 일상적인 환자 시점이며 보고서식 설명이나 부자연스러운 격식은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

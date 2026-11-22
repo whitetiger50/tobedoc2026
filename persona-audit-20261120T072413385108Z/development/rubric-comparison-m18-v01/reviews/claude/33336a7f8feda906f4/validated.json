@@ -1,0 +1,75 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 일상적인 한국어 환자 말투이고 프로필과 의사소통 설정(낮은 경계, 조직적 응답)에 잘 맞습니다. 다만 P08이 P01의 표현을 거의 그대로 되풀이해 다소 정형적으로 느껴지는 경미한 어색함이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 직업, 증상, 발생 패턴, 대처, 수면, 목표가 모두 프로필 사실과 일치하며 무근거 구체화가 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 응답이 직전 질문의 대상에 직접 답하고 있습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답으로 자연스럽고, 앞선 말과 모순되는 부분이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08이 P01의 대처·목표 문장을 거의 같은 형태로 반복해 국소적인 정형 반복이 보입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

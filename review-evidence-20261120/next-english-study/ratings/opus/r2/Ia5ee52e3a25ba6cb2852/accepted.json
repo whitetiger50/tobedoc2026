@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ia5ee52e3a25ba6cb2852",
+  "ended": "2026-11-20T21:07:28.324065+00:00",
+  "session": "11188a38-9ee5-44d5-85e6-b29d0fdc992e",
+  "packet_sha256": "10a5ec529b117a6c4ed4c2e85f285e4210066889477c80fce3ae261c9de87503",
+  "raw_sha256": "b2b273749bd7e018495ce80f4a5b599d1768ad780b490621b7bc62aa7e412a8d",
+  "provider_sha256": "978d83faaef64e7d8330e44e0209814615b936aaab8182b2591639ab0e853ffc",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's style is partly natural. The pace is measured and the clarifying questions sound real (turns 2 and 8). The patient separates the sound from how they interpret it (turns 5 and 6), which fits the profile. However, there are noticeable unrealistic elements. The profile says the patient is cautious about the voice, yet they disclose it fully and unprompted at turn 3, after a vague question, with no hesitation. Answers often read like recitations of the profile facts rather than conversation. The same phrases recur almost word for word across turns: 'finish sorting the thread' (turns 3, 5, 7, 12) and the customer-conversation line (turns 7, 9, 11). Some answers are also wrapped in quotation marks, which adds to the scripted feel. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "Do you mean at work, or at home?"
+    },
+    {
+      "turn": 3,
+      "quote": "I heard a voice say"
+    },
+    {
+      "turn": 5,
+      "quote": "a possibility, not something I"
+    },
+    {
+      "turn": 11,
+      "quote": "interrupted any conversations with customers this month"
+    },
+    {
+      "turn": 12,
+      "quote": "I was able to finish sorting the thread"
+    }
+  ]
+}

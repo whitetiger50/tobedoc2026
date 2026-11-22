@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "B",
+  "turn": 10,
+  "question": "I meant time spent on an interest. How is your concentration during that activity?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e89-74d2-86bf-97aae7d0a843",
+  "raw": "When I’m drawing at home, I can usually concentrate pretty well. I was able to finish the grocery sketch and spend time getting the window frames right.",
+  "raw_sha256": "2d4652f9e8dcf84062a922c9748c8c6a1f131a2f36ace05b62903f77b19b10b6",
+  "request_sha256": "343cc1953e5787a19cd76164a415db2f80c5b21a5fe9014386b8ca94770c5b52",
+  "started_utc": "2026-11-20T21:03:17.927949+00:00",
+  "completed_utc": "2026-11-20T21:03:22.518266+00:00",
+  "usage": {
+    "input_tokens": 81349,
+    "cached_input_tokens": 70912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 468,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "86f0dceed385824a2004a926ee94fc82495d2fa66d0c5ab9103b61fb1ff79023",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "145f19d88498bf8824bd2613a6ed56c2f2c4887cb0be904423a637e19975efc7"
+}

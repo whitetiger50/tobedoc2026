@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 12,
+  "question": "How do you feel about the amount of time you spend helping out in a typical week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-fea6-73f0-a6ec-1dfd302c16a1",
+  "raw": "The Thursday shift feels about right. I’d like to keep it as it is—long afternoons at the kitchen leave me less time to listen to my mysteries at home.",
+  "raw_sha256": "9a97746ecaf0496f95ac666cd36551bb8b21be629b34d13108c7367d4a456fd7",
+  "request_sha256": "02b64abc8717e301b275dc98ca406c4b7fcc75a5fa289f455729fddf6f7a4ae8",
+  "started_utc": "2026-11-20T21:04:02.112937+00:00",
+  "completed_utc": "2026-11-20T21:04:06.015000+00:00",
+  "usage": {
+    "input_tokens": 6766,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6b6e900681f14f63590b2beee98072de15449786bd1a5a81521f00e180b1922f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0acd7d6c498f9e8daf0f54bfc64d6d109f846f8293d1865f3891c2ff3a91d6ee"
+}

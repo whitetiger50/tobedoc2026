@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-19T11:30:48.179195+00:00",
+  "Astra": {
+    "agent": "/root/astra_m17_rubric",
+    "requested_model": "gpt-6.2-astra",
+    "requested_effort": "high",
+    "actual_response_files": [
+      "astra-round01.md",
+      "astra-round02.md"
+    ],
+    "review_turns": 2,
+    "backend_immutable_snapshot_not_independently_verified": true
+  },
+  "Claude": {
+    "requested_model": "claude-opus-5-5",
+    "effort": "high",
+    "actual_official_subscription_strategy_CLI_responses": 2,
+    "dirs": [
+      "claude-round01",
+      "claude-round02"
+    ],
+    "separate_from_numeric_raters": true
+  },
+  "initial_packet": "review-request-round01.md",
+  "followup_packet": "review-request-round02.md",
+  "same_initial_and_followup_packets_for_both": true,
+  "exact_final_text_not_sent_for_third_review": true,
+  "post_review_changes": "post-review-diff.patch",
+  "active_patient_or_judge_runtime_changed": false,
+  "proposed_criteria_files_authored": true,
+  "new_patient_outputs": 0,
+  "new_numeric_judgments": 0
+}

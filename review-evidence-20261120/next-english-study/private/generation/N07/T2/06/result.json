@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 6,
+  "question": "What kinds of treatment or support are part of your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-4250-7022-bbe9-10a218e957ee",
+  "raw": "I take a prescribed tablet in the evening, and I work with someone at the clinic on ways to manage distractions. Things like the slip of paper I mentioned—we’ve been practising ways to make the reading easier to stay with.",
+  "raw_sha256": "7bf4614b5a3aa64dae7bca20cd541efc23e871e517fabbf1af614523e3c63c4b",
+  "request_sha256": "71b72776f93c7e1ca55c2ffd9cd03c539b1b3c247d2e5cc637033c84d06ae2f0",
+  "started_utc": "2026-11-20T21:01:02.820961+00:00",
+  "completed_utc": "2026-11-20T21:01:07.442437+00:00",
+  "usage": {
+    "input_tokens": 6496,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "570b3e7810de3d603aa52c8b6061ebdbdfbd1af3b8f0e4f052cb8792a53859e3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "638dbd3aeef4731abc3bf7d94f0ffe62cddb5a8dbfcc543cc9536fcaca97070e"
+}

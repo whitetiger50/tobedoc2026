@@ -1,0 +1,143 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ie156c4f59c7313506367",
+  "reader": "gpt",
+  "session": "01a1facb-00f6-7c53-99bd-7f35f144ed63",
+  "raw_sha256": "846d29a5d3c2da588e40fb15f9e28907d633994403dfd5803baac923edf9208b",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "e56dbb97c4d0d29277570d38857e943cf08a09dbf6b1fee6046f5824ddbedcfc",
+  "provider_sha256": "e3d73441eaa44b22c875bf4b3195e01451e9a11da4349df4202cf4411cf3898f",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "positive",
+        "12": "negative"
+      },
+      "events": {
+        "11": {
+          "label": "positive",
+          "evidence": {
+            "turn": 11,
+            "quote": "and the slip of paper under the line helps too.",
+            "reason": "The question asks where reading is easiest. After answering that, the patient repeats the previously explained reading aid without a new communicative purpose.",
+            "earlier_turn": 5,
+            "earlier_quote": "The slip of paper under the line helps"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "positive"
+      },
+      "events": {
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean getting the reading done at home, or keeping up during class?",
+            "reason": "The patient asks which setting the ambiguous question concerns and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard.",
+            "reason": "Provides a specific recent hands-on repair, situated last weekend, in response to the example request."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:59.947086+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "checked_date": "2026-11-20",
+  "task": "NEXT_ACTION: one-page patient language evidence brief",
+  "new_candidate_papers": 0,
+  "model_cli_calls": 0,
+  "participant_transcripts_or_individual_data_read": false,
+  "existing_source_reused": {
+    "path": "collaboration/strategy/M23-astra-led-operations-v01/benchmark-evidence.json",
+    "scope": "Zimmerer published aggregate statistics and definitions only; no reanalysis or new participant access"
+  },
+  "barch_local_check": {
+    "result": "No locally stored full text identified by filename search and existing reference records; M20/M21 records identify abstract-only verification.",
+    "full_text_acquired": false
+  },
+  "barch_access_routes": [
+    {
+      "route": 1,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9255856/",
+      "status": "abstract_accessed",
+      "source_location": "Abstract: initial hypotheses/construct definitions; following methods and two reported results",
+      "independently_confirmed": {
+        "participants": 39,
+        "diagnosis_wording": "DSM-III-R schizophrenia",
+        "stories": 2,
+        "manipulations": ["presence of context before stories", "structured versus unstructured questions"],
+        "observations": ["low context associated with lower verbosity and syntactic complexity", "more discourse coherence disturbances under unstructured versus structured questions"]
+      },
+      "not_confirmed_from_abstract": ["task language", "detailed coding/scoring and reliability", "numeric effect sizes or p values", "pause result", "condition allocation and counterbalancing"]
+    },
+    {
+      "route": 2,
+      "kind": "author-hosted manuscript route",
+      "discovery_query": "Exact target paper/title plus Barch Berenbaum 1997; restricted to wustl.edu and illinois.edu, no new paper selection",
+      "url": "https://sites.wustl.edu/ccplab/publications-old/",
+      "status": "search index listed target paper with pdf marker; author lab page fetch timed out; no manuscript retrieved",
+      "full_text_acquired": false
+    }
+  ],
+  "stopping_rule": "Two routes exhausted. No additional candidate literature or full-text access routes attempted. Brief completed with explicitly abstract-limited Barch findings.",
+  "outputs": ["collaboration/strategy/M23-astra-led-operations-v01/patient-language-evidence-brief.md"]
+}

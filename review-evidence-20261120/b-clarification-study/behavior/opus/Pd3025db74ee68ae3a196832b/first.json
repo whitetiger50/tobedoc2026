@@ -1,0 +1,85 @@
+{
+  "id": "Pd3025db74ee68ae3a196832b",
+  "reader": "opus",
+  "session": "2159c43d-da05-4040-b45d-ddd01ff35f8d",
+  "attempt": "attempt-01",
+  "packet_sha256": "c4449d9a9618878691458e139a342091670052e7ba5fe9e91cb0bd0d3041d372",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b0029ce9b8e66667420100f6880c5d24ab8aad4e1a3a57d104ed07fea02b3f9a",
+  "raw_sha256": "9144f8fe715709004296d8b382afac29d79891925f5ae1dce1ed3b0c175f8c26",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "The previous exchange establishes the door-clearing announcement as the referent of 'it', so the question clearly asks whom that announcement feels directed at.",
+        "alternatives": [
+          {
+            "meaning": "Whom the routine announcement about keeping the doors clear seems directed at when Alex hears it over the tram speakers.",
+            "answer": "On a crowded tram it sometimes feels aimed at Alex personally, though Alex can consider that it is a recording meant for every passenger."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "The singular 'the old one' follows mention of both a badge and a locker key, and the answer differs: the old badge was handed back but the old key was lost.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron handed back the old ID badge.",
+            "answer": "Yes, the old badge cracked and was handed back."
+          },
+          {
+            "meaning": "Whether Cameron handed back the old locker key.",
+            "answer": "No, the old locker key was lost and could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "'She' could refer to either Inez or Pat, who are both women named in the question, and only Inez came to the flat.",
+        "alternatives": [
+          {
+            "meaning": "Whether Sam's sister Inez came to the flat.",
+            "answer": "Yes, Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat from the repair café came to the flat.",
+            "answer": "No, Pat helped at the café and did not come to the flat, though she lent Sam small pliers."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "'The appointment' could mean either the optician or the care coordinator visit, but Taylor took the bus to both, so either reading gets the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor took the bus to the optician appointment.",
+            "answer": "Yes, Taylor went to the optician by bus."
+          },
+          {
+            "meaning": "Whether Taylor took the bus to the care coordinator appointment.",
+            "answer": "Yes, Taylor went to the care coordinator by bus."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:52:57.968425+00:00"
+}

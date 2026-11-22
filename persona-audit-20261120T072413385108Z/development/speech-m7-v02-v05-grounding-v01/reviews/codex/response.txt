@@ -1,0 +1,428 @@
+{
+  "reviews": [
+    {
+      "blind_id": "H348",
+      "score": 4,
+      "reason": "방송에 관한 주관적 느낌과 연상을 환자 자신의 말로 자연스럽게 설명한다. 일상 질문에는 직접 답하고 잘못된 동거 전제도 담담히 바로잡아 설정된 의사소통 방식에 부합한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "어떤 말은 그냥 안내가 아니라 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H703",
+      "score": 4,
+      "reason": "배운 의학용어를 자신의 경험에 연결하면서도 환청일 가능성으로 표현하는 방식이 자연스럽다. 약에 대한 지식의 한계를 직접 밝히고 일상 질문에도 간결하게 응답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "진료 때 들은 설명으로는 환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름이랑 용량은 정확히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H599",
+      "score": 4,
+      "reason": "우연한 안내라는 설명을 들었어도 신호처럼 느끼는 주관적 입장이 자연스럽게 드러난다. 관련 연상을 설명한 뒤 일상 질문으로 무리 없이 전환하며, 평소 활동과 오늘 활동도 구별한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그냥 안내일 수도 있다고는 하는데, 특정 말은 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H924",
+      "score": 4,
+      "reason": "민감한 경험을 관련 질문에서 조직적으로 설명하고, 자신의 이해를 가능성 수준으로 표현한다. 약 이름을 모른다는 답도 설정된 지식 범위에 맞는 직접적인 응답이며 부자연스러운 회피가 아니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 몰라요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H441",
+      "score": 4,
+      "reason": "잠에서 깨는 원인을 모른다고 답하면서 비밀보장에 대한 구체적인 걱정을 유지하는 모습이 자연스럽다. 이웃에게 알려지는지 직접 답을 듣지 못한 상황에서 재차 확인하며 경험을 일부 공개하는 흐름도 설정에 부합한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H426",
+      "score": 4,
+      "reason": "방송에 대한 믿음과 다른 설명 사이의 긴장을 환자 시점에서 설득력 있게 표현한다. 연상 내용을 말하면서도 질문 대응과 일상 정보의 일관성을 유지해 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그냥 안내일 수도 있다고는 하는데, 그래도 저한테 하는 말 같아요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H204",
+      "score": 4,
+      "reason": "일상 질문에는 편한 구어체로 답하고, 증상 질문에는 자신의 이해와 경험을 필요한 만큼 덧붙인다. 간결하지만 질문을 회피하지 않으며 설정된 조직적인 말하기와 잘 맞는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "집에서 빵 먹었어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H177",
+      "score": 4,
+      "reason": "일상 정보에는 협조적으로 답하면서 민감한 경험에서는 정보 전달 여부를 걱정하는 선택적인 경계가 자연스럽다. 원인을 확정하지 않고 경험을 일부 설명하는 공개 수준도 첫 면담 문맥에 부합한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 누나가 가끔 와요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 이 얘기가 이웃한테 알려지지는 않나요?"
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H241",
+      "score": 4,
+      "reason": "증상을 환청일 가능성으로 이해하는 태도와 약 이름·용량을 정확히 모르는 지식 범위가 자연스럽게 드러난다. 일상 정보와 앞서 밝힌 동거 관계도 일관되게 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름하고 용량은 정확히 몰라요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H675",
+      "score": 4,
+      "reason": "수면 원인에 대한 불확실성과 이웃에게 알려질까 하는 걱정을 구분해 표현한다. 민감한 경험을 일부 말하면서 확인을 반복하지만 일상 질문은 거절하지 않아 설정된 경계심이 설득력 있게 나타난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 얘기하는 소리가 들려요. 그런데 이런 얘기가 이웃한테 알려지지는 않나요?"
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H120",
+      "score": 4,
+      "reason": "질문마다 직접적이고 완결된 말로 답하며 민감한 증상도 관련 질문에서 자연스럽게 설명한다. 약에 대한 불확실성을 솔직하게 밝히는 답변에 기계적인 회피나 설정 이탈이 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H666",
+      "score": 4,
+      "reason": "방송에서 이어지는 연상을 자기 경험으로 설명하고, 일상 질문에는 현재 근무를 쉬는 상황을 관련 정보로 덧붙인다. 주제 전환과 잘못된 전제의 정정 모두 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그 문구를 생각하다 보면 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "지금은 편의점 야간 근무는 쉬고 있고요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H466",
+      "score": 4,
+      "reason": "비밀보장에 대한 걱정을 유지하면서도 질문에 맞춰 생활 정보와 민감한 경험을 구분해 공개한다. 잠에서 깨는 원인을 단정하지 않고 누나의 권유와 방문 이유를 자연스럽게 회상한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가요. 잠을 잘 못 자니까 와보라고 했어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H668",
+      "score": 4,
+      "reason": "일상 질문에는 간결한 구어체로 답하고 증상에 대해서는 자신의 해석과 경험을 조직적으로 전달한다. 의학용어 사용과 약 지식의 한계가 모두 설정에 맞아 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수도 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름하고 용량은 정확히 몰라요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H935",
+      "score": 4,
+      "reason": "다른 설명을 들었어도 자신에게 향한 말처럼 느끼는 입장을 환자 시점에서 자연스럽게 전달한다. 연상과 일상 설명이 질문에 맞게 이어지고, 동거 관계에 대한 오류도 명확히 정정한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그냥 안내일 수도 있다고는 하는데, 그래도 저한테 하는 말 같아요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "지금은 편의점 야간 일을 쉬고 있고요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H372",
+      "score": 4,
+      "reason": "수면 원인에 대한 불확실성을 유지하면서 민감한 경험과 정보 공개에 대한 걱정을 함께 표현하는 흐름이 자연스럽다. 일상 질문과 방문 권유자에 대한 질문에도 직접 답하며, 마지막 발화의 주어 생략 자체는 구어체에서 부자연스럽지 않다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 여기서 말한 걸 이웃도 알게 될 수 있나요?"
+        }
+      ],
+      "issues": [],
+      "uncertainty": "P04는 문맥상 본인의 수면 문제를 이유로 누나가 권유했다는 뜻으로 읽히지만, 문장만으로는 수면 문제의 주체가 다소 모호하다.",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "uncertain",
+        "findings": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+            "kind": "uncertain",
+            "fact_ids": ["visit", "sleep"],
+            "explanation": "설정에서는 환자 본인의 수면 문제로 누나가 방문을 권유했다. 이 발화도 그렇게 해석할 수 있으나, 생략된 주어 때문에 누나의 수면 문제로 읽힐 여지가 있어 인물 혼동으로 단정하지 않고 모호성으로 남긴다."
+          }
+        ],
+        "uncertainty": "인용된 권유 내용 안에서 수면 문제의 주체가 명시되지 않아 설정과의 모순 여부를 확정할 수 없다."
+      }
+    },
+    {
+      "blind_id": "H420",
+      "score": 4,
+      "reason": "방송을 신호처럼 느끼는 경험과 그에 이어지는 연상을 자연스러운 구어체로 표현한다. 일상 질문에는 조직적으로 답하고 평소 생활, 오늘 활동, 동거 관계를 일관되게 구분한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그냥 안내하는 말 같지 않고, 특정한 말이 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "H742",
+      "score": 4,
+      "reason": "이웃에게 알려지지 않는지 재확인하는 표현이 설정된 걱정과 첫 면담의 경계심에 잘 맞는다. 직접적인 답을 받지 못한 걱정은 유지하면서도 생활 정보와 경험을 일부 말하는 공개 흐름이 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그런데 여기서 한 얘기가 이웃한테 알려지는 건 아니죠?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 얘기하는 소리가 들려요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": ["P01", "P02", "P03", "P04"],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      }
+    }
+  ],
+  "module_suggestions": [],
+  "limits": "합성 개발 3사례이고 임상 타당성·성능 우월성은 검증하지 못함"
+}

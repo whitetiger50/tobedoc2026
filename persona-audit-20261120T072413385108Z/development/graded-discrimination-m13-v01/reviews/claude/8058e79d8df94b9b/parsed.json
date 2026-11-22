@@ -1,0 +1,57 @@
+{
+  "realism_score": 3,
+  "realism_reason": "조심스러우면서도 협조적인 말투와 확신하지 않는 태도가 설정과 잘 맞아 전반적으로 자연스럽다. 다만 P02에서 거주 형태를 프로필과 반대로 말해 페르소나와의 일치도가 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필에는 성인 딸과 함께 산다고 되어 있지만, P02는 혼자 산다며 동거인이 없다고 단정해 핵심 인물 사실을 명백히 뒤집었다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "모든 응답이 직전 질문에 직접 답한다. 다만 D08은 다음 진료 전까지 할 일을 물었는데 P08은 다음 진료에서 이야기하고 싶은 내용으로 답했다. 프로필의 목표와 일치하므로 미대응으로 보지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이번 대화 안의 환자 발화끼리는 모순이나 역할 이탈이 없다. P02의 오류는 프로필과의 모순이므로 grounding에서만 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 구어체로 당사자 시점을 유지하며, 보고서식 서술이나 메타 표현이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

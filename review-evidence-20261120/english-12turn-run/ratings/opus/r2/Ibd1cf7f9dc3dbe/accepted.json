@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ibd1cf7f9dc3dbe",
+  "ended": "2026-11-20T20:47:41.722856+00:00",
+  "session": "8d160e16-5c0b-4cdd-8dff-1620f737b8dd",
+  "packet_sha256": "75861c9052fd7f71c4cdf4ccea4ea2a27adae9f5c49c0e724c3cc3b94f378407",
+  "raw_sha256": "cdc5411a6c764ebc2ffeadac2a8bc27e5c1e5b1f94fe7f5817f169b40ffe226c",
+  "provider_sha256": "eef8210c2c5b786e7cb13e292c97efeafe12afdc9fdeca1afa3392f72420312d",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The content fits the persona: a steady, engaged outpatient who can tell brief reactions apart from meaningful changes, as in turn 8. The delivery is noticeably artificial, though. In turn 1 the patient lists nearly every profile fact at once in polished prose. Profile phrasings are repeated almost word for word across turns: the change-machine line appears in turns 1, 4, 6 and 7, and the request about booking around shifts in turns 2, 11 and 12. The patient also adds few new details or personal touches, even about swimming, which they are meant to enjoy talking about. Turn 4 is awkward: the patient says what they 'meant' about the change machine although they had not been asked about it, which feels scripted rather than conversational. The style is moderately authentic but has clear unrealistic elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "but I found the stuck coin and carried on with my shift"
+    },
+    {
+      "turn": 4,
+      "quote": "I meant being startled by the change machine, rather than feeling unsettled after a busy spell."
+    },
+    {
+      "turn": 6,
+      "quote": "but I found the stuck coin and carried on with my shift"
+    },
+    {
+      "turn": 8,
+      "quote": "If ordinary sounds started unsettling me again, or seemed to have a message for me, I’d want to mention that."
+    },
+    {
+      "turn": 12,
+      "quote": "I’d like to make sure we discuss booking my follow-up visits around my rotating shifts."
+    }
+  ]
+}

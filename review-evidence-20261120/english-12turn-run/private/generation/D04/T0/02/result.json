@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What would you like us to make time for today?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-e562-7121-af28-cdd45e1117a0",
+  "raw": "I’d like to work out appointment times that fit better around my shifts. I keep both on the same wall calendar, so having dates agreed in advance would help keep the week predictable.",
+  "raw_sha256": "80c6e12816e549b5c3cd8ee1ccc24e8be6dfeebf824a72a6f00f7b41ed8fef64",
+  "request_sha256": "dee7130f9d437e5a4302b79b73c53c1240ffdcb618c5dd7c0df08518e4bc961a",
+  "started_utc": "2026-11-20T20:32:15.126109+00:00",
+  "completed_utc": "2026-11-20T20:32:19.370327+00:00",
+  "usage": {
+    "input_tokens": 6789,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "caf31ddd25a2ace413c264455162fa4d85ada9cf9138a476c5a31efd0c0b52a0",
+  "trace_sha256": "b3f7947da5e8cedc3b27a4c7df8f9fc5d5a77bf3cc27b79c2628f2824a44aba1"
+}

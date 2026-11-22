@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T2",
+  "turn": 8,
+  "question": "When do you usually do that?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-1bf6-7be0-be69-652ab0a73933",
+  "raw": "After my evening meal, I take the tablet.",
+  "raw_sha256": "31d21ead160f04bc7b5593102870abf08031532ed26e8e7381594aadbcde380c",
+  "request_sha256": "63fa873a96716a9ae0e5aaadfd72ae75d72230f26d651c2cfbab4b2b24508e0a",
+  "started_utc": "2026-11-20T21:01:58.549487+00:00",
+  "completed_utc": "2026-11-20T21:02:02.432140+00:00",
+  "usage": {
+    "input_tokens": 6383,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a6024e9eab7fea0af10ab413a03af724a3f8879b650f438130930929d4627ac7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6f993c7c5760998455bf0a90d53b6a3713a1c80e315fe9b37bd0bcd68bd23f7c"
+}

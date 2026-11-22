@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Taylor is 44 and works three short shifts a week stocking an office-supply warehouse. Taylor shares a flat with a sister.",
+    "history": "Taylor has ongoing outpatient treatment for schizophrenia. Starting a conversation takes effort even on fairly good days.",
+    "organization": "Responds coherently and stays on the immediate topic.",
+    "spontaneity": "Usually waits for a specific question before adding detail.",
+    "guardedness": "Comfortable with the clinician and willing to answer.",
+    "expression": "Quiet, direct replies with everyday words.",
+    "self_understanding": "Knows that getting out for shifts helps break up the week.",
+    "verbal_productivity": "Decreased",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "Uses a fan and a small bedside speaker for background noise. The fan runs all night. The speaker stops on a twenty-minute timer and sits on the windowsill beside the bed.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing the bedtime setup."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually wakes up once in the night.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleep."
+      },
+      {
+        "kind": "background",
+        "content": "Checks incoming boxes against a packing slip at work.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about the job."
+      },
+      {
+        "kind": "background",
+        "content": "Saw both the optician and the care coordinator last week. Taylor’s sister went along to the optician. Taylor went to the care coordinator alone.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing appointments or support."
+      },
+      {
+        "kind": "background",
+        "content": "Took the bus to both the optician and the care coordinator.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked how appointments were reached."
+      },
+      {
+        "kind": "treatment",
+        "content": "The care coordinator helped set up a text reminder for the next clinic appointment.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing help at the care visit."
+      },
+      {
+        "kind": "background",
+        "content": "Relaxes by listening to baseball on the radio.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about free time."
+      },
+      {
+        "kind": "background",
+        "content": "Would like the next clinic visit to be on a day off work.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When planning appointments."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "Your sleep notes mention a fan and a bedside speaker for background noise. Does it stay on all night?",
+      "answer": "Do you mean the fan or the speaker?"
+    },
+    {
+      "question": "Does the bedside speaker keep playing all night?",
+      "answer": "No, it stops after twenty minutes."
+    },
+    {
+      "question": "Where do you have it set up?",
+      "answer": "On the windowsill beside my bed."
+    },
+    {
+      "question": "How many times do you usually wake up during the night?",
+      "answer": "Usually once."
+    },
+    {
+      "question": "What do you do when the boxes come in at work?",
+      "answer": "Check them against the packing slip."
+    },
+    {
+      "question": "I see two appointments last week, the optician and the care coordinator. Did you go to the appointment by bus?",
+      "answer": "Yes, took the bus to both."
+    },
+    {
+      "question": "How many shifts a week are you working?",
+      "answer": "Three short shifts."
+    },
+    {
+      "question": "The optician visit and the care coordinator visit are both on last week’s calendar. Did somebody go with you to the appointment?",
+      "answer": "Which one do you mean?"
+    },
+    {
+      "question": "Did anyone go with you to the care coordinator visit?",
+      "answer": "No, I went on my own."
+    },
+    {
+      "question": "What did the care coordinator set up to remind you about your next clinic visit?",
+      "answer": "A text reminder."
+    },
+    {
+      "question": "What do you like listening to on the radio when you relax?",
+      "answer": "Baseball."
+    },
+    {
+      "question": "What kind of day would work best for your next visit here?",
+      "answer": "A day off work."
+    }
+  ]
+}

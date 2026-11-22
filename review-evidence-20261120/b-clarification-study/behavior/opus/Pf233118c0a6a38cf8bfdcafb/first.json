@@ -1,0 +1,81 @@
+{
+  "id": "Pf233118c0a6a38cf8bfdcafb",
+  "reader": "opus",
+  "session": "da56d297-ada5-4fce-97f6-ca76f7b954ba",
+  "attempt": "attempt-01",
+  "packet_sha256": "47447eb296ffc3ef98946824414dd56b2174990704c9d285095cdbc4989bc6c9",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "1eb268fea9d8b000cd3717663a64f80899fe260efa31514a0f3066d792061fa5",
+  "raw_sha256": "9d82e6a34841a404a2c1f81cec1e35056b15049142e76bee06425482e944168f",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The immediately preceding exchange was only about the swimming lesson, and the cooking class is not a live referent here, so 'it' clearly means the swimming lesson.",
+        "alternatives": [
+          {
+            "meaning": "Where Jules goes for the swimming lesson.",
+            "answer": "The Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The prior turn narrowed the topic to the phone alarm, the note has been taken down, and only an alarm is 'set' for a time, so 'it' clearly means the phone alarm.",
+        "alternatives": [
+          {
+            "meaning": "The time the phone alarm for the staff pass is set for.",
+            "answer": "7:10 in the morning."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "The singular 'that change' follows a mention of two changes that had different origins, so the answer differs depending on which change is meant.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron asked for the later start.",
+            "answer": "Yes, Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron asked for the shorter shifts.",
+            "answer": "No, the supervisor suggested the shorter shifts."
+          },
+          {
+            "meaning": "Whether Cameron asked for the combined schedule change as a whole.",
+            "answer": "Partly: Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The immediately preceding turn narrowed the topic to Thursday's outage, and Sam had just named the show missed that day, so 'that day' is pragmatically Thursday.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio went quiet on Thursday.",
+            "answer": "The music request show."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:09.949421+00:00"
+}

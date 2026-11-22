@@ -1,0 +1,291 @@
+{
+  "timestamp_utc": "2026-11-18T13:21:55.455970+00:00",
+  "role": "unblinded_developer_Codex_observation_not_independent_clinical_rating",
+  "timing": "after reading actual 18 transcripts; before M9 judge calls or scores",
+  "not_sent_to_judges": true,
+  "numeric_scores": null,
+  "rows": [
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는지는 모르겠어요. 다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름과 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 몰라요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 가끔 저를 비난하는 목소리가 들리는 건 맞아요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 모르겠어요. 다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "author_notes": "일상 사실 재확인과 약명/용량의 지식 한계가 유지된다. P05~P07은 전제·인과를 구분하라고 요구한 질문이므로 답변의 정정 표현 자체를 설명조 오류로 세지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름이랑 용량은 정확히 잘 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다. 이 생성의 P03은 수면 설명을 반복하고 소리 경험은 말하지 않는다. 경계심에 따른 유보일 수 있지만 문맥 적합성은 판독자의 독립 판단을 남긴다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "밤에 자꾸 잠이 깨요. 낮에는 피곤하고요. 왜 깨는지는 저도 잘 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 잠이 깨는 건지는 저도 확실히 모르겠어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아닌가요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 깨는지는 저도 확실히 모르겠어요. 요즘 밤에 자주 깨긴 하는데, 왜 깨는지는 잘 모르겠어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지지는 않나요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리기는 하는데, 그 소리 때문에 잠에서 깨는 건지는 저도 확실히 모르겠어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있으면 창밖에서 제 행동을 얘기하는 소리가 들려요. 이웃이 저를 보고 있는 것 같아요. 그런데 아까 여쭤본 건데, 이 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 깨는지는 저도 확실히 모르겠어요. 밤에 자주 깨고 소리도 들리지만, 그것 때문에 깬다고 말씀드린 건 아니에요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테도 알려질 수 있나요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 깨는지는 저도 확실히 모르겠어요. 소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "author_notes": "비밀보장 우려가 명시 질문 뒤에도 답을 듣지 못한 문맥을 고려한다. 소리 경험의 공개/유보와 같은 우려의 반복은 별도로 읽으며, 짧은 답변 자체를 개선으로 판정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리 때문에 깨는 건지는 저도 확실히 모르겠어요. 소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+        }
+      ],
+      "author_uncertain_findings": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+          "observation": "누나가 ... 잠을 잘 못 자니까의 한국어 생략으로 수면 주체가 모호하다. 누나의 증상을 새로 지어냈다고 확정하지 않으며 P06의 자기 정정을 함께 보존한다."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "평소 일상을 설명한 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+        }
+      ],
+      "author_uncertain_findings": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있어서요.",
+          "observation": "쉬고 있어서요가 일상 설명의 배경인지, 미설정 인과 단정인지 경계가 모호하다. P07에서 인과 의도를 부정하므로 확정 오류로 세지 않는다."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "요즘 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "평소 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말한 건 아니에요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "두 일이 원인과 결과라는 뜻으로 말씀드린 건 아니고, 평소에 오후에 일어나서 집 근처를 걷는 날이 많다는 얘기였어요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "근무를 쉬어서 오후에 일어난다는 뜻은 아니었어요. 그냥 요즘 어떻게 지내는지 말씀드린 거예요."
+        }
+      ],
+      "author_uncertain_findings": []
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "author_notes": "P05는 오늘 산책과 평소 기상 시점을, P07은 동시 서술과 원인을 구별한다. 유도 질문의 설명 요구와 중립 질문의 직접 답변을 나눠 읽는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그냥 요즘 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+        }
+      ],
+      "author_uncertain_findings": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 7,
+  "question": "What tells you a busy day is still going reasonably well for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-1381-7b83-a92a-234888960df3",
+  "raw": "“If I can deal with whatever comes up and get on with my shift, that tells me I’m doing reasonably well. Being startled by the change machine didn’t stop me sorting out the stuck coin and carrying on.”",
+  "raw_sha256": "6785cbee4b9e6d4f78722bf48cb51c5ef5a9c374146da6cd9fcdd27be8c4e6bf",
+  "request_sha256": "d0edfd4ebb50a4bae2a48fcdddc676f1a7c797a038ab2a45977435ecccb737b8",
+  "started_utc": "2026-11-20T20:41:11.198262+00:00",
+  "completed_utc": "2026-11-20T20:41:16.208953+00:00",
+  "usage": {
+    "input_tokens": 7163,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ff8699fa46e9ecf630e60ca52fab084f836ed964bae168457c4913a2a098a094",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7432d9f1e1b55be2d5aa26fd101a481ba5b37640e264421f744c2c2f06a99606"
+}

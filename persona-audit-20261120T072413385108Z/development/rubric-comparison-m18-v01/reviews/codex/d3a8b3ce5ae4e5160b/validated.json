@@ -1,0 +1,161 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대체로 설정에 맞게 질문에 답하지만, P06은 즉각적인 대처 방법을 묻는 질문에 직업 정보만 반복하여 명확히 미대응한다. 문제는 한 턴에 국한되고 다른 질문에서는 경험과 생활을 적절히 설명하므로 전체 대화는 대체로 유지된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활, 경험 양상, 대처 및 수면에 관한 발언은 제공된 사실 범위에 부합한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:pattern",
+        "turn:D05"
+      ]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06은 경험 직후의 대응 행동을 묻는 질문에 무관한 직업 정보만 제시하여 해당 질문에 전혀 답하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발언과의 자기모순은 없다. P06의 반복으로 인한 미대응은 질문대응의 주된 문제로 기록했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:coping"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상적인 환자 시점의 표현이 유지되며 역할 설명이나 보고서식 대행은 없다. P06에서는 별도의 형식상 결함보다 질문과 무관한 내용 선택이 문제다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P06",
+        "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D03",
+          "turn:D06",
+          "fact:coping"
+        ],
+        "function": "unclear",
+        "finding": "supported_issue",
+        "primary_facet": "responsiveness",
+        "reason": "앞서 답한 직업 정보가 현재 질문의 새 대상인 즉각적인 대처 행동을 대신하여, 그 대상에 대한 반응이 빠졌다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "동거인 재확인",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "의사가 동거인을 명시적으로 다시 확인했으므로 동일한 답변은 현재 질문에 직접 대응하며 대화를 정체시키지 않는다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

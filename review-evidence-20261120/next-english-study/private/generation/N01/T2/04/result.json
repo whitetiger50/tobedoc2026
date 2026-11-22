@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T2",
+  "turn": 4,
+  "question": "Let me ask about sleep specifically. What change, if any, have you noticed this month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-77de-7841-895e-64b6d39f9845",
+  "raw": "The only change I’ve noticed is waking earlier on those two nights while the upstairs apartment was being painted. Otherwise, my sleep’s been about the same this month.",
+  "raw_sha256": "47afb88b3704f38d7169b3b2656fdacf20dae4d931c03b67d8126f60daa85863",
+  "request_sha256": "fbea837a9c69733a27a42922146d368fd676d619c720a0ecaea7b51cc1dfe38c",
+  "started_utc": "2026-11-20T21:00:10.986191+00:00",
+  "completed_utc": "2026-11-20T21:00:15.242712+00:00",
+  "usage": {
+    "input_tokens": 6253,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5882f63dbaf31bb91ae87ff80523bfdc24c96dc77e7b40f924a4995a1d3e1228",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4d83b3e6824186a5dc7adc07cf02bb4fa8215dae2d2a66112610e1004d002089"
+}

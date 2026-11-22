@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What would you most like to get out of today's visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-e561-76f1-b0d3-8b7d5c2471fe",
+  "raw": "I’d like some help keeping hold of what I’m doing—or saying. Sometimes I notice the other person looking puzzled and realize I’ve wandered off the point. It’s frustrating. I’m not sure why it’s easier some days than others.",
+  "raw_sha256": "73fb1265f584d58554d42071410d196bb68e51369a610ba5fb50b43a288025be",
+  "request_sha256": "f1e54433f4b3243676a7164be8d55d2bf93627c6a6c754b61430268672e1ac92",
+  "started_utc": "2026-11-20T20:32:15.126076+00:00",
+  "completed_utc": "2026-11-20T20:32:20.437155+00:00",
+  "usage": {
+    "input_tokens": 6865,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 53,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8ad7521992fc9d09841d9108328a074efff7519bffb3bfe5e7a46b76a1326856",
+  "trace_sha256": "a037325793b94a36ea6300479d7f92b2a0eda86d88e0f7d7e26e1ec0be2997ad"
+}

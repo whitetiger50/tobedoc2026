@@ -1,0 +1,81 @@
+{
+  "id": "Pae4f2df930f5f1708148b7ba",
+  "reader": "gpt",
+  "session": "01a1fc3d-2e6c-7360-96a5-1df6d2696408",
+  "attempt": "attempt-01",
+  "packet_sha256": "533306927a35f8fec12b2648e760fd4e4a79d84185bf36008f0e2767be354954",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "67b7b3f2a5d83bc919e85467b3daa45e13bebc9d80e3c730bb9d160731541217",
+  "raw_sha256": "b3430fcc9423294a9edd78dc49d9b49133fc47c54e7820df2d5f1ebd58e5f064",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "Both transport modes remain live referents, and Alex boards them at different stops.",
+        "alternatives": [
+          {
+            "meaning": "Where Alex boards the number 8 bus.",
+            "answer": "Alex boards the bus at Orchard Road."
+          },
+          {
+            "meaning": "Where Alex boards the tram.",
+            "answer": "Alex boards the tram at Bell Square."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you hear it in just one ear or in both?",
+        "reason": "The immediately preceding exchange establishes the high ringing as the referent of 'it'.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high ringing is heard in one ear or both.",
+            "answer": "The high ringing is heard in both ears."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The explicit framing of early and late shifts invites an account covering both routines rather than requiring selection of an unidentified shift.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan gets home across the early and late shifts.",
+            "answer": "Morgan takes the bus after an early shift and gets a lift from a coworker after a late shift."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "Both Inez and Pat are live antecedents for 'she', and only Inez came to the flat.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez came to Sam's flat.",
+            "answer": "Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat came to Sam's flat.",
+            "answer": "Pat helped at the repair café and did not come to the flat."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:21.091459+00:00"
+}

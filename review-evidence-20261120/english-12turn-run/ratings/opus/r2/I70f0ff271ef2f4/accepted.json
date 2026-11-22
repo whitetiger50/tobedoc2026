@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I70f0ff271ef2f4",
+  "ended": "2026-11-20T20:37:18.393201+00:00",
+  "session": "df333612-b0b6-454e-ba0d-1648e5f53fe6",
+  "packet_sha256": "43155627f3baa19a19c0c2a31893186c2cc251609b5bf28b9b638c57e5c597c3",
+  "raw_sha256": "676b30f3604367589d7c78bd10fe9d1d1e5fd806b63fe4d5f2cc272a16f629b0",
+  "provider_sha256": "e46d11ca775188a6d015b64e939135d276ead9c5a2fe0aaedf81ae732ae7ea72",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient has some realistic moments: sheepishness about checking the door, attributing the voice tentatively to tiredness, asking for clarification, and asking about confidentiality. Overall, though, the speech reads like a recitation of the profile rather than a real outpatient talking. The opening answer lists background, medication, the symptom change and the work worry in compressed, checklist-like sentences. Sensitive material (the voice and the Monday door-checking) comes out in full by turn 2, which clashes with the described guardedness and deliberateness about personal experiences. Profile phrases recur almost verbatim across turns (framing shop/mounting prints, 'kept taking my tablet', 'worry people at work might find out'). The patient is supposed to be talkative about familiar work, yet work talk is terse and formulaic. Answers to concrete questions are flat restatements without elaboration or personal detail. This yields only moderate authenticity.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I live alone, work part time at a framing shop, and like mounting prints best. I still take my evening tablet. What I hear at home has changed."
+    },
+    {
+      "turn": 5,
+      "quote": "I work part time at a framing shop and like mounting prints best."
+    },
+    {
+      "turn": 6,
+      "quote": "I made tea and packed lunch before work this week."
+    },
+    {
+      "turn": 2,
+      "quote": "I feel a bit silly."
+    },
+    {
+      "turn": 12,
+      "quote": "Can you tell me who’d be told?"
+    }
+  ]
+}

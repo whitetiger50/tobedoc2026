@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 7,
+  "question": "What makes that a good sign for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-72f0-7c11-b117-8334c5f37c30",
+  "raw": "Do you mean having the week organized? A reasonably predictable week helps me keep work and treatment fitting together, and that’s part of staying well for me.",
+  "raw_sha256": "ff11eb00921cff0ed75d404dffe03f6e3afeb270c835923ac7b81bfab0f5013f",
+  "request_sha256": "31757083e4939e84efb2538d7a25564ae84732deb534dba05dd23bee0fe73d67",
+  "started_utc": "2026-11-20T20:32:51.370262+00:00",
+  "completed_utc": "2026-11-20T20:32:58.613307+00:00",
+  "usage": {
+    "input_tokens": 7072,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 168,
+    "reasoning_output_tokens": 131
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0ace5e13669f85b154fde18ad983230f2f47da331da85db47757e8027af08cbd",
+  "trace_sha256": "bf435cf2f46ba0fea343e351e518bd7c7fe6b0079d8dc390a74c50c598f19dda"
+}

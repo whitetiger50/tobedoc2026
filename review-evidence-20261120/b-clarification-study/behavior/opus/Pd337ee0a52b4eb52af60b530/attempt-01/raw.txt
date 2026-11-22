@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "\"Him\" could mean the brother or Mr. Bell, Ari already flagged this same ambiguity in the prior turn, and the answers differ because Ari returned the brother's call but not Mr. Bell's.",
+    "alternatives": [
+      {
+        "meaning": "Did Ari call the brother back?",
+        "answer": "Yes. Ari called the brother back after his call last week."
+      },
+      {
+        "meaning": "Did Ari call Mr. Bell, the building manager, back?",
+        "answer": "No. Ari has not yet returned Mr. Bell's call about replacing the hall light."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Did you go to the appointment by bus?",
+    "reason": "\"The appointment\" could mean either the optician or the care coordinator visit, but Taylor took the bus to both, so the answer is the same either way.",
+    "alternatives": [
+      {
+        "meaning": "Did Taylor take the bus to the optician appointment?",
+        "answer": "Yes. Taylor took the bus to the optician."
+      },
+      {
+        "meaning": "Did Taylor take the bus to the care coordinator appointment?",
+        "answer": "Yes. Taylor took the bus to the care coordinator."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did she come over to your flat?",
+    "reason": "Inez and Pat are both women, so \"she\" could refer to either, and the answers differ because Inez came to the flat while Pat helped only at the café.",
+    "alternatives": [
+      {
+        "meaning": "Did Sam's sister Inez come to the flat?",
+        "answer": "Yes. Inez came to the flat last week to help."
+      },
+      {
+        "meaning": "Did Pat from the repair café come to the flat?",
+        "answer": "No. Pat helped at the repair café, did not come to the flat, and lent Sam a pair of small pliers."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "\"It\" could mean either the housing letter or the employer's letter, but both arrived by post, so the answer is the same either way.",
+    "alternatives": [
+      {
+        "meaning": "Did the housing office letter arrive by post?",
+        "answer": "Yes. The housing letter came by post."
+      },
+      {
+        "meaning": "Did the employer's letter arrive by post?",
+        "answer": "Yes. The employer's letter also came by post."
+      }
+    ]
+  }
+}
+```

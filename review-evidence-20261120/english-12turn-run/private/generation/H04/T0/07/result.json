@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "T0",
+  "turn": 7,
+  "question": "What would that tell you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-dbfe-7603-9f1a-3372e7384d4c",
+  "raw": "“I’d take it as a sign I’m keeping up with my usual routine. The earlier start was annoying, but I could adjust and still do something I enjoy.”",
+  "raw_sha256": "3e8ada5d0764e00c91f4b50a97807ae5c3935f2268bff7120a554fa9a94ac672",
+  "request_sha256": "23cfec0d7e06b9b7963fb7cd507f7d9d7a4e245ee78318ff2ca1b78889a43f63",
+  "started_utc": "2026-11-20T20:40:56.996313+00:00",
+  "completed_utc": "2026-11-20T20:41:04.005394+00:00",
+  "usage": {
+    "input_tokens": 7175,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 127,
+    "reasoning_output_tokens": 88
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8e3310ecb49bb2160fcd2102ec818d6ebb9baf8e6f2410a42a8fd0733483dd71",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b7a2fd92ab04ca139111c5e8e84e81913be57ee80756d4e6e062c65ee2fc0984"
+}

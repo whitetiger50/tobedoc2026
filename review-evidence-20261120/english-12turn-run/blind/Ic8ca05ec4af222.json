@@ -1,0 +1,99 @@
+{
+  "profile": {
+    "background": "An adult who does evening stock checks at a stationery store and rents a room in a shared house. They like folding paper models.",
+    "history": "They remember their clinician explaining a diagnosis of schizophrenia. They have been going to the outpatient clinic regularly. A worry about bits of overheard conversation has become more noticeable over the last two weeks.",
+    "organization": "Explains the order of events clearly and can separate what someone actually said from what it seemed to imply.",
+    "spontaneity": "Converses readily about the store and thinks carefully before sharing a personal worry.",
+    "guardedness": "Cautious about neighbors or coworkers hearing about the worry.",
+    "expression": "Attentive and mildly tense in noisy places, more relaxed when talking about making things.",
+    "self_understanding": "Is unsure why unrelated remarks can feel personally relevant. Recognizes that other people might hear them differently.",
+    "facts": [
+      {
+        "content": "On a recent bus journey two passengers talked about the last stop. For a moment it felt like a comment intended specifically for them.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Hard to mention without some privacy.",
+        "kind": "subjective_belief"
+      },
+      {
+        "content": "The feeling is stronger on crowded rides home than when stocking shelves in the quiet shop.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Can compare these settings from memory.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "They still take the bus and usually sit toward the front.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Comfortable talking about getting to work.",
+        "kind": "background"
+      },
+      {
+        "content": "A housemate occasionally folds paper models with them after dinner. Handling the paper helps occupy their attention.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Likes talking about this shared activity.",
+        "kind": "background"
+      },
+      {
+        "content": "They take prescribed medication with breakfast and would like to tell their clinician about the rides home.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Willing to discuss with a clinician.",
+        "kind": "treatment"
+      }
+    ],
+    "verbal_productivity": "Normal"
+  },
+  "dialogue": [
+    {
+      "question": "How have you been spending your time outside this clinic?",
+      "answer": "I do evening stock checks at a stationery store. At home I like folding paper models—a housemate sometimes joins me after dinner. Having something to do with my hands helps keep my attention on the paper."
+    },
+    {
+      "question": "What brought you in for a conversation today?",
+      "answer": "“I wanted to talk about the bus rides home. Over the last two weeks, bits of conversation I overhear have started to feel like they’re meant for me, though I’m not sure why. I’d rather my coworkers or neighbors didn’t hear about this.”"
+    },
+    {
+      "question": "Does it happen more at one time than another?",
+      "answer": "“It’s stronger on crowded bus rides home. I notice it less when I’m stocking shelves in the quiet shop.”"
+    },
+    {
+      "question": "I mean feeling uneasy around other people, if that comes up. Have you noticed any particular time of day when it happens?",
+      "answer": "“I notice it most on the ride home after my evening shift. I’m not sure it’s the time of day—it seems more to do with how crowded the bus is.”"
+    },
+    {
+      "question": "How do you get home after a shift?",
+      "answer": "I take the bus home. I usually sit toward the front."
+    },
+    {
+      "question": "Could you give me an example of something that caught your attention on a recent journey?",
+      "answer": "“On one ride, two passengers were talking about the last stop. For a moment, it felt like the comment was meant specifically for me, though they were just talking to each other. I’d rather my coworkers or neighbors didn’t hear about this.”"
+    },
+    {
+      "question": "When you hear that sort of thing, how do you take it?",
+      "answer": "“It feels like they mean me, even though they’re talking to each other. I’m not sure why I take it that way—someone else might hear it as just a conversation about the last stop.”"
+    },
+    {
+      "question": "I mean overheard remarks in public. How do you decide whether a remark has anything to do with you?",
+      "answer": "“I don’t have a clear way of deciding. It feels personal for a moment, but that doesn’t mean they actually mentioned me. With the last-stop comment, they were talking to each other—someone else might not have taken it personally.”"
+    },
+    {
+      "question": "Who do you feel comfortable spending quiet time with?",
+      "answer": "\"My housemate. Sometimes we fold paper models together after dinner. I’m comfortable with that—just working on something with our hands.\""
+    },
+    {
+      "question": "What helps you settle back into the evening after a busy journey?",
+      "answer": "Folding paper models helps. Having the paper in my hands gives me something to focus on. Sometimes my housemate joins me after dinner, which I enjoy."
+    },
+    {
+      "question": "What would you like your clinician to know about how treatment is going?",
+      "answer": "I’m taking my prescribed medication with breakfast and coming to the clinic regularly. I’d like my clinician to know that overheard conversations on the bus have felt more personal over the last two weeks. I’m not sure why that’s happening."
+    },
+    {
+      "question": "What have we missed that you hoped to talk about?",
+      "answer": "“I’d like to understand why those conversations have started feeling personal. And I’m still concerned about privacy—who will hear about what we’ve discussed?”"
+    }
+  ]
+}

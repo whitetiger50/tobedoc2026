@@ -1,0 +1,27 @@
+{
+  "case": "H05",
+  "arm": "T1",
+  "turn": 3,
+  "question": "What, if anything, has seemed different about the sounds around you over the last couple of weeks?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-979d-7720-8043-03bbb144b297",
+  "raw": "For about ten days, I’ve occasionally heard a voice I can’t place, commenting on what I’m doing. It’s brief, and I notice it more when the room is quiet. I wonder whether my mind is supplying it, but it sounds quite distinct at the time. I’m still worried about what my family would make of it.",
+  "raw_sha256": "4da4f4213da7309911c89c285c1d07892e2f0c15e6699f70636606ce7b9a6f4a",
+  "request_sha256": "5c44e7684217bfbf53c9aa2b94f00f68c6c7d4ae49e57a881fe4238993135317",
+  "started_utc": "2026-11-20T20:37:22.875401+00:00",
+  "completed_utc": "2026-11-20T20:37:27.333413+00:00",
+  "usage": {
+    "input_tokens": 7059,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 73,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8b83d3cf6f56d4a25468972b31b618364ca6992815d017e0fbb2abc7577e3b6e",
+  "trace_sha256": "388a98e480613a092bf62a4c530db415271716ff162c8f4e9374265a1ec8fcc3"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What was one part of this past weekend that you remember well?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a4f-7220-aa97-389528c920d9",
+  "raw": "Repotting a basil plant with my sister after lunch. I’d walked over to her place—I usually take her some herbs and come home with leftovers. She’d set this pot aside for us to do together. That was nice, just having something to do with our hands. It felt easy.",
+  "raw_sha256": "0d00e89ec9cd74fd3411c472805d080bf8ff0c9ae688d6080227f244018fc245",
+  "request_sha256": "cbd63468aa6b4d1f33f2bf57e37437e256383d0da98e93046f85d2589e504359",
+  "started_utc": "2026-11-20T20:58:04.615096+00:00",
+  "completed_utc": "2026-11-20T20:58:09.429481+00:00",
+  "usage": {
+    "input_tokens": 6021,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "efef2c1a74aa00f6ff369edb8003aa89cd32dfd994ea5196903d318bf6be25e2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5f18f902a3664f0ae29b3cd62080cc72492c54bc8a144e7b96d93822f6f46638"
+}

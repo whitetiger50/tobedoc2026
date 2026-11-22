@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "수면 원인에 대한 불확실성을 유지하면서 질문에 간결하게 답하고, 해소되지 않은 비밀보장 우려를 다시 묻는 흐름이 설정과 일치하며 자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 상황과 소리 경험은 프로필에 근거하며, 소리와 각성 사이의 인과를 확정하거나 새로운 사실을 추가하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 답하면서 관련된 비밀보장 우려를 덧붙인다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥과 일관되며, 이웃에게 알려지는지에 대한 직접 답변을 받지 못해 재질문하는 흐름도 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "짧고 조직적인 답변과 선택적인 경험 공개가 낯선 면담자에게 조심스러운 환자의 표현으로 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

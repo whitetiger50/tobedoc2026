@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do you fit it in?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-faf5-78d3-8296-17ec6ef8afe2",
+  "raw": "“I pack my apron the night before so I’m ready for the earlier start. I’d prefer morning clinic appointments so they don’t clash with class.”",
+  "raw_sha256": "7bde0f64b9589a494c53855eb42770669c04abaf6e9777fc41d82ef299f03662",
+  "request_sha256": "d3ba8b30feea53388847c436999d21e3448419491373a4a63c4accd2d8744aa4",
+  "started_utc": "2026-11-20T20:39:59.385838+00:00",
+  "completed_utc": "2026-11-20T20:40:03.186635+00:00",
+  "usage": {
+    "input_tokens": 7036,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e44138e6254a1bfbe0337fd70ee55aa0d6b7efcc93490ac49944d041bf0009f5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "eae72066a369aea9463b41f30249e693c08a237097e52a3ae68e34971b665c0c"
+}

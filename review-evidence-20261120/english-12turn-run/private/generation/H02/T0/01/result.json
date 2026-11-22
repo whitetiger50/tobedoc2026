@@ -1,0 +1,27 @@
+{
+  "case": "H02",
+  "arm": "T0",
+  "turn": 1,
+  "question": "What has a typical week looked like for you lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed52-7f71-aaa2-3392f68e2f5d",
+  "raw": "“I’ve been helping sort donations at the neighborhood book exchange. I especially like repairing torn dust jackets—you can make a battered book look quite respectable. The first hour, before the other volunteers arrive, is usually easier. Once it’s busy, an interruption can make it hard to get back to the pile I was sorting. I’ve started putting a blank bookmark where I stopped. That was my own idea, and it helps.”",
+  "raw_sha256": "52bdb894364f2cfb6e53695961af523180a4fb599d7fdeb17960d6976e23d418",
+  "request_sha256": "1b64b9b512d997cf6638f69ab8dcacd6cbc2c080ebe0b2a03c7f2d693a406f04",
+  "started_utc": "2026-11-20T20:36:39.283738+00:00",
+  "completed_utc": "2026-11-20T20:36:46.353627+00:00",
+  "usage": {
+    "input_tokens": 6745,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 144,
+    "reasoning_output_tokens": 53
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "642acb23db0e973776a8af8ac70094e3b9b4dc6945557abfd1f99a50448e0dce",
+  "trace_sha256": "ec55333ad2dfe76835c690c47944dda4cd1a98023ec5ebb13fbb4aec4e5ab315"
+}

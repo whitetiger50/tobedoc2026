@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 9,
+  "question": "Let me ask about physical discomfort. How does it affect the things you do in the afternoon, if at all?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "The dry mouth is a nuisance, but it doesn’t really stop me doing anything. I keep water nearby and take a sip when I need to.",
+  "raw_sha256": "6af6d3d096af080fff37a03d8d7bfab580df9ad40054c3f2f52e294a502fedd9",
+  "request_sha256": "54eb07219065eafe0aa2e3414d99122e01029de8c75815ff84e780fc81e32208",
+  "started_utc": "2026-11-20T21:02:50.384449+00:00",
+  "completed_utc": "2026-11-20T21:02:55.010141+00:00",
+  "usage": {
+    "input_tokens": 72538,
+    "cached_input_tokens": 62720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 363,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e34840a9fad725f911e8e13197e19ce121aca8b0e236e1cb117650154abd786e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4a162aaebdd2869e251c1430397bec571b5081ab9dbc0850eccd1cca6231be84"
+}

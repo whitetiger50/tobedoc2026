@@ -1,0 +1,64 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "모든 응답이 프로필과 맞고 질문에 직접 답하며, 증상을 병으로 볼지 실제 소리로 느낄지 갈등하는 모습도 자연스럽다. 다만 프로필 문구를 거의 그대로 옮긴 듯한 짧고 평평한 답이 이어져 실제 환자 대화로서는 약간 정형적이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 잠들기 전 조용할 때 가끔 그래요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "오늘 아침에는 집에서 주먹밥을 먹었어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 고정 사실과 self_understanding 범위 안에 있고, 새로운 사건, 시각, 횟수를 덧붙이지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P01에서 말한 증상 시점과 P05의 설명이 일관되고, 자기모순이나 문맥 이탈이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 일상적 구어 표현이며, 역할 설명이나 보고서식 대행은 보이지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

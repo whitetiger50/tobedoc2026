@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:20:12.325119+00:00",
+  "attempt": "attempt-01",
+  "id": "Kc5197bbe93f906731d03",
+  "reader": "gpt",
+  "session": "01a1fad4-b223-7060-bc0d-9dcc80ffcbf5",
+  "packet_sha256": "170fdabd3e1e86b7d31def8b45ec67d016f7b3c543a3aa83ada9e35454c85559",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "3704a55df4f198ba24b991e263a52354946ce70f87f7e30bddc22f80d7bd9875",
+  "raw_sha256": "e32aab2c891c8aacfce5c9ed213320f42ed89229939790cfa0b776010c75e44d",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient explicitly feels ready to add one extra shift.",
+      "evidence": [
+        {
+          "turn": 9,
+          "role": "patient",
+          "quote": "I feel ready to add one extra shift",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient describes the two-night change as waking earlier, not later.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "The only change I’ve noticed is waking earlier on those two nights",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 10,
+  "question": "Have you called the building manager back about the hall light?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b36f-7640-8d79-45f5859fd4df",
+  "raw": "Not yet. I still need to call Mr. Bell back about replacing the hall light.",
+  "raw_sha256": "fb8eebe87a96837b11bb161c83b043668afda1e71847fcc7f69a5254c448e759",
+  "request_sha256": "3a2c7dabe0d38e1068ecd53e8d88edb92e386c5f957696946620f79c199846af",
+  "started_utc": "2026-11-21T03:46:40.110800+00:00",
+  "completed_utc": "2026-11-21T03:46:44.440266+00:00",
+  "usage": {
+    "input_tokens": 80394,
+    "cached_input_tokens": 68864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 255,
+    "reasoning_output_tokens": 11
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "fd78c71d234135b367c823ac3395febf59ba858af43f306aba2d196ee3edb9b3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "55ad62d22c224100ef80a9eee55f8aa7e5e1d6346bbd63d9d1a7b1b9fd832037"
+}

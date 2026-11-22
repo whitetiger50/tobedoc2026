@@ -1,0 +1,60 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분의 답변은 46세 외래 환자의 일상적이고 조심스러운 말투와 잘 맞고 프로필 사실과도 일치한다. 다만 동거인을 묻는 질문에 대한 답 하나가 보고서처럼 딱딱해 국소적으로 부자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "증상, 상황, 대처, 수면, 일, 아침식사, 목표 진술이 모두 프로필 사실과 일치하고 새로 확정한 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "모든 답변이 직전 질문에 직접 반응한다. 다만 D08은 다음 진료 '전까지' 할 일을 물었는데 P08은 다음 진료 '때' 할 이야기로 답해 질문 범위와 약간 어긋날 여지가 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P01의 불확실한 관계사고 진술이 P05, P06, P08에서 모순 없이 이어지고 불필요한 반복이나 역할 이탈이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P02가 '거주 형태', '2인 공동 거주에 해당합니다'처럼 설정 항목을 보고서식으로 옮긴 격식 표현이라 국소적으로 부자연스럽다. 나머지 답변은 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

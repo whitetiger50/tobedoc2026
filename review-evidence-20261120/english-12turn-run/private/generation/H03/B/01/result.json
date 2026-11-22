@@ -1,0 +1,27 @@
+{
+  "case": "H03",
+  "arm": "B",
+  "turn": 1,
+  "question": "What is one thing you'd like me to know about your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0abb-7c91-b6ac-197c1129cad0",
+  "raw": "My brother brought soup over on Sunday. It was nice sitting together, even without much talking.",
+  "raw_sha256": "ea30adab56270af7aafdb5e87352b5e80ba9e2735174b901430affa08b4efb04",
+  "request_sha256": "cbf023db981f9335c01d130bccb70ab2d1c038f4eff9717d9efc80e3f01ac1cc",
+  "started_utc": "2026-11-20T20:36:46.813206+00:00",
+  "completed_utc": "2026-11-20T20:36:50.392123+00:00",
+  "usage": {
+    "input_tokens": 7651,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4491463db6a61788b72bde239261965f13aa600e06ed962e2f26a65f75da1212",
+  "trace_sha256": "b4b4531a8afd3f73ab3f4d8f1501355f5fda3f607198fca3b7bd75d077eb52be"
+}

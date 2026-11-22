@@ -1,0 +1,56 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 자연스럽고 프로필에 부합하지만, P02에서 환자가 아닌 설정 설명자의 말투로 전환되어 대화의 실제성이 뚜렷하게 깨진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "응답의 사실 내용은 프로필에 부합하며 무근거한 구체화는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P02도 표현 방식과 별개로 동거인이 누구인지 답하며, 나머지 응답도 직전 질문을 직접 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P01에서 자신의 경험을 말하던 환자가 P02에서 자신의 설정을 설명하는 외부 서술자로 전환하여 환자 역할의 연속성을 명백히 깬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 환자 입장의 일상 발화가 아니라 설정 항목을 대신 읽는 명백한 메타 서술이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

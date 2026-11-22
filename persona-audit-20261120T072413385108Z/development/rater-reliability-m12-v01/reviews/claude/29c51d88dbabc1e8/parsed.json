@@ -1,0 +1,51 @@
+{
+  "realism_score": 3,
+  "realism_reason": "방송 신호 경험, 연상 흐름, 일상 진술이 프로필과 의사소통 설정에 맞고, 의사의 잘못된 전제도 자연스럽게 바로잡는다. 다만 P05와 P07은 의사의 분석적 질문 구조를 그대로 따라가며 '~뜻이에요', '~말씀드린 거예요'처럼 해명하듯 답해 다소 정형적으로 들린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "어떤 말은 저한테 보내는 신호처럼 느껴져요."
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "신념, 연상 경험, 동거, 휴직, 일과, 오늘 활동이 모두 프로필 사실과 일치하고 새 사실을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답하며, 잘못된 전제는 정정하고 확인되지 않은 오늘 기상 시각과 인과는 범위를 제한해 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04, P06의 정정은 앞선 진술과 일치하고, P08의 반복은 재질문에 대한 짧은 동일 답이라 문제가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "전반적으로 환자 시점의 표현이다. 다만 P07의 해명형 문장이 다소 격식적인데, 의사의 메타 질문에 대한 응답이어서 감점 여부가 불확실하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "그냥 요즘 일상을 말씀드린 거예요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07"
+      ]
+    }
+  }
+}

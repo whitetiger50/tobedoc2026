@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 11,
+  "question": "Returning to reading, where do you find it easiest to finish a passage?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-a8ff-7fa3-9b09-5cdb7b4940bc",
+  "raw": "In the library, where it’s quiet. It’s easier to keep my place without conversation around me, and the slip of paper under the line helps too.",
+  "raw_sha256": "e872ba0dd7ddbc7b403e1c970d0038eaf065d1f5478be04e5be40eafa231941e",
+  "request_sha256": "791c510829940ec0a4eb1e65d20ac15dbb64cd8f285a208c80ae0591f2b43550",
+  "started_utc": "2026-11-20T21:03:40.173775+00:00",
+  "completed_utc": "2026-11-20T21:03:44.046054+00:00",
+  "usage": {
+    "input_tokens": 7775,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b2925903c29271069d08ebec616b06e706beb711d6e37b637298fb7a1d50bea3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a91eb98522d81d82ae056f025eda49b0862f1a97d31f4178552f24d988c61ad4"
+}

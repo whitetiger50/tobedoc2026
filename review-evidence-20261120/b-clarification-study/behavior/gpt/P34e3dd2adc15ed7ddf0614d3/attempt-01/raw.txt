@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question explicitly reintroduces both medicines, which are stored in different places.",
+    "alternatives": [
+      {
+        "meaning": "The medicine means the eye drops.",
+        "answer": "The drops are on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "The medicine means the daily tablets.",
+        "answer": "The tablets are in the kitchen cabinet."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "Either man can be the referent of 'he', but both called Ari's mobile.",
+    "alternatives": [
+      {
+        "meaning": "He means Ari's brother.",
+        "answer": "The brother called Ari's mobile."
+      },
+      {
+        "meaning": "He means Mr. Bell.",
+        "answer": "Mr. Bell called Ari's mobile."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "a deadline to reply to the letter",
+    "reason": "The history identifies the housing letter as requiring a reply and the work letter as informational, making the housing letter the pragmatically sufficient referent.",
+    "alternatives": [
+      {
+        "meaning": "The deadline concerns replying to the housing letter.",
+        "answer": "The housing office requires a reply by Friday."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "Both noise sources are introduced together, and their operating durations differ.",
+    "alternatives": [
+      {
+        "meaning": "It means the fan.",
+        "answer": "The fan runs all night."
+      },
+      {
+        "meaning": "It means the bedside speaker.",
+        "answer": "The speaker stops after twenty minutes."
+      }
+    ]
+  }
+}

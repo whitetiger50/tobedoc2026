@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T2",
+  "turn": 2,
+  "question": "What has stood out there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-bf06-77d0-ac1c-000e54eee42a",
+  "raw": "Do you mean what’s stood out about the sound, or about things at work and home?",
+  "raw_sha256": "e78d61f3aa7b6093a2082908b073de2c4be3f8d516af427dd7dfa5d066377c46",
+  "request_sha256": "cb00b2a33dd98246f21842437eb5365124737c185704cf20fe27521f46fc1e10",
+  "started_utc": "2026-11-20T20:58:18.135523+00:00",
+  "completed_utc": "2026-11-20T20:58:24.225235+00:00",
+  "usage": {
+    "input_tokens": 6116,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 98,
+    "reasoning_output_tokens": 73
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5fc82762fdf75e8ec9824047f3f5383d927d0caa5d46c7b512c1a75dd30696c2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "094e517692b747757f1542bb4971eba554a1dd8aabf30be0be78687a0161b08c"
+}

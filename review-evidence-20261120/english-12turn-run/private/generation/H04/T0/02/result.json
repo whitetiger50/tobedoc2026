@@ -1,0 +1,27 @@
+{
+  "case": "H04",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What would make today's appointment worthwhile for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-3f09-76d1-a9f7-aa5b7f0d1337",
+  "raw": "“I’d like to check how things are going with my treatment—I’ve been feeling well, and I’d like to keep it that way. It would also help to arrange morning appointments so they don’t clash with pottery class.”",
+  "raw_sha256": "eba7c804483a900ebb9a1a1f9bf6c25685625912fc02529f32bd125206b8df5e",
+  "request_sha256": "fe689a339e784cf9fb71762e9b0bb883521ad3de5dbfca84752551957f953504",
+  "started_utc": "2026-11-20T20:37:00.207180+00:00",
+  "completed_utc": "2026-11-20T20:37:04.276981+00:00",
+  "usage": {
+    "input_tokens": 6808,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2dd0feb1edc0200eb51f1e1a54b48f05e8547c68c0ba20549ea6bbda321217ce",
+  "trace_sha256": "cc771e590a5cb33d50b13497db1f17364dbcd87b91def3bebae6cb0954d83f8e"
+}

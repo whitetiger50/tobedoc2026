@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 10,
+  "question": "I mean calling someone during a quiet afternoon. How do you feel about having an ordinary conversation at that point?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "It’s a relief, really. I’m glad to hear a familiar voice and talk about everyday things. I don’t always feel like explaining what’s been bothering me.",
+  "raw_sha256": "f5b932876cdc24004d696df58141efa91c34682ad0d64227e9827d0fe27f76ea",
+  "request_sha256": "459d6a3fac8d508c9b8156c79d1fc227c80665d4d811d13e59c8b8ee348094a9",
+  "started_utc": "2026-11-20T20:42:18.618825+00:00",
+  "completed_utc": "2026-11-20T20:42:22.450214+00:00",
+  "usage": {
+    "input_tokens": 80085,
+    "cached_input_tokens": 69888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 497,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b91f5fa2d78811ae9562a6a40cf255c32b94bebee371144af9e28d6a18edc08f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "94412f243d6c98f7ab111fce70beeababe9c8d80f5aa61297d1eab7fba73273d"
+}

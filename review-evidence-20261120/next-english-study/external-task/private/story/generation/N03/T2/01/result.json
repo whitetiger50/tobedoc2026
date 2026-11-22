@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T2",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-e21d-7df2-8d8c-f248e9daef82",
+  "raw": "Yes. Cinderella is a young woman whose father has died, and she lives with her stepmother and two stepsisters. They treat her badly and make her do all the housework, while the sisters have fine clothes and go out.\n\nOne day, there’s an invitation to a ball at the palace. The prince is looking for someone to marry. Cinderella wants to go, but her stepmother and sisters leave her behind.\n\nThen her fairy godmother appears. She turns a pumpkin into a coach, mice into horses, and Cinderella’s old clothes into a beautiful dress, with glass slippers. But she warns her that the magic will end at midnight.\n\nCinderella goes to the ball, and the prince dances with her. He doesn’t know who she is. She’s enjoying herself so much that she nearly forgets the time. When the clock starts striking midnight, she runs away and loses one of her glass slippers on the stairs.\n\nThe prince finds it and has people search for the woman it fits. The stepsisters try it on, but it doesn’t fit either of them. Then Cinderella tries it, and it fits perfectly. I remember she has the other slipper as well.\n\nSo the prince recognizes her, they marry, and she gets away from that household. That’s the version I remember, anyway.",
+  "raw_sha256": "336451487b9348b23c07d86ebbbbbe56a1f9456561f0085d3938161cd4763fba",
+  "request_sha256": "600c8d4c8f02ebfd6f72981685cf5fa6e4ecfce0a69c2676e4af39d3b0ba9527",
+  "started_utc": "2026-11-20T21:24:39.985339+00:00",
+  "completed_utc": "2026-11-20T21:24:49.542243+00:00",
+  "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 267,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "860d6afa16438ce1af2b56dad74442784dea4671badf3fd054b7bfcf6ff8b400",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8968e65adb705046faa3b521221bcf034d46eada2b6e14523f3bc0fadfeea279"
+}

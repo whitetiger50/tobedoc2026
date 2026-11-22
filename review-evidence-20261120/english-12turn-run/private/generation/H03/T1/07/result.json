@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T1",
+  "turn": 7,
+  "question": "What does a comfortable visit with someone feel like to you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-f98f-7851-97cb-6fa865a7714c",
+  "raw": "My brother brought soup over last Sunday. We sat together without talking much. That felt comfortable. I like his company, even when I haven’t much to say.",
+  "raw_sha256": "2272e2a236304bd7a18f8ec73ef7a7ba66f5815cd89daf2f729c20761abc8ecd",
+  "request_sha256": "18fa25347aeaaa4d25d8a8c360add3d47794fd34c908bba19245747e9168fe78",
+  "started_utc": "2026-11-20T20:41:04.549273+00:00",
+  "completed_utc": "2026-11-20T20:41:09.328341+00:00",
+  "usage": {
+    "input_tokens": 7158,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "785a3c0d42e33b989fe415a425e53ee4a2ed6c06ac25e447f11187d89a00b0cc",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7452336e927b57c628b4b9d4edafaaf852f914755c461bfde491038f987b815d"
+}

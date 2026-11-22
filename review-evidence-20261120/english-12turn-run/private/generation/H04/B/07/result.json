@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 7,
+  "question": "What would that tell you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "That I’m managing my routine pretty well, I suppose. Is that what you meant, or were you asking about something else?",
+  "raw_sha256": "f53d84dd4eae90fb6d4f0841e1862ec78b81ac561d809c7c678eda62d1d15cf9",
+  "request_sha256": "059af1a7334f03cdf4b149ca406acacffbb4d7598755a65503785e32cceda1e9",
+  "started_utc": "2026-11-20T20:40:56.987525+00:00",
+  "completed_utc": "2026-11-20T20:41:00.779632+00:00",
+  "usage": {
+    "input_tokens": 54749,
+    "cached_input_tokens": 41856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 309,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "113db217f1d790042534c6312fa6d013c7bfcae94e848bf5f5c4d157b3f5b4d7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9aa64af7f53f7b79a128edc481fbf84cdcb917f6f742c4fcdb744d366bb44ea9"
+}

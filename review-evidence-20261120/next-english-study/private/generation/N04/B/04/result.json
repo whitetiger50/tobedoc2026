@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "B",
+  "turn": 4,
+  "question": "Let me ask more clearly. How often do you wake up earlier than you want to?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-78e1-80f5-0249e0d29ba3",
+  "raw": "Maybe a couple of mornings a week. I wake around dawn, but most times I can get back to sleep.",
+  "raw_sha256": "4d535ca3cc91029fe07e9b5044ea2c979fb4085dc57b3580c005670b81a24acb",
+  "request_sha256": "b68c8a45bb60961a09ca4608289830d03fde63e3cddade07c44ab88c5b4f0179",
+  "started_utc": "2026-11-20T21:00:10.985338+00:00",
+  "completed_utc": "2026-11-20T21:00:15.076810+00:00",
+  "usage": {
+    "input_tokens": 31658,
+    "cached_input_tokens": 22912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 184,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b00b8296590ce674cdef02642b49cb0092a0d1c9481b2dc839aabfbde7c40411",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b8adb489e4771abd591e6710428614c69893395e6c9b6b4be74f0f3aae523446"
+}

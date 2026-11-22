@@ -1,0 +1,70 @@
+{
+  "status": "designonly_notvalidated",
+  "rules": [
+    {
+      "rule_id": "C1",
+      "rule": "functionbeforelexicalrepetition",
+      "sources": "S1",
+      "locator": "ABC-Eval Table4/Figure16",
+      "support_and_limit": "Directgeneral-dialogueguideline;patientquestion/goal/concerntypesareauthorextensions"
+    },
+    {
+      "rule_id": "C2",
+      "rule": "turnobservation_separatefromglobal",
+      "sources": "S2",
+      "locator": "FED §3.1–3.2 Tables1–2",
+      "support_and_limit": "Structureonly;noreproductionof18metrics,outlierremovalorprobabilitymodel"
+    },
+    {
+      "rule_id": "C3",
+      "rule": "explicitscaleidentityandwording",
+      "sources": "S3",
+      "locator": "Howcroft §3.2.2–3.2.3/§4.2",
+      "support_and_limit": "Versioninganddefinitionprinciple;notvalidationofR1anchors"
+    },
+    {
+      "rule_id": "C4",
+      "rule": "contextandtaskmatching_notnovelty",
+      "sources": "S1/S4",
+      "locator": "ABC Figure16;vanderLee§4.1",
+      "support_and_limit": "Norequirementofinterestingness/newfacts/paraphraseeveryturn"
+    },
+    {
+      "rule_id": "C5",
+      "rule": "global34evidenceboundary",
+      "sources": "S5/S6",
+      "locator": "Schoch§2–3;PATIENTSIMcachedanchors",
+      "support_and_limit": "AUTHORCHOICE:4noidentifiedproblemvs3groundedlocalproblem;notvalidated"
+    },
+    {
+      "rule_id": "C6",
+      "rule": "globalfacetlinknotarithmetic",
+      "sources": "S2/S4",
+      "locator": "FED§3;vanderLee§4.1",
+      "support_and_limit": "AUTHORCHOICE:observationIDsandglobalbasis;relationshipmustbevalidated"
+    },
+    {
+      "rule_id": "C7",
+      "rule": "uncertaintynotforceddefect",
+      "sources": "S3/S4",
+      "locator": "Definition/pilotingprinciples",
+      "support_and_limit": "AUTHORCHOICE:globaluncertain,boundary34;notcalibratedprobability"
+    },
+    {
+      "rule_id": "C8",
+      "rule": "nostereotypedaffectexpectation",
+      "sources": "S7",
+      "locator": "NIMHsymptomindividualvariation",
+      "support_and_limit": "Generalclinicalcontext;exacttextstyleguardisanauthordesign"
+    },
+    {
+      "rule_id": "C9",
+      "rule": "newvalidationmaterial_notM15",
+      "sources": "S4/M16",
+      "locator": "Pilot/disagreementguidanceandprojectdataexposure",
+      "support_and_limit": "AUTHORCHOICE:fixedversionseparatevalidation;nodirectsamplesizeproof"
+    }
+  ],
+  "source_notes_sha256": "ec4b5ac432bcf1b022811c3dd4a1dc2e8fcabda843aa5535be1e0873b117a1c7",
+  "no_new_patient_or_rating_outputs": true
+}

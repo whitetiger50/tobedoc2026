@@ -1,0 +1,27 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 1,
+  "question": "How have things been at work and at home recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "Pretty steady, really. I’m still working at the laundry counter. The change machine made a racket last week and startled me, but I found the stuck coin and got on with my shift.\n\nAt home it’s just me, and things have been okay. On days off I’ve been going swimming—still trying to get comfortable with backstroke.",
+  "raw_sha256": "517f57599a1e3aff491e51623ea4a3f23e071694cc79c6a180c85a8d3a3c08af",
+  "request_sha256": "6aa73f550ecdd7871a916cfcc9bda592cb5817d00f8c4b81ca1fd896e9ec0307",
+  "started_utc": "2026-11-20T20:36:29.392953+00:00",
+  "completed_utc": "2026-11-20T20:36:38.791476+00:00",
+  "usage": {
+    "input_tokens": 7653,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 74,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8de936d5f76c30f5f1134c3ed5e4b6544edb8d5e7aa55efc15eeceb56f408b95",
+  "trace_sha256": "9c9956c706eccd0eb934ed11497aa8c0a5193d39559d8a7387130d7ed74e457d"
+}

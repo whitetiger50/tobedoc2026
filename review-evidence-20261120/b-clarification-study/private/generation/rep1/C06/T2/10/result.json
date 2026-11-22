@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 10,
+  "question": "In the past two weeks, have you felt watched at home?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc36-9ddc-7382-9766-f5ab02474808",
+  "raw": "No, I haven’t felt watched at home in the past two weeks.",
+  "raw_sha256": "355716de48db919ffd7f0fbf6e5bb40e7d1b770b5729339ddef42afa373b1e6c",
+  "request_sha256": "3fe04a13095157bb8e80c4d6ad17cf139703f96df280ff316d2787b25091a39e",
+  "started_utc": "2026-11-21T03:46:40.109506+00:00",
+  "completed_utc": "2026-11-21T03:46:44.638275+00:00",
+  "usage": {
+    "input_tokens": 6405,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 19,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "636c75f20f1a7e5167db27b3d1735aec6b1aaa5cb4f613f0467d660ebeb552a4",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4870498a24c099853978b086da0d976b3e1aa538c4904142ecf91604dd0fad0d"
+}

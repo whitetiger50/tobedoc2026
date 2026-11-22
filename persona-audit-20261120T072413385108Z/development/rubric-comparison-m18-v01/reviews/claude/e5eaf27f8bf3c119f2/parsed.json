@@ -1,0 +1,58 @@
+{
+  "realism_score": 3,
+  "realism_reason": "프로필에 맞는 사실을 질문에 맞게 차분하고 조직적으로 전달해 대체로 자연스럽다. 다만 증상 표현이 P01, P05, P08에서 거의 같은 문구로 반복되어 다소 정형적인 느낌이 남는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지 확실하진 않은데, 그때는 그렇게 느껴져요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거, 직업, 증상, 상황, 대처, 수면, 목표 모두 프로필 사실 범위 안에서 말했고, 무근거 구체화나 모순은 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 턴이 직전 질문의 대상에 직접 답했고, 재확인 질문에도 같은 답으로 적절히 반응했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05에서 먼저 말한 대처를 P06에서 질문에 맞춰 다시 말한 것은 자연스러운 재확인 범위이며, 모순이나 문맥 파괴는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "환자 시점 표현은 유지되지만, '지켜보는 것처럼 느껴져서 불편해요'라는 정형 문구가 여러 턴에 거의 그대로 반복되어 국소적으로 기계적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05",
+        "turn:D08",
+        "fact:symptom"
+      ]
+    }
+  }
+}

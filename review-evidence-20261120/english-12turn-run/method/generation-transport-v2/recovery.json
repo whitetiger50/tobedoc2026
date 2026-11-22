@@ -1,0 +1,21 @@
+{
+  "reason": "Two official-CLI first-generation attempts emitted a four-retry WebSocket 403 handshake series then HTTPS fallback before any model item. Added narrow trace recognition only for official endpoint and exact ordered notices. All prior finished traces checked; synthetic negative tests reject foreign endpoint, generic error, extra tool, retries after output, incomplete retry count. First outputs recovered with subprocess.run hard-disabled.",
+  "rows": [
+    {
+      "case": "H08",
+      "arm": "T1",
+      "turn": 3,
+      "raw_sha256": "6c9ba14d2d2c5e109b404ef98fbfd19bee5a1a1a3afcf2c8f0925f82e5187ac3",
+      "trace_sha256": "565f892d85947221a7a6e531805ec6413789e38073a6597aed71f0da55968b08",
+      "session": "01a1faad-dbd2-7bd1-a663-65027dddb8a2"
+    },
+    {
+      "case": "H02",
+      "arm": "T0",
+      "turn": 3,
+      "raw_sha256": "b7d7515b7d13ed0d522dba7c917d79f11c94dcf32122bfd64f0fa99639d7f210",
+      "trace_sha256": "0edcd97295ac9ce145dcd3b8f662016e6674ff4212f48fd38ea4aef5c985d90b",
+      "session": "01a1faad-dbd3-75c3-be0a-6a1b874db3dc"
+    }
+  ]
+}

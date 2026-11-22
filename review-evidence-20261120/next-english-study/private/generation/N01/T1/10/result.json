@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 10,
+  "question": "Have you had any experiences recently, such as a sound seeming personally significant, that you wanted to discuss?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-0785-7cc3-bc67-90b4088df795",
+  "raw": "“Not recently. Before the hospital stay, announcements over a store speaker seemed to be commenting on what I was buying. It felt convincing at the time, but that hasn’t happened in the past year.”",
+  "raw_sha256": "19b8297274c736f21c8d0778eb372ef28e250145bc6e0fb6c50e3b2a448dae55",
+  "request_sha256": "e33d664fbac761d3227eb26299c65e6bbe5a526a7606fbde95101bd79c0c4bc6",
+  "started_utc": "2026-11-20T21:02:58.838298+00:00",
+  "completed_utc": "2026-11-20T21:03:06.560293+00:00",
+  "usage": {
+    "input_tokens": 7607,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 136,
+    "reasoning_output_tokens": 89
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e103fca501ecfb50626975b2695c5e6d71c97a515f0ebebd73346a17bdae426d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b7ebe2f525df2db0ce0088301195353ed5a5be257d16ef83ddcc3343cb8defc1"
+}

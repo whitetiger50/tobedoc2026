@@ -1,0 +1,56 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "The question names two separate outages but asks about a single duration, and Monday's outage (about ten minutes) and Thursday's (most of the afternoon) differ substantially.",
+    "alternatives": [
+      {
+        "meaning": "How long the radio was out on Monday.",
+        "answer": "About ten minutes."
+      },
+      {
+        "meaning": "How long the radio was out on Thursday.",
+        "answer": "Most of the afternoon, during the music request show."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question introduces both the eye drops and the daily tablets, then asks about a single 'medicine', and the two are kept in different places.",
+    "alternatives": [
+      {
+        "meaning": "Whether the eye drops are kept in the kitchen.",
+        "answer": "No, the drops stay on the bedside table."
+      },
+      {
+        "meaning": "Whether the daily tablets are kept in the kitchen.",
+        "answer": "Yes, the tablets stay in the kitchen cabinet."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The earlier clarification narrowed the topic to the bedside speaker, so 'it' clearly refers to the speaker.",
+    "alternatives": [
+      {
+        "meaning": "Where the bedside speaker is set up.",
+        "answer": "On the windowsill beside the bed."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it?",
+    "reason": "Following the exchange about missed tablets on the lower dose, 'it' clearly refers to the tablet, which has a single timing.",
+    "alternatives": [
+      {
+        "meaning": "What time of day Ren takes the tablet.",
+        "answer": "After supper."
+      }
+    ]
+  }
+}
+```

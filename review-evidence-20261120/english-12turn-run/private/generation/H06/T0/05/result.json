@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do you usually get things together for the walking group?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-48b2-7f90-bc5b-52792210c8c7",
+  "raw": "“I wash the bibs, then lay things out in the evening when the kitchen’s quiet. Sometimes my housemate reads the jobs back to me while I gather everything. The bus card lives in the bib bag’s pocket now—that was my little improvement after last week! The bibs were clean and ready; it was nearly taking them without me that was the problem. Well, me without them!”",
+  "raw_sha256": "25899a3c08631cd89ac52e172420c0a29106ef116fff751f82e1092c767236c6",
+  "request_sha256": "d869ad3b69de7d91cc58e76ffa39e02c50cae8cc482f938176dde7d9a9d94b68",
+  "started_utc": "2026-11-20T20:40:19.285438+00:00",
+  "completed_utc": "2026-11-20T20:40:24.429890+00:00",
+  "usage": {
+    "input_tokens": 7218,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 84,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "30794535311df2c65696dd8138d5e2891a773968ade886633159138d84c7c2fb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4877316adaf3fa193a42ac103ff347883847c0122e4f1fa862074590db08fe4b"
+}

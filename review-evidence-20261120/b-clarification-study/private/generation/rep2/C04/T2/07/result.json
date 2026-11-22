@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "T2",
+  "turn": 7,
+  "question": "When it comes over the speakers, who does it seem to be meant for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-f3e4-7f53-ac85-b5df483d08a1",
+  "raw": "It feels like it’s meant for me, personally. I do know it’s an announcement for everyone, but it doesn’t always feel that way when the tram’s crowded.",
+  "raw_sha256": "9af71611e5b46d1ddebc601e3b075dc982e49e5a3a226918b5b30bbed4e3050b",
+  "request_sha256": "ef58e8a1c703bc78b6adc1c97474bec6fd185c12eea5df332b7b8b657d7cb046",
+  "started_utc": "2026-11-21T03:43:45.514484+00:00",
+  "completed_utc": "2026-11-21T03:43:50.657232+00:00",
+  "usage": {
+    "input_tokens": 6302,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f32dfc2a0edc3b0491df86314d2b9022388d951f3e439facc0ea39dc04125fba",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c981096637debde6e3e9a683f469ebcca3de6dfd68c734fbbda64daeea12158c"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 2,
+  "question": "What do you hear the voice saying when you are at the sink?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c93-76b2-8f96-6481613fd683",
+  "raw": "It says things like, “You’re turning on the tap,” or describes me moving my hand. Just little things I’m doing—it doesn’t tell me to do anything.",
+  "raw_sha256": "b4959a7ee2da7fe645c35f8d449b8fc048d2210d6588e84dd899dc9018e1a9c0",
+  "request_sha256": "178474bbbe056ce3c94fefd67008177ca309d75dfcec6a058478ce46889b06a2",
+  "started_utc": "2026-11-21T03:40:03.232532+00:00",
+  "completed_utc": "2026-11-21T03:40:12.315032+00:00",
+  "usage": {
+    "input_tokens": 15685,
+    "cached_input_tokens": 10112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 76,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5b6ccfa59f5b566a2de1635506e79e23a810f3794875ef82646f984d4a045b67",
+  "https_fallback": false,
+  "websocket_handshake_retries": 3,
+  "trace_sha256": "37841aace291e30708373601d0fd21d3d838594caca2d6a2b4dec9295137c32d"
+}

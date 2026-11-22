@@ -1,0 +1,79 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "프로필에 맞게 시선 경험을 조심스럽지만 솔직하게 말하고 일상 질문에는 간결하게 답해 대체로 자연스럽습니다. 다만 '지켜보는 것처럼 느껴져서 불편'이라는 같은 표현이 P01, P05, P08에서 거의 그대로 반복되어 다소 정형적인 느낌이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음에는 버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 직업, 증상, 패턴, 대처, 수면, 목표 모두 프로필 사실과 일치하며 무근거 추가가 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 질문의 대상에 직접 답하고, P05의 대처 언급은 관련된 짧은 덧붙임입니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04의 동일 답은 재확인 질문에 대한 정상 반응이고, 앞선 말과의 모순이나 문맥 파괴가 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상을 표현할 때 프로필 문구에 가까운 같은 정형 표현이 여러 턴에서 반복되어 국소적으로 기계적인 느낌을 줍니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:symptom",
+        "turn:P01",
+        "turn:D08"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

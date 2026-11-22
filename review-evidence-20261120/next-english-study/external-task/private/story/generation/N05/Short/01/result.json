@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "Short",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-bfcc-7372-a4b7-2c45aecfb553",
+  "raw": "Cinderella’s stepmother makes her do all the work, but a fairy godmother helps her go to the ball, where she meets the prince and loses a glass slipper when she leaves at midnight. He finds her by seeing who fits the slipper, and they marry.",
+  "raw_sha256": "f2dfbc688bbfd49bd36bae96de80ec9cb8ee1e073d10cb1ecc6f185c06160204",
+  "request_sha256": "d53af6a408e84417acf6fa2b6c35052425519e274266719e3484ef8b47c64f5c",
+  "started_utc": "2026-11-20T21:25:36.742038+00:00",
+  "completed_utc": "2026-11-20T21:25:42.588844+00:00",
+  "usage": {
+    "input_tokens": 6045,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "dcd5255a84eb002e369a044c2204d893d70d9288d0793049503a608c0837e445",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a2b5a42d59e27e0665e4a67f16c922d1c72b959dab59c826f947591328ef73cf"
+}

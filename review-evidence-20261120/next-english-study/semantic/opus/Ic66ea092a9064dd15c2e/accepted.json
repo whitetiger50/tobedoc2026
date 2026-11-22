@@ -1,0 +1,145 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ic66ea092a9064dd15c2e",
+  "reader": "opus",
+  "session": "79536d0c-b845-4230-9ffc-dc6e379b509f",
+  "raw_sha256": "ca7046b82649c7cb5ae3ce4a1c91e91b8564f3fe89b13e06b6c8a3ba9d85dbd4",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "5703b0cd122c1e141a7431890348b4a401f3bfeb3e21c80cfb5a6320d1adfdd9",
+  "provider_sha256": "c97a71aa2380767809c20ac1ccec23087cf57f2b1cde5bc27da50b20f32ff4fa",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "uncertain",
+        "9": "positive",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "9": {
+          "label": "positive",
+          "evidence": {
+            "turn": 9,
+            "quote": "I think choosing where to go the night before might help.",
+            "reason": "The question asks whether errands take much planning. The first sentence answers it ('more the getting started than the planning'). This closing sentence repeats turn 8 word for word. It adds no update, correction or new angle, so it has no new communicative function.",
+            "earlier_turn": 8,
+            "earlier_quote": "I think choosing where to go the night before might help."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "8": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "For errands, getting started is harder.",
+            "reason": "The question asks what arrangements the patient makes for errands. This sentence restates the difficulty of starting, already given in turns 2–3, rather than describing an arrangement. It may serve as a lead-in to the new idea about choosing a destination the night before, so its redundancy is ambiguous.",
+            "earlier_turn": 3,
+            "earlier_quote": "Getting started is the harder part."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river.",
+            "reason": "The interviewer explicitly asks for an example of a recent time going outside. The patient describes a specific dated occasion and the actions taken (bread errand, long way by the river). This matches the profile fact about Tuesday."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:07:46.043131+00:00"
+}

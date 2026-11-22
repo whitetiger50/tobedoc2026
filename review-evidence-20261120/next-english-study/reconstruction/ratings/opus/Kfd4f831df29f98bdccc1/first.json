@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T23:00:31.988899+00:00",
+  "attempt": "attempt-01",
+  "id": "Kfd4f831df29f98bdccc1",
+  "reader": "opus",
+  "session": "1fdec72a-203a-4ef6-ab8e-a4aa6d26bd56",
+  "packet_sha256": "64246c63e44a32d735ef6ead8c3b8dc78ebbcf1cb07cd7fd380d3ab7f24094de",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "d8e8d7f5bb24f683fc34f37b179a845ab635555fbf99f60955bf8df810557464",
+  "raw_sha256": "58d3e0ac413a6bf858735452e5539552b8bf4859c598733b1f4757f8085a0ae4",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says twice that the arm ache after the injection is usually gone by the next morning. Nothing they say suggests it lasts into the morning.",
+      "evidence": [
+        {
+          "turn": 7,
+          "role": "patient",
+          "quote": "but it’s fine by morning",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "It’s usually fine the next morning.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient tentatively suggests choosing where to go the night before, which is the evening before the trip. They never mention choosing after setting out.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "Maybe choose where the night before.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

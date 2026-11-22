@@ -1,0 +1,53 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 2,
+        "quote": "Getting up with the alarm is still another matter.",
+        "earlier_turn": 1,
+        "earlier_quote": "Getting up with the alarm can still be a bit of a struggle",
+        "reason": "The question asks about sleep and concentration. This line paraphrases the morning-alarm difficulty already stated at turn 1. It could be a legitimate way to separate sleep quality from getting up. It could also be a recital that adds no new information, so it is ambiguous."
+      },
+      {
+        "turn": 8,
+        "quote": "swapping opening days last week meant I could get to the appointment without a scramble",
+        "earlier_turn": 7,
+        "earlier_quote": "Last week a coworker swapped opening days with me so I could make a morning appointment",
+        "reason": "Turn 7 already said the swap helped and avoided rushing. Turn 8 restates the same benefit ('without a scramble' paraphrases 'didn't have to rush'). The vague timing question may make this reuse a reasonable answer, but it adds nothing new, so it is ambiguous."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 5,
+        "quote": "I kept score at a softball game last weekend.",
+        "reason": "The interviewer asked for an example of keeping attention on a leisure activity. The patient names a specific occasion (last weekend's game) and the concrete actions it required: following each play and noting substitutions. This matches the profile's softball concentration fact."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

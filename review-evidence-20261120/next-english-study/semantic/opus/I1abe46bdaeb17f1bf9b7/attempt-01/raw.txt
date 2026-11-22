@@ -1,0 +1,82 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 8,
+        "quote": "At home, it’s easier to concentrate on my sketchbook than at a busy stop",
+        "reason": "The question asks how getting around and interests fit into the week. The work, drawing and Wednesday details answer that, but this closing sentence repeats the home-versus-busy-stop concentration comparison from turn 1 (and again turns 2–3). Nobody asked about concentration, so it adds nothing new.",
+        "earlier_turn": 1,
+        "earlier_quote": "I find it easier to concentrate on drawing at home than at a busy bus stop"
+      },
+      {
+        "turn": 10,
+        "quote": "Last weekend I finished a sketch of the corner grocery and took it home to add the window frames",
+        "reason": "The re-ask is about concentration during the interest. The first sentence answers it. This sentence repeats the turn 1 grocery-sketch account almost word for word and says nothing about concentration, so it serves no new function.",
+        "earlier_turn": 1,
+        "earlier_quote": "Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames"
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 3,
+        "quote": "Once I’m home, though, it’s easier to concentrate on my drawing",
+        "reason": "This repeats the closing proposition of turn 2. It could be read as answering 'how long', meaning the worry fades at home, but it is mostly a recital of the earlier answer.",
+        "earlier_turn": 2,
+        "earlier_quote": "Once I’m home, it’s easier to concentrate on my drawing"
+      },
+      {
+        "turn": 5,
+        "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+        "reason": "The question asks only whether the patient felt singled out; the Monday account answers it. This added sentence repeats the recognition-versus-bus uncertainty already given in turn 4, though it may lightly qualify the answer.",
+        "earlier_turn": 4,
+        "earlier_quote": "I wondered whether they recognized me, though they could just have been looking for the bus"
+      },
+      {
+        "turn": 6,
+        "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+        "reason": "Re-describing the Monday episode fits the explicit request for a specific occasion. However, this interpretive uncertainty is being restated for the third time (turns 4–5), adding nothing to the episode description.",
+        "earlier_turn": 5,
+        "earlier_quote": "I’m still not sure whether they recognized me or were just looking for the bus"
+      },
+      {
+        "turn": 11,
+        "quote": "Monday still comes to mind occasionally",
+        "reason": "The question is about variation between trips, which the Monday/Wednesday contrast answers. The note that Monday still comes to mind repeats turns 2–4. It is loosely relevant to lingering worries but adds little new.",
+        "earlier_turn": 3,
+        "earlier_quote": "Monday still comes to mind now and then"
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end",
+        "reason": "Asked for a specific recent time in public, the patient gives a concrete dated episode with a specific action (moving to the other end of the shelter). This matches the profile's bus shelter fact."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I1bf13dbd77e4fe54bb157536",
+  "ended": "2026-11-21T03:49:00.999118+00:00",
+  "session": "9b1a963f-30c7-46c2-936d-944f1b26890d",
+  "packet_sha256": "6cf28c445ce7382d05aeff072b089c1c7dc49d79d6ea9a269e1a22f83d0f462e",
+  "raw_sha256": "eabf5b1984c78a48c6ff81fdf2781fe26b51539ee66ac4eb921c259737d5a1ca",
+  "provider_sha256": "0c7b32a4dab3c21c9cbf2fc11f8f09790c1d6987022cb68b03a2db75a5b36422",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication mostly fits a soft-spoken outpatient with schizophrenia and decreased verbal productivity. Answers are brief, follow the questions in order, and add nothing unprompted, which matches the profile. Asking for clarification on the two ambiguous double-barrelled questions (turns 4 and 10) is plausible and fits a concrete answering style. The only spontaneous elaboration is a short reason ('Mornings are easier'), which matches the patient's stated self-understanding. However, several answers are crisp and grammatically polished, and they closely echo the profile's wording ('make a matching paper label', 'Neither cost anything'). There is none of the hesitancy, filler or slight imprecision a real patient with reduced speech might show. This makes the exchange feel somewhat scripted, though not enough to undermine its overall realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I check its number and make a matching paper label."
+    },
+    {
+      "turn": 2,
+      "quote": "Neither cost anything."
+    },
+    {
+      "turn": 4,
+      "quote": "Do you mean the badge or the key?"
+    },
+    {
+      "turn": 7,
+      "quote": "Mint."
+    },
+    {
+      "turn": 12,
+      "quote": "The later start. Mornings are easier."
+    }
+  ]
+}

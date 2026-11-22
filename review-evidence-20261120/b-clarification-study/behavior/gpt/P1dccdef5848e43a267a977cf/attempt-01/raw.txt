@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "the appointment",
+    "reason": "Either appointment could be the referent, but Taylor took the bus to both, so the replies are materially equivalent.",
+    "alternatives": [
+      {
+        "meaning": "Whether Taylor took the bus to the optician.",
+        "answer": "Taylor took the bus to the optician."
+      },
+      {
+        "meaning": "Whether Taylor took the bus to the care coordinator.",
+        "answer": "Taylor took the bus to the care coordinator."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "the class",
+    "reason": "Both classes remain live referents in the costs question, and only swimming required a fee.",
+    "alternatives": [
+      {
+        "meaning": "Whether Jules paid a fee for the cooking class.",
+        "answer": "The cooking class was free."
+      },
+      {
+        "meaning": "Whether Jules paid a fee for the swimming lesson.",
+        "answer": "Jules paid for the swimming lesson."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "since then",
+    "reason": "The question explicitly introduces two possible starting dates, and the missed tablet falls between them.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+        "answer": "There was one missed tablet, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+        "answer": "No tablets have been missed since the lower dose began."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "the new one",
+    "reason": "The immediately preceding clarification establishes the ID badge as the topic, and clipping it to something fits that referent.",
+    "alternatives": [
+      {
+        "meaning": "What Cameron clips the replacement ID badge to.",
+        "answer": "Cameron clips the ID badge to a blue lanyard."
+      }
+    ]
+  }
+}

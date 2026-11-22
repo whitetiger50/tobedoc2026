@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T1",
+  "turn": 10,
+  "question": "What arrangements, if any, do you make for collecting your medication?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-0780-7840-9bc6-8ea2abe80f27",
+  "raw": "I pick up a box of tablets from the pharmacy every four weeks. I’ve got the refill date written inside the kitchen cupboard, so I can check when it’s due.",
+  "raw_sha256": "1c8929eea12e21f93bd27d81681189db2d6f8631188f9b8f8362279117d515cd",
+  "request_sha256": "e2d64afa8b91e58c281e38fa28e13d4871afb61192f4fff68507eaab3713bed1",
+  "started_utc": "2026-11-20T21:02:58.837865+00:00",
+  "completed_utc": "2026-11-20T21:03:03.037725+00:00",
+  "usage": {
+    "input_tokens": 7631,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e3384bb12f5ae77c284ab5df7fd48cb5aeb268d0832b14fad9e4da626d984703",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0d5964cdc239908fc14ed1f4468babbc38cb6597d332c26e487eb2e3fa8071c6"
+}

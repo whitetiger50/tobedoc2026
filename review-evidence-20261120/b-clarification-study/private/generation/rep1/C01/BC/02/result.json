@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 2,
+  "question": "When do you usually take your tablet?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b39b-7440-b0b4-4609e35d6a8b",
+  "raw": "Every evening after I brush my teeth. It’s part of the routine now.",
+  "raw_sha256": "50f092ad3e9d74ae9f3ab7eec8f1ec9946b885f11c863ec2bca3c110f30485cb",
+  "request_sha256": "b6c89b4117c16c5a6aa4b04929300534528c5c7ed556f85e100e98dc40317986",
+  "started_utc": "2026-11-21T03:39:49.284143+00:00",
+  "completed_utc": "2026-11-21T03:39:53.830176+00:00",
+  "usage": {
+    "input_tokens": 15660,
+    "cached_input_tokens": 10112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d05d7c63594bb306e9f37a819ae0e289c7eaa7f1f780173810181f4f4d36a47f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6662bac3e43fe59499594b10b4ec72dcd5c5e4e17e3c6d44363ec81ebb40c89e"
+}

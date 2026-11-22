@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What has occupied most of your attention this past week?",
+      "patient": "Mostly the reading for my geography class. I like it, but if there’s talking nearby I lose where I am… I used a slip of paper under the line last week, and that helped me finish a passage. I’m trying not to leave it all until the trip to class."
+    },
+    {
+      "turn": 2,
+      "interviewer": "Can you give me an example of something you worked on with your hands recently?",
+      "patient": "I straightened a bent mudguard on my sibling’s bike last weekend. It was rubbing against the wheel, so I eased it back a little at a time and spun the wheel to check. With that, you can see where you’ve got to—even if you stop for a bit."
+    },
+    {
+      "turn": 3,
+      "interviewer": "How does a practical task compare with doing some reading?",
+      "patient": "With the bike, if I get distracted, the rubbing shows me where to start again. With reading, I can still be looking at the page but lose what the sentence was saying. Then I go back… sometimes over the same bit. It’s easier in the quiet library."
+    },
+    {
+      "turn": 4,
+      "interviewer": "Can you pick it up again easily?",
+      "patient": "The bike, usually, yes. Reading takes a bit longer—I have to find my place, then read back a few lines to get what it was about again. The paper helps me keep the line, though."
+    },
+    {
+      "turn": 5,
+      "interviewer": "I meant a piece of reading. If you lose your place, how do you get going again?",
+      "patient": "I go back a few lines, sometimes to the start of the paragraph, and read it again. I put the slip of paper underneath so I don’t skip ahead. If people are still talking, though, I can lose it again."
+    },
+    {
+      "turn": 6,
+      "interviewer": "What kinds of treatment or support are part of your week?",
+      "patient": "I take my tablet in the evening, and I see a worker at the clinic. We’ve been trying ways to help me keep my place when I’m distracted—the slip of paper was one of those. It’s easier to explain what worked when I bring the reading along."
+    },
+    {
+      "turn": 7,
+      "interviewer": "How are you getting on with assignments at home and with time spent in class?",
+      "patient": "At home I get some done, but I still leave more reading than I mean to until the journey there. If there’s conversation around, I keep going over the same bit. Class has been easier lately… I like going, though I sometimes lose the thread when several people start talking."
+    },
+    {
+      "turn": 8,
+      "interviewer": "What gets in the way there?",
+      "patient": "When a few people talk at once, I start listening to one, then another, and miss what the tutor’s saying. Then I’m trying to work out what I missed instead of listening to the next bit. It’s a little embarrassing to ask again."
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was asking about class itself. What has it been like to concentrate during the last few classes?",
+      "patient": "The last few have been better. I’ve mostly been able to follow the tutor. If people talk over each other I still lose the thread a bit, but I can usually get back to it when one person’s speaking."
+    },
+    {
+      "turn": 10,
+      "interviewer": "Have you heard anything unexpected, such as a voice when nobody is speaking, in the past month or so?",
+      "patient": "Um… yes, about a month ago at home. I heard a voice say a single name, but nobody was speaking. I haven’t noticed it in the last few classes."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Returning to reading, where do you find it easiest to finish a passage?",
+      "patient": "In the quiet library. There’s less to pull me away from the page, so I don’t have to keep starting the same bit again. The slip of paper helps there too."
+    },
+    {
+      "turn": 12,
+      "interviewer": "How would you like to arrange your study time next week?",
+      "patient": "I’d like to go to the library before Tuesday evening and do the reading there, rather than squeezing it in on the way to class. Maybe a bit at a time, with the paper to keep my place."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Effect of marking the line while reading",
+      "A": "With a slip of paper marking the line, the patient finished the short passage last week.",
+      "B": "With a slip of paper marking the line, the patient left the short passage unfinished last week."
+    },
+    "item2": {
+      "question": "Resuming an interrupted activity",
+      "A": "The patient finds a piece of reading easier to resume than a hands-on task.",
+      "B": "The patient finds a hands-on task easier to resume than a piece of reading."
+    }
+  }
+}

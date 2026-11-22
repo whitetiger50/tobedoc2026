@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-20T23:01:02.306698+00:00",
+  "attempt": "attempt-01",
+  "id": "Kf138a510ea7621e59beb",
+  "reader": "opus",
+  "session": "00b136de-ebbd-4875-a4c7-63772f1a01b1",
+  "packet_sha256": "79efe624e135d108d4f432566907e08d8ad6d3994414d39faec90487eb829320",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "e3110eaad5341b23ad23e4461badfb7ce7a381b628248aebdeaad7d29d0f1d1c",
+  "raw_sha256": "75e5bb04cf1f9d857c1470c46fb0baa22c4287bc1fc9379e69d446174a91158d",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says turning on the radio made the voice less distracting and let them finish sorting thread, so the sound became easier to set aside, not harder.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "Turning on the radio made it less distracting, and I was able to finish sorting the thread.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "it made the voice less distracting, and I was able to finish sorting the thread.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient reports the voice said 'too slow', which is a remark about pace, and explicitly denies that it told them to do anything, so it commented rather than instructed.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "I heard a voice say ‘too slow’ while I was sorting my sewing supplies.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "It wasn’t telling me to do anything.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

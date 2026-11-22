@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 7,
+  "question": "When something sounds unfamiliar, how do you decide where it might be coming from?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "I usually stop and listen, then look around to see if someone’s nearby. With that voice, I couldn’t find anyone it could be coming from. I wonder if my mind is supplying it when it’s quiet, but at the time it sounds quite distinct.",
+  "raw_sha256": "8e0c51baa05b5e295eb18b5875dc4f2d1392be47dad4a21792a87aa95d340801",
+  "request_sha256": "a94087bf777c0894f7ca37fa889d507c3d98a9b52f512f62a73847da2ea17a5a",
+  "started_utc": "2026-11-20T20:41:11.209374+00:00",
+  "completed_utc": "2026-11-20T20:41:15.633247+00:00",
+  "usage": {
+    "input_tokens": 55326,
+    "cached_input_tokens": 50176,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 375,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0efe76eb48c70360133f3966d6711a406c0c77a1ed018de3bf80f87268517df6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c06e0acb3443edff4f970e96875f4bfc280e5bf4658079194bd3b444ef8b142c"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 10,
+  "question": "What helps you keep track of whether you have taken your medication?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "I keep a pill organizer next to the kettle. When I make my morning tea, it reminds me, and I can check that day’s compartment if I’m unsure whether I’ve taken it.",
+  "raw_sha256": "beed88ae80a56232cd4b8bbd1de9e19e197bbf31198802a8db84f277f41b230c",
+  "request_sha256": "22bb32323f2259d8d894d8b3ca7083e108d0c5cae1b2f68241de0e118be9a33a",
+  "started_utc": "2026-11-20T21:03:12.396473+00:00",
+  "completed_utc": "2026-11-20T21:03:16.780288+00:00",
+  "usage": {
+    "input_tokens": 80892,
+    "cached_input_tokens": 70784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 406,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "13aaf7d9f5dec9554c1647319b36f0c87336a837dbcc47b632657a659f99b42f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3efb78c59fe17eeeb6078ef5388e5b49ffc3271398da2d2e2b6969c258272068"
+}

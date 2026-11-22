@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:20:05.019734+00:00",
+  "attempt": "attempt-01",
+  "id": "K96b74a46c3cb0dba8319",
+  "reader": "gpt",
+  "session": "01a1fad4-80aa-7760-b8e4-dfb6eae042e6",
+  "packet_sha256": "2b1837b9484612c3be24304f05bd1b3c46fc82ddb7829ca77fec3635c13e1de8",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "1d783b592bbb260cd42e998362cb9bc6766a7a8850845ec07d2681c167f37454",
+  "raw_sha256": "c708647b48c7fd7aa9898b891d47b40edc3b073042427feeeea09d0958fb363a",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient explicitly says the slip of paper helped them finish a short passage last week.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "I used a slip of paper under the line last week, and that helped me finish a short passage.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient describes recovering their place in the bike task more easily than in reading.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "if I lose track, I can look at the wheel and see where I was. With reading, it’s harder to find my way back.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

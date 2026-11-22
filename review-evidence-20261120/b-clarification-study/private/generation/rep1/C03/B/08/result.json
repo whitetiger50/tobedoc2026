@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 8,
+  "question": "Your brother and Mr. Bell, the building manager, both rang last week. Did he reach you on your mobile?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff98-73c3-be58-f72070b39b65",
+  "raw": "They both rang my mobile last week. I called my brother back, but I haven’t called Mr. Bell back yet.",
+  "raw_sha256": "81688b161b116cd012e3362fe87af2268d91b7a4b7cb4a8dcafa11571e0444b0",
+  "request_sha256": "4c7fe7f6e7d55a91e4f8d29cbe6391df176347c7d66600d46d9f65d64acc3753",
+  "started_utc": "2026-11-21T03:44:51.015716+00:00",
+  "completed_utc": "2026-11-21T03:44:55.156200+00:00",
+  "usage": {
+    "input_tokens": 63491,
+    "cached_input_tokens": 52608,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 197,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a694b226178d581944f670ce72d495645dfeaee887df88789f2beeff04b5553d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9fc668e63c70c17873208f32c5595e3fa72087058bc002056e53d131aaa694e9"
+}

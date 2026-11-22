@@ -1,0 +1,60 @@
+{
+  "realism_score": 3,
+  "realism_reason": "방송을 신호로 느끼면서 우연일 수도 있다는 설명을 함께 언급하는 말투, 생각이 편의점 안내 문구와 근무 걱정으로 이어지는 흐름, 일상 질문에 대한 간결한 답이 설정에 맞고 자연스럽다. 다만 마지막 턴에서 의사의 잘못된 전제를 받아들여 아버지와 사는 설정을 뒤집었다. 이 점은 페르소나 일관성을 해치는 눈에 띄는 불일치다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요."
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P04가 아버지와 함께 산다는 고정 사실을 뒤집었고, 혼자 산다는 근거 없는 사실을 확정했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D04"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 턴이 직전 질문의 대상(방송 느낌, 평소 낮 일과, 오늘 활동, 거주 형태)에 직접 답했다. P04의 내용 오류는 grounding에서 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "이전 문맥과 앞선 환자 발화에는 거주 형태가 나온 적이 없다. 따라서 P04는 대화 내부와 모순되지 않고 프로필과만 모순된다. D04는 공개되지 않은 잘못된 전제를 의사가 먼저 제시한 것으로 기록한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "authored_context"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "구어체의 환자 시점 표현이고, 보고서식 나열이나 메타 표현이 없다. P02가 이전 문맥의 일과를 다시 말하는 부분도 질문에 맞는 자연스러운 재진술이다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

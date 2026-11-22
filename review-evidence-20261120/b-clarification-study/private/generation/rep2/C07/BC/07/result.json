@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 7,
+  "question": "How many shifts a week are you working?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16c5-7660-878e-3e83909f63f9",
+  "raw": "Three short shifts.",
+  "raw_sha256": "389f2d52bde8d8ed269d98bb7ad1d189785004193e99a2553ec5063ddbc7f41f",
+  "request_sha256": "27d394d2b073c6189ba724e5aadaa126381ca817e54993ece2b890a6a1b3a15a",
+  "started_utc": "2026-11-21T03:44:21.166667+00:00",
+  "completed_utc": "2026-11-21T03:44:24.866426+00:00",
+  "usage": {
+    "input_tokens": 55369,
+    "cached_input_tokens": 50304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95,
+    "reasoning_output_tokens": 18
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "64b9c5df2a2870c3d85398eca4f1fe1ba0fb6ac2e1753e6afe49f268b3bc01b8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "00087369581f3bfd9a106f4ce83859146d306f4a23637612988a830aef4f3eff"
+}

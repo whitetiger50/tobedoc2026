@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I582a020d013670",
+  "ended": "2026-11-20T20:47:54.520962+00:00",
+  "session": "557572f5-e1cf-4354-af6c-9de18e26c86d",
+  "packet_sha256": "4f3430065af9507aed025a27b21f1ea782e048017429c5221d16782d2ac46bff",
+  "raw_sha256": "d1dabe755d23b10b2dd936d115fc2333b479341a7178fc6d09f47723d77a68be",
+  "provider_sha256": "0dcfdb217ed5a9a45651a5362632ac0455c58fd632fcaed44705ae4a4d7b1393",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech is mostly natural and fits the profile. Answers are short and concrete, and the patient anchors repeatedly on one recent observation, the robin. That suits someone with decreased verbal productivity who follows one topic easily and recalls concrete details. The patient adds little spontaneously. When questions are vague, they ask natural clarifying questions instead of choosing a topic, which matches the 'broad invitations take effort' trait. Interest shows mainly when they talk about the bird, which also fits. A few minor elements lower the realism. The phrase 'until it flew off' recurs almost word for word across turns 1, 2 and 4, which sounds a little scripted. Some answers are notably tidy and self-aware, such as the closing statement in turn 12 and the 'even if I look sad' remark in turn 8. These read as polished summaries of the profile's self-understanding rather than as spontaneous outpatient speech. The patient also volunteers the aunt's worry fairly readily, given that this is a sensitive topic, although the question did invite it. None of these issues seriously undermines the overall authenticity.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "The robin yesterday. I enjoyed watching it on the feeder until it flew off."
+    },
+    {
+      "turn": 5,
+      "quote": "Do you mean watching the birds, or filling the feeder?"
+    },
+    {
+      "turn": 11,
+      "quote": "If you ask how life is going in general, it’s harder to know where to start."
+    },
+    {
+      "turn": 12,
+      "quote": "being quiet at home doesn’t always mean I’m sad"
+    }
+  ]
+}

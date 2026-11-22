@@ -1,0 +1,27 @@
+{
+  "case": "D01",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do you usually get ready on a day you have somewhere to be?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-331a-7d41-8d98-2a4ba9aea383",
+  "raw": "If I’m going to work, I make tea and pack my lunch before my shift. I work part time at a framing shop—mounting prints is my favorite part.",
+  "raw_sha256": "f3b63189f64b15ac36949297c7af71169dd62969186c4e33fffe03c839fff7aa",
+  "request_sha256": "09b298fb54c59f260292cf6d4d84ef612287277f2a365164df43690b86a0ac1d",
+  "started_utc": "2026-11-20T20:32:35.023811+00:00",
+  "completed_utc": "2026-11-20T20:32:39.405731+00:00",
+  "usage": {
+    "input_tokens": 7046,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f09da0c2a46a95c43006131c11c9e5934deba87f78087dbea60307477a498390",
+  "trace_sha256": "f3a9d09d3ea03e1a3f1244d79988c9e431330a2905aefaa4435eba2f7577339e"
+}

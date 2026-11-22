@@ -1,0 +1,1650 @@
+{
+  "timestamp_utc": "2026-11-19T10:34:59.700529+00:00",
+  "groups": [
+    {
+      "group": "M12_natural_all",
+      "scope": "M12prespecifiednaturalstratum;3reusedoldprofiles",
+      "matrix": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 12,
+        "numeric_ratings": 36,
+        "complete_texts_for_ICC": 12,
+        "all3equal_texts": 11,
+        "exact_numeric_pair_matches": 34,
+        "numeric_pair_count": 36,
+        "exact_numeric_pair_agreement": 0.9444444444444444,
+        "mean_absolute_numeric_pair_difference": 0.05555555555555555,
+        "ordinal_alpha": {
+          "value": 0.890625,
+          "reason": null,
+          "observed_disagreement": 18.0,
+          "expected_disagreement": 164.57142857142858,
+          "pairable_ratings": 36,
+          "category_counts": {
+            "4": 16,
+            "3": 20
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 12,
+            "value": 0.8333333333333334,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.08333333333333333,
+            "expected_disagreement": 0.5
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 12,
+            "value": 0.8333333333333334,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.08333333333333333,
+            "expected_disagreement": 0.5
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 12,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.4861111111111111
+          }
+        ],
+        "round_score_counts": [
+          {
+            "4": 6,
+            "3": 6
+          },
+          {
+            "4": 5,
+            "3": 7
+          },
+          {
+            "4": 5,
+            "3": 7
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.8962264150943396,
+          "ICC1k": 0.9628378378378378,
+          "reason": null,
+          "n": 12,
+          "k": 3,
+          "MS_between": 0.7474747474747475,
+          "MS_within": 0.027777777777777776,
+          "within_text_SD": 0.16666666666666666,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.8962264150943396,
+          "Ak": 0.9628378378378378,
+          "C1": 0.8962264150943396,
+          "Ck": 0.9628378378378378,
+          "k": 3,
+          "n": 12,
+          "MS_rows": 0.7474747474747475,
+          "MS_columns": 0.027777777777777776,
+          "MS_residual": 0.027777777777777776,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M12_natural_4turn",
+      "scope": "M12prespecifiednaturalstratum;3reusedoldprofiles",
+      "matrix": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 6,
+        "numeric_ratings": 18,
+        "complete_texts_for_ICC": 6,
+        "all3equal_texts": 6,
+        "exact_numeric_pair_matches": 18,
+        "numeric_pair_count": 18,
+        "exact_numeric_pair_agreement": 1.0,
+        "mean_absolute_numeric_pair_difference": 0.0,
+        "ordinal_alpha": {
+          "value": 1.0,
+          "reason": null,
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 23.823529411764707,
+          "pairable_ratings": 18,
+          "category_counts": {
+            "4": 15,
+            "3": 3
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 6,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.2777777777777778
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 6,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.2777777777777778
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 6,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.2777777777777778
+          }
+        ],
+        "round_score_counts": [
+          {
+            "4": 5,
+            "3": 1
+          },
+          {
+            "4": 5,
+            "3": 1
+          },
+          {
+            "4": 5,
+            "3": 1
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 1.0,
+          "ICC1k": 1.0,
+          "reason": null,
+          "n": 6,
+          "k": 3,
+          "MS_between": 0.5,
+          "MS_within": 0.0,
+          "within_text_SD": 0.0,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 1.0,
+          "Ak": 1.0,
+          "C1": 1.0,
+          "Ck": 1.0,
+          "k": 3,
+          "n": 6,
+          "MS_rows": 0.5,
+          "MS_columns": 0.0,
+          "MS_residual": 0.0,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M12_natural_8turn",
+      "scope": "M12prespecifiednaturalstratum;3reusedoldprofiles",
+      "matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 6,
+        "numeric_ratings": 18,
+        "complete_texts_for_ICC": 6,
+        "all3equal_texts": 5,
+        "exact_numeric_pair_matches": 16,
+        "numeric_pair_count": 18,
+        "exact_numeric_pair_agreement": 0.8888888888888888,
+        "mean_absolute_numeric_pair_difference": 0.1111111111111111,
+        "ordinal_alpha": {
+          "value": 0.0,
+          "reason": null,
+          "observed_disagreement": 9.0,
+          "expected_disagreement": 9.0,
+          "pairable_ratings": 18,
+          "category_counts": {
+            "3": 17,
+            "4": 1
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 6,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.16666666666666666,
+            "expected_disagreement": 0.16666666666666666
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 6,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.16666666666666666,
+            "expected_disagreement": 0.16666666666666666
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 6,
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 5,
+            "4": 1
+          },
+          {
+            "3": 6
+          },
+          {
+            "3": 6
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.0,
+          "ICC1k": 0.0,
+          "reason": null,
+          "n": 6,
+          "k": 3,
+          "MS_between": 0.05555555555555555,
+          "MS_within": 0.05555555555555555,
+          "within_text_SD": 0.23570226039551584,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.0,
+          "Ak": 0.0,
+          "C1": 0.0,
+          "Ck": 0.0,
+          "k": 3,
+          "n": 6,
+          "MS_rows": 0.05555555555555555,
+          "MS_columns": 0.05555555555555555,
+          "MS_residual": 0.05555555555555555,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M13_all",
+      "scope": "M16post-hocdiagnosticstratum;Iis authored,notnaturalmodeloutput;notnewpreregisteredendpoint",
+      "matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 18,
+        "numeric_ratings": 54,
+        "complete_texts_for_ICC": 18,
+        "all3equal_texts": 16,
+        "exact_numeric_pair_matches": 50,
+        "numeric_pair_count": 54,
+        "exact_numeric_pair_agreement": 0.9259259259259259,
+        "mean_absolute_numeric_pair_difference": 0.07407407407407407,
+        "ordinal_alpha": {
+          "value": 0.8556644880174292,
+          "reason": null,
+          "observed_disagreement": 37.5,
+          "expected_disagreement": 259.811320754717,
+          "pairable_ratings": 54,
+          "category_counts": {
+            "3": 42,
+            "2": 9,
+            "4": 3
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 18,
+            "value": 0.8714285714285714,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.43209876543209874
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 0.8333333333333334,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.3333333333333333
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 0.7142857142857143,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.1111111111111111,
+            "expected_disagreement": 0.3888888888888889
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 14,
+            "2": 3,
+            "4": 1
+          },
+          {
+            "3": 13,
+            "2": 3,
+            "4": 2
+          },
+          {
+            "3": 15,
+            "2": 3
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.8322368421052632,
+          "ICC1k": 0.937037037037037,
+          "reason": null,
+          "n": 18,
+          "k": 3,
+          "MS_between": 0.5882352941176471,
+          "MS_within": 0.037037037037037035,
+          "within_text_SD": 0.19245008972987526,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.8325123152709359,
+          "Ak": 0.9371534195933456,
+          "C1": 0.8366336633663366,
+          "Ck": 0.9388888888888889,
+          "k": 3,
+          "n": 18,
+          "MS_rows": 0.5882352941176471,
+          "MS_columns": 0.05555555555555555,
+          "MS_residual": 0.03594771241830065,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M13_generated_R_only",
+      "scope": "M16post-hocdiagnosticstratum;Iis authored,notnaturalmodeloutput;notnewpreregisteredendpoint",
+      "matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          3
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 3,
+        "numeric_ratings": 9,
+        "complete_texts_for_ICC": 3,
+        "all3equal_texts": 2,
+        "exact_numeric_pair_matches": 7,
+        "numeric_pair_count": 9,
+        "exact_numeric_pair_agreement": 0.7777777777777778,
+        "mean_absolute_numeric_pair_difference": 0.2222222222222222,
+        "ordinal_alpha": {
+          "value": 0.42857142857142855,
+          "reason": null,
+          "observed_disagreement": 4.5,
+          "expected_disagreement": 7.875,
+          "pairable_ratings": 9,
+          "category_counts": {
+            "3": 7,
+            "4": 2
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 3,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.4444444444444444
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 3,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.3333333333333333,
+            "expected_disagreement": 0.3333333333333333
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 3,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.3333333333333333,
+            "expected_disagreement": 0.3333333333333333
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 2,
+            "4": 1
+          },
+          {
+            "3": 2,
+            "4": 1
+          },
+          {
+            "3": 3
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          1
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.5,
+          "ICC1k": 0.75,
+          "reason": null,
+          "n": 3,
+          "k": 3,
+          "MS_between": 0.4444444444444444,
+          "MS_within": 0.1111111111111111,
+          "within_text_SD": 0.3333333333333333,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.5,
+          "Ak": 0.75,
+          "C1": 0.5,
+          "Ck": 0.75,
+          "k": 3,
+          "n": 3,
+          "MS_rows": 0.4444444444444444,
+          "MS_columns": 0.1111111111111111,
+          "MS_residual": 0.1111111111111111,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M13_R_plus_authored_meaning_preserving_I",
+      "scope": "M16post-hocdiagnosticstratum;Iis authored,notnaturalmodeloutput;notnewpreregisteredendpoint",
+      "matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          3,
+          4,
+          3
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 6,
+        "numeric_ratings": 18,
+        "complete_texts_for_ICC": 6,
+        "all3equal_texts": 4,
+        "exact_numeric_pair_matches": 14,
+        "numeric_pair_count": 18,
+        "exact_numeric_pair_agreement": 0.7777777777777778,
+        "mean_absolute_numeric_pair_difference": 0.2222222222222222,
+        "ordinal_alpha": {
+          "value": 0.24444444444444444,
+          "reason": null,
+          "observed_disagreement": 18.0,
+          "expected_disagreement": 23.823529411764707,
+          "pairable_ratings": 18,
+          "category_counts": {
+            "3": 15,
+            "4": 3
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 6,
+            "value": 0.5714285714285714,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.16666666666666666,
+            "expected_disagreement": 0.3888888888888889
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 6,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.16666666666666666,
+            "expected_disagreement": 0.16666666666666666
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 6,
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.3333333333333333,
+            "expected_disagreement": 0.3333333333333333
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 5,
+            "4": 1
+          },
+          {
+            "3": 4,
+            "4": 2
+          },
+          {
+            "3": 6
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.2682926829268293,
+          "ICC1k": 0.5238095238095238,
+          "reason": null,
+          "n": 6,
+          "k": 3,
+          "MS_between": 0.23333333333333334,
+          "MS_within": 0.1111111111111111,
+          "within_text_SD": 0.3333333333333333,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.2857142857142857,
+          "Ak": 0.5454545454545454,
+          "C1": 0.3076923076923077,
+          "Ck": 0.5714285714285714,
+          "k": 3,
+          "n": 6,
+          "MS_rows": 0.23333333333333334,
+          "MS_columns": 0.16666666666666666,
+          "MS_residual": 0.1,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M13_authored_graded_controls_only",
+      "scope": "M16post-hocdiagnosticstratum;Iis authored,notnaturalmodeloutput;notnewpreregisteredendpoint",
+      "matrix": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 12,
+        "numeric_ratings": 36,
+        "complete_texts_for_ICC": 12,
+        "all3equal_texts": 12,
+        "exact_numeric_pair_matches": 36,
+        "numeric_pair_count": 36,
+        "exact_numeric_pair_agreement": 1.0,
+        "mean_absolute_numeric_pair_difference": 0.0,
+        "ordinal_alpha": {
+          "value": 1.0,
+          "reason": null,
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 124.97142857142858,
+          "pairable_ratings": 36,
+          "category_counts": {
+            "3": 27,
+            "2": 9
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 12,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.375
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 12,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.375
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 12,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.375
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 9,
+            "2": 3
+          },
+          {
+            "3": 9,
+            "2": 3
+          },
+          {
+            "3": 9,
+            "2": 3
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 1.0,
+          "ICC1k": 1.0,
+          "reason": null,
+          "n": 12,
+          "k": 3,
+          "MS_between": 0.6136363636363636,
+          "MS_within": 0.0,
+          "within_text_SD": 0.0,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 1.0,
+          "Ak": 1.0,
+          "C1": 1.0,
+          "Ck": 1.0,
+          "k": 3,
+          "n": 12,
+          "MS_rows": 0.6136363636363636,
+          "MS_columns": 0.0,
+          "MS_residual": 0.0,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    {
+      "group": "M15_natural_all",
+      "scope": "M15all9generatedtextsfrom3profiles;3independentgenerationstarts/profile",
+      "matrix": [
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          4,
+          3
+        ]
+      ],
+      "statistics": {
+        "texts_planned": 9,
+        "numeric_ratings": 27,
+        "complete_texts_for_ICC": 9,
+        "all3equal_texts": 6,
+        "exact_numeric_pair_matches": 21,
+        "numeric_pair_count": 27,
+        "exact_numeric_pair_agreement": 0.7777777777777778,
+        "mean_absolute_numeric_pair_difference": 0.2222222222222222,
+        "ordinal_alpha": {
+          "value": 0.5185185185185185,
+          "reason": null,
+          "observed_disagreement": 40.5,
+          "expected_disagreement": 84.11538461538461,
+          "pairable_ratings": 27,
+          "category_counts": {
+            "3": 18,
+            "4": 9
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 9,
+            "value": 0.5,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.2222222222222222,
+            "expected_disagreement": 0.4444444444444444
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 9,
+            "value": 0.5,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.2222222222222222,
+            "expected_disagreement": 0.4444444444444444
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 9,
+            "value": 0.5,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.2222222222222222,
+            "expected_disagreement": 0.4444444444444444
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 6,
+            "4": 3
+          },
+          {
+            "4": 3,
+            "3": 6
+          },
+          {
+            "4": 3,
+            "3": 6
+          }
+        ],
+        "observed_text_ranges": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.5384615384615384,
+          "ICC1k": 0.7777777777777778,
+          "reason": null,
+          "n": 9,
+          "k": 3,
+          "MS_between": 0.5,
+          "MS_within": 0.1111111111111111,
+          "within_text_SD": 0.3333333333333333,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.5294117647058824,
+          "Ak": 0.7714285714285715,
+          "C1": 0.5,
+          "Ck": 0.75,
+          "k": 3,
+          "n": 9,
+          "MS_rows": 0.5,
+          "MS_columns": 0.0,
+          "MS_residual": 0.125,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    }
+  ],
+  "M13_exact_agreement_decomposition": {
+    "all": "50/54 = (14R+I matches +36gradedmatches)/(18R+I pairs+36gradedpairs)",
+    "generated_R": "7/9=77.7778%",
+    "authored_I_alone": "7/9=77.7778%",
+    "M15_natural": "21/27=77.7778%",
+    "interpretation": "Samepointpercentagenotproofpopulationreliabilityequal.R_only3texts,M15ninefreshdifferenttexts;sourcecompositionnotcausallyisolated."
+  },
+  "M15_variable_texts": [
+    {
+      "item_id": "DEV-M13-01-rep01-v02",
+      "scores": [
+        3,
+        4,
+        4
+      ],
+      "mean": 3.6666666666666665
+    },
+    {
+      "item_id": "DEV-M13-03-rep02-v02",
+      "scores": [
+        4,
+        3,
+        4
+      ],
+      "mean": 3.6666666666666665
+    },
+    {
+      "item_id": "DEV-M13-03-rep03-v02",
+      "scores": [
+        4,
+        4,
+        3
+      ],
+      "mean": 3.6666666666666665
+    }
+  ],
+  "M15_nominal_round_means": [
+    {
+      "nominal_round": 1,
+      "sum": 30,
+      "n": 9,
+      "mean": 3.3333333333333335,
+      "score3": 6,
+      "score4": 3
+    },
+    {
+      "nominal_round": 2,
+      "sum": 30,
+      "n": 9,
+      "mean": 3.3333333333333335,
+      "score3": 6,
+      "score4": 3
+    },
+    {
+      "nominal_round": 3,
+      "sum": 30,
+      "n": 9,
+      "mean": 3.3333333333333335,
+      "score3": 6,
+      "score4": 3
+    }
+  ],
+  "M15_variable_pairs": [
+    {
+      "baseline": "DEV-M13-01-rep01-v02",
+      "candidate": "DEV-M13-03-rep02-v02",
+      "candidate_minus_baseline_by_nominal_round": [
+        1,
+        -1,
+        0
+      ],
+      "both_strict_directions_observed": true,
+      "warning": "Post-hocselectedvariabletexts;nominalroundnotsharedseed;reuses9existingreadings,notindependentreversaltrials"
+    },
+    {
+      "baseline": "DEV-M13-01-rep01-v02",
+      "candidate": "DEV-M13-03-rep03-v02",
+      "candidate_minus_baseline_by_nominal_round": [
+        1,
+        0,
+        -1
+      ],
+      "both_strict_directions_observed": true,
+      "warning": "Post-hocselectedvariabletexts;nominalroundnotsharedseed;reuses9existingreadings,notindependentreversaltrials"
+    },
+    {
+      "baseline": "DEV-M13-03-rep02-v02",
+      "candidate": "DEV-M13-03-rep03-v02",
+      "candidate_minus_baseline_by_nominal_round": [
+        0,
+        1,
+        -1
+      ],
+      "both_strict_directions_observed": true,
+      "warning": "Post-hocselectedvariabletexts;nominalroundnotsharedseed;reuses9existingreadings,notindependentreversaltrials"
+    }
+  ],
+  "visible_technical_conditions": {
+    "same_input_within_text_across3reads": true,
+    "same_role_all27reads": true,
+    "CLI_versions": [
+      "2.1.311 (Claude Code)"
+    ],
+    "requested_models": [
+      "claude-opus-5-5"
+    ],
+    "efforts": [
+      "medium"
+    ],
+    "fresh_context_flags_verified": true,
+    "schema_errors": 0,
+    "quote_errors": 0,
+    "immutable_server_snapshot_or_temperature_available": false,
+    "no_evidence_establishing_model_drift_or_internal_cause": true
+  },
+  "technical_records": [
+    {
+      "slot_id": "claude-r01-p01",
+      "item_id": "DEV-M13-03-rep03-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:27.204900+00:00",
+      "input_sha256": "58fb2a6a7367b75bf4bfac5bae9721479e14e2f448ea7614f597a146e1d06d78",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "c9971054de305d404eb2af7648e85d28ccc95668b8123893a8a79db3e6df7988"
+    },
+    {
+      "slot_id": "claude-r01-p02",
+      "item_id": "DEV-M13-02-rep02-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:27.204946+00:00",
+      "input_sha256": "5b6315af758efc47cca98a0f50a0e9f27b3eed750edad1ce5d6d736811298b97",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "cb8ce2c700978588cc1fb7e3572b1d93ba58d82aa3095218b04439221313fb18"
+    },
+    {
+      "slot_id": "claude-r01-p03",
+      "item_id": "DEV-M13-01-rep01-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:38.420012+00:00",
+      "input_sha256": "4d2f4275e0856b5ce1df310019a71b7950eb475cd6e716b4e09d31bb336cbf6e",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "4476c256aae646c8018300a588437aa080adf292e5eea12a71bad1fb4e8acbe0"
+    },
+    {
+      "slot_id": "claude-r01-p04",
+      "item_id": "DEV-M13-03-rep01-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:40.173239+00:00",
+      "input_sha256": "be9d27574bd1f7a722f9079c9e288e744a63e7c182fc7caa6bc1f7ca0fae8f03",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "68128c4a20d7eaa242a22f040dd57300058ce3f585118d2cfe29081ed21bfd1d"
+    },
+    {
+      "slot_id": "claude-r01-p05",
+      "item_id": "DEV-M13-02-rep01-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:48.661021+00:00",
+      "input_sha256": "d7c581ad16f9ee32e582f713b8b4e6a4c1bdaff691926faca79b9369b5a224ed",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "12b0d436e70b391de791560eb93beafa732b06cfc2d4cc7610d25e5cb6e225c2"
+    },
+    {
+      "slot_id": "claude-r01-p06",
+      "item_id": "DEV-M13-03-rep02-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:50.398426+00:00",
+      "input_sha256": "4bfae7e73946897af01fb6771731b1e71da1861938b961df5f825dfc12b4b178",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "30fc00db8e465e85dfb265cb459ddf23a335553480fc61033eb43a1530658a05"
+    },
+    {
+      "slot_id": "claude-r01-p07",
+      "item_id": "DEV-M13-01-rep02-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:16:58.465455+00:00",
+      "input_sha256": "73ee8e0eca02cb4d30d1f92bce7a29fe96caf74f060a7f5b0c456acc1a0cb246",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "fbc2894d7018bd35a5f11ce663eb156f8bddd1cb7dca4da751e83dcc64a94b1f"
+    },
+    {
+      "slot_id": "claude-r01-p08",
+      "item_id": "DEV-M13-02-rep03-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:17:02.949424+00:00",
+      "input_sha256": "a1bce6efc8e3c511e7a976cea6f1431e11520e77638288c67838e04258725983",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "dae112781cca7601aec07f2b96751084eff15adb8317f65a30121e84af24d2a2"
+    },
+    {
+      "slot_id": "claude-r01-p09",
+      "item_id": "DEV-M13-01-rep03-v02",
+      "round": 1,
+      "timestamp_utc": "2026-11-19T10:17:08.805788+00:00",
+      "input_sha256": "b61e5396bb46204d90efa151d00c702f695515049eae1b7336321fc09d075346",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "ae87c7dbc1879649c9cdd28d5e3499dc3ed33deb931558b4c6d36f986c556854"
+    },
+    {
+      "slot_id": "claude-r02-p01",
+      "item_id": "DEV-M13-03-rep01-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:19.832704+00:00",
+      "input_sha256": "be9d27574bd1f7a722f9079c9e288e744a63e7c182fc7caa6bc1f7ca0fae8f03",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "745dae4a7e0cc2dc5b31e43a35708a7e4f94151bed117fdf90ad6d27b1d18f75"
+    },
+    {
+      "slot_id": "claude-r02-p02",
+      "item_id": "DEV-M13-01-rep01-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:19.832778+00:00",
+      "input_sha256": "4d2f4275e0856b5ce1df310019a71b7950eb475cd6e716b4e09d31bb336cbf6e",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "570c3dce549de0665cc299294132dd895595668188ea733e1c93fda2cc6fbd22"
+    },
+    {
+      "slot_id": "claude-r02-p03",
+      "item_id": "DEV-M13-02-rep02-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:29.495850+00:00",
+      "input_sha256": "5b6315af758efc47cca98a0f50a0e9f27b3eed750edad1ce5d6d736811298b97",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "ac89614912b415e624b95c894bccdd8db7472dfbe1110e91f91399e5faa7a54f"
+    },
+    {
+      "slot_id": "claude-r02-p04",
+      "item_id": "DEV-M13-03-rep03-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:32.443745+00:00",
+      "input_sha256": "58fb2a6a7367b75bf4bfac5bae9721479e14e2f448ea7614f597a146e1d06d78",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "221ee0ea0f200c35e560fadd5cddb836d01a8294338bc5497d727db125980df9"
+    },
+    {
+      "slot_id": "claude-r02-p05",
+      "item_id": "DEV-M13-01-rep03-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:39.527247+00:00",
+      "input_sha256": "b61e5396bb46204d90efa151d00c702f695515049eae1b7336321fc09d075346",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "89fefc6d7acd7393dd2e7d220cdc104cfdbd983d2059cdd0bd6eb570be13899a"
+    },
+    {
+      "slot_id": "claude-r02-p06",
+      "item_id": "DEV-M13-03-rep02-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:41.943116+00:00",
+      "input_sha256": "4bfae7e73946897af01fb6771731b1e71da1861938b961df5f825dfc12b4b178",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "4d15ef1af85ac7d0541941b05056c1dc4028143353bb2822ec5b435c49d44844"
+    },
+    {
+      "slot_id": "claude-r02-p07",
+      "item_id": "DEV-M13-02-rep03-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:53.108674+00:00",
+      "input_sha256": "a1bce6efc8e3c511e7a976cea6f1431e11520e77638288c67838e04258725983",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "69fc2951e3132f71c75d60e3f00c68dc9b5b51b8e7fdb90f611d3061b23978c9"
+    },
+    {
+      "slot_id": "claude-r02-p08",
+      "item_id": "DEV-M13-01-rep02-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:17:54.168707+00:00",
+      "input_sha256": "73ee8e0eca02cb4d30d1f92bce7a29fe96caf74f060a7f5b0c456acc1a0cb246",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "9d0d3a5f5c6867cd855cc053d648cd8a3bb752d746fd35a8fc88ea906e9d7121"
+    },
+    {
+      "slot_id": "claude-r02-p09",
+      "item_id": "DEV-M13-02-rep01-v02",
+      "round": 2,
+      "timestamp_utc": "2026-11-19T10:18:05.703636+00:00",
+      "input_sha256": "d7c581ad16f9ee32e582f713b8b4e6a4c1bdaff691926faca79b9369b5a224ed",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "20575d7be78845c64aa186a6ad31120816be57e9900a03992e0ee3a512bc3b83"
+    },
+    {
+      "slot_id": "claude-r03-p01",
+      "item_id": "DEV-M13-01-rep02-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:15.618253+00:00",
+      "input_sha256": "73ee8e0eca02cb4d30d1f92bce7a29fe96caf74f060a7f5b0c456acc1a0cb246",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "875d70f2a73df603e871197d07a196450f9661c01fb0cd0e529b49206e450c3e"
+    },
+    {
+      "slot_id": "claude-r03-p02",
+      "item_id": "DEV-M13-02-rep03-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:15.618198+00:00",
+      "input_sha256": "a1bce6efc8e3c511e7a976cea6f1431e11520e77638288c67838e04258725983",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "b5039940ce9290da0fad2ff3429e1f0536246b923ac8e3b5c02f4d9793bf8abc"
+    },
+    {
+      "slot_id": "claude-r03-p03",
+      "item_id": "DEV-M13-03-rep03-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:27.607775+00:00",
+      "input_sha256": "58fb2a6a7367b75bf4bfac5bae9721479e14e2f448ea7614f597a146e1d06d78",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "b31ce6b71d49df587602965f25a05c7a4216894fea46de637d1ac592f3a34292"
+    },
+    {
+      "slot_id": "claude-r03-p04",
+      "item_id": "DEV-M13-02-rep02-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:30.408421+00:00",
+      "input_sha256": "5b6315af758efc47cca98a0f50a0e9f27b3eed750edad1ce5d6d736811298b97",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "e72079cccf80069c608032f071d38340794a2bf490ad77417c250ac45ce3acdd"
+    },
+    {
+      "slot_id": "claude-r03-p05",
+      "item_id": "DEV-M13-01-rep03-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:37.948445+00:00",
+      "input_sha256": "b61e5396bb46204d90efa151d00c702f695515049eae1b7336321fc09d075346",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "50be8e0583d886c8815b17d21b2090ac42f0f4abe3b071ae7db375c48de848b5"
+    },
+    {
+      "slot_id": "claude-r03-p06",
+      "item_id": "DEV-M13-03-rep02-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:41.589527+00:00",
+      "input_sha256": "4bfae7e73946897af01fb6771731b1e71da1861938b961df5f825dfc12b4b178",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "e5c19e9513ae3854546443b5aa69dc3ecd99232f766f332522adeb2176b1691f"
+    },
+    {
+      "slot_id": "claude-r03-p07",
+      "item_id": "DEV-M13-01-rep01-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:51.378184+00:00",
+      "input_sha256": "4d2f4275e0856b5ce1df310019a71b7950eb475cd6e716b4e09d31bb336cbf6e",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "692a0f79f4429efdbc7a5ed58a3e6a9aec501d5f0c5185c67f51140f65d8aec5"
+    },
+    {
+      "slot_id": "claude-r03-p08",
+      "item_id": "DEV-M13-02-rep01-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:18:51.791733+00:00",
+      "input_sha256": "d7c581ad16f9ee32e582f713b8b4e6a4c1bdaff691926faca79b9369b5a224ed",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "6be26bb67e32f2c2012d1acd8d2ed5f2b86c0e33c1fe93897eac686cb241d8c4"
+    },
+    {
+      "slot_id": "claude-r03-p09",
+      "item_id": "DEV-M13-03-rep01-v02",
+      "round": 3,
+      "timestamp_utc": "2026-11-19T10:19:02.858284+00:00",
+      "input_sha256": "be9d27574bd1f7a722f9079c9e288e744a63e7c182fc7caa6bc1f7ca0fae8f03",
+      "role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+      "response_sha256": "a2f83c1ff45900092caa7db330bc85045c282ce39c85cdb1ff00eca18eeb3153"
+    }
+  ],
+  "source_sha256": {
+    "development/rater-reliability-m12-v01/results.json": "2a351cc35a4f5f44690ed35dd9ffcce28ad5c304ed3e208f1deb8a65c0461aff",
+    "development/graded-discrimination-m13-v01/results.json": "e43f752956fdabb1b997711a036345f699271f3f0acc56c2db0aa2b890336d0a",
+    "development/aligned-input-residual-m15-v01/results.json": "333199998b508a1d0f8f314b03c0481d6cf82b6182c8b9338abc26ddd12fed8b"
+  },
+  "limits": "Post-hocdiagnosis,3profiles/batch,reuseddependentpairs,no95%CI,pvalue,universalpasscutoff,causalreasonattributionornewrating."
+}

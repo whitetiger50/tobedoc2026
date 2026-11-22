@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 2,
+  "question": "How has it been to get yourself going, at home or outside?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "Takes some effort. Once I’m out walking, I usually enjoy it.",
+  "raw_sha256": "6a040707a5f1876b3a49fb1d5bfdea7892f027a0ab5c68aa5d49dcf068e66de1",
+  "request_sha256": "a70b97b582c629cb5de31f3a2d9baad40c51708390c858c2eacd4397b2d9fc8c",
+  "started_utc": "2026-11-20T20:58:18.135281+00:00",
+  "completed_utc": "2026-11-20T20:58:21.805586+00:00",
+  "usage": {
+    "input_tokens": 15637,
+    "cached_input_tokens": 11392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ffec0f4f80a930c7fba0cda65ba31a076e399f0d6ff01ad086a121d5b72b5513",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "367dabc801e6dd2c4dd247b02b9299a86ff46d3c57477d4dd05e8d492c32adab"
+}

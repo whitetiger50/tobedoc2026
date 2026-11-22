@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 8,
+  "question": "I mean the order in which you do your jobs. What difference does having a usual sequence make, if any?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-699f-7753-a365-ece283d42b11",
+  "raw": "“Oh, the order of the jobs. I haven’t noticed that a particular order makes much difference—it’s having several things needing attention at once that throws me. I’d finished the bibs, but looking for the bus card took my attention away from taking them. That’s why I’ve put the card in the bag now—one less thing to chase after!”",
+  "raw_sha256": "1ce7c6b1850e8a72c96546b5950937eb41f21f1b2a5f130751afd8e4b8d923c9",
+  "request_sha256": "1886694415d2685c0c7dbb6b0ab8119852b6dffa00ba8f1d379775449476b5a6",
+  "started_utc": "2026-11-20T20:41:33.252057+00:00",
+  "completed_utc": "2026-11-20T20:41:39.168909+00:00",
+  "usage": {
+    "input_tokens": 7535,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 26
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f0597ab2d3b036d8dc5213272581853c3317efc44cf71ff0717bb1269430b08f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7969cd2e9a493741b234812bd0258b3c9fc7430067df60313521ffb2ab3cd913"
+}

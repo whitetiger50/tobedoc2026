@@ -1,0 +1,89 @@
+{
+  "id": "Pe859dd4df3dbd8de29823040",
+  "reader": "gpt",
+  "session": "01a1fc43-e8b7-7ad1-9301-1c42ce88f2ff",
+  "attempt": "attempt-01",
+  "packet_sha256": "933dde3317381adea4dc190c8e5e27502cc310c10c099fe193efcb199b9ebf80",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d9e963cba8c3135308f1ca3d7c7b7e65c635b06a28955bbbac67deeac085e2d7",
+  "raw_sha256": "3a41b3b1ff68ae310461a41049fd50d04eb156d5a1606d877e4ed7455a41f5a0",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Are you still using the reminder?",
+        "reason": "The singular reminder could refer to either of the two named aids, whose current use differs.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan still uses the phone alarm.",
+            "answer": "The phone alarm remains in use at 7:10 in the morning."
+          },
+          {
+            "meaning": "Whether Morgan still uses the note on the door.",
+            "answer": "The note was taken down last month."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "Both named background-noise devices are plausible referents for 'it', but they run for different durations.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "The fan runs throughout the night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "The speaker stops after twenty minutes."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "The question names two Wednesday activities without specifying which stay to describe, and their durations differ.",
+        "alternatives": [
+          {
+            "meaning": "How long Ren stays at the book group.",
+            "answer": "The book-group stay lasts one hour."
+          },
+          {
+            "meaning": "How long Ren stays with Mom.",
+            "answer": "The visit with Mom lasts about three hours."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "Although the earlier discussion concerned the commentary, the current question explicitly introduces both sounds, which respond differently to music.",
+        "alternatives": [
+          {
+            "meaning": "Whether the commentary stops during headphone music.",
+            "answer": "The commentary stops while the music is playing."
+          },
+          {
+            "meaning": "Whether the high-pitched ringing stops during headphone music.",
+            "answer": "The ringing continues through the music."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:01:30.811249+00:00"
+}

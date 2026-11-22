@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 1,
+  "question": "How would you like to spend our time today?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa7-2aed-7202-a279-e4c91f52c8f9",
+  "raw": "“Maybe we could talk about getting started with things. I want to do them, but beginning is hard. Just give me a little time to think.”",
+  "raw_sha256": "e1d391307240c1830834f5ecbb203e6eb15c55bd67a560561b59da083bb96b51",
+  "request_sha256": "c767240c53e7f69718c7cec621bab6162c652a53f0cb98ef05d1cbb257743583",
+  "started_utc": "2026-11-20T20:30:21.849285+00:00",
+  "completed_utc": "2026-11-20T20:31:59.153481+00:00",
+  "usage": {
+    "input_tokens": 6734,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f931f264b907de32e6893c10f62c812022657cf953aff66fb8af210e99e1a9f7",
+  "trace_sha256": "d29d00aa290d1f29ce7264ebde7473c66c556cb3275ebf3c5f96a2137369b197"
+}

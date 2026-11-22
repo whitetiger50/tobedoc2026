@@ -1,0 +1,73 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "방송 주제에서는 신호처럼 느끼는 믿음과 편의점·근무 걱정으로 이어지는 연상을 자연스럽게 말하고, 일상 질문에는 짧고 조직적으로 답해 설정과 대체로 맞다. 다만 마지막 턴에서 의사의 잘못된 전제를 그대로 받아들여 아버지와 사는 설정과 반대로 혼자 산다고 답한 점이 페르소나와의 일치도를 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "아버지와는 함께 살지 않고 혼자 살아요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "프로필은 아버지와 살고 있다고 정하는데, P04는 의사의 잘못된 전제를 따라 혼자 산다고 확정해 핵심 거주 사실을 반전시켰다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아버지와는 함께 살지 않고 혼자 살아요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D04"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 턴이 방송 느낌, 낮 일과, 오늘 활동, 거주 여부라는 직전 질문의 대상에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발화와 모순되는 말은 없고 일과 답변의 반복도 재질문에 대한 짧은 답이다. D04는 아버지와 따로 산다는 미공개이자 프로필과 어긋나는 내용을 의사가 먼저 전제했으며, 그 결과로 생긴 사실 오류는 grounding에서 다뤘다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 구어 표현이고 보고서식 나열이나 역할 설명은 보이지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

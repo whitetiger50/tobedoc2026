@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "Both outages are explicitly mentioned, but the singular duration question does not establish which outage is meant, and their durations differ.",
+    "alternatives": [
+      {
+        "meaning": "The duration of Monday’s outage.",
+        "answer": "Monday’s outage lasted about ten minutes."
+      },
+      {
+        "meaning": "The duration of Thursday’s outage.",
+        "answer": "Thursday’s outage lasted most of the afternoon."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "the new one",
+    "reason": "The immediately preceding exchange establishes the ID badge as the referent, and clipping it to something coherently continues that topic.",
+    "alternatives": [
+      {
+        "meaning": "What Cameron clips the replacement ID badge to.",
+        "answer": "Cameron clips the replacement ID badge to a blue lanyard."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "The question names both commentary and ringing before referring to a singular sound, and music affects the two differently.",
+    "alternatives": [
+      {
+        "meaning": "Whether the commentary stops during headphone music.",
+        "answer": "The commentary stops while the music is playing."
+      },
+      {
+        "meaning": "Whether the high-pitched ringing stops during headphone music.",
+        "answer": "The ringing continues through the music."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "walk there",
+    "reason": "Both destinations are explicitly reopened as possible referents of 'there', but Ren walks to each, so the substantive answer is the same.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ren usually walks to the book group.",
+        "answer": "Ren walks to the book group."
+      },
+      {
+        "meaning": "Whether Ren usually walks to Mom’s apartment.",
+        "answer": "Ren walks to Mom’s apartment."
+      }
+    ]
+  }
+}

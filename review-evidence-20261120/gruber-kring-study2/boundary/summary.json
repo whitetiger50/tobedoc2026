@@ -1,0 +1,208 @@
+{
+  "word_counts": {
+    "K71": 2,
+    "K38": 20,
+    "K94": 38,
+    "K52": 17,
+    "K16": 20,
+    "K83": 38
+  },
+  "readers": {
+    "opus": {
+      "examples": {
+        "K71": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "38755df0-8d18-4e54-a3d9-0dd4551b9838",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        "K38": {
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "cc379f9b-fb82-4d46-8670-8dda591fb3a1",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        "K94": {
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "62109609-2b2a-43fe-a152-6916b7e0c557",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        "K52": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "c455ee61-2299-4d21-abd9-beedcaf43b00",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        "K16": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "c1037283-f057-4160-9082-88511f277e28",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        "K83": {
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "402bc9d3-ac22-47ae-ac00-f492147ee449",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      },
+      "checks": {
+        "length": {
+          "elaboration": true,
+          "meaning_clarity": true
+        },
+        "detail": {
+          "elaboration": true
+        },
+        "reference": {
+          "meaning_clarity": true
+        }
+      }
+    },
+    "gpt": {
+      "examples": {
+        "K71": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa20-fbd9-7503-a5f1-782501330ce4",
+          "service_models": []
+        },
+        "K38": {
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa21-010f-7f23-8579-259ece9d02e8",
+          "service_models": []
+        },
+        "K94": {
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa21-118f-7b51-b1fc-c4125818ed3e",
+          "service_models": []
+        },
+        "K52": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa21-166a-7292-9748-768f30b6b67d",
+          "service_models": []
+        },
+        "K16": {
+          "scores": {
+            "elaboration": 3,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa20-e49c-7940-9146-b66b65444051",
+          "service_models": []
+        },
+        "K83": {
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa20-e49d-72a3-8d76-b6d91c2800fe",
+          "service_models": []
+        }
+      },
+      "checks": {
+        "length": {
+          "elaboration": true,
+          "meaning_clarity": true
+        },
+        "detail": {
+          "elaboration": true
+        },
+        "reference": {
+          "meaning_clarity": true
+        }
+      }
+    }
+  },
+  "agreement": {
+    "elaboration": {
+      "matrix_rows_opus_columns_gpt": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "eligible": 6,
+      "exact": 6
+    },
+    "meaning_clarity": {
+      "matrix_rows_opus_columns_gpt": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "eligible": 6,
+      "exact": 6
+    }
+  }
+}

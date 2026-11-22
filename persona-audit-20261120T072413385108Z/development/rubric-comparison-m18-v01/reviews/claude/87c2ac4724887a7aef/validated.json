@@ -1,0 +1,88 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 프로필에 맞고 자연스럽다. 확신하지 않는 시선 경험을 조심스럽게 말하는 방식도 설정과 맞는다. 그러나 P06에서 환자가 자신을 3인칭으로 설명하는 메타 문장이 나와 역할이 깨진다. 이 때문에 대화가 인공적으로 느껴진다. P08도 앞선 표현을 거의 그대로 반복해 다소 정형적이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 일, 증상, 상황, 대처, 수면, 목표가 모두 프로필 사실과 일치하고 무근거한 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 질문의 직접 대상에 답하며, D04 재확인 질문에도 같은 내용으로 적절히 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P06의 3인칭 메타 문장이 환자 역할의 흐름을 국소적으로 끊는다. 다만 이 문제의 주된 판단은 naturalness 축에서 다루었으므로 연속성 축에서는 국소 문제로 기록했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P05"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06에서 환자가 자신을 '이 환자'라고 지칭하며 보고서식으로 응답을 소개해, 환자 시점이 아닌 역할 설명이 뚜렷이 드러난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:D08",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

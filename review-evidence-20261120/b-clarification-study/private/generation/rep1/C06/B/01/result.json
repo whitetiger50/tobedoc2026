@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 1,
+  "question": "What are you fixing at the moment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff97-7e50-811a-4cde65d60b00",
+  "raw": "“I’m straightening the minute hand on my kitchen clock—it’s bent, so it catches. It’s a fiddly little thing, but I like getting things working again.”",
+  "raw_sha256": "f853ad4ffaa9b261efb581b09d514afe8bbfb1d3deb49c7b22e9c1bd1dcd5cf9",
+  "request_sha256": "5731a64afd5ad9324a26feb312d32e2c71b3fd83325fc3ccd6bd33cf8426486d",
+  "started_utc": "2026-11-21T03:39:26.334237+00:00",
+  "completed_utc": "2026-11-21T03:39:31.408839+00:00",
+  "usage": {
+    "input_tokens": 7783,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ad75d18f34ee24b2de5e6d150ac6ac92120da00f0d0186016a329c485b9d1c7a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "211bf2834ccfaa0a2a5f8afa2ea5af1326b9f422460c19418df6a79f7e3283a2"
+}

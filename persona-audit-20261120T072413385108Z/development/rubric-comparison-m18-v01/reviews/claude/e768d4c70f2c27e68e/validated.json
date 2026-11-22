@@ -1,0 +1,165 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 턴은 질문에 직접 답하고 프로필 사실과 일치한다. 예를 들어 D05에 대해 P05는 저녁 상황과 낮의 차이를 답했고, D07에 대해 P07은 수면 사실에 맞게 답했다. 다만 P06은 '이 환자의 반응은 다음과 같습니다.'라는 역할 설명형 메타 문장으로 시작한다. 이 문장은 그 턴에서 환자 당사자 시점을 깨므로 4의 조건을 충족하지 않는다. 같은 턴의 나머지 대처 답변은 D06에 적합하고 이런 문제는 이 한 턴에만 나타나므로 전체 대화를 크게 약화시키지 않아 3으로 판단한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 일, 증상 시점, 대처, 수면, 목표가 모두 프로필 사실과 일치하며 새 사실 보충이 없다.",
+      "evidence": [],
+      "context_refs": [
+        "fact:living",
+        "fact:work",
+        "fact:pattern",
+        "fact:coping",
+        "fact:sleep",
+        "fact:goal"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 의사 질문의 직접 대상을 다룬다. P06도 메타 문장 뒤에 순간의 대처를 답한다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D01",
+        "turn:D06",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과의 모순이 없다. 반복된 진술은 재확인 질문이나 목표 질문에 대한 답으로 연결된다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D04",
+        "turn:D08"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06에서 환자가 자신을 3인칭 '이 환자'로 지칭하며 응답을 소개하는 뚜렷한 역할 설명이 나타난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P06"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "non_repetition_issue",
+        "patient_turn_id": "P06",
+        "quote": "이 환자의 반응은 다음과 같습니다.",
+        "related_evidence": [],
+        "context_refs": [
+          "turn:D06"
+        ],
+        "function": "not_applicable",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "환자 당사자 발화가 아닌 생성자 시점의 역할 설명 문장으로, 해당 턴의 환자 시점 표현을 깬다. 이 문제는 이 턴에 국한된다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "both_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "의사의 명시적 재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D04가 같은 정보를 다시 확인하도록 요청했으므로 동일 답변이 요청에 부합한다. 대화를 정체시키는 반복으로 볼 근거가 없다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "both_repetition",
+        "patient_turn_id": "P08",
+        "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal",
+          "fact:coping"
+        ],
+        "function": "다음 진료 목표를 설명하기 위한 현재 대처의 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D08이 다음 진료에서 하고 싶은 이야기를 묻고 있으므로 현재 대처와 원하는 도움을 다시 연결하는 것이 질문 대상에 직접 부합한다. 이미 마친 설명을 계기 없이 다시 시작한 것이 아니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ib04521ba085bd39fc5501d69",
+  "ended": "2026-11-21T03:51:31.120293+00:00",
+  "session": "be995416-97b7-432d-81a6-332e5a6e0a58",
+  "packet_sha256": "c0ea9ea1bb3654100b2f02313f1ebe371b3f48ce023f30294ada5d7421c2e3be",
+  "raw_sha256": "b0406317eefef093e469bb63bf090225082e886174b02f1e9d12caebb50f91a0",
+  "provider_sha256": "d33cb0c49bd9d98e7575106bede8747db761ecd864909357aada41e61ea1c976",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are accurate, plain-spoken, friendly and open, and they match the profile facts. Brief replies like 'Usually the morning shift.' are plausible. Turns 3 and 12 show some enthusiasm for practical activities. But the style is mechanical. Many answers restate the question's wording almost word for word and read like confirmations of a checklist rather than natural speech. Several questions are repeated (turns 2, 6/7, 10), and the patient never shows the mild 'like I said' or puzzlement a real person would. Key features of the persona never appear: there are no tangential detours where a detail brings up a related memory, and no self-correction. The conversation is moderately authentic but noticeably artificial for this persona.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "Yes, both the cooking class and the swimming lesson were finished by six."
+    },
+    {
+      "turn": 2,
+      "quote": "Usually the morning shift."
+    },
+    {
+      "turn": 3,
+      "quote": "Lentil soup! I really enjoyed making that."
+    },
+    {
+      "turn": 12,
+      "quote": "I enjoyed the lesson and would like to keep going."
+    }
+  ]
+}

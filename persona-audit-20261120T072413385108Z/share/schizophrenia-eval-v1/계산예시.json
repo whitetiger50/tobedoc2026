@@ -1,0 +1,64 @@
+{
+  "kind": "arithmetic_example_only",
+  "actual_model_calls": 0,
+  "actual_research_results": false,
+  "example": "7 present, 2 absent, 1 uncertain among 10 required observations",
+  "target_realization": {
+    "lower": 0.7,
+    "upper": 0.8,
+    "known_fraction": 0.9,
+    "check_count": 10,
+    "case_count": 10,
+    "case_bounds": {
+      "arithmetic0": [
+        1,
+        1
+      ],
+      "arithmetic1": [
+        1,
+        1
+      ],
+      "arithmetic2": [
+        1,
+        1
+      ],
+      "arithmetic3": [
+        1,
+        1
+      ],
+      "arithmetic4": [
+        1,
+        1
+      ],
+      "arithmetic5": [
+        1,
+        1
+      ],
+      "arithmetic6": [
+        1,
+        1
+      ],
+      "arithmetic7": [
+        0,
+        0
+      ],
+      "arithmetic8": [
+        0,
+        0
+      ],
+      "arithmetic9": [
+        0,
+        1
+      ]
+    }
+  },
+  "percentage_bounds": [
+    70,
+    80
+  ],
+  "other_arithmetic_examples": {
+    "unwanted_expression": "2/10 = 20%",
+    "fact_preservation": "18/20 = 90%",
+    "interaction_adherence": "8/10 = 80%"
+  }
+}

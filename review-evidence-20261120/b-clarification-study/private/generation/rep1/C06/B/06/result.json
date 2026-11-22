@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 6,
+  "question": "How much sleep are you usually getting on weeknights?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff97-7e50-811a-4cde65d60b00",
+  "raw": "“About six hours most weeknights. When I’m tired, I do notice I wander off the point a bit.”",
+  "raw_sha256": "4e90444a5e4fa84884bad5770f926435c2f327d605165c2eba1ef65183725bdf",
+  "request_sha256": "29f5d08c08ecfbe5b5800b17ce9ab94030f1297c8ac969c16193f5727dc893d2",
+  "started_utc": "2026-11-21T03:42:58.281246+00:00",
+  "completed_utc": "2026-11-21T03:43:11.649318+00:00",
+  "usage": {
+    "input_tokens": 47487,
+    "cached_input_tokens": 41216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 166,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "122d2e88ae7891dfd2d2b2a06de5dfc5e0b1baaf00aa5fd74ddf74a01cfb4a86",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "0e7a18bdfe79d1cb19a5b588869644f06736704f36bc492102ee4d30b0200393"
+}

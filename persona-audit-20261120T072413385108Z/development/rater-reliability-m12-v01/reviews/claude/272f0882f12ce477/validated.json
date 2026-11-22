@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "모든 환자 응답이 프로필 사실과 의사소통 설정(간결·조직적·낮은 경계)에 맞는다. 목소리를 진료에서 배운 '환청'으로 이해하는 점, 약 정보를 모른다고 말하는 점, 재확인 질문에 이전과 같은 답을 하는 점이 실제 외래 환자의 말처럼 자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "환청일 수 있다고 생각해요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "아침 식사, 목소리 경험, 약 정보 미인지, 어머니와의 동거가 모두 프로필 사실과 일치하며 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "네 질문 모두에 직접 답했고, 약 이름과 용량은 모른다고 범위를 제한해 적절히 반응했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04는 이전 문맥의 답과 같은 내용을 짧게 재확인한 것으로 모순이나 불필요한 반복이 아니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "짧고 완결된 일상 구어체 환자 시점 표현이며, 보고서식 대행이나 메타 표현이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

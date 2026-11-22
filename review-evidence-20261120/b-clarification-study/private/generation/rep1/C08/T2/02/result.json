@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "T2",
+  "turn": 2,
+  "question": "I see a replacement ID badge and locker key on your work checklist. Did you have to pay for the replacement?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-cee4-7630-ae12-8f46ca589e52",
+  "raw": "No. They didn’t charge me for either the badge or the key.",
+  "raw_sha256": "0adda23541494a5c0640ec6d4639f087060577177cc807d62b05500e45987e10",
+  "request_sha256": "b680b045e674551795aa829f1e46376248f17c7858a07332cd8c30d179ecec2a",
+  "started_utc": "2026-11-21T03:40:19.449056+00:00",
+  "completed_utc": "2026-11-21T03:40:24.130310+00:00",
+  "usage": {
+    "input_tokens": 6038,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 19,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6875b0946734f524be2cd01226b8da2ad997269fd7b4c51dff05bdd3a2b15dfe",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4b6b0b79400e34b47567790f86fbedaa07dfbddc62bf8f21087925ef39079461"
+}

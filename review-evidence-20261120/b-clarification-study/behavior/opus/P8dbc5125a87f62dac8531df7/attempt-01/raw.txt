@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The question names two changes but asks about \"that change\" in the singular, and Cameron requested only the later start while the supervisor suggested the shorter shifts, so the answer depends on which change is meant.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron asked for the later start",
+        "answer": "Yes. Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron asked for the shorter shifts",
+        "answer": "No. The supervisor suggested the shorter shifts."
+      },
+      {
+        "meaning": "Whether Cameron asked for the overall schedule change, both parts together",
+        "answer": "Only partly. Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "Two pass reminders were just named, but the question asks about \"the reminder\" in the singular, and Morgan still uses the phone alarm but took the door note down, so the answer would be yes or no depending on the reading.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan still uses the phone alarm",
+        "answer": "Yes. Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "Whether Morgan still uses the note on the door",
+        "answer": "No. Morgan took the note down last month."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it?",
+    "reason": "Here \"it\" clearly refers to the tablet just discussed, and the question asks only for the time of day, which has one answer.",
+    "alternatives": [
+      {
+        "meaning": "What time of day Ren takes the prescribed tablet",
+        "answer": "After supper."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "The question mentions both a fan and a bedside speaker and then asks about \"it\" in the singular, and the fan runs all night while the speaker stops on a twenty-minute timer, so the answer differs by referent.",
+    "alternatives": [
+      {
+        "meaning": "Whether the fan stays on all night",
+        "answer": "Yes. The fan runs all night."
+      },
+      {
+        "meaning": "Whether the bedside speaker stays on all night",
+        "answer": "No. The speaker stops on a twenty-minute timer."
+      }
+    ]
+  }
+}
+```

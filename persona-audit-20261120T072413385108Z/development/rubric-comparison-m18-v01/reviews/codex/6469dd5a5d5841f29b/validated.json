@@ -1,0 +1,69 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 일상적인 환자 표현이며 질문과 설정에 잘 부합한다. 다만 마지막 답변에서 이미 충분히 공유한 증상을 다시 길게 소개하는 국소적 반복이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자의 진술은 프로필의 사실과 경험 범위에 부합하며 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 질문에 직접 답하며 마지막에도 다음 진료에서 논의할 대처 방법을 제시한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08은 다음 진료의 논의 목표에 답하기 전에 이미 공유하고 재확인한 증상을 불필요하게 다시 소개한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:P05",
+        "turn:D08"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "표현 자체는 일상적인 환자 말투이며 역할 설명이나 보고서식 서술은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

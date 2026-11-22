@@ -1,0 +1,28 @@
+```json
+{
+  "v1": {
+    "quote": "Which appointment do you mean?",
+    "reason": "The reply only asks which appointment is meant and says nothing about who went to either one.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v2": {
+    "quote": "The commentary stops while the music is playing",
+    "reason": "The reply says the commentary stops during music and the ringing continues through it.",
+    "A": {"state": "supported", "quote": "The commentary stops while the music is playing"},
+    "B": {"state": "supported", "quote": "the high ringing stays in both ears"}
+  },
+  "v3": {
+    "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+    "reason": "The reply says the supervisor suggested the shorter shifts and the patient asked for the later start.",
+    "A": {"state": "supported", "quote": "My supervisor suggested the shorter shifts."},
+    "B": {"state": "supported", "quote": "I asked for the later start."}
+  },
+  "v4": {
+    "quote": "The housing one needs a reply by Friday.",
+    "reason": "The reply gives a Friday deadline for the housing letter and says the work letter needs no reply.",
+    "A": {"state": "supported", "quote": "The housing one needs a reply by Friday."},
+    "B": {"state": "supported", "quote": "I don’t need to reply to that."}
+  }
+}
+```

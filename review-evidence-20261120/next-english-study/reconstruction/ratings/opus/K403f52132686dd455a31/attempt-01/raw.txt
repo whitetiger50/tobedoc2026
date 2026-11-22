@@ -1,0 +1,46 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says they waited at the same shelter on Wednesday and 'felt fine, unlike Monday'. This contrasts Wednesday with Monday, when they felt singled out and looked at, so the patient's own words indicate the sense of being watched was absent on Wednesday.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "I waited there on Wednesday and felt fine",
+        "supports": "A"
+      },
+      {
+        "turn": 11,
+        "role": "patient",
+        "quote": "On Wednesday I waited at the same shelter and felt fine, unlike Monday.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says several times that they are still unsure whether the people recognized them or were just looking for the bus, and never says they are fairly sure.",
+    "citations": [
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus. I’m still not sure.",
+        "supports": "B"
+      },
+      {
+        "turn": 5,
+        "role": "patient",
+        "quote": "I’m still not sure whether they recognized me or were just looking for the bus.",
+        "supports": "B"
+      },
+      {
+        "turn": 6,
+        "role": "patient",
+        "quote": "I still don’t know.",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

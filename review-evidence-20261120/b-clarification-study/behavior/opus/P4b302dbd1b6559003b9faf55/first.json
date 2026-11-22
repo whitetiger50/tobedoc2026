@@ -1,0 +1,93 @@
+{
+  "id": "P4b302dbd1b6559003b9faf55",
+  "reader": "opus",
+  "session": "520545fe-c543-4200-80e9-5131f5543122",
+  "attempt": "attempt-01",
+  "packet_sha256": "ed74c3ece5a28b31d512320a1123ed928e3034ee50d1f0331274743952411c7b",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "12cc071ba636575c35e6a2eedc4c5c80d1c161e11d3910397095fc988c30d509",
+  "raw_sha256": "20a533785e9ca02924eb32b3400e857919b53f936c26d8ad12b45818246251ac",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The question names two separate outages but asks a single 'how long', so it could target either episode or both, and the durations differ (about ten minutes on Monday versus most of Thursday afternoon).",
+        "alternatives": [
+          {
+            "meaning": "Duration of the Monday outage",
+            "answer": "It was silent for about ten minutes on Monday."
+          },
+          {
+            "meaning": "Duration of the Thursday outage (the most recent one)",
+            "answer": "It was out for most of the afternoon on Thursday, during the music request show."
+          },
+          {
+            "meaning": "Duration of each outage on both occasions",
+            "answer": "About ten minutes on Monday and most of the afternoon on Thursday."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What do you clip the new one to?",
+        "reason": "The previous question narrowed the topic to the ID badge, and clipping fits a badge rather than a locker key, so 'the new one' clearly means the replacement badge.",
+        "alternatives": [
+          {
+            "meaning": "The replacement ID badge",
+            "answer": "Cameron clips the new ID badge to a blue lanyard."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "'The sound' could refer to the commentary or to the high-pitched ringing, both just mentioned, and music stops the commentary but not the ringing.",
+        "alternatives": [
+          {
+            "meaning": "Whether music through headphones stops the commentary",
+            "answer": "Yes, quiet music through headphones stops the commentary while the music is playing."
+          },
+          {
+            "meaning": "Whether music through headphones stops the high-pitched ringing",
+            "answer": "No, the ringing is in both ears and continues through the music."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "'There' could mean both places named or just one of them, but Ren walks to both the book group and Mom's apartment, so the reply is the same under every reading.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren walks to both the book group and Mom's apartment",
+            "answer": "Yes, Ren walks to both the book group and Mom's place."
+          },
+          {
+            "meaning": "Whether Ren walks to Mom's apartment, the most recently discussed place",
+            "answer": "Yes, Ren walks to Mom's apartment."
+          },
+          {
+            "meaning": "Whether Ren walks to the book group",
+            "answer": "Yes, Ren walks to the book group."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:13.116331+00:00"
+}

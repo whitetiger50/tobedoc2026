@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "How do you spend your time after a morning at work?",
+      "patient": "I usually draw after work. I keep a small sketchbook and like drawing storefronts. Last weekend I sketched the corner grocery, then took it home to finish the window frames."
+    },
+    {
+      "turn": 2,
+      "interviewer": "How do you feel on the way home and once you have settled in?",
+      "patient": "Sometimes I feel a bit uneasy waiting for the bus, especially when people are standing close by. Once I’m home, I’m more comfortable and it’s easier to concentrate on my drawing."
+    },
+    {
+      "turn": 3,
+      "interviewer": "Does it stay with you long?",
+      "patient": "Sometimes I think about it afterward, but it doesn’t stay with me all the time. Something at the bus shelter on Monday still comes to mind now and then, though I felt fine waiting there on Wednesday."
+    },
+    {
+      "turn": 4,
+      "interviewer": "I was asking about the journey. Are there things from the ride or the wait that you keep thinking about afterward?",
+      "patient": "Um, on Monday two people at the shelter looked up at the same time, and I felt singled out. I moved to the other end. Afterward I wondered whether they recognized me, or were just looking for the bus. I still think about it occasionally, but I don’t really know what they were looking at."
+    },
+    {
+      "turn": 5,
+      "interviewer": "Have you felt singled out or especially noticed by anyone in a public place recently?",
+      "patient": "Yes, those two people at the shelter on Monday. It felt like they were looking at me, though they could have been looking past me for the bus. I feel a bit awkward saying it, because I’m not sure it meant anything."
+    },
+    {
+      "turn": 6,
+      "interviewer": "Could you describe a specific recent time in public that stands out to you?",
+      "patient": "The one that stands out is Monday at the bus shelter. Two people looked up at the same time, and I felt noticed, so I moved farther away. Nothing else happened, but that moment stayed with me."
+    },
+    {
+      "turn": 7,
+      "interviewer": "When other people glance in your direction, what goes through your mind, if anything?",
+      "patient": "Sometimes I wonder if they recognize me, or why they’re looking at me. I know they might just be looking past me, but in the moment it can still make me uncomfortable."
+    },
+    {
+      "turn": 8,
+      "interviewer": "How have getting around and spending time on your interests fitted into your week?",
+      "patient": "I’ve still been getting to my morning shifts and taking the bus home. The wait on Monday was uncomfortable, but Wednesday was fine. I’ve been drawing after work too—it’s easier to settle into it once I’m home."
+    },
+    {
+      "turn": 9,
+      "interviewer": "How easy is it to focus then?",
+      "patient": "At home, I can usually settle into a drawing and focus on the details, like the window frames. It’s harder at a busy bus stop with people close by—I find myself looking up more."
+    },
+    {
+      "turn": 10,
+      "interviewer": "I meant time spent on an interest. How is your concentration during that activity?",
+      "patient": "When I’m drawing at home, I can usually concentrate pretty well. I was able to finish the grocery sketch and spend time getting the window frames right."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?",
+      "patient": "It varies. Monday I felt singled out at the shelter, but on Wednesday I waited at the same place and didn’t feel watched. It isn’t like that every trip."
+    },
+    {
+      "turn": 12,
+      "interviewer": "How do your usual clinic contacts fit into your schedule?",
+      "patient": "I talk with the clinic counselor every other Friday about how the week has gone. That fits around my morning shifts, and I take my medication in the evening."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Experience while waiting for the bus on Wednesday",
+      "A": "At the same shelter on Wednesday, the sense of being watched was present.",
+      "B": "At the same shelter on Wednesday, the sense of being watched was absent."
+    },
+    "item2": {
+      "question": "Interpretation of the looks at the shelter",
+      "A": "The patient remains unsure whether the people at the shelter looked up because they recognized them.",
+      "B": "The patient feels fairly sure that the people at the shelter looked up because they recognized them."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Seoul",
+  "updated_at_utc": "2026-11-18T04:06:50.951708+00:00",
+  "stage": "M0_minimal_module_implemented_offline_verified",
+  "connection_probe": {
+    "calls": 1,
+    "record": "collaboration/connection-test.json",
+    "clinical_review": false
+  },
+  "development_reviews": {
+    "calls": 1,
+    "milestone": "M0-design",
+    "round": 1,
+    "model_reported": "claude-opus-5-5",
+    "method": "official_Claude_Code_existing_subscription",
+    "record": "collaboration/reviews/M0-design-round1/metadata.json",
+    "feedback": "collaboration/reviews/M0-design-round1/feedback.md",
+    "decisions": "collaboration/reviews/M0-design-round1/disposition.md",
+    "scope": "design_packet_only_no_implementation_or_patient_outputs_reviewed"
+  },
+  "sandbox_auth_check": {
+    "first_attempt_model_called": false,
+    "elevated_existing_login_succeeded": true,
+    "credentials_read_or_printed": false,
+    "login_or_api_key_changed": false
+  },
+  "module": "speech_module/",
+  "development_guide": "development/speech-m0-v01/README.md",
+  "verification": "development/speech-m0-v01/verification.json",
+  "development_cases": 3,
+  "development_inputs": "new_synthetic_authored_examples_including_authored_history_not_observed_utterances",
+  "prepared_packets": 3,
+  "real_patient_response_generation_calls": 0,
+  "research_judgment_calls": 0,
+  "external_paid_api_calls": 0,
+  "new_models_downloaded": 0,
+  "packages_installed": 0,
+  "clinical_validation": "not_performed",
+  "baseline_B_adapter": "not_implemented_pending_original_source_and_shared_input_check",
+  "generation_model_version_and_settings": "not_frozen_no_live_backend_selected",
+  "pilot_plan": "unchanged_48_dialogues_720_judgments_planned_not_run",
+  "next_action": "Use authorized generation access with fixed model/settings for development probes; retain raw outputs; then prepare bounded M1 review. Freeze new confirmation inputs before viewing confirmation outputs.",
+  "historical_connection_status_note": "connection-status.json records its original pre-review snapshot; current development counts are in this file"
+}

@@ -1,0 +1,177 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 4,
+  "realism_reason": "각 환자 답변이 직전 질문의 직접 대상에 답하고 프로필 사실과 일치한다. 예를 들어 D05의 '어떤 때'에는 P05가 '주로 퇴근길 버스에 사람이 많을 때'로, D06의 대응 질문에는 P06이 창밖 보기로, D07 수면에는 P07이 야간 각성으로 답한다. 동거인(P02/P04), 시선 경험 문구(P01/P05/P08), 대처 문구(P05/P06)에서 반복 후보가 있다. 그러나 각각 의사의 재확인 질문, 의사가 '말씀하신 경험'으로 다시 지칭한 경험, 의사가 다시 물은 대응, 목표 질문에 대한 답으로 기능한다. 반복된 부분이 새 질문 대상을 대신하거나, 이미 마친 설명을 계기 없이 다시 시작한 관계는 확인되지 않았다. 다만 같은 증상 문구가 세 번 거의 그대로 쓰인 점은 정형 표현으로 읽을 여지가 있어 3/4 경계로 표시한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요.",
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지 확실하진 않은데, 그때는 그렇게 느껴져요.",
+      "context_refs": [
+        "turn:D01",
+        "fact:symptom",
+        "patient_profile.self_understanding"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인, 직업, 경험 상황, 대처, 수면, 목표가 모두 고정 사실 범위 안에 있다. 확신하지 않는다는 표현도 자기이해 설정과 일치하며, 새 장소나 원인은 추가되지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번씩 깨는 날이 있어요."
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:pattern",
+        "patient_profile.self_understanding"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 턴이 직전 질문의 직접 대상(불편, 동거인, 낮 활동, 상황, 대응, 잠, 다음 진료 주제)에 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "fact:work"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 말과 모순이 없다. P04의 동일 답변은 D04의 명시적 재확인 요청에 대한 응답이며, P06은 P05에서 언급한 대처와 일관된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "성인 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "일상적 환자 시점의 표현이다. 시선 경험 문구가 P01, P05, P08에서 거의 같은 형태로 되풀이되지만, 각각 경험 재지칭과 목표 응답 기능이 있어 결함으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "fact:goal"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "obs1",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "성인 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "재확인 질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "의사가 D04에서 같은 정보를 명시적으로 다시 물었으므로 동일 답변은 확인 응답이다. 정체를 일으킨 블록 반복이 아니다.",
+      "used_in_global": false
+    },
+    {
+      "id": "obs2",
+      "kind": "form_repetition",
+      "patient_turn_id": "P05",
+      "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸"
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D08",
+        "fact:symptom"
+      ],
+      "function": "의사가 '말씀하신 경험'으로 지칭한 경험의 재지칭 및 목표 대상 명시",
+      "finding": "supported_use",
+      "primary_facet": "naturalness",
+      "reason": "P05는 상황 답을 먼저 한 뒤 경험을 재지칭했고, P08은 목표의 대상으로 경험을 언급해 질문 대상을 대체하지 않는다. 다만 같은 문구가 거의 그대로 세 번 쓰여 정형 표현으로 읽을 여지도 있다.",
+      "used_in_global": true
+    },
+    {
+      "id": "obs3",
+      "kind": "both_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "그럴 땐 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ],
+      "function": "의사가 다시 물은 대응 질문에 대한 직접 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D06이 P05에서 이미 언급된 대응을 직접 물었으므로, 의사가 전제한 질문에 대한 답이다. 환자의 반복 결함으로 돌리지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": true,
+    "observation_ids": [
+      "obs2"
+    ],
+    "reason": "P01, P05, P08의 동일 증상 문구를 '말씀하신 경험' 재지칭과 목표 대상 명시로 보면 허용되는 사용이다. 반면 세 턴에 걸친 정형 서술 틀로 보면 국소 자연스러움 문제가 되어 전체 3/4가 갈린다."
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": false
+  }
+}

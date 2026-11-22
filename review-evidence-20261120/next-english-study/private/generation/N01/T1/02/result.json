@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 2,
+  "question": "How have sleep and concentration been over the past month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-a063-7351-8f57-ea2aecf1ca78",
+  "raw": "The main change was waking earlier on two nights while the upstairs apartment was being painted. Getting up with the alarm is still a struggle some mornings—apparently waking early and getting up are different skills. Concentration’s been good; I can follow a whole softball game and keep track of the substitutions.",
+  "raw_sha256": "91957016bb845ee0e3fbb0fbeba9ed02dbd5d0420e3ecf02056f5f02a170fa37",
+  "request_sha256": "918d524890609e71648e9df4b30a3264137ffd02a846f82ddb914cf86c360cc8",
+  "started_utc": "2026-11-20T20:58:10.289839+00:00",
+  "completed_utc": "2026-11-20T20:58:15.567128+00:00",
+  "usage": {
+    "input_tokens": 7073,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8bade7cf0bc321c18e02852a010569a995287ba6c9e327586ebfb45bc95803c7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1002a29828509b2296a71286e855a4cbe63d05c67212cacacc66eb3026c9b3c5"
+}

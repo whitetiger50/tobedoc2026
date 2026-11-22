@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 3,
+  "question": "How does a practical task compare with doing some reading?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-5e7b-7182-97af-3215b7d6a521",
+  "raw": "“With a bike, I can look at it and see where I left off. With reading, if people are talking, I lose my place and it’s harder to get back into it. In the library it’s easier—though the slip of paper helps me keep track of the line, too.”",
+  "raw_sha256": "c0071dbb2373b7a8c2eee8f7c8589e69d9008e0b364c7a73212b7e19b24b8371",
+  "request_sha256": "b14c4fe95294d412b724523fedf01c1093faebdd6f708b300c39520ab2d25eed",
+  "started_utc": "2026-11-20T21:00:04.494867+00:00",
+  "completed_utc": "2026-11-20T21:00:09.334788+00:00",
+  "usage": {
+    "input_tokens": 7183,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "52756bcc4ccfb3b0169efd5c8acaae14668144c6c4602eaf4f80776b63409b7e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cb003b6824ce382e18f60de4e9269ef42d85986c4b792a949165f16f949e8dd9"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 8,
+  "question": "I’ve marked our last visit and the day you started the lower dose here. Have you missed a tablet since then?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff86-7843-979c-90bcfdb803a1",
+  "raw": "Do you mean since our last visit, or since I started the lower dose?",
+  "raw_sha256": "88bddb6a324e825793fa0ee45468592820659498057d4aac5c6eb2a78d628eaf",
+  "request_sha256": "e29d40a7b421e2fb0c8ea747654436c3c558ef574964cd81fd31799e3215d73a",
+  "started_utc": "2026-11-21T03:44:43.401854+00:00",
+  "completed_utc": "2026-11-21T03:44:48.088383+00:00",
+  "usage": {
+    "input_tokens": 63963,
+    "cached_input_tokens": 52992,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 206,
+    "reasoning_output_tokens": 36
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7bae4bfcd04e9bf5a6beaf01353823ab5db78feb65bff5c815e5d1606273e40c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d0b98504c59f821492cc9d52ef0f0ca3b0b2414a0f62297ad494413a1dde0680"
+}

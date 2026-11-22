@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "B",
+  "turn": 5,
+  "question": "I meant a piece of reading. If you lose your place, how do you get going again?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7580-80c1-d7dd70645c48",
+  "raw": "I go back a few lines, sometimes to the start of the paragraph, and read it again. I put the slip of paper underneath so I don’t skip ahead. If people are still talking, though, I can lose it again.",
+  "raw_sha256": "46cd6c37c42ae17554db10bbd0f86f5f32f2b65577ea5b62344a8538748d60f3",
+  "request_sha256": "133d49a134cf6da7ef14a623588fcd0af7f0f687edb6c3db02099f1df7e8b2ce",
+  "started_utc": "2026-11-20T21:00:44.990302+00:00",
+  "completed_utc": "2026-11-20T21:00:49.134287+00:00",
+  "usage": {
+    "input_tokens": 39889,
+    "cached_input_tokens": 25472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 283,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "569dfb29a119f842a96113192e6bdf024ed622e5feb88d0870e75fc56a8f20e1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "fe97ad5e57802572569fa12e8695a0387fd78f530e47c130f86a4a0db6efa299"
+}

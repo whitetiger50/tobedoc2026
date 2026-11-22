@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "C600e28557e3a4c559d02",
+  "ended": "2026-11-21T03:35:47.505554+00:00",
+  "session": "9740ca93-ce0a-4186-b9d7-6ffd764135f2",
+  "packet_sha256": "8af651a58af85ae4cb03aa09fd36293fa2583e230521cf31b75edbd3971faddd",
+  "raw_sha256": "22a98517c56b05734f9f6a74e53b3a4055ee3b60dc7309930331131797da594c",
+  "provider_sha256": "e27fbdb4a894ab5c7c2c890989ea852e384e6779732f2cc642bcb18d787df0b3",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The content fits the persona: cheerful, mildly annoyed by the schedule change, attentive to sleep, comfortable with the clinician and partner, and preferring morning visits. Some moments feel genuine, such as asking for clarification at turn 7 and describing the partner's breakfast comments. But the delivery is noticeably artificial. Answers recycle the same profile facts almost word for word: packing the apron the night before appears in turns 1, 4, 5 and 6, and morning appointments in turns 2, 5, 6 and 11, often without being asked. Some lines read like recited profile attributes rather than speech, for example stating outright that health is kept private at pottery class. Every answer is also wrapped in a clinical-record frame that no real patient would say. The result is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 6,
+      "quote": "Having my apron packed the night before helps, especially now it starts earlier, and morning clinic appointments would keep the two from clashing."
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    },
+    {
+      "turn": 1,
+      "quote": "Subjective patient report recorded as follows."
+    },
+    {
+      "turn": 8,
+      "quote": "My partner notices if I’m going to bed later and mentions it over breakfast, which helps."
+    }
+  ]
+}

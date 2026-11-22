@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Icbf359893ba94806f54d215f",
+  "ended": "2026-11-21T03:49:39.219706+00:00",
+  "session": "7e78bb9a-e30f-41a1-89a5-55364fa650be",
+  "packet_sha256": "3761cc3565ff0f4b076f55398462117a05b5cce2b28bd7b91160ae45607f0a33",
+  "raw_sha256": "031fe6cf87143e77ff8ef2e7353b4a70a8dd72ed825838b8327b7dcda69c8157",
+  "provider_sha256": "8a93681f68acbc5d508988fbf8dee22d2bde72271567e93b03c060894d73ae96",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are relevant and in sequence, at ease with the clinician, and show the profile's dry humor (e.g., catching sound problems before an audience, the imperfect clay bowls). Clarifying questions on ambiguous prompts (turns 3 and 8) and the short reply to a repeated question (turn 5) feel realistic. Minor detractors: some answers closely echo the profile's wording, which sounds slightly scripted. Several replies are also brief and offer little spontaneous detail, despite the persona being comfortable adding relevant details. For example, the note on the door that was taken down last month is never mentioned. These are small inconsistencies that do not seriously undermine realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to catch any problems before there’s an audience for them."
+    },
+    {
+      "turn": 11,
+      "quote": "They don’t all come out perfectly round, but that’s part of the charm."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean the phone alarm or the note on the door?"
+    },
+    {
+      "turn": 1,
+      "quote": "I set up the screening and check the sound before the customers come in."
+    }
+  ]
+}

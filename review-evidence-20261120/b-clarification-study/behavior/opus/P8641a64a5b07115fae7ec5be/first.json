@@ -1,0 +1,85 @@
+{
+  "id": "P8641a64a5b07115fae7ec5be",
+  "reader": "opus",
+  "session": "6ca6dbcf-b632-4599-b908-48eba3833d27",
+  "attempt": "attempt-01",
+  "packet_sha256": "54f7e45b5cb826ffef9de648e07aa832ea7e10e58172822ca2e6aa5ec9e2bf03",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "21bcc2c4dd65c0a4270e1f19f2436707375f6286c496999c50e3f63ba3234d03",
+  "raw_sha256": "646441e65f31682ebe62bf0490acc787ac4ceae92d9b5e449872bfbfac7b445d",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "With no prior dialogue, 'it' could mean either the fan or the bedside speaker, and Taylor's answer would differ because the fan runs all night while the speaker stops on a twenty-minute timer.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "Yes, the fan runs all night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "No, the speaker stops on a twenty-minute timer."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "'The medicine' follows mention of both eye drops and daily tablets, and the history does not settle which one is meant; the answer differs because the tablets are in the kitchen cabinet and the drops are on the bedside table.",
+        "alternatives": [
+          {
+            "meaning": "Whether the daily schizophrenia tablets are kept in the kitchen.",
+            "answer": "Yes, the tablets stay in the kitchen cabinet."
+          },
+          {
+            "meaning": "Whether the prescribed eye drops are kept in the kitchen.",
+            "answer": "No, the drops stay on the bedside table."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "The question names both the number 8 bus and the tram, and Alex boards them at different stops, so the stop asked about determines the answer.",
+        "alternatives": [
+          {
+            "meaning": "The stop where Alex boards the number 8 bus.",
+            "answer": "Orchard Road."
+          },
+          {
+            "meaning": "The stop where Alex boards the tram.",
+            "answer": "Bell Square."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What do you clip the new one to?",
+        "reason": "The immediately preceding exchange focused only on the ID badge, and 'clip' fits a badge, so the new badge is the pragmatically clear target.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the new ID badge to.",
+            "answer": "A blue lanyard."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:35.084488+00:00"
+}

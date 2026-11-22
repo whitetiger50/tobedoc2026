@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 10,
+  "question": "I mean when you're getting started on a job. Do you have a preference about having company or being on your own?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-c5e9-7922-a441-9684afe59349",
+  "raw": "I prefer quiet company. It sometimes helps having my sister nearby while I get started, without rushing me.",
+  "raw_sha256": "d6bdede404fcea9e30ccf322ff1df8adb41b060c34e975a56b88d11ba6ac6d8f",
+  "request_sha256": "f8d9241d28bb179ad1b97fbf3f6aa633f3e0c56a54bc7b3840ad264e44bddb0e",
+  "started_utc": "2026-11-20T20:33:12.606483+00:00",
+  "completed_utc": "2026-11-20T20:33:18.143921+00:00",
+  "usage": {
+    "input_tokens": 7280,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d8220a6a98e60553abc35b378fde64e7f137c1380cba4177c74eccde332136fb",
+  "trace_sha256": "a353df73e4e73be1f3483de15c8058441695f732b6a1bf8a1b9910ca9b1987b9"
+}

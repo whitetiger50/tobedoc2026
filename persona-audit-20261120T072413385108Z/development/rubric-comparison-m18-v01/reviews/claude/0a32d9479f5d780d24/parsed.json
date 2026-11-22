@@ -1,0 +1,169 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 4,
+  "realism_reason": "각 환자 답변이 직전 질문의 직접 대상에 맞게 응답하고, 모두 고정 사실 범위 안에 있습니다. 예를 들어 D02·D04의 동거인 질문에는 P02·P04의 형, D03에는 P03의 직업, D05에는 P05의 발생 상황, D06에는 P06의 대처, D07에는 P07의 수면, D08에는 P08의 목표로 답했습니다. P01에서 증상·대처·상담 목표를 한꺼번에 말한 것은 첫 불편 질문에 대한 답이며, 낮은 경계심과 조직적 응답이라는 의사소통 설정에도 맞습니다. P04는 의사가 다시 확인한 질문에 대한 답입니다. P08은 다음 진료 목표를 묻는 D08에 답하면서 현재 대처를 재지칭해 목표를 설명하고 '그 밖에도' 다른 방법을 묻습니다. 반복 후보들은 모두 질문이 요청한 기능을 수행하며, 네 정의 안에서 적합성을 낮추는 문제는 확인되지 않았습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "저녁에 집에서 쉴 때 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요.",
+      "context_refs": [
+        "turn:D01",
+        "fact:symptom"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들려요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 밖에도 도움이 되는 방법이 있는지요.",
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인·직업·증상·발생 패턴·대처·수면·목표가 모두 고정 사실과 일치합니다. 새 사건, 시각, 원인을 보충한 곳은 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 답이 직전 질문의 직접 대상을 다룹니다. 미대응이나 무관한 답은 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중해 봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 진술과 모순이 없습니다. 재진술은 재확인 질문(D04)이나 새 질문 대상(D05, D06, D08)에 대한 응답이라 계기 없는 재시작이나 대화 정체가 아닙니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살아요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현입니다. 역할 설명, 보고서식 대행, 불필요한 메타 표현은 없습니다. P08의 서술 틀 반복은 R2 검토 결과 허용되는 사용입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "communication:expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "obs1",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살아요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "형이랑 같이 살아요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "의사의 재확인 질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D04가 같은 정보를 명시적으로 다시 물었으므로 동일한 답은 확인 응답입니다. 환자의 반복 결함이 아닙니다.",
+      "used_in_global": true
+    },
+    {
+      "id": "obs2",
+      "kind": "both_repetition",
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중해 보는데, 그 밖에도 도움이 되는 방법이 있는지요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 때 라디오를 켜고 다른 소리에 집중해 보는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ],
+      "function": "상담 목표 질문에 대한 답과 현재 대처의 재지칭",
+      "finding": "supported_use",
+      "primary_facet": "naturalness",
+      "reason": "D08이 다음 진료 목표를 직접 물었으므로 목표 진술은 요청된 응답입니다. 대처 재지칭은 '그 밖에도'라는 목표의 범위를 설명하는 기능을 하므로, 마친 설명을 재시작하거나 새 대상을 대체한 것이 아닙니다.",
+      "used_in_global": true
+    },
+    {
+      "id": "obs3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중해 봐요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 때 라디오를 켜고 다른 소리에 집중해 보는데"
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ],
+      "function": "순간 대응을 묻는 질문에 대한 직접 답",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "D06이 순간 대응을 직접 물었으므로 앞서 언급한 대처를 다시 진술한 것은 질문 대상에 대한 응답입니다. 다른 대상의 응답을 대체하지 않습니다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

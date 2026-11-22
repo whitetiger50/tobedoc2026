@@ -1,0 +1,19 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the dry mouth is worst halfway or partway through the Thursday kitchen shift, which matches the middle of the shift. Nothing places it toward the end.",
+    "citations": [
+      {"turn": 6, "role": "patient", "quote": "I do get a dry mouth, especially halfway through my Thursday kitchen shift", "supports": "A"},
+      {"turn": 7, "role": "patient", "quote": "The dry mouth is what I notice most, especially partway through a kitchen shift.", "supports": "A"}
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says the Thursday shift feels about right and wants to keep it as it is. The remark about long afternoons explains why they don't want more time, not a wish to cut the current shift.",
+    "citations": [
+      {"turn": 12, "role": "patient", "quote": "The Thursday shift feels about right. I’d like to keep it as it is", "supports": "B"}
+    ]
+  }
+}
+```

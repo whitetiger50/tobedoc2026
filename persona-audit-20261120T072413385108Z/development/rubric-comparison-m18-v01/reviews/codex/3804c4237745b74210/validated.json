@@ -1,0 +1,166 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "동거인 재확인에는 같은 정보를 답하고, 경험의 발생 상황·대처·수면·다음 진료 목표를 묻는 질문에는 각각 해당 경험을 설명한다. 반복은 재확인과 대처 목표 설명에 기능하며, 환자 역할의 반응성을 낮추는 구체적인 문제는 확인되지 않았다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 못 느껴요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 배경과 경험 설명이 제공된 사실에 부합하며, 새로운 사건이나 원인을 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다루며, 다음 진료 목표도 현재 대처와 연결해 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 설명과 일관되며, 동거 정보의 동일한 반복은 의사의 명시적인 재확인에 대응한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "설정에 맞는 일상적인 환자 시점으로 경험을 설명하며, 역할 설명이나 문맥에 어긋나는 정형 표현은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "낮에는 동네 반려동물용품점에서 일해요. 주로 물품 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "fact:work",
+        "communication:expression",
+        "communication:organization"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication:expression",
+    "naturalness:invalid_context_ref:communication:organization"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "turn:P02",
+          "fact:living"
+        ],
+        "function": "명시적으로 요청된 동거인 재확인",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 같은 정보를 다시 확인했으므로 동일한 답변이 현재 대화에 직접 연결된다. 이미 끝난 설명을 문맥 없이 재시작한 경우가 아니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "turn:P01",
+          "fact:coping",
+          "fact:goal"
+        ],
+        "function": "다음 진료 목표와 현재 대처의 연결",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "다음 진료에서 다룰 내용을 묻는 질문에 대처 목표를 다시 밝힌다. 현재 방법의 재언급은 다른 대처법을 묻는 이유를 설명하며 질문의 새 대상을 대신하지 않는다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

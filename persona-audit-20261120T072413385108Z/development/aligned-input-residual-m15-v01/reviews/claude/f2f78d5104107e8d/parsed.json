@@ -1,0 +1,40 @@
+{
+  "realism_score": 4,
+  "realism_reason": "모든 환자 턴이 프로필 사실과 맞고 질문에 간결하게 답한다. 자발성이 낮은 설정과 일상 한국어 화법에 맞아 어색한 부분이 확인되지 않는다. 증상도 걱정하는 당사자 시점에서 자연스럽게 말한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요. 아침에는 잘 안 들리는 편이고요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 일, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하고 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P01에서 처음 꺼낸 증상을 P05와 P06에서 일관되게 이어 가며, 모순이나 불필요한 반복이 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "보고서식 나열이나 메타 표현 없이 짧은 일상 구어체로 환자 시점에서 말한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

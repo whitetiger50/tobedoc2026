@@ -1,0 +1,92 @@
+{
+  "checked_local_date": "2026-11-19",
+  "purpose": "Design-only appraisal of published evidence, its scope, access and reuse. No participant-level analyses, transcript extraction, clinical ratings or submissions.",
+  "primary_clinical_anchor": {
+    "citation": "Zimmerer V, Tsoukala A, Çokal D, et al. The relationship between language disorder and thought disorder: Comparing micro- and macrostructure of spoken narratives of people with aphasia and people with schizophrenia. Cortex 195 (2026) 81–95. Online 2025-12-31.",
+    "doi": "10.1016/j.cortex.2025.12.006",
+    "full_text_verified": "https://discovery.ucl.ac.uk/id/eprint/10219274/1/Zimmerer_1-s2.0-S0010945225003193-main.pdf",
+    "design": "One eight-frame near-wordless Dinner Party cartoon; spoken English; all native English speakers. 30 people with schizophrenia and 15 comparison controls in Newcastle plus 20 people with aphasia and 30 controls in London; different clinical groups have separate controls.",
+    "observations_in_paper": "More severe conceptual disorganization within the schizophrenia sample was associated with more narrative misdescriptions (Spearman rho .51, p .003 as printed) and lower evaluative devices (rho −.61, p < .001); Section 3.4. Table 3 defines denominators. The authors label correlation analyses exploratory.",
+    "scope": "A broad source category counts wrong, odd or irrelevant descriptions. The proposed E only counts clearly contradicted propositions. The source combines within-group standardized qualitative/emotional expression rates; proposed V is a raw nonduplicated span density. Only the direction of the two prespecified contrasts can be compared. An individual participant need not exhibit both features. No equivalent diagnosis score assigned to models.",
+    "license": "Article explicitly CC BY 4.0. Cite source when summarizing published statistics. Rights to the original Fletcher & Birt cartoon, separate data files and external model processing were not established by the article license."
+  },
+  "primary_data_access": {
+    "project": "https://osf.io/6p5wu/",
+    "metadata_checked": "https://api.osf.io/v2/nodes/6p5wu/",
+    "public_inventory_checked": "https://api.osf.io/v2/nodes/6p5wu/files/osfstorage/",
+    "http_status_project_and_inventory": 200,
+    "public_project_flag": true,
+    "node_license_metadata": null,
+    "root_files_verified": [
+      "APHSZ_all_data.csv",
+      "R_analysis_code_and_output.zip",
+      "Supplementary_materials_model_summary.pdf"
+    ],
+    "csv_access": "Public partial byte-range request HTTP 206; first header line inspected. No participant rows printed, extracted for analysis or delivered.",
+    "csv_url": "https://osf.io/download/9f2zv/",
+    "header_fields_of_interest": ["ID", "Group", "JointSZ", "Disorganization", "WordCount", "PANSSTotal", "PANSSPos", "PANSSNeg", "Total_propositions_count", "Unique_propositions_count", "Repetitions_prop_ratio", "ACS", "Misconceptions_ratio", "QLN_ratio", "ELN_ratio"],
+    "data_type": "Speaker-level derived features and clinical measures; no transcript field. Codebook defines JointSZ as four clinical/control groups and Disorganization as the PANSS conceptual disorganization question. Published primary within-SZ results are continuous rank associations; no FTD high/low grouping was required or assumed for the proposed test.",
+    "zip_url": "https://osf.io/download/gde5x/",
+    "zip_checked": "Listed entries and read variable definitions and already-computed results in Within_Group_Correlations_R_analysis.Rmd / .html. No standalone license was listed in this zip. Pair rows 51 and 56 in the schizophrenia section show evaluative devices rho −0.608443559, raw p .000461890, FDR p .00461890 and misdescriptions rho .511393706, raw p .003873328, FDR p .02582219. Raw p for misdescriptions differs slightly from the printed paper. No statistics recomputed on individual data.",
+    "pdf_status": "Separate model-summary PDF was present in the public index; its contents were not needed to design the study.",
+    "usage": "Only the published findings and definitions are on the critical path. File-level reuse, redistribution, and exposure to an external model were not established. No patient files included in the project's deliverables."
+  },
+  "comparison_sources": [
+    {
+      "citation": "Achim AM, Achim A, Fossard M (2022). Referential communication in people with recent-onset schizophrenia-spectrum disorders.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9500190/",
+      "verified": "Full paper and data statement. French-speaking setting. 25 recent-onset spectrum outpatients (17 schizophrenia) and 25 controls recruited; character identification in a real interaction. Group-by-likely-knowledge interaction for the quantity of spontaneous information, p .049. Within-SZ association with theory of mind not significant. Publication offers raw data from the authors; no public unrestricted participant corpus acquired.",
+      "role": "Alternative based on addressee adaptation; not a validation of the proposed history cue."
+    },
+    {
+      "citation": "Achim et al. Use of reference markers in the speech of people with schizophrenia spectrum disorders: Evidence from two referential communication tasks manipulating common ground with the interaction partner.",
+      "url": "https://libra.unine.ch/server/api/core/bitstreams/fd9e6c0c-a041-45fa-9c11-5aefa00061e1/content",
+      "verified": "Institutional full text. Results vary by reference type, task and first vs subsequent mention. In general the two groups both showed sensitivity to likely knowledge. Raw data available on request.",
+      "role": "Counterevidence to treating common-ground sensitivity as uniformly absent."
+    },
+    {
+      "citation": "Barch DM, Berenbaum H (1997). The effect of language production manipulations on negative thought disorder and discourse coherence disturbances in schizophrenia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9255856/",
+      "verified": "Abstract. Thirty-nine participants with schizophrenia answered questions after stories. Unstructured questions yielded more discourse coherence disturbances than structured ones. No speech dataset or reuse license inspected.",
+      "role": "Alternative structured-question/discourse-goal design; not evidence for the two primary outcomes."
+    },
+    {
+      "citation": "Hoffman RE et al. (2011). Using computational patients to evaluate illness mechanisms in schizophrenia.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3105006/",
+      "verified": "Published methods and findings on delayed story recall, 37 schizophrenia/schizoaffective outpatients and 20 controls; agent-slotting errors and derailment compared with a computational model. No reusable participant archive established.",
+      "role": "Alternative constrained role-binding design, not a memory mechanism replication using subscription CLI."
+    },
+    {
+      "citation": "Çokal D et al. (2018). The language profile of formal thought disorder.",
+      "url": "https://www.nature.com/articles/s41537-018-0061-9.pdf",
+      "verified": "Full paper. English cartoon narration, 15 SZ+FTD, 15 SZ−FTD, 15 nonclinical controls, 15 first-degree relatives. Subgroups formed using PANSS conceptual disorganization item. More definite NP use in the low-FTD group was descriptive in corrected pairwise comparisons; group-model results differ by analysis. No patient transcript used.",
+      "role": "Alternative referential-NP measure and evidence of heterogeneity."
+    },
+    {
+      "citation": "Çokal D et al. (2026). Automated detection of referential features in schizophrenic speech using large language models.",
+      "doi": "10.1016/j.neuropsychologia.2026.109505",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002839322600151X/pdf",
+      "verified": "Full article. Reuses an existing manually coded English dataset. NP type extraction differs by method and is not clinical validation of generated language. Data statement describes ethical/privacy restrictions and reasonable request. Review-only link not used.",
+      "role": "Precedent for measuring specific textual features; no raw participant data used."
+    },
+    {
+      "citation": "Fradkin I, Nour MM, Dolan RJ (2023). Theory-Driven Analysis of Natural Language Processing Measures of Thought Disorder Using Generative Language Modeling.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932972/",
+      "inventory": "https://api.osf.io/v2/nodes/xhefa/files/osfstorage/",
+      "results_inventory": "https://api.osf.io/v2/nodes/xhefa/files/osfstorage/637760404e8c3c08703b4b7f/",
+      "verified": "Full article CC BY; GPT-2 temperature and memory-span perturbations; 2 blinded clinicians rated 249 synthetic narratives. Public API root inventory spans 2 pages (11 entries); Results inventory returned 11 plotting and results files. No explicitly named raw clinician-score file in these listings. Script download followed a redirect to an unresolved storage hostname; CSV contents and possible embedded clinician scores not verified. Project metadata had no node_license. No embedding/model files downloaded.",
+      "role": "Alternative generative method; neither its parameter manipulation nor its clinician judgment can be transferred to this study."
+    },
+    {
+      "citation": "Mota NB et al. (2012). Speech Graphs Provide a Quantitative Measure of Thought Disorder in Psychosis.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0034928",
+      "verified": "Primary paper and supplement descriptions. Portuguese dream-report task, eight participants per group. Table S3 lists derived speech-graph attributes and clinical scale results. This is not a validated English picture-narration benchmark; no participant file used.",
+      "role": "Additional open-data candidate explored."
+    }
+  ],
+  "local_technical_checks": {
+    "checked": ["collaboration/subscription_call.py call_once is text-oriented and disables Claude tools", "codex exec --help documents -i/--image FILE", "installed Claude --help lists --input-format text or stream-json, --tools including empty list, and --file for file_id resources"],
+    "not_checked": "No generative call, login or image inference. Tool-free subscription Claude ingestion of the local PNG and identical delivery on both official CLIs are week-one feasibility checks.",
+    "related_documentation": "https://docs.anthropic.com/en/docs/claude-code/cli-usage"
+  }
+}

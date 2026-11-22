@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What has occupied most of your attention this past week?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "Can you give me an example of something you worked on with your hands recently?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "How does a practical task compare with doing some reading?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Can you pick it up again easily?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "I meant a piece of reading. If you lose your place, how do you get going again?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "What kinds of treatment or support are part of your week?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "How are you getting on with assignments at home and with time spent in class?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "What gets in the way there?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was asking about class itself. What has it been like to concentrate during the last few classes?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "Have you heard anything unexpected, such as a voice when nobody is speaking, in the past month or so?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Returning to reading, where do you find it easiest to finish a passage?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "How would you like to arrange your study time next week?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Effect of marking the line while reading",
+      "A": "With a slip of paper marking the line, the patient left the short passage unfinished last week.",
+      "B": "With a slip of paper marking the line, the patient finished the short passage last week."
+    },
+    "item2": {
+      "question": "Resuming an interrupted activity",
+      "A": "The patient finds a hands-on task easier to resume than a piece of reading.",
+      "B": "The patient finds a piece of reading easier to resume than a hands-on task."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "질문마다 프로필에 맞게 간결하고 일관되게 답하고, 잘못된 전제(D05, D06)도 자연스럽게 정정한다. 다만 프로필 문장을 거의 그대로 옮긴 듯한 정형적 표현이 반복되어 약간 대본처럼 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "식사, 동거인, 목소리 경험, 약 정보를 모른다는 점 모두 프로필과 일치하며 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답했고, 약 정보처럼 모르는 부분은 모른다고 제한했으며, 잘못된 전제는 정정했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥 및 앞선 답과 모순이 없다. 동거인과 목소리에 대한 반복 답변은 의사의 재질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "목소리 경험을 P02와 거의 같은 프로필식 문장으로 되풀이하는 등 국소적인 정형 반복이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:voice",
+        "turn:P02",
+        "turn:D07"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

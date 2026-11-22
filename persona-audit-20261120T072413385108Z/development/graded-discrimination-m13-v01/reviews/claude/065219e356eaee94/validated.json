@@ -1,0 +1,82 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 간결하고 자연스러운 일상 한국어로 답한다. 안내 방송이 자신을 가리키는지 확신하지 못하는 태도도 설정과 잘 맞는다. 다만 프로필에 없는 거주 층수를 보충했고, 마지막 답이 질문의 '다음 진료 전까지'라는 범위와 어긋나는 국소적 어색함이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "딸과 함께 산다는 사실은 프로필과 일치하지만, 거주 층수인 3층은 프로필에 없는 구체 사실을 새로 확정한 경미한 이탈이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "D08은 다음 진료 전까지 해 보고 싶은 일을 물었는데, 환자는 다음 진료 때 이야기하고 싶은 내용으로 답해 질문 범위를 부분적으로만 다룬다. 다만 목표를 밝힌 관련 답으로 볼 여지도 있어 uncertain으로 표시한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상, 발생 맥락, 대처, 목표에 대한 진술이 앞선 환자 말과 일관되게 이어지며 모순이나 불필요한 반복이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 간결한 일상 표현이며, 보고서식으로 설정을 대신 읊거나 면담자 역할을 대행하는 표현은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

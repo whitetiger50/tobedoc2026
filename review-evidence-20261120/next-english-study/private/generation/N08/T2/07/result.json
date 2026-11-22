@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 7,
+  "question": "When other people glance in your direction, what goes through your mind, if anything?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-df60-7c81-9cad-4fcd97521b44",
+  "raw": "Sometimes I wonder if they recognize me or have noticed me in particular. I know they could just be looking past me, but it can still feel uncomfortable. It doesn’t happen every time someone glances my way.",
+  "raw_sha256": "01787409f18ee88820d71efae548b0775bcec54a9fd8e2e11f65a61af839ae2f",
+  "request_sha256": "56ba4d8ffea71ce625e7f19ec48994adefd8bca1ae4596e634b4852a7e0db784",
+  "started_utc": "2026-11-20T21:01:43.027956+00:00",
+  "completed_utc": "2026-11-20T21:01:47.232705+00:00",
+  "usage": {
+    "input_tokens": 6526,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d81bff125cecdd5c4c27411e635388d7508e95f2a1f338484b23bf47de6203a2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "aa31b6374472f1e7188679aa85c535dce6d3bfed75d95cb57caaa6dcc4511f7a"
+}

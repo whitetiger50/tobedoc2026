@@ -1,0 +1,116 @@
+{
+  "attempt": "attempt-01",
+  "id": "I87a062177db46af98271",
+  "reader": "gpt",
+  "session": "01a1faca-09a1-7e40-8de5-40b32444ec01",
+  "raw_sha256": "ac01f40ec0e44d6acc1b477b5a011615203b61109be9d879f074ee71289dfc7a",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "cdf3ad4371ef2a9a485a345948720eb90ffaeba0b7f9fa1f7a898f52272e9e4e",
+  "provider_sha256": "bb7425bc6aaa99ab1759e66e1a9a63f5cbc39f0c12d4f9e249c97eeccfde1440",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "It was bent and rubbing against the wheel, so I straightened it.",
+            "reason": "Answers the explicit example request with a specific recent hands-on task: straightening the sibling’s bicycle mudguard last weekend."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:36.848402+00:00"
+}

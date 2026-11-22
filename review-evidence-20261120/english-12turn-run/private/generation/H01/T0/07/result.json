@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T0",
+  "turn": 7,
+  "question": "When you hear that sort of thing, how do you take it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-c7e3-7100-8a4e-36a07e7920bb",
+  "raw": "“It feels like they mean me, even though they’re talking to each other. I’m not sure why I take it that way—someone else might hear it as just a conversation about the last stop.”",
+  "raw_sha256": "41b90c984aac2eef05881fbab04746365fc7d0795278e8544fd0a18cfdd11a88",
+  "request_sha256": "104b2665c628718e70676fdb30c00714a21d729a6de669f0d619309048303442",
+  "started_utc": "2026-11-20T20:40:51.850047+00:00",
+  "completed_utc": "2026-11-20T20:40:55.809183+00:00",
+  "usage": {
+    "input_tokens": 7139,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "95073c817abbc6eb5778a817846790abf62df2444e7b790d17ad8831ab98009d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bac61fa4c3ec3512563b896160e14df13c05738dc5d91db4fe26d4c1a34efc9c"
+}

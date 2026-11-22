@@ -1,0 +1,28 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the dry mouth is worst halfway through the shift, which matches the middle of the shift rather than the end.",
+    "citations": [
+      {
+        "turn": 6,
+        "role": "patient",
+        "quote": "My mouth gets dry, especially halfway through the shift",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient explicitly says they would like to keep their current shifts and that the amount feels about right. They do not express a wish to reduce them.",
+    "citations": [
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "It feels about right. I’d like to keep the shifts I have",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

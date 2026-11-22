@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 11,
+  "question": "What do you use to keep track of your tablets?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ca0f-7032-958a-7dc3abee6d11",
+  "raw": "I use a weekly tablet organizer. I keep it next to the tea tin, so I see it when I’m making tea.",
+  "raw_sha256": "69b078769109305f55b23587171a1dc6d38257ce195f25b1d6cfa74d5cefad15",
+  "request_sha256": "7ea5c954bbab08159bb0ad0032b99e8adb80063e679c496547b86452358974d2",
+  "started_utc": "2026-11-21T03:47:30.293501+00:00",
+  "completed_utc": "2026-11-21T03:47:35.317895+00:00",
+  "usage": {
+    "input_tokens": 88190,
+    "cached_input_tokens": 75392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 264,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d1d70844e4c13c9d3fa7953e199338ef59517053f59bc83f004e5213b0668dd6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bac33d8e93a5673bf5b723d20c2d19c2bc9a9a13cbcc163b6c6bcd0d14ce6e3e"
+}

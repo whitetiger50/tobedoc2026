@@ -1,0 +1,57 @@
+{
+  "realism_score": 3,
+  "realism_reason": "환자는 질문마다 프로필에 맞게 간결하고 조직적으로 답하며, 증상에 대한 양가적 인식도 자연스럽게 드러납니다. 다만 증상을 설명하는 문구가 거의 같은 형태로 반복되어 약간 정형적인 느낌이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "저한테만 하는 말이 아닐 수도 있다고 생각은 하는데, 막상 들을 때는 그렇게 느껴져요."
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 사실과 self_understanding 범위 안에 있고, 새로 확정한 사실은 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문의 대상(불편, 동거인, 낮 활동, 상황, 대응, 수면, 다음 진료 목표)에 직접 답합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 같은 답을 한 것이고, P05는 앞선 말과 일관되게 상황을 특정한 것이어서 모순이나 문맥 파괴는 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "증상을 설명하는 문구가 P01, P05, P08에서 거의 같은 형태로 반복되어 국소적으로 정형적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 더 설명해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05",
+        "turn:D08"
+      ]
+    }
+  }
+}

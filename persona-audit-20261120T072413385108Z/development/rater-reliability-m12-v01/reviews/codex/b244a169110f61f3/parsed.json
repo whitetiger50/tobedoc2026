@@ -1,0 +1,51 @@
+{
+  "realism_score": 3,
+  "realism_reason": "방송 경험과 일상을 설명하는 말투와 질문 대응은 대체로 자연스럽지만, 마지막 답변에서 아버지와 동거한다는 핵심 설정을 뒤집어 인물의 일관성이 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "의사의 잘못된 전제에 동의하면서, 아버지와 동거한다는 고정 사실을 명시적으로 뒤집고 독거를 확정했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D04"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 답변은 직전 질문의 직접 대상을 다루며, 동거 사실의 오류는 질문 미대응과 구분된다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "D04가 앞서 공개되지 않은 별거를 전제하지만, 이전 환자 발언과 현재 답변 사이의 자기모순이나 불필요한 반복은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D04",
+        "authored_context"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "방송에 관한 주관적 느낌과 연상, 일상 설명 모두 환자 시점의 자연스러운 구어로 표현된다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

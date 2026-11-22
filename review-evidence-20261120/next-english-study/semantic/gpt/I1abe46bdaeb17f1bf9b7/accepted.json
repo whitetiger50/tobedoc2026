@@ -1,0 +1,116 @@
+{
+  "attempt": "attempt-01",
+  "id": "I1abe46bdaeb17f1bf9b7",
+  "reader": "gpt",
+  "session": "01a1fac9-b458-7822-ace9-e6a4958bdc48",
+  "raw_sha256": "357d0890dc27ec7dc61e52fc7d083e7c44a0cc6e01e55bdb7b310d40f72b6699",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "e97a5b66bd0972cf004060f83ef2d3d87959e77faf781fcbb1df55180644ecab",
+  "provider_sha256": "2ab1eb76d359c1c3dd1f8059c18b20add7ea1add06bffb0625b3c391e47f0133",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end.",
+            "reason": "Answers the explicit example request with a specific occasion, observed event, feeling, and action."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:26.675635+00:00"
+}

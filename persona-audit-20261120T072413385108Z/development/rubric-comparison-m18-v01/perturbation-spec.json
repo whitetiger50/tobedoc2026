@@ -1,0 +1,74 @@
+{
+  "selection": "first_generation_per_new_profile_no_quality_selection",
+  "P": {
+    "turn": "P04",
+    "operation": "copy_actual_P02_exactly",
+    "author_hypothesis": "explicit_requested_reconfirmation"
+  },
+  "G": {
+    "turn": "P08",
+    "operation": "predefined_profile_experience_reference_plus_predefined_profile_goal_sentence",
+    "author_hypothesis": "experience_reference_for_explicitly_requested_goal",
+    "no_whole_P01_copy": true
+  },
+  "U": {
+    "turn": "P06",
+    "operation": "copy_actual_P03_exactly",
+    "author_hypothesis": "unrelated_activity_reused_in_coping_answer",
+    "confound": "repetition_and_nonresponse"
+  },
+  "F": {
+    "turns": [
+      "P03",
+      "P06",
+      "P07"
+    ],
+    "prefix": "그 부분을 항목별로 말씀드리면, ",
+    "suffix": " 해당 항목에 대한 답변은 이와 같습니다.",
+    "operation": "same_frame_around_each_unchanged_actual_answer",
+    "author_hypothesis": "unnecessary_repeated_metareport_frame",
+    "confound": "form_repetition_and_reporting_register"
+  },
+  "X": {
+    "turn": "P06",
+    "prefix": "이 환자의 반응은 다음과 같습니다. ",
+    "operation": "prefix_unchanged_actual_P06",
+    "author_hypothesis": "explicit_thirdperson_role_reporting",
+    "not_in_repetition_miss_denominator": true
+  },
+  "target_issue_detection": "valid_adverse_common_facet_or_global_quote_overlaps_predefined_span",
+  "repeat_terms": [
+    "반복",
+    "되풀이",
+    "재진술",
+    "재서술",
+    "재언급",
+    "재사용",
+    "정형",
+    "서술 틀",
+    "설명 틀",
+    "판에 박",
+    "기계적",
+    "repet",
+    "redundan",
+    "duplicat",
+    "boilerplate",
+    "template",
+    "중복",
+    "같은 문구",
+    "같은 표현",
+    "같은 내용",
+    "동일한",
+    "똑같",
+    "그대로",
+    "템플릿",
+    "다시 말",
+    "다시 설명",
+    "다시 진술",
+    "매번",
+    "되풀"
+  ],
+  "same_input_deduplicated_before_rating": true,
+  "no_clinical_gold": true,
+  "no_new_patient_fact_added_by_author_controls": true
+}

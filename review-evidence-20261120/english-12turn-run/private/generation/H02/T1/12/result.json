@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T1",
+  "turn": 12,
+  "question": "What would you like to add about your week before we stop?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab3-0062-7491-a3b7-6f848e73c252",
+  "raw": "I’d like to add that I still enjoy the book exchange, especially repairing the dust jackets. Losing my place doesn’t mean I’m not interested in what I’m doing. I don’t want it mistaken for carelessness.",
+  "raw_sha256": "7bf95f9b8de66b3e7a054ceb87938b74c48a7ea3e097f005e6610072faa9dac2",
+  "request_sha256": "4bee559f35fdae85676e1f5367c2573d70e6960959d46c54f048a3d9805713ff",
+  "started_utc": "2026-11-20T20:43:17.381869+00:00",
+  "completed_utc": "2026-11-20T20:43:21.754729+00:00",
+  "usage": {
+    "input_tokens": 7658,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a86b2e3b071c9d3e1cd316c83bf934fcbb366ee129eacad050f373451a1ca52b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5277eb7bb83a57e10fb70c47f16e2a472cd7e0ca7a6eb86368aa7513d8d065fc"
+}

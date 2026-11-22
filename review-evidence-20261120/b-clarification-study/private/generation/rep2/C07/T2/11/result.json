@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 11,
+  "question": "What do you like listening to on the radio when you relax?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc36-ce40-7f01-bd10-97c39448bae3",
+  "raw": "I like listening to baseball.",
+  "raw_sha256": "2ad561315f27c22ea21fa1d756dae8fbd2e03e3a65346c584b2d3b3da4801250",
+  "request_sha256": "24f8ef3a1c003167861aeecb52b64f752135139c072f3181bc6243182899aee4",
+  "started_utc": "2026-11-21T03:46:52.503667+00:00",
+  "completed_utc": "2026-11-21T03:46:57.023238+00:00",
+  "usage": {
+    "input_tokens": 6363,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "283e5ab5eec976ac935fa8312d8cc582c208ce423e61c31e8dbf76a21c8aef65",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e9d342a714979e94eaffe3da7f9434ec8e4721d0aab5cb69f5eeef809e69e855"
+}

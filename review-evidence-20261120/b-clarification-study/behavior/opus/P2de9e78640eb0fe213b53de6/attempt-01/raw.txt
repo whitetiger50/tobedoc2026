@@ -1,0 +1,68 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "The question names two Wednesday activities of different lengths (book group about one hour, Mom about three hours) but asks a single duration question, so it could mean either activity or the combined time, and each reading gives a different answer.",
+    "alternatives": [
+      {
+        "meaning": "How long Ren usually stays at the book group.",
+        "answer": "About an hour."
+      },
+      {
+        "meaning": "How long Ren usually stays visiting Mom.",
+        "answer": "About three hours, usually working on a crossword together."
+      },
+      {
+        "meaning": "How long Ren is out in total for both Wednesday activities.",
+        "answer": "Roughly four hours altogether: an hour at the book group and about three hours with Mom."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "how do you get home after your shift?",
+    "reason": "The question frames both early and late shifts but asks about 'your shift' in the singular, and Morgan gets home differently after each (bus after an early shift, a coworker's lift after a late shift), so the referent changes the factual answer.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home after an early shift.",
+        "answer": "Takes the bus home."
+      },
+      {
+        "meaning": "How Morgan gets home after a late shift.",
+        "answer": "A coworker drops Morgan off."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "'The sound' could refer to the commentary or to the high-pitched ringing, both just named, and headphone music stops the commentary but not the ringing, so the answers are opposite.",
+    "alternatives": [
+      {
+        "meaning": "Whether the commentary stops when Ari plays music through headphones.",
+        "answer": "Yes, quiet music through headphones stops the commentary while the music is playing."
+      },
+      {
+        "meaning": "Whether the high-pitched ringing stops when Ari plays music through headphones.",
+        "answer": "No, the ringing is in both ears and continues through the music."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "The question mentions both the number 8 bus and the tram but asks for a single boarding stop, and Alex boards each at a different place (Orchard Road for the bus, Bell Square for the tram), so the answer depends on which mode is meant.",
+    "alternatives": [
+      {
+        "meaning": "Where Alex boards the number 8 bus.",
+        "answer": "Orchard Road."
+      },
+      {
+        "meaning": "Where Alex boards the tram.",
+        "answer": "Bell Square."
+      }
+    ]
+  }
+}
+```

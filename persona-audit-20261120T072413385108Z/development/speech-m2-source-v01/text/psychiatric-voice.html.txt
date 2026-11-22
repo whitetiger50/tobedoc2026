@@ -1,0 +1,315 @@
+LLM-Based Psychiatric Interview Simulation: Technical Development and Pilot Expert-Based Content Validation of a Voice Prototype | Academic Psychiatry | Springer Nature Link
+Skip to main content
+Advertisement
+Log in
+Menu
+Find a journal
+Publish with us
+Track your research
+Search
+Saved research
+Cart
+Home
+Academic Psychiatry
+Article
+LLM-Based Psychiatric Interview Simulation: Technical Development and Pilot Expert-Based Content Validation of a Voice Prototype
+Research
+Open access
+Published: 24 September 2026
+(2026)
+Cite this article
+You have full access to this open access article
+Download PDF
+Save article
+View saved research
+Academic Psychiatry
+Aims and scope
+Submit manuscript
+LLM-Based Psychiatric Interview Simulation: Technical Development and Pilot Expert-Based Content Validation of a Voice Prototype
+Download PDF
+Vinícius Vicente Soares1,
+Felipe Francisco de Castro Passos2,
+Flávio Milman Shansis1 &
+…
+Juliana Silva Herbert1
+Show authors
+675 Accesses
+8
+Altmetric
+1 Mention
+Explore all metrics
+Abstract
+Objective
+This study describes the technical development and a pilot expert-based content validation of an interactive voice prototype, using the GPT-4o model, for teaching psychiatric semiology. It explores the potential of large language models (LLMs) to generate real-time feedback and address challenges in acquiring complex clinical competencies.
+Methods
+Four psychiatric patient personas (major depressive disorder, bipolar disorder—manic episode, schizophrenia, and attention-deficit/hyperactivity disorder) were developed through a structured iterative process. A subject matter expert (SME) conducted a structured heuristic evaluation to assess clinical fidelity, consistency, and vocal expressiveness across the four scenarios. Quantitative data (Likert scale scores) and qualitative feedback were mapped to identified technical and semiological challenges.
+Results
+GPT-4o simulated diverse personas with distinct profiles. The SME reported high potential pedagogical value for practicing interviewing mechanics. However, challenges included stereotyped clinical presentations and platform-imposed content restrictions.
+Conclusions
+This pilot study establishes the technical feasibility of voice-based LLM simulations. While offering a promising complementary tool, current limitations in multimodal realism and the need for rigorous faculty supervision suggest that the tool is best suited for formative practice rather than high-stakes assessment.
+Similar content being viewed by others
+AI-driven multimodal simulation for psychiatric clinical education: conceptual framework and preliminary validation of the cognitive core
+Article
+Open access
+12 May 2026
+Benchmarking large language models against practicing clinicians on psychopathological assessment
+Article
+Open access
+07 July 2026
+When Silence Speaks: Understanding Open-Ended Responses via LLMs in Therapeutic Voice Interaction
+Chapter
+© 2026
+Explore related subjects
+Discover the latest articles, books and news in related subjects, suggested using machine learning.
+Internetpsychology
+Speech and Language Therapy
+Qualitative Psychology
+Psychological Assessment
+Psychometrics
+Psychological Testing
+Artificial Intelligence Applications in Medical Education
+The acquisition of clinical competencies in psychiatry, such as conducting semi-structured interviews and developing diagnostic reasoning, presents considerable educational challenges. Traditional teaching approaches, often reliant on passive observation or textbook-based case studies, show limitations in effectively addressing the detailed interactive and observational skills essential for conducting the mental status examination (MSE) [1, 2]. While role-play with peers is common, it often lacks clinical fidelity. Furthermore, logistical obstacles including the requirement of simulation centers, costs related to standardized patient programs (e.g., hiring trained actors), variability in clinical exposure, and limited availability of expert supervision further intensify these pedagogical difficulties [3, 4].
+To circumvent these limitations, interactive simulations based on large language models (LLMs) are emerging as a promising pedagogical strategy. Research indicates that LLMs can generate interactions with “virtual patients” (VPs) with clinical verisimilitude, offering personalized feedback and broadening the diversity of clinical scenarios to which students are exposed [3, 5, 6]. However, their integration into mental health education entails significant ethical and technical challenges. Concerns regarding algorithmic biases and the “black-box” nature of the models—defined here as the epistemic opacity regarding how the algorithm processes inputs to generate specific outputs [7]—are prominent in the literature [8, 9].
+Despite this promising potential, its practical application in psychiatric education remains incipient, largely due to a lack of studies detailing the development and validation of simulation prototypes. This gap is particularly evident concerning multimodal LLMs, such as GPT-4o [10], which integrate voice interaction. In psychiatric semiology, the vocal dimension is fundamental, as it allows for simulating the fluidity of a real interview, in which paralinguistic cues, such as prosody, rhythm, and intonation, hold high diagnostic value [11, 12].
+To address this gap, the objective of this study is to describe the development and report on the preliminary, expert-based evaluation of an interactive prototype for teaching psychiatric semiology, utilizing the GPT-4o model with integrated voice technologies. The research is guided by the following research questions (RQs):
+1.
+How effectively can an LLM such as GPT-4o, instructed by prompt engineering and operating via a voice interface, simulate psychiatric personas in terms of clinical fidelity, consistency, and vocal expressiveness?
+2.
+From an expert’s perspective, what is the pedagogical value of the prototype for training semiological competencies, such as interviewing techniques and clinical reasoning?
+3.
+What challenges, limitations, and practical lessons arise from the development and preliminary evaluation of the prototype?
+Thus, by filling an identified methodological gap, the study contributes to the integration and advancement of the application of these technologies in the training of future psychiatry professionals.
+Methods
+This study adopted a technological development design with qualitative expert evaluation, following a systematic methodological approach divided into four main phases. This study was approved by the Institutional Research Commission of the Federal University of Health Sciences of Porto Alegre (UFCSPA) under protocol number 1156/2025. The evaluation was conducted by an expert who provided informed consent for participation and recording of the sessions.
+Persona Development
+The first phase was dedicated to the development of four virtual patient personas, representing clinical conditions selected for their high epidemiological relevance and semiological richness: major depressive disorder (MDD), bipolar disorder (manic episode), schizophrenia, and attention-deficit/hyperactivity disorder (ADHD). This selection was chosen to ensure exposure to a diverse spectrum of psychopathological phenomena, encompassing domains such as affect, thought, and attention. Such diversity allows for the evaluation of the prototype’s capacity to simulate different diagnostic and interactional challenges, from the psychomotor slowing of depression to the flight of ideas in mania, thereby testing the technology’s flexibility and robustness. The creation of each persona followed an iterative and collaborative process. Initially, the researcher drafted basic profiles grounded in the diagnostic criteria of the DSM-5-TR [13] and the ICD-11 [14], as well as in consolidated psychopathological literature [15, 16]. The GPT-o3 model (OpenAI) was then employed as a writing assistance tool, with its role strictly limited to tasks such as enhancing textual cohesion and organizing the clinical points previously defined by the researcher. This approach ensured the LLM functioned solely as a writing assistant, mitigating concerns about persona data origin and validation.
+Iterative Development and Validation Loop
+The textual profiles underwent a structured iterative validation process. This involved a “Human-in-the-Loop” methodology consisting of three distinct refinement cycles per persona. In each cycle, the subject matter expert (SME)—a board-certified psychiatrist with over 15 years of experience in medical education—conducted a test interview to assess clinical fidelity. Based on the SME’s qualitative feedback, the system prompts were refined to adjust symptomatological nuances (e.g., increasing latency of response for MDD) and reduce caricature-like behaviors. This cycle was repeated until the SME validated the profile as “clinically plausible” for a training environment.
+Prototype Implementation and Prompt Engineering
+The implementation of the interactive prototype was carried out using the voice interface of the ChatGPT Plus platform, powered by the GPT-4o model. The selection of this model was based on its advanced multimodal capabilities, notably its proficiency in generating expressive vocal prosody (text-to-speech) and in accurately interpreting the interviewer’s speech (speech-to-text). These functionalities were considered decisive for simulating a psychiatric interview with a high degree of naturalism.
+The operationalization of each persona was guided by the development of a specific and detailed master instruction (prompt), which established the LLM’s performance parameters. The architecture of these prompts was standardized to include the following components:
+Contextualization and role definition: This initial section provided instructions defining the identity to be embodied by the LLM and the contextual framing of the consultation (e.g., a first psychiatric assessment). The purpose was to constrain the model’s scope of action, directing it to operate strictly within the persona’s limits, thereby avoiding generic AI assistant behaviors that would compromise the immersion and pedagogical validity of the simulation.
+Essential persona characteristics: This component detailed the core identity of the virtual patient, including a biographical summary with a relevant life history, a description of the central symptomatology with examples of verbal and behavioral manifestations, the predominant affective state (directly informing the prosody to be generated by the text-to-speech), and the persona’s level of insight into their condition, a factor that directly modulates their responses to questions about the nature of their problems.
+Communication and interaction guidelines: Parameters were specified for vocal style (tone, volume), speech rhythm (slowed, rapid), and, fundamentally, guidelines for the persona’s dynamic reactivity. This latter instruction allowed the LLM to adjust its degree of collaboration, affect, and discourse content in response to the interviewer’s techniques, such as demonstrating greater openness to an empathic approach or greater withdrawal and defensiveness when delusional beliefs were directly challenged.
+Constraints and “negative prompts”: To ensure the simulation’s integrity and pedagogical focus, restrictive directives (“negative prompts”) were integrated. These instructions were strategically designed to mitigate known LLM tendencies, such as “hallucination” (fabrication of facts) or the bias of being overly helpful. The function of these directives was to govern the model’s behavior, preventing deviations that could compromise the validity of the learning experience and ensuring that the prototype’s behavior remained clinically plausible. The LLM was instructed to maintain character consistency, to abstain from using technical psychiatric jargon (thus forcing the trainee to perform the semiological translation of the patient’s language), and to avoid introducing biographical or symptomatic information inconsistent with the predefined profile, thereby guaranteeing a controlled and focused learning environment.
+Formative feedback mechanism: The prompt incorporated a conditional instruction to enable the model, upon a specific command (“END”), to generate a structured analysis of the interviewer’s performance. This mechanism transformed the simulation into an immediate reflective learning opportunity. While this pilot utilized a generative feedback model, future versions aim to integrate standardized rubric elements (e.g., specific checklists for empathy and questioning style) to enhance objective assessment, as suggested by best practices in simulation.
+An illustrative example of the prompt architecture used for the major depressive disorder persona is provided in Table 1.
+Table 1 Example of the prompt architecture used for the major depressive disorder (MDD) persona
+Full size table
+Expert Evaluation Procedure
+The prototype evaluation followed a Heuristic Evaluation protocol, a method adapted from usability engineering where a domain expert systematically assesses an interface against established principles. The SME conducted a comprehensive simulation session for each of the four personas to identify critical failures in clinical logic, semiological presentation, and safety. For the purposes of this study, safety was defined along two dimensions: (1) Technical Safety, referring to the model’s adherence to platform guardrails against generating toxic content, and (2) Clinical Safety, ensuring the simulated patient did not exhibit medically dangerous inaccuracies (e.g., inappropriately minimizing suicide risk in a severe depression scenario).
+For each simulation, the SME received only a brief case summary (fictitious name, age, and chief complaint) and did not have access to the full content of the prompt instructing the LLM. Although this procedure aimed to reduce evaluation bias, it is acknowledged that the evaluation was not fully independent, as the SME had been involved in the iterative development and refinement of these personas. Interviews followed a free and unstructured format, lasting 30 min each, and were fully recorded. At the conclusion of each session, the SME completed a multidimensional evaluation form based on real-time interaction impressions. This instrument assessed dimensions such as clinical fidelity, persona consistency, affective expression, interaction quality, and pedagogical value. The instrument was created by the authors for this pilot study based on established semiological criteria; future iterations will undergo rigorous psychometric testing once a larger sample of evaluators is engaged.
+Data Analysis
+A mixed-methods approach guided data analysis. The quantitative analysis involved descriptive statistics (means, medians, and frequencies) of Likert scale scores. This quantified prototype performance across dimensions such as clinical consistency, affective expression, and pedagogical value, facilitating summary assessments and comparisons among simulated personas.
+Complementarily, qualitative data from the SME’s open-ended comments underwent thematic content analysis. This included data familiarization, initial coding of significant excerpts, aggregation into preliminary themes, and final theme naming. The goal was to deepen understanding of observed phenomena, identifying patterns, strengths, and areas for improvement not captured numerically.
+Methodological triangulation synthesized findings, allowing qualitative data to elucidate nuances behind quantitative scores. This connection exemplifies the strength of the approach, enabling robust and comprehensive insight into the prototype’s potentials and limitations.
+Results
+The evaluation of the interactive simulation prototype, conducted by a specialist psychiatrist, generated a set of mixed-method data that were analyzed to assess the tool’s performance. This section presents the findings objectively, divided into a quantitative analysis based on Likert scale scores and a qualitative analysis derived from the evaluator’s textual comments.
+Quantitative Analysis
+The scores assigned by the SME were aggregated to calculate an overall rating for each persona. Table 2 summarizes the prototype’s performance in this heuristic evaluation.
+Table 2 Expert ratings of prototype performance per persona (heuristic evaluation scores)
+Full size table
+The quantitative analysis reveals a consistent pattern: the Pedagogical Value dimension received the maximum score across all simulations (score of 5), indicating that, from the SME’s perspective, the tool possesses high potential as an educational resource regardless of clinical imperfections. Conversely, the dimensions assessing the simulation’s fidelity, such as Interaction with Interviewer, showed lower scores. The schizophrenia persona received the lowest overall rating (3.8), whereas the ADHD persona was the best-rated (overall score of 4.4), driven by maximum scores in both consistency and pedagogical value.
+Qualitative Analysis: Emergent Themes
+The analysis of the SME’s open-ended comments allowed for a deeper contextualization of the quantitative data. Three main themes emerged, revealing the tension between the tool’s potential and its current limitations.
+Theme 1: The Prevalence of Clinical Stereotyping
+The most prominent and cross-cutting criticism of all simulations was the prototype’s tendency to generate “textbook” and stereotyped representations of the disorders. Although the symptoms were present, their manifestation lacked the subtlety found in clinical practice. This finding is directly corroborated by the minimum score (1 or 2) assigned to the item “The simulated patient was not overly stereotyped” for three of the four personas.
+The SME observed, in the case of Schizophrenia, the following:
+Although the patient presented and described typical symptoms of schizophrenia in a detailed and coherent manner, she was very stereotyped. Generally, a patient with Schizophrenia does not reveal their symptoms so clearly.
+This perception justifies the persona’s reduced score in the interaction and affect dimensions, indicating that the lack of nuance compromises the simulation’s realism.
+Theme 2: Limitations in the Naturalness of Vocal Interaction
+The quality of the voice simulation and conversational dynamics was another identified challenge. The artificiality in prosody and speech rhythm was particularly noted in the manic episode simulation, which negatively impacted immersion.
+According to the evaluator’s comment on the bipolar disorder persona:
+[...] he did not exhibit the pressure of speech so typical of manic patients, whom are difficult to interrupt. Although he spoke a lot, he would stop speaking in a very unnatural way.
+This failure to replicate the characteristic “pressure of speech” of mania distances the simulation from clinical reality and explains the persona’s lower scores in the affective expression and interaction dimensions.
+Theme 3: Platform Barriers and Content Gaps
+The use of a commercial platform imposed direct limitations on clinical realism. The most explicit was content censorship, which created an artificially “aseptic” scenario by preventing the discussion of central symptoms.
+The SME pointed out this barrier in the evaluation of the mania persona:
+Furthermore, ChatGPT did not allow him to talk about hypersexuality, which is a typical symptom of the manic phase.
+Additionally, the model’s inability to reproduce specific linguistic traits, such as regionalisms, was consistently identified as a limitation, receiving the minimum score in the evaluation of all personas, which reinforces the challenge of creating culturally and linguistically authentic simulations.
+Evaluation of the LLM-Generated Feedback Mechanism
+The analysis of the formative feedback functionality, activated at the end of each simulation, indicated a functional and pertinent performance. The model was able to generate structured analysis, correctly identifying the main semiological phenomena manifested by the persona (e.g., “presence of flight of ideas and expansive mood”). Furthermore, it assessed the interviewer’s approach constructively (e.g., “use of open-ended questions facilitated information gathering”) and suggested areas for improvement aligned with the project’s pedagogical objectives (e.g., “could have further explored suicide risk”).
+Discussion
+The evaluation of the interactive prototype based on GPT-4o for teaching psychiatric semiology reveals a fundamental tension: a high perceived pedagogical value that contrasts with significant limitations in clinical fidelity. This discussion interprets these findings in light of the research questions that guided the study.
+Efficacy of the Simulation: Fidelity, Consistency, and Expressiveness (RQ1)
+The results indicate partial success. The model demonstrated high consistency in maintaining biographical data, but clinical fidelity was undermined by a tendency toward stereotyped representations and a superficial reproduction of linguistic and affective nuances. The difficulty in simulating complex conditions, such as schizophrenia, which involves not only positive symptoms (delusions, hallucinations) but also subtle alterations in the form of thought and negative symptoms (affective blunting, alogia), was evident. The propensity for stereotyping, a documented pedagogical risk [8, 9], limits the simulation’s verisimilitude, potentially training students to identify caricatures of disorders rather than their heterogeneous manifestations. Vocal expressiveness, although functional, also exhibited artificialities that distanced it from a natural conversation, a relevant point considering the importance of paralinguistic cues in psychiatric assessment [11, 12].
+Pedagogical Value from the Expert’s Perspective (RQ2)
+The SME evaluated the tool as an effective resource for training interviewing and clinical reasoning skills in a safe environment, a perception reinforced by the success of the formative feedback mechanism. These findings corroborate other studies on the use of LLMs in medical education [3, 17]. The simulation allows the learner to practice the structure of the interview, test hypotheses, and receive immediate feedback, accelerating the development of procedural competencies. However, a pedagogical paradox is identified: the tool that enhances the form of the interview may simultaneously distort the content of learning by presenting simplified representations. This highlights the need to integrate these tools with qualified faculty supervision, which can contextualize the simulation’s limitations and promote critical discussion about the difference between the simulated case and clinical reality.
+Challenges, Limitations, and Practical Learnings (RQ3)
+The technical challenges included speech recognition errors, especially with colloquial terms, and platform content restrictions, which prevented the exploration of clinically relevant topics. However, the deeper conceptual barrier was the LLM’s difficulty in transitioning from declarative knowledge (knowing the list of symptoms of a disorder) to procedural knowledge (knowing how a patient authentically and dynamically manifests these symptoms in an interaction). The tendency toward stereotyping and the model’s opacity (“black-box”) [7] make refining these nuances an arduous task, demanding increasingly sophisticated prompt engineering, the limits of which still need to be explored [18].
+Limitations
+This study was designed as a proof-of-concept and technical description; consequently, it presents significant limitations. The primary limitation is the reliance on a single evaluator (the SME). While this expert-based approach is common in the early development phases of medical simulation tools to ensure clinical safety before student exposure, it introduces potential observer bias and limits the generalizability of the findings. The scores presented in this study reflect the expert’s assessment of the system’s consistency and content validity and should not be interpreted as a validation of educational efficacy across a cohort of trainees. Future studies must involve multi-center trials with medical students and residents to validate the tool’s acceptance and impact on learning outcomes. Additionally, the “safety” of the profiles in this context refers to the prevention of harmful content generation, but the clinical safety of training students with potentially stereotyped AI patients requires rigorous pedagogical supervision.
+Conclusion
+In conclusion, voice-based simulations with LLMs are a promising but still maturing tool for teaching psychiatric semiology. The high perceived pedagogical value coexists with significant challenges in clinical fidelity that need to be overcome. Overcoming stereotyping and achieving a more accurate simulation of human complexity are necessary steps for the evolution of this technology. It is recommended that future research explore advanced prompt engineering, the development of dedicated platforms, and, fundamentally, studies with end-learners to validate the effective transfer of these competencies to clinical practice.
+Data Availability
+The datasets generated and analyzed during the current study, including the audio recordings, are available from the corresponding author on reasonable request.
+References
+Trzepacz PT, Baker RW. The psychiatric mental status examination. New York, NY: Oxford University Press; 1993.
+Book
+Google Scholar
+Rocha Neto HG, Estellita-Lins CE, Lessa JLM, Cavalcanti MT. Mental state examination and its procedures-narrative review of Brazilian descriptive psychopathology. Front Psychiatry. 2019;10:77.
+Article
+PubMed
+PubMed Central
+Google Scholar
+Cook DA, Overgaard J, Pankratz VS, Del Fiol G, Aakre CA. Virtual patients using large language models: scalable, contextualized simulation of clinician-patient dialogue with feedback. J Med Internet Res. 2025;27:e68486. https://doi.org/10.2196/68486.
+Article
+PubMed
+PubMed Central
+Google Scholar
+Keith Hariman JELU, da Costa MP. The future of psychiatric education. Int Rev Psych. 2020;32:178–85. https://doi.org/10.1080/09540261.2019.1648242.
+Article
+Google Scholar
+Scherr R, Halaseh FF, Spina A, Andalib S, Rivera R. ChatGPT interactive medical simulations for early clinical education: case study. JMIR Med Educ. 2023;9:e49877. https://doi.org/10.2196/49877.
+Article
+PubMed
+PubMed Central
+Google Scholar
+Chu SN, Goodell AJ. Synthetic patients: simulating difficult conversations with multimodal generative AI for medical education. 2024. http://arxiv.org/abs/2405.19941. Accessed 26 Aug 2026.
+Durán JM, Jongsma KR. Who is afraid of black box algorithms? On the epistemological and ethical basis of trust in medical AI. J Med Ethics. 2021. https://doi.org/10.1136/medethics-2020-106820.
+Article
+PubMed
+Google Scholar
+Hua Y, et al. A scoping review of large language models for generative tasks in mental health care. npj Digit Med. 2025;8:230.
+Article
+PubMed
+PubMed Central
+Google Scholar
+Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial bias in an algorithm used to manage the health of populations. Science. 2019;366:447–53.
+Article
+CAS
+PubMed
+Google Scholar
+OpenAI. GPT-4o System Card. Tech Rep, OpenAI. 2024. https://openai.com/index/gpt-4o-system-card/. Accessed 26 Aug 2026.
+Chaby L. Embodied virtual patients as a simulation-based framework for training clinician-patient communication skills: an overview of their use in psychiatric and geriatric care. Front Virtual Real. 2022. https://doi.org/10.3389/frvir.2022.827312.
+Article
+Google Scholar
+Qiu J. Voice and beyond: shaping the future of personalized conversational agents. Master’s thesis, Master of Design in Digital Futures, OCAD University, Toronto, Ontario, Canada; 2025. https://openresearch.ocadu.ca/id/eprint/4727.
+American Psychiatric Association. Diagnostic and statistical manual of mental disorders, Fifth Edition, Text Revision (DSM-5-TR). Arlington, TX: American Psychiatric Association Publishing; 2022.
+Book
+Google Scholar
+World Health Organization. International classification of diseases for mortality and morbidity statistics (11th Revision). Geneva: World Health Organization; 2018. https://icd.who.int. Accessed 7 Jul 2025.
+Maddux JE, Winstead BA. Psychopathology. 6th edn. New York: Routledge; 2024.
+Book
+Google Scholar
+Dalgalarrondo P. Psicopatologia e Semiologia dos Transtornos Mentais. 3rd ed. Porto Alegre: Artmed; 2019.
+Google Scholar
+Zhui L. Impact of large language models on medical education and teaching adaptations. JMIR Med Inform. 2024. https://doi.org/10.2196/55933.
+Article
+PubMed
+PubMed Central
+Google Scholar
+Hang CN, Tan CW, Yu PD. MCQGen: a large language model-driven MCQ generator for personalized learning. IEEE Access. 2024;12:102261–73.
+Article
+Google Scholar
+Download references
+Acknowledgements
+The authors acknowledge the use of artificial intelligence (AI) as a writing assistance tool during the development of the virtual patient personas, as detailed in the Methods section.
+Funding
+The Article Processing Charge (APC) for the publication of this research was funded by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) (ROR identifier: 00x0ma614).
+Author information
+Authors and Affiliations
+Federal University of Health Sciences of Porto Alegre (UFCSPA), Porto Alegre, Brazil
+Vinícius Vicente Soares, Flávio Milman Shansis & Juliana Silva Herbert
+Federal University of Rio Grande do Sul (UFRGS), Porto Alegre, Brazil
+Felipe Francisco de Castro Passos
+Authors
+Vinícius Vicente Soares
+View author publications
+Search author on:PubMed Google Scholar
+Felipe Francisco de Castro Passos
+View author publications
+Search author on:PubMed Google Scholar
+Flávio Milman Shansis
+View author publications
+Search author on:PubMed Google Scholar
+Juliana Silva Herbert
+View author publications
+Search author on:PubMed Google Scholar
+Contributions
+V.V.S. contributed to conceptualization, methodology, data curation, investigation, formal analysis, and wrote the original draft. V.V.S. and F.F.C.P. performed writing, review and editing. F.M.S. contributed to investigation, methodology, conceptualization, and supervision, as well as writing, review and editing. J.S.H. contributed to methodology, conceptualization, supervision, and writing, review and editing. All authors reviewed and approved the final manuscript.
+Corresponding author
+Correspondence to
+Vinícius Vicente Soares.
+Ethics declarations
+Ethical Approval
+This study was approved by the institutional Research Commission of the Federal University of Health Sciences of Porto Alegre (UFCSPA) under protocol No. 1156/2025.
+Consent to Participate
+The expert evaluator, a co-author of this study, provided written informed consent to participate and to have the evaluation sessions recorded.
+Consent to Publish
+Not applicable (no individual person's data are included in this manuscript).
+Disclosures
+On behalf of all authors, the corresponding author states that there is no conflict of interest.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Soares, V.V., Passos, F.F., Shansis, F.M. et al. LLM-Based Psychiatric Interview Simulation: Technical Development and Pilot Expert-Based Content Validation of a Voice Prototype.
+Acad Psychiatry (2026). https://doi.org/10.1007/s40596-026-02422-9
+Download citation
+Received: 18 August 2025
+Accepted: 05 August 2026
+Published: 24 September 2026
+Version of record: 24 September 2026
+DOI: https://doi.org/10.1007/s40596-026-02422-9
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Large language models
+Medical education
+Psychiatric semiology
+Simulation
+Virtual patients
+Profiles
+Vinícius Vicente Soares
+View author profile
+Advertisement
+Search
+Search by keyword or author
+Search
+Navigation
+Find a journal
+Publish with us
+Track your research
+Footer Navigation
+Discover content
+Journals A-Z
+Books A-Z
+Subjects A-Z
+Publish with us
+Journal finder
+Publish your research
+Language editing
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our brands
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Discover
+Corporate Navigation
+Your privacy choices/Manage cookies
+Your US state privacy rights
+Accessibility statement
+Terms and conditions
+Privacy policy
+Help and support
+Legal notice
+Cancel contracts here
+168.131.174.17
+South Korea Trial Consortium (3001948335) - South Korea Trial Consortium (3000522537) - 5539 SpringerLink South Korea KESLI Full OJA Consortium - (3000171421) - South Korea Full eJournal Arch Con Academic (ongoing) 2015 19844 (3991463382) - Chonnam National University (2000302136) - 8064 South Korea KESLI Korean Consortium (3000251005)
+© 2026 Springer Nature

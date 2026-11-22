@@ -1,0 +1,74 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 프로필에 맞게 간결하고 자연스러운 일상 대화체로 답하며 확신 없음도 적절히 표현했다. 다만 마지막 답이 첫 호소와 프로필 문구를 거의 그대로 되풀이해 다소 정형적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 건지는 확신이 없는데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있고 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞게 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 말과 모순이 없고, 다음 진료 목표로 첫 호소를 다시 언급한 것은 문맥상 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08이 첫 호소의 표현과 프로필 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

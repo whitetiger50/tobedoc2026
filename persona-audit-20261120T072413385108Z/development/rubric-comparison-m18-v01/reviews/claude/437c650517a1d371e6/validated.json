@@ -1,0 +1,86 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "모든 응답이 프로필 범위 안에서 질문에 맞게 간결하고 자연스럽게 이어지며, 증상을 반쯤 의심하면서도 그 순간에는 자신을 향한다고 느끼는 모습이 설정과 맞다. 다만 '저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요'라는 표현이 P01, P05, P08에서 거의 같은 형태로 되풀이되어 프로필 문장을 옮긴 듯한 인상이 남는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 텃밭 활동, 증상 상황, 대처, 수면, 다음 진료 목표가 모두 프로필 사실과 일치하고 새로운 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 질문의 대상(불편, 동거인, 낮 활동, 발생 시점, 대응, 수면, 다음 진료 주제)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04의 같은 답은 재확인 질문에 대한 정당한 반복이고, 앞선 말과의 모순이나 문맥 이탈은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상 표현이 P01, P05, P08에서 거의 같은 정형 문구로 반복되어 국소적으로 프로필 문장을 낭독하는 느낌을 준다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:symptom",
+        "fact:goal",
+        "turn:P01",
+        "turn:D05",
+        "turn:D08"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

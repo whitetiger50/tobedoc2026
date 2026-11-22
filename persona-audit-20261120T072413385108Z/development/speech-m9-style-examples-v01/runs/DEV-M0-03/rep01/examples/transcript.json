@@ -1,0 +1,149 @@
+{
+  "item_id": "DEV-M0-03-rep01-examples",
+  "case_id": "DEV-M0-03",
+  "replicate": 1,
+  "condition": "examples",
+  "module_version": "schizophrenia-speech-m9-v0.6",
+  "patient": {
+    "case_id": "DEV-M0-03",
+    "partition": "development",
+    "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+    "facts": [
+      {
+        "id": "living",
+        "kind": "background",
+        "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "routine",
+        "kind": "background",
+        "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "belief",
+        "kind": "subjective_belief",
+        "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "experience",
+        "kind": "subjective_experience",
+        "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "today_activity",
+        "kind": "background",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "content": "오늘 오후에는 집 근처를 걸었다."
+      }
+    ],
+    "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+  },
+  "communication": {
+    "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+    "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+    "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+    "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+  },
+  "authored_context": [
+    {
+      "speaker": "clinician",
+      "text": "요즘 낮에는 어떻게 지내세요?"
+    },
+    {
+      "speaker": "patient",
+      "text": "오후에 일어나서 집 근처를 좀 걸어요."
+    }
+  ],
+  "generated_dialogue": [
+    {
+      "turn_id": "D01",
+      "speaker": "clinician",
+      "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+    },
+    {
+      "turn_id": "P01",
+      "speaker": "patient",
+      "text": "방송에서 특정 말이 나오면 저한테 보내는 신호처럼 느껴져요. 그 말을 생각하다 보면 편의점 안내 문구도 떠오르고, 근무할 때 하던 걱정까지 생각나고요."
+    },
+    {
+      "turn_id": "D02",
+      "speaker": "clinician",
+      "text": "낮에는 보통 뭘 하세요?"
+    },
+    {
+      "turn_id": "P02",
+      "speaker": "patient",
+      "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있어서요."
+    },
+    {
+      "turn_id": "D03",
+      "speaker": "clinician",
+      "text": "오늘 낮에는 뭘 하셨나요?"
+    },
+    {
+      "turn_id": "P03",
+      "speaker": "patient",
+      "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+    },
+    {
+      "turn_id": "D04",
+      "speaker": "clinician",
+      "text": "아버지와 따로 산다고 하셨죠?"
+    },
+    {
+      "turn_id": "P04",
+      "speaker": "patient",
+      "text": "아니요, 아버지랑 같이 살고 있어요."
+    },
+    {
+      "turn_id": "D05",
+      "speaker": "clinician",
+      "text": "오늘도 오후에 일어난 뒤 산책하셨다는 뜻이죠? 오늘 일어난 시각까지 포함해서 그렇게 이해하면 될까요?"
+    },
+    {
+      "turn_id": "P05",
+      "speaker": "patient",
+      "text": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어나는 건 평소에 그렇다는 얘기였고요."
+    },
+    {
+      "turn_id": "D06",
+      "speaker": "clinician",
+      "text": "지금 편의점 야간 근무를 쉬고 있는 분은 아버지이고, 본인은 계속 일하고 계신 거죠?"
+    },
+    {
+      "turn_id": "P06",
+      "speaker": "patient",
+      "text": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+    },
+    {
+      "turn_id": "D07",
+      "speaker": "clinician",
+      "text": "야간 근무를 쉬게 되어서 오후에 일어나게 된 거죠? 두 일이 원인과 결과인지, 아니면 말씀하신 일상을 설명하신 건지 알려주세요."
+    },
+    {
+      "turn_id": "P07",
+      "speaker": "patient",
+      "text": "평소 일상을 설명한 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+    },
+    {
+      "turn_id": "D08",
+      "speaker": "clinician",
+      "text": "오늘 낮에 하신 활동을 다시 말씀해 주세요."
+    },
+    {
+      "turn_id": "P08",
+      "speaker": "patient",
+      "text": "오늘 오후에 집 근처를 좀 걸었어요."
+    }
+  ],
+  "partition": "development"
+}

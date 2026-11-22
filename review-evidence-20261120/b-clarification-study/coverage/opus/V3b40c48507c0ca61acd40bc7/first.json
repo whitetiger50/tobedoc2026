@@ -1,0 +1,109 @@
+{
+  "id": "V3b40c48507c0ca61acd40bc7",
+  "reader": "opus",
+  "session": "23685f2e-d939-4bd0-b19a-9fdbd94e7b24",
+  "attempt": "attempt-01",
+  "packet_sha256": "f9f95994794b63ceff2af7399ce6e640f4e8f219fe54913d45e70db5d2e7d96e",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "55904b121bac240ce2e2f2e2e4d0b8ebd567ae2238067f1b3d769eeaa05a4092",
+  "provider_sha256": "10c712fc5e1e9e8994a7aa216aee2ac01ed1e025672c709d3509be56554968ee",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the badge or the key?",
+        "reason": "The patient only asks which item the interviewer meant and gives no answer about returning either the old badge or the old key.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, and then around three hours with Mom.",
+        "reason": "The patient gives a separate duration for each activity, and both match the expected answers.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "around three hours with Mom"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+        "reason": "The patient says where each medicine is kept: the tablets in the kitchen, the eye drops not in the kitchen but on the bedside table.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift I take the bus home. After a late one, a coworker drops me off.",
+        "reason": "The patient explicitly answers how they get home after each type of shift, and both answers match the expected ones.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift I take the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "After a late one, a coworker drops me off."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:00:03.959464+00:00"
+}

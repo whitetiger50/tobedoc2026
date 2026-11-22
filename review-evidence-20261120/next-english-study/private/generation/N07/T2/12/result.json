@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 12,
+  "question": "How would you like to arrange your study time next week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-fea5-74e0-8995-85dda722a5ea",
+  "raw": "I’d like to set aside some time in the library before Tuesday evening, rather than leave it for the trip to class. Maybe do a short passage at a time… use the slip of paper again, since that helped last week.",
+  "raw_sha256": "d5c78bffa65bddbb80f540f9bf03739da31c083d2b116ee8b947e2b91a87e107",
+  "request_sha256": "40a998c6404293e8e6dd3bf37d65e18f446fa83a91ba0e5f3b319cbde5a8a190",
+  "started_utc": "2026-11-20T21:04:02.111720+00:00",
+  "completed_utc": "2026-11-20T21:04:06.789939+00:00",
+  "usage": {
+    "input_tokens": 6977,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "58b0e20bb95bbebe9aa935ccfaee90e4a4030e842056acba3ac5ce4a44cf0a80",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cb6212b67b68c52a7937a91605991c0c871513fa3ccf93fa35da4aa4df4c5668"
+}

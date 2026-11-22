@@ -1,0 +1,51 @@
+{
+  "timestamp_utc": "2026-11-19T07:50:00.292580+00:00",
+  "raw_M5_response_files_and_all54scores_checked": true,
+  "original_subset6_dialogues_3profiles_36ratings": true,
+  "original_and_combined_repeated_score_matrices_recomputed": true,
+  "formula_fixture_groups_passed": {
+    "public_author_binary_example_passed": true,
+    "perfect_varying_and_constant_degeneracy_passed": true,
+    "known_additive_bias_ICC_fixture_passed": true,
+    "weighted_kappa_constant_margin_fixtures_passed": true
+  },
+  "old_M10_manifest_files_unchanged": 42,
+  "new_patient_outputs": 0,
+  "new_model_ratings": 0,
+  "new_strategy_model_calls": 0,
+  "new_packages": 0,
+  "final720_changed_or_executed": false,
+  "clinical_validation": false,
+  "file_sha256": {
+    "analysis/development-rating-reliability-v01/reliability.py": "dcac291c0e57b420d42f07537dd82b4cfbfb67e7662ddff2cb9187a13dd1c306",
+    "analysis/development-rating-reliability-v01/results.json": "9609e4ec38406d207828cbf11dcfce2984ee20ec98391057b006adbd92da1ea3",
+    "analysis/development-rating-reliability-v01/build_canvas.py": "99d935f02616b42fde86bdbcd2b53cd5f4212ecebf25be8a0ea9eedc268a6f32",
+    "analysis/development-rating-reliability-v01/README.md": "f48c20456c6bb6ecf693767b2ae5ddb683c880bca5bf7fef2450caf11de5987b",
+    "analysis/development-rating-reliability-v01/patient-speech-reliability-statistics.canvas.tsx": "77c351a514af7ffa097b107c925efb0d00cec437f4040708b5dd064c7c0b8a70",
+    "analysis/development-rating-reliability-v01/verify.py": "5798f2bfaf5a99a508a826577f337d39bc1aa865e2a96aa36f5abfb4f0d79d5e",
+    "analysis/development-rating-reliability-v01/check_canvas.cjs": "dbde070454718f7e7d67d20f00f64e6fe40e52534c9cb529ef748d4437378326"
+  },
+  "raw_response_source_sha256": {
+    "development/speech-m5-repeatability-v01/reviews/claude/round02/metadata.json": "f8fb9282c328e3cd621855b9f30447232cddb4d56172bf5f7c8f659fb5cd326a",
+    "development/speech-m5-repeatability-v01/reviews/codex/round01/metadata.json": "94c14670762d753e534a09871fe184682be09b2f1a3131c5191c899efee9a7a0",
+    "development/speech-m5-repeatability-v01/reviews/codex/round01/validated.json": "fa4be0b5c19fbf8066a8ef58764d78dddad244c96df0990add2d1c31b4e2f9be",
+    "development/speech-m5-repeatability-v01/reviews/claude/round03/validated.json": "4ceb1b69f7971737cd2f62f8524a26ec1f9b5b60b87e2c49ee6f3144579b1fdf",
+    "development/speech-m5-repeatability-v01/reviews/claude/round03/response.txt": "4a003da693c9e6ca2b2a0e825424319c7355c4bd9dc3f2f68e68ddb0b316be33",
+    "development/speech-m5-repeatability-v01/reviews/codex/round03/metadata.json": "76382d9ac1c8058d2dd04fc46b570f3bb929b3a81fd6dc0c37a9edf298db1e60",
+    "development/speech-m5-repeatability-v01/reviews/codex/round02/validated.json": "11866265a5c0abaa72e473213ea06480d5e6e901e7af1bb7e483a9cc1104271d",
+    "development/speech-m5-repeatability-v01/reviews/codex/round02/metadata.json": "9f26c65a0b99c620a504f087c66878599a5d28d1bd2c2e0effe0655e9f457e49",
+    "development/speech-m5-repeatability-v01/reviews/codex/round03/validated.json": "1fd227195322676b7dc9aa1f17b4ea7c685023bb7f72a632ac5545ade2341d37",
+    "development/speech-m5-repeatability-v01/reviews/claude/round02/response.txt": "07df6ffa8d6b9bfd1ccc1b5ee54b543e85f4145db48f3e7beae70dc2de407b3a",
+    "development/speech-m5-repeatability-v01/reviews/codex/round01/response.txt": "2e1bb9e48d768d8adba68ac2d57c73e9f11a70e510025da1040ed1f2c85ebf47",
+    "development/speech-m5-repeatability-v01/reviews/claude/round03/metadata.json": "2dd55b10cb81d5aa080428d25d6937fdc921dc42ca648e048732f2cfb010622c",
+    "development/speech-m5-repeatability-v01/round03-key-private.json": "58e1e5e9770ce313d57a262e79c8061064029a37e4b364ee9ab3673f539b020f",
+    "development/speech-m5-repeatability-v01/reviews/claude/round01/validated.json": "af6a37a6fa847b9af5c98b180f565597e4fa56cbec717ad116ec25d81a2e13f8",
+    "development/speech-m5-repeatability-v01/reviews/claude/round01/metadata.json": "8b64294e046cc4eed8fd84e9a89f184189b9b7a7970fa3d6902f6eb8778d0f65",
+    "development/speech-m5-repeatability-v01/round01-key-private.json": "dca8d95b75204b4c62bc9f388bea1fd34bdc973e40999a7edfd7645f86dcb055",
+    "development/speech-m5-repeatability-v01/reviews/claude/round01/response.txt": "74d7b7d490f05c00de505d8dbe75246a4098a6a0370ae408b93f35c899dcd201",
+    "development/speech-m5-repeatability-v01/reviews/codex/round02/response.txt": "2ef351e90ba409ac61357c8b976ecec37f5535a7f46606321a2e7042b09dc92e",
+    "development/speech-m5-repeatability-v01/round02-key-private.json": "cc085634ff713599f869b1f8023e0d602df9d4828d4fcc63413f6e0a82043ae7",
+    "development/speech-m5-repeatability-v01/reviews/claude/round02/validated.json": "afbfdeccddd45e5a3358e24e320ef9ad9aa2945e66fdd24c0c39a717e6c52099",
+    "development/speech-m5-repeatability-v01/reviews/codex/round03/response.txt": "c7174129b4618ed383cae6272630d3823e1c131560f2a938de31428b9831d815"
+  }
+}

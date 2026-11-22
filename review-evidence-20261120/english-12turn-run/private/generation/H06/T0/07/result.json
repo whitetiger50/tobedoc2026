@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 7,
+  "question": "Does the order make a difference to you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-f978-71f2-a250-94048b029d17",
+  "raw": "“It’s more having several things on the go than doing them in a particular order. The bibs were ready, then I went looking for the bus card and lost track of the bag. Having the card in the bag now means those two things stay together—that’s the idea, anyway!”",
+  "raw_sha256": "6c10f3fdc212bc213ce78bb74d5d5f4e13bbdfc82281cd72257e151798df7fb2",
+  "request_sha256": "6ef50f8c72e13298b9050438e885bdcef6b3ce1225da359582279fd7e662b2e5",
+  "started_utc": "2026-11-20T20:41:04.542018+00:00",
+  "completed_utc": "2026-11-20T20:41:10.396585+00:00",
+  "usage": {
+    "input_tokens": 7441,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 41
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d28bb9e5976cc350b9ea1b6237d6d3dcc6e4d124a6b1f4f39bf0e85669adcad8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "fee827a134a5c9e5bb5e260c336e86cd220dc8d8d8ee8a7fcf513f97780449b6"
+}

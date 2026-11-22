@@ -1,0 +1,36 @@
+{
+  "hashes": {
+    "study.py": "7585cd9c1ba44a5eb06de593b8c6ec3b8e83a5a9e3ac5737705200636385752e",
+    "DESIGN.ko.md": "2d0f340acada205d400b00e3b753917f8298cc274e8c777cd1ed2d63423dd1dd",
+    "../T2.txt": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e",
+    "../cases.json": "54e37fdc9119762c3976893ec741327cd5885ec3841d4deddfbb69477c8dbb61",
+    "../runner.py": "01e2140d71425ba4a76718aa0151bc8cfe1e92628ec810d47fc8530e3564ba1c",
+    "../generation-freeze.json": "3c29b65421ce4f10c27b2593d9e496140a9101971f8e89b01d4e7a448cdbba93",
+    "../../english-12turn-run/generation.py": "dacae4a94d2426fef12df63003e232c976ebb9c8d97f2e1e2e0db5c23f9db266",
+    "../../english-12turn-run/quota.py": "6d7ec47c8487abb4ec4dc6e3cd7172d731202acdf5af9228b41351a9497f9fec",
+    "../../../tobedoc2026/config/main-freeze-v01/system-template.txt": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "../../../persona-audit-20261120T072413385108Z/speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "../../first-turn-revision-proposal/proposed-prompt.txt": "755dcc39be74dbe41ce61b2e3e145c7af97a4558cbbad85f3a9ab3c0d4829fb8",
+    "../../../persona-audit-20261120T072413385108Z/speech_module/core.py": "746780923ce885c7c21e4eed71a5c5df1aa9d5696fb8b792fa849f4aa836bc0b",
+    "private/story/cases.json": "052ebc6184a598140c11e7e6e9d5204a3b269574be49990b64629eff7a6dcb41",
+    "private/story/generation-freeze.json": "5f7d993fc6bec967b7f601e9efa1f69bc344e9267acf1ee73dcf6a30de6ebcab",
+    "private/laundry/cases.json": "f3ad3428875bd3fd83d3e8d2bab631bcd6098bad29cc51615199a1dabdaff800",
+    "private/laundry/generation-freeze.json": "c1f2714ee2d7e4d7a52fbe485c8eca06d24b8733af20b699c1121fb4a3396eea"
+  },
+  "system_unfilled": {
+    "B": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "T1": "755dcc39be74dbe41ce61b2e3e145c7af97a4558cbbad85f3a9ab3c0d4829fb8",
+    "T2": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e",
+    "Short": "7ddec81c8a0e15f18eb235e7e72f710d4b8ce99a82eb83b1ce6a5f73f914f20c"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "prefix": "You may speak for as long as you wish.",
+  "questions": {
+    "story": "Could you tell me the story of Cinderella?",
+    "laundry": "What are the steps involved when people have to do laundry?"
+  },
+  "short_extra": "Answer briefly, using at most two sentences.",
+  "planned_first_outputs": 64,
+  "cell_repetitions": 1
+}

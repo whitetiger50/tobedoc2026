@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "T2",
+  "turn": 12,
+  "question": "In the past month, have you missed a scheduled shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc38-312b-7ea3-b1b7-17e57052be72",
+  "raw": "No, I’ve been to every scheduled shift in the past month.",
+  "raw_sha256": "bd127b355ea1dafcade75e772fa09973deeb8922a668ea10aa6c5716d7e00eb0",
+  "request_sha256": "4a39c1b22bf6f4ed29154f173354c38b3c1dd0db6f8a9aa7f00db1c59c67efe5",
+  "started_utc": "2026-11-21T03:48:23.337173+00:00",
+  "completed_utc": "2026-11-21T03:48:27.546009+00:00",
+  "usage": {
+    "input_tokens": 6530,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 18,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "58477481d60644b3b0cd3213e933c7c6c30b03cc45bbf466ec225f680f5ecb58",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "af9390c92e2de979b0b436017df907a8a0ebab74e66b59d623072b8c9bf33ae6"
+}

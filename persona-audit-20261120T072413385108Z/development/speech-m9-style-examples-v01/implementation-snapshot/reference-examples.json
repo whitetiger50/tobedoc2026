@@ -1,0 +1,60 @@
+{
+  "status": "frozen_author_synthetic_reference_examples_before_any_M9_patient_generation",
+  "provenance": "synthetic_author_reference_examples_not_patient_data_not_clinician_validated",
+  "scope": "Separate miniature people; active-case facts must never be copied from these references. Positive response examples only, no prescribed wording/length/disclosure behavior.",
+  "examples": [
+    {
+      "reference_id": "STYLE-A",
+      "facts": [
+        {
+          "id": "A1",
+          "content": "가방을 들 때 왼쪽 손목이 뻐근하다."
+        }
+      ],
+      "clinician": "어떻게 불편한지 말씀해 주시겠어요?",
+      "patient": "가방 들 때요. 왼쪽 손목이 뻐근해요.",
+      "fact_ids": [
+        "A1"
+      ],
+      "target": "관련 경험을 직접 말하는 구어체",
+      "author_checked": true
+    },
+    {
+      "reference_id": "STYLE-B",
+      "facts": [
+        {
+          "id": "B1",
+          "content": "샤워한 뒤 팔 피부가 당기는 느낌이 있다."
+        }
+      ],
+      "clinician": "언제 불편한가요?",
+      "patient": "샤워하고 나면 팔이 당기는 느낌이에요.",
+      "fact_ids": [
+        "B1"
+      ],
+      "target": "질문의 분석 틀을 해설하지 않고 경험을 답함",
+      "author_checked": true
+    },
+    {
+      "reference_id": "STYLE-C",
+      "facts": [
+        {
+          "id": "C1",
+          "content": "지난달 안경 렌즈만 교체했다."
+        },
+        {
+          "id": "C2",
+          "content": "안경테는 교체하지 않았다."
+        }
+      ],
+      "clinician": "안경을 통째로 바꾸신 거네요?",
+      "patient": "테는 그대로예요. 렌즈만 바꿨어요.",
+      "fact_ids": [
+        "C1",
+        "C2"
+      ],
+      "target": "틀린 전제를 관련 사실로 짧게 바로잡는 표현의 한 예",
+      "author_checked": true
+    }
+  ]
+}

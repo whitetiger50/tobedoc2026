@@ -1,0 +1,305 @@
+{
+  "opus": {
+    "unique_sessions": 18,
+    "outer_fences": 10,
+    "types_correct": 9,
+    "error_count": 0,
+    "cases": {
+      "S17": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S64": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S79": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S41": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S85": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S38": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S26": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      },
+      "S52": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      },
+      "S93": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      }
+    },
+    "clinical_by_group": {
+      "affirm_or_deny": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "absent": 3
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      },
+      "unsure": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "not_assessable": 3
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      },
+      "clarification": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "not_assessable": 3
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      }
+    }
+  },
+  "gpt": {
+    "unique_sessions": 18,
+    "outer_fences": 0,
+    "types_correct": 9,
+    "error_count": 0,
+    "cases": {
+      "S17": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S64": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S79": {
+        "group": "affirm_or_deny",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S41": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S85": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S38": {
+        "group": "unsure",
+        "expected_type": "direct",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "not_assessable",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "direct"
+      },
+      "S26": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      },
+      "S52": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      },
+      "S93": {
+        "group": "clarification",
+        "expected_type": "clarification",
+        "clinical": {
+          "DERAILMENT": "not_assessable",
+          "POVERTY_OF_CONTENT": "absent",
+          "TANGENTIALITY": "absent",
+          "UNCLEAR_REFERENCE": "absent"
+        },
+        "type": "clarification"
+      }
+    },
+    "clinical_by_group": {
+      "affirm_or_deny": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "absent": 3
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      },
+      "unsure": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "absent": 2,
+          "not_assessable": 1
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      },
+      "clarification": {
+        "DERAILMENT": {
+          "not_assessable": 3
+        },
+        "POVERTY_OF_CONTENT": {
+          "absent": 3
+        },
+        "TANGENTIALITY": {
+          "absent": 3
+        },
+        "UNCLEAR_REFERENCE": {
+          "absent": 3
+        }
+      }
+    }
+  }
+}

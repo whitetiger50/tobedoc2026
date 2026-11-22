@@ -1,0 +1,50 @@
+{
+  "id": "poster-local-20261117",
+  "authorization_date": "2026-11-17",
+  "authorization": "User requested autonomous local research using existing Mac and Qwen-14B.",
+  "design": "Previously frozen six-condition PSYCHE-style prompt port, newly executed in isolation.",
+  "scope": "Exploratory AI-assisted textual observation; no independent human/clinical validation.",
+  "planned_calls": {
+    "development": 24,
+    "confirmation": 96
+  },
+  "case_count": {
+    "development": 1,
+    "confirmation": 4
+  },
+  "generation_unit": "Independent first response; NOT a multi-turn interview.",
+  "context": "Full shared profile and one question; fresh context per request; no truncation of context.",
+  "analysis": "Equal case weighting; matched question/seed blocks; do not treat outputs as independent patients.",
+  "primary_observation": "Evidence-backed unclear transition between separately interpretable adjacent clauses.",
+  "rater": "Current assistant with condition identifiers removed; not independent or clinically validated.",
+  "rating_categories": [
+    "yes",
+    "no",
+    "uncertain",
+    "unassessable"
+  ],
+  "missing_policy": "Uncertain, unassessable and missing remain unknown; report conservative bounds.",
+  "primary_contrast": "(C4-C3)-(C2-C1); also C4-C2 and C5 control-positive rate.",
+  "secondary": [
+    "Question response",
+    "Within-clause intelligibility",
+    "Supplied-fact preservation",
+    "Word count",
+    "Literal label leakage",
+    "Repetition"
+  ],
+  "gate": "First six development responses: all completed/nonempty/nontruncated, English text, no template dump. Target-feature presence is NOT a gate.",
+  "historical_outputs_reused": 0,
+  "new_model_downloads": 0,
+  "paid_api_calls": 0,
+  "retry_policy": "No automatic retries, best-of selection or overwrites. Failed attempts stay recorded.",
+  "input_sha256": {
+    "config/main-freeze-v01/cases.json": "6f15b81540d564b7dcd439915000db8f7f4ee041e6de769af140457d8162e6a4",
+    "config/main-freeze-v01/fact-rules.md": "d43e408962fbb7e17ca285abb011a4dea7a502b3423197d92be3a1622d121807",
+    "config/main-freeze-v01/shared.json": "b6d28bc4c32ed15752638a05c73bc90a3dc1588913c5b65a5e5b0aa872af4deb",
+    "config/main-freeze-v01/system-template.txt": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "share/main-comparison-v01/AI판독기준_v1.md": "aa8e80585ae8947ec57e9b327468cef5c2fcca9050c29b9bc9665346f5961d4f",
+    "scripts/poster_local_study.py": "e75200b32fd60d33303522878224ddc13617bada29db3b75d01e0457ce48e731"
+  },
+  "requests_sha256": "9c3ac118f1c846d2aa018cb813743c996c0e956ccbecfb615e0384168e6bf716"
+}

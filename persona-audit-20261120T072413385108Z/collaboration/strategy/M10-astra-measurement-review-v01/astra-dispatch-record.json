@@ -1,0 +1,24 @@
+{
+  "requested_model": "gpt-6.2-astra",
+  "requested_reasoning_effort": "high",
+  "transport": "collaboration.spawn_agent explicit model override, fork_turns none; followup_task same agent",
+  "canonical_task": "/root/astra_measurement_review",
+  "initial_review_independent_of_current_Claude_response": true,
+  "round01_files_read": [
+    "AGENTS.md",
+    "mentor-role.txt",
+    "review-packet.md",
+    "existing-repeatability-audit.json",
+    "development/speech-m1-v01/README.md",
+    "development/speech-m1-v01/scores.json"
+  ],
+  "round02_scope": "Codex two targeted corrections: M5 mismatch vs logical clinical error; no immediate new ratings; narrow optional two-text check",
+  "actual_report_paths": [
+    "astra-round01.md",
+    "astra-round02.md"
+  ],
+  "reported_immutable_server_snapshot": null,
+  "model_selection_evidence": "explicit tool override; not an exposed immutable backend snapshot",
+  "new_patient_outputs": 0,
+  "new_Realism_ratings": 0
+}

@@ -1,0 +1,26 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the arm discomfort is usually resolved by the next morning.",
+    "citations": [
+      {
+        "turn": 11,
+        "role": "patient",
+        "quote": "My arm can ache that evening, but it’s usually fine by the next morning.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient tentatively suggests choosing a destination the night before, not after starting the trip.",
+    "citations": [
+      {
+        "turn": 8,
+        "role": "patient",
+        "quote": "I think choosing where to go the night before might help.",
+        "supports": "B"
+      }
+    ]
+  }
+}

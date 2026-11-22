@@ -1,0 +1,1937 @@
+{
+  "seed": "GK-study2-cards-v1",
+  "cases": 12,
+  "items": 120,
+  "fact_slots": 360,
+  "unique_note_strings": 360,
+  "anchors_word_counts": {
+    "n": 12,
+    "min": 4,
+    "mean": 7.5,
+    "max": 10
+  },
+  "three_way_equal_user_bodies": 120,
+  "distinct_prepared_packets": 360,
+  "by_topic_words": {
+    "happy": {
+      "n": 12,
+      "min": 17,
+      "mean": 18.67,
+      "max": 21
+    },
+    "compassion": {
+      "n": 12,
+      "min": 18,
+      "mean": 20,
+      "max": 22
+    },
+    "proud": {
+      "n": 12,
+      "min": 16,
+      "mean": 19.33,
+      "max": 22
+    },
+    "sad": {
+      "n": 12,
+      "min": 17,
+      "mean": 19.25,
+      "max": 22
+    },
+    "afraid": {
+      "n": 12,
+      "min": 15,
+      "mean": 18.5,
+      "max": 22
+    },
+    "embarrassed": {
+      "n": 12,
+      "min": 17,
+      "mean": 19.92,
+      "max": 21
+    },
+    "disgusted": {
+      "n": 12,
+      "min": 17,
+      "mean": 18.83,
+      "max": 23
+    },
+    "directions": {
+      "n": 12,
+      "min": 19,
+      "mean": 20.5,
+      "max": 22
+    },
+    "morning": {
+      "n": 12,
+      "min": 17,
+      "mean": 18.92,
+      "max": 21
+    },
+    "meal": {
+      "n": 12,
+      "min": 16,
+      "mean": 18.42,
+      "max": 22
+    }
+  },
+  "by_category_words": {
+    "긍정": {
+      "n": 36,
+      "min": 16,
+      "mean": 19.33,
+      "max": 22
+    },
+    "부정": {
+      "n": 48,
+      "min": 15,
+      "mean": 19.12,
+      "max": 23
+    },
+    "중립": {
+      "n": 36,
+      "min": 16,
+      "mean": 19.28,
+      "max": 22
+    }
+  },
+  "category_words_plus_numbers": {
+    "긍정": {
+      "n": 36,
+      "min": 16,
+      "mean": 19.33,
+      "max": 22
+    },
+    "부정": {
+      "n": 48,
+      "min": 15,
+      "mean": 19.12,
+      "max": 23
+    },
+    "중립": {
+      "n": 36,
+      "min": 16,
+      "mean": 19.44,
+      "max": 23
+    }
+  },
+  "by_card_words": {
+    "GK01": {
+      "n": 10,
+      "min": 16,
+      "mean": 18.3,
+      "max": 21
+    },
+    "GK02": {
+      "n": 10,
+      "min": 17,
+      "mean": 19.3,
+      "max": 21
+    },
+    "GK03": {
+      "n": 10,
+      "min": 17,
+      "mean": 19.5,
+      "max": 22
+    },
+    "GK04": {
+      "n": 10,
+      "min": 17,
+      "mean": 19.8,
+      "max": 23
+    },
+    "GK05": {
+      "n": 10,
+      "min": 19,
+      "mean": 20.2,
+      "max": 22
+    },
+    "GK06": {
+      "n": 10,
+      "min": 16,
+      "mean": 19.1,
+      "max": 21
+    },
+    "GK07": {
+      "n": 10,
+      "min": 16,
+      "mean": 19,
+      "max": 22
+    },
+    "GK08": {
+      "n": 10,
+      "min": 17,
+      "mean": 20,
+      "max": 22
+    },
+    "GK09": {
+      "n": 10,
+      "min": 16,
+      "mean": 19.1,
+      "max": 22
+    },
+    "GK10": {
+      "n": 10,
+      "min": 16,
+      "mean": 18.8,
+      "max": 21
+    },
+    "GK11": {
+      "n": 10,
+      "min": 17,
+      "mean": 18.9,
+      "max": 21
+    },
+    "GK12": {
+      "n": 10,
+      "min": 15,
+      "mean": 18.8,
+      "max": 21
+    }
+  },
+  "by_profile_words": {
+    "usual": {
+      "n": 40,
+      "min": 16,
+      "mean": 19.32,
+      "max": 23
+    },
+    "associative": {
+      "n": 40,
+      "min": 16,
+      "mean": 19.15,
+      "max": 22
+    },
+    "low_elaboration": {
+      "n": 40,
+      "min": 15,
+      "mean": 19.23,
+      "max": 22
+    }
+  },
+  "profile_cases": {
+    "GK01": "associative",
+    "GK02": "low_elaboration",
+    "GK03": "usual",
+    "GK04": "usual",
+    "GK05": "associative",
+    "GK06": "usual",
+    "GK07": "associative",
+    "GK08": "low_elaboration",
+    "GK09": "associative",
+    "GK10": "low_elaboration",
+    "GK11": "usual",
+    "GK12": "low_elaboration"
+  },
+  "fixed_fact_slot_count_per_item": 3,
+  "style_cue_pattern_hits": 0,
+  "prior_overlap": {
+    "reference_counts": {
+      "dais-generator-20261121": 14,
+      "first-turn-revision-proposal": 14,
+      "prior_english_cases": 6,
+      "boundary": 6,
+      "clarity-retest": 9
+    },
+    "phrase_matches": [],
+    "reserved_case_ids_checked": 12,
+    "reserved_id_matches": 0,
+    "reserved_content_semantically_compared": false
+  },
+  "system_sha256": {
+    "developed": "a68a9ec0f9228395f6739791ef268ac7e4ffa57797076e50868fea688bca5261",
+    "base": "f7e6da8e31484033a1f3a5694848d42b22719b48e89dc1e54b869d958fcc4a80",
+    "short": "f2430db5ef5ceae8464bb3df8a2f848a481494a91da03769285812dbb460e0ec"
+  },
+  "source_sha256": {
+    "review-evidence-20261120/gruber-kring-study2/cards/cards.json": "d48e6793c80023526b4fac3ef3ccd25256fcd022d712ee21e296575c943ba06a",
+    "review-evidence-20261120/gruber-kring-study2/cards/prepare.py": "18c63541023a84d95428c5c1872f9e9365b36f613a597038f595a677053e247c",
+    "review-evidence-20261120/gruber-kring-study2/DESIGN.ko.md": "d3610486033c7e4d6c7774b81acf3da824bc9d29b7fea86da01c42d569439e61",
+    "tobedoc2026/docs/2026-11-20-english-clinical-profile/generation.py": "d9dbaf813fda7bfa326bf7247e82f71077ea4fb4c128f8a9f57e23a4f262bed9",
+    "tobedoc2026/docs/2026-11-20-english-clinical-profile/study.py": "b2c848fd945bd6fec800bb8325178b782c90b28e03e0664041ff0e4c12bce4f6",
+    "review-evidence-20261120/dais-generator-20261121/freeze.json": "f327728012bbe4536c63dbc63430ac7c97e9c6a6ec440efd08077bfea04c4a7f",
+    "review-evidence-20261120/gruber-kring-study2/boundary/calibrate.py": "52ebaabb63b20b5b1d39e107d8cc6d4ea09bde3613ce6aa6d2af76745300167b",
+    "review-evidence-20261120/gruber-kring-study2/clarity-retest/freeze.json": "5badfc78d617723eadf4acba1c7be3bebd53fdeed9295e2d25017396d768742b"
+  },
+  "entries": [
+    {
+      "id": "GK01",
+      "topic": "happy",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "8c63c2fce2a8b7bc2fe3ea816b776f0190c3079a3f344d66ff18314fbc3c95d6",
+      "messages_sha256": {
+        "developed": "afac092b2f3efa48f2121bb0655f4e47c9cc096688a3806fb2927e6ee595fc54",
+        "base": "22b768a9d7293032a45f1e19b908c687e53b6687430e60c0b53651fb213c0de0",
+        "short": "f65465af78186f00e0368616444b3b6d0c5984a9f8c5e40972d32bed30599a58"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "compassion",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "1b75cfe97d933352fb073aa99999ee25199a981a8810ff758c856a2eb8a9f2d5",
+      "messages_sha256": {
+        "developed": "33840204f0343c6704f0e3eeb7933762e692ebbede2fbadf7eb325257b185691",
+        "base": "2b301b82c5ca4dbfbc9d13cbc96f6adec5a4db1f25a5d05429fc24efb869b643",
+        "short": "0f6bb66a8ba61af20f5254a6904b256b396a832c3e832b6044e7fa2484bd2737"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "proud",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "84af02485b3d28e5cdc76b828497c58bc93b9deb82b6ab66dc3734aabef632c5",
+      "messages_sha256": {
+        "developed": "0ebf4ccee42f338fbe462f178a279a132d37ac2118562d94bfb847ac869343d6",
+        "base": "b1dbc26ad67243ac545a24345b7d81b5ed7aa42f538092c87d4c59d0d0576f8c",
+        "short": "7ac732c6bfe9bdb015e2c9ae8ae95e5c9ce702501402f5cf49fd87a2f325fcd4"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "sad",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b0b4e90cf6b4995360dce0952a8d3ba4ab6d6abe802404eae5d587ff60490965",
+      "messages_sha256": {
+        "developed": "359356b905b7047624d5468dce9b2a9ad5f0cea2014ee69a73cb616fd99fb5a3",
+        "base": "3049117f4fee52c7c6484730603b36579fd48229326dd2b8def32d5387e8b115",
+        "short": "8dcaed24a53825a137616643ab85fbed9b3ce85376c34894e983d5ff8e07a2bd"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "afraid",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 16,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "8772f928869b212d5b725d128901d189ece3327bca767e991e06d0fa2f8a7afc",
+      "messages_sha256": {
+        "developed": "8a622d053e2ace2c19f749e91d90dfc79e49973415d2a0e2ea11843ddbb7def6",
+        "base": "6ab2dd0916cdb01c0468f36bdf0a7459d73e12d67e9afa69c59d40d699332549",
+        "short": "5b6c51b1fe8b80628142f9b3d4e421282b8e5bbc609272fb6b7aa2b524f99321"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "embarrassed",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "6579b4dafc5c38b1998aa2fad2071d143ed3517f3c534bc20b06d0b34c77165c",
+      "messages_sha256": {
+        "developed": "5ad870450fae0b1980491584810ccf077db7f0bf91b25b29f6acce09cf810d91",
+        "base": "1d608fecde1491adc66cc5b41b5eca9d29de5284f5dec7ad38aeb937f10268cd",
+        "short": "98df4cc9451f973a544b10b88b97beb9970ee76a7df213959c5641a0315c61e0"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "disgusted",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5a7969a92a737c6557c15336a0da217b0e9c0866057a0aa555c6bd3002d3c435",
+      "messages_sha256": {
+        "developed": "f569ab9c606198424dfb3beaee633b2169fb024209daea8c452abac3f6c8e0dc",
+        "base": "4cbf67cf13ae0eeaaaba4961d3efa1a5bfdab98ddf687daa6deb8aa036b15cdd",
+        "short": "1e3999b1d4781f0e4f7ab868729de0745a0bb1cb6c5109e8b9178aa5bca3e9a3"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "directions",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "5b9c00f357517bf43d9886a2aadd43cfd6e9402e347c06235391587f6802951e",
+      "messages_sha256": {
+        "developed": "4e9923f3f34746e2d57edf025501f7a1d3b90ed3043d638a6debd555b7b4be4e",
+        "base": "2af3e0769818c77687d9b6cd7930aa3fc34ea09d867b178bf492b0b594eb1ccc",
+        "short": "7ff833d75025a22b48fd975860277ea8e3c0c4ca3528f2e91c0a307f05aa8a32"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "morning",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "ce1cf279697c8bcae0f6148012c67d5f346317d4503bbae78dca58ad40c96640",
+      "messages_sha256": {
+        "developed": "8bc07ec8b23cf9a234f445daf1b68aa2dae34f2ea922d5829f5403f3d941f02e",
+        "base": "f57b4cf65e96cd85a64417bf5eb48a2c6c090dba33dd6ace67ff132ff64fb98d",
+        "short": "d745f2f8fcdc4448ce42b8b6ae3acf1f6f05f250bfc7a92282a376775d1cb879"
+      }
+    },
+    {
+      "id": "GK01",
+      "topic": "meal",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "bafdd0d7bedc33a0f53cb056ef6108f76b5ac80e3484132b8e45717762767799",
+      "messages_sha256": {
+        "developed": "659825b23c3889c3da6f12787f3b78cbea5c84686e78b66aee29e1f974c40fa6",
+        "base": "25f413432b8294a2fb63edc13b12c5f03e811ad6dbde19532217be5e1dd43ff0",
+        "short": "485db2f6dd2751d63755b8a221124cc31584b272d6822a2912b77d32bbc29476"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "happy",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d111289b51bac578226a09698ebd93067b43c39e65da02007d50d27bc9030179",
+      "messages_sha256": {
+        "developed": "3f89f4f0e488bef03767cd24f66f5725ee714fa0cb9e01a51fdbbad230c5dd8b",
+        "base": "d92bb66daed1dfbf592191da2c8d44f5c4ab683a69a66f36e8b413833b019aa2",
+        "short": "3208c388b94d8cc9b6a85fa28b64ed47f2ad7f9f858b61e9429fb39a78eb6f8b"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "compassion",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "6ca9a02cc2bfbbc79e08d55733091fc0a02b3817676c9d2756fbeb1877e64359",
+      "messages_sha256": {
+        "developed": "d258371113ca96a22e50a73d6691a04b73faac9e3315aaceba078d339376adee",
+        "base": "366a4b2e0c65d46f4705e853739c49ec05377b50654e1034529f79b5c83e8507",
+        "short": "9278d08fe8010459443b06e19c7df8522b34916fc7715fc7c350d4319e5120f8"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "proud",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "63e6ca95bfd40143587fe48e0ee96f57821bb9417ac9f11de550b83332f6f5f9",
+      "messages_sha256": {
+        "developed": "6342bfc8cf20cddbaec98d0d3f78d94b71f00d23d9deb16518ef993b50158d24",
+        "base": "68d68e1da3cca8db2df2ad5b53b9122aeafbef2d0807dd4be8c28432f8f04619",
+        "short": "7a9f60b1c6c25554e3625d18e5c671740e94fab72f455b4c8d9bb86cf764d755"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "sad",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b42c2d2148dd825a2879f6091e17334d42d7bbafc7b8cff12003d67439509a8a",
+      "messages_sha256": {
+        "developed": "cecb3cc23d1abca97171446937b3d3997b171f924b03d5deacbdc3ce76d31ec7",
+        "base": "0c600795b95e1c9c89962368ceb9f05cfaa62921751dc7dba7a693291bf77958",
+        "short": "61982deb18b11b988b95a3da67dcbc3d98fee373b34a16861af3d0a663519970"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "afraid",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "0bae9bf0089aeb4dea2533630fc6c1e8853b32927b372782f8a4c73f5a5262b6",
+      "messages_sha256": {
+        "developed": "960b0b768079dfd41f162b3b5c6436f227576f36eb533dd2a2a61be5aed9a3d9",
+        "base": "8f4049ad15590885b3881e69f41a80a3c11e1cd2e805a6209ac00e0addb208dd",
+        "short": "bd1394693f59ea2f2b27bed35f4694c8dabb06c9b3cc0e334f05515702e2a438"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "embarrassed",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "7007cae2d92c88a39fefccac442997f65284ee2022177b15dedbd331f44018e2",
+      "messages_sha256": {
+        "developed": "26ba534caf16f4ea35d0ab91629afd67c9350b1ef3b47fc8fb57f291f1c22b5e",
+        "base": "593c4a8fe947b699961c6c44916e9a98121359e6e3bf012e8d7fa8779bd47087",
+        "short": "810000127981637dde9ec46bc5965103d378fa9c2d11679d714c713589c7cfc4"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "disgusted",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "3d74d80081fdb8545c8b7d97e90029573a144091fb7f9f3223b443088adc0f1a",
+      "messages_sha256": {
+        "developed": "4117f226950bd04a1c3cf5b1b7bef50df7541c233d8673ca1d6c5578d9bc71b0",
+        "base": "ce4005a8bd3ad3f9b5f383eb9a056ea41ff2154e06c97e9b81b5328499c8916b",
+        "short": "4f27b4820d672ff26a2b7ec78b5731c39bfe8dc74d3db8c8ca27589ccc32809e"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "directions",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "93b5561224322237d037307c32fca4382a8bbe33a958849be46d4ab599094670",
+      "messages_sha256": {
+        "developed": "57e987a9ca37d7e5a489323eb332deaa90dcd8046571a62e53bacb485ec83737",
+        "base": "6b79021fe50070080fce9626a770a91e1ee9fac8de06543030bbb92acc7e21d2",
+        "short": "3bbfefd415cb4991038564b1e6653da91e5496621d2b6d1d3fd149ee98b26596"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "morning",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a4b1ecc9a1a3a7d4f776aa23d9ad611c8d40c7e169837e2693fdc5fd8852fd32",
+      "messages_sha256": {
+        "developed": "eea47867c7bb8dcf3d655124e38b45808e509126fa2716b4e2e8debeb678e8b8",
+        "base": "ca353483b2a93401ec86e1ce3f72ec9267b294cf2ebf8cc0a7245ce3fec2325d",
+        "short": "a23a729c175cfebf19405835d38fac3f33c55185ba08af537fe96e59200ddfa5"
+      }
+    },
+    {
+      "id": "GK02",
+      "topic": "meal",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "bc822c0c336829fc344453894ca324447686bd13f3e02ac1a516f4cd5c6ac271",
+      "messages_sha256": {
+        "developed": "3fa3dd9a01c03d885e94040fd0ef9955f330429d3db1100a51a4e0dd52aa3948",
+        "base": "5cb67ec59b89c149446a4ceb73c97dca379b9a3323f4f1ce8bd6899c60dc8567",
+        "short": "eb6039a96253ba7be2ead1ab8043fa269f644d1f389dbbc6932fcf1baea2cc0a"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "happy",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "26b5bfbf7bac78b1d92520dcd5a36e9958d98003df1f09c6dc622202a3cf8434",
+      "messages_sha256": {
+        "developed": "8ec04ef3cc64e4054ca7a1704933f2ba8a1a7b3caf54ecba4f4e5b4666f97ec1",
+        "base": "ea1bf31262aa91d0735b02e2ff2b175003d64957054bcf49ce1124f3aa51f957",
+        "short": "3b5fe83931dd494ea603849e1405c340302128bbcc828bb436ce5984e8ce1f97"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "compassion",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "07c750eed4dcbcf643ca2a49cb8e03ab4dc1dc2aab6606193c441b6907312a5e",
+      "messages_sha256": {
+        "developed": "4bdf2fc81795be405cf1ecff0d4fe3083a3ec0cb0a0812fff0312f69b85a1e2b",
+        "base": "b4fa352e750d7c50821b05b46db4ccc0e323d7dcba0329bc347f5219dc6a636b",
+        "short": "090a305f12960f1c7ae6195999251878eaa90f0b7341118b37a3d22481f6d91f"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "proud",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 22,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5ad1ea1df593c5682892237507cdd9263732091df603150879ada71b514d50c7",
+      "messages_sha256": {
+        "developed": "fa8ee7e4f725c90579549f425a000986d0895c285c2cb33b40783b61a3f57d6a",
+        "base": "3231d8428781102c59f3112ef0d565c678b84f3f954c1f8a4d94efa543325482",
+        "short": "c5985b3181efb9817e8501a3022f50c9f384f12ce7fef1321b65fc70a6cc61b4"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "sad",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "eb036a9ff82c98b57c38cabb5d47e3f620859738a95cbc9df8bba880e4ea03c9",
+      "messages_sha256": {
+        "developed": "70087ca88e85a664928aaae9a34630cecb52c00aaf645eb41c603734d53510cd",
+        "base": "13c7c44cb139142299551e03c5ee4ec836814563fc47afc7e547ee23c394235c",
+        "short": "eb23def742b237e739f2bc51e5504adb04f756cfd2aedf74afa28707cbf83cf8"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "afraid",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "21b6e3303ce3d37ec13d3bd7507f3d0ee399bb392ddb11a038940e2c35e4e87d",
+      "messages_sha256": {
+        "developed": "51713aba8e0a3903d9ef335628d2da138d66d43ac093f328bb236c112c1ab4b6",
+        "base": "7e5933137fbe7c0b6d2384ba943bcf1b3257c6d8cb2374a3a16c95a14803c8ec",
+        "short": "471bd64eafd4b0a25b9d90492827f44202458e8c838c6402b9a3237c5024f1ef"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "embarrassed",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "ec5ca947fb7f1879e5f46d769e4ab26410805125cdd6898c1c9811cf571266d9",
+      "messages_sha256": {
+        "developed": "ff1fe49d9a109224552264cec190ca1397768e4b873c23c40ad95b382126e1bf",
+        "base": "346cc95f2fc144a515910aaede824d430f1d7ebdb7c9b32370586bd5eaff1d6b",
+        "short": "3a7505715b19bca60e52f41edfd38bc0ec176d81c087c976064641dc078eb3d0"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "disgusted",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "2253c478ed00c1816b563e46c1e5124dade62f9cdcd185fce9bbdefe48542030",
+      "messages_sha256": {
+        "developed": "6a67263a79440a60231ee34e7bee1492592fce83400f58ba925bee821b6347c8",
+        "base": "1ce3bd75f61f94505a1f4b636326823f4e77c4d21522053390eddb89a01ae40a",
+        "short": "c386ecf0cd4c2fe7ac5ddc17e0faa8876e3b92df7e5ea884eae83731787d7578"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "directions",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "9f967da9da458972e32dea6974da04728a213ef762dfa883733293b91e9aacac",
+      "messages_sha256": {
+        "developed": "a024be54c121eb3273f5a054b788e6dc41ec1b5f6f08706433992d8ec44580e9",
+        "base": "3e79304432146b2ed22ccf90c2f5793d5513090e63bc83df90f1fd66f0eef7a7",
+        "short": "ce5a50499326e4179aa43d01dc5c476531b2487dfc68be51839aed08c5203d9a"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "morning",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "7861acc7429afc7a596a5573b301818ba679db9e3b1c77a676ed1536bb846987",
+      "messages_sha256": {
+        "developed": "ec9d7081afea2d5afbce719f62a13255649b094408fb4805063f65907a0b0b8f",
+        "base": "3020422eb085b838ee8f350e3d8184a779d9b7bb2fe71d3b3c2f5183e4097d16",
+        "short": "9049a4cbcb07016f3b5c9f3a7568ee350346879852f4db645c11bd77439d4e1c"
+      }
+    },
+    {
+      "id": "GK03",
+      "topic": "meal",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "0db9e018175fc8c3fea98289d40917de17b2cf2e649f6424e392eb92af491204",
+      "messages_sha256": {
+        "developed": "dd442c248a981df45e0d1105b21b0973ed91a7f9b06208a65fdd23e0721a4951",
+        "base": "281017dacb97decc64e8aa78144e88de4a4d73a1aee8c717a76bcad7178f7bff",
+        "short": "1f513f34a4da2bc1d555f8f591f25b8a6b731fdb8cfa393785b641aa782bf26b"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "happy",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "34e61977b0f42002b55a4431833639885e3e5ce73653cec6e389425c7db2bc7d",
+      "messages_sha256": {
+        "developed": "df44a82c5db0693447296d30fae8cf2c2bfb6f33aea151319cf9425e9dd420f9",
+        "base": "64cd7b2d40884e8bef3c37d38c935a5222f8c5a649928e3efe522e2e145f1594",
+        "short": "be789613f55129f3f943af0c65503631b559d36221dd974016dd84f4522ab146"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "compassion",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "e0a7b58ca9d37af51f396b48bd860382204bd72e1ba74ad7e8607766d1cdde29",
+      "messages_sha256": {
+        "developed": "cb54bfde2ee5643039cbbc7e473203c2f91e3a7e0012877db720edd2159a1445",
+        "base": "92fea7738a57576f5988ffd76906f7d622abecbbfd06d0a0b1b94d62f85b57c8",
+        "short": "ebfa5bdb03a446226624023f809a3cbde4e05b404f7431200e886741d1c01af9"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "proud",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "3a5cd0e3955be76b54a35147b23fe0eee2e4608b3bcba759a839e23af4487ce6",
+      "messages_sha256": {
+        "developed": "d102418adb1598368b863d8bd21810d6f72052b55c5e39df416c7bd6ac260b00",
+        "base": "894a44df8ef4b92b6a34280636630b7ab6837b85b627dd60a9a612db0fa27ed9",
+        "short": "7b665f859f68b4425f55f373e18660b11631a3509faf2499701bdf57f57f395a"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "sad",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "406416dda259e41ee2deff8cef52d171b208d3aeaf8aaaab693ab90837e25d1a",
+      "messages_sha256": {
+        "developed": "18e4479ac9014a33794c98193bc548063d4f37fd2292ea9d76faaf37d0177878",
+        "base": "8b7e4f92c19e3e9fdb7b9658e68c227a58df1195258375db1718f3b61a283fb0",
+        "short": "e04c4db00bc9abe7e938fac384ac81ee3781f291581bd0c3440ae73f0a9c4031"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "afraid",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d4c4680e8dc3e1c764b4d1e6a193a5bc6a33d3f7c3d2b9598e9194edd7912257",
+      "messages_sha256": {
+        "developed": "ecab96ef1e4e3341bd9457ecab930022e3bfec844a21505d45207a4d74db9bae",
+        "base": "ebf28f72bdb5cb4669b2e1d8ce5aa350b495d6a20c2d65a2ecc5d52c1ca3da65",
+        "short": "036d3cd77f76e28214c563118e87ecf143b745d5b50cd5085cf796daf3b479d1"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "embarrassed",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5e42923971650bf925fcfaf8b9b9e868a291c43fbb889aacb02c493120b58364",
+      "messages_sha256": {
+        "developed": "5772c83de42d93997bd23765072a8886e0db9445323b9c77cb5fa856dbc3bda9",
+        "base": "2845ae00507331a7be85550bff8b3d6c7ac0fac1ec08d1118c4fe434a96661e3",
+        "short": "1d1e73df0d78ff65813101a5ff8b94f09cd287433a84de2af67b14763a9aa44f"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "disgusted",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 23,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "856001e251d63b4cdd42b746cd076350689fbe15ff7a0899f7dcdfed5470625d",
+      "messages_sha256": {
+        "developed": "0fd1ee6802e684ae8df86f04c2ab4821f9b5355349bf3782eb5acaed1e8374b6",
+        "base": "19c10fce3ded460714a96a920d493721a679fb5aa3c138ee8645935d3e29cac0",
+        "short": "875a752b667a54638b45f2dfcf040007a02ef3b4d4b05b5345e52d5903c24e89"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "directions",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "2dc9267c2b941cfab920afb456731af0361f620d986bb8b5656a12b4caae91a3",
+      "messages_sha256": {
+        "developed": "2500a041fb1defdf039857d3eefd787890287470596537b0f9a47f1985d35944",
+        "base": "ecfa2753f08feaee1ab5e5c4424ebe3e3d62ace99872182250dd6c02bd1bacee",
+        "short": "49d4ed20bf8058f133f893fecebee306aea1e9fc5fb9ba8cab7e5728db457fa6"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "morning",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5dc348ac70ff3e4b1405177a15c9b7b49ece1cf896cbdb5abce0d935ef40c8e7",
+      "messages_sha256": {
+        "developed": "8062ee32d3b39f564925ce6e2f9b65819542cb698ea2c9af48f262941b87e3a3",
+        "base": "92f091b018370e8c3a0b7fa7351580a4a2048f126b797ed395d35d7e395c06a5",
+        "short": "c527c3a2c0968b1f3cb221ec7dd009a170120fdbf64281517ca712d1914e9dce"
+      }
+    },
+    {
+      "id": "GK04",
+      "topic": "meal",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "826a05d4d60527ee530cdde965b9eca71f2837b4b836a5ade6923ac7f0e801e3",
+      "messages_sha256": {
+        "developed": "cc308e2db3b74ffb6dd9843119f9ddb60d9c85a377af0a46e4db3ed71da57c92",
+        "base": "fb60f40a048f7b4763ef5bfa82abb53ebcee4a639fa8595dfd8207f75ab2f15d",
+        "short": "657054c89af882fd7a7cb59089d244d315fee031b5a03deda942d9427978805a"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "happy",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "09616e31ac0538d6a2419983f2bf80588da2c6bafcceb9c23277f7bcbd523cee",
+      "messages_sha256": {
+        "developed": "41899ab6ddde6da814938a303c00a0c6e306b21c1e6793855017076d83680064",
+        "base": "7269d05c351e48bc8a3cdbc94f995cb1dd333ff088559d0896aa5f3a01cdfb82",
+        "short": "7596a037dbd57d6ba698a58e631a34d762a82516903f60d99439dc808e26cd7b"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "compassion",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "f2f61a539f2d12cf1e54fe907e88eb29df0ba0fc79fa0735fa417705cb1e5e08",
+      "messages_sha256": {
+        "developed": "7e213cfa4efc2421f6074c0409abd8086ea21ee25e25a4937f0b82192191ebf7",
+        "base": "5e975a94ef86de56f51fc1e97078fe5408412d5083c5746e0c18f9f9b1d7fc06",
+        "short": "c305c150bf4cf187b1ef773824886fa72c4e644bafb5db35c08f1a3822a751d5"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "proud",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "6959d78ec952fe87e8176cd9876fa58124c48a23836f305892832615752fada1",
+      "messages_sha256": {
+        "developed": "015f8008a00421bd76ba7d0455c1d78600cd1f97386c079b4ba22ddf6992b946",
+        "base": "a9f5ecef2b4b5f687c8953a6dc0847916c1f1a4c7b42e013a695d130c4cdaad9",
+        "short": "a583d3a180b4fad2254a0dabf62510a353933aac0375fe9ddd6f93186fc192cf"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "sad",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 22,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a345609e444d12e2103b8494bcc45db3297047ceac0463589e0b0e682934e979",
+      "messages_sha256": {
+        "developed": "4d32afcff7aeb902323d64dd95cce21ff3fdb7c0fb04dab985c053c267c39f4d",
+        "base": "2dcb524f6fcda8e1fd4305c839c937117763f8b33d5aff29b7c3cc7f842b958e",
+        "short": "b55eaa6548bcfef6fe1727cdd432f1ea3adf7d232dfa650e3a8c12e096ade4f0"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "afraid",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "bb6336bc16b5cdf3ad62fbe926ec672ca1b7cf4289f86c4a005486b5a8814c96",
+      "messages_sha256": {
+        "developed": "68bd5d2401a11b80f2a46e4651f5ca1f8ee43c25a74bd42f81bc048234f3f589",
+        "base": "01c76ff65e6043be261824ec64d51eb026ef8c5b64b93f88ad90ec448852a1ce",
+        "short": "c4f70d16dbe05eaf5ffa8e1ad12796a7edf40f9394cd9f19e56565ee2b93d0ab"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "embarrassed",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d01cf2fd019f7352ab07aed77815e328bfe327a10e6750f16d98a72cb98e491f",
+      "messages_sha256": {
+        "developed": "b52d9de3b08ce5d003902610666dc51cb4197821056ac6f83d35427590f6e290",
+        "base": "84a34594562a021a6924021dc095065ee91ccded16c78cb8298bc6762523f314",
+        "short": "0552f815325416040107cc66ab4c49c9ad0163552de5faf42a724c36c82bb5de"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "disgusted",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "3ca33bc583a8b803f3813f81706a7fa53b7e94298548dc14eed02d10cd601ae8",
+      "messages_sha256": {
+        "developed": "364dc79e0a9c47eed503494749e9ad29e7a6ef48bd07338b3dbb93c732a42d73",
+        "base": "3c87bee8e6266b4e9aa360218d3d58708634b0a9eaa72a67b30e5f57b70e1c7c",
+        "short": "723297ed6f3b5d73c5a81849ebce5d6703341a4afddeac3bcf50053d5181d8fc"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "directions",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "57995c5f2d071341e5728ce5c74336680c21acb74c70c7ec60531cd571c0ceb9",
+      "messages_sha256": {
+        "developed": "0496f15677f27075d9c2db5f15b9594ee98d0c08d8f57d7da3dfeddf82130b9d",
+        "base": "23680578a7c1055a186250254a8232908b089efda3dba909e0d235eff8279034",
+        "short": "4ba1589b025700f79404fa418f6a6bb4be08479f4e07b51196a4a2b454f1dc5d"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "morning",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "6a63feb78a7c955a79e61923f2c0fb95921a36811adeadf2ae29659d0f756711",
+      "messages_sha256": {
+        "developed": "240d77423acb2d5461399bebd19bab1e9c17a3f8ed3aea424a636b23e06ca639",
+        "base": "d5f843a6ed34aa708c68a0101b71c4b2a31a59f265d659ce925f50a1c62291d8",
+        "short": "ffa21f4d264f57634a338d34ddca5b5c179607341f1ad53fadc79bc03f300d7c"
+      }
+    },
+    {
+      "id": "GK05",
+      "topic": "meal",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 22,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d1a79c211149962f0dbd9ad21ea13a3c474a289273dc4a85ba2177a9c2e1f822",
+      "messages_sha256": {
+        "developed": "83942d572231c25c1bbef31665c5667f82dbde6e2e0b511cedfdc99100275a94",
+        "base": "85dff473ca9b677422772c538f593d466ea1708e4c33d825269a0d6b136a48a2",
+        "short": "3f6a1ab77da6b4d93b74ffe387bc9c22346d5f0a7f2e0b2a7eb82edfc9b42308"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "happy",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "7c06b47c27ab148edc1dee04be52d0f45f809c5b4c1bd90db798bbddcfacfef4",
+      "messages_sha256": {
+        "developed": "4fdd913429e5bc6d1bbebb35dd6dc677cac26b521967af9fecbd0cd8cb976ee6",
+        "base": "a2f8cd1fe45cdda79b97f8f3fe8ccdb800d7cdcfc35359d56d8125669a706591",
+        "short": "8e348956129c2470829248d4ddff1829d95b9b50f2b87549941f919709333e0a"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "compassion",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "c6eda978a3a03d1fb63cc61a03842c7c4b7c0b3bc0470c6ed8ee07e982a5dd0f",
+      "messages_sha256": {
+        "developed": "07cc38bf1578f602d72b5f6ed6ea1ecee37c2c7e645dbdfb31a2ca29305c5d9c",
+        "base": "115495da34a0c77334fa82229657b1419b1e9dc1f1cf69d478b4db0db5f6c2d0",
+        "short": "82116ebcf2d8c6c01440dc50c37528ade6c3deec8dcbcb4a82672b19dde912b7"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "proud",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d927a9c410caafc2af10f967b14d06af0da589d5065402447c85f30c84e1f20e",
+      "messages_sha256": {
+        "developed": "dab1b54b80e5fa007c48a1463ed5ea7d4a05b921d92952af3bbb2f0b3836c1d3",
+        "base": "2aae7bf52f19f9c2d277e31d713c07564a1f486ccff96bf54bf2f0d5143a8e4b",
+        "short": "173e2f2403a7891e56610c87d6993bebf9a85b076397713701eb7b51a352a08d"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "sad",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "228dc21bac7524c1b9810dbf2a6f32b623799706039f151a865ec25265dbb4d7",
+      "messages_sha256": {
+        "developed": "320cd8f1172377ad13fee9b5999a3cd0650b56558d0cecda9e1ff3378e948a95",
+        "base": "42dac1c68ccf1309359ba5c0825a2798d6e56f70e15a65a729666e217b9c2dbc",
+        "short": "54bff2c164872fbccd466ca7b7c32052559a207f4c9eadfd3ba113f45166c5aa"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "afraid",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b2ce73fae50d7b7ce4b53b1165459b18ad0f2166faffdf87e24c559cc70f8433",
+      "messages_sha256": {
+        "developed": "89e671238ead12eb225067535edf169295a23ace3729726f0f98bdba6d315a7a",
+        "base": "322c8c18c606a6674693de51024debbda84cc337eb29a8855033468a6048dd7a",
+        "short": "e2bdc567155f1fa6935b33682a00baae1ac240eb4bc6edc1c9a617e0ce3f5401"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "embarrassed",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a45b07a4f11cf236baf1bf4993555c2fae9c9689737c0e667fab752748b827de",
+      "messages_sha256": {
+        "developed": "7ca190b9d3aba82bc6bc831163ecd2197fdda7db7d2b3a8e655bd03a8cac8939",
+        "base": "e4f0494fee92785bcd54742616a2a294f2c344d0cf797a321a70fb176d625142",
+        "short": "d888a256c0f967b4dec119301f09dfc0b0d6b26419bb81c38d3ad110f8991124"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "disgusted",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "ef9d8687f598cbadffd8eee523a4644cfe4cd1ea4b75348b7122a401b8ba42bf",
+      "messages_sha256": {
+        "developed": "c065f2b7dddde32ed88d87512f4a6c7d93149278a95fa4bfa2ec7995e21ccaae",
+        "base": "ec89380ad2c977dc33e753825bd7ae6d37ac2f2884fcfa1a66cb7e2e46386035",
+        "short": "ec619a6c3f78f2ab8f1767823c1ac2a399c55fb102f211c20e04dbb3f53d7307"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "directions",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "45be4bced30a0e2987bf24cd875a439abcef9e4af619f20e84e62e767cbe238e",
+      "messages_sha256": {
+        "developed": "62687d1cde42d7f4d578864abf51f14b238ef04cc2bf5910334a664eecd5f090",
+        "base": "e951bb4769a325f81d21a7bc0462d5a6d0d099d8a781b2cd97c8bd6f91c11a91",
+        "short": "91e362792200f47a6d2ccb88cc2550b6587ccefe00c3651bc5f6a829f9fe0f0a"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "morning",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "0e8674099e8cdca1ff45beaf9e80688727105500eacf3a6c2d0a7f277ffd8d7f",
+      "messages_sha256": {
+        "developed": "d93a54482b793b4b078269536311141407fc7d68de82dba0bec5a46c2688038d",
+        "base": "ddaaea3881eda41224f9e9b538e87025715363e594e98c36677d27fd002afbd1",
+        "short": "e74a3778563c6a7cf0b123635c8521587434da760ab19e48b7b2e8b2c763504c"
+      }
+    },
+    {
+      "id": "GK06",
+      "topic": "meal",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 16,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "9c34af2ff176e0bb37b3207275a3e82eb4605540dca38e8e9f6b5774088ad571",
+      "messages_sha256": {
+        "developed": "76869d04360d5c1dd1dd0d9a71c2291b8428d9269274a9c0b664c6cfeb27a33a",
+        "base": "f1359e3ae72329603de0748a0f2c4f0cef051ae812071ca45aa2143f9a1caaaf",
+        "short": "ed2a8b73921b33fe0fcd1573d63329d646298314265e1bbfcc5140991a256717"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "happy",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b8df87695e57832fbdafb5865bc144973d91ec744ec276cc2dcc6041333d3353",
+      "messages_sha256": {
+        "developed": "95d97f02facc12080d25886f46d663040afbbaced0df89f80c98f5d4fd6b65f9",
+        "base": "a40e5a607944e00caec1950aae53a211140f01d9108733ffd4905a54c9cbe674",
+        "short": "d2430d488d435b469de41417729650704972af5068e5e6f4908914798f50dcff"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "compassion",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 22,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "831f377f8e9dde213f1ca196037d768dcca2dfbfe0f9d1561dc0ae27ad3be71c",
+      "messages_sha256": {
+        "developed": "8981c6b97eb8be6df40e1e7764d547c1f861be4452a300c690f25bcddad547b2",
+        "base": "24fea44081fdb43d728b907b3d414c50314cbedd4a790d93bf6222d36e76369b",
+        "short": "d7c08d7caf18af0f67eeb9a55eefa3a11322e7777b6bcefe9a218d17d6579fcb"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "proud",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "383bce2e4eaf4891b0e0be0730572af579860a98b6929916ad25a9fdd06ec3ec",
+      "messages_sha256": {
+        "developed": "c9c590ae26b7de662a83df4e5555606ce54ec0caa430d35013b4f9eff1df7958",
+        "base": "4d9b6951673f08c13da5c21ec6f34bf40dc8be242241030590ff1c09012a0f6e",
+        "short": "e5e3e69fc86d38881a6a3a3e0ac40f2d5d5e3b1e6a969857fcdf57c55a44d896"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "sad",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "60e6525074384989079c180cf32f558f2a1d531df8e53758239a2aa9892f3750",
+      "messages_sha256": {
+        "developed": "949bc77275304e25b69d406a19b747506c45b1344b5c4703723755e14c56db21",
+        "base": "5eef63596eb7adc369816a78073350fc5960dbafb96d707cb1dc818b6fb8fa38",
+        "short": "54a08c054b2f2c6c85ab8163f5ea261a5ddc5839d1902116c91479f6e0a38038"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "afraid",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "8c7850dcd326c1bbf84a303c798c7a92e0ebac22033ce513668c69f17dcd0dae",
+      "messages_sha256": {
+        "developed": "554ed0aba287f3eb65a8f325d2e995d6d3247d386780252be414649c3b2ada98",
+        "base": "c545e079a87d8afad94e2bdc8ae42db8074b0e2bcf603c95816e54408c555022",
+        "short": "21b5045b8ed38eea34761e32477ddc99bee903354d1b9b1ab410abedfdc18e6e"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "embarrassed",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "af7b40a49e21885cd8b8b6d5aa19dfe3e604ed0bb71db47643949c9e3afa4613",
+      "messages_sha256": {
+        "developed": "212e00d5d90fd29919102de0faed13ffca8731395c834ee9f8d317bd8dfa0438",
+        "base": "e04ec6d0104e64d2516977b545d22644c9e83146702596067561e8f52f1cdbc8",
+        "short": "659d359247b48d7760f681adcbfd35af463ceca1c4ac0ce2171b743593795a58"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "disgusted",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "2e7a2794fbb9eda00578b00fc6a0d73f60f7a6d7b9ef43e804780e59955b3800",
+      "messages_sha256": {
+        "developed": "d808a7f5c160bdf0e877a1be197126ccdbea6bec72bf792df91cb1455937a652",
+        "base": "89eb5cc7639f98e96edb8d1ce89bd2f4e1afdd24edcf05b32d80693ca87b3b76",
+        "short": "a0e085cd41eb00e21d663d45d69a31d2eedca9673a95c26aa1ae587164dce889"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "directions",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5acab4d37fd13291f238ea5ea50e6b6ba84654551d3948efd72bf9199d42a1b6",
+      "messages_sha256": {
+        "developed": "59baaee174891d95f25dac9eca0ad964fbc1ecb703895fdbe2e8d0fa41140211",
+        "base": "481b88b59acc9bf7d9e21185e88d1423c4d74172f254606a343864edf9b4a83c",
+        "short": "7ed5ce4792426c7de60e17d2c474d59fc3d60d939da40879d144931a2c739fc1"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "morning",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "89039e327213a809b2df94b2456d96148ab1b273c29c595f297dea2359a7d9d5",
+      "messages_sha256": {
+        "developed": "da897c045a175cbfb04d057d6c20e77f82b10d0824a03b944ae2a7aa2b104c4f",
+        "base": "0ae310db9289c95a9e1eaac0cda8073f951b7953ade4c962af241c933c55d35a",
+        "short": "1819236949016ba26bf1fbce931f4777eaf5cc4a5caffe85084020d1cef6fe3e"
+      }
+    },
+    {
+      "id": "GK07",
+      "topic": "meal",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 16,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "4410083ffeeee52b0949f7475b734d96242953a5ad37b6884ec8e61cac94a35f",
+      "messages_sha256": {
+        "developed": "9b47e643cd3bd5a0c6822b063265f518587428969504438df02e690248970308",
+        "base": "0c49b77062093bcfb6130ec155dd2e5b4a9cd9744e85f03b11e2f5413d4350fa",
+        "short": "d7b0b1105ba12f02499116dd2f4dec8b15024f4e97b3fe1908eda225ef4ea7b7"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "happy",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "636445af88b3ca5299bb8aa3a0e53f9d1249c6a0db06d5beedeaae77fa6d03b4",
+      "messages_sha256": {
+        "developed": "9c5d6512d6a9f6e4cb1779a690331460c1514753a5b75ad629c890e02fa96de2",
+        "base": "3353055dc5a4e93d83630885615a4b081e3fd81ed0a1f2490cc3b779b342ca15",
+        "short": "83578bab1eb2a252ebfcd215cc27ca972183b4bc4a6011c7d460c68dcc18457c"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "compassion",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a4dfa806839027aac67a26abdefd95133dfc276c4253b272aa96fed49154e22e",
+      "messages_sha256": {
+        "developed": "2957cd4ce77b8968378fae0f09b264f1e8b41fed566f28743fe17a0d9a0eb301",
+        "base": "8be5d348ecc6c559eb727948e7e2950bfbf18dff26c774d9d58f44f55554fe26",
+        "short": "fec1dcff828333af668a671c3fe9c0e8f49391d5d80168a687dedb8c5a5d3102"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "proud",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "de943e9ff3677396239c51ce4ca7bb5bd9f47c5a1bda534fca066095d3173e7d",
+      "messages_sha256": {
+        "developed": "b2792e2cd55ccdec732b857bc9906603097a31a0458db24f823d310735dad67c",
+        "base": "b25895da30e01ac15300cd0f57ecc8ce7b4b816d376e10642649d64f1dd2f25c",
+        "short": "c5ec63eb201f2ba365f376c88a84cc58c1d70952cf7018b151141575e01d81d9"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "sad",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d21615d7a19f0c0935c075b6e6e6f38f021919b9d39c7bc0ebfb10562bb12e93",
+      "messages_sha256": {
+        "developed": "c6233febd03d320f40b3493ef4ab1dc4041ff6b576db9f2275cbaa638bed146d",
+        "base": "3ad2a5b8731e6fa83b4a55330f265e6693fe330e700ec92feb77aa137638bc64",
+        "short": "787086911656411d9afa7eccdc1467cd8cad09144bf7b9f050b5656cbe208300"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "afraid",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 22,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "699d2678ca1045b13d79cb3dbac067435430588536f631f7add02830c9e85f30",
+      "messages_sha256": {
+        "developed": "9ec06b6579facf94b12a6a632a24e7e750faba49543525804c5ed78d0428bc47",
+        "base": "fd79cfd5d5cb2955dc690046aa22772feddbc7d4863f746dd48bfeaf36024018",
+        "short": "85bd6dc0c2974e29e0aa8c99a3296da05587bd4daacf1e5a8b691de353a189f4"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "embarrassed",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "0e953560a493ff8b3e6b59405216be60fed67a00d7a2735897bdad5c65dc8bbb",
+      "messages_sha256": {
+        "developed": "819754b63e57db017f5f6698bfdd46e9cb44503c83e025c091e2756d8cf4e685",
+        "base": "2c2fbbb912b251101c933113213361f8b5d22d7810c5a0b954cec6778445de28",
+        "short": "b9a5a5fb4d27ea076535e4a27d5017703c6362c2aa073fb78c703e390381e7fe"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "disgusted",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "35a50cf2e02c23b8d2ffe7a43e549feaa179a4d3ef308d8cadb63c40e4f0668a",
+      "messages_sha256": {
+        "developed": "ecb37f91e9ba15a9cea8fd9e6fcc343849d073584ce95e349e40bc9b2dbd0e7f",
+        "base": "e544e9ec75f51557334cd44b6f6df5c4c3399656426780fd9e644ea350a228e2",
+        "short": "6e661c1cf59636aecdccd71c5cb75b1a78e48a76cb75093ec7034788f07df2d5"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "directions",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "e4347722684eacbe0ad048690e76470956f144fe8b71c87b1b8677099487b97b",
+      "messages_sha256": {
+        "developed": "375c4c1aadb5f56a5b13f6b8ea0680525ea447c649ee18e601114ea4e7f22628",
+        "base": "3084d98817a61d3f6481e3fb90f64dd0d78d102945ae546eb6f69c55e50e6b4b",
+        "short": "80975ba002f6beb2b986401e1c3e9b4a68e3c88d27b73c4c828491c1f7e6b36e"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "morning",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b8769428d5aed3341ef383f84fb3040e2a59c4417908b93fbf23378fed93cbbe",
+      "messages_sha256": {
+        "developed": "75ca6970d46e1cb554c424e08c43321c8c052a36c7217fe4f956ce9a1899de88",
+        "base": "9c7fc3ec8bd8f49b8e53b5ec67029c5af93f54fe7915abd8813748dacbd65248",
+        "short": "9e7759d353f052479676f33c0518f2acdeff3b0ebf9e74184a373205a36633a4"
+      }
+    },
+    {
+      "id": "GK08",
+      "topic": "meal",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "07e4819e1b8846d66b0a06c548bdd0983683e45c4b8525098d5acf2e76811dca",
+      "messages_sha256": {
+        "developed": "b0fa3cfdb1e924c8530f391f3ddb9ff4e82eb1f75b28c20ae07294111c4cab5a",
+        "base": "ab20ab9bbe37bbc0df9e96e9f637c450cd1082ef4507eb5781352d8623c1cfb4",
+        "short": "abab6829175ce08cb571d5105c724190c712c4e66004c25976bbed286fa89c95"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "happy",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "fa1ea7b7b079c42f07442b52515adbfc79f568cefd49fc90e67e6b3d7ff04f95",
+      "messages_sha256": {
+        "developed": "189e39971ca3be93603e0ac4f0b888004e3f90ff0a6961a55c569573893b1ed7",
+        "base": "61893032cc75f616e94cc931eb0f398cc9a1e3ea0677d62577b3e0772dca95ae",
+        "short": "2a8bac7a511f2c97431de7ad5f336c7fcf995f2e07ade34e083d6f9ef7ea2ce2"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "compassion",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "8c36967ae4ca119ff715f7e208a2d4f695d6389a8c3c3b47bffcce1f826dece2",
+      "messages_sha256": {
+        "developed": "2f5033f8ea093763f859e7f3a2755dd56a935ea5cb2bd8fd4ed125b2c3660b69",
+        "base": "c68c652189c936da3135109a068f07d887979d2ab7443aa95702d29569122c93",
+        "short": "0508e21f5617d9cec4066dfb5653e7a482de579b7a57a47265c9f2fb5d0da440"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "proud",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "d54603ba5d89fa167c6032080e89a82500e6fc27a4d875eacc7b27ced86bd6b2",
+      "messages_sha256": {
+        "developed": "c7d0c9d7b6c94b65092e7ebd9b092bd7fc994c8e020724f51a4681df3305ef57",
+        "base": "75c358a8bd7978b7e0dc332c3491e54193136c2b39fb96ca62da98a143aadcf4",
+        "short": "f55530e44d1856192ad875e6d7a78f7ac5120d53e490b6f535bce9c26c941724"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "sad",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "38b9b50a09a6f2ee218ca28d6af517f2c7503912411158ee0ef13055420e5452",
+      "messages_sha256": {
+        "developed": "88dddb856889bfc0655c687004d7adfc02928c42acd5008236303623b98517be",
+        "base": "0aa7e65a065a3083747440531b14de816f5965d35ab76a9d50bae8c89dfc34c8",
+        "short": "f58509a88b5d975f8fda3dacd1c59f53628a4a7dde0184a25c2591e1a3ca591a"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "afraid",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "c56c9e1a542664e68a35b974a378eb0e9a870789f7f77a7c3411d13fac5a4801",
+      "messages_sha256": {
+        "developed": "2e71d4409893c833288d06105aa6bcf0d69f9c7dda545e6eddba3db805a7b1ed",
+        "base": "c64abe003c9555deaae7c735008351e1b06eda8d252350ab1a0de0900161ecfa",
+        "short": "b6cc6eac4f9e5a1a14c65b9e1af482ac083e0d9293b2d27ad7a6adcc39da565f"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "embarrassed",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "ee5c27cf80a5ba2bc4a6e733913b39342458e255afa08f73b0a6d670758baeeb",
+      "messages_sha256": {
+        "developed": "5effa9d0d66a2592ba3d985504a53b2e7467684b825dd2eae4d7b35d526144a5",
+        "base": "c12fd8648ef588e93500876e07dd64164970b4834c14581ef3824deead1a365e",
+        "short": "8a022a62979fe016e406be93d85f289c634dae2901f4c544b0e7c44bc29393b6"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "disgusted",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "1dcda85474a72ce764f2f4a54bc3ee70891926e40d68ceb9bd205021c83334f4",
+      "messages_sha256": {
+        "developed": "9576b4a67734ff457fecda8fa7427d6fda1e033c72739a2eecca0808a44a27ec",
+        "base": "39104fa5ab49ed75349c0244f23424181fbc330450c3055271f323dd280711ec",
+        "short": "cf66df04239432bb2932e68d55a3281e836f0df79c79d57fa9bdd108d712c676"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "directions",
+      "profile": "associative",
+      "reverse_details": false,
+      "word_count": 22,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "c5672abc335b7455b4e5e72b00928ea3cde721641b6a51184793369b1aba3e18",
+      "messages_sha256": {
+        "developed": "fc1acce8fecaf9087deb8e868f8db5080f6b7ab64f153a68e0126cf2010b9f99",
+        "base": "eff6934deb845fb0d113c4f5934093507a068598d5ca327c3a392e5af6f820ac",
+        "short": "684cc80d1e64453d9f2edbe4208df6b407c889664b0d80ba9d9843094ec874f3"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "morning",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "0a911cdcc4daf1fb5a184539e744049a113c192f50819a4c9c1f027250e45194",
+      "messages_sha256": {
+        "developed": "caa063c8248b5c15b2fcca9a3c2c149ac37a46221ac84da2679486d54315105d",
+        "base": "29d2a4d32563ab8308b7188faf92fa4183101f06e38b2ce10fc60bca32daa963",
+        "short": "1e6cc9c12a51b2019d36303679c1f700b24b077e67690ed4e75ad5f1bbc82ab7"
+      }
+    },
+    {
+      "id": "GK09",
+      "topic": "meal",
+      "profile": "associative",
+      "reverse_details": true,
+      "word_count": 16,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "1a7bc89c58406fb71eacd2c190664a0c893f09ed4010174ffd71b489d2971b82",
+      "messages_sha256": {
+        "developed": "357cb12004e477dec75e835419ef64ba31cba22673475dec799f8376f3b80f2c",
+        "base": "f1ef7121b5f36b3b97f464988207de110cf75a51f2ee88df0e2c1902bda7cfa1",
+        "short": "406c9707a9d694b8598071b02a3cfc592e5ac6e2bb23cd94cffdb054ae8aa6e9"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "happy",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a34899e50bcec23c886bf6f301e212767760ebae921807c0000d4f4e7451228e",
+      "messages_sha256": {
+        "developed": "fc8549341725d7e2c376a2b5c839e0038fc13ff618483ebc6f0bd949916dc683",
+        "base": "670b3bbddb9449a6613fb2e3e29ec48a682a3bcbee165c6e110cce62ba6fb6ef",
+        "short": "6a417552395ae3e0d8443e42b9c3cfc3e4e0fe91209efa1367ea4fbf61587bf3"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "compassion",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "247ec60ccaa86508d1a2c1f210ee991730b96e59c8e6e6a29ad8668caaaf4cdf",
+      "messages_sha256": {
+        "developed": "8e23595c03ed46a230c385a8b3aed0697175ebc1d33a6401bfe5a77737ed2887",
+        "base": "7e5d0b0a617354d90b787ffd2a70ba9fa25e97d06c0fb6bb449a07e197577350",
+        "short": "3e28efc5449705b4997dea3ac974716e09d80769fdab2c47543be2f785dab9fa"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "proud",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 16,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "4e02eb565363ca730873a44dafe1d8d4f44531b7e286ec5298b67680227dc982",
+      "messages_sha256": {
+        "developed": "273d82d2a418c4c4d6c026fccd5461f1723a97d554d57ab3c8b74f813fce75a1",
+        "base": "9467272ece0bb9be1222686679e19ca54d585615abdce86ee6c292cbbf776c19",
+        "short": "e00d59f88ad6e96be488e15f4ad8dfa1177a3e954bc93485b5cdba1fac1d661f"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "sad",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "2462c2f229f4ff620a805b6517507d07022efb2909c6d905cbe3bcfb4bedba55",
+      "messages_sha256": {
+        "developed": "508d5762936397cb64077ad16143ec720ccf0b8e2a307200cfc8ec7f274362dd",
+        "base": "3055abe8fccd3f6ab94a17e38a39d7c9d54a42760a5c47d91f58aef664796f25",
+        "short": "0b8bb39618703b576a914114c2ccd17fa7671a9d21281e34d979961cf223d0a6"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "afraid",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5f81a33b2bfcbe737e3be309e9fc7aa52e3e369674f26b9bb61cc14d76bce3d6",
+      "messages_sha256": {
+        "developed": "e65a40feffac2f1b39368ddd712fb00a40cac73a3b2d49514fce0c8a7ec48e8f",
+        "base": "59d359653c0efd25e5d072ee2fd476e889590527d7b49b8fe18861bea2688112",
+        "short": "e1021f0c42a13a12cbaac8c9ed1541a150f61f2c24f427cbcad2a744d465e2f3"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "embarrassed",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "70bda3b9ce0ba106775ffa4c1194ebaab66db52f598c39d89a090457a2c6c0e7",
+      "messages_sha256": {
+        "developed": "2810074706b3543e45956efc25685d57530feb6f514f94febb530b7f899912e4",
+        "base": "719f06e272ad8f86fd68461efb441db1b888a013cb1e915460bfc3510e5ecdec",
+        "short": "46dd19bf1e32cf8fa8ef2f2fb6688d549dcbc6e4ef319df1923c614808d06288"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "disgusted",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "7ad05f74155347bff6990b608e54608b39b109e10af88d8b4ce4e2251f8caac9",
+      "messages_sha256": {
+        "developed": "1d251f27143911f6106df42f73363d2342d696923b1fdfb579b4b36cb5b24473",
+        "base": "ee05ecbdf96a3e0de6a1d697484e0d84f66d29ee275b7e31fe19933824a9182f",
+        "short": "133166dbcc9f8bea35f6c15dece30283c893901fd02386639d63d36f0040bb55"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "directions",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "a455bb4ff2cc21bf9c8441316ec860e183a9e381397d3975e8075596f55be264",
+      "messages_sha256": {
+        "developed": "d644dd9a0cb761597194938f697d1ac16b6965fef2f3676de72b137fa3473302",
+        "base": "5e3341fd9eab3c159cfc0a1e676318cadff48183cc6cb99fc300c4138d3d6d1c",
+        "short": "fe4cace5228fe1d62b0ef2c096c254a6015b81d5c9d3d2cdd1494b6cf05d590c"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "morning",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b707518289c5d0bfa2fe74b3bc8c6d1c919c6b10716b24bae8741d2a7d601fae",
+      "messages_sha256": {
+        "developed": "e67aba7ce7fd8d67af495c86831ddffbb087a2cbc574f50a0e2f7d9525f4419e",
+        "base": "d2ab18ac77779f5e1b0a4675510b9b704f1432884dcf915557508ec62bfbe5f4",
+        "short": "ed1e7afa7ba2aba78fc3bd5663113b38eb887fb19001cc7ea06fb53c5b43221b"
+      }
+    },
+    {
+      "id": "GK10",
+      "topic": "meal",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "51a8f2435a4c7d7f6ecde9b67cb8f320d477049d7e156077d1fd7de3b430861f",
+      "messages_sha256": {
+        "developed": "f73a34d081f132c466a72c3b20272f6f1295c372004082b526f824943a0a0b1d",
+        "base": "21aecb3b3d2e9dd3e526d12b7ede3488a6df80cc50ce8e56d473cf99142b6161",
+        "short": "d9f14697a4919cc56bee48cbb973e9699b37f6d9e588041ce0643fbcb53f72f5"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "happy",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "938244872d865b3637befaff249c2cbd3020a2fa9a6321e1ac4cd85428b71958",
+      "messages_sha256": {
+        "developed": "b0de0620a4ec8c05423f2434d3682607f6e9703932e6b5623451ecd993a49130",
+        "base": "cd00d68b456594f67d65c0cd965085fa8833abd9aeec6d81195d542f706e10ed",
+        "short": "73577cc429b909a1612d1f89290d7364b7a80986d185946b529a82d45c2f3217"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "compassion",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "25dd31af06a50a677ffb8938f24c910971668cffb9689e6a72bb599e22218e82",
+      "messages_sha256": {
+        "developed": "cf0b68b746c4cd27121315c065a6eef8a09dd2c7a03f9ed8c0f3f98baad9f3c8",
+        "base": "97e46056794682eadf28a18b2da8cf64984cc96a2ab25659b7527b0603db739d",
+        "short": "9fc1c4919acc830f521210f676d0de88c0ed67233274f00381314d36c3b43aac"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "proud",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "985bd8007755d09cf1e7c43fa8c54e791bf714b963a4a6908d744a2b08b6c3c3",
+      "messages_sha256": {
+        "developed": "190e3289c7f202358847deda1676e4c35da05f1adce30055f02bb53217441906",
+        "base": "2e495d33f7fc97f4e3336d075238ab0773219c3f9f476252992a5dd1420abb63",
+        "short": "40fb44c2b08e777ddf8d200ef12563f3af64107af0ea8e171cc7c39c732779b7"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "sad",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "3901ac10f3edcf27011b90a961e1005a3e784c03cc2d68c31f05e2b44f483022",
+      "messages_sha256": {
+        "developed": "af320442a640e9461729363eae7f25ad640e908f8758d2420f5cf58cece6bf0c",
+        "base": "be8b19c2fd2ed809dcbec477e7e240d786fda0aaeaf08bbcf3728d2cbe188ab0",
+        "short": "6b025465aa600c973cfb8bdb462f016baf855d7a0dab42b9268942f6d45f6414"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "afraid",
+      "profile": "usual",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "5b2e352618c9725f99c0b44ce62a70717551a3b385188f8804d5c80d8283fe1e",
+      "messages_sha256": {
+        "developed": "2f8290ffaca312f4603eaf4db1710802712895c53286e5b8163209ea77ce69a4",
+        "base": "5cce7251622b5ed60c28f1cee38a866a4db807b7b3aff5a2d570d168b37f76da",
+        "short": "87f0d294d1ed7e24d0ffb7d37a429eaa7b2ce8704896705f9e2b8cafb6984654"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "embarrassed",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "9df06b0237a56d99e7a7084d9c869fa9e8d5bb24318fe29ee2092e1ad61825be",
+      "messages_sha256": {
+        "developed": "30e9c006fc7192bdff7b9a78fca2a935e0c5ebf22892821c6295af3be7c32a4d",
+        "base": "ceb1c9626c15385832246ca50fa1ba7ece49326d3eafef4a0d236ddd2f97f217",
+        "short": "1283d4247de85fd229d88a3402bf1aae864e2c43c3944bf8d6ac1ffdc7c58d29"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "disgusted",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "15daaf079e3aebb2a475222aa3c935a136a9d4ac1529326d7201c4e70922a0be",
+      "messages_sha256": {
+        "developed": "84b48722d9459428e9904f78e5ce25616b9662d466b3b458f5c49fd6978d0896",
+        "base": "ae33b2dbf5e8d828f2388079cf411bce296c9c5e7c928057258f6863c4124897",
+        "short": "b7e4e75ed40fb1348118fcd95df0195def560388c33f86aa98e04fdb4cde2a10"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "directions",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b364238930f620cb20567b2a63d438dcd482d999d801979a9065a9f657d91f85",
+      "messages_sha256": {
+        "developed": "c7d30dee3b61fd38bd8f3ab75cfaa70ad17200b88fe3e7df91587a510064e556",
+        "base": "00767319e8ff01e4e580f3d9cfb71cfeb82f73cb8b818a552147a431d7dfc668",
+        "short": "18ff36540566fa755858d3e59c2e120458711cc74f58650bc77ddd4a5c015ff8"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "morning",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "71ed86f7f8f2b42b9b02d6ab806b11b73784eb63a1998775adb618adf088eef7",
+      "messages_sha256": {
+        "developed": "75323b4f60ffaaba2abc57d57de24fbb2da80a5d9a0d0d67b95317d1cc932065",
+        "base": "981a945bca9545632b744048daa3d7a277fbd3c571599444cbd32e189e9b98ea",
+        "short": "3cf10be3498d58a782e2207076c413634177bfe830fa5a49d9c696fb03e0e146"
+      }
+    },
+    {
+      "id": "GK11",
+      "topic": "meal",
+      "profile": "usual",
+      "reverse_details": false,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "36069b506e00e68ec52054de27be8916e1de3774b81aa2447d28bee1d1d1e693",
+      "messages_sha256": {
+        "developed": "fee1dce9a9c6e370503e4665e4bc6a149617c47b1419cb0394e9565ad0bf46fc",
+        "base": "af219800b92b5113ef0ae85a702fea5196fbfe79d55e55ff2662b83ffc51d070",
+        "short": "dee13c29922c555d70887a58bdca25ef59364771af5168c8da397105f13ffd32"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "happy",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "062a3f6d2827fcc06c427847e38c7dccc0826284bf6aa664d91c77c7a01df39c",
+      "messages_sha256": {
+        "developed": "2c9ef906bee87274fd4905d41cb301abed269b01dabb19baffa4141311c0b38b",
+        "base": "2756e9815a6b1ee116621677c8c801a8b66240a1aae1b138d2a3769dd719dcba",
+        "short": "5968946da5a9689995647620f2d61beda5f407eee5c2f56204b7b92f0dc9d014"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "compassion",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "526a1c2beab978fcef8f4b255d865b661ee2df958da3037805e2f83dd4a1d5d6",
+      "messages_sha256": {
+        "developed": "4223d164b385a73cda5de32522ad5f133568fa73a629bc83cb02fbff243f16c6",
+        "base": "ce18e7c3426b136dbaecff45aebf167f4f3b44ec9d8c8a1075fe2792df22fb69",
+        "short": "fe08a01d5ce2782bc5ded81dd35b419868f5b1e87683ac8638065bdb100a0067"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "proud",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b1a1afdb83fbde9b7858fde125ec62717728eb43fb1eac1baa64f08eea592243",
+      "messages_sha256": {
+        "developed": "3b90072dd1287cc39a670bad2ac6376e21a8039ac058204c5b23005dd6611428",
+        "base": "dbd39c45b0b4451d48e9d37c6934a10d8acfe3cd14eec5c5c172725b0df655fb",
+        "short": "a80d0c564c2a941f96b78f69e09cef51b9e708b848365fd2143ee1788b62273b"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "sad",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "fc1bb7481179608d0edee049cea2b004e5c3b4b1c1d164ebb33bb6ad8c7103f2",
+      "messages_sha256": {
+        "developed": "61ef9df9bb1022e208d7eb44ef17eb58ae42c34e38da5a3c04ea9249834628d0",
+        "base": "b30e568449c56efa80a7195af0de6d9b2f2e2521f5244dc8186d4a1db5b49937",
+        "short": "29b40a22fe14c92fb2d12eda2aa99af2cae372d3cbb37d96a3b5a0a9267a376e"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "afraid",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 15,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "f1fe7aceb637b4ae3f65c7a4194d564916d0c3df0d0b28fdea82739cda8d763c",
+      "messages_sha256": {
+        "developed": "0419248256c605137ed3466534e8ad047ddb963a71a8b619453c4045ae0ddf6c",
+        "base": "5b5a0a7f2aa8fd88a240d322e15e50835c8a6d6d5cb835124b2e653aada84fac",
+        "short": "5181c8d77a15d3aca1c2bf8d92c05be1db240600470d1cf83a972db4593cf7c1"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "embarrassed",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 20,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "b8ebfaa1dc21e4de8943d99485dcb2c114c68f4c8b3a78beb2312bd8658cd552",
+      "messages_sha256": {
+        "developed": "fa0e326383100856e3295e780d7c80718e22a257e9ec2ab8bb567ff064a2ba0c",
+        "base": "cbeb6123763149667a2dd05a60192ea9926501dd1fa1d0efb170e7dbe9735581",
+        "short": "8046a11b4b22fae0b9ff14a5e0b7092b1e319d8061c3d42bbe2a11142ffef799"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "disgusted",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 19,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "f85f27fde4a349cff6eacd459c31dcf8c9568a78d6f74a0929071ed29d2588b6",
+      "messages_sha256": {
+        "developed": "da639d52d3abfab188719e9eb871671f345d763a39bd664732c2593441f551f3",
+        "base": "bc1f50a908cadfd0f380d6509c11a78867fe61acd2ad2aeeced8f0a34fc09f15",
+        "short": "5a98bf5fd08907960781f86e57bee7489d6033c589842bb0eb01208c8f990394"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "directions",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 21,
+      "numeric_tokens": 1,
+      "user_sha256_all_three": "142555302b8fdf8369ae441fc582ccbe1f1670c4a9360da6f27c81846fdc9681",
+      "messages_sha256": {
+        "developed": "113c98b7fd12410e9c6f126a9559e304f6a2a94c53fc74dc38219b1f8b3bacb4",
+        "base": "81767def20fc349257bb32a8666ffa6982d7f34472cd002a9aee7e387e198b37",
+        "short": "8bb613d694ba329791372ec22ebea53c260b6f69a208570129a5376a81d43fcd"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "morning",
+      "profile": "low_elaboration",
+      "reverse_details": false,
+      "word_count": 18,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "fe4cef2072c511ebfdb5763e57ba68df78e888d8fec68d1156ea3ee37f60356d",
+      "messages_sha256": {
+        "developed": "42b795d8160db0e74afcdc1275c77c65d2b9f53665f75aa4a664808ba0b9661a",
+        "base": "a35ef1a62c4ee38f4868992598d34f12a66eaaa1f48107b7331e92ba4294735b",
+        "short": "81218a5ad8c81f284f270dd674afbcc99e2e70fa96fa4f0378559e3b3f904084"
+      }
+    },
+    {
+      "id": "GK12",
+      "topic": "meal",
+      "profile": "low_elaboration",
+      "reverse_details": true,
+      "word_count": 17,
+      "numeric_tokens": 0,
+      "user_sha256_all_three": "472a34b704f4eb1d49a4114cd1f0068b85aaf895e75dbbf913a5e456ce4e49c4",
+      "messages_sha256": {
+        "developed": "366520d0985cd893bf091ba89ad48abb847aa375cf0be9a055ba8face2962301",
+        "base": "d581470153612e4c51ac2b4c1933745df4616e90cc112a1dc21226be0f297fd0",
+        "short": "4af235f51c09c0d26563e4838ae9520e5feebb071b6c32322213d3e5422585ad"
+      }
+    }
+  ]
+}

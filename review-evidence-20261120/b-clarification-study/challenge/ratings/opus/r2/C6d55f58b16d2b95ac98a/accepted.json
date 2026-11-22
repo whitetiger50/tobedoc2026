@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "C6d55f58b16d2b95ac98a",
+  "ended": "2026-11-21T03:36:28.896209+00:00",
+  "session": "fa4e77ce-f194-4c30-9b09-8cbd1673f78c",
+  "packet_sha256": "2bd4ccb4baecaed26c3a72c74d564f8fce96d3971ff033e4d69a043f0c1553d9",
+  "raw_sha256": "3654dcc5b1181c4693c09e303ad5ea1f8de40c57cc3879c9dc88f6dec1a46ea4",
+  "provider_sha256": "28bee7155ea06efb0447eb0b56fa58237812583622e7a8f062b8fbdca95bc92c",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Much of the content fits the persona. The patient raises the interruption problem, gives the Thursday cookbook example with gentle self-deprecation, is proud of the bookmark idea, values a quiet nudge from another volunteer, and asks sensible clarifying questions when prompts are vague. However, several features clearly undermine realism. In every even turn (2, 4, 6, 8, 10, 12) the identical, unrelated sentence 'I already put the receipt in that tray.' appears twice, tacked onto the end of the answer. It could be read as thread drift, but it is mechanical. It never varies and never connects to anything. The patient also never shows the puzzlement the profile describes on realizing the thread has changed, so it reads as an artifact rather than a natural lapse. Answers also restate profile facts almost verbatim and repeat across turns (the bookmark, the quiet pointer, 'don't want people thinking I'm careless'), which makes them feel scripted. The patient's lively, associative style about books and errands appears only briefly (the 'it was still a mystery' aside). Stray quotation marks around some answers add to the artificial feel. Overall the dialogue is moderately authentic, with noticeable unrealistic elements.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I already put the receipt in that tray. I already put the receipt in that tray."
+    },
+    {
+      "turn": 4,
+      "quote": "Well, it was still a mystery—just in the wrong section."
+    },
+    {
+      "turn": 5,
+      "quote": "Do you mean how I sort the books, or how I get back to what I was doing after someone interrupts?"
+    },
+    {
+      "turn": 8,
+      "quote": "And sometimes another volunteer quietly points me back to the pile, which I appreciate."
+    },
+    {
+      "turn": 12,
+      "quote": "I don’t want it mistaken for carelessness. I already put the receipt in that tray."
+    }
+  ]
+}

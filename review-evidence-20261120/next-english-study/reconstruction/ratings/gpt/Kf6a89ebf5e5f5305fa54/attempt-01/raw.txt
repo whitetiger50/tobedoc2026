@@ -1,0 +1,32 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient prefers an afternoon visit ending before dinner while they still have energy.",
+    "citations": [
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "An afternoon would suit me, perhaps going over for lunch.",
+        "supports": "A"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "I’d rather have a shorter visit with my sister and head home before dinner, while I’ve still got some energy.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says they usually return to sleep after waking around dawn.",
+    "citations": [
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "Some mornings I wake up around dawn, but I usually drift back off.",
+        "supports": "B"
+      }
+    ]
+  }
+}

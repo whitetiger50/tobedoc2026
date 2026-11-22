@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ic8ca05ec4af222",
+  "ended": "2026-11-20T20:46:44.495952+00:00",
+  "session": "ed5095cf-df67-4fd9-a0a9-e47819d07839",
+  "packet_sha256": "1c9ac175ce6f9e31e8853cdc70f30013c7f3e216d2e0f06412c4852744ecb2d1",
+  "raw_sha256": "a6f25e2ad602224dcd53499c46635b49c2dc905bf7821edee3c9f63a105ca852",
+  "provider_sha256": "80dc409348823172bdc8c1ed7a623018b257bc834a0eeaa2899e3dc5d4ee7dbb",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers fit the persona's content. The patient separates what was said from what it seemed to imply, recognizes that others might hear things differently, and raises privacy concerns. However, the delivery often feels scripted rather than like a real outpatient talking. Several answers restate profile facts almost verbatim, including the medication timing, the quiet shop versus the crowded bus, and sitting toward the front. The privacy line is repeated word for word in two turns as a stock phrase. The patient also discloses the sensitive worry in the second turn without the hesitation or careful build-up the profile describes. They do not talk readily about the store, which the persona would be expected to do. A few answers sound natural, such as the uncertain reasoning about how to judge whether a remark is personal and the warmer tone when discussing paper folding. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I’d rather my coworkers or neighbors didn’t hear about this."
+    },
+    {
+      "turn": 6,
+      "quote": "I’d rather my coworkers or neighbors didn’t hear about this."
+    },
+    {
+      "turn": 3,
+      "quote": "It’s stronger on crowded bus rides home. I notice it less when I’m stocking shelves in the quiet shop."
+    },
+    {
+      "turn": 11,
+      "quote": "I’m taking my prescribed medication with breakfast and coming to the clinic regularly."
+    },
+    {
+      "turn": 8,
+      "quote": "I don’t have a clear way of deciding. It feels personal for a moment, but that doesn’t mean they actually mentioned me."
+    }
+  ]
+}

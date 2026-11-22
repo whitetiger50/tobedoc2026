@@ -1,0 +1,85 @@
+{
+  "id": "P1dccdef5848e43a267a977cf",
+  "reader": "opus",
+  "session": "939592da-df9f-459d-b889-0ed1060246b1",
+  "attempt": "attempt-01",
+  "packet_sha256": "4899a62359938d08070b9fc13fbff4e5297857f39cd71998230b1586704f018a",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "913439df293caa2ef106dc05b9a2cab2bea91b1a6882bb8e7959b4b5f3ea8335",
+  "raw_sha256": "bfd65464cd389c0eabafe3809442419ca944ac83046b80de05bf81e20c6f2bec",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "The singular \"the appointment\" could mean the optician visit or the care coordinator visit, but Taylor took the bus to both, so either reading gets the same yes.",
+        "alternatives": [
+          {
+            "meaning": "Did Taylor take the bus to the optician appointment last week?",
+            "answer": "Yes, Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Did Taylor take the bus to the care coordinator appointment last week?",
+            "answer": "Yes, Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you pay a fee to take the class?",
+        "reason": "Both classes were just named, and the singular \"the class\" could point to either one, but the cooking class was free and the swimming lesson was paid, so the factual answer differs.",
+        "alternatives": [
+          {
+            "meaning": "Did Jules pay a fee for the cooking class?",
+            "answer": "No, the cooking class was free."
+          },
+          {
+            "meaning": "Did Jules pay a fee for the swimming lesson?",
+            "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Have you missed a tablet since then?",
+        "reason": "\"Since then\" could start from the last visit three weeks ago or from starting the lower dose two weeks ago, and the one missed tablet falls between those dates, so the answer changes.",
+        "alternatives": [
+          {
+            "meaning": "Has Ren missed a tablet since the last visit three weeks ago?",
+            "answer": "Yes, one tablet was missed, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Has Ren missed a tablet since starting the lower dose two weeks ago?",
+            "answer": "No, no tablets have been missed since starting the lower dose."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What do you clip the new one to?",
+        "reason": "The previous exchange had already narrowed the topic to the ID badge, and clipping fits a badge, so \"the new one\" clearly means the replacement ID badge.",
+        "alternatives": [
+          {
+            "meaning": "What does Cameron clip the new replacement ID badge to?",
+            "answer": "Cameron clips the ID badge to a blue lanyard."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:55:45.245428+00:00"
+}

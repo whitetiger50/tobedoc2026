@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-9af6-7c42-ac35-a0a7f2c1713b",
+  "raw": "Well, Cinderella lives with her stepmother and her two stepsisters, and they make her do all the work around the house. They treat her badly, and then an invitation comes for a ball at the palace. The sisters get ready to go, but Cinderella’s left behind.\n\nHer fairy godmother appears and helps her. She turns a pumpkin into a coach, and mice into horses, I think. Cinderella gets a beautiful dress and glass slippers. But she has to be home by midnight, because that’s when the magic wears off.\n\nAt the ball, the prince dances with her and falls in love with her. Then the clock starts striking twelve, and she runs off—she loses one of the slippers on the stairs. The coach turns back into a pumpkin, all of that, but she still has the other slipper.\n\nThe prince tries to find her by having the women try on the slipper she left behind. The stepsisters can’t get it on, but it fits Cinderella. So he knows she’s the person he danced with, and they get married. That’s the version I remember, anyway.",
+  "raw_sha256": "9cf2ef27cc57a8155eaa9a92f63b0c731436ba5cbc44ca319990d2dfd6a6997c",
+  "request_sha256": "5bb9b845b557a889b4d1fbb21539a04dc6c154eb2330a3ced8e4ec729966558b",
+  "started_utc": "2026-11-20T21:25:27.327186+00:00",
+  "completed_utc": "2026-11-20T21:25:36.187866+00:00",
+  "usage": {
+    "input_tokens": 6030,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 227,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3cabac7f165d5924c42142f3feaf3c50b77aec8695301bf73027f2c9aef1a925",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cecefebf5092b54f44f248d4f2738fc08ab6762d0d2685c29d0445af8260237d"
+}

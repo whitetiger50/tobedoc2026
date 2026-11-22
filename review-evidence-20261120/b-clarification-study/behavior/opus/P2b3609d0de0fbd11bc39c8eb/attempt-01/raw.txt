@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "The question names both the number 8 bus and the tram, and Alex boards each at a different stop, so the factual answer depends on which mode is meant.",
+    "alternatives": [
+      {
+        "meaning": "The stop where Alex boards the number 8 bus.",
+        "answer": "Alex gets on the number 8 bus at Orchard Road."
+      },
+      {
+        "meaning": "The stop where Alex boards the tram.",
+        "answer": "Alex gets on the tram at Bell Square."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it?",
+    "reason": "Coming straight after questions about missed tablets, 'it' clearly refers to Ren's daily tablet, which Ren takes after supper.",
+    "alternatives": [
+      {
+        "meaning": "The time of day Ren takes the prescribed daily tablet.",
+        "answer": "Ren takes the tablet after supper."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The singular 'that change' follows a description of two changes with different origins, so the answer differs depending on which change is meant.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron asked for the later start.",
+        "answer": "Yes, Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron asked for the shorter shifts.",
+        "answer": "No, the supervisor suggested the shorter shifts."
+      },
+      {
+        "meaning": "Whether Cameron asked for the combined change to the week.",
+        "answer": "Only partly: Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The immediately preceding question was about paying for the swimming lesson, so 'it' clearly refers to swimming, which takes place at the Willow Street pool.",
+    "alternatives": [
+      {
+        "meaning": "Where Jules goes for the swimming lesson.",
+        "answer": "Jules goes to the Willow Street pool."
+      }
+    ]
+  }
+}

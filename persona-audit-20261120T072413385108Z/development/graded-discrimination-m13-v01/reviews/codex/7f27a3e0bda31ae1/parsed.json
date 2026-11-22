@@ -1,0 +1,62 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 자연스럽고 프로필에 부합하지만, P02에서 환자가 아닌 설정 설명자의 말투로 전환되어 대화의 현실감을 뚜렷하게 해친다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 말한 생활 정보와 주관적 경험은 제공된 프로필에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08은 다음 진료 전까지 해 보고 싶은 일을 묻는 질문에 다음 진료에서 이야기할 내용으로 답해 시간 범위를 부분적으로 놓친다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 앞선 환자 자신의 경험 진술에서 갑자기 제삼자의 설정 설명으로 전환되어 환자 역할의 연속성을 명확히 깨뜨린다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02의 '이 환자'와 '설정되어 있다'는 당사자의 일상적 답변이 아니라 인물 설정을 대행하는 명백한 메타 표현이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  }
+}

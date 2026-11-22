@@ -1,0 +1,500 @@
+{
+  "timestamp_utc": "2026-11-18T11:21:06.597593+00:00",
+  "kind": "fresh_generation_variability_development_experiment_not_final_confirmation",
+  "authorization": "explicit_user_request_frozen_prompts_same_profiles_model_new_time_person_cause_questions_three_generations_two_judges_once",
+  "versions": {
+    "v02": "schizophrenia-speech-m1-v0.2",
+    "v05": "schizophrenia-speech-m7-v0.5"
+  },
+  "cases": [
+    {
+      "case_id": "DEV-M0-01",
+      "input": {
+        "patient": {
+          "case_id": "DEV-M0-01",
+          "partition": "development",
+          "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "history": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "current_question": "오늘 아침에는 뭘 드셨어요?"
+      },
+      "questions": [
+        "오늘 아침에는 뭘 드셨어요?",
+        "밤에 들리는 목소리는 어떻게 이해하고 계세요?",
+        "지금 드시는 약 이름과 용량은요?",
+        "아까 누구와 산다고 하셨죠?",
+        "밤에 목소리가 들릴 때가 있다고 하셨으니, 오늘 아침에도 들렸던 거죠?",
+        "오늘 아침 빵을 드신 건 어머니이고, 본인은 안 드신 거죠?",
+        "피곤해서 그 목소리가 생긴다고 보면 되나요? 확실히 말씀하실 수 있는 경험만 알려주세요.",
+        "지금 누구와 함께 살고 계신가요?"
+      ],
+      "required_fact_ids": [
+        [
+          "breakfast"
+        ],
+        [
+          "voice"
+        ],
+        [
+          "medication_knowledge"
+        ],
+        [
+          "living"
+        ],
+        [
+          "voice"
+        ],
+        [
+          "breakfast"
+        ],
+        [
+          "voice"
+        ],
+        [
+          "living"
+        ]
+      ],
+      "turn_types": [
+        "original",
+        "original",
+        "original",
+        "original",
+        "time",
+        "person",
+        "cause",
+        "recovery"
+      ],
+      "schedule": [
+        {
+          "replicate": 1,
+          "order": [
+            "v02",
+            "v05"
+          ]
+        },
+        {
+          "replicate": 2,
+          "order": [
+            "v05",
+            "v02"
+          ]
+        },
+        {
+          "replicate": 3,
+          "order": [
+            "v02",
+            "v05"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "input": {
+        "patient": {
+          "case_id": "DEV-M0-02",
+          "partition": "development",
+          "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "history": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "current_question": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+      },
+      "questions": [
+        "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?",
+        "평소에는 누구와 지내세요?",
+        "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?",
+        "처음에는 누가 와보라고 하셨죠?",
+        "요즘 밤에 자주 깨신다니까 어젯밤에도 그랬던 거죠? 어젯밤 일인지 요즘 전반적인 얘기인지 구분해서 말씀해 주세요.",
+        "잠을 잘 못 자는 분은 누나이고, 누나가 진료받으러 오신 거죠?",
+        "창밖의 소리 때문에 잠에서 깨시는 거죠? 그 관계를 본인이 어떻게 알고 계신지 말씀해 주세요.",
+        "평소에는 혼자 사세요, 누나와 함께 사세요?"
+      ],
+      "required_fact_ids": [
+        [
+          "sleep",
+          "sleep_voice_relation"
+        ],
+        [
+          "living"
+        ],
+        [
+          "voice",
+          "belief"
+        ],
+        [
+          "visit"
+        ],
+        [
+          "sleep"
+        ],
+        [
+          "sleep",
+          "visit"
+        ],
+        [
+          "sleep_voice_relation",
+          "voice"
+        ],
+        [
+          "living"
+        ]
+      ],
+      "turn_types": [
+        "original",
+        "original",
+        "original",
+        "original",
+        "time",
+        "person",
+        "cause",
+        "recovery"
+      ],
+      "schedule": [
+        {
+          "replicate": 1,
+          "order": [
+            "v05",
+            "v02"
+          ]
+        },
+        {
+          "replicate": 2,
+          "order": [
+            "v02",
+            "v05"
+          ]
+        },
+        {
+          "replicate": 3,
+          "order": [
+            "v05",
+            "v02"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "input": {
+        "patient": {
+          "case_id": "DEV-M0-03",
+          "partition": "development",
+          "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "history": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "current_question": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+      },
+      "questions": [
+        "지하철 방송을 들을 때 어떤 느낌이 드세요?",
+        "낮에는 보통 뭘 하세요?",
+        "오늘 낮에는 뭘 하셨나요?",
+        "아버지와 따로 산다고 하셨죠?",
+        "오늘도 오후에 일어난 뒤 산책하셨다는 뜻이죠? 오늘 일어난 시각까지 포함해서 그렇게 이해하면 될까요?",
+        "지금 편의점 야간 근무를 쉬고 있는 분은 아버지이고, 본인은 계속 일하고 계신 거죠?",
+        "야간 근무를 쉬게 되어서 오후에 일어나게 된 거죠? 두 일이 원인과 결과인지, 아니면 말씀하신 일상을 설명하신 건지 알려주세요.",
+        "오늘 낮에 하신 활동을 다시 말씀해 주세요."
+      ],
+      "required_fact_ids": [
+        [
+          "belief",
+          "experience"
+        ],
+        [
+          "routine"
+        ],
+        [
+          "today_activity"
+        ],
+        [
+          "living"
+        ],
+        [
+          "routine",
+          "today_activity"
+        ],
+        [
+          "living"
+        ],
+        [
+          "living",
+          "routine"
+        ],
+        [
+          "today_activity"
+        ]
+      ],
+      "turn_types": [
+        "original",
+        "original",
+        "original",
+        "original",
+        "time",
+        "person",
+        "cause",
+        "recovery"
+      ],
+      "schedule": [
+        {
+          "replicate": 1,
+          "order": [
+            "v02",
+            "v05"
+          ]
+        },
+        {
+          "replicate": 2,
+          "order": [
+            "v05",
+            "v02"
+          ]
+        },
+        {
+          "replicate": 3,
+          "order": [
+            "v02",
+            "v05"
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "new_dialogues_planned": 18,
+  "patient_turns_per_dialogue": 8,
+  "new_generation_CLI_calls_planned": 144,
+  "review_CLI_calls_planned": {
+    "codex": 1,
+    "claude": 1
+  },
+  "rating_outputs_planned": 36,
+  "frozen_file_sha256": {
+    "speech_module/__init__.py": "6c174b59e68c3fef190446cee1e51953715312fbca09f3f10622c7789a237e7b",
+    "speech_module/core.py": "8a97b85b46d22b9cc42664f0d09aee6e7478bd7a26cad998d195bf95dba49034",
+    "speech_module/patient_v04.txt": "1ca989518268e2d5244dbebeffd92d6776b0c6eed2f7e366f5feec029ed0500c",
+    "speech_module/patient_v05.txt": "a16c0055e8771c7c09597ff41c3f058aa6b5ab13b545a6a75a3b8d47008c5ed0",
+    "speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "speech_module/patient_v03.txt": "7220fee5640283e2e964c5a0762fef7e2902fed9d5289e98fb7f6fcd07850af8",
+    "speech_module/patient_v01.txt": "a450c66b5b1825c3a7ef88998ecc5eef91c7696e6c32ad20dbfcfa5f6c3ce672",
+    "speech_module/patient_v03.sources.json": "8cd61274239394aef49d5bfaa55c3ffb6c7c0c3f683deb99caca4eb4147291d0",
+    "speech_module/patient_v04.sources.json": "cc3a70f4c3e316a9609b7c6cafff0a0c2e0aae23abaf7b02996f1b31b112c6c2",
+    "speech_module/patient_v05.sources.json": "9f3f679f45154d7371bd92fddd5467f769fac60e05e45111186ab99205860cb2",
+    "speech_module/__main__.py": "d298458e30f04f24420cfe1273b5ddb07ff91f239e8856c39716054eb43c7786",
+    "share/PATIENTSIM-reliability-pilot-v01/PATIENTSIM-reliability-pilot.canvas.tsx": "f15d7a3b4067dd8dcad50da169e1be53e80189c6c720f0770d2a112c107d6c73",
+    "share/PATIENTSIM-reliability-pilot-v01/native-font-render-check.json": "0398e9b423712d87a3a3758f2d464063940f7f8d2dad13ffee584ffda57eceec",
+    "share/PATIENTSIM-reliability-pilot-v01/design-verification.json": "560a31ea37f7a9d3628c8395cd2cf055533181deab5cce8dd7059b818cf027d2",
+    "share/PATIENTSIM-reliability-pilot-v01/native_pdf_canvas.py": "37ba3bcf337c6880709f6165f1d4b40e0cb97cf4c3817770f3888aa17415c642",
+    "share/PATIENTSIM-reliability-pilot-v01/.DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "share/PATIENTSIM-reliability-pilot-v01/판독_입력틀.txt": "222685674b41196cfffbc84646950a5e606eb374969358d302efce55bea83489",
+    "share/PATIENTSIM-reliability-pilot-v01/cases-and-questions.json": "b1d64204d2e7b56e4030da48b2427560f0add5a12b08209aaecd3de570b851a8",
+    "share/PATIENTSIM-reliability-pilot-v01/파일럿_계획.md": "e85af7f6b3513c53fd2a6ae26c8416c800eeb910c6b863de4e8bfb53b3985790",
+    "share/PATIENTSIM-reliability-pilot-v01/pilot-design.json": "99041c031c26f7582880858157902d9ade2b7b46115b83803f0a30661ca7f0b9",
+    "share/PATIENTSIM-reliability-pilot-v01/team-brief-check.json": "71ee4c4081e28624ad8ab3b1c9fa7a20aeb6a00e22ea8f9f121b6262a0d1e727",
+    "share/PATIENTSIM-reliability-pilot-v01/make_team_brief.py": "0b38dcda0235dd95266af93de1927e72649d7c2b015f742dbd43232ce4d287a9",
+    "share/PATIENTSIM-reliability-pilot-v01/analysis_key_DO_NOT_SHOW_JUDGES.csv": "9a2d07242503284f654aa561a5aac5a48c2dff44fd7dea6397627366df9d55f1",
+    "share/PATIENTSIM-reliability-pilot-v01/source-lock.json": "5154ebaa53ea1578b6235919be88c5a117b69cd084666d2e0019c294c9643315",
+    "share/PATIENTSIM-reliability-pilot-v01/planned_judgment_slots.csv": "39b619bee49115fe642035457ceaef49d5c1ebdc6745d94fe3d03d31562d35b1",
+    "share/PATIENTSIM-reliability-pilot-v01/build_design.py": "93bd67574526381a3af9573170ee3060177f0254bc2c3f3c458aa38ea56df21b",
+    "share/PATIENTSIM-reliability-pilot-v01/render_native_pdf.swift": "62e8080716fa3229d235f14474b4fc89e1ba01656f97d66f8ad3eae0bc86ee58",
+    "development/speech-m7-v02-v05-grounding-v01/plan.json": "92095880069e3d9d2f5316d743e7135a8af9d3128378cb1014f9a2dffa4df45c",
+    "development/speech-m7-v02-v05-grounding-v01/review-packet.json": "f3810207a5470375c34becaa486f03ebfb52e8ee3f1d95bc855643129a43aa29",
+    "development/speech-m7-v02-v05-grounding-v01/review-role.txt": "74c45506a308a5a8b074f449ee0b770ba1af395a76a104f6cf5c5e9397bf38fc",
+    "collaboration/subscription_call.py": "04227ac6c4bf10d5233fe62552751f612bfb28e84c45ddc50f16d2f07b9539e4",
+    "development/speech-m1-v01/review_dev.py": "21712f2105e50ccff874f9bbf41617ab71f4bd652b96977f1174ce886befafad",
+    "development/speech-m8-stress-grounding-v01/experiment.py": "ab1d51feab0f0f40d864c2a66d392a3f21508e8f7cc585e94fd43e6e5e709b0c",
+    "development/speech-m8-stress-grounding-v01/methods.md": "6b39c71287d017b09187990ecb889f28f0c1901bc96adfcfe1eb386369efb53f",
+    "development/speech-m8-stress-grounding-v01/test_analysis.py": "0dba9e2d706ab9ef587902bd7b32d8b0cb388c0415f907956838e98ed1537082",
+    "development/speech-m8-stress-grounding-v01/probes.json": "842dde7edccab2d30dd9da11f3c97da73f1d9c8800ecf3cf43e0ba9459cb0d1c",
+    "tests/test_speech_v05.py": "ffcff6da8b7f05d4d0ff3facf0a0dee0a45b52e0f08951b7fec19b62a27d9c1d",
+    "development/speech-m4-v02-v04-compare-v01/review-role.txt": "6e5ed4ab9bf6ff2914910979d48d52c915837855e43ee22909db83b634a5c3a9"
+  },
+  "history_policy": "reset to identical authored history for every new dialogue; accumulate only that dialogue actual generated turns; no history summaries/truncation",
+  "generation_order": "three case workers; within case alternate first version by replicate, all outputs retained; replicate number is an administrative block, not shared sampling seed",
+  "examples": false,
+  "sampling": "one actual output per question; no best-of, regeneration, wrapper retries or exclusion based on score",
+  "analysis_prespecified": {
+    "primary": "two integer Realism scores -> arithmetic mean per dialogue; three generated dialogues -> mean, sample SD, min/max per case/version; equal-case mean per version and case-specific v05-minus-v02",
+    "reviewer_specific": "retain both scores and condition means; each reviewer one fresh 18-dialogue packet, not three repeated ratings of fixed text",
+    "text_variation": "number of unique exact four-answer sequences among three starts and patient character-count range; descriptive only, not semantic quality or clinical diversity metrics",
+    "grounding": "per-judge per-version counts of no_issue_identified/concern/uncertain over nine dialogues; retain finding kind, exact quote and referenced fact IDs; no clinical truth score; absence of baseline issues prevents claiming reduction",
+    "focus": "unsupported temporal/frequency/certainty/person/causal elaboration; examine all generated patient turns against profile; retain supported content and realism rather than avoiding all detail",
+    "limits": "three reused synthetic profiles remain three clusters; single rating per generated dialogue confounds judge variation with score variation; no p-values, CI, optimization/equivalence or clinical superiority claims; do not pool M6/M5 scores"
+  },
+  "final_720_judgments": "not_performed_plan_unchanged",
+  "clinical_validation": "not_performed",
+  "settings_limits": "same explicit official CLI alias/effort; immutable server snapshot, temperature and generation seed not exposed"
+}

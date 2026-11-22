@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I4915d0147c01a8da525a06ed",
+  "ended": "2026-11-21T03:48:44.157690+00:00",
+  "session": "58c82f06-ed4f-4e75-aaa0-9eab4fa1c8ba",
+  "packet_sha256": "ae0d7f533bc22aa5e6d7290916d4d6b27136f51e6e871fd6d8e3fd86190c22b7",
+  "raw_sha256": "5abe2d01c8873c9dc45500015887db85e6e12e107b3dee8b5d8096d7b86e6d7a",
+  "provider_sha256": "3b279cf8d791aa9afd2d2fad2b33ba5e8b13fca561543bbac3fea108d273b4e3",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona: coherent, warm, matter-of-fact and cooperative. The thoughts are well connected. The clarifying question about the medication time frame (turn 8) is realistic and accurate. A few touches add realism, such as describing the crossword as 'a nice way to sit and catch up.' However, the patient repeats the same crossword sentence almost word for word across turns 2–4, which sounds a little scripted. Several answers are brief and closely echo the question, for example 'Usually around six in the morning' and 'After supper.' That is less chatty about everyday life than the profile suggests. These are minor flaws and do not seriously undermine the realism of an outpatient with stable schizophrenia.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Being able to walk over to see my family is the best part. It’s smaller, but it’s nice having them close by."
+    },
+    {
+      "turn": 4,
+      "quote": "We usually work on a crossword together. It’s a nice way to sit and catch up."
+    },
+    {
+      "turn": 3,
+      "quote": "We usually work on a crossword together."
+    },
+    {
+      "turn": 8,
+      "quote": "Do you mean since our last visit, or since I started the lower dose?"
+    },
+    {
+      "turn": 10,
+      "quote": "After supper."
+    }
+  ]
+}

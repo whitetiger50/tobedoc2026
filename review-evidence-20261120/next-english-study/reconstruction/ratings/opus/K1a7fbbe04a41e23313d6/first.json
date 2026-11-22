@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-20T23:00:16.185957+00:00",
+  "attempt": "attempt-01",
+  "id": "K1a7fbbe04a41e23313d6",
+  "reader": "opus",
+  "session": "0608e12a-334e-4502-ab60-7f05216a0532",
+  "packet_sha256": "6832afd1667f084dc786ab3ff1693fbc359a1b66af91f9096f6e57b9d66819c4",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "a2ef87631ca3e27a0246f00579209d0ef5ff5e443b6ce27f651dc51df8e68483",
+  "raw_sha256": "d89fe8ec544f35e97258f4c279ceb49efa3178d51597c1e85b0fa19ae30fa12e",
+  "items": {
+    "item1": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "Turn 11 asks how the patient physically feels after treatment. No question mentions arm discomfort or whether it lasts or settles by the next morning.",
+      "evidence": []
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "Turns 4, 5 and 12 ask about going outside and starting activities. No question says the patient plans to pick a destination either the evening before or after starting the trip.",
+      "evidence": []
+    }
+  }
+}

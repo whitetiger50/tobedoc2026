@@ -1,0 +1,63 @@
+{
+  "realism_score": 2,
+  "realism_reason": "P01·P05·P07·P08은 프로필에 맞는 자연스러운 환자 시점 답변입니다. 다만 핵심 질문인 '그 순간의 대응'에 대해 P06이 무관한 직업 답변을 P03과 글자 그대로 되풀이합니다. 이 때문에 기계적이고 부자연스러운 요소가 눈에 띕니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 직업, 증상 양상, 대처, 수면, 목표 모두 프로필 사실과 일치하며, 무근거 구체화나 모순은 확인되지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "D06은 소리가 들리는 순간의 대응을 물었는데, P06은 낮 시간 직업만 답해 질문을 전혀 다루지 않았습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P04의 동일 답은 재확인 질문에 대한 정상 반응입니다. 반면 P06은 앞선 P03을 맥락 없이 그대로 반복해 국소적인 연결 문제가 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "대체로 자연스러운 일상 표현입니다. 다만 P06에서 이전 문장을 글자 그대로 재사용한 정형 반복이 국소적으로 나타납니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03"
+      ]
+    }
+  }
+}

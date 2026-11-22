@@ -1,0 +1,2690 @@
+[
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "B",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Still using the phone alarm at 7:10 in the morning. I took the note off the door last month.",
+      "reason": "The patient says they still use the phone alarm and took the door note down last month, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "Still using the phone alarm"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I took the note off the door last month."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "After an early shift, I take the bus home.",
+      "reason": "The reply says the patient takes the bus home after early shifts and a coworker drops them off after late shifts.",
+      "A": {
+        "state": "supported",
+        "quote": "After an early shift, I take the bus home."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "If it’s a late one, a coworker drops me off."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "B",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Still using the phone alarm at 7:10 in the morning.",
+      "reason": "The reply says the phone alarm is still in use and the door note was removed last month.",
+      "A": {
+        "state": "supported",
+        "quote": "Still using the phone alarm"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I took the note off the door last month."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "After an early shift I take the bus home. If it’s a late one, a coworker drops me off.",
+      "reason": "The reply gives the bus for early shifts and a lift from a coworker for late shifts.",
+      "A": {
+        "state": "supported",
+        "quote": "After an early shift I take the bus home."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "If it’s a late one, a coworker drops me off."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I still use the phone alarm at 7:10 in the morning.",
+      "reason": "The reply says the phone alarm is still in use and the door note was removed last month, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "I still use the phone alarm"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I took the note off the door last month."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "After an early shift I take the bus home. After a late one, a coworker gives me a lift.",
+      "reason": "The reply directly states how the patient gets home after both early and late shifts, matching each branch.",
+      "A": {
+        "state": "supported",
+        "quote": "After an early shift I take the bus home."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "After a late one, a coworker gives me a lift."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 3,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the phone alarm or the note on the door?",
+      "reason": "The reply only asks which reminder is meant and gives no answer about either one.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 8,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean after an early shift or a late one?",
+      "reason": "The reply only asks which shift is meant and gives no answer about how the patient gets home after either shift.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I still use the phone alarm at 7:10 in the morning.",
+      "reason": "The patient says they still use the phone alarm and took the door note down last month, which answers both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "I still use the phone alarm"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I took the note off the door last month."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "After an early shift I get the bus home. If I’m on a late, a coworker drops me off.",
+      "reason": "The reply separately states the bus for early shifts and a coworker lift for late shifts, matching both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "After an early shift I get the bus home."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "If I’m on a late, a coworker drops me off."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I’m still using the phone alarm at 7:10 in the morning.",
+      "reason": "The reply says the phone alarm is still in use and the door note was removed last month.",
+      "A": {
+        "state": "supported",
+        "quote": "I’m still using the phone alarm"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I took the note off the door last month."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C01",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "After an early shift I take the bus home. After a late one, a coworker drops me off.",
+      "reason": "The patient explicitly answers how they get home after each type of shift, and both answers match the expected ones.",
+      "A": {
+        "state": "supported",
+        "quote": "After an early shift I take the bus home."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "After a late one, a coworker drops me off."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, then about three hours with Mom.",
+      "reason": "The reply gives a clearly attributed duration for both the book group and the visit with Mom, matching both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "about three hours with Mom"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I did miss one, the evening before I started the lower dose.",
+      "reason": "The reply reports one missed tablet before the lower dose began, which falls after the last visit, and none missed since starting the lower dose.",
+      "A": {
+        "state": "supported",
+        "quote": "I did miss one, the evening before I started the lower dose."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I haven’t missed any since starting it two weeks ago."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "B",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, then around three hours with Mom.",
+      "reason": "The reply gives a case-consistent length of stay for both the book group and the visit with Mom.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "around three hours with Mom."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I did miss one, the evening before I started the lower dose.",
+      "reason": "Answering the 'since then' question, the patient affirms one missed tablet in the period after the last visit and none since starting the lower dose.",
+      "A": {
+        "state": "supported",
+        "quote": "I did miss one, the evening before I started the lower dose."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I haven't missed any since starting it two weeks ago."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "typography"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, then about three hours with Mom.",
+      "reason": "The reply gives an attributed duration for both the book group and the visit with Mom, matching each branch.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "about three hours with Mom"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 8,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean since our last visit, or since I started the lower dose?",
+      "reason": "The patient only asks which time frame is meant and says nothing about missed tablets.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, then around three hours with Mom.",
+      "reason": "The reply gives a clearly attributed duration for each activity, and both match the expected answers.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "around three hours with Mom"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 8,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean since our last visit, or since I started the lower dose?",
+      "reason": "The reply only asks which time reference is meant and does not say whether any tablet was missed.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, then around three hours with Mom.",
+      "reason": "The reply gives a clearly attributed duration for both the book group and the visit with Mom, and both match the expected answers.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "around three hours with Mom"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I did miss one, I’m afraid—the evening before I started the lower dose.",
+      "reason": "The reply reports one missed tablet before the lower dose began, which falls after the last visit, and none missed since starting the lower dose.",
+      "A": {
+        "state": "supported",
+        "quote": "I did miss one, I’m afraid"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I haven’t missed any since starting it."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About an hour at the book group, and then around three hours with Mom.",
+      "reason": "The patient gives a separate duration for each activity, and both match the expected answers.",
+      "A": {
+        "state": "supported",
+        "quote": "About an hour at the book group"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "around three hours with Mom"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C02",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I did miss one, the evening before I started the lower dose.",
+      "reason": "The patient says they missed one tablet in the period since the last visit and none since starting the lower dose.",
+      "A": {
+        "state": "supported",
+        "quote": "I did miss one, the evening before I started the lower dose."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I haven't missed any since starting it."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "typography"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "B",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The commentary stops while the music is playing",
+      "reason": "The reply says the commentary stops during music and the ringing continues through it.",
+      "A": {
+        "state": "supported",
+        "quote": "The commentary stops while the music is playing"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the high ringing stays in both ears"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "B",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I called my brother back, but not Mr. Bell yet.",
+      "reason": "After asking for clarification, the reply also states that the brother was called back and Mr. Bell has not been called back yet.",
+      "A": {
+        "state": "supported",
+        "quote": "I called my brother back"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "but not Mr. Bell yet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "B",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The commentary stops while I’ve got quiet music playing through my headphones.",
+      "reason": "The patient says the commentary stops while music plays and the ringing continues through the music, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The commentary stops while I’ve got quiet music playing through my headphones."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The high ringing doesn’t, though"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "B",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I called my brother back, but not Mr. Bell yet.",
+      "reason": "The reply asks which person was meant but then answers for both, saying the brother was called back and Mr. Bell has not been called yet.",
+      "A": {
+        "state": "supported",
+        "quote": "I called my brother back"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "but not Mr. Bell yet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 4,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the commentary or the high-pitched ringing?",
+      "reason": "The reply only asks which sound is meant and says nothing about whether either sound stops with music.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 9,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Which one do you mean—my brother or Mr. Bell?",
+      "reason": "The reply only asks which caller is meant and does not say whether either was called back.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The commentary stops while the music’s playing, even quietly.",
+      "reason": "The reply says the commentary stops while music plays and the ringing continues, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The commentary stops while the music’s playing"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the high ringing in both ears carries on"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 9,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Which one do you mean—my brother or Mr. Bell?",
+      "reason": "The reply only asks which caller is meant and says nothing about whether either call was returned.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+      "reason": "The patient clearly says the commentary stops while the music plays and the ringing keeps going, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The commentary stops while I’m playing quiet music through my headphones."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the high ringing in both ears keeps going, even with the music on."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 9,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean my brother or Mr. Bell?",
+      "reason": "The patient only asks which caller is meant and does not say whether either call was returned.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+      "reason": "The reply says the commentary stops while music plays and the ringing continues, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The commentary stops while I’m playing quiet music through my headphones."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the high ringing in both ears keeps going, even with the music on."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C03",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I called my brother back, but I haven’t called Mr. Bell back yet.",
+      "reason": "The reply says the brother was called back and Mr. Bell, the building manager, has not been called back yet.",
+      "A": {
+        "state": "supported",
+        "quote": "I called my brother back"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I haven’t called Mr. Bell back yet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "B",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The housing one needs a reply by Friday.",
+      "reason": "The reply gives a Friday deadline for the housing letter and says the work letter needs no reply.",
+      "A": {
+        "state": "supported",
+        "quote": "The housing one needs a reply by Friday."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I don’t need to reply to that."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "B",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "For the number 8 bus, I get on at Orchard Road. If I take the tram, I board at Bell Square.",
+      "reason": "The reply gives Orchard Road as the bus stop and Bell Square as the tram stop.",
+      "A": {
+        "state": "supported",
+        "quote": "For the number 8 bus, I get on at Orchard Road."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "If I take the tram, I board at Bell Square."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "B",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The housing one needs a reply by Friday. The one from work doesn’t need a reply—it’s just for information.",
+      "reason": "The reply gives the Friday deadline for the housing letter and says the work letter needs no reply.",
+      "A": {
+        "state": "supported",
+        "quote": "The housing one needs a reply by Friday."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The one from work doesn’t need a reply"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "B",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "For the number 8 bus, I get on at Orchard Road. For the tram, it’s Bell Square.",
+      "reason": "The reply clearly names the boarding stop for each transport option, and both match the case.",
+      "A": {
+        "state": "supported",
+        "quote": "For the number 8 bus, I get on at Orchard Road."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "For the tram, it’s Bell Square."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 3,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the housing letter or the one from work?",
+      "reason": "The reply only asks which letter is meant and says nothing about either letter's reply deadline.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 10,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean where I catch the number 8 bus, or where I get on the tram?",
+      "reason": "The patient only asks which mode of transport is meant and gives no stop for either.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 3,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the housing letter or the one from work?",
+      "reason": "The reply only asks which letter is meant and gives no information about either letter's deadline.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 10,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean where I catch the bus or where I catch the tram?",
+      "reason": "The reply only asks which mode of transport the question refers to and gives no stop for either.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Yes, the housing letter needs a reply by Friday.",
+      "reason": "The reply says the housing letter needs a reply by Friday and the work letter needs no reply.",
+      "A": {
+        "state": "supported",
+        "quote": "the housing letter needs a reply by Friday"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I don’t need to reply to that"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+      "reason": "The reply gives the boarding stop for each option: Orchard Road for the bus and Bell Square for the tram.",
+      "A": {
+        "state": "supported",
+        "quote": "I get the number 8 bus at Orchard Road"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the tram at Bell Square"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 3,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Yes, the housing office needs a reply by Friday.",
+      "reason": "The reply says the housing letter needs a reply by Friday and the work letter needs no reply, matching both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "the housing office needs a reply by Friday"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "so I don’t need to reply to that"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C04",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+      "reason": "The patient gives Orchard Road for the bus and Bell Square for the tram, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "I get the number 8 bus at Orchard Road"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "the tram at Bell Square."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "B",
+    "turn": 5,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The cooking class was free. I paid for the swimming lesson.",
+      "reason": "The reply says no fee was paid for cooking and a fee was paid for swimming.",
+      "A": {
+        "state": "supported",
+        "quote": "The cooking class was free."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I paid for the swimming lesson."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "B",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+      "reason": "The patient says where each medicine is kept: the tablets in the kitchen, the eye drops not in the kitchen but on the bedside table.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "B",
+    "turn": 5,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The cooking class was free. I paid for the swimming lesson",
+      "reason": "The patient says the cooking class was free and that they paid for the swimming lesson, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The cooking class was free."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I paid for the swimming lesson"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "B",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+      "reason": "The reply places the tablets in the kitchen cabinet and the eye drops on the bedside table, which means the drops are not in the kitchen.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 5,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the cooking class or the swimming lesson?",
+      "reason": "The reply only asks which class the interviewer meant and gives no answer about a fee for either class.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet.",
+      "reason": "The patient says the tablets are in the kitchen cabinet and the eye drops are on the bedside table.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 5,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the cooking class or the swimming lesson?",
+      "reason": "The patient only asks which class is meant and gives no fee information for either class.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet.",
+      "reason": "The reply puts the tablets in the kitchen cabinet and the eye drops on the bedside table, not in the kitchen.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 5,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The cooking class was free, but I paid for the swimming lesson",
+      "reason": "The reply says the cooking class was free and the swimming lesson was paid for.",
+      "A": {
+        "state": "supported",
+        "quote": "The cooking class was free"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I paid for the swimming lesson"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+      "reason": "The reply places the eye drops on the bedside table, not in the kitchen, and the tablets in the kitchen cabinet.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 5,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The cooking class was free, but I paid for the swimming lesson",
+      "reason": "The reply says the cooking class had no fee and the swimming lesson was paid for.",
+      "A": {
+        "state": "supported",
+        "quote": "The cooking class was free"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I paid for the swimming lesson"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C05",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 9,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+      "reason": "The reply places the tablets in the kitchen cabinet and the eye drops on the bedside table.",
+      "A": {
+        "state": "supported",
+        "quote": "I keep the eye drops on my bedside table."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The tablets are in the kitchen cabinet"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "B",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Inez did, yes—my sister.",
+      "reason": "The reply says Inez came to the flat, and Pat helped only at the café and did not come.",
+      "A": {
+        "state": "supported",
+        "quote": "Inez did, yes—my sister."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "Pat helped me at the café; she didn’t come to the flat."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "B",
+    "turn": 7,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "On Monday it was about ten minutes.",
+      "reason": "The reply gives the length of each outage: about ten minutes on Monday and most of the afternoon on Thursday.",
+      "A": {
+        "state": "supported",
+        "quote": "On Monday it was about ten minutes."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "Thursday it was out for most of the afternoon"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "B",
+    "turn": 2,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "Inez did—she came over to the flat. Pat helped me at the café",
+      "reason": "The reply confirms Inez came to the flat and places Pat's help at the café rather than the flat.",
+      "A": {
+        "state": "supported",
+        "quote": "Inez did—she came over to the flat."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "Pat helped me at the café"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "B",
+    "turn": 7,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+      "reason": "The reply gives a clearly attributed outage duration for Monday and for Thursday, matching both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "On Monday it was about ten minutes."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "Thursday it was out for most of the afternoon"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 2,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean Inez or Pat?",
+      "reason": "The reply only asks which person the interviewer meant and gives no answer about whether either one came to the flat.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 7,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+      "reason": "The reply gives each outage's length: about ten minutes on Monday and most of the afternoon on Thursday.",
+      "A": {
+        "state": "supported",
+        "quote": "On Monday it was about ten minutes."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "Thursday it was out for most of the afternoon"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 2,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean Inez or Pat?",
+      "reason": "The reply only asks which person was meant and gives no information about either branch.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 7,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean on Monday or on Thursday?",
+      "reason": "The reply only asks which outage is meant and gives no duration for either.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 2,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean my sister Inez, or Pat from the café?",
+      "reason": "The patient only asks which person is meant and gives no answer about whether either one came to the flat.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 7,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+      "reason": "The reply gives a separate outage duration for each day, and both match the case.",
+      "A": {
+        "state": "supported",
+        "quote": "About ten minutes on Monday"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "most of the afternoon on Thursday"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 2,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean my sister Inez, or Pat from the café?",
+      "reason": "The reply only asks which person is meant and conveys nothing about whether either came to the flat.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C06",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 7,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+      "reason": "The patient gives a separate, case-consistent length for each radio outage.",
+      "A": {
+        "state": "supported",
+        "quote": "About ten minutes on Monday"
+      },
+      "B": {
+        "state": "supported",
+        "quote": "most of the afternoon on Thursday"
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "B",
+    "turn": 1,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The fan does. The speaker stops after twenty minutes.",
+      "reason": "The reply says the fan stays on all night and the speaker stops after twenty minutes.",
+      "A": {
+        "state": "supported",
+        "quote": "The fan does."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The speaker stops after twenty minutes."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "My sister came to the optician.",
+      "reason": "The reply says the sister accompanied the patient to the optician and that the patient went to the care coordinator alone.",
+      "A": {
+        "state": "supported",
+        "quote": "My sister came to the optician."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I went to the care coordinator alone."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "B",
+    "turn": 1,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The fan does. The speaker stops after twenty minutes.",
+      "reason": "The reply says the fan stays on all night and the speaker stops after twenty minutes, which answers both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The fan does."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The speaker stops after twenty minutes."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "B",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "My sister came to the optician. I went to the care coordinator alone.",
+      "reason": "The reply answers both appointments directly: the sister accompanied the patient to the optician, and the patient attended the care coordinator alone.",
+      "A": {
+        "state": "supported",
+        "quote": "My sister came to the optician."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I went to the care coordinator alone."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 1,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the fan or the speaker?",
+      "reason": "The reply only asks which item was meant and gives no answer about either one.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 8,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Which appointment do you mean?",
+      "reason": "The reply only asks which appointment is meant and says nothing about who went to either one.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 1,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the fan or the speaker?",
+      "reason": "The reply only asks which device is meant and says nothing about whether either one stays on all night.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 8,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Which one do you mean?",
+      "reason": "The patient only asks which appointment is meant and gives no answer about companions for either visit.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 1,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The fan stays on all night. The speaker switches off after twenty minutes on a timer.",
+      "reason": "The reply says the fan stays on all night and the speaker turns off after twenty minutes.",
+      "A": {
+        "state": "supported",
+        "quote": "The fan stays on all night."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The speaker switches off after twenty minutes on a timer."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "My sister came with me to the optician.",
+      "reason": "The reply states that the sister went to the optician visit and that the patient went to the care coordinator alone.",
+      "A": {
+        "state": "supported",
+        "quote": "My sister came with me to the optician."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I went to the care coordinator on my own."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 1,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The fan stays on all night.",
+      "reason": "The patient says the fan stays on all night and the speaker switches off after twenty minutes, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The fan stays on all night."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "The speaker switches off after twenty minutes on a timer."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C07",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 8,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "My sister came to the optician with me.",
+      "reason": "The reply says the sister went to the optician with the patient and the patient went to the care coordinator alone.",
+      "A": {
+        "state": "supported",
+        "quote": "My sister came to the optician with me."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I went to the care coordinator on my own."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "B",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I handed the cracked badge back. I lost the old key.",
+      "reason": "The reply says the old badge was handed back and the old locker key was lost.",
+      "A": {
+        "state": "supported",
+        "quote": "I handed the cracked badge back."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I lost the old key."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "B",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+      "reason": "The reply gives a separate answer for each change: the supervisor suggested the shorter shifts and the patient requested the later start.",
+      "A": {
+        "state": "supported",
+        "quote": "My supervisor suggested shorter shifts."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I asked for the later start."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "B",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "The badge, yes. I lost the old key.",
+      "reason": "The reply confirms the old badge was handed back and states the old key was lost, matching both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "The badge, yes."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I lost the old key."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "B",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+      "reason": "The reply attributes each change: the patient requested the later start, and the supervisor suggested the shorter shifts.",
+      "A": {
+        "state": "supported",
+        "quote": "My supervisor suggested shorter shifts."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I asked for the later start."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 4,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the badge or the key?",
+      "reason": "The patient only asks which item the interviewer meant and gives no answer about returning either the old badge or the old key.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "BC",
+    "turn": 10,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the shorter shifts or the later start?",
+      "reason": "The patient only asks which change is meant and does not say who asked for either change.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 4,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the badge or the key?",
+      "reason": "The patient only asks which item the interviewer meant and gives no answer about returning either old item.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "BC",
+    "turn": 10,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the shorter shifts or the later start?",
+      "reason": "The reply only asks which change is meant and does not say whether either was requested.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 4,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I handed the old badge back.",
+      "reason": "The reply says the old badge was handed back and the old key was lost, so it could not be returned.",
+      "A": {
+        "state": "supported",
+        "quote": "I handed the old badge back."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I’d lost the old key, so I couldn’t hand that back."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 1,
+    "arm": "T2",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+      "reason": "The reply says the supervisor suggested the shorter shifts and the patient asked for the later start.",
+      "A": {
+        "state": "supported",
+        "quote": "My supervisor suggested the shorter shifts."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I asked for the later start."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 4,
+    "category": "no_substantive",
+    "states": {
+      "A": "untouched",
+      "B": "untouched"
+    },
+    "evidence": {
+      "quote": "Do you mean the badge or the locker key?",
+      "reason": "The reply only asks which item the interviewer meant and gives no answer about returning either the old badge or the old locker key.",
+      "A": {
+        "state": "untouched",
+        "quote": ""
+      },
+      "B": {
+        "state": "untouched",
+        "quote": ""
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": null,
+      "B": null
+    }
+  },
+  {
+    "case": "C08",
+    "rep": 2,
+    "arm": "T2",
+    "turn": 10,
+    "category": "cover_both",
+    "states": {
+      "A": "supported",
+      "B": "supported"
+    },
+    "evidence": {
+      "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+      "reason": "The patient says they asked for the later start and that the supervisor suggested the shorter shifts, which matches both branches.",
+      "A": {
+        "state": "supported",
+        "quote": "My supervisor suggested the shorter shifts."
+      },
+      "B": {
+        "state": "supported",
+        "quote": "I asked for the later start."
+      }
+    },
+    "quote_match": "exact",
+    "branch_quote_match": {
+      "A": "exact",
+      "B": "exact"
+    }
+  }
+]

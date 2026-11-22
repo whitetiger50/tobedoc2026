@@ -1,0 +1,27 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 1,
+  "question": "How has your week at home been?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "Quiet. Mostly sitting by the kitchen window.",
+  "raw_sha256": "89bd37711fc75f35ef5665e2f6ab1aacd04429275dbc57e216ec4dea96f029d3",
+  "request_sha256": "c9cd7c7ccc72931216d7175fc4e1e25355dee9d02fb551d2b23e5ceb665ab571",
+  "started_utc": "2026-11-20T20:36:39.284280+00:00",
+  "completed_utc": "2026-11-20T20:36:43.657386+00:00",
+  "usage": {
+    "input_tokens": 7644,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 13,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "187375926cebd922181c5892f858a4c50fdfd5061a2ed57956ff9a2ed3acb145",
+  "trace_sha256": "55f29daa3e2dffe389d7725f6a7f24725d68f2d1230fcc8361206b84a669bf10"
+}

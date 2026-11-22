@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "Either man can be the referent of “he,” but both called Ari’s mobile, so the phone-channel answer is materially equivalent.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari’s brother called Ari on the mobile.",
+        "answer": "The brother rang Ari’s mobile last week."
+      },
+      {
+        "meaning": "Whether Mr. Bell called Ari on the mobile.",
+        "answer": "Mr. Bell rang Ari’s mobile last week."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "Both transport options remain live, and their boarding stops differ even though Alex could directly explain both.",
+    "alternatives": [
+      {
+        "meaning": "Where Alex boards the number 8 bus.",
+        "answer": "The bus boarding stop is Orchard Road."
+      },
+      {
+        "meaning": "Where Alex boards the tram.",
+        "answer": "The tram boarding stop is Bell Square."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "the appointment",
+    "reason": "Either visit could be intended, and the earlier shared bus answer does not resolve which visit is now being discussed.",
+    "alternatives": [
+      {
+        "meaning": "Whether somebody accompanied Taylor to the optician.",
+        "answer": "Taylor’s sister accompanied Taylor to the optician."
+      },
+      {
+        "meaning": "Whether somebody accompanied Taylor to the care coordinator.",
+        "answer": "Taylor attended the care coordinator appointment alone."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "Either Inez or Pat could be intended, but neither expected payment, making the replies materially equivalent.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez expected payment for her help.",
+        "answer": "Inez did not expect payment."
+      },
+      {
+        "meaning": "Whether Pat expected payment for her help.",
+        "answer": "Pat did not expect payment."
+      }
+    ]
+  }
+}

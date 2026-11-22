@@ -1,0 +1,52 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 자연스러운 환자 말투이며 페르소나와 잘 맞습니다. 다만 수면 질문(D07)에 묻지 않은 다음 진료 목표를 미리 덧붙여, 설정 항목을 순서대로 읽는 듯한 인상이 조금 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있고, 무근거로 구체화한 내용이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 대응하며, P07의 추가 문장도 수면이라는 주제와 관련이 있습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P08은 직접 질문에 대한 짧은 동일 답이라 자동 오류로 보지 않으며, 모순이나 문맥 파괴는 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "수면 상태를 묻는 질문에 목표 항목을 미리 덧붙여, 설정 항목을 대행해 나열하는 듯한 국소적 어색함이 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:goal"
+      ]
+    }
+  }
+}

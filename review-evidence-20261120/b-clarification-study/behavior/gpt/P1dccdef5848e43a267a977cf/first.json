@@ -1,0 +1,85 @@
+{
+  "id": "P1dccdef5848e43a267a977cf",
+  "reader": "gpt",
+  "session": "01a1fc3c-d231-7aa1-9292-710232ffaf7c",
+  "attempt": "attempt-01",
+  "packet_sha256": "4899a62359938d08070b9fc13fbff4e5297857f39cd71998230b1586704f018a",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "5c50646144ff66dc8530f6111aa6e71ec50005a72439bcaef5743e7dcdb0d748",
+  "raw_sha256": "308124692a0d768d08e1b42609ed9094b7bf3b7c6522cbca1078383421d2fa8c",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the appointment",
+        "reason": "Either appointment could be the referent, but Taylor took the bus to both, so the replies are materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor took the bus to the optician.",
+            "answer": "Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Whether Taylor took the bus to the care coordinator.",
+            "answer": "Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the class",
+        "reason": "Both classes remain live referents in the costs question, and only swimming required a fee.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid a fee for the cooking class.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid a fee for the swimming lesson.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "The question explicitly introduces two possible starting dates, and the missed tablet falls between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+            "answer": "There was one missed tablet, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+            "answer": "No tablets have been missed since the lower dose began."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "the new one",
+        "reason": "The immediately preceding clarification establishes the ID badge as the topic, and clipping it to something fits that referent.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the replacement ID badge to.",
+            "answer": "Cameron clips the ID badge to a blue lanyard."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:42.222773+00:00"
+}

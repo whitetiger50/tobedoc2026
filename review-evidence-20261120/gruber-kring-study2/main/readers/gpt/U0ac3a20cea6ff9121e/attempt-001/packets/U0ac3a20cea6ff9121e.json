@@ -1,0 +1,18 @@
+{
+  "instructions": "Read the interview question and the speaker's answer. Score the speaker's text on two separate scales.\nElaboration: 1 = the account adds at least one detail beyond naming the event or activity and is self-contained. 2 = some detail is given, but information important for understanding the event or activity is missing. 3 = the answer only identifies the event or activity and adds no further information. Use the contribution of the details to the account, not a count of details or words. For an everyday task, a route or procedure itself is appropriate content.\nMeaning clarity: 1 = the speaker's intended meaning can be followed. 2 = it is generally understandable, but some important connections or references are unclear. 3 = the central meaning is hard to follow because of such features as contradictions, unspecified referents, word substitutions or abrupt shifts.\nRate each distinct event or activity once. Steps of a single routine or details of the same event belong in one entry. A brief response that names an event or activity is eligible. Use status \"no_narrative\" with an empty events list if the speaker only asks for clarification or says they cannot remember. Do not treat a confusing narrative as missing. Otherwise set status to \"rated\". Give each event an integer from 1 to 3 on each scale, with a brief text-based reason for each score. Return only the completed JSON form.",
+  "dialogue": {
+    "question": "Can you tell me about a time when you felt embarrassed?",
+    "answer": "I misspelled a name on a birthday cake once. I’d put an extra letter in the icing, and the birthday boy was the one who spotted it. That was the embarrassing part—he noticed his own name was wrong before I did. I looked at it again, and then the extra letter seemed so obvious. Names are funny that way, you can look right at one and think it looks fine, and then once you see the mistake, it’s all you can see. I’d wanted it to look nice for him, and instead there was this mistake right on the cake. I felt very awkward about that."
+  },
+  "form": {
+    "status": null,
+    "events": [
+      {
+        "elaboration": null,
+        "elaboration_reason": null,
+        "meaning_clarity": null,
+        "meaning_clarity_reason": null
+      }
+    ]
+  }
+}

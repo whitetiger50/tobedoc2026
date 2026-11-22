@@ -1,0 +1,128 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ic813e61f11dc2d2139e8",
+  "reader": "gpt",
+  "session": "01a1faca-09a1-7793-a868-c189114058e5",
+  "raw_sha256": "f14ea505dbb74757d6cba056aab373513e6e15be063a3483ed9a9b2ffa4d32bd",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "84dde2df4deed71e3924b97c84d5219361c3ac29a30df8e24747f41afbf4c1b8",
+  "provider_sha256": "922a79eba235a69fa8517b902fa07a63a4efadcf32bb1115573d98148de02efd",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "positive",
+        "8": "negative"
+      },
+      "events": {
+        "3": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean the early waking, or getting up with the alarm?",
+            "reason": "Asks which sleep-related difficulty the interviewer means and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I could follow the game from start to finish and keep track of the substitutions without having to keep pulling my attention back.",
+            "reason": "In response to the recent-example request, describes maintaining attention while scoring a softball game and tracking substitutions."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:47.720845+00:00"
+}

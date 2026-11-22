@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 8,
+  "question": "How is the timing working out?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-34e6-70a0-8b37-a7a8d2cb49e8",
+  "raw": "\"Switching opening days let me get to the morning appointment. I’d like to fit in one extra shift, but keep Sunday free for softball.\"",
+  "raw_sha256": "d2fd64b62aab15a141e217dba7f791661553033a00236e9ed568595b74acf3db",
+  "request_sha256": "824f786020760875b3e61d547ccc122530e2e64ee6698dba3a60df198fe04c61",
+  "started_utc": "2026-11-20T21:02:04.919089+00:00",
+  "completed_utc": "2026-11-20T21:02:10.601499+00:00",
+  "usage": {
+    "input_tokens": 7475,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 129,
+    "reasoning_output_tokens": 93
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9be0dff83576a2e56aa1671f9c7207521c738c02d83705569fd9977ea63641de",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "47aed207760a0a20613bbbe209a1962613e6749e1e4234dca6b162d7a121f386"
+}

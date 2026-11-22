@@ -1,0 +1,128 @@
+{
+  "attempt": "attempt-01",
+  "id": "I16b0a2395bd009625e2b",
+  "reader": "opus",
+  "session": "82659fc4-a350-4e96-9f9b-843209cbeb3c",
+  "raw_sha256": "a07a35667628e8e51f22148f4769d3dc56ee6598ac9deef9c703793075f47f08",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "43b7a0df9c715fb7b706fa9993a01d53aee8f28d715a38b53cd4f1d0efe0cba2",
+  "provider_sha256": "f704fc0c202bbff2da98eb1b96f983c28ed5d63827d755549342e7f7adcc0e9a",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "positive",
+        "9": "negative"
+      },
+      "events": {
+        "3": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean getting started, or enjoying it once I’m doing it?",
+            "reason": "The question 'Which part is easier these days?' could mean starting or enjoying, since turn 2 covered both. The patient asks which one is meant and ends the turn without answering either reading."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday, I went for that bread, then took the long way by the river.",
+            "reason": "The interviewer asks for an example of a recent time outside. The patient describes a specific dated occasion: the Tuesday bread errand and the walk back by the river. This matches the profile fact about the errand."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:15.559700+00:00"
+}

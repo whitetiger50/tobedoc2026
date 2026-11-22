@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What has an ordinary workday looked like for you lately?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have sleep and concentration been over the past month?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Is that getting any better?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Let me ask about sleep specifically. What change, if any, have you noticed this month?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "Where does taking medication fit into your day, if you take any?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "How do your work hours and clinic visits fit into your week?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "How is the timing working out?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "I had work in mind. How well do your current work hours suit you?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "Have you had any experiences recently, such as a sound seeming personally significant, that you wanted to discuss?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Going back to your mornings, how do you usually feel when you first get up?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "If you could choose your work hours for next month, what would you choose?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Perceived capacity for work",
+      "A": "Adding one more shift would feel within the patient’s current capacity.",
+      "B": "Adding one more shift would feel beyond the patient’s current capacity."
+    },
+    "item2": {
+      "question": "Recent change in sleep timing",
+      "A": "The recent two-night change in sleep was waking later than usual.",
+      "B": "The recent two-night change in sleep was waking earlier than usual."
+    }
+  }
+}

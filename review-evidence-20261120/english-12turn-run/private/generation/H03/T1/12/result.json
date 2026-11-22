@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T1",
+  "turn": 12,
+  "question": "What else would you like the person seeing you at the clinic to know?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-afee-7622-945a-a02e2192b186",
+  "raw": "“A little quiet time helps me work out what to say. If I’m not saying much, it doesn’t mean I don’t like the company.”",
+  "raw_sha256": "f7ceab9685135380ece7652f399f817037eea818466339bf6d87fe4626fd8d29",
+  "request_sha256": "3d129d6c8d935110c4a40803b01ead35b5c09c57a129c9d53626ad6aed77d803",
+  "started_utc": "2026-11-20T20:42:56.777666+00:00",
+  "completed_utc": "2026-11-20T20:43:00.704993+00:00",
+  "usage": {
+    "input_tokens": 7397,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a1cb57f55ff61f7fa9f0cb15b66109cd536b31a3500669f254bf864021408f5f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a3f54d913b307689908e5bc5d1ba774ca3c4de1d459bf6aa1243f27215837b25"
+}

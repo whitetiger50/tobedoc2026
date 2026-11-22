@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-20T23:01:25.817098+00:00",
+  "attempt": "attempt-01",
+  "id": "K7a57e9d927d843e77595",
+  "reader": "opus",
+  "session": "54cfc18b-ae44-4df5-8dfa-e9ddc4dde0a5",
+  "packet_sha256": "faf4476592e31b34e979c5d48d6f938920ae3386dbace3fab9fa942eea1dc27e",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "a08c1d35e1e7215503d5dcfba88caf6c54e27ee218e608e930267b1657fd6844",
+  "raw_sha256": "0d3f5beab227968bb00b1883a4356fcb8fc129207b3c9fc4ffa3358b46a73468",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says that once in the shop they start sorting pretty easily, which matches A and contradicts B.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "Once I’m in the shop, I get on with sorting pretty easily.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "The patient denies recently feeling that people were talking about them (in turns 10 and 11), which rules out A. They never say that nearby conversations seemed to be about unrelated things, so B is not established either.",
+      "evidence": []
+    }
+  }
+}

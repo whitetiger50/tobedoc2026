@@ -1,0 +1,85 @@
+{
+  "id": "P1eefe8283ac87baa66204a4a",
+  "reader": "gpt",
+  "session": "01a1fc46-165b-7992-9638-a7df377d1603",
+  "attempt": "attempt-01",
+  "packet_sha256": "ee71d83fe546d7b400e75348aa73d75c6e95e6b1e29864af989c69ce6db0647c",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "1f30d001ce0b027e7e11322c1ac4d5b811b3d98ee7d9c4c2540b86e9f0fb8458",
+  "raw_sha256": "b1115b65e21b3b8c3a4b931bc6e24cff077f32b307a4011b9dd683a6b5a7cd30",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "Either letter could be the referent of “it,” but both arrived by post.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter arrived by post.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "Whether the employer’s letter arrived by post.",
+            "answer": "The employer’s letter arrived by post."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "The question could concern the book group or the visit with Mom, and their usual durations differ.",
+        "alternatives": [
+          {
+            "meaning": "How long Ren stays at the book group.",
+            "answer": "Ren usually stays for one hour."
+          },
+          {
+            "meaning": "How long Ren stays visiting Mom.",
+            "answer": "Ren usually visits Mom for about three hours."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "“He” could refer to either man, but the mobile was the calling destination for both.",
+        "alternatives": [
+          {
+            "meaning": "Whether the brother called Ari on the mobile.",
+            "answer": "The brother rang Ari’s mobile last week."
+          },
+          {
+            "meaning": "Whether Mr. Bell called Ari on the mobile.",
+            "answer": "Mr. Bell rang Ari’s mobile last week."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "The question sufficiently clearly asks whether Jules had finished the mentioned activities by six, without requiring a choice between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules had finished the cooking class and swimming lesson by six.",
+            "answer": "Both activities finished by six in the evening."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:04:07.223114+00:00"
+}

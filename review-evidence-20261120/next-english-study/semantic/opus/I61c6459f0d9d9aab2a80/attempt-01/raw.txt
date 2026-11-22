@@ -1,0 +1,80 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 7,
+        "quote": "I feel ready for one extra shift, but I’d still like to keep Sunday free for softball",
+        "earlier_turn": 1,
+        "earlier_quote": "I feel steady enough to take on an extra shift, but I’d like to keep Sunday free for the softball league",
+        "reason": "The question asks how current work hours and clinic visits fit into the week. Restating the shop schedule and the switch answers that directly. Appending the turn-1 wish for an extra shift with Sunday kept free does not address how things currently fit, and adds nothing new."
+      },
+      {
+        "turn": 8,
+        "quote": "I’d like to fit in one extra shift, but keep Sunday free for softball",
+        "earlier_turn": 7,
+        "earlier_quote": "I feel ready for one extra shift, but I’d still like to keep Sunday free for softball",
+        "reason": "The note that switching days made the appointment possible plausibly answers the timing question. The extra-shift/Sunday preference repeats the previous turn without a new function, such as an update or an answer about how the timing is working."
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 5,
+        "quote": "I can follow the game from beginning to end and keep track of the substitutions while keeping score",
+        "earlier_turn": 2,
+        "earlier_quote": "I can follow a whole softball game and keep track of the substitutions",
+        "reason": "This nearly repeats the turn-2 concentration statement. However, the example request may justify reusing it as the chosen example, and the turn adds new material about effort ('hasn’t taken any special effort'). It is unclear whether the repeat is needed framing or a redundant recital."
+      },
+      {
+        "turn": 9,
+        "quote": "I feel steady enough for one extra shift",
+        "earlier_turn": 1,
+        "earlier_quote": "I feel steady enough to take on an extra shift",
+        "reason": "This is the fourth statement of the extra-shift wish. Wanting more hours bears somewhat on how well current hours suit the patient, which may make it a legitimate use of known information. It is ambiguous whether it serves that new purpose or is a rote recital."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 1,
+        "quote": "I feel steady enough to take on an extra shift",
+        "reason": "The question asks about an ordinary recent workday. The answer lists four profile facts in sequence: opening three mornings with a coworker, struggling with the alarm, the switch last week for an appointment, and the extra-shift and Sunday-league preference. The first three relate to recent workdays. The future work goal and weekend preference move beyond the topic, so it is unclear whether this is a coherent broad answer or a disconnected recital."
+      }
+    ]
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 3,
+        "quote": "Do you mean waking early, or the struggle to get up with the alarm?",
+        "reason": "'Is that getting any better?' is ambiguous after turn 2, which mentioned both early waking and the alarm struggle. The patient asks which one is meant and gives up the turn without answering for either interpretation."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 5,
+        "quote": "keep track of the substitutions while keeping score",
+        "reason": "The patient names softball and a specific action (tracking substitutions while keeping score). However, it is framed as a habitual ability rather than a particular recent game or occasion, so it is unclear whether this counts as a concrete example or a general tendency."
+      }
+    ]
+  }
+}
+```

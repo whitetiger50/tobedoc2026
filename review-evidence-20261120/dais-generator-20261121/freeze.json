@@ -1,0 +1,26 @@
+{
+  "n": 126,
+  "model": "gpt-6.1-sol",
+  "same_DTOs": 14,
+  "history_turns": 0,
+  "cards_sha256": "1dd93e4d7d709546f4b9241f4e040cf032fd84acb735ff19dc3a8487b1e589c3",
+  "schedule_sha256": "67cacad20bc6f3738de84a0b9d6ccf27bf9e2eac8155050f1b3fb12f65fcb2e7",
+  "method_sha256": "7474713ea2ef383bfd793f1b059745187fc30806c45eaa2483b7adde0c7f34c1",
+  "system_sha256": {
+    "base": "f7e6da8e31484033a1f3a5694848d42b22719b48e89dc1e54b869d958fcc4a80",
+    "short": "f2430db5ef5ceae8464bb3df8a2f848a481494a91da03769285812dbb460e0ec",
+    "developed": "a68a9ec0f9228395f6739791ef268ac7e4ffa57797076e50868fea688bca5261"
+  },
+  "builder_sha256": "d9dbaf813fda7bfa326bf7247e82f71077ea4fb4c128f8a9f57e23a4f262bed9",
+  "source_sha256": {
+    "speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "speech_module/core.py": "746780923ce885c7c21e4eed71a5c5df1aa9d5696fb8b792fa849f4aa836bc0b",
+    "speech_module/__main__.py": "f924613cfd0ab3ed3c05f0cf8c9a09a184b2ad6480754257edc1655963091760",
+    "speech_module/__init__.py": "6c174b59e68c3fef190446cee1e51953715312fbca09f3f10622c7789a237e7b",
+    "collaboration/development-T-selection.json": "6ce03e03e509cd8e1858b52a756ce1f14919739df19f261060a5d412c340122d"
+  },
+  "source_module": "schizophrenia-speech-m1-v0.2",
+  "reasoning_effort": "medium",
+  "repeats": 3,
+  "sampling": "Provider defaults; temperature and RNG seed not exposed."
+}

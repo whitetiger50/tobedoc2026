@@ -1,0 +1,74 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 프로필에 맞는 사실을 일상적인 한국어로 간결하게 답한다. 확신하지 않는 태도도 자연스럽게 드러난다. 다만 마지막 턴이 첫 턴과 프로필 문구를 거의 그대로 되풀이해 다소 정형적인 느낌이 남는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확신이 안 드는데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 고정 사실과 self_understanding 범위 안에 있으며, 무근거 구체화나 모순이 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상(불편, 동거인, 낮 활동, 아침 식사, 발생 상황, 대처, 수면, 다음 진료 주제)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 말과 모순되거나 문맥을 깨는 연결 문제가 확인되지 않는다. P08의 반복은 표현 문제로 naturalness에서 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "전반적으로 환자 시점의 자연스러운 말투다. 다만 P08이 P01과 goal 사실의 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

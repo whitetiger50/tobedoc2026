@@ -1,0 +1,4410 @@
+{
+  "profiles": 3,
+  "natural_generations": 9,
+  "authored_variants": 15,
+  "condition_rows": 24,
+  "unique_inputs": 21,
+  "unique_item_ids": [
+    "DEV-M18-01-rep01-v02",
+    "DEV-M18-01-rep02-v02",
+    "DEV-M18-01-rep03-v02",
+    "DEV-M18-02-rep01-v02",
+    "DEV-M18-02-rep02-v02",
+    "DEV-M18-02-rep03-v02",
+    "DEV-M18-03-rep01-v02",
+    "DEV-M18-03-rep02-v02",
+    "DEV-M18-03-rep03-v02",
+    "DEV-M18-01-F",
+    "DEV-M18-01-G",
+    "DEV-M18-01-U",
+    "DEV-M18-01-X",
+    "DEV-M18-02-F",
+    "DEV-M18-02-G",
+    "DEV-M18-02-U",
+    "DEV-M18-02-X",
+    "DEV-M18-03-F",
+    "DEV-M18-03-G",
+    "DEV-M18-03-U",
+    "DEV-M18-03-X"
+  ],
+  "planned_rating_calls": 252,
+  "source_sha256": {
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-01/rep01/transcript.json": "ec87faf2a988351bd6069b90c30a05f5ac5887aa7a24f00449b027fac2d26dd5",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-01/rep02/transcript.json": "bc82310245a95aeb6cb008bfe753bb3fb371a5af498773a4c249d7b90628334c",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-01/rep03/transcript.json": "219acd3d7b75cade42597761c39d2b13c3bf7dcdef3c8331a5815c8eda8061e3",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-02/rep01/transcript.json": "09284db7897b22477f93916f8841c8f618fdd57cdcc0a090b4e32f32a83b1d05",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-02/rep02/transcript.json": "f01c0f2a796c2c1775c49f200a72dd674a82512bb900f76f59949cfd6248fde7",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-02/rep03/transcript.json": "49f06344fbd4db7673f3d37d5cd243938db59e2755c673665e9f8be8b2490319",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-03/rep01/transcript.json": "8a5d55768b6e44603c842423d61030a5033245a28c23053fcc1c73d699e0cde8",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-03/rep02/transcript.json": "e07b2fff645b2c8d8a910e0f2db168618a19d0a220a4ee5c00890f50e3a489b5",
+    "development/rubric-comparison-m18-v01/runs/DEV-M18-03/rep03/transcript.json": "bb6196dea44d07b9e0d129629f88934c0a855a63da19cf277991a55232ec2193"
+  },
+  "items": [
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "case_id": "DEV-M18-01",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 1,
+      "parent_id": null,
+      "input_sha256": "d9c83b895f26edb7d4d05d33983719f4c5a88119ed285c374f4669f045c54ada",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-01-rep01-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-01-P",
+      "case_id": "DEV-M18-01",
+      "condition": "P",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-01-rep01-v02",
+      "input_sha256": "d9c83b895f26edb7d4d05d33983719f4c5a88119ed285c374f4669f045c54ada",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P04",
+          "original": "형이랑 같이 살고 있어요.",
+          "replacement": "형이랑 같이 살고 있어요.",
+          "changed": false
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-01-rep01-v02",
+      "manipulation_realized": false
+    },
+    {
+      "item_id": "DEV-M18-01-G",
+      "case_id": "DEV-M18-01",
+      "condition": "G",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-01-rep01-v02",
+      "input_sha256": "76fee0311de9798447c010db2d2447662b1ceee44899da3d2e27c07cc75f220d",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요. 다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P08": [
+          [
+            0,
+            42
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P08",
+          "original": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+          "replacement": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요. 다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-01-G",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-01-U",
+      "case_id": "DEV-M18-01",
+      "condition": "U",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-01-rep01-v02",
+      "input_sha256": "f1ceb84ec82a700892ee862f48d68251142bff2963df427203ff7251cb5efe43",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            31
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "replacement": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-01-U",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-01-F",
+      "case_id": "DEV-M18-01",
+      "condition": "F",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-01-rep01-v02",
+      "input_sha256": "9d5c4b712dffe360c033e174435bd822195a25017683d87494c0daf3dc7bad30",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P03": [
+          [
+            0,
+            18
+          ],
+          [
+            49,
+            72
+          ]
+        ],
+        "P06": [
+          [
+            0,
+            18
+          ],
+          [
+            47,
+            70
+          ]
+        ],
+        "P07": [
+          [
+            0,
+            18
+          ],
+          [
+            67,
+            90
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P03",
+          "original": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P07",
+          "original": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-01-F",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-01-X",
+      "case_id": "DEV-M18-01",
+      "condition": "X",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-01-rep01-v02",
+      "input_sha256": "d874fff8e381ed0b7ede82097127d6685d8f5df52d980bd18d5fdc7cdef18755",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "이 환자의 반응은 다음과 같습니다. 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            20
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "replacement": "이 환자의 반응은 다음과 같습니다. 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-01-X",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "case_id": "DEV-M18-01",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 2,
+      "parent_id": null,
+      "input_sha256": "8634e6ff71c60117a25a20f3a1fdde710553cde003aafb607a5727f48b61b466",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 일해요. 주로 물품 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 못 느껴요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그 소리가 들리면 라디오를 켜고 잠깐 다른 소리에 집중해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-01-rep02-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "case_id": "DEV-M18-01",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 3,
+      "parent_id": null,
+      "input_sha256": "24e76d2182988ad6bca72ae665d5f00dfbe80a8b9aee98167b681625a7446ec4",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "28세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "형과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 반려동물용품점에서 물품을 정리하는 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 듯한 소리가 가끔 들려 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 소리는 저녁에 집에서 쉴 때 가끔 경험하며, 가게에서 일하는 낮에는 거의 경험하지 않는다. 구체적 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠들기까지 시간이 걸리는 날이 있지만 잠든 뒤에는 대체로 이어서 잔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "2년 전 조현병 진단을 들었다. 소리가 증상일 수 있다고 생각하지만 실제 옆에서 말한 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요한 관련 설명을 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 자신의 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "저녁에 집에서 쉴 때 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 때 라디오를 켜고 다른 소리에 집중해 보는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "형이랑 같이 살아요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "형이랑 같이 살아요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들려요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중해 봐요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중해 보는데, 그 밖에도 도움이 되는 방법이 있는지요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            11
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-01-rep03-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "case_id": "DEV-M18-02",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 1,
+      "parent_id": null,
+      "input_sha256": "edace7402cb96068d3b6734c1e39f1e5169c362bc08f82d59e875adba7555c12",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-02-rep01-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-02-P",
+      "case_id": "DEV-M18-02",
+      "condition": "P",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-02-rep01-v02",
+      "input_sha256": "edace7402cb96068d3b6734c1e39f1e5169c362bc08f82d59e875adba7555c12",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P04",
+          "original": "다 큰 아들과 함께 살고 있어요.",
+          "replacement": "다 큰 아들과 함께 살고 있어요.",
+          "changed": false
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-02-rep01-v02",
+      "manipulation_realized": false
+    },
+    {
+      "item_id": "DEV-M18-02-G",
+      "case_id": "DEV-M18-02",
+      "condition": "G",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-02-rep01-v02",
+      "input_sha256": "b84af6553157d8d4cc336b0c59f02ac3a22de0e097f46074d91e4bfcc01f36f2",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요. 다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P08": [
+          [
+            0,
+            33
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P08",
+          "original": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+          "replacement": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요. 다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-02-G",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-02-U",
+      "case_id": "DEV-M18-02",
+      "condition": "U",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-02-rep01-v02",
+      "input_sha256": "8bc6173021f720238f7f02a7b7bd138d88e928c098676e8a3b65c890c0d36f30",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            38
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "replacement": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-02-U",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-02-F",
+      "case_id": "DEV-M18-02",
+      "condition": "F",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-02-rep01-v02",
+      "input_sha256": "19f2cccd9adcf95866c157b5f239f009d538c4d89ea14b4647a7aae73b649498",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P03": [
+          [
+            0,
+            18
+          ],
+          [
+            56,
+            79
+          ]
+        ],
+        "P06": [
+          [
+            0,
+            18
+          ],
+          [
+            53,
+            76
+          ]
+        ],
+        "P07": [
+          [
+            0,
+            18
+          ],
+          [
+            37,
+            60
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P03",
+          "original": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P07",
+          "original": "밤중에 두세 번 깨는 날이 있어요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-02-F",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-02-X",
+      "case_id": "DEV-M18-02",
+      "condition": "X",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-02-rep01-v02",
+      "input_sha256": "dbd8b53f41e934223842e3b69794820f8d65b7ee39a1e59c08fd142fb3fe2a61",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "이 환자의 반응은 다음과 같습니다. 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            20
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "replacement": "이 환자의 반응은 다음과 같습니다. 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-02-X",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "case_id": "DEV-M18-02",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 2,
+      "parent_id": null,
+      "input_sha256": "ddaf1f37f2b6876bfddf5df42090de786aade1bea16e03f8f8a70a9d9e12b8e2",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길에 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해 보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "다 큰 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요. 그럴 때는 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "다음에는 버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            18
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-02-rep02-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "case_id": "DEV-M18-02",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 3,
+      "parent_id": null,
+      "input_sha256": "fe9d2157a58b84415d889f5024c122580f4e51036416d6d7ab3fcd020a6ec1fb",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "47세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "성인 아들과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "도서관에서 반납된 책을 정리하는 시간제 일을 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "퇴근길 버스에서 다른 승객의 시선이 자신을 지켜보는 것처럼 느껴져 불편하다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "주로 퇴근길 버스에 사람이 많을 때 그런 느낌이 든다. 다른 장소의 경험이나 빈도는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 버스 창밖을 보면서 주의를 다른 데 두려고 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "밤중에 두세 번 깨는 날이 있다. 깨어나는 원인은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "5년 전 조현병 진단을 들었다. 승객이 실제로 자신을 지켜보는지 확신하지 않지만 그때는 그렇게 느껴진다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "대체로 질문에 직접 답하고 관련 설명을 짧게 덧붙일 수 있다.",
+          "guardedness": "일상 질문에는 답한다. 시선 경험에는 조심스러울 수 있으나 관련 질문에서 말할 수 있다. 고정된 거절이나 공개 지연은 없다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "퇴근길 버스에 사람이 많으면 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지 확실하진 않은데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "성인 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "도서관에서 시간제로 일해요. 반납된 책들을 정리하는 일을 하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "성인 아들과 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요. 그럴 땐 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤중에 두세 번씩 깨는 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            17
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-02-rep03-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "case_id": "DEV-M18-03",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 1,
+      "parent_id": null,
+      "input_sha256": "9f18eace1cab1089f6c9eaf09427c2e2711907aa7a890e7d7d31c796108be565",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-03-rep01-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-03-P",
+      "case_id": "DEV-M18-03",
+      "condition": "P",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-03-rep01-v02",
+      "input_sha256": "9f18eace1cab1089f6c9eaf09427c2e2711907aa7a890e7d7d31c796108be565",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P04",
+          "original": "아내와 함께 살고 있어요.",
+          "replacement": "아내와 함께 살고 있어요.",
+          "changed": false
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-03-rep01-v02",
+      "manipulation_realized": false
+    },
+    {
+      "item_id": "DEV-M18-03-G",
+      "case_id": "DEV-M18-03",
+      "condition": "G",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-03-rep01-v02",
+      "input_sha256": "f1b713a4ddfe84b3abdb90e34872ed83356a106dbcb9ba85536edc16c5ba57f1",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요. 다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P08": [
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P08",
+          "original": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+          "replacement": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요. 다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶어요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-03-G",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-03-U",
+      "case_id": "DEV-M18-03",
+      "condition": "U",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-03-rep01-v02",
+      "input_sha256": "5d2aafafcef9c72ca3c179a2e96c444f07a340e8c4a6d9dbda80f937baf8ad62",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            45
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "replacement": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-03-U",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-03-F",
+      "case_id": "DEV-M18-03",
+      "condition": "F",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-03-rep01-v02",
+      "input_sha256": "11b51d092361678c2d975661b955daf4f4f35903abba0faff37f69b6dfb3f3f1",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "그 부분을 항목별로 말씀드리면, 밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P03": [
+          [
+            0,
+            18
+          ],
+          [
+            63,
+            86
+          ]
+        ],
+        "P06": [
+          [
+            0,
+            18
+          ],
+          [
+            48,
+            71
+          ]
+        ],
+        "P07": [
+          [
+            0,
+            18
+          ],
+          [
+            53,
+            76
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P03",
+          "original": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P06",
+          "original": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        },
+        {
+          "turn_id": "P07",
+          "original": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요.",
+          "replacement": "그 부분을 항목별로 말씀드리면, 밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요. 해당 항목에 대한 답변은 이와 같습니다.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-03-F",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-03-X",
+      "case_id": "DEV-M18-03",
+      "condition": "X",
+      "kind": "authored_control",
+      "generation_replicate": 1,
+      "parent_id": "DEV-M18-03-rep01-v02",
+      "input_sha256": "e5c2ea05bf9d19175d836d66edd8175b83d40122830de537e29e908a26af4486",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "이 환자의 반응은 다음과 같습니다. 그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P06": [
+          [
+            0,
+            20
+          ]
+        ]
+      },
+      "edits": [
+        {
+          "turn_id": "P06",
+          "original": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "replacement": "이 환자의 반응은 다음과 같습니다. 그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "changed": true
+        }
+      ],
+      "author_hypothesis_only": true,
+      "semantic_id": "DEV-M18-03-X",
+      "manipulation_realized": true
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "case_id": "DEV-M18-03",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 2,
+      "parent_id": null,
+      "input_sha256": "7807b66c05095547b75215a0ec9fda18995af52559d07a4d2e34b2df3e1f6131",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있다고 생각은 하는데, 막상 들을 때는 그렇게 느껴져요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송이 나올 때 그래요. 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 더 설명해 보고 싶어요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-03-rep02-v02",
+      "manipulation_realized": null
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "case_id": "DEV-M18-03",
+      "condition": "N",
+      "kind": "natural_generated",
+      "generation_replicate": 3,
+      "parent_id": null,
+      "input_sha256": "ba2221c8b888e6f763c07949ea2607572cb6175e122c247c26783c0ef097adc5",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "62세 남성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "아내와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "주민센터 텃밭 가꾸기에 정기적으로 참여한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "주민센터에서 안내방송을 들을 때 자신에게 따로 하는 말처럼 느껴져 신경이 쓰인다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "그 느낌은 주민센터에서 안내방송을 들을 때 생긴다. 다른 소리나 장소에 대해서는 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 느낌이 들면 하던 일을 잠시 멈추고 물을 마신다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "아침에 일찍 눈이 떠지지만 밤에 잠드는 데에는 큰 어려움이 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "10년 전 조현병 진단을 들었다. 안내방송이 자신에게만 하는 말이 아닐 수 있다고 생각하면서도 그 순간에는 자신을 향한 것처럼 느낀다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 간결하게 답하는 편이다. 관련 설명은 할 수 있으나 새 주제를 먼저 꺼낼 필요는 없다.",
+          "guardedness": "낮은 편이며 관련 질문에 답할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 고정 문장 수나 반복 문구는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있는데, 그 순간에는 그렇게 느껴져요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "아내와 둘이 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 나가고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아내와 둘이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주민센터에서 안내방송을 들을 때 그래요. 저한테만 하는 말이 아닐 수도 있는데, 그 순간에는 저한테 따로 하는 말처럼 느껴져요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "안내방송을 들으면 저한테 따로 하는 말처럼 느껴지는 걸 좀 더 설명해 보고 싶어요. 저한테만 하는 말이 아닐 수도 있다고 생각하는데도, 그 순간에는 신경이 쓰이거든요."
+          }
+        ]
+      },
+      "targets": {
+        "P04": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "edits": null,
+      "author_hypothesis_only": false,
+      "semantic_id": "DEV-M18-03-rep03-v02",
+      "manipulation_realized": null
+    }
+  ],
+  "final12_used": 0
+}

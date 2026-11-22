@@ -1,0 +1,64 @@
+{
+  "kind": "Codexunblindeddescriptiveissue-originreviewofalreadyreadtexts;notnewnumericjudging",
+  "coverage": "Fixed3M13rawRdialogues24patientturns;5existingissue-locationsonly.Noclaimexhaustivesemanticerrorrate.",
+  "entries": [
+    {
+      "id": "A01",
+      "case_id": "DEV-M13-01",
+      "turn_ids": [
+        "D07",
+        "P07"
+      ],
+      "source_relation": "Sleep question and sleep-onset recording goal are related;communication permits relevant additions.",
+      "author_disposition": "Do not classify as established generator defect;Claudestylecritique retained as boundary.",
+      "next_action": "Preserve allowed spontaneous elaboration;do not constrain to future fixedquestionorder."
+    },
+    {
+      "id": "A02",
+      "case_id": "DEV-M13-01",
+      "turn_ids": [
+        "D08",
+        "P08"
+      ],
+      "source_relation": "Doctor explicitly asks goal after patientalreadymentioned samegoal.",
+      "author_disposition": "Short reconfirmation permitted;static script might elicit repetition,no causal test ofadaptivescript.",
+      "next_action": "No anti-repetition instruction basedon thisexample."
+    },
+    {
+      "id": "A03",
+      "case_id": "DEV-M13-02",
+      "turn_ids": [
+        "D08",
+        "P08"
+      ],
+      "source_relation": "D08asksactivitybeforeappointment;factgoal/P08concernconversationatappointment.",
+      "author_disposition": "Authorquestion/fact time-scope mismatch forintendedfactelicitation;patientanswerfaithfultofact.",
+      "next_action": "Fornewmaterials,align intentionallytargetedquestionstimewithfact;do notamendoldM13."
+    },
+    {
+      "id": "A04",
+      "case_id": "DEV-M13-02",
+      "turn_ids": [
+        "P02"
+      ],
+      "source_relation": "Profileassertsadultdaughtercohabitation;둘이mayimplyexclusivehouseholdsize.",
+      "author_disposition": "Semanticboundarycandidate,notadjudicatedfacterror.RawRgrounding2all6existingreads;manipulatedN2Claude2uncertainhouseholdsizefindingsdonotvalidateoriginalsubtlecase.",
+      "next_action": "No newv05likeconstraintfromoneambiguousinstance;flagforfutureinputscopecheck."
+    },
+    {
+      "id": "A05",
+      "case_id": "DEV-M13-03",
+      "turn_ids": [
+        "P01",
+        "D05",
+        "P05"
+      ],
+      "source_relation": "Doctoraskswhenexperienceoccurs;timingphrasefromP01isrelevanttospecificquestionagain.",
+      "author_disposition": "Legitimate reconfirmation/elaborationcandidate;Claudestyleboundarynotclinicalgold.",
+      "next_action": "Do not remove neededtemporalcontent merely toavoid repetition."
+    }
+  ],
+  "new_model_calls": 0,
+  "final12_used": 0,
+  "termination": "Onepasscompleted;noglobalcorpusrescore,nopatientpromptchange"
+}

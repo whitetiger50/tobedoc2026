@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Caefd5f42f07d7d2da360",
+  "ended": "2026-11-21T03:35:56.095545+00:00",
+  "session": "54a32f93-b013-4645-9b83-4088b020815b",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "34acf75f4d355d4a2c51206d00bc299288e2a03e12e2c55989f5815e6e7c1ae7",
+  "provider_sha256": "a9d087eb5ec163451d01773af05bb7be84398e5b8a4106e6b97b7a3025bcfb04",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The appropriate answers fit the persona well. They are brief, quiet and concrete, consistent with decreased verbal productivity and reduced initiation. They express warmth toward the brother and a clear wish for quiet time, all matching the profile. However, in 4 of 12 turns (2, 5, 8, 11) the patient gives the identical, verbatim reply 'As your interviewer, what would you like your treatment team to know?'. This is a role-reversed, scripted-sounding line that no real outpatient would produce. It ignores simple, specific questions the profile says the patient understands, such as the morning kitchen routine and medication. It also fails to disclose on-topic facts like putting toast in before switching on the radio and taking medication at night. These repeated artificial breaks substantially undermine realism despite the otherwise convincing responses.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "It was nice sitting together, even without much talking."
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 5,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 11,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

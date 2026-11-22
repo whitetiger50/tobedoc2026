@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 2,
+  "question": "How do you feel on the way home and once you have settled in?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-d84c-7c51-8318-c6d892940ae1",
+  "raw": "“I can feel uneasy on the way home if I feel singled out. On Monday, two people at the bus shelter looked up at the same time, and I moved to the other end. They might just have been looking for the bus, but it felt uncomfortable. Wednesday was different—I didn’t feel watched. Once I’m home, it’s easier to concentrate on my drawing, though Monday still comes to mind sometimes.”",
+  "raw_sha256": "8d298ffbd17baabda7fa796b302040e256a1f782f00150187d281329a401258d",
+  "request_sha256": "0d1128386673535c67ab48b4ade8a0a0514f3e57c3554043280bef6041f34e45",
+  "started_utc": "2026-11-20T20:58:24.622524+00:00",
+  "completed_utc": "2026-11-20T20:58:31.166292+00:00",
+  "usage": {
+    "input_tokens": 7093,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 149,
+    "reasoning_output_tokens": 59
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6c34a1a27c2f73d6f98bf485b6a3bf647ee0ffa75a0da78337c0015276d2b996",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "62593f02e1ca282261d13b01ede9f8e18d658490106dfb4e15b1d51229ab2961"
+}

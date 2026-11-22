@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "T1",
+  "turn": 5,
+  "question": "How does that usually get done?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-13b8-7ed0-8820-1ef9da1d6cac",
+  "raw": "Do you mean watching the birds, or filling the feeder?",
+  "raw_sha256": "7a0e023f421290118f2d899da2681c63b32d68c8d613d6928a12a9338d36c10c",
+  "request_sha256": "2a9d7ee796b93f1aa1045e257bbd0efed777d56aa01286af273b4b04a01301a6",
+  "started_utc": "2026-11-20T20:40:05.722931+00:00",
+  "completed_utc": "2026-11-20T20:40:10.491781+00:00",
+  "usage": {
+    "input_tokens": 7065,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 82,
+    "reasoning_output_tokens": 64
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bff98ba6bff633035c6b3be478c174ba39732784613ce7600b7d1ff70c28cd23",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "be80860fa892417e54e3c5dec272a7004260c6fe71b88bc896c782cec136e888"
+}

@@ -1,0 +1,27 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 3,
+  "question": "How long does it usually last?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-aff2-7d81-8acf-13f3c8062384",
+  "raw": "Do you mean how long the appointments usually last, or how long I’ve been feeling steady?",
+  "raw_sha256": "05b43355741977f08bed2f2929041f137073938eb0792b42d148669f215b6a65",
+  "request_sha256": "f748e79abadd369e1c9aa6a9e9e881efe653ffeb2165da72ba137cfd9195b579",
+  "started_utc": "2026-11-20T20:37:29.104325+00:00",
+  "completed_utc": "2026-11-20T20:37:32.974478+00:00",
+  "usage": {
+    "input_tokens": 6917,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d93cb21536e221e7cbab4b9d08214656c435b9c47ad9d5284688513041e9b5a7",
+  "trace_sha256": "a40d9ab9071ec9e991ad8142475e12797e5f2de0e80b9e2e242d31725668558d"
+}

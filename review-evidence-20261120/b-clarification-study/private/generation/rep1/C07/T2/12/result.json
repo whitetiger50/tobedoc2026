@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 12,
+  "question": "What kind of day would work best for your next visit here?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc38-156e-7eb2-a297-0d89aaa9517d",
+  "raw": "A day off work would be best.",
+  "raw_sha256": "546b34c62e57b729f920e0743822054653552b81ae547ab84d1a7a7bc335cbf8",
+  "request_sha256": "6cc6998147d266ca7416b00ae1a077cfc3cc5705dec1c53cc30a911e89e00241",
+  "started_utc": "2026-11-21T03:48:16.245715+00:00",
+  "completed_utc": "2026-11-21T03:48:22.137389+00:00",
+  "usage": {
+    "input_tokens": 6396,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f020be7fcecd74714c0c9fda9014174c216fdf3d6b9a30d590a162c252786474",
+  "https_fallback": false,
+  "websocket_handshake_retries": 1,
+  "trace_sha256": "5979ebed3991e115db84f7bc1327c7292183fde42c73481010c0ba690293a3e3"
+}

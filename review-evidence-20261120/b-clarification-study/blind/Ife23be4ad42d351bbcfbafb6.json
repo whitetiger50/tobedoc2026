@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Sam is 55, lives in a flat near a repair café, and likes putting household things back in working order.",
+    "history": "Sam is followed as an outpatient for schizophrenia. The clinician has noticed occasional shifts between related subjects, most often when Sam is tired.",
+    "organization": "Generally understandable, sometimes follows a side association before returning to the question.",
+    "spontaneity": "Often has a small story to contribute.",
+    "guardedness": "Relaxed with people who know the household routine.",
+    "expression": "Expressive, especially about repairing things.",
+    "self_understanding": "Realizes a conversation can wander when tired.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "Has been straightening the bent minute hand on a kitchen clock.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about a repair project."
+      },
+      {
+        "kind": "background",
+        "content": "Sam’s sister Inez came to the flat to help last week. Pat, a woman Sam knows from the repair café, helped at the café and did not come to the flat. Pat lent Sam a pair of small pliers.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing help with repairs."
+      },
+      {
+        "kind": "background",
+        "content": "Neither Inez nor Pat expected payment for helping.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing payment or favors."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually sleeps about six hours on weeknights.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleep."
+      },
+      {
+        "kind": "background",
+        "content": "The kitchen radio lost reception twice. It was silent for about ten minutes on Monday and for most of the afternoon on Thursday. Thursday’s broadcast was a music request show.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing the radio."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Has not felt watched at home during the past two weeks.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "When asked about recent experiences at home."
+      },
+      {
+        "kind": "treatment",
+        "content": "Keeps a weekly tablet organizer next to the tea tin.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about remembering tablets."
+      },
+      {
+        "kind": "background",
+        "content": "Plans to take the kitchen clock back to the repair café on Saturday.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about the weekend."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What are you fixing at the moment?",
+      "answer": "I’m straightening the minute hand on my kitchen clock. It’s bent. Pat from the repair café lent me some small pliers—handy for a fiddly little job like that."
+    },
+    {
+      "question": "Your sister Inez and Pat from the repair café both helped last week. Did she come over to your flat?",
+      "answer": "Do you mean my sister Inez, or Pat from the café?"
+    },
+    {
+      "question": "Did Pat come to your flat to help?",
+      "answer": "No, Pat helped me at the café. It was Inez who came over to the flat last week."
+    },
+    {
+      "question": "What did Pat lend you at the café?",
+      "answer": "A pair of small pliers, for straightening the minute hand on my kitchen clock."
+    },
+    {
+      "question": "Thinking about the help you got from Inez and from Pat, did she expect you to pay her?",
+      "answer": "No, neither Inez nor Pat expected me to pay them for helping."
+    },
+    {
+      "question": "How much sleep are you usually getting on weeknights?",
+      "answer": "About six hours most weeknights."
+    },
+    {
+      "question": "Your radio went silent on Monday and again on Thursday. How long was it out for?",
+      "answer": "About ten minutes on Monday, but most of the afternoon on Thursday. I was listening to the music request show on Thursday when it went silent."
+    },
+    {
+      "question": "How long was the radio out on Thursday?",
+      "answer": "Most of the afternoon on Thursday."
+    },
+    {
+      "question": "What were you listening to when it went quiet that day?",
+      "answer": "The music request show—that was on Thursday."
+    },
+    {
+      "question": "In the past two weeks, have you felt watched at home?",
+      "answer": "No, I haven’t felt watched at home in the past two weeks."
+    },
+    {
+      "question": "What do you use to keep track of your tablets?",
+      "answer": "I use a weekly tablet organizer. I keep it next to the tea tin."
+    },
+    {
+      "question": "What would you like to do with the clock on Saturday?",
+      "answer": "I’d like to take it back to the repair café on Saturday."
+    }
+  ]
+}

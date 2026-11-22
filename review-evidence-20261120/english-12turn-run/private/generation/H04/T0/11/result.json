@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "T0",
+  "turn": 11,
+  "question": "What would you like us to take into account when arranging your next clinic visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-5ece-7312-be0e-02cd6ed0e52e",
+  "raw": "A morning appointment would suit me best, so it doesn’t clash with pottery class. I’d also appreciate some notice if the time needs to change, so I can plan around it.",
+  "raw_sha256": "9b78181e5e2014ba6bfc4cf415422e743c1b651699331be7069b896b73222f2f",
+  "request_sha256": "0d18940fab573ab2b920adef0ea2c3e5db85ae96912757172e94b93d28f0a057",
+  "started_utc": "2026-11-20T20:42:36.022957+00:00",
+  "completed_utc": "2026-11-20T20:42:40.467648+00:00",
+  "usage": {
+    "input_tokens": 7445,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "effe1e05549b0c87a7a97be3567578d46aaf168c71ba84ded28c28ed92cf6493",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d36e3ed9e5015a8d728389a6fb2c801ccf5242d5da23e95aa8f9337455086e2c"
+}

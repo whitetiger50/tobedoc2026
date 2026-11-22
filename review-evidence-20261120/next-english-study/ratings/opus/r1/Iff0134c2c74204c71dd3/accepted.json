@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Iff0134c2c74204c71dd3",
+  "ended": "2026-11-20T21:05:03.644836+00:00",
+  "session": "2f908573-9be3-47e3-a584-f48b4ddf7fd8",
+  "packet_sha256": "c5c5392f3a23b6c083dd925b61661c331a9b6e2c41d5e929b196fd2c2b58808b",
+  "raw_sha256": "4656e5441573e2fe4444a8a3857acb2014983901a6226b5ea61655679a75c391",
+  "provider_sha256": "e43b3d9ce1a11981f54604c05c4fc9881ce7d8ce8ecf174185f57505d1a08d79",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient sounds mostly natural and matches the persona. The tone is warm and matter-of-fact, answers to factual questions are short, and routine-anchored time markers like 'Thursdays' and 'Last Thursday' fit the clear-account style. The patient readily offers practical details about medication and the water bottle, and covers the past broadcast episode briefly while noting it was upsetting, as the guardedness profile predicts. Realism is reduced slightly because the answers are uniformly tidy and complete and often restate profile facts almost word for word. Examples include the pill organizer next to the kettle and the long-afternoons rationale, which comes out polished and a little forced. The answers also have almost no hesitation, hedging or personal colour beyond the scripted facts. These are minor issues and do not seriously undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "No, not much—just the odd line when there’s traffic or other noise."
+    },
+    {
+      "turn": 6,
+      "quote": "I keep the pill organizer next to the kettle, so it’s easy to remember."
+    },
+    {
+      "turn": 11,
+      "quote": "That was upsetting, but now they just sound like ordinary broadcasts."
+    },
+    {
+      "turn": 12,
+      "quote": "long afternoons at the kitchen don’t leave me much time to listen to my stories at home"
+    }
+  ]
+}

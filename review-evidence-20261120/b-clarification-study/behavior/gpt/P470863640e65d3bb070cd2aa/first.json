@@ -1,0 +1,89 @@
+{
+  "id": "P470863640e65d3bb070cd2aa",
+  "reader": "gpt",
+  "session": "01a1fc42-4a8e-71c1-86d0-4193a863eb1f",
+  "attempt": "attempt-01",
+  "packet_sha256": "e89c6e47f725470094107f101495895af276631eba457a9485428880d0a5493d",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "04257bbcbcca44e180d6fe9164bfd5e47cf69493f35267778133536d1456985a",
+  "raw_sha256": "f1458004bd38c06b735e005135db433f387e38dfa281f913361d12fb0c394925",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the appointment",
+        "reason": "Both visits remain possible referents, and the earlier answer about taking the bus to both does not resolve their different accompaniment arrangements.",
+        "alternatives": [
+          {
+            "meaning": "The optician appointment",
+            "answer": "Taylor’s sister accompanied Taylor."
+          },
+          {
+            "meaning": "The care coordinator appointment",
+            "answer": "Taylor attended alone."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the old one",
+        "reason": "The old badge and old locker key are both live referents, but only the badge was returned.",
+        "alternatives": [
+          {
+            "meaning": "The old ID badge",
+            "answer": "Cameron handed back the cracked badge."
+          },
+          {
+            "meaning": "The old locker key",
+            "answer": "Cameron lost the key and could not hand it back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over",
+        "reason": "Sam knows both Inez and Pat are women, and neither the question nor the preceding exchange uniquely identifies which woman is meant.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez came to Sam’s flat",
+            "answer": "Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat came to Sam’s flat",
+            "answer": "Pat helped at the repair café and did not come to the flat."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "done by six that evening",
+        "reason": "The question could concern either activity, but both finished by six, so the timing answer is materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class was finished by six",
+            "answer": "The cooking class finished by six in the evening."
+          },
+          {
+            "meaning": "Whether the swimming lesson was finished by six",
+            "answer": "The swimming lesson finished by six in the evening."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:42.131203+00:00"
+}

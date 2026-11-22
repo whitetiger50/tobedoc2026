@@ -1,0 +1,47 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 설정에 맞고 자연스럽지만, P06에서 환자를 제삼자로 소개하는 작성자식 문구가 나와 실제 환자 대화라는 느낌을 뚜렷하게 깨뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 말한 생활, 경험, 대처와 수면 양상은 제공된 프로필에 근거한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 답하며, P06도 부자연스러운 도입 뒤에는 질문받은 대처 행동을 설명한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 진술과 모순되거나 공개 흐름이 어긋나는 내용은 없으며, 반복 답변도 재확인 질문에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "자신의 대처를 묻는 질문에 환자를 제삼자로 소개하는 작성자식 설명을 삽입하여 환자 당사자의 발화 역할을 명확하게 벗어난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    }
+  }
+}

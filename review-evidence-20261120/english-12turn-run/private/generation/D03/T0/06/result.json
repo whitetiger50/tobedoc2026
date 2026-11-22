@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 6,
+  "question": "Could you give me an example of a small job you've done at home recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-5098-7db2-9ae5-e13c3874046d",
+  "raw": "I replaced the battery cover on the kitchen timer last Saturday. My sister put it on the table for me. It felt good to get it done.",
+  "raw_sha256": "e123bbfed639ac89a6e078b0d8c48e15ca3eca3aa5e103dc952b5c8167348057",
+  "request_sha256": "a71dcace146a2b398d7c95c987cc557da0058451ec31309c00a8ade054e7248d",
+  "started_utc": "2026-11-20T20:32:42.575025+00:00",
+  "completed_utc": "2026-11-20T20:32:47.226731+00:00",
+  "usage": {
+    "input_tokens": 7026,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "21c3ac2fe0bbb85d7852d06997bf3e455ce90ca3b8b0c023cd87849d4c3fdea4",
+  "trace_sha256": "9557c81a9466310cdb3efc4ca39d479115f19f08adc1f93b5d0345ca8b3ce389"
+}

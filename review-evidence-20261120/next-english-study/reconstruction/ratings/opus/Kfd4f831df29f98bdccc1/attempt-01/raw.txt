@@ -1,0 +1,17 @@
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says twice that the arm ache after the injection is usually gone by the next morning. Nothing they say suggests it lasts into the morning.",
+    "citations": [
+      {"turn": 7, "role": "patient", "quote": "but it’s fine by morning", "supports": "B"},
+      {"turn": 11, "role": "patient", "quote": "It’s usually fine the next morning.", "supports": "B"}
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient tentatively suggests choosing where to go the night before, which is the evening before the trip. They never mention choosing after setting out.",
+    "citations": [
+      {"turn": 12, "role": "patient", "quote": "Maybe choose where the night before.", "supports": "A"}
+    ]
+  }
+}

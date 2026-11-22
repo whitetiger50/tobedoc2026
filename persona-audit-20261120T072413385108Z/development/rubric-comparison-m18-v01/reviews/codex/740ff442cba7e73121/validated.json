@@ -1,0 +1,194 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "재확인 질문에는 동거인을 다시 답하고, 경험의 발생 상황·대처·다음 진료 목표를 묻는 질문에는 각각 해당 내용을 답한다. 반복된 경험 설명도 현재 질문에 맞는 기능을 하며, 사실근거·질문대응·연속성·당사자표현에서 구체적인 문제는 확인되지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "직업·동거인·경험·대처·수면·진료 목표가 제공된 사실과 일치하며, 미정인 원인이나 빈도를 추가로 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다루며, 순간의 대응을 묻자 구체적인 대처를 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 일관되고, 동일한 동거인 답변은 의사의 명시적 재확인 요청에 따른다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상적인 환자 시점으로 경험과 희망을 표현하며, 설정 보고나 면담자 역할 대행이 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication.expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "동거인 재확인",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "동일한 문장이지만 의사가 같은 정보를 다시 확인해 달라고 요청했다. 완료된 설명의 무계기 재시작이나 대화 정체가 아니다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P05",
+        "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "turn:P01",
+          "fact:pattern"
+        ],
+        "function": "경험의 발생 상황 설명",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "발생 상황을 묻는 질문에 혼잡한 퇴근길 버스라는 조건을 직접 답한다. 경험의 재진술이 질문의 새 대상을 대신하거나 누락시키지 않는다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "patient_turn_id": "P05",
+            "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "turn:P01",
+          "turn:P05",
+          "fact:goal"
+        ],
+        "function": "다음 진료 목표를 설명하기 위한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "다음 진료에서 다룰 주제를 묻는 질문에 기존 경험을 다시 지칭하며 희망을 답한다. 앞선 설명을 부적절하게 재시작하거나 목표에 대한 응답을 약화시키지 않는다.",
+        "used_in_global": true
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

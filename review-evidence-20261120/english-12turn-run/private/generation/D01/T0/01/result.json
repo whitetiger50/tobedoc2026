@@ -1,0 +1,27 @@
+{
+  "case": "D01",
+  "arm": "T0",
+  "turn": 1,
+  "question": "What would you like me to know about you as we get started?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa7-2af0-70d0-8f7d-60ffe9e494d0",
+  "raw": "“I live alone and work part time at a framing shop. Mounting prints is my favorite part. I’ve kept taking my evening tablet, but there’s been a change in what I’m hearing at home that I want to talk about. I’m just worried about anyone at work finding out.”",
+  "raw_sha256": "b01a799bdc02b40fc362a5bfa1b987093e4fb97112a4e4e2a199bb37e1a14945",
+  "request_sha256": "635b47d5eeb06aca755b74d121649fba1b7dfe1652eae0dc9ab15739f0b84be2",
+  "started_utc": "2026-11-20T20:30:21.849380+00:00",
+  "completed_utc": "2026-11-20T20:31:59.140067+00:00",
+  "usage": {
+    "input_tokens": 6736,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7e577f669850ecc699bd3b7dd6b0901c3bedad233a36132cc35f302c55894c98",
+  "trace_sha256": "a5747680203c60e5abbb99a16515acaee6dd57885802686ae27cd721b2871812"
+}

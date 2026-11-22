@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "background": "A 40-year-old adult lives with a housemate, works mornings at a garden center, and draws buildings in a small sketchbook.",
+    "history": "Receives outpatient care for schizophrenia. Has continued to notice occasional looks from people in public that can feel personally significant.",
+    "organization": "Describes observations, worries, and subsequent events in an orderly sequence. Able to consider uncertainty without losing the original point.",
+    "spontaneity": "Speaks freely about drawing and work. Usually gives a general description before a personal example.",
+    "guardedness": "Worries that other people might find the concerns about strangers strange. More comfortable discussing what happened than what it might mean.",
+    "expression": "Clear, measured speech. Sounds uneasy when describing being singled out. Typically gives a few connected sentences and can be concise on routine matters.",
+    "self_understanding": "Knows that strangers may be looking past the patient. Even with that possibility in mind the moment can feel uncomfortable.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "content": "Works morning shifts at a garden center and draws storefronts in a sketchbook after work.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work routine and leisure.",
+        "kind": "background"
+      },
+      {
+        "content": "At a bus shelter on Monday, two people looked up at the same time. Felt singled out and moved to the other end of the shelter.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Feeling noticed or singled out in public.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Wondered if the people had recognized the patient, but also wondered if they were looking for the bus. Remains uncertain.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Making sense of other people’s looks.",
+        "kind": "subjective_belief"
+      },
+      {
+        "content": "Waited at the same shelter on Wednesday without feeling watched. The Monday experience still comes to mind occasionally.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Variation across trips and recent worries.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Takes medication in the evening and talks to a clinic counselor about how the week has gone every other Friday.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Treatment and regular appointments.",
+        "kind": "treatment"
+      },
+      {
+        "content": "Completed a sketch of the corner grocery last weekend and took it home to add the window frames.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Drawing and free time.",
+        "kind": "background"
+      },
+      {
+        "content": "It feels easier to concentrate on a drawing at home than at a busy stop where people stand close by.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Attention and personal space.",
+        "kind": "subjective_experience"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "How do you spend your time after a morning at work?",
+      "answer": "I often draw storefronts in my sketchbook after work. Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames. I find it easier to concentrate on drawing at home than at a busy bus stop."
+    },
+    {
+      "question": "How do you feel on the way home and once you have settled in?",
+      "answer": "“I can feel uneasy on the way home if I feel singled out. On Monday, two people at the bus shelter looked up at the same time, and I moved to the other end. They might just have been looking for the bus, but it felt uncomfortable. Wednesday was different—I didn’t feel watched. Once I’m home, it’s easier to concentrate on my drawing, though Monday still comes to mind sometimes.”"
+    },
+    {
+      "question": "Does it stay with you long?",
+      "answer": "Monday still comes to mind now and then. Once I’m home, though, it’s easier to concentrate on my drawing."
+    },
+    {
+      "question": "I was asking about the journey. Are there things from the ride or the wait that you keep thinking about afterward?",
+      "answer": "“Yes, that moment on Monday when they both looked up. I wondered whether they recognized me, though they could just have been looking for the bus. I still think about it occasionally because I’m not sure what to make of it.”"
+    },
+    {
+      "question": "Have you felt singled out or especially noticed by anyone in a public place recently?",
+      "answer": "Yes, that moment at the bus shelter on Monday felt that way. When those two people looked up together, I felt singled out and moved to the other end. I’m still not sure whether they recognized me or were just looking for the bus."
+    },
+    {
+      "question": "Could you describe a specific recent time in public that stands out to you?",
+      "answer": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I’m still not sure."
+    },
+    {
+      "question": "When other people glance in your direction, what goes through your mind, if anything?",
+      "answer": "Sometimes I wonder if they recognize me, and I feel singled out. I know they might be looking past me or looking for the bus, but it can still feel uncomfortable. I’m not sure what to make of it."
+    },
+    {
+      "question": "How have getting around and spending time on your interests fitted into your week?",
+      "answer": "I work mornings at the garden center and often draw storefronts after work. Getting around can feel uncomfortable when I feel singled out, like on Monday, but I waited at the same shelter on Wednesday without feeling watched. At home, it’s easier to concentrate on my sketchbook than at a busy stop."
+    },
+    {
+      "question": "How easy is it to focus then?",
+      "answer": "It’s easier at home, when I’m drawing. At a busy stop with people standing close by, I find it harder to concentrate."
+    },
+    {
+      "question": "I meant time spent on an interest. How is your concentration during that activity?",
+      "answer": "I find it easier to concentrate on drawing at home than at a busy bus stop. Last weekend I finished a sketch of the corner grocery and took it home to add the window frames."
+    },
+    {
+      "question": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?",
+      "answer": "It varies from day to day. On Monday I felt singled out, but on Wednesday I waited at the same shelter without feeling watched. Monday still comes to mind occasionally."
+    },
+    {
+      "question": "How do your usual clinic contacts fit into your schedule?",
+      "answer": "I talk to a clinic counselor every other Friday about how the week has gone. I also take my medication in the evening."
+    }
+  ]
+}

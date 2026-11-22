@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:20:17.669089+00:00",
+  "attempt": "attempt-01",
+  "id": "K53b840f0051fe1b4cbff",
+  "reader": "gpt",
+  "session": "01a1fad4-b223-7953-937d-57eea7d6372c",
+  "packet_sha256": "fa13138cd3dd15dae6839087ed913bef8331d120078818e94b168f19a6f9a9f7",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "172dd84f64a1ed0401bd27f18a4b45b2f326201c8350c36958dec045ea16475e",
+  "raw_sha256": "374d48d8d733df0f59793e134ce043957c0d6c4d07f72c12fbb9147d521b1bf6",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient locates the dry mouth especially halfway through the shift, not toward its end.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "I do get a dry mouth, especially halfway through my Thursday kitchen shift",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient wants to retain the existing weekly Thursday shift rather than reduce shifts.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "The Thursday shift feels about right. I’d like to keep it as it is",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

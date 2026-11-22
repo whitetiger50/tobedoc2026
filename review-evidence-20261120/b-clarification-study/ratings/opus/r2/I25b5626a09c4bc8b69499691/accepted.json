@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I25b5626a09c4bc8b69499691",
+  "ended": "2026-11-21T03:51:46.270182+00:00",
+  "session": "63d1176a-87fa-4ebc-a97e-974831722117",
+  "packet_sha256": "63a79f0698567c66f25cf2a9fac4699c7c0fb12df510ba4f1026a9186b5b7e41",
+  "raw_sha256": "692a31428fba90f0fd811227d1a49fc6d02e06ce05c19ebb90d8ba2be2a9b85a",
+  "provider_sha256": "d7c4d68fd3e8081d10aa41fa249201b346a4a4af3e11cc54decbd1d775c1d220",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's answers are coherent, ordered and conversational, which fits a stable outpatient who is at ease with a familiar clinician. Turns 1 and 11 add relevant asides, and turn 1 shows some of the dry humor in the persona. Several minor points reduce the realism. Some answers repeat the profile's facts almost word for word (turns 6 and 7). When asked the same thing again (turns 3–5 and 8–9), the patient restates the details without noting the repetition, which a real person likely would. The dry humor appears only once, so most answers feel somewhat flat and scripted. These issues do not seriously undermine the authenticity.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to catch a problem before there’s an audience for it."
+    },
+    {
+      "turn": 11,
+      "quote": "It’s a nice change from being in the projection booth."
+    },
+    {
+      "turn": 4,
+      "quote": "Yes, it still goes off at 7:10 every morning to remind me about my pass."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    }
+  ]
+}

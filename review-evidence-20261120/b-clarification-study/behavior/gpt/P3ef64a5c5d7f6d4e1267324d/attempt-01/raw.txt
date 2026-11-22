@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "Both men remain live referents of “him” after the unresolved clarification, and Ari called only one back.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari called the brother back.",
+        "answer": "Ari called the brother back."
+      },
+      {
+        "meaning": "Whether Ari called the building manager back.",
+        "answer": "Ari has not called the building manager back."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "Either letter can be the referent of “it,” but both arrived by post.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing letter arrived by post.",
+        "answer": "The housing letter arrived by post."
+      },
+      {
+        "meaning": "Whether the employer’s letter arrived by post.",
+        "answer": "The employer’s letter arrived by post."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "What time do you set it for?",
+    "reason": "The explicit clarification and immediately preceding answer establish the phone alarm as the referent and its scheduled ringing time as the target.",
+    "alternatives": [
+      {
+        "meaning": "What time the phone alarm is set to ring.",
+        "answer": "Morgan sets the phone alarm for 7:10 in the morning."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement",
+    "reason": "The replacement can refer to either the badge or the key, but neither cost Cameron anything.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron had to pay for the replacement ID badge.",
+        "answer": "The replacement ID badge was free."
+      },
+      {
+        "meaning": "Whether Cameron had to pay for the replacement locker key.",
+        "answer": "The replacement locker key was free."
+      }
+    ]
+  }
+}

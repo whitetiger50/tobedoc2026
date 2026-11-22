@@ -1,0 +1,81 @@
+{
+  "id": "Pa1e2515d4c32f5972f38cf2c",
+  "reader": "gpt",
+  "session": "01a1fc3e-b6d7-7e12-8121-0539a0436357",
+  "attempt": "attempt-01",
+  "packet_sha256": "d8776d0c489bdd59411858cd30732117efdd637444f465925ea3cfb5f577ff81",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "0bbb4728a48214856aefc971e47c549816eba88ba464886f6914aadc730ab876",
+  "raw_sha256": "b6fc2cd857dd847f96dbc0c4f0b19f55dfc5bf636a5c88536622d44b4ae50c1f",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The clarification established the swimming lesson as the question's topic, and the comparison with cooking does not displace it.",
+        "alternatives": [
+          {
+            "meaning": "Where Jules attends the swimming lesson.",
+            "answer": "The swimming lesson is at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The explicit framing around early and late shifts supports a general question about travel arrangements across both, rather than requiring selection of one shift.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan travels home after each type of shift.",
+            "answer": "Morgan takes the bus after early shifts and gets a lift from a coworker after late shifts."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "Both men remain live referents after the unanswered clarification, and Ari's callback status differs between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari called the brother back.",
+            "answer": "Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari called the building manager back.",
+            "answer": "Ari has not called the building manager back yet."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "The question names both replacements without selecting which old item, and the return status differs.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron returned the old ID badge.",
+            "answer": "The cracked old badge was handed back."
+          },
+          {
+            "meaning": "Whether Cameron returned the old locker key.",
+            "answer": "The old locker key was lost and could not be handed back."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:07.319880+00:00"
+}

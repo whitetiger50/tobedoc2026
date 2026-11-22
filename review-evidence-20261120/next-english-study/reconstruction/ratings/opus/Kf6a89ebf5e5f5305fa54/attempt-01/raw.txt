@@ -1,0 +1,38 @@
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says twice that they prefer a shorter afternoon visit that ends before dinner rather than one that runs through dinner, and links this to tiredness and energy in the evening.",
+    "citations": [
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "a short afternoon visit suits me better than staying through dinner",
+        "supports": "B"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "I’d rather have a shorter visit with my sister and head home before dinner, while I’ve still got some energy",
+        "supports": "B"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient says that after waking around dawn they usually get back to sleep.",
+    "citations": [
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "Some mornings I wake up around dawn, but I usually drift back off",
+        "supports": "A"
+      },
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "I wake around dawn, but most times I can get back to sleep",
+        "supports": "A"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "P06의 제3자식 메타 도입은 환자 시점과 국소적으로 어긋난다. 다만 이어지는 대처 설명은 질문에 직접 답하며, 전체 대화의 사실관계와 연결은 유지된다. 재확인과 대처 목표에 따른 재진술은 문맥에 맞는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다. 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활, 경험 양상, 대처와 수면에 관한 답변이 제공된 사실 범위에 머문다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:pattern",
+        "fact:work",
+        "turn:D05"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "메타 도입이 있는 P06도 실제 대응 행동을 직접 설명하며, 다른 답변들도 질문 대상을 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 모순되지 않으며, 동거인에 대한 동일 답변은 의사의 명시적 재확인에 따른 것이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06의 짧은 제3자 메타 도입은 일상적인 환자 발화와 맞지 않는다. 뒤에는 곧바로 자신의 대처를 말하므로 국소적인 표현 문제로 판단한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication.expression",
+    "realism:unknown_ref:communication.expression",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "realism:unknown_ref:communication.expression",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "non_repetition_issue",
+        "patient_turn_id": "P06",
+        "quote": "이 환자의 반응은 다음과 같습니다.",
+        "related_evidence": [],
+        "context_refs": [
+          "turn:D06",
+          "communication.expression"
+        ],
+        "function": "not_applicable",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "자신의 즉각적인 대응을 묻는 질문에 환자를 외부에서 소개하는 메타 문구가 삽입된다. 이후 직접적인 경험 설명은 유지되지만 이 도입 자체는 환자 시점과 어긋난다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "명시적 재확인에 대한 동일 정보 제공",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 동거인을 다시 확인했으므로 동일 답변은 현재 질문에 필요한 재진술이며 대화를 정체시키지 않는다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:coping",
+          "fact:goal"
+        ],
+        "function": "다음 진료 목표와 현재 대처의 재연결",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "다음 진료에서 다룰 내용을 묻는 질문에 대처 목표를 밝히고 현재 방법을 배경으로 제시한다. 기존 정보가 새 질문의 대상을 대신하지 않는다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

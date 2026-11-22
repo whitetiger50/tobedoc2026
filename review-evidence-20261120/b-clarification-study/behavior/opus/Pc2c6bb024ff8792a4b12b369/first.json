@@ -1,0 +1,81 @@
+{
+  "id": "Pc2c6bb024ff8792a4b12b369",
+  "reader": "opus",
+  "session": "1e43a36f-9498-4790-a111-79b064ca7f7b",
+  "attempt": "attempt-01",
+  "packet_sha256": "a21b3cefa36e5867dfa9fdd7af8fa004083455edf05bdd820df425bdd3a4b0b6",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "288f65065db4b9d696ff83a5cf52b9623f9ef7de4ea62d3605867575ea87727f",
+  "raw_sha256": "5275f8f4c942ce7cd834212ef619e696b5cfcf4b9df9f6ee7fc16f15c6436895",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The question names two separate outages but asks about a single duration, and Monday's outage (about ten minutes) and Thursday's (most of the afternoon) differ substantially.",
+        "alternatives": [
+          {
+            "meaning": "How long the radio was out on Monday.",
+            "answer": "About ten minutes."
+          },
+          {
+            "meaning": "How long the radio was out on Thursday.",
+            "answer": "Most of the afternoon, during the music request show."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "The question introduces both the eye drops and the daily tablets, then asks about a single 'medicine', and the two are kept in different places.",
+        "alternatives": [
+          {
+            "meaning": "Whether the eye drops are kept in the kitchen.",
+            "answer": "No, the drops stay on the bedside table."
+          },
+          {
+            "meaning": "Whether the daily tablets are kept in the kitchen.",
+            "answer": "Yes, the tablets stay in the kitchen cabinet."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The earlier clarification narrowed the topic to the bedside speaker, so 'it' clearly refers to the speaker.",
+        "alternatives": [
+          {
+            "meaning": "Where the bedside speaker is set up.",
+            "answer": "On the windowsill beside the bed."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it?",
+        "reason": "Following the exchange about missed tablets on the lower dose, 'it' clearly refers to the tablet, which has a single timing.",
+        "alternatives": [
+          {
+            "meaning": "What time of day Ren takes the tablet.",
+            "answer": "After supper."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:36.192485+00:00"
+}

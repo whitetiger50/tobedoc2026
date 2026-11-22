@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "C3e2f403b94dcc0aeda63",
+  "ended": "2026-11-21T03:36:26.158010+00:00",
+  "session": "966e5746-40db-4bd4-a3e6-8583c9200b17",
+  "packet_sha256": "d754dc684d8b24b6175e75b07cbffa340f9c19ecbc8b6d5ac6cc8cda7332ab55",
+  "raw_sha256": "2a3589fb71ab34a394f25fd96cbf09abf4ada46f3d6128e9a56c13660bd96d2d",
+  "provider_sha256": "24ae4aaeb7af623c6506a11332a2e59a282df68e861a77b2f2835ba4dd37edc9",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Taken one at a time, the answers sound natural and fit the persona. The patient separates what was said from what it seemed to imply, recognizes other interpretations, is mildly hesitant ('Um'), relaxes when talking about folding paper, and is cautious about housemates and coworkers. As a conversation, though, many answers don't respond to the question asked. They seem shifted to other turns. For example, 'How do you get home after a shift?' is answered with 'One of my housemates', and the final 'What have we missed' question gets a time-of-day answer. At turn 8 the patient says the main thing is covered when it isn't. The sensitive bus disclosure also comes very early (turn 2), despite the profile's guardedness. These mismatches make the dialogue feel disconnected and only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I know they could’ve just been talking about where they were getting off."
+    },
+    {
+      "turn": 5,
+      "quote": "One of my housemates."
+    },
+    {
+      "turn": 8,
+      "quote": "I think we’ve covered the main thing."
+    },
+    {
+      "turn": 10,
+      "quote": "I’d rather my housemates or people at work didn’t hear about it."
+    },
+    {
+      "turn": 12,
+      "quote": "Mostly in the evening, coming home from work."
+    }
+  ]
+}

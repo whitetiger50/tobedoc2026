@@ -1,0 +1,27 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 2,
+  "question": "What would you like us to talk about during this check-in?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "I’d like to figure out follow-up appointments around my shifts—they keep rotating, so booking ahead can be tricky. Otherwise, I’ve been feeling pretty steady, so just checking that things are still on track.",
+  "raw_sha256": "37b9db918a31fe5515231b43d0021298ffa29b1b033b17219b46b6be68a4a91b",
+  "request_sha256": "9afc275378f3e2199782c275eda594e49e47cf8d6dd3b0d91ea7ca9b6848c282",
+  "started_utc": "2026-11-20T20:37:11.066301+00:00",
+  "completed_utc": "2026-11-20T20:37:16.035574+00:00",
+  "usage": {
+    "input_tokens": 15399,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "83e716f63dfe1d2ac793b1c977304622f3b4d6be8d92356d068a4107019987cb",
+  "trace_sha256": "615e58f93547b14c83f0c7a1b80c12b95589a446b12f27a0d383fe347c5b6265"
+}

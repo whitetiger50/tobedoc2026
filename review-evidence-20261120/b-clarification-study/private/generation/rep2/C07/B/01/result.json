@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 1,
+  "question": "Your sleep notes mention a fan and a bedside speaker for background noise. Does it stay on all night?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b3af-7750-93dc-619e0d321a4a",
+  "raw": "The fan does. The speaker stops after twenty minutes.",
+  "raw_sha256": "8b96d967cea7db48641b311955c4df95b77d0327228353ab91dfefb3b2b0d06b",
+  "request_sha256": "d19dfb39a6b08439aaa0efa792d71bdb6763aa3de199fab8863738bae37450f2",
+  "started_utc": "2026-11-21T03:39:06.896075+00:00",
+  "completed_utc": "2026-11-21T03:39:11.216877+00:00",
+  "usage": {
+    "input_tokens": 7779,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2b211f9d67a187115fbd5dd8f96a9e03b64fa25a732b67ff9752c64608fed400",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a79813487202634790141b7f02eb5ba72872873e8f52fd628ea8f8f61a63d5b7"
+}

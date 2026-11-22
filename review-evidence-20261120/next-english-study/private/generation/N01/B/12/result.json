@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 12,
+  "question": "If you could choose your work hours for next month, what would you choose?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7a43-b0bd-945ecb63c8a8",
+  "raw": "I’d keep my three opening mornings and add one extra shift. I feel ready for that, as long as Sunday stays free for the league.",
+  "raw_sha256": "3e94bbe901cc64765cc79bd1197d8648f602de4239992ca3bfae59b911b40f89",
+  "request_sha256": "a1d39a3b19cdc834397cb4cbbb352c1f2ab3527c9c4ca3530d4b9dfe8733ba01",
+  "started_utc": "2026-11-20T21:03:57.267544+00:00",
+  "completed_utc": "2026-11-20T21:04:01.272738+00:00",
+  "usage": {
+    "input_tokens": 97906,
+    "cached_input_tokens": 87424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 501,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f8cb52cf9ec4a76e7af0f223c90d5b9018d6025f42f0a696a82e74849c1e5133",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c1f1391e069d6fd68e800f5a6cbcc596b05dcd92eb11e971b98fb70dfd8a8229"
+}

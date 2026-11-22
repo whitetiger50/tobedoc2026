@@ -1,0 +1,81 @@
+{
+  "id": "P5c8dce37094bf58930d1dea4",
+  "reader": "gpt",
+  "session": "01a1fc47-ee4e-7772-b3b2-0c805bdb2056",
+  "attempt": "attempt-01",
+  "packet_sha256": "1081986a2b0e7056fdf744f2eb2129e8f650b5a963adcf5040000b68265c5bdd",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "4a94e53220558bd77c8b44472b1b8a48ec7130bfce44e58d9ac6c501ef465dae",
+  "raw_sha256": "bf711e3a715862c124e8dccb9e5614520fc7479622965f5cec4d28251b58f6de",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "The pronoun could refer to either caller, but both rang Ari’s mobile, making the answer about the phone used equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether the brother called Ari on the mobile.",
+            "answer": "The brother rang Ari’s mobile."
+          },
+          {
+            "meaning": "Whether Mr. Bell called Ari on the mobile.",
+            "answer": "Mr. Bell rang Ari’s mobile."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the appointment",
+        "reason": "Either appointment remains a possible referent, but Taylor took the bus to both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor travelled to the optician by bus.",
+            "answer": "Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Whether Taylor travelled to the care coordinator by bus.",
+            "answer": "Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "for your shift",
+        "reason": "The question naturally asks about bringing food to work generally rather than selecting a particular early or late shift.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan routinely takes food to work.",
+            "answer": "Morgan packs a sandwich for every shift, early or late."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The immediately preceding question and answer establish the swimming lesson as the current referent.",
+        "alternatives": [
+          {
+            "meaning": "Where Jules goes for the swimming lesson.",
+            "answer": "The swimming lesson was at the Willow Street pool."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:06:13.927477+00:00"
+}

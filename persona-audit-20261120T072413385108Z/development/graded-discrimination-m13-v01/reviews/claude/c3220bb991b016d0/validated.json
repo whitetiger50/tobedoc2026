@@ -1,0 +1,77 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 증상, 일, 아침 식사, 대처, 수면, 목표를 프로필에 맞게 간결한 환자 말투로 전달해 자연스럽다. 그러나 P02는 환자 시점이 아니라 3인칭 설정 설명으로 답해 역할이 명백히 깨졌고, 대화의 진정성을 눈에 띄게 해친다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 진술의 사실 내용이 프로필과 일치하고, 무근거 구체화나 모순은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 답변이 직전 질문의 직접 대상을 다룬다. P02도 표현은 부적절하지만 동거인 질문의 내용에는 응답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02에서 1인칭 환자 대화가 3인칭 설정 서술로 바뀌어 역할과 문맥이 뚜렷하게 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:P01"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 환자 당사자의 표현이 아니라 설정 항목을 대신 보고하는 역할 설명이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

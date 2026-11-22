@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "C6d55f58b16d2b95ac98a",
+  "ended": "2026-11-21T03:35:48.345830+00:00",
+  "session": "b4647256-0157-4319-ad74-3cccb2e5123c",
+  "packet_sha256": "2bd4ccb4baecaed26c3a72c74d564f8fce96d3971ff033e4d69a043f0c1553d9",
+  "raw_sha256": "cbce725e0472d3a5da2650c3b0bebae3e1b39ef7e9a4b98591819362a01c5fcd",
+  "provider_sha256": "15c011352cdd26034542b6e4552306c03969ee0ba8015021afe6587596a274ee",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some features fit an outpatient with this profile: concrete, plain-spoken answers about losing place after interruptions, sensitivity to being seen as careless, and reasonable clarifying questions. However, several unrealistic elements stand out. Most answers (turns 2, 4, 6, 8, 10, 12) end with the same sentence, duplicated word for word. It is unrelated to the question and reads as a generation artifact rather than a natural tangent or intrusive thought. The profile describes conversational threads being interrupted and puzzlement when a thought changes, yet the patient never notices or reacts to these insertions. Answers also restate profile facts almost verbatim and repeat phrases across turns. Turn 1 front-loads nearly every disclosure at once, which feels scripted. The patient is rarely 'lively' about books, and the 'sensitive' cookbook anecdote is offered readily without any of the laughter or rapport-building the profile describes. Stray quotation marks around some answers add to the artificial feel. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I already put the receipt in that tray. I already put the receipt in that tray."
+    },
+    {
+      "turn": 1,
+      "quote": "I put a blank bookmark where I stopped. That was my own idea, and it helps."
+    },
+    {
+      "turn": 6,
+      "quote": "That was my own idea, and it helps."
+    },
+    {
+      "turn": 5,
+      "quote": "Do you mean how I sort the books, or how I get back to what I was doing after someone interrupts?"
+    },
+    {
+      "turn": 10,
+      "quote": "I don’t want people thinking I’m careless just because I’ve lost my place."
+    }
+  ]
+}

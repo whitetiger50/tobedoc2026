@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 6,
+  "question": "Could you give me an example of something you needed to remember before a recent outing?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-7602-7ca1-bec4-d8282b31168c",
+  "raw": "“Last week I needed to remember the clean bibs for the walking group. I’d put them by the door, but then I got busy looking for my bus card, and my friend reminded me to take the bag. All that washing, and I nearly went without them! I’d have felt bad keeping everyone waiting. The card’s in the bag’s pocket now, so I can pick them up together.”",
+  "raw_sha256": "97ca1501018c16134f9d91192274c1efeb4d90cb6a59290d607529e2353d5091",
+  "request_sha256": "d1930460ff85591f379a40400d87fc43ed931eb6ac066f25551c287d4c4b8144",
+  "started_utc": "2026-11-20T20:40:30.879259+00:00",
+  "completed_utc": "2026-11-20T20:40:36.011181+00:00",
+  "usage": {
+    "input_tokens": 7337,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bb91f2adfed40f03aad370c3f58e2670d9526c076e5f07cabda9f5b1c5008d2b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d5ff5b6da22fc6ccb59c6756025c48602098c61f383dc1db35ec2e4d88d18a80"
+}

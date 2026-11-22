@@ -1,0 +1,32 @@
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says the radio made the voice less distracting while sorting thread.",
+    "citations": [
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "it made the voice less distracting, and I was able to finish sorting the thread.",
+        "supports": "B"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "“Too slow” comments on pace, and the patient explicitly denies that the voice gave instructions.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "Two evenings last week, I heard a voice say ‘too slow’ while I was sorting my sewing supplies.",
+        "supports": "A"
+      },
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "It wasn’t telling me to do anything.",
+        "supports": "A"
+      }
+    ]
+  }
+}

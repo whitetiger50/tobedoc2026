@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "T1",
+  "turn": 7,
+  "question": "When something sounds unfamiliar, how do you decide where it might be coming from?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-dbf1-70b0-9677-5aee210997c7",
+  "raw": "“With the voice, I haven’t been able to place it. On Tuesday the room was empty, so I wondered whether my mind was supplying it, even though it sounded quite distinct.”",
+  "raw_sha256": "273acfa4a4e1261bdee7a62e669e486ca26464f009089a43e280fc51658d1488",
+  "request_sha256": "0104ebc336c5f2912d29e30f4424fc52c0f4d32da76d5da75e8b6b0c31127a0b",
+  "started_utc": "2026-11-20T20:40:56.973707+00:00",
+  "completed_utc": "2026-11-20T20:41:00.768094+00:00",
+  "usage": {
+    "input_tokens": 7332,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9361a392aa2c674f8dd1518e6a90aa377defb337f41cbaa8cfff66cb255e7461",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "453b1f71ce4613944247ea0c22c447839e8b420ff1657998deb1bdd9b8340c16"
+}

@@ -1,0 +1,21 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says that once inside the shop they start sorting without much trouble, which supports finding it fairly easy to get going.",
+    "citations": [
+      {
+        "turn": 6,
+        "role": "patient",
+        "quote": "Once I’m inside the shop, I get started sorting without much trouble.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "insufficient",
+    "reason": "The patient denies feeling that other passengers talk about them on recent trips, which rules out A. But the patient never says that nearby conversations seemed to be about unrelated things, so B is not established either.",
+    "citations": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 3,
+  "question": "Does it stay with you long?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac1-0640-7c83-a4cd-22b758694045",
+  "raw": "Monday still comes to mind now and then. Once I’m home, though, it’s easier to concentrate on my drawing.",
+  "raw_sha256": "f4cafb381fcf177234cdd3d8c323f386dd6b09d22a2dc6ea07c7ad1a17b20cd0",
+  "request_sha256": "86721dd0afea7a6674731911d80f49acd12af0f4d1698b84f033f42fd6d475a8",
+  "started_utc": "2026-11-20T20:58:36.382060+00:00",
+  "completed_utc": "2026-11-20T20:59:50.796151+00:00",
+  "usage": {
+    "input_tokens": 7197,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 187,
+    "reasoning_output_tokens": 156
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "93bb12a0f531b1b232cee6b080c361e63ae1fd7dbffdd6ce2b60e35ac000f779",
+  "https_fallback": false,
+  "websocket_handshake_retries": 2,
+  "trace_sha256": "0e3ebcb400525e339f8cdaac4e3cda219511d62e404978969f38095667c0d019"
+}

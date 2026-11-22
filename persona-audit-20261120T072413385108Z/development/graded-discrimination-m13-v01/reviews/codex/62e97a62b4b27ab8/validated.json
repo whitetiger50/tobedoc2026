@@ -1,0 +1,67 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 질문에 자연스럽게 답하고 설정된 경험과 일상을 일관되게 표현하지만, 거주 형태를 설명하는 한 문장이 일상적인 환자 말투보다 보고서식으로 들린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 언니와의 공동 거주에 해당합니다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "프로필의 사실과 주관적 경험을 유지하며 무근거한 구체적 사실을 추가하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 질문의 직접 대상에 맞게 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발언과 모순 없이 이어지며 경험의 반복 설명도 재질문에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인을 묻는 일상적인 질문에 거주 형태를 분류하는 듯한 불필요하게 격식적인 보고서식 표현을 사용한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 언니와의 공동 거주에 해당합니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

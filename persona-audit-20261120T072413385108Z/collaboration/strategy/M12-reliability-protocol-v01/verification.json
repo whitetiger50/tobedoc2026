@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-11-19T08:43:03.024813+00:00",
+  "actual_Claude_high_strategy_responses": [
+    {
+      "round": 1,
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "session": "169a163c-bf67-46fd-82dd-bb6b8e8ff49b",
+      "response_sha256": "4a845f4dbf7506f445731d38b654b755e87bf18124bfc51deacafcf36e98ce31"
+    },
+    {
+      "round": 2,
+      "model": "claude-opus-5-5",
+      "effort": "high",
+      "session": "1ef991cb-1a1f-4c9d-8267-673eac64d121",
+      "response_sha256": "cd740bc46ed8509fe87fa0876d611abcd6c12c66324504075e880a9c6b544eef"
+    }
+  ],
+  "actual_Astra_review_response_files": 2,
+  "Astra_requested_model": "gpt-6.2-astra",
+  "Astra_effort": "high",
+  "Astra_selection_evidence": "explicit spawn_agent model override and followup tosame agent; immutable backend snapshot not reported",
+  "initial_reviews_independent": true,
+  "followup_carries_actual_previous_criticism_and_Codex_counterarguments": true,
+  "reviewed_role_snapshot_preserved_final_changes_documented": true,
+  "new_patient_generation_calls": 0,
+  "new_numeric_ratings_in_strategy": 0,
+  "file_sha256": {
+    "collaboration/strategy/M12-reliability-protocol-v01/astra-round01.md": "04c73c380489d94b39bcd6345252b3dc637669eb7673911fd6c7dcc3f51593e5",
+    "collaboration/strategy/M12-reliability-protocol-v01/round02-freeze.json": "f00ec5f17e6416816e9e6aa7a0df5a721628264d615c6bbd47ea6955728f9916",
+    "collaboration/strategy/M12-reliability-protocol-v01/reviewed-role-round02.txt": "f9669f60e8f1823c886ce12a912c42c766ed292814262c195877243ed23d4e2f",
+    "collaboration/strategy/M12-reliability-protocol-v01/mentor-role.txt": "d9d995efd6cc9d8cf351b5dd79aa95e33608d33d5f36a7ef226125e47534f338",
+    "collaboration/strategy/M12-reliability-protocol-v01/codex-response-round01.md": "ea821e0b3e4077b79f0791ab38eb17c4dd9f11dbacae64f79424c5b51916f9b0",
+    "collaboration/strategy/M12-reliability-protocol-v01/round02-request.md": "0b119c087f198c44a7f65863827ff0cfed4e10ad4e2c368da6954bc2cd4c61ac",
+    "collaboration/strategy/M12-reliability-protocol-v01/design-review.md": "ea5f08abbc0a6f74b5395ff430911a415ed4edc66c5611ccdef72f20ccf0335a",
+    "collaboration/strategy/M12-reliability-protocol-v01/astra-round02.md": "f3900dd15d0efc54e781ebed82c7a4e5422dceb72b3dcb643444790dc7313606",
+    "collaboration/strategy/M12-reliability-protocol-v01/decision.md": "de18490ff2f9a82c0c6fbef6173a2711b617889488a847c56994ad7654de6ec2",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/response.txt": "4a845f4dbf7506f445731d38b654b755e87bf18124bfc51deacafcf36e98ce31",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/metadata.json": "56eb10ab95130b36bf287b22d7656fee44808c31c1e917a44abce685c7a3bc61",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/instructions.txt": "d9d995efd6cc9d8cf351b5dd79aa95e33608d33d5f36a7ef226125e47534f338",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/input.txt": "ea5f08abbc0a6f74b5395ff430911a415ed4edc66c5611ccdef72f20ccf0335a",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/started.json": "5eb9b64ffe84c8d38d73f9cc3eb13fe7c9a2e3df9e0e0f9ea7200fce95de31f0",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/command.json": "cf01483f2e96033264aba68b81b53815c96088e7786c5c24593ecd3421f20ae9",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round01/stdout.raw": "43d4f52bd61233774426061f0b4c7fd9f729f075d5465201b45993709ed3aa87",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/response.txt": "cd740bc46ed8509fe87fa0876d611abcd6c12c66324504075e880a9c6b544eef",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/stderr.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/metadata.json": "0d4de794dacbc45baaac5a6f0e05f4637bd1b8493e829ad15281661499aad5e8",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/instructions.txt": "d9d995efd6cc9d8cf351b5dd79aa95e33608d33d5f36a7ef226125e47534f338",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/input.txt": "0b119c087f198c44a7f65863827ff0cfed4e10ad4e2c368da6954bc2cd4c61ac",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/started.json": "0a75c1afa3655a6fa7d63e9f9398ab5695acfcc516b5ac67a91c4f3930ad4c29",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/command.json": "e4f3b07ba53d2ef3621439b361f17ce78887ef18fefd4303e2d05e065826b608",
+    "collaboration/strategy/M12-reliability-protocol-v01/claude-round02/stdout.raw": "1ff595ed6fc9332fc3a2c890618d8255e7b71752370f80c6b85788d69d82f173"
+  }
+}

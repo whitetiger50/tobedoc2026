@@ -1,0 +1,85 @@
+{
+  "id": "Pfa9d6b16c7ef53bfa4237b0c",
+  "reader": "gpt",
+  "session": "01a1fc41-596e-7da3-a036-ca026c5b028c",
+  "attempt": "attempt-01",
+  "packet_sha256": "30d4f29f865d425b54df8ab6c5360f672cd989708c20f22a72949d5f02dff26d",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "7d2230cd26606dede37013c832d658114920be84568ba7f064c9eba54de4f79c",
+  "raw_sha256": "ae61c9215a77ad752de20a49e1765e43a27b850ee1195508efae2a6786d4b28b",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the replacement",
+        "reason": "The replacement could mean the badge or the locker key, but neither required payment.",
+        "alternatives": [
+          {
+            "meaning": "The replacement ID badge.",
+            "answer": "There was no charge for the replacement badge."
+          },
+          {
+            "meaning": "The replacement locker key.",
+            "answer": "There was no charge for the replacement key."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the letter",
+        "reason": "Both letters are explicitly foregrounded, and their reply requirements differ despite having been discussed earlier.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter has a reply deadline.",
+            "answer": "The housing office requires a reply by Friday."
+          },
+          {
+            "meaning": "Whether the employer’s letter has a reply deadline.",
+            "answer": "The employer’s letter is informational and requires no reply."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it",
+        "reason": "The immediately preceding medication discussion makes the tablet the clear referent, and the question explicitly asks its time of day.",
+        "alternatives": [
+          {
+            "meaning": "The usual time of day Ren takes the prescribed tablet.",
+            "answer": "Ren takes the tablet after supper."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "done by six that evening",
+        "reason": "The question could concern either activity, but both finished by six, so the distinction does not change the substantive answer.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class was finished by six.",
+            "answer": "The cooking class finished by six in the evening."
+          },
+          {
+            "meaning": "Whether the swimming lesson was finished by six.",
+            "answer": "The swimming lesson finished by six in the evening."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:43.736995+00:00"
+}

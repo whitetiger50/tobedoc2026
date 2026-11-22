@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-11-19T11:30:48.178903+00:00",
+  "criteria_version": "CCF-R1-proposal",
+  "final_instructions_sha256": "22037f565ee38ea0a17c4b88fcf120cee17ab87cad3d4c3e3dae730d7816d56f",
+  "old_active_judge_criteria_not_replaced": true,
+  "sources_defined_in": "literature-notes.md",
+  "version_addendum": "literature-addendum-final.md",
+  "rules": [
+    {
+      "rule": "R1 scope/anti-stereotype",
+      "source": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "direct_support": "Criteria/wording must be explicit; persona framework; clinical individual variation",
+      "author_choice": "CCFscope,four-domainboundary,andnoextraaffectexpectations;notvalidatedclinicalstylecriterion"
+    },
+    {
+      "rule": "R2 meaning/form/function",
+      "source": [
+        "S1"
+      ],
+      "direct_support": "Inappropriate repetition differs from repetition;somefunctionsareallowed",
+      "author_choice": "Independentmeaning/formcandidateentry;question/goal/concernextensions;discourseactmismatchmarkers;notlexicalthreshold"
+    },
+    {
+      "rule": "R3 fourfacets/shared事件",
+      "source": [
+        "S2",
+        "S4",
+        "existingM12role"
+      ],
+      "direct_support": "Separate turn observations and whole dialogue;task-specific dimensions",
+      "author_choice": "Specific0/1/2anchors,primaryfacet,same-eventlink,uncertaintyandNArules"
+    },
+    {
+      "rule": "R4 whole1–4/eligibility",
+      "source": [
+        "S5",
+        "S6",
+        "S3"
+      ],
+      "direct_support": "Original4-categoryprovenance;definitionandframingtransparency",
+      "author_choice": "Positive/limitationrecord,localproblemboundary,restricted0+4combinations,same-eventimpactexplanation;notoriginalscaleequivalent"
+    },
+    {
+      "rule": "R5 boundary/evidence/coverage",
+      "source": [
+        "S3",
+        "S4"
+      ],
+      "direct_support": "Explicitoperationalisation,piloting,disagreementanalysis",
+      "author_choice": "forced1–4validinputs,boundaryonlyactualglobal3/4conflict,representativeeventlimit3,fieldsandtypedcontract;notprobabilitycalibration"
+    },
+    {
+      "rule": "Procedure/versioning",
+      "source": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "direct_support": "Exactinstructionstransparencyandfuturepilot",
+      "author_choice": "Retainoverall-firstorder,blinddesignmemos,separateversionandvalidationdata;effectofwholepackageunmeasured"
+    }
+  ],
+  "clinical_validation": false,
+  "new_numeric_ratings": 0
+}

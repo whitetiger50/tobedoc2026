@@ -1,0 +1,60 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 환자 턴은 프로필에 맞고 자연스럽습니다. 하지만 P02에서 환자가 자기 설정을 3인칭 서술로 설명해 역할이 깨지고 대화의 진정성이 뚜렷하게 떨어집니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 진술은 모두 프로필 사실과 자기이해 범위 안에 있습니다. 새 사건, 구체 시각이나 횟수를 확정한 부분이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 응답이 직전 의사 질문의 대상(불편, 동거인, 낮 활동, 아침 식사, 발생 상황, 대처, 수면, 다음 계획)에 직접 답합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02에서 환자 1인칭 대화가 설정 서술로 바뀌어 역할과 문맥이 뚜렷하게 깨집니다. P08의 목표 재진술은 직접 질문에 대한 답이므로 오류로 보지 않습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:P01"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 환자 시점의 말이 아니라 설정 항목을 보고서식 3인칭으로 대행한 역할 설명이어서 명확한 문제입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    }
+  }
+}

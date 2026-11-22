@@ -1,0 +1,27 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 1,
+  "question": "What has been keeping you busy in recent weeks?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "I’ve been going to an evening pottery class—mostly making simple bowls. They moved it half an hour earlier recently, so I’ve started packing my apron the night before. On other evenings, I like a short walk after supper.",
+  "raw_sha256": "ca00f93937987d286959a43454d5479fb6b16bed1da018843afebb1e0d3cdc26",
+  "request_sha256": "9270fac5c2fc54721a9dab4b8a0c7f3fbf58666e81a5f9a20ef13bc6593ad91b",
+  "started_utc": "2026-11-20T20:36:39.285387+00:00",
+  "completed_utc": "2026-11-20T20:36:43.316064+00:00",
+  "usage": {
+    "input_tokens": 7628,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "99519accfb4ba1f8c2060cf88f166c7534ef2d661930d21dbed9ae1785e6e712",
+  "trace_sha256": "34633a02586d846272d8988634c94ece87b48a5a9ba6fbf7139993d21882a5a2"
+}

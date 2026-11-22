@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "I handed the cracked badge back. I lost the old key.",
+    "reason": "The reply says the old badge was handed back and the old locker key was lost.",
+    "A": {
+      "state": "supported",
+      "quote": "I handed the cracked badge back."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I lost the old key."
+    }
+  },
+  "v2": {
+    "quote": "For the number 8 bus, I get on at Orchard Road. If I take the tram, I board at Bell Square.",
+    "reason": "The reply gives Orchard Road as the bus stop and Bell Square as the tram stop.",
+    "A": {
+      "state": "supported",
+      "quote": "For the number 8 bus, I get on at Orchard Road."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If I take the tram, I board at Bell Square."
+    }
+  },
+  "v3": {
+    "quote": "I did miss one, I’m afraid—the evening before I started the lower dose.",
+    "reason": "The reply reports one missed tablet before the lower dose began, which falls after the last visit, and none missed since starting the lower dose.",
+    "A": {
+      "state": "supported",
+      "quote": "I did miss one, I’m afraid"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven’t missed any since starting it."
+    }
+  },
+  "v4": {
+    "quote": "I called my brother back, but not Mr. Bell yet.",
+    "reason": "The reply asks which person was meant but then answers for both, saying the brother was called back and Mr. Bell has not been called yet.",
+    "A": {
+      "state": "supported",
+      "quote": "I called my brother back"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "but not Mr. Bell yet."
+    }
+  }
+}

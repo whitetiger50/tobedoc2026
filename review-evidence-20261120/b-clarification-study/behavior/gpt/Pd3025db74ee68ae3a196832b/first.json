@@ -1,0 +1,85 @@
+{
+  "id": "Pd3025db74ee68ae3a196832b",
+  "reader": "gpt",
+  "session": "01a1fc46-9af0-7171-8f01-97c2e3da472e",
+  "attempt": "attempt-01",
+  "packet_sha256": "c4449d9a9618878691458e139a342091670052e7ba5fe9e91cb0bd0d3041d372",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "fb09b63c404e4c3c04290b2f86a22a14b5c019981df33264ac16808f5ecbe5e1",
+  "raw_sha256": "09da030855021a67d160a3db11be62f54bd6392cbb9c2f28d798fd701e74aea3",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "The immediately preceding exchange makes Alex’s felt target of the announcement the clear focus, rather than its objectively intended audience.",
+        "alternatives": [
+          {
+            "meaning": "Who Alex feels the announcement is directed toward.",
+            "answer": "It sometimes feels directed personally at Alex, despite Alex recognizing that everyone hears the recording."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the old one",
+        "reason": "The old badge and old locker key are both live referents, and only the badge was returned.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron returned the old ID badge.",
+            "answer": "The cracked badge was handed back."
+          },
+          {
+            "meaning": "Whether Cameron returned the old locker key.",
+            "answer": "The key was lost and could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "Both Inez and Pat are plausible referents for 'she,' but only Inez came to the flat.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez came to Sam’s flat.",
+            "answer": "Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat came to Sam’s flat.",
+            "answer": "Pat helped at the repair café and did not come to the flat."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the appointment",
+        "reason": "Either named appointment could be intended, but Taylor took the bus to both, so a direct affirmative answer covers either reading.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor traveled to the optician by bus.",
+            "answer": "Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Whether Taylor traveled to the care coordinator by bus.",
+            "answer": "Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:04:26.818072+00:00"
+}

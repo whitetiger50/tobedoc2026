@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 8,
+  "question": "How are your eyes feeling with the drops?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff92-71b0-80b9-5e33dcf5e93c",
+  "raw": "They’re feeling less gritty after work. The drops have helped with that.",
+  "raw_sha256": "009307e8ef9f3392918db3d1e99a2456e4b56977413603924608ed57c555687a",
+  "request_sha256": "b33c6e66428f661eac72536c7d04e69acdf82b433307138ca5719cf38db40b2a",
+  "started_utc": "2026-11-21T03:44:35.272087+00:00",
+  "completed_utc": "2026-11-21T03:44:42.722595+00:00",
+  "usage": {
+    "input_tokens": 63383,
+    "cached_input_tokens": 49792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f8270ea69454eac11be7c8601c5a698d0f9d8a5ac3b9c65f263e4f8ac3943bd5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "62b55d4aaa6866ef6ada198bcf0efbd1045673df3d80e7355af4424232c67f6e"
+}

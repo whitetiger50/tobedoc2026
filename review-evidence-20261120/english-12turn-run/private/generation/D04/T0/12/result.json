@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 12,
+  "question": "What else should we cover before you head off?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-fdf8-7290-8144-d1ea5165de2c",
+  "raw": "“I’d mainly like to agree on the next appointment date before I go, so I can plan around my shifts.”",
+  "raw_sha256": "cd442d3df25b8ba5d4b82caea08e8957db9baa7ef5d24b593fde12ced8c16f31",
+  "request_sha256": "ad1283afaa7e4a90eb7cd071ff34885128356e62383d7b8249505496574e9cbb",
+  "started_utc": "2026-11-20T20:33:26.953114+00:00",
+  "completed_utc": "2026-11-20T20:33:31.050847+00:00",
+  "usage": {
+    "input_tokens": 7377,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a3bc64b1b3e59c2ea93fc726fc97253f9dddd440aed30057749649a1885bdd29",
+  "trace_sha256": "48bc54cfb15c34ebef79bbb1487886635141a3bfbe565b853328d6bbb181d71a"
+}

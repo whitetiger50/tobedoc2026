@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 12,
+  "question": "When would it be easiest to come back here for a visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc38-312b-7220-973a-462308b98df2",
+  "raw": "Tuesday mornings are easiest for me.",
+  "raw_sha256": "447137175a301c4bda091cfe5fcbbd4d446faf242f75f6a7225fb0d60eb65d6c",
+  "request_sha256": "3f325532253685b45dc0e0b5356fb49211ae5dce5a32fa00943d1354f28d2403",
+  "started_utc": "2026-11-21T03:48:23.337219+00:00",
+  "completed_utc": "2026-11-21T03:48:27.933851+00:00",
+  "usage": {
+    "input_tokens": 6449,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9f0c2dd495effd44325f436b7892a2369bc799bcd03a7c2427b8aeff22c2830c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "fd241a528c59b4155cd0b749da787958685586b21aa1cd81620b27c9cffa70d5"
+}

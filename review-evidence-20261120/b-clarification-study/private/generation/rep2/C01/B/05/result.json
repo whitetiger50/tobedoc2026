@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 5,
+  "question": "What time do you set it for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c82-7be1-8bf7-37f858f35d35",
+  "raw": "7:10 in the morning.",
+  "raw_sha256": "233e01dd8575cc7107655724132d3daaefb596e72a73e9329e0eb779fea8e0a7",
+  "request_sha256": "9cba0bc4f14aac7143d9e0023d9b24429e2b6279486c1df09a988bf7210b3359",
+  "started_utc": "2026-11-21T03:42:38.295373+00:00",
+  "completed_utc": "2026-11-21T03:42:42.835924+00:00",
+  "usage": {
+    "input_tokens": 39309,
+    "cached_input_tokens": 37248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 116,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "087b34f76f2575192d5f46c4790e9545918ea27e0c2d56763a206a6e33dd7a49",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "644244aae390561225f519ad467dff4a75adbe387c5ddc8243a7b37ada433d3b"
+}

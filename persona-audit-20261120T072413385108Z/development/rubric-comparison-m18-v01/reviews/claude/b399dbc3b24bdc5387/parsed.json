@@ -1,0 +1,44 @@
+{
+  "realism_score": 3,
+  "realism_reason": "프로필과 맞고 일상적인 말투로 질문에 적절히 답한다. 다만 P08이 P01의 대처 질문과 라디오 이용 설명을 거의 그대로 되풀이한다. 전반적으로 프로필 문구를 정돈해 옮긴 듯한 인상이 약간 있어 완전한 자연스러움에는 조금 못 미친다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중해 보는데, 그 밖에도 도움이 되는 방법이 있는지요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "어떻게 대처하면 좋을지 여쭤보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인, 직업, 소리 경험과 시간대, 대처, 수면, 다음 진료 목표가 모두 프로필 사실과 일치한다. 새 사건이나 구체적 횟수·시각을 덧붙이지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 턴이 직전 질문의 대상(불편, 동거인, 낮 활동, 발생 시점, 대응, 잠, 다음 진료 주제)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답이고, P08은 다음 진료 주제를 묻는 질문에 대한 답이어서 앞선 말과 모순되거나 불필요하게 반복된 것으로 보지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 일상적 한국어 표현이며, 역할 설명이나 보고서식 대행, 면담자 대행은 보이지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 2,
+  "id": "I4d49625c27b88facb1",
+  "ended": "2026-11-20T20:59:01.915260+00:00",
+  "session": "01a1fac1-4965-70a2-8828-73cfb979b9cb",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "74431ca618680e6e555b69eee612ae290ba0af3dfc9ed34a1172900bbfd4649f",
+  "provider_sha256": "82969b42520f93e1e604413dae770706d7c02d7088cc2e6e213139ebe30c6d45",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Several answers are natural, concise, and consistent with the profile. However, four identical off-topic responses adopt the interviewer's role, creating a substantial artificial pattern inconsistent with the patient's ability to understand specific questions.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 5,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    }
+  ]
+}

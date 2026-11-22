@@ -1,0 +1,116 @@
+{
+  "attempt": "attempt-01",
+  "id": "I402c983c02350ca803d0",
+  "reader": "gpt",
+  "session": "01a1faca-09a2-7c33-b6d7-60f88471f124",
+  "raw_sha256": "52ebe5fee93b404963f5334a0ef4c6b444a8a924f530bfe0430bf008daf2b676",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "6eede4917b19fc216cef559ba486a6445c900c3153770b9e03166470ae267857",
+  "provider_sha256": "5e1516287e2f56b7dc020d9dc4627ac73e04c7f85ed72b3cfe82645f96d07135",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I had to follow each play and note the substitutions so I knew who was in the lineup.",
+            "reason": "Describes specific attention-demanding actions during last weekend’s softball game, directly answering the example request."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:41.561454+00:00"
+}

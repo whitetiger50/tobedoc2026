@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T1",
+  "turn": 2,
+  "question": "How have your mornings and evenings felt lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-a060-70b1-a661-0640092ae5c5",
+  "raw": "“I’ve been waking around dawn some mornings, but I usually get back to sleep. With my sister, a shorter afternoon visit feels more manageable than staying through dinner. I like the company—it’s just harder to follow the conversation when I’m tired.”",
+  "raw_sha256": "fb20f2eaf6546ef772a7b913424755b8842c240be854495faef3343f7aec527e",
+  "request_sha256": "cc228bdc5db74dea55baa128a26626f76d2cc3c78dd326ea9af6a03a7dd33d0a",
+  "started_utc": "2026-11-20T20:58:10.290022+00:00",
+  "completed_utc": "2026-11-20T20:58:15.914502+00:00",
+  "usage": {
+    "input_tokens": 7076,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 99,
+    "reasoning_output_tokens": 43
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7e5dd0918b6f5c649df53a816a8e99c9015f33144fbf3e1d13b81b46bd4cb9a3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "53f1bf911f090fd9b9b56a5b79b15ad7b6d79018b01787f6707157db616185e2"
+}

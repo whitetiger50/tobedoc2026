@@ -1,0 +1,109 @@
+{
+  "id": "Va52ed29e175b477e800474ad",
+  "reader": "gpt",
+  "session": "01a1fc4b-28a2-7fa0-b934-5c9fa00a0351",
+  "attempt": "attempt-01",
+  "packet_sha256": "cd52e74c3b4a1b2e1b39c07379c81c2508b9649297eaf1205d17c63a2f6b48b8",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "4feefbebe970909b71c693e701dfc92e900945e20bc474a85a7f5e074957e83f",
+  "provider_sha256": "1fa0c2d1be7749ffd899a2adfc839ff8ffbd37ff5f92ed3e47456561f4cd26aa",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "For the number 8 bus, I get on at Orchard Road. For the tram, it’s Bell Square.",
+        "reason": "The reply explicitly gives the expected boarding stop for each mode of transport.",
+        "A": {
+          "state": "supported",
+          "quote": "For the number 8 bus, I get on at Orchard Road."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "For the tram, it’s Bell Square."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean on Monday or on Thursday?",
+        "reason": "The reply asks which outage is meant without communicating either outage’s duration.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while I’m playing quiet music through my headphones. But the high ringing in both ears keeps going, even with the music on.",
+        "reason": "The reply states that commentary stops during headphone music while ringing continues.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while I’m playing quiet music through my headphones."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "But the high ringing in both ears keeps going, even with the music on."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then around three hours with Mom.",
+        "reason": "The reply explicitly assigns the expected duration to each activity.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "around three hours with Mom."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:18.630901+00:00"
+}

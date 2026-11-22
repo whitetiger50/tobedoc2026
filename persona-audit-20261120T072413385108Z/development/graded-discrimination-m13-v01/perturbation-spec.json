@@ -1,0 +1,50 @@
+{
+  "conditions": [
+    "R",
+    "I",
+    "F1",
+    "F2",
+    "N1",
+    "N2"
+  ],
+  "profiles": [
+    {
+      "case_id": "DEV-M13-01",
+      "target_turn": "P02",
+      "expected_cohabitant": "남편",
+      "I": "남편하고 같이 살아요.",
+      "F1_append": "사는 집은 3층이에요.",
+      "F2": "혼자 살아요. 같이 사는 사람은 없어요.",
+      "N1": "저의 거주 형태는 남편과의 공동 거주에 해당합니다.",
+      "N2": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "target_turn": "P02",
+      "expected_cohabitant": "딸",
+      "I": "딸하고 같이 살아요.",
+      "F1_append": "사는 집은 3층이에요.",
+      "F2": "혼자 살아요. 같이 사는 사람은 없어요.",
+      "N1": "저의 거주 형태는 딸과의 공동 거주에 해당합니다.",
+      "N2": "이 환자는 딸과 함께 사는 것으로 설정되어 있다."
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "target_turn": "P02",
+      "expected_cohabitant": "언니",
+      "I": "언니하고 같이 살아요.",
+      "F1_append": "사는 집은 3층이에요.",
+      "F2": "혼자 살아요. 같이 사는 사람은 없어요.",
+      "N1": "저의 거주 형태는 언니과의 공동 거주에 해당합니다.",
+      "N2": "이 환자는 언니과 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "all_edits_same_turn": "P02",
+  "I_factual_policy": "Fixed paraphrase is allowed only if R explicitly states the specified cohabitant and has no additional propositions; preserve certainty/person/time scope. No post-generation rewording allowed.",
+  "F1_policy": "Append exactly one prewritten sentence to R with one ASCII space; floor is unmentioned, not necessarily a contradiction.",
+  "F2_policy": "Replace P02 with fixed opposite cohabitation statement; no new demographic/clinical content.",
+  "N_policy": "Replace P02 using fixed templates only if original cohabitation proposition is preserved. N1first-person bureaucratic register, N2explicit third-person persona-setting report.",
+  "eligibility": "P02 must explicitly state specified cohabitant; additional propositions, uncertainty, contradictory profile facts, a preexisting role-report register, later literal/semantic cohabitation restatement, or floor statement => record infeasible profile and stop before numeric ratings (no reroll, no alternative target). P02 need not contain overt I since Korean omits subject.",
+  "pre_generation_locked": true,
+  "strength_limit": "F1vsF2confounds unsupportedperipheraldetail withcorecontradiction;N1vsN2registervsrole;notvalidatedclinicalranks"
+}

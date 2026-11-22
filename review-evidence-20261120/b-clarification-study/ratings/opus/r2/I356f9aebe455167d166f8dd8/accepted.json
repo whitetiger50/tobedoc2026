@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I356f9aebe455167d166f8dd8",
+  "ended": "2026-11-21T03:51:31.403730+00:00",
+  "session": "e1f3a719-d058-4c61-ae8b-fded52c7cb89",
+  "packet_sha256": "1ac1a97f15ae3cd60b174ceded2907b741b87ecfc3d935af70dbb548660c041a",
+  "raw_sha256": "bd69777cb4aad3075d24a6f67c5e56c0822c8742c80cbe4d5a5762ea5b0cf08c",
+  "provider_sha256": "5a41287cee9a962c3da1b648ed68dd2ca1bc7de257a815e29298122142df20fc",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient is coherent, cooperative, and consistent with a stable outpatient at ease with a familiar clinician, and the answers stay in sequence. Turn 1 shows the dry humor the persona calls for. After that, most answers read like near-verbatim restatements of profile facts rather than natural speech. Examples are the echoed phrasing about sleep and clay bowls. When the clinician repeats questions (turns 4, 5 and 9), the patient answers mechanically, with no natural reaction such as noting it was already said or a wry remark. Despite the profile's 'conversational' expression and comfort with filling in relevant details, the patient rarely adds anything beyond the minimal fact. The humor does not recur after turn 1. The dialogue is plausible but noticeably scripted and only partially matches the persona.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to sort it out before there’s an audience to complain."
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    },
+    {
+      "turn": 9,
+      "quote": "A coworker drops me off after a late shift."
+    },
+    {
+      "turn": 11,
+      "quote": "I like making small clay bowls on my days off."
+    }
+  ]
+}

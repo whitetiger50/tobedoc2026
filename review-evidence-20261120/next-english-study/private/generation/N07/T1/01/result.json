@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 1,
+  "question": "What has occupied most of your attention this past week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-2947-7ce0-80b7-073b907a416f",
+  "raw": "“A bit of bicycle repair and the reading for my geography class. I straightened a bent mudguard last weekend—the wheel was rubbing. With that, you can see where you’ve got to. Reading is harder to pick up again if I get distracted, though a slip of paper under the line helped me finish a passage last week.”",
+  "raw_sha256": "841fa9bdde4bd2516d4b88722d4a09edbcdb24c400129d0f4ecac3784ed5296a",
+  "request_sha256": "cc4162c280e904635850df0c702b24d19e8fecf8ff4ff32e0c49f206ca97aeb6",
+  "started_utc": "2026-11-20T20:57:39.821581+00:00",
+  "completed_utc": "2026-11-20T20:57:45.214375+00:00",
+  "usage": {
+    "input_tokens": 7012,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f2a04e4286bd6300c101a2bb43fea26a9b2626e9615d87823e7256fcf6bd0f8b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1306d19e251ab4f94e0277cc7e61bfa9ab2d2ff6277f158ae0c05b2b95ce1602"
+}

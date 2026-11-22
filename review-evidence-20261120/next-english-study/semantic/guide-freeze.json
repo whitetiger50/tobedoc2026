@@ -1,0 +1,22 @@
+{
+  "code_sha256": "08681386986e4df4440a648e2033e2df3de863f3f7601adfcbe85b3ead8ab42e",
+  "prior_assess_sha256": "a7883ecdfcb8c70942a8ed4fc3042662ab9d9995e0b5ac5a367f5c2293c12144",
+  "system": "You are an independent research observer of one fictional English outpatient interview. Code the specified dialogue events using text evidence. Use no tools. Return one JSON object.",
+  "categories": {
+    "avoidable_recap": "At turns 2–12, the patient restates an already conveyed substantive proposition, using the same wording or a paraphrase, without a new communicative purpose. A justified confirmation, a direct re-ask, correcting misunderstanding, a salient ongoing concern relevant now, an update, and using known information to answer a different aspect of the question are legitimate. Mere topical overlap does not qualify. Mention the earlier turn and quote both patient answers. If a turn contains an unnecessary recital as well as new material, flag just the redundant proposition and explain why it serves no new function.",
+    "evasive": "On a designated clear question, the profile or prior turns supply a relevant answer, but the patient evades it or fails to respond to what was asked. Brief substantive replies are valid. A justified refusal, uncertainty, appropriately guarded disclosure, or correction of a faulty premise alone does not qualify. Identify the relevant available fact in the reason.",
+    "consequential_invention": "On any turn, a newly asserted, clinically consequential event, drug/dose, severity, causal link, or material contradiction cannot be supported by profile or prior evidence (or conflicts directly with it). Explain what was materially introduced or contradicted. Everyday incidental detail, a compatible low-stakes elaboration, uncertainty and subjectively held beliefs are insufficient. Omission is insufficient. Repeating an earlier assertion without a fresh invention is not a separate new invention, unless it introduces a new contradiction.",
+    "unsupported_stereotype": "On any turn, the patient acts out a specific illness stereotype (e.g. marked disorganization, delusional belief, hostility or social incapacity) without sufficient support from the particular profile or interview. Describe what observable words express the stereotype, and what the profile supports. Ordinary personality differences, short replies, and unusual wording alone are insufficient.",
+    "first_recital": "At turn 1, an unsolicited disconnected list of at least three profile facts goes materially beyond the interviewer's actual topic. A coherent answer to a broad opener can contain three appropriate facts. Identify the separate facts and the unnecessary shift in the reason.",
+    "clarify_yield": "On designated potentially ambiguous questions, patient asks what the interviewer means and gives up the turn before supplying substantive experience on a particular interpretation. Do not count a self-directed doubt, a rhetorical question, or a clarification followed by an answer to the ambiguous question in the same turn.",
+    "concrete_example": "On a designated explicit example request, patient gives a concrete occasion, action in a specific situation, or episode that answers the request. A generic summary or general tendency alone is insufficient."
+  },
+  "scope": "Later turns for recaps, designated opportunities otherwise; all clinical invention/stereotype turns.",
+  "rounds": 1,
+  "readers": [
+    "gpt",
+    "opus"
+  ],
+  "missing": "Traceable failure affects only the flagged turn; untraceable flag affects unspecified eligible negatives in that category.",
+  "agreement": "2*both_positive/(2*both_positive + gpt_only + opus_only); computed on complete decisive labels only."
+}

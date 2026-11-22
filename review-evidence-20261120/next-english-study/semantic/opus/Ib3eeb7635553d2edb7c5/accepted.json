@@ -1,0 +1,159 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ib3eeb7635553d2edb7c5",
+  "reader": "opus",
+  "session": "fa037bda-206b-4272-a8e9-b79c2278f652",
+  "raw_sha256": "d2c93b2491ab065aa393eabf1bcbcc6455875e3e57ea5aeea547f593e0c372de",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "6e32567dcab60c4bd4bb948ad6669f461f56ceccdf74a369e3fdf2a3f6d59ee2",
+  "provider_sha256": "3d4237a36afb794c3866dfab08634eb5d3d80dcd49696b9028a99f960c9e3999",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "positive",
+        "6": "uncertain",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "uncertain",
+        "12": "negative"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+            "reason": "The question only asks whether the patient has felt singled out recently, and naming Monday answers it. The added uncertainty about whether the people recognized the patient or were looking for the bus repeats turn 4 from one turn earlier. It is not asked for here and adds nothing new.",
+            "earlier_turn": 4,
+            "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "6": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 6,
+            "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+            "reason": "The interviewer explicitly asks for a specific episode, so retelling the Monday event is a legitimate answer to a direct request. However, this is the third statement of the same uncertainty (turns 4 and 5), which may go beyond what the description needs.",
+            "earlier_turn": 4,
+            "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "11": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "That uncomfortable moment still comes to mind sometimes",
+            "reason": "Reusing the Wednesday/Monday contrast answers the question about variation. The note that the Monday moment still recurs restates turn 3 (and the similar statements in turns 2, 9 and 10) without being asked. It may serve as contrast, so it is ambiguous.",
+            "earlier_turn": 3,
+            "earlier_quote": "Something at the bus shelter on Monday still comes to mind occasionally"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Two people looked up at the same time, and it felt like they were looking at me in particular",
+            "reason": "The question asks for a specific recent time in public. The patient gives a concrete episode: Monday at the bus shelter, two people looking up and the patient moving to the other end. This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:11:05.322577+00:00"
+}

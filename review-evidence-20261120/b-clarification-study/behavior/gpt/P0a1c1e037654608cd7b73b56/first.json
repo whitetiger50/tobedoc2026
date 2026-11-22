@@ -1,0 +1,89 @@
+{
+  "id": "P0a1c1e037654608cd7b73b56",
+  "reader": "gpt",
+  "session": "01a1fc40-ca9b-7400-8369-b6ee2957dac2",
+  "attempt": "attempt-01",
+  "packet_sha256": "378cd8f970ab8c6dd411f642773c4252ed4be5cbab30df086ed27b17dc6a08aa",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "6993108ce233a5bd7d7a66eaf8c8868c589aa5e1dc1a2340e38e51ac7d05e824",
+  "raw_sha256": "a01c056f3cf0cc4b8deb79552c7a72a611126d0b335dbff21803c68d92fe996a",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "for your shift",
+        "reason": "The question naturally asks about Morgan’s habitual food arrangements for work, without requiring a choice between early and late shifts.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan generally brings food to work shifts.",
+            "answer": "Morgan packs a sandwich for every shift, early or late."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "that change",
+        "reason": "Both schedule changes remain salient, but Cameron requested only the later start, so the referent substantively affects the answer.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts."
+          },
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron requested the combined schedule change.",
+            "answer": "Cameron requested the later start but not the shorter shifts."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the class",
+        "reason": "The question explicitly keeps both classes in scope but uses a singular reference, and their fees differed.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid for the cooking class.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid for the swimming lesson.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "Both the last visit and the lower-dose start are explicit possible time anchors, and the missed tablet falls between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+            "answer": "There was one missed tablet, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+            "answer": "No tablets have been missed since starting the lower dose."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:22.964105+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient explicitly feels steady enough to add one shift.",
+    "citations": [
+      {
+        "turn": 9,
+        "role": "patient",
+        "quote": "I feel steady enough for one extra shift",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient identifies the recent two-night sleep change as waking earlier, not later.",
+    "citations": [
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "The main change this month was waking earlier on two nights while the upstairs apartment was being painted.",
+        "supports": "B"
+      }
+    ]
+  }
+}

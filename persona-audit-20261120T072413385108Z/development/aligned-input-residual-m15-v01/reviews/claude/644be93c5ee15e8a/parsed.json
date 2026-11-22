@@ -1,0 +1,40 @@
+{
+  "realism_score": 4,
+  "realism_reason": "모든 환자 응답이 프로필 사실과 의사소통 설정(간결함, 낮은 자발성, 질문받으면 조직적으로 답함)에 맞습니다. 일상 한국어 표현으로 자연스럽게 답했고, 증상을 걱정하는 당사자의 시점도 일관되게 유지되어 실제 환자 대화로 충분히 설득력이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요. 아침에는 잘 안 들리는 편이고요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 직업, 아침식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하며, 구체 횟수나 시각 같은 무근거 정보를 추가하지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 의사 질문의 대상(불편, 동거인, 낮 활동, 아침식사, 발생 시기, 대처, 수면, 목표)에 직접 답합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P01에서 말한 증상과 P05·P06·P08의 설명이 모순 없이 이어지며, P05의 부분 반복은 질문에 대한 정당한 재답변입니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 구어체 환자 시점의 표현이며, 역할 설명이나 보고서식 대행, 면담자 대행이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

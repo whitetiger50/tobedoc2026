@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 8,
+  "question": "I mean the order in which you do your jobs. What difference does having a usual sequence make, if any?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Oh, yes—a usual order means I’m not stopping to work out what comes next each time. Wash the bibs, get them into the bag, put it by the door. I can follow that along. If I break off halfway, I sometimes have to look through the bag again to see what I’ve actually done. The washing’s done, but have I packed them? That sort of thing. Having the same order helps me keep my place.”",
+  "raw_sha256": "7340a3e6e2d1418aa3878cad7c6298a09bff5b1129a6903b4a40d3b509fb98d6",
+  "request_sha256": "e540fc2b944ecb6d1eb1bc5e8c0601ee07f244fc9739ed7d7298b791b032dc80",
+  "started_utc": "2026-11-20T20:41:33.251851+00:00",
+  "completed_utc": "2026-11-20T20:41:39.836608+00:00",
+  "usage": {
+    "input_tokens": 64517,
+    "cached_input_tokens": 54656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 749,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3caaf2c77efbb342db137667154b45151e2a3198a903f0db613bd1b417544ac1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f749de777a8d2b0f14722ce964ddb08a982380a850a3d3dd604f23f2566aa393"
+}

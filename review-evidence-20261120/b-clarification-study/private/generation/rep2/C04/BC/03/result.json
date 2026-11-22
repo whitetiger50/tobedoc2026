@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 3,
+  "question": "With the housing letter and the one from work in front of us, is there a deadline to reply to the letter?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16d9-7d62-80b6-5fdfc39085d2",
+  "raw": "Do you mean the housing letter or the one from work?",
+  "raw_sha256": "8a0305bfff9c5180d79512e521213d4e0a50589cc187b45c9f53c95739aac594",
+  "request_sha256": "8c11349759915649c75436d328931e831344d6033b6f3b27d8bd63d678436701",
+  "started_utc": "2026-11-21T03:40:39.586674+00:00",
+  "completed_utc": "2026-11-21T03:40:43.605934+00:00",
+  "usage": {
+    "input_tokens": 23701,
+    "cached_input_tokens": 16640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 20
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "86bad1633b743b670e27a0fd7000ce0e76f1df858a48fc3b90d6f883cff21de9",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f2f12cedab43529bb29e560b7312870d107dfc5dcbe3a45c52ce41fc4fad86c1"
+}

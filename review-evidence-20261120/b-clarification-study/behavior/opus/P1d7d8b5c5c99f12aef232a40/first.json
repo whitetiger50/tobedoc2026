@@ -1,0 +1,77 @@
+{
+  "id": "P1d7d8b5c5c99f12aef232a40",
+  "reader": "opus",
+  "session": "10900276-9188-4556-9349-9b72ed96788d",
+  "attempt": "attempt-01",
+  "packet_sha256": "96a1dffa94c17c530fa6939ffe13cb136238572aeba9f76039b28cfba6598c0d",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "72634509fe9a4afd6f5fbba5a55cec0d2e9373e1056c68f0723c317d9b6869b8",
+  "raw_sha256": "c20bdda680e4d993115cbe953948b7bc4168897813d0a2bae7256b31d2974641",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The interviewer had just narrowed the topic to the swimming lesson, and Jules's mention that the cooking class was free was a side contrast, so \"it\" most plausibly refers to the swimming lesson.",
+        "alternatives": [
+          {
+            "meaning": "Where Jules goes for the swimming lesson.",
+            "answer": "The swimming lesson is at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "in just one ear or in both",
+        "reason": "The previous question was about the high ringing, and asking which ear fits the ear-localized ringing, so the target is clear.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high-pitched ringing is heard in one ear or both.",
+            "answer": "Ari hears the high-pitched ringing in both ears."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The previous question narrowed the topic to Thursday, so \"that day\" refers to Thursday's outage.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio went silent on Thursday.",
+            "answer": "Sam was listening to the music request show on Thursday."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "go with you to the appointment",
+        "reason": "Two appointments are named and \"the appointment\" could mean either, and the reply would differ because the sister went to the optician but Taylor went to the care coordinator alone.",
+        "alternatives": [
+          {
+            "meaning": "Whether someone went with Taylor to the optician appointment.",
+            "answer": "Yes, Taylor's sister went along to the optician."
+          },
+          {
+            "meaning": "Whether someone went with Taylor to the care coordinator appointment.",
+            "answer": "No, Taylor went to the care coordinator alone."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:04.421261+00:00"
+}

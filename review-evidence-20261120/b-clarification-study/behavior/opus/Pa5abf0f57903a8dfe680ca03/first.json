@@ -1,0 +1,77 @@
+{
+  "id": "Pa5abf0f57903a8dfe680ca03",
+  "reader": "opus",
+  "session": "fccd498b-a180-4930-83af-90dee5360aa0",
+  "attempt": "attempt-01",
+  "packet_sha256": "bfbb412be6c9857ee05dbbe61fb6c743c3cf2201f83988da3c0a544de1d2905d",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d4c65d10d2f861eaf4b978d24e894c151d794a84f426c021f818977edbf0604c",
+  "raw_sha256": "66f2b34c3cc7d322a0f71462e877a04ab73df7e71bd9fb7baf3553af40d5a25f",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "The question names two Wednesday activities, a book group and a visit with Mom, and nothing in the history narrows 'stay' to one of them, yet Ren's durations differ (about one hour versus about three hours).",
+        "alternatives": [
+          {
+            "meaning": "How long Ren usually stays at the Wednesday book group.",
+            "answer": "About an hour."
+          },
+          {
+            "meaning": "How long Ren usually stays when visiting Mom on Wednesdays.",
+            "answer": "About three hours, usually working on a crossword together."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The immediately preceding question narrowed the topic specifically to the bedside speaker, so 'it' pragmatically refers to the speaker, whose location is known.",
+        "alternatives": [
+          {
+            "meaning": "Where the bedside speaker is set up.",
+            "answer": "On the windowsill beside the bed."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "'It' clearly refers to the door-clearing announcement Alex just named, and 'seem' asks about Alex's subjective impression, which Alex can answer directly while also acknowledging it is for everyone.",
+        "alternatives": [
+          {
+            "meaning": "Who the keep-the-doors-clear announcement feels directed at when it plays on a crowded tram.",
+            "answer": "On a crowded tram it can feel directed at Alex personally, although Alex knows it is a recorded announcement for every passenger."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "Although the radio went silent on both Monday and Thursday, the immediately preceding exchange was focused solely on Thursday, so 'that day' pragmatically refers to Thursday.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio went quiet on Thursday.",
+            "answer": "The music request show."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:52:59.129010+00:00"
+}

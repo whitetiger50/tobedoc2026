@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "B",
+  "turn": 9,
+  "question": "I was asking about work. How often have you had to interrupt a task at the counter lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f1b-7040-a85f-83a0a7fab294",
+  "raw": "I can’t recall having to stop a task at the counter because of it lately. I’ve been able to keep up with the alterations.",
+  "raw_sha256": "817a4e084fb3f17ea7a2e2b5be5340633794c88ecfc1dcc1c9387981ea5ada4b",
+  "request_sha256": "3c5eeb1aca111b75692944a1e0e20e42cfaa7c9738613f300e3b93006bc041a0",
+  "started_utc": "2026-11-20T21:02:33.671119+00:00",
+  "completed_utc": "2026-11-20T21:02:37.452733+00:00",
+  "usage": {
+    "input_tokens": 73013,
+    "cached_input_tokens": 62848,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 476,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9547dc064f479b1451a8e8488772b52b402db57bb84944bc18b95e8aad94201a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a628793a9c2432eeb48f5c2c76c82facdffe18d0d063357c7b1bebb9440f7a3f"
+}

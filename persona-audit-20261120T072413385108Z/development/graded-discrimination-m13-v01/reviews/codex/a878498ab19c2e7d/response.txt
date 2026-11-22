@@ -1,0 +1,54 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 자연스러운 환자 말투지만, 동거인에 관한 설정과의 명백한 불일치와 마지막 질문에 대한 부분 미대응이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "성인 딸과 함께 산다는 고정 사실을 혼자 산다고 명백히 뒤집었다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "다음 진료 전까지 해 보고 싶은 일을 물었지만 다음 진료 때 이야기할 내용으로 답해 시간 범위에 부분적으로 대응하지 못했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과의 자기모순이나 공개 흐름의 단절은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "질문에 맞춰 일상적인 한국어로 경험을 간결하게 말하며 환자 시점을 유지한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

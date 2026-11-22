@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What was one part of this past weekend that you remember well?",
+      "patient": "Repotting a basil plant with my sister after lunch. I’d walked over to her place—I usually take her some herbs and come home with leftovers. She’d set this pot aside for us to do together. That was nice, just having something to do with our hands. It felt easy."
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have your mornings and evenings felt lately?",
+      "patient": "“I’ve been waking around dawn some mornings, but I usually get back to sleep. By evening I’m more tired, and I can lose the thread when we’re talking. An afternoon visit with my sister suits me better than staying through dinner. I like the company—it’s just easier when I’m not so tired.”"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Has it been happening often?",
+      "patient": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Let me ask more clearly. How often do you wake up earlier than you want to?",
+      "patient": "Some mornings, but not every day. I haven’t kept count. It’s usually just once around dawn, and then I get back to sleep."
+    },
+    {
+      "turn": 5,
+      "interviewer": "What sort of contact have you had with family in the last couple of weeks?",
+      "patient": "“Mostly it’s been seeing my sister. I walk over most Saturdays, so we’ve kept that going these last couple of weeks. We have lunch and a bit of a chat. I take some herbs—there’s always more basil than I can use—and she sends me home with leftovers. It’s nice having her close by.”"
+    },
+    {
+      "turn": 6,
+      "interviewer": "Can you give me an example of something you did the last time you spent time with someone?",
+      "patient": "“Yes, that basil pot I mentioned. My sister had set it aside, and we repotted it together after lunch on my last visit. It was nice having something to do with our hands. That felt easy.”"
+    },
+    {
+      "turn": 7,
+      "interviewer": "How have you been getting on with conversations and with hands-on activities?",
+      "patient": "Conversations are mostly all right, though when I’m tired I can lose track of what we’re talking about. That’s why the afternoon visits suit me. Doing something with my hands feels easier—the repotting with my sister went fine. I enjoyed that."
+    },
+    {
+      "turn": 8,
+      "interviewer": "Which part takes longer to get back into?",
+      "patient": "The conversation, I think. Once I’ve lost the thread, it takes me a bit to catch up with what we’re talking about. With the repotting, I could just carry on—that felt easier."
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was thinking of conversation. When your attention wanders, how is it to pick up what someone is saying?",
+      "patient": "It takes me a little while. I’m listening again, but I haven’t quite caught what we’re talking about. Sometimes I need my sister to repeat a bit, and then I can get back into it. It’s harder when I’m tired."
+    },
+    {
+      "turn": 10,
+      "interviewer": "What arrangements, if any, do you make for collecting your medication?",
+      "patient": "I pick up a box of tablets from the pharmacy every four weeks. I’ve got the refill date written inside the kitchen cupboard, so I can check when I’m due to go."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking about your evenings again, have you noticed any sounds or voices that you found unusual?",
+      "patient": "Yes, about three weeks ago, one evening when I was alone. I heard familiar voices, several of them seeming to overlap. It hasn’t been happening much lately—that was the last time I noticed it."
+    },
+    {
+      "turn": 12,
+      "interviewer": "If you were arranging your next family visit, what time of day would suit you?",
+      "patient": "An afternoon visit would suit me best, not too long. I’d enjoy seeing my sister and having a chat, then head home before dinner, before I get too tired."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Family visits and energy",
+      "A": "Given their current energy, the patient prefers an afternoon visit that ends before dinner.",
+      "B": "Given their current energy, the patient prefers an afternoon visit that continues through dinner."
+    },
+    "item2": {
+      "question": "Sleep after early waking",
+      "A": "On mornings when the patient wakes around dawn, they usually stay awake afterward.",
+      "B": "On mornings when the patient wakes around dawn, they usually fall asleep again."
+    }
+  }
+}

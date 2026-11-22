@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 12,
+  "question": "If work reviews the schedule again, what would you most like to keep?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b399-77e2-a956-27aae93d43a4",
+  "raw": "The later start. It makes mornings easier.",
+  "raw_sha256": "f528a624fa4628aa433b81c1379b426bbdbd681d19d8e05f6e2d7820354aa149",
+  "request_sha256": "ded8e70ba5e412e6f0b3a71d2205c690c27cac1a3f6985feae17e507d77257f0",
+  "started_utc": "2026-11-21T03:47:43.716829+00:00",
+  "completed_utc": "2026-11-21T03:47:47.345882+00:00",
+  "usage": {
+    "input_tokens": 95521,
+    "cached_input_tokens": 84096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 139,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "03faa0fab22e19c283eca5d8220669633574dc1567d370a5185d363820e95bfe",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "fb9772618c661a12f3f54e8fe4f3c8e344ae5a852376535d61b0789b0e2a9717"
+}

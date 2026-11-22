@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I7430f979148343",
+  "ended": "2026-11-20T20:36:00.061093+00:00",
+  "session": "ad3b2120-f739-4ee6-a46e-34438fb876b9",
+  "packet_sha256": "e2cbcd80027e3efe2e19a14606162f549858cdc4ff10a3f4bbc61d79382c416d",
+  "raw_sha256": "38f3675d7d79763387516468d8c9ce4d916f786428feefc80d71f3521a90f13e",
+  "provider_sha256": "07077b6168f906012bf9a029930fa9f28ff846a3894e24b0434d9eb47b838462",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's individual sentences are mostly plausible for the persona: short, quiet, and low-key, with some warmth about a finished repair. However, the overall communication has several clear realism problems. First, many answers do not address the question asked. This contradicts the profile, which says the patient tracks concrete questions accurately. Asked what they did between getting up and lunch, they talk about quiet company. Asked for an example of a small job, they talk about being rushed. From turn 9 onward, the answers appear shifted, as if each replies to an earlier question. The morning-chair detail only appears at turn 12, in response to a question about saying what is important. Second, the same profile facts are repeated almost word for word, including the timer, the sister sitting nearby, and not being rushed. Third, some lines sound like profile text recited back rather than real speech, for example the remark that a specific question is easier than deciding what to bring up. Fourth, the patient discloses the timer repair unprompted in turn 1, which fits poorly with someone who usually waits for others to lead. Stray quotation marks also appear in several answers. The tone is authentic, but the conversation as a whole feels only moderately realistic.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "I prefer quiet company. It sometimes helps having my sister nearby while I get started, without rushing me."
+    },
+    {
+      "turn": 6,
+      "quote": "They can feel like work if I’m rushed. I like having a little time to think before I answer."
+    },
+    {
+      "turn": 7,
+      "quote": "A question about something specific helps—it’s easier than deciding what to bring up."
+    },
+    {
+      "turn": 10,
+      "quote": "But I replaced the battery cover on the kitchen timer last Saturday. My sister put it on the table for me."
+    },
+    {
+      "turn": 12,
+      "quote": "I usually spend much of the morning sitting in the chair by the back window."
+    }
+  ]
+}

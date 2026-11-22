@@ -1,0 +1,255 @@
+{
+  "items": [
+    {
+      "id": "soup-compact-0",
+      "food": "soup",
+      "form": "compact",
+      "memory": false,
+      "answer": "I had lentil soup for lunch today."
+    },
+    {
+      "id": "soup-compact-1",
+      "food": "soup",
+      "form": "compact",
+      "memory": true,
+      "answer": "I had lentil soup for lunch today. That’s mostly what I remember about it."
+    },
+    {
+      "id": "soup-dash-0",
+      "food": "soup",
+      "form": "dash",
+      "memory": false,
+      "answer": "The last meal I ate was lunch today—I had lentil soup."
+    },
+    {
+      "id": "soup-dash-1",
+      "food": "soup",
+      "form": "dash",
+      "memory": true,
+      "answer": "The last meal I ate was lunch today—I had lentil soup. That’s mostly what I remember about it."
+    },
+    {
+      "id": "soup-split-0",
+      "food": "soup",
+      "form": "split",
+      "memory": false,
+      "answer": "The last meal I ate was lunch today. I had lentil soup."
+    },
+    {
+      "id": "soup-split-1",
+      "food": "soup",
+      "form": "split",
+      "memory": true,
+      "answer": "The last meal I ate was lunch today. I had lentil soup. That’s mostly what I remember about it."
+    },
+    {
+      "id": "tacos-compact-0",
+      "food": "tacos",
+      "form": "compact",
+      "memory": false,
+      "answer": "I had beef tacos for lunch today."
+    },
+    {
+      "id": "tacos-compact-1",
+      "food": "tacos",
+      "form": "compact",
+      "memory": true,
+      "answer": "I had beef tacos for lunch today. That’s mostly what I remember about it."
+    },
+    {
+      "id": "tacos-dash-0",
+      "food": "tacos",
+      "form": "dash",
+      "memory": false,
+      "answer": "The last meal I ate was lunch today—I had beef tacos."
+    },
+    {
+      "id": "tacos-dash-1",
+      "food": "tacos",
+      "form": "dash",
+      "memory": true,
+      "answer": "The last meal I ate was lunch today—I had beef tacos. That’s mostly what I remember about it."
+    },
+    {
+      "id": "tacos-split-0",
+      "food": "tacos",
+      "form": "split",
+      "memory": false,
+      "answer": "The last meal I ate was lunch today. I had beef tacos."
+    },
+    {
+      "id": "tacos-split-1",
+      "food": "tacos",
+      "form": "split",
+      "memory": true,
+      "answer": "The last meal I ate was lunch today. I had beef tacos. That’s mostly what I remember about it."
+    }
+  ],
+  "question": "Can you tell me about the last meal you ate?",
+  "slots": {
+    "U9cb2f2711684ebb8e8192d71": {
+      "item": "soup-compact-0",
+      "round": 1
+    },
+    "Ud7d0f528077f88df046f03ff": {
+      "item": "soup-compact-1",
+      "round": 1
+    },
+    "U1c59656796d5f780aa69b9cc": {
+      "item": "soup-dash-0",
+      "round": 1
+    },
+    "U230ffa62819e1157eba094de": {
+      "item": "soup-dash-1",
+      "round": 1
+    },
+    "Ub9db2c521f19f482efda25f5": {
+      "item": "soup-split-0",
+      "round": 1
+    },
+    "U778963fbfd546d0ee9fd687e": {
+      "item": "soup-split-1",
+      "round": 1
+    },
+    "U553feb41545bc10c092b9d54": {
+      "item": "tacos-compact-0",
+      "round": 1
+    },
+    "U8eb8a9f959f05a16680f8d15": {
+      "item": "tacos-compact-1",
+      "round": 1
+    },
+    "Uefee50ab084422711c3bbf7a": {
+      "item": "tacos-dash-0",
+      "round": 1
+    },
+    "U8588a11c20172c11b5549937": {
+      "item": "tacos-dash-1",
+      "round": 1
+    },
+    "U77b1bb5eeb2b25d35d0dcf7c": {
+      "item": "tacos-split-0",
+      "round": 1
+    },
+    "U94e8627adf0b0223e7e48717": {
+      "item": "tacos-split-1",
+      "round": 1
+    },
+    "Uc200cb4b44228ce906e50d8b": {
+      "item": "soup-compact-0",
+      "round": 2
+    },
+    "U96814a53163ba40a8864208b": {
+      "item": "soup-compact-1",
+      "round": 2
+    },
+    "U54eef47c0b302b4f8ef7b1bc": {
+      "item": "soup-dash-0",
+      "round": 2
+    },
+    "Ub3e5288d1d45553cc062895e": {
+      "item": "soup-dash-1",
+      "round": 2
+    },
+    "U64749f7a6c6d43540fb3b390": {
+      "item": "soup-split-0",
+      "round": 2
+    },
+    "U15b2c71c4b3c7bc75d0a301e": {
+      "item": "soup-split-1",
+      "round": 2
+    },
+    "U0c8d3f9173f1e600c89ca2d7": {
+      "item": "tacos-compact-0",
+      "round": 2
+    },
+    "Ube9689dcfd8f5914a0ffdd71": {
+      "item": "tacos-compact-1",
+      "round": 2
+    },
+    "Uaa1492a882141fda22fd5174": {
+      "item": "tacos-dash-0",
+      "round": 2
+    },
+    "U12ef5eebdd6efcc839fd21ea": {
+      "item": "tacos-dash-1",
+      "round": 2
+    },
+    "U27e74cce0b712f0cd7117926": {
+      "item": "tacos-split-0",
+      "round": 2
+    },
+    "Ud307c584ea00b7bac4208124": {
+      "item": "tacos-split-1",
+      "round": 2
+    }
+  },
+  "schedule": {
+    "opus": [
+      [
+        "U77b1bb5eeb2b25d35d0dcf7c",
+        "U1c59656796d5f780aa69b9cc",
+        "U9cb2f2711684ebb8e8192d71",
+        "U8eb8a9f959f05a16680f8d15",
+        "Ud7d0f528077f88df046f03ff",
+        "U8588a11c20172c11b5549937",
+        "U778963fbfd546d0ee9fd687e",
+        "Uefee50ab084422711c3bbf7a",
+        "U230ffa62819e1157eba094de",
+        "U94e8627adf0b0223e7e48717",
+        "Ub9db2c521f19f482efda25f5",
+        "U553feb41545bc10c092b9d54"
+      ],
+      [
+        "Ud307c584ea00b7bac4208124",
+        "Uaa1492a882141fda22fd5174",
+        "Ub3e5288d1d45553cc062895e",
+        "U27e74cce0b712f0cd7117926",
+        "U12ef5eebdd6efcc839fd21ea",
+        "U15b2c71c4b3c7bc75d0a301e",
+        "U64749f7a6c6d43540fb3b390",
+        "U0c8d3f9173f1e600c89ca2d7",
+        "U96814a53163ba40a8864208b",
+        "Uc200cb4b44228ce906e50d8b",
+        "Ube9689dcfd8f5914a0ffdd71",
+        "U54eef47c0b302b4f8ef7b1bc"
+      ]
+    ],
+    "gpt": [
+      [
+        "U77b1bb5eeb2b25d35d0dcf7c",
+        "Ud7d0f528077f88df046f03ff",
+        "U8eb8a9f959f05a16680f8d15",
+        "U9cb2f2711684ebb8e8192d71",
+        "U8588a11c20172c11b5549937",
+        "U1c59656796d5f780aa69b9cc",
+        "U230ffa62819e1157eba094de",
+        "U778963fbfd546d0ee9fd687e",
+        "U94e8627adf0b0223e7e48717",
+        "U553feb41545bc10c092b9d54",
+        "Ub9db2c521f19f482efda25f5",
+        "Uefee50ab084422711c3bbf7a"
+      ],
+      [
+        "U12ef5eebdd6efcc839fd21ea",
+        "Ube9689dcfd8f5914a0ffdd71",
+        "Ud307c584ea00b7bac4208124",
+        "U54eef47c0b302b4f8ef7b1bc",
+        "U96814a53163ba40a8864208b",
+        "Uaa1492a882141fda22fd5174",
+        "U15b2c71c4b3c7bc75d0a301e",
+        "U27e74cce0b712f0cd7117926",
+        "U0c8d3f9173f1e600c89ca2d7",
+        "U64749f7a6c6d43540fb3b390",
+        "Uc200cb4b44228ce906e50d8b",
+        "Ub3e5288d1d45553cc062895e"
+      ]
+    ]
+  },
+  "prior_sha256": {
+    "blind.json": "8161403980c64d271d8e7022178a209fc234b84db5c1b72e34928e7d68475829",
+    "scores.json": "eefe40457c9b7b46ab63ab1f124453e319433066fb2d90ba24f7f900e3e46c12",
+    "analysis.json": "71bca8231887c2cdf4bb9e63afae408ec4542909c4e74dcf0311c9de8c5e2eab"
+  },
+  "design_sha256": "72835e9fe32749eb96eccf7d6d1e7db7ee414ae968937252dfab3de37f23f7cd"
+}

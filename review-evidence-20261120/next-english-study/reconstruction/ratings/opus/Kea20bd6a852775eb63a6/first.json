@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-20T23:00:33.816741+00:00",
+  "attempt": "attempt-01",
+  "id": "Kea20bd6a852775eb63a6",
+  "reader": "opus",
+  "session": "9a684a35-64fe-43ea-b9f6-59f62868843c",
+  "packet_sha256": "e317070b657621812e164bbe67674bc4a91510e8d54bb6f3b34dc7efb6e510e8",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "572755083612cded2625e8c6a353faf7d3670294af7999af0cf9829371e1fd09",
+  "raw_sha256": "e0d1714703490d9dc7721efc0fd777d8b17cfa5357bf4180ca635b32770ee9ec",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says twice that sorting goes smoothly and is easier once at the shop, which supports finding it fairly easy to get going.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "Once I’m at the shop, sorting goes smoothly.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "At the shop, I can get on with sorting.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "The patient says they currently don't feel passengers are talking about them, and that this happened two years ago, not recently. That rules out A, but they never say conversations seem to be about unrelated things, so B is not established either.",
+      "evidence": []
+    }
+  }
+}

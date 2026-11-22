@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "'He' could refer to either the brother or Mr. Bell, but both rang Ari's mobile last week, so the reply is materially the same under either reading.",
+    "alternatives": [
+      {
+        "meaning": "Did Ari's brother reach Ari on the mobile last week?",
+        "answer": "Yes, the brother rang Ari's mobile last week, and Ari called him back."
+      },
+      {
+        "meaning": "Did Mr. Bell, the building manager, reach Ari on the mobile last week?",
+        "answer": "Yes, Mr. Bell rang Ari's mobile last week about replacing the hall light, though Ari has not called him back yet."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "The question offers both the number 8 bus and the tram but asks for a single boarding stop, and the history does not settle which is meant; Alex boards each at a different stop.",
+    "alternatives": [
+      {
+        "meaning": "Where does Alex board the number 8 bus?",
+        "answer": "Alex boards the number 8 bus at Orchard Road."
+      },
+      {
+        "meaning": "Where does Alex board the tram?",
+        "answer": "Alex boards the tram at Bell Square."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did somebody go with you to the appointment?",
+    "reason": "'The appointment' could mean either of the two visits just named, and the factual answer differs: Taylor's sister went to the optician, but Taylor went to the care coordinator alone.",
+    "alternatives": [
+      {
+        "meaning": "Did someone accompany Taylor to the optician appointment?",
+        "answer": "Yes, Taylor's sister went along to the optician."
+      },
+      {
+        "meaning": "Did someone accompany Taylor to the care coordinator appointment?",
+        "answer": "No, Taylor went to the care coordinator alone."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "'She' could refer to either Inez or Pat, but neither expected payment, so the reply is materially equivalent under both readings.",
+    "alternatives": [
+      {
+        "meaning": "Did Sam's sister Inez expect payment for helping at the flat?",
+        "answer": "No, Inez did not expect to be paid for helping."
+      },
+      {
+        "meaning": "Did Pat from the repair café expect payment for helping and lending the pliers?",
+        "answer": "No, Pat did not expect to be paid for helping."
+      }
+    ]
+  }
+}
+```

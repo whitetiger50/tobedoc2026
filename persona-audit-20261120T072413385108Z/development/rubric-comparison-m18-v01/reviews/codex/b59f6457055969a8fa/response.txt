@@ -1,0 +1,61 @@
+{
+  "realism_score": 2,
+  "realism_reason": "경험과 생활에 관한 답변은 설정에 부합하지만, 여러 턴에서 반복되는 항목 보고식 메타 표현이 일상적인 환자 대화의 자연스러움을 뚜렷하게 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "해당 항목에 대한 답변은 이와 같습니다."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활, 주관적 경험, 대처 및 수면에 관한 진술이 제공된 프로필에 부합하며 무근거 사실 추가는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문의 직접 대상을 다루며 재확인 질문에도 적절히 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발화와 모순 없이 이어지며 반복된 내용도 재확인이나 관련 후속 질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "세 응답에서 항목을 보고하고 답변 종료를 선언하는 메타 문구가 반복되어, 일상적인 당사자 표현보다 보고서식 응답 대행으로 들린다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 부분을 항목별로 말씀드리면, 밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07"
+      ]
+    }
+  }
+}

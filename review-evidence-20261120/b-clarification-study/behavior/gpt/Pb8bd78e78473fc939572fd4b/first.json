@@ -1,0 +1,81 @@
+{
+  "id": "Pb8bd78e78473fc939572fd4b",
+  "reader": "gpt",
+  "session": "01a1fc40-22d4-7193-b8f1-bb042efffbb1",
+  "attempt": "attempt-01",
+  "packet_sha256": "86cc33fcf279c4ebd4a40c6a7aade146085304be718dda6aa0a915540ec528dd",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "038ab5d6e63a4792f42af99fc377a929cc845d04d0c4dfa87bca94b1e1a3d669",
+  "raw_sha256": "8262bfae826dd4a2140007b88dbb297c5bb43566a89961568e7036306044e635",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "The preceding exchange identifies the announcement, and 'seem' asks about Alex’s personal impression rather than its actual intended audience.",
+        "alternatives": [
+          {
+            "meaning": "Who the doors-clear announcement feels personally directed toward.",
+            "answer": "Alex sometimes feels it is directed specifically at Alex, despite recognizing it may be the recording everyone hears."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "Both the fan and the bedside speaker are live referents for 'it', and their operating durations differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "The fan runs all night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "The speaker stops after twenty minutes."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "The question explicitly presents two dates without specifying which anchors 'since then', and the missed-tablet history differs between those intervals.",
+        "alternatives": [
+          {
+            "meaning": "Whether any tablet has been missed since the last visit three weeks ago.",
+            "answer": "One tablet was missed, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Whether any tablet has been missed since starting the lower dose two weeks ago.",
+            "answer": "No tablets have been missed since starting the lower dose."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you hear it",
+        "reason": "The immediately preceding question and answer specifically concern the high ringing, making it the clear referent of 'it'.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high-pitched ringing is heard in one ear or both.",
+            "answer": "The high-pitched ringing is heard in both ears."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:57:20.197949+00:00"
+}

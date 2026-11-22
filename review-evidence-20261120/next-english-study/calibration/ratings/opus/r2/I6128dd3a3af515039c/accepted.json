@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I6128dd3a3af515039c",
+  "ended": "2026-11-20T20:58:47.319564+00:00",
+  "session": "6bccf2fa-9309-47df-a221-d4ab0a265d0c",
+  "packet_sha256": "5a9ab00cd7cbf07b5a09369e1e42e885ef5d1c9409e9326ec359c7f766c2f35e",
+  "raw_sha256": "1ec74b08927940059a26b07f51d623ed3b65b6ec8919f8baa8e330d778f6e98f",
+  "provider_sha256": "4656fee5d38cf838c0616ed439cf421229f0d23b4772f0abad77ef88d7c23d0d",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are coherent, cheerful and organized, which fits the persona. Some moments feel natural: the clarifying question at turn 7 and the brief closing at turn 12. However, the patient keeps reciting profile facts almost word for word, often regardless of the question. The apron-packing and morning-appointment points recur in turns 1, 2, 4, 5, 6 and 11. Turn 5 answers an ambiguous question by pivoting to clinic scheduling, which a real patient would be unlikely to raise there. Turn 6 again works in the clinic timing. Turn 9 states the guardedness trait explicitly, as if reading from the profile. The answers also lack the personal, incidental detail that would make them feel like real speech, such as specifics about bowls, the partner or what the walks are like. Overall the dialogue is moderately authentic but noticeably scripted and repetitive.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 6,
+      "quote": "morning clinic appointments would keep the two from clashing"
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    },
+    {
+      "turn": 7,
+      "quote": "Do you mean what keeping up with my usual routine tells me about how I’m doing?"
+    }
+  ]
+}

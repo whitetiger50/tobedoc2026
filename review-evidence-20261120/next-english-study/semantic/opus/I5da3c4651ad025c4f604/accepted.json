@@ -1,0 +1,171 @@
+{
+  "attempt": "attempt-01",
+  "id": "I5da3c4651ad025c4f604",
+  "reader": "opus",
+  "session": "08116b5d-80cd-417a-a90b-8525f3a9bd37",
+  "raw_sha256": "934cf040e4099307bc8d75157a64f8b69c2022cd983af0241e4dcb92ee4f6fd5",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "2a2809cbaab300ac6527477df598ba823fd82ad94c865ee83890845e09811b78",
+  "provider_sha256": "38bca0cb8ecd7737154287e434ef9755b8b8195e993d951d7623f1f682b6d311",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "uncertain",
+        "6": "positive",
+        "7": "uncertain",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "It was nice having something to do with our hands. That felt easy.",
+            "reason": "Turn 6 uses the earlier basil-repotting episode to answer a new example request, which is legitimate. The added evaluative sentence repeats the turn 1 appraisal almost word for word. The question did not ask how the activity felt, so this sentence serves no new function.",
+            "earlier_turn": 1,
+            "earlier_quote": "That was nice, just having something to do with our hands. It felt easy."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "5": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "I take some herbs",
+            "reason": "The question asks about recent family contact. Describing what the Saturday visits involve is partly relevant. However, the herbs-for-leftovers exchange was already stated in turn 1, and it is restated here without adding anything new.",
+            "earlier_turn": 1,
+            "earlier_quote": "I usually take her some herbs and come home with leftovers"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "7": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "That’s why the afternoon visits suit me.",
+            "reason": "The question asks about conversations and hands-on activities, not visit timing. The preference for afternoon visits was already conveyed in turn 2, along with the tiredness reason. The explicit 'why' link adds little, so it is unclear whether this has a new purpose.",
+            "earlier_turn": 2,
+            "earlier_quote": "An afternoon visit with my sister suits me better than staying through dinner."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "positive",
+        "8": "negative"
+      },
+      "events": {
+        "3": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+            "reason": "'Has it been happening often?' could refer to either of two experiences mentioned in turn 2. The patient asks which one is meant and ends the turn without answering under either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "we repotted it together after lunch on my last visit",
+            "reason": "The interviewer explicitly asks for an example. The patient describes a specific occasion and action: repotting the basil pot with the sister after lunch on the last visit. This matches the profile."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:29.618037+00:00"
+}

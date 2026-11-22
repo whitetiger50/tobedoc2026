@@ -1,0 +1,68 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question names both eye drops and daily tablets and then asks about 'the medicine' in the singular, and the two are stored in different places, so the factual answer depends on which one is meant.",
+    "alternatives": [
+      {
+        "meaning": "The daily prescribed tablet for schizophrenia",
+        "answer": "Yes, the tablets are kept in the kitchen cabinet."
+      },
+      {
+        "meaning": "The prescribed eye drops",
+        "answer": "No, the eye drops are kept on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "All of the listed medicine together",
+        "answer": "Only partly: the tablets are in the kitchen cabinet, but the drops are on the bedside table."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Do you usually walk there?",
+    "reason": "The word 'there' could refer to the book group or to Mom's apartment, but Ren walks to both, so every reading gets the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ren walks to the book group",
+        "answer": "Yes, Ren walks to the book group."
+      },
+      {
+        "meaning": "Whether Ren walks to Mom's apartment",
+        "answer": "Yes, Ren walks to Mom's apartment."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "Did you have to pay for the replacement?",
+    "reason": "The singular 'the replacement' could mean the ID badge or the locker key, but neither replacement cost anything, so the answers are materially equivalent.",
+    "alternatives": [
+      {
+        "meaning": "The replacement ID badge",
+        "answer": "No, the replacement badge did not cost anything."
+      },
+      {
+        "meaning": "The replacement locker key",
+        "answer": "No, the replacement locker key did not cost anything."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "Two reminders are named and 'the reminder' is singular, and Morgan still uses the phone alarm but took the door note down last month, so the answer differs by reading.",
+    "alternatives": [
+      {
+        "meaning": "The phone alarm",
+        "answer": "Yes, Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "The note on the door",
+        "answer": "No, Morgan took the note down last month."
+      }
+    ]
+  }
+}
+```

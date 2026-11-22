@@ -1,0 +1,116 @@
+{
+  "attempt": "attempt-01",
+  "id": "I10ffbc4babd606e93ecd",
+  "reader": "gpt",
+  "session": "01a1faca-5c0c-7c11-9542-846c1d0dd2a9",
+  "raw_sha256": "479f375af89eaed72bd4dfe7e4f1eaf043b8ebe9973c575e3ead2774bbd818d6",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "2384d35038e9ff09c6411a8898f45f4d0a3539a3e4cad50e24bc26805386acad",
+  "provider_sha256": "0394256f497bab309f29fe08538c206179ba2435bba0610098221c8f6c205166",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+            "reason": "Answers the explicit example request with a specific recent occasion, object handled, and action taken."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:57.805225+00:00"
+}

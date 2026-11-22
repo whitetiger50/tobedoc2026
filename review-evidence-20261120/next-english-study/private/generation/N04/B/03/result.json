@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "B",
+  "turn": 3,
+  "question": "Has it been happening often?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-78e1-80f5-0249e0d29ba3",
+  "raw": "The early waking? Just some mornings, not every day. Losing track of conversation happens more when I’m tired, usually later in the day.",
+  "raw_sha256": "69f9a67e1d48094a7dfca631f004f54e803cdfbb0bd37f8d6bb444cdf051a3fe",
+  "request_sha256": "46d02d87c58eecac782d7a265930dca0da0cd8b449b0390cc2a9e26ee2ec417f",
+  "started_utc": "2026-11-20T20:59:51.219453+00:00",
+  "completed_utc": "2026-11-20T20:59:56.448406+00:00",
+  "usage": {
+    "input_tokens": 23637,
+    "cached_input_tokens": 15104,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 157,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d2ff82f717bafd9d747d575e6a1c76f8ef7ad11f3bcdc69bfd227133c3f9c1cc",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bafbf477526fe46f7609e90b2a15243c34c98bc8cdec21de513695b376b69541"
+}

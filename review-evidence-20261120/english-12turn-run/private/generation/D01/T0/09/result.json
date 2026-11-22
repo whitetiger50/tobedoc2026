@@ -1,0 +1,27 @@
+{
+  "case": "D01",
+  "arm": "T0",
+  "turn": 9,
+  "question": "How is it with someone else around?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-a7dc-73d2-a090-0fcef5e99402",
+  "raw": "My cousin sometimes stays on the phone while I cook. Having an ordinary conversation makes the apartment feel less lonely. Do you mean whether that changes what I hear?",
+  "raw_sha256": "541b19e4998e1086b1e2b5a7a8594eb976caf8d5ce84b0c08438e9c66f9c075a",
+  "request_sha256": "cb46df9e44bfcd1617f7cb6981ff67fb5a9f333efc868a5629a78e33912e892a",
+  "started_utc": "2026-11-20T20:33:04.909038+00:00",
+  "completed_utc": "2026-11-20T20:33:10.607791+00:00",
+  "usage": {
+    "input_tokens": 7306,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 108,
+    "reasoning_output_tokens": 70
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "505e3123ec81e9d22a0d6ed678177f933293680b5ed340898e7063c4332cdf5b",
+  "trace_sha256": "a2e1aa9fce22817bc175f12b556024e4ffd98f0b29e82c2bfccfbdd4d05e0bf0"
+}

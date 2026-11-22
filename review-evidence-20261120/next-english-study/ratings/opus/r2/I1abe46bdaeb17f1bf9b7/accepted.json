@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I1abe46bdaeb17f1bf9b7",
+  "ended": "2026-11-20T21:06:09.192256+00:00",
+  "session": "972ca6b7-1f55-431f-bc3f-c28a8bf8f650",
+  "packet_sha256": "78604cbcde2c0f98404ef0083655aa96d25b3d20886c60a68ae245e9c0a7459d",
+  "raw_sha256": "3a11962d68b11c4379daebd075cf5ff52e31a60b5a263897bcf83d4799465cd9",
+  "provider_sha256": "da676e21f4366ddf5864a5d10bfce800131c6e3e2fb259216052a3b697226173",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Several elements fit the persona. The speech is clear and measured, events are told in order, the patient sounds uneasy about being singled out, and the uncertainty is handled well (turn 7). Routine matters get concise answers (turn 12). However, the overall style feels noticeably scripted and does not sound like a real outpatient. The Monday bus-shelter episode is retold in nearly identical wording across many turns (2, 4, 5, 6, 8, 11). Stock sentences recur almost verbatim: the line about concentrating at home versus a busy bus stop appears word-for-word in turns 1 and 10. The patient volunteers the sensitive singled-out experience at the first loosely related prompt (turn 2), despite a profile describing worry that others would find these concerns strange. Several answers recycle facts instead of responding to the question asked. Turn 3 needed redirecting in turn 4. In turn 10 the clinician asks about concentration during the activity itself, and the patient repeats the home-versus-bus-stop comparison. The patient also adds little natural, free-flowing detail about drawing or garden-center work, although the profile says they speak freely about these. Stray quotation marks wrap the answers in turns 2 and 4. Overall the dialogue is moderately authentic but has clear artificial elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I find it easier to concentrate on drawing at home than at a busy bus stop."
+    },
+    {
+      "turn": 10,
+      "quote": "I find it easier to concentrate on drawing at home than at a busy bus stop."
+    },
+    {
+      "turn": 2,
+      "quote": "On Monday, two people at the bus shelter looked up at the same time, and I moved to the other end."
+    },
+    {
+      "turn": 6,
+      "quote": "Two people looked up at the same time, and I felt singled out, so I moved to the other end."
+    },
+    {
+      "turn": 7,
+      "quote": "I know they might be looking past me or looking for the bus, but it can still feel uncomfortable."
+    }
+  ]
+}

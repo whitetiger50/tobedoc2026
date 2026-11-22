@@ -1,0 +1,28 @@
+{
+  "DERAILMENT": {
+    "status": "absent",
+    "reason": "The three sentences stay on one idea, how the time was spent. There is no point where the train of ideas switches to an unconnected topic.",
+    "evidence": []
+  },
+  "POVERTY_OF_CONTENT": {
+    "status": "present",
+    "reason": "The speaker keeps answering for three sentences but never names any activity. Each statement is circular or generic: time was spent by doing things that filled the time, and the things were 'those kinds of things'. Very little specific, usable information is conveyed.",
+    "evidence": [
+      {"quote": "I did the sort of things you do with time."},
+      {"quote": "There was time to spend so I spent it, and the things I did filled that time."},
+      {"quote": "It was mostly those kinds of things."}
+    ]
+  },
+  "TANGENTIALITY": {
+    "status": "absent",
+    "reason": "The reply addresses the focus of the question, how the time before the library opened was spent. It does not follow a peripheral or different line. Its shortfall is emptiness, which belongs under POVERTY_OF_CONTENT, not a shift away from the question.",
+    "evidence": []
+  },
+  "UNCLEAR_REFERENCE": {
+    "status": "uncertain",
+    "reason": "'those kinds of things' uses a demonstrative that points to kinds of activities never identified in the reply or the earlier dialogue, so the intended referent is missing. A credible alternative reading is that it simply refers back to the reply's own generic phrase 'the sort of things you do with time'. On that reading the problem is vagueness of content, not an unresolvable reference.",
+    "evidence": [
+      {"quote": "those kinds of things"}
+    ]
+  }
+}

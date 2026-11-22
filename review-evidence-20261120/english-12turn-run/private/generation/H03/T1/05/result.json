@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T1",
+  "turn": 5,
+  "question": "What are the first couple of things you usually do in the kitchen each morning?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-28fb-7dc2-8499-51505676a292",
+  "raw": "I usually put bread in the toaster, then switch on the radio.",
+  "raw_sha256": "6c5b43daef0819ea8db07cb1a7bd4288b48048efb915d7e2446731f2134f5d04",
+  "request_sha256": "125f1bff8e1a48704605df4c74bc6abb6862ac891a1b6b12f32f60a3f4b02547",
+  "started_utc": "2026-11-20T20:40:11.151798+00:00",
+  "completed_utc": "2026-11-20T20:40:14.666125+00:00",
+  "usage": {
+    "input_tokens": 7060,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 18,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e35cb2b2242f8236cf2d5f4c040862f7a7458e7e90044bf6821f1fceda21498c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "296839cc15daeccdb20d8fa1182106798643b58ec3d46e846a3346b614698b80"
+}

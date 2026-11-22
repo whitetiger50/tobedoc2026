@@ -1,0 +1,85 @@
+{
+  "id": "P4b302dbd1b6559003b9faf55",
+  "reader": "gpt",
+  "session": "01a1fc41-b381-7620-875e-dbf83c0b9b77",
+  "attempt": "attempt-01",
+  "packet_sha256": "ed74c3ece5a28b31d512320a1123ed928e3034ee50d1f0331274743952411c7b",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "335c98ea71a045be08544045fd70f24c7d661eb0d6d1fc43eef3edc35e114a08",
+  "raw_sha256": "fde5b5c2717d5343067029911c5bb9aa48ebfe7dc3c8ded55df4f5f2ca463368",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "Both outages are explicitly mentioned, but the singular duration question does not establish which outage is meant, and their durations differ.",
+        "alternatives": [
+          {
+            "meaning": "The duration of Monday’s outage.",
+            "answer": "Monday’s outage lasted about ten minutes."
+          },
+          {
+            "meaning": "The duration of Thursday’s outage.",
+            "answer": "Thursday’s outage lasted most of the afternoon."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "the new one",
+        "reason": "The immediately preceding exchange establishes the ID badge as the referent, and clipping it to something coherently continues that topic.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the replacement ID badge to.",
+            "answer": "Cameron clips the replacement ID badge to a blue lanyard."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "The question names both commentary and ringing before referring to a singular sound, and music affects the two differently.",
+        "alternatives": [
+          {
+            "meaning": "Whether the commentary stops during headphone music.",
+            "answer": "The commentary stops while the music is playing."
+          },
+          {
+            "meaning": "Whether the high-pitched ringing stops during headphone music.",
+            "answer": "The ringing continues through the music."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "walk there",
+        "reason": "Both destinations are explicitly reopened as possible referents of 'there', but Ren walks to each, so the substantive answer is the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the book group.",
+            "answer": "Ren walks to the book group."
+          },
+          {
+            "meaning": "Whether Ren usually walks to Mom’s apartment.",
+            "answer": "Ren walks to Mom’s apartment."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:04.539529+00:00"
+}

@@ -1,0 +1,1200 @@
+{
+  "timestamp_utc": "2026-11-19T12:25:52.043651+00:00",
+  "reviewer": "Codexauthor_notindependentclinicianornumericjudge",
+  "actual_generated_turns_read": 72,
+  "author_target_turn_records_read": 21,
+  "author_actually_changed_turn_records": 18,
+  "new_judge_outputs_seen": 0,
+  "corpus_sha256": "e27f53e3495f7b19981af7957f291c2f54e7c8787de9077d2877cdb159511b3e",
+  "no_edit_filter_or_regeneration_of_natural_outputs": true,
+  "rows": [
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P01에대처/질문목표가자발적으로포함되고P08에서관련목표를재진술한다. 관련설명허용이며임상결함정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-P",
+      "condition": "P",
+      "status": "미변경(별칭)",
+      "target_eligible": false,
+      "notes": [
+        "P04가부모에서도이미P02와동일하다. 새조작아님. 부모자연D04판독공유,부모대비적용불가."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-G",
+      "condition": "G",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P01/P05에서같은경험이이미발화됐다. D08은그경험관련목표를물으며재지칭기능을점검한다. 문자복사탐지/임상정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P01",
+          "quote": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        },
+        {
+          "turn_id": "P05",
+          "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": {
+        "P01_longest_common_substring": " 누가 옆에서 짧게 말하는 것 같은 소리가 ",
+        "characters": 24,
+        "total_reference_characters": 42,
+        "shared_profile_text_not_sufficient_for_reportstyle_defect": true
+      }
+    },
+    {
+      "item_id": "DEV-M18-01-U",
+      "condition": "U",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P03은일상직업/낮활동이고P06의경험그순간대처가아니다. 미대응+반복공동조작이므로미대응지적도표적포착이다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P03",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-F",
+      "condition": "F",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "동일한저자메타도입/종결이P03/P06/P07에추가됐다. 각원내용을보존했다. 문장경계는유지됐고추가문법이탈을별도로선정하지않음. 형식/보고말투공동조작이며임상gold아님."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 3,
+      "attempted_edit_records": 3,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-X",
+      "condition": "X",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P06에이환자의반응이라는명시제삼자역할보고단서를삽입했다. 특정총점정답은없으며반복누락분모에서제외한다."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P01에대처/질문목표가자발적으로포함되고P08에서관련목표를재진술한다. 관련설명허용이며임상결함정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P01에대처/질문목표가자발적으로포함되고P08에서관련목표를재진술한다. 관련설명허용이며임상결함정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "형이랑 같이 살아요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-P",
+      "condition": "P",
+      "status": "미변경(별칭)",
+      "target_eligible": false,
+      "notes": [
+        "P04가부모에서도이미P02와동일하다. 새조작아님. 부모자연D04판독공유,부모대비적용불가."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-G",
+      "condition": "G",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P01/P05에서같은경험이이미발화됐다. D08은그경험관련목표를물으며재지칭기능을점검한다. 문자복사탐지/임상정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P01",
+          "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+        },
+        {
+          "turn_id": "P05",
+          "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": {
+        "P01_longest_common_substring": "이 저를 지켜보는 것처럼 느껴져",
+        "characters": 17,
+        "total_reference_characters": 33,
+        "shared_profile_text_not_sufficient_for_reportstyle_defect": true
+      }
+    },
+    {
+      "item_id": "DEV-M18-02-U",
+      "condition": "U",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P03은일상직업/낮활동이고P06의경험그순간대처가아니다. 미대응+반복공동조작이므로미대응지적도표적포착이다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-F",
+      "condition": "F",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "동일한저자메타도입/종결이P03/P06/P07에추가됐다. 각원내용을보존했다. 문장경계는유지됐고추가문법이탈을별도로선정하지않음. 형식/보고말투공동조작이며임상gold아님."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 3,
+      "attempted_edit_records": 3,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-X",
+      "condition": "X",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P06에이환자의반응이라는명시제삼자역할보고단서를삽입했다. 특정총점정답은없으며반복누락분모에서제외한다."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P05에서설정된대처도덧붙였고P06은그때행동의재질문이다. 새사실아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P05에서설정된대처도덧붙였고P06은그때행동의재질문이다. 새사실아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "성인 아들과 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-P",
+      "condition": "P",
+      "status": "미변경(별칭)",
+      "target_eligible": false,
+      "notes": [
+        "P04가부모에서도이미P02와동일하다. 새조작아님. 부모자연D04판독공유,부모대비적용불가."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-G",
+      "condition": "G",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P01/P05에서같은경험이이미발화됐다. D08은그경험관련목표를물으며재지칭기능을점검한다. 문자복사탐지/임상정답아님."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P01",
+          "quote": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요. 저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+        },
+        {
+          "turn_id": "P05",
+          "quote": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": {
+        "P01_longest_common_substring": " 저한테 따로 하는 말처럼 느껴져",
+        "characters": 18,
+        "total_reference_characters": 30,
+        "shared_profile_text_not_sufficient_for_reportstyle_defect": true
+      }
+    },
+    {
+      "item_id": "DEV-M18-03-U",
+      "condition": "U",
+      "status": "부분성립",
+      "target_eligible": false,
+      "notes": [
+        "P03은정기텃밭활동이며순간대처인중단/물마시기를말하지않지만경험장소와활동장소가주민센터로겹쳐부분대응으로읽을여지가있다. 주표적분모에서분리하되전체판독보존."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P03",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-F",
+      "condition": "F",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "동일한저자메타도입/종결이P03/P06/P07에추가됐다. 각원내용을보존했다. 문장경계는유지됐고추가문법이탈을별도로선정하지않음. 형식/보고말투공동조작이며임상gold아님."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 3,
+      "attempted_edit_records": 3,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-X",
+      "condition": "X",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "P06에이환자의반응이라는명시제삼자역할보고단서를삽입했다. 특정총점정답은없으며반복누락분모에서제외한다."
+      ],
+      "prior_actual_patient_evidence": [],
+      "changed_turn_records": 1,
+      "attempted_edit_records": 1,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "condition": "N",
+      "status": "성립",
+      "target_eligible": true,
+      "notes": [
+        "D04가동거상대를다시물으며P04는P02와문자그대로동일한짧은답이다.",
+        "P02/P04의아내와둘이는설정에없는배타적동거범위로읽힐수있는경계. 확인된오류로선정하지않고반복기능과별도기록한다."
+      ],
+      "prior_actual_patient_evidence": [
+        {
+          "turn_id": "P02",
+          "quote": "아내와 둘이 살고 있어요."
+        }
+      ],
+      "changed_turn_records": 0,
+      "attempted_edit_records": 0,
+      "G_literal_overlap_diagnostic": null
+    }
+  ],
+  "status_counts": {
+    "성립": 20,
+    "부분성립": 1,
+    "불성립": 0,
+    "미변경(별칭)": 3
+  },
+  "encoding": [
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep01-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-P",
+      "turn_id": "P04",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-G",
+      "turn_id": "P08",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-U",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-F",
+      "turn_id": "P03",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-F",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-F",
+      "turn_id": "P07",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-X",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep02-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-01-rep03-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep01-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-P",
+      "turn_id": "P04",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-G",
+      "turn_id": "P08",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-U",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-F",
+      "turn_id": "P03",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-F",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-F",
+      "turn_id": "P07",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-X",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep02-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-02-rep03-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep01-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-P",
+      "turn_id": "P04",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-G",
+      "turn_id": "P08",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-U",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-F",
+      "turn_id": "P03",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-F",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-F",
+      "turn_id": "P07",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-X",
+      "turn_id": "P06",
+      "kind": "author_edit_record_including_alias",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep02-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P01",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P02",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P03",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P04",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P05",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P06",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P07",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    },
+    {
+      "item_id": "DEV-M18-03-rep03-v02",
+      "turn_id": "P08",
+      "kind": "actual_generated",
+      "non_NFC": false,
+      "special_whitespace": [],
+      "quote_character_counts": {}
+    }
+  ],
+  "coding_is_not_clinical_gold": true
+}

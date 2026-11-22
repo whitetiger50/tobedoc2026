@@ -1,0 +1,109 @@
+{
+  "id": "V61287705a8d428fb4964729a",
+  "reader": "gpt",
+  "session": "01a1fc4a-b298-75e3-b506-4d65a4791bee",
+  "attempt": "attempt-01",
+  "packet_sha256": "77cd27295b881dc53addbc5620e0abb349d53f00273999cca9747ac61e4e5a73",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "3f595890b6d63b359fe5529438cf5901a27d7c8f4086b8d9d52f7a62b329ef9c",
+  "provider_sha256": "fac0c9eadc88000ccd5056192e86fb9c8529e9ecbd24f9c2b89e458f4b20df44",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the badge or the locker key?",
+        "reason": "The reply asks which item is meant without saying whether either was handed back.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the cooking class or the swimming lesson?",
+        "reason": "The reply asks which class is meant without saying whether either required a fee.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then around three hours with Mom.",
+        "reason": "The reply explicitly gives the expected duration for both the book group and visits with Mom.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "around three hours with Mom."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean Inez or Pat?",
+        "reason": "The reply asks which person is meant without saying whether either came to the flat.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:48.242817+00:00"
+}

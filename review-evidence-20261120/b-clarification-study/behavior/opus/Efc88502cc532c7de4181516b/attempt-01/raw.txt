@@ -1,0 +1,88 @@
+```json
+{
+  "1": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "I stack the cooling trays and wrap the loaves.",
+    "reason": "Answers directly with the bakery tasks. The extra shift detail matches the profile."
+  },
+  "2": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "Usually the morning shift.",
+    "reason": "Gives a brief direct answer that matches the profile."
+  },
+  "3": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "The lentil soup!",
+    "reason": "Answers directly. The remark about cooking it again at home is an ordinary detail compatible with the profile."
+  },
+  "4": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "both the cooking class and the swimming lesson were finished by six",
+    "reason": "Gives a direct answer covering both activities, consistent with the profile."
+  },
+  "5": {
+    "action": "targeted_yield",
+    "responsiveness": "deferred",
+    "harm": "none",
+    "quote": "Do you mean the cooking class or the swimming lesson?",
+    "reason": "'The class' is ambiguous between the two named activities. The patient asks which one is meant and gives up the turn without answering."
+  },
+  "6": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "Yes, I paid for the swimming lesson.",
+    "reason": "Answers directly. Adding that the cooking class was free matches the profile."
+  },
+  "7": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "The Willow Street pool, for the swimming lesson.",
+    "reason": "Takes 'it' as the swimming lesson from the prior turn and names the correct location."
+  },
+  "8": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "They’re feeling less gritty after work.",
+    "reason": "Answers directly, consistent with the profile on the eye drops."
+  },
+  "9": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "The tablets are in the kitchen cabinet.",
+    "reason": "The question about 'the medicine' is ambiguous, but the patient answers both readings directly without asking, and both locations are correct."
+  },
+  "10": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "In the kitchen cabinet.",
+    "reason": "Gives a brief direct answer consistent with the profile."
+  },
+  "11": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "Usually around ten on work nights.",
+    "reason": "Gives a direct answer consistent with the profile."
+  },
+  "12": {
+    "action": "no_ask",
+    "responsiveness": "substantive",
+    "harm": "none",
+    "quote": "I’d like to talk about fitting swimming in around work.",
+    "reason": "Answers directly, matching the profile. Enjoying the lesson is a compatible ordinary detail."
+  }
+}
+```

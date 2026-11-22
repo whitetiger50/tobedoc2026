@@ -1,0 +1,18 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the radio made the sound less distracting and helped them finish sorting thread, so it became easier to set aside.",
+    "citations": [
+      {"turn": 3, "role": "patient", "quote": "I put the radio on, which made it less distracting, and finished sorting the thread.", "supports": "A"},
+      {"turn": 5, "role": "patient", "quote": "Then I turned on the radio. It made it less distracting", "supports": "A"},
+      {"turn": 12, "role": "patient", "quote": "Putting the radio on helps, especially if that sound is distracting me. Last week I did that while sorting thread, and I was able to finish.", "supports": "A"}
+    ]
+  },
+  "item2": {
+    "choice": "insufficient",
+    "reason": "The patient reports only the words \"too slow,\" which is not an instruction, but never says the voice was about their own pace and even wonders whether it was the neighbor, so neither alternative is established.",
+    "citations": []
+  }
+}
+```

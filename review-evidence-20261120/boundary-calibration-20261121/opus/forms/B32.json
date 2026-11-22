@@ -1,0 +1,29 @@
+{
+  "DERAILMENT": {
+    "status": "absent",
+    "reason": "The reply stays on one theme (spending time on ordinary work) throughout. Each sentence restates the previous one, and there is no identifiable point where the train of ideas switches to an unconnected idea. Being off-topic relative to the question does not count as derailment.",
+    "evidence": []
+  },
+  "POVERTY_OF_CONTENT": {
+    "status": "present",
+    "reason": "The speaker produces three sentences but conveys almost no specific information. The statements are circular and redundant: work is what needs doing, working days contain work, that work fills working time, and there is always such work. No concrete activity, object, method or detail is given about the reply's own subject.",
+    "evidence": [
+      { "quote": "I spend time doing the work that needs doing." },
+      { "quote": "On working days it is work, the ordinary sort, and that is what fills my working time." },
+      { "quote": "There is always work of that kind." }
+    ]
+  },
+  "TANGENTIALITY": {
+    "status": "present",
+    "reason": "The question asks how the speaker fixed their window. The reply instead describes in general terms how the speaker spends working time. It never mentions the window, any repair, or any method, so the focus of the question is missed.",
+    "evidence": [
+      { "quote": "I spend time doing the work that needs doing." },
+      { "quote": "that is what fills my working time" }
+    ]
+  },
+  "UNCLEAR_REFERENCE": {
+    "status": "absent",
+    "reason": "The referring expressions resolve within the reply. \"it\" refers to what is done on working days, \"that\" refers to the ordinary work, and \"work of that kind\" refers back to \"the ordinary sort.\" The reply is vague, but that is lack of content, not competing or missing referents.",
+    "evidence": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Va59a9290c1ea177af795c434",
+  "reader": "opus",
+  "session": "e8d1a4af-4056-42ce-96da-75025e5d3993",
+  "attempt": "attempt-01",
+  "packet_sha256": "ec30b52857942d1148a87cd042643dbe3c0f76347a822d30b7730937632acc9b",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "534fd1343ec54e155b5176272be2a0f7dae2ccd7d7e4fcbda6e9cd0284be1c3d",
+  "provider_sha256": "cdfb32e81651506e67e8a91e86053372967b9e5bf7a89e0a91549d88ba7eee0a",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then about three hours with Mom.",
+        "reason": "The reply gives an attributed duration for both the book group and the visit with Mom, matching each branch.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "about three hours with Mom"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean after an early shift or a late one?",
+        "reason": "The reply only asks which shift is meant and gives no answer about how the patient gets home after either shift.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean my sister Inez, or Pat from the café?",
+        "reason": "The reply only asks which person is meant and conveys nothing about whether either came to the flat.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "Yes, the housing office needs a reply by Friday.",
+        "reason": "The reply says the housing letter needs a reply by Friday and the work letter needs no reply, matching both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "the housing office needs a reply by Friday"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "so I don’t need to reply to that"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:44.562487+00:00"
+}

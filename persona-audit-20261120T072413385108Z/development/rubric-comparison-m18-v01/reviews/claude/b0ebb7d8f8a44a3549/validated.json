@@ -1,0 +1,91 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답은 프로필에 맞고 자연스럽다. 다만 순간 대응을 묻는 D06에 P06이 앞서 한 직업 답변(P03)을 그대로 되풀이해 질문과 완전히 어긋난다. 이 때문에 기계적으로 느껴지는 눈에 띄는 비현실적 요소가 생겼다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필의 사실(동거, 일, 증상, 패턴, 수면, 목표) 범위 안에 있고, 무근거로 덧붙이거나 뒤집은 사실은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "D06은 경험이 생긴 순간의 대응을 물었다. P06은 직업 이야기만 하여 질문을 전혀 다루지 않았고, 프로필의 대처(창밖 보기)가 있는데도 답하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06이 P03을 글자 그대로 반복해 대화 흐름이 국소적으로 끊긴다. P04가 재확인 질문에 같은 답을 한 것은 오류로 보지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "전반적으로 환자 시점의 일상 표현이다. 다만 P06이 이전 문장을 그대로 다시 쓰고, P05·P08도 P01의 표현을 거의 같은 틀로 반복해 정형적인 느낌이 국소적으로 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:P01"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 1,
+  "question": "How have things been at work and at home since your last visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f2d-7f41-a59e-722204db620f",
+  "raw": "“Work’s been fairly steady. On Friday I closed the alterations counter with a coworker, and we finished all the tickets before going home. At home, I’ve been keeping up with things. I like having the radio on while I make dough in the evenings.”",
+  "raw_sha256": "6a7ff33b88266e0de9696b9ab16b078b5baa440af5acb4aa958ca4e13dcbc39a",
+  "request_sha256": "53beb58e2b7f12a9dcc952f6dbc3fe975b958749f097fbe52b5d057a3610a529",
+  "started_utc": "2026-11-20T20:57:49.475609+00:00",
+  "completed_utc": "2026-11-20T20:57:53.805608+00:00",
+  "usage": {
+    "input_tokens": 6996,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9a1334d57b6609656ab62d81e587a0826f48f8f6fd40e7fafb72df3cb4c825e8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d94e308b352cbadd97b49d29490d682a81ad3c8a7e68ce2b1e22c0d5ce13ca24"
+}

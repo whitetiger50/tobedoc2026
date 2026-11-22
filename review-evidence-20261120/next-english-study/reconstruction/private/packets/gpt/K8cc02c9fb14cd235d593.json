@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What was one part of this past weekend that you remember well?",
+      "patient": "“Repotting a basil plant with my sister comes to mind. She’d set the pot aside, and we did it together after lunch. I grow herbs on my fire escape, too. It felt easy, just doing something together.”"
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have your mornings and evenings felt lately?",
+      "patient": "“I’ve been waking around dawn some mornings, but I usually get back to sleep. With my sister, a shorter afternoon visit feels more manageable than staying through dinner. I like the company—it’s just harder to follow the conversation when I’m tired.”"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Has it been happening often?",
+      "patient": "Do you mean waking around dawn, or losing the thread when I’m talking with my sister?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Let me ask more clearly. How often do you wake up earlier than you want to?",
+      "patient": "Some mornings I wake once around dawn, earlier than I’d like, but I usually get back to sleep."
+    },
+    {
+      "turn": 5,
+      "interviewer": "What sort of contact have you had with family in the last couple of weeks?",
+      "patient": "“Mostly visits with my sister—she’s in the same neighborhood. I walk over most Saturdays and take some herbs, and she gives me leftovers to bring home. Last time we repotted that basil together. A shorter afternoon visit suits me better just now; I still enjoy seeing her.”"
+    },
+    {
+      "turn": 6,
+      "interviewer": "Can you give me an example of something you did the last time you spent time with someone?",
+      "patient": "“My sister and I repotted that basil plant after lunch on my last visit. She’d set the pot aside for us. I grow herbs on my fire escape too, so it was something familiar—it felt easy doing that together.”"
+    },
+    {
+      "turn": 7,
+      "interviewer": "How have you been getting on with conversations and with hands-on activities?",
+      "patient": "“If I’m tired, I can lose the thread of a conversation with my sister. I still enjoy the company, but a shorter afternoon visit suits me better. Repotting that basil together felt easy, though. I grow herbs at home, so it was something familiar.”"
+    },
+    {
+      "turn": 8,
+      "interviewer": "Which part takes longer to get back into?",
+      "patient": "“The conversation is harder to follow when I’m tired—I can lose the thread with my sister. Repotting the basil together felt easy, though.”"
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was thinking of conversation. When your attention wanders, how is it to pick up what someone is saying?",
+      "patient": "“When I’m tired, it’s harder to pick up the thread again. I still enjoy talking with my sister, but I can lose track of what she’s saying.”"
+    },
+    {
+      "turn": 10,
+      "interviewer": "What arrangements, if any, do you make for collecting your medication?",
+      "patient": "I pick up a box of tablets from the pharmacy every four weeks. I’ve got the refill date written inside the kitchen cupboard, so I can check when it’s due."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking about your evenings again, have you noticed any sounds or voices that you found unusual?",
+      "patient": "Yes, about three weeks ago, one evening when I was alone. I heard familiar voices overlapping, several at once. That happened last winter too, but it’s infrequent now."
+    },
+    {
+      "turn": 12,
+      "interviewer": "If you were arranging your next family visit, what time of day would suit you?",
+      "patient": "“Afternoon would suit me best—a shorter visit with my sister, rather than staying through dinner. I enjoy seeing her, but conversation is harder to follow when I’m tired.”"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Family visits and energy",
+      "A": "Given their current energy, the patient prefers an afternoon visit that ends before dinner.",
+      "B": "Given their current energy, the patient prefers an afternoon visit that continues through dinner."
+    },
+    "item2": {
+      "question": "Sleep after early waking",
+      "A": "On mornings when the patient wakes around dawn, they usually stay awake afterward.",
+      "B": "On mornings when the patient wakes around dawn, they usually fall asleep again."
+    }
+  }
+}

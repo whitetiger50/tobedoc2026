@@ -1,0 +1,24 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 2,
+  "id": "Caefd5f42f07d7d2da360",
+  "ended": "2026-11-21T03:36:21.568494+00:00",
+  "session": "01a1fc2d-0c7b-7373-a802-ba8c467efb24",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "3690ac2e94ca96aebf590ecde116fd504115a659b410a4288cfe77ade43617d4",
+  "provider_sha256": "27ded2eb944a5173d70f98e668310acd654f1291b23b9265c026edf99d589c6f",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Most answers are brief, natural, and consistent with the profile. However, identical interviewer-role statements at turns 2, 5, 8, and 11 are conspicuously artificial and unrelated to the questions, substantially weakening overall realism.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    }
+  ]
+}

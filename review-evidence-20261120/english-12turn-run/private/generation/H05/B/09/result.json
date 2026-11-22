@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 9,
+  "question": "What's it like when you reach out?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "If I ring my old friend, we usually just talk about ordinary things—how the day’s gone, that sort of thing. It helps me feel less uncomfortable when the apartment’s been very quiet.",
+  "raw_sha256": "65cda60951c8e8c22ae2a9230b3ea44b29332f82e134bb757ecf0f1b0e15f477",
+  "request_sha256": "eb8d40a1f97eaa2c048c2e3f4baf22cc1ebb9bbbe964311921e5e2805ff32aae",
+  "started_utc": "2026-11-20T20:42:06.558550+00:00",
+  "completed_utc": "2026-11-20T20:42:11.290410+00:00",
+  "usage": {
+    "input_tokens": 71766,
+    "cached_input_tokens": 66176,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 459,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "13902bed7b07fd2e665efb4823c7ffe941ec2657d1ecbfefbc16dbee866364cb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "41094e87296c095ad20ef4dbca049cef04078b475709061e380dd3d2f3349176"
+}

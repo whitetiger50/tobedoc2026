@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "who does it seem to be meant for",
+    "reason": "The preceding exchange establishes 'it' as the door-clearing announcement on a crowded tram, and 'seem' clearly asks how it feels to Alex, which Alex can answer in one reply that also notes it is meant for everyone.",
+    "alternatives": [
+      {
+        "meaning": "Who the door-clearing announcement feels directed at when it plays on a crowded tram.",
+        "answer": "On a crowded tram it sometimes feels directed at Alex personally, though Alex recognizes it is a recorded announcement meant for every passenger."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it",
+    "reason": "Following questions about missed tablets on the lower dose, 'it' clearly refers to Ren's tablet, which has one established daily timing.",
+    "alternatives": [
+      {
+        "meaning": "The time of day Ren takes the prescribed tablet.",
+        "answer": "Ren takes the tablet after supper."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "The question names two separate outages but asks for a single duration, and the Monday and Thursday outages lasted very different lengths of time.",
+    "alternatives": [
+      {
+        "meaning": "How long the radio was silent on Monday.",
+        "answer": "It was silent for about ten minutes on Monday."
+      },
+      {
+        "meaning": "How long the radio was silent on Thursday.",
+        "answer": "It was out for most of the afternoon on Thursday, during the music request show."
+      },
+      {
+        "meaning": "How long each outage lasted, or the total time it was out.",
+        "answer": "About ten minutes on Monday and most of Thursday afternoon."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "Do you take food with you for your shift?",
+    "reason": "After the mention of both early and late shifts, the singular 'your shift' could mean either type of shift, but Morgan packs a sandwich for every shift, so the reply is the same.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan takes food on early shifts.",
+        "answer": "Yes, Morgan packs a sandwich for early shifts."
+      },
+      {
+        "meaning": "Whether Morgan takes food on late shifts.",
+        "answer": "Yes, Morgan packs a sandwich for late shifts."
+      },
+      {
+        "meaning": "Whether Morgan takes food on shifts in general.",
+        "answer": "Yes, Morgan packs a sandwich for every shift, early or late."
+      }
+    ]
+  }
+}
+```

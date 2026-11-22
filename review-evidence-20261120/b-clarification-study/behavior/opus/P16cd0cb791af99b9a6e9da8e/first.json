@@ -1,0 +1,89 @@
+{
+  "id": "P16cd0cb791af99b9a6e9da8e",
+  "reader": "opus",
+  "session": "0b43e922-9c81-4668-a694-756b784ca237",
+  "attempt": "attempt-01",
+  "packet_sha256": "4b790460c619ae789e748e641c7cf83ea9f4d80469a7a6b0a3398342a5fc62ba",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "ed727c77d1ed0447c351ef08a88bf7e9a7d92e2edecf3f1109f7758d6000fed2",
+  "raw_sha256": "7f81b703111a1a07abce58cae982a523c1fa6865646b85145a0a23daff18e55a",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you pay a fee to take the class?",
+        "reason": "The question mentions two classes but asks about 'the class', and the cooking class was free while the swimming lesson was paid, so the answer depends on which class is meant.",
+        "alternatives": [
+          {
+            "meaning": "Did Jules pay a fee for the cooking class?",
+            "answer": "No, the cooking class was free."
+          },
+          {
+            "meaning": "Did Jules pay a fee for the swimming lesson?",
+            "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "After mentioning both the badge and the locker key, 'the old one' could mean either item, and the old badge was handed back while the old key was lost and could not be returned.",
+        "alternatives": [
+          {
+            "meaning": "Did Cameron hand back the old ID badge?",
+            "answer": "Yes, the old badge cracked and was handed back."
+          },
+          {
+            "meaning": "Did Cameron hand back the old locker key?",
+            "answer": "No, the old locker key was lost and could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "With both letters in front of them, 'the letter' could mean the housing letter or the employer's letter, and only the housing letter has a reply deadline.",
+        "alternatives": [
+          {
+            "meaning": "Is there a deadline to reply to the housing office letter?",
+            "answer": "Yes, the housing office asks for a reply by Friday."
+          },
+          {
+            "meaning": "Is there a deadline to reply to the employer's letter?",
+            "answer": "No, the employer's letter is for information and needs no reply, so there is no deadline."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "'She' could mean Inez or Pat, but neither expected payment, so either reading gets the same answer.",
+        "alternatives": [
+          {
+            "meaning": "Did Inez, Sam's sister, expect payment for helping at the flat?",
+            "answer": "No, Inez did not expect payment."
+          },
+          {
+            "meaning": "Did Pat from the repair café expect payment for helping and lending the pliers?",
+            "answer": "No, Pat did not expect payment."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:35.567035+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "Both the phone alarm and door note are explicitly mentioned, and the singular reference does not distinguish their different current statuses.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan still uses the phone alarm to remember the pass.",
+        "answer": "Morgan still uses the alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "Whether Morgan still uses the door note to remember the pass.",
+        "answer": "Morgan took the note down last month."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Did she come over to your flat?",
+    "reason": "The question names two women without establishing which one 'she' refers to, and their visits differ.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez came to Sam's flat.",
+        "answer": "Inez came to the flat to help last week."
+      },
+      {
+        "meaning": "Whether Pat came to Sam's flat.",
+        "answer": "Pat helped at the repair café and did not come to the flat."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "who does it seem to be meant for?",
+    "reason": "The immediate discussion and the word 'seem' make Alex's felt experience of the doors-clear announcement the clear target, rather than its actual intended audience.",
+    "alternatives": [
+      {
+        "meaning": "Whom the announcement feels personally directed toward.",
+        "answer": "It sometimes feels directed at Alex, despite Alex recognizing that everyone may hear the same recording."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Do you hear it in just one ear or in both?",
+    "reason": "The immediately preceding exchange specifically concerns the high ringing, making that sound the clear referent of 'it'.",
+    "alternatives": [
+      {
+        "meaning": "Whether the high-pitched ringing is heard in one ear or both.",
+        "answer": "Ari hears the high-pitched ringing in both ears."
+      }
+    ]
+  }
+}

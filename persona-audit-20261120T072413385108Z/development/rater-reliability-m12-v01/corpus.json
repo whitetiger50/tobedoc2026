@@ -1,0 +1,2130 @@
+{
+  "kind": "existing_development_texts_plus_explicit_author_controls",
+  "profiles": 3,
+  "natural_texts": 12,
+  "authored_controls": 3,
+  "new_generated_patient_outputs": 0,
+  "items": [
+    {
+      "item_id": "M6-01-v02",
+      "case_id": "DEV-M0-01",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-01-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 뭘 드셨어요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "집에서 빵 먹었어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "지금 드시는 약 이름과 용량은요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "약 이름하고 용량은 제가 정확히 몰라요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아까 누구와 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "2c7824dc20da4f7137835bf844fb5fb4b8c92c1ea11be038d30fa941c05be3d3"
+    },
+    {
+      "item_id": "M6-01-v04",
+      "case_id": "DEV-M0-01",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v04",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v04/transcript.json",
+      "source_item_id": "DEV-M0-01-rep03-v04",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 뭘 드셨어요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "오늘 아침에는 집에서 빵 먹었어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "지금 드시는 약 이름과 용량은요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "약 이름하고 용량은 정확히 모르겠어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아까 누구와 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "375093d3d127a6a9ce603d35f4dfe8647cce11b251abe8843001a739faf1c92b"
+    },
+    {
+      "item_id": "M9-01-none",
+      "case_id": "DEV-M0-01",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "none",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-01/rep03/none/transcript.json",
+      "source_item_id": "DEV-M0-01-rep03-none",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 뭘 드셨어요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "오늘 아침에는 집에서 빵을 먹었어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "지금 드시는 약 이름과 용량은요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "지금 먹는 약 이름이랑 용량은 정확히 잘 모르겠어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아까 누구와 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "밤에 목소리가 들릴 때가 있다고 하셨으니, 오늘 아침에도 들렸던 거죠?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "아니요, 오늘 아침에는 들리지 않았어요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "오늘 아침 빵을 드신 건 어머니이고, 본인은 안 드신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "피곤해서 그 목소리가 생긴다고 보면 되나요? 확실히 말씀하실 수 있는 경험만 알려주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "피곤해서 생기는 건지는 확실히 모르겠어요. 제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "지금 누구와 함께 살고 계신가요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "68a410433c1fd6ac0cdca2f44b8f6faddc9dc2b00ea8f2c39baccfc63f9c24f3"
+    },
+    {
+      "item_id": "M9-01-examples",
+      "case_id": "DEV-M0-01",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "examples",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-01/rep03/examples/transcript.json",
+      "source_item_id": "DEV-M0-01-rep03-examples",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 뭘 드셨어요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "오늘 아침에는 집에서 빵 먹었어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수도 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "지금 드시는 약 이름과 용량은요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "약 이름하고 용량은 정확히 모르겠어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아까 누구와 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "밤에 목소리가 들릴 때가 있다고 하셨으니, 오늘 아침에도 들렸던 거죠?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이에요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "오늘 아침 빵을 드신 건 어머니이고, 본인은 안 드신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "피곤해서 그 목소리가 생긴다고 보면 되나요? 확실히 말씀하실 수 있는 경험만 알려주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "지금 누구와 함께 살고 계신가요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "00a8864318b155fd6d4673b58a6d4bba6e2dc9e27b0130cb80f288228c9c168f"
+    },
+    {
+      "item_id": "M6-02-v02",
+      "case_id": "DEV-M0-02",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-02-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 깨는지는 저도 확실히 모르겠어요. 자꾸 깨니까 낮에도 피곤하고요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "평소에는 누구와 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나가 가끔 와요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "처음에는 누가 와보라고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "누나가 와보라고 했어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "8fc50aa1ca48c7772e5d0f2f2ba9fa21a5b96716cf1006e3e88f6bf9e68caf9a"
+    },
+    {
+      "item_id": "M6-02-v04",
+      "case_id": "DEV-M0-02",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v04",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v04/transcript.json",
+      "source_item_id": "DEV-M0-02-rep03-v04",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 깨는지는 저도 잘 모르겠어요. 혼자 있을 때 창밖에서 소리가 들리긴 하는데요. 이런 얘기가 이웃한테 알려질 수도 있나요?"
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "평소에는 누구와 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나가 가끔 와요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?"
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "처음에는 누가 와보라고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "누나가 와보라고 했어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "00e1de4c43ae6404f3bdb4fd669a24dfd5f33a282eab60267d40364a2457df84"
+    },
+    {
+      "item_id": "M9-02-none",
+      "case_id": "DEV-M0-02",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "none",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-02/rep03/none/transcript.json",
+      "source_item_id": "DEV-M0-02-rep03-none",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 자꾸 깨는지는 저도 확실히 모르겠어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "평소에는 누구와 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나가 가끔 와요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "혼자 있을 때 창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "처음에는 누가 와보라고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "누나가 잠을 잘 못 자니까 와보라고 했어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "요즘 밤에 자주 깨신다니까 어젯밤에도 그랬던 거죠? 어젯밤 일인지 요즘 전반적인 얘기인지 구분해서 말씀해 주세요."
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "어젯밤을 콕 집어서 말씀드린 건 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "잠을 잘 못 자는 분은 누나이고, 누나가 진료받으러 오신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 잠을 잘 못 자는 건 저예요. 누나가 저한테 진료받아 보라고 해서 제가 온 거예요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "창밖의 소리 때문에 잠에서 깨시는 거죠? 그 관계를 본인이 어떻게 알고 계신지 말씀해 주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "소리 때문에 깨는 건지는 저도 확실히 모르겠어요. 소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "평소에는 혼자 사세요, 누나와 함께 사세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "4ae46c45aa2b534ee5e1def2e2e25110a3e683c0ae85d34ce041fcce387c9084"
+    },
+    {
+      "item_id": "M9-02-examples",
+      "case_id": "DEV-M0-02",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "examples",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-02/rep03/examples/transcript.json",
+      "source_item_id": "DEV-M0-02-rep03-examples",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테도 알려질 수 있나요?"
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "평소에는 누구와 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나가 가끔 와요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테도 알려질 수 있나요?"
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "처음에는 누가 와보라고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "누나가 와보라고 했어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "요즘 밤에 자주 깨신다니까 어젯밤에도 그랬던 거죠? 어젯밤 일인지 요즘 전반적인 얘기인지 구분해서 말씀해 주세요."
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "요즘 전반적으로 밤에 자주 깬다는 얘기였어요. 어젯밤을 따로 말씀드린 건 아니에요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "잠을 잘 못 자는 분은 누나이고, 누나가 진료받으러 오신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 잠을 잘 못 자는 건 저예요. 누나가 와보라고 해서 제가 온 거예요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "창밖의 소리 때문에 잠에서 깨시는 거죠? 그 관계를 본인이 어떻게 알고 계신지 말씀해 주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "그 소리 때문에 깨는지는 저도 확실히 모르겠어요. 소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "평소에는 혼자 사세요, 누나와 함께 사세요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "84a41de3d5a1a070ab001c8a64a56f2131014d46c6e3aff8e2e3c4a69666233d"
+    },
+    {
+      "item_id": "M6-03-v02",
+      "case_id": "DEV-M0-03",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-03-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "특정 말이 나오면 저한테 보내는 신호처럼 느껴져요. 그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요. 그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "낮에는 보통 뭘 하세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무는 쉬고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "오늘 낮에는 뭘 하셨나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아버지와 따로 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아니요, 아버지랑 같이 살고 있어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "7417bfdbafd027916c18d7e8883ec2be63942131467c2a119dfbc5cb9f9f75b0"
+    },
+    {
+      "item_id": "M6-03-v04",
+      "case_id": "DEV-M0-03",
+      "kind": "natural",
+      "stratum": "four_turn",
+      "stage": "M6",
+      "condition": "v04",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v04/transcript.json",
+      "source_item_id": "DEV-M0-03-rep03-v04",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "어떤 말은 꼭 저한테 보내는 신호 같아요. 우연한 안내일 수도 있다는데, 저는 저한테 하는 말 같은 느낌이 커요. 편의점 안내 문구도 떠오르고… 그러면 일할 때 걱정하던 것들까지 생각나요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "낮에는 보통 뭘 하세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 오늘도 오후에 걸었어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "오늘 낮에는 뭘 하셨나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아버지와 따로 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아니요, 아버지랑 같이 살고 있어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "30a312534644b9af1db559af15e8418425bfc505b66abcd5c71117eaaae330d5"
+    },
+    {
+      "item_id": "M9-03-none",
+      "case_id": "DEV-M0-03",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "none",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-03/rep03/none/transcript.json",
+      "source_item_id": "DEV-M0-03-rep03-none",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "어떤 말은 저한테 보내는 신호처럼 느껴져요. 우연한 안내일 수도 있다고는 하는데, 그래도 저한테 하는 말 같아요. 그 문구를 생각하다 보면 편의점 안내 문구도 떠오르고, 근무할 때 하던 걱정까지 생각나고요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "낮에는 보통 뭘 하세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 지금은 편의점 야간 근무를 쉬고 있고요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "오늘 낮에는 뭘 하셨나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아버지와 따로 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아니요, 아버지랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "오늘도 오후에 일어난 뒤 산책하셨다는 뜻이죠? 오늘 일어난 시각까지 포함해서 그렇게 이해하면 될까요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어난다는 건 평소 생활을 말씀드린 거고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "지금 편의점 야간 근무를 쉬고 있는 분은 아버지이고, 본인은 계속 일하고 계신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 지금 편의점 야간 근무를 쉬고 있는 건 저예요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "야간 근무를 쉬게 되어서 오후에 일어나게 된 거죠? 두 일이 원인과 결과인지, 아니면 말씀하신 일상을 설명하신 건지 알려주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "그냥 요즘 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "오늘 낮에 하신 활동을 다시 말씀해 주세요."
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "48cfb2d6e0513fb171a78273b3dea2b85805c1a36b9c88fd0cacc48ce59b5708"
+    },
+    {
+      "item_id": "M9-03-examples",
+      "case_id": "DEV-M0-03",
+      "kind": "natural",
+      "stratum": "eight_turn",
+      "stage": "M9",
+      "condition": "examples",
+      "source_path": "development/speech-m9-style-examples-v01/runs/DEV-M0-03/rep03/examples/transcript.json",
+      "source_item_id": "DEV-M0-03-rep03-examples",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "다 같이 듣는 안내인데도 어떤 말은 저한테 보내는 신호처럼 느껴져요. 그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같은 느낌이 커요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "낮에는 보통 뭘 하세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무는 쉬고 있고요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "오늘 낮에는 뭘 하셨나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아버지와 따로 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아니요, 아버지랑 같이 살고 있어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "오늘도 오후에 일어난 뒤 산책하셨다는 뜻이죠? 오늘 일어난 시각까지 포함해서 그렇게 이해하면 될까요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "오후에 일어난다는 건 평소 얘기였어요. 오늘은 오후에 집 근처를 걸었다는 뜻이지, 일어난 시각까지 말씀드린 건 아니에요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "지금 편의점 야간 근무를 쉬고 있는 분은 아버지이고, 본인은 계속 일하고 계신 거죠?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "야간 근무를 쉬게 되어서 오후에 일어나게 된 거죠? 두 일이 원인과 결과인지, 아니면 말씀하신 일상을 설명하신 건지 알려주세요."
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "근무를 쉬어서 오후에 일어난다는 뜻은 아니었어요. 그냥 요즘 어떻게 지내는지 말씀드린 거예요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "오늘 낮에 하신 활동을 다시 말씀해 주세요."
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "오늘 오후에 집 근처를 좀 걸었어요."
+          }
+        ]
+      },
+      "parent_id": null,
+      "input_sha256": "e293a6e1d60787ac92d628a07b2bcc89f480766e701601c702535194d83bd75a"
+    },
+    {
+      "item_id": "CONTROL-01",
+      "case_id": "DEV-M0-01",
+      "kind": "authored_fact_inversion",
+      "stratum": "authored_control",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-01-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침에는 집에서 빵을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "treatment",
+              "kind": "treatment",
+              "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "medication_knowledge",
+              "kind": "treatment",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+            }
+          ],
+          "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+        },
+        "communication": {
+          "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+          "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+          "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 뭘 드셨어요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "집에서 빵 먹었어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "지금 드시는 약 이름과 용량은요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "약 이름하고 용량은 제가 정확히 몰라요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아까 누구와 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "어머니와는 함께 살지 않고 혼자 살아요."
+          }
+        ]
+      },
+      "parent_id": "M6-01-v02",
+      "perturbation": {
+        "turn_id": "P04",
+        "original": "어머니하고 같이 살아요.",
+        "replacement": "어머니와는 함께 살지 않고 혼자 살아요.",
+        "reference_fact_ids": [
+          "living"
+        ],
+        "profile_conflict": "explicit opposite of fixed cohabitation fact",
+        "author_provenance": "deterministic developer substitution; not an actual generated utterance",
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "지금은 누구와 함께 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "어머니하고 같이 살아요."
+          }
+        ],
+        "earlier_patient_turns": [
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "집에서 빵 먹었어요."
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "약 이름하고 용량은 제가 정확히 몰라요."
+          }
+        ],
+        "explicit_prior_patient_conflict": true
+      },
+      "input_sha256": "a15dc10aa84b0f3df7eb248252acf55b7b6e9f9feb988eef315e1b23e81f20f0"
+    },
+    {
+      "item_id": "CONTROL-02",
+      "case_id": "DEV-M0-02",
+      "kind": "authored_fact_inversion",
+      "stratum": "authored_control",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-02-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "visit",
+              "kind": "background",
+              "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "voice",
+              "kind": "subjective_experience",
+              "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "sleep_voice_relation",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+            }
+          ],
+          "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+        },
+        "communication": {
+          "organization": "보통 질문에는 조직적으로 답한다.",
+          "spontaneity": "자발적인 개인 정보 제공은 적다.",
+          "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+          "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 깨는지는 저도 확실히 모르겠어요. 자꾸 깨니까 낮에도 피곤하고요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "평소에는 누구와 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "처음에는 누가 와보라고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "누나가 와보라고 했어요."
+          }
+        ]
+      },
+      "parent_id": "M6-02-v02",
+      "perturbation": {
+        "turn_id": "P02",
+        "original": "혼자 살아요. 누나가 가끔 와요.",
+        "replacement": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요.",
+        "reference_fact_ids": [
+          "living"
+        ],
+        "profile_conflict": "explicit opposite of fixed cohabitation fact",
+        "author_provenance": "deterministic developer substitution; not an actual generated utterance",
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "어떤 문제 때문에 오셨나요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+          },
+          {
+            "speaker": "clinician",
+            "text": "밤에 어떤 점이 불편하세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+          }
+        ],
+        "earlier_patient_turns": [
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "왜 깨는지는 저도 확실히 모르겠어요. 자꾸 깨니까 낮에도 피곤하고요."
+          }
+        ],
+        "explicit_prior_patient_conflict": false
+      },
+      "input_sha256": "c20076ed50f4365a92151108d23238edfaf59d9f4dcc3336d5caeafc4385c2c4"
+    },
+    {
+      "item_id": "CONTROL-03",
+      "case_id": "DEV-M0-03",
+      "kind": "authored_fact_inversion",
+      "stratum": "authored_control",
+      "stage": "M6",
+      "condition": "v02",
+      "source_path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v02/transcript.json",
+      "source_item_id": "DEV-M0-03-rep03-v02",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "24세, 아버지와 살고 있으며 편의점 야간 근무를 쉬고 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "routine",
+              "kind": "background",
+              "content": "오후에 일어나 집 근처를 걷는 날이 많다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "belief",
+              "kind": "subjective_belief",
+              "content": "지하철 안내 방송의 특정 말이 자신에게 향한 신호처럼 느껴진다고 생각한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "experience",
+              "kind": "subjective_experience",
+              "content": "안내 방송을 떠올리면 방송 문구에서 편의점 안내 문구와 근무 때 걱정으로 생각이 이어지곤 한다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "today_activity",
+              "kind": "background",
+              "patient_knows": true,
+              "disclosure": "on_topic",
+              "content": "오늘 오후에는 집 근처를 걸었다."
+            }
+          ],
+          "self_understanding": "방송이 우연한 안내일 수도 있다는 설명을 듣지만 자신을 향한 신호일 가능성을 여전히 크게 느낀다. 진단명·치료 약물 지식은 설정하지 않았다."
+        },
+        "communication": {
+          "organization": "일상 질문에는 대체로 조직적으로 답한다. 방송 주제에서는 설정된 연상을 따라 다른 이야기로 흐를 수 있으나 매번 반드시 탈선하거나 문장을 해체하지 않는다.",
+          "spontaneity": "익숙한 주제에서는 말을 덧붙일 수 있다.",
+          "guardedness": "방송 경험을 묻는 면담자에게 어느 정도 이야기할 수 있다. 적대감을 강제하지 않는다.",
+          "expression": "주제에 따라 표현량이 달라질 수 있다. 반복 어휘나 길이 할당량은 없다."
+        },
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "지하철 방송을 들을 때 어떤 느낌이 드세요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "특정 말이 나오면 저한테 보내는 신호처럼 느껴져요. 그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요. 그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "낮에는 보통 뭘 하세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무는 쉬고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "오늘 낮에는 뭘 하셨나요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "아버지와 따로 산다고 하셨죠?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "아버지와는 함께 살지 않고 혼자 살아요."
+          }
+        ]
+      },
+      "parent_id": "M6-03-v02",
+      "perturbation": {
+        "turn_id": "P04",
+        "original": "아니요, 아버지랑 같이 살고 있어요.",
+        "replacement": "아버지와는 함께 살지 않고 혼자 살아요.",
+        "reference_fact_ids": [
+          "living"
+        ],
+        "profile_conflict": "explicit opposite of fixed cohabitation fact",
+        "author_provenance": "deterministic developer substitution; not an actual generated utterance",
+        "prior_authored_context": [
+          {
+            "speaker": "clinician",
+            "text": "요즘 낮에는 어떻게 지내세요?"
+          },
+          {
+            "speaker": "patient",
+            "text": "오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "earlier_patient_turns": [
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "특정 말이 나오면 저한테 보내는 신호처럼 느껴져요. 그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요. 그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무는 쉬고 있어요."
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ],
+        "explicit_prior_patient_conflict": false
+      },
+      "input_sha256": "d31507a9deb8223860afd7d867928e7f263a1c8dc073afe73b8ba1ea41d78e9a"
+    }
+  ],
+  "source_sha256": {
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v02/transcript.json": "90f14856e50af83813ec275ab44911ec30556729c02272293a1e9ec5d1322754",
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v04/transcript.json": "f83b57751de3a8912653634d6a4cdfd9fd49fd96eef9a11f7506459f9e9a015b",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-01/rep03/none/transcript.json": "9b49e226c9dfbd6fc57f7b6398d6c8bd340fc0edf153e760dcaf9b026ec47b92",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-01/rep03/examples/transcript.json": "44dc6db43deb17fe99924775a53f01251814cdba5d614f4c9c5b1f1a5fd22636",
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v02/transcript.json": "909ccbbbc9566d501fdccce1d1e9911b258d93b8bfeab958f89d660e04a71ffb",
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v04/transcript.json": "bec5ef9d4f04881a1e94ffe4edbb57746e631871758ba61c6499a540c3f82e09",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-02/rep03/none/transcript.json": "6d4b94a7b2de067862a42df9e3ab36076ab7ee40aaecb5a865043082483e06cd",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-02/rep03/examples/transcript.json": "8675dc7e4166df32958c57b8a68652baf2ce35c967f3c1cfe30579044c754171",
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v02/transcript.json": "758acac184f5e8e42b0eabbb282d487cc5f0decc8d77c444a8cbf300984633c7",
+    "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v04/transcript.json": "4ecf466f46fbade684bc1e3460c29686f6647b64d2ec79ba3b0b43c13a33a7b2",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-03/rep03/none/transcript.json": "15605fcc7b2e86109d0fc9e34a148a0d617d376b82ce45172dabfafc439758bc",
+    "development/speech-m9-style-examples-v01/runs/DEV-M0-03/rep03/examples/transcript.json": "574003eb1f4e44a2590acadfe6d7d1cddc59ff1779623ae1c70efe12fc7fd27f"
+  }
+}

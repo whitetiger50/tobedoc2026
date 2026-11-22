@@ -1,0 +1,57 @@
+{
+  "realism_score": 3,
+  "realism_reason": "프로필에 맞는 간결하고 협조적인 답변으로 대체로 자연스럽다. 다만 같은 문장인 '저한테만 하는 말이 아닐 수도 있는데'가 P01, P05, P08에 거의 그대로 되풀이되어 다소 정형적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "저한테만 하는 말이 아닐 수도 있는데, 그 순간에는 저한테 따로 하는 말처럼 느껴져요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "저한테만 하는 말이 아닐 수도 있다고 생각하는데도, 그 순간에는 신경이 쓰이거든요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 활동, 증상, 대처, 수면, 목표가 모두 프로필 사실 및 자기이해와 일치하며 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상(불편, 동거인, 낮 활동, 발생 상황, 대처, 수면, 다음 진료 목표)에 맞게 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "D04 재확인에 같은 답을 한 것은 자연스러운 반복이며, 앞선 말과 모순되는 내용은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "발생 상황만 물은 D05와 다음 진료 목표를 물은 D08에도 통찰 단서 문구를 거의 같은 형태로 되풀이해 국소적인 정형 반복이 나타난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "저한테만 하는 말이 아닐 수도 있는데, 그 순간에는 저한테 따로 하는 말처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "저한테만 하는 말이 아닐 수도 있다고 생각하는데도"
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05",
+        "turn:D08"
+      ]
+    }
+  }
+}

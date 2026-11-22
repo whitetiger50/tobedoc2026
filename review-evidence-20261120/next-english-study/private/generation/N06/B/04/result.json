@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 4,
+  "question": "I was thinking specifically about listening for pleasure. How much can you follow when you put on something you enjoy?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "Most of it. I can keep track of who’s who and what’s happening in the mystery. It’s just an occasional line I need to replay.",
+  "raw_sha256": "38aaf263c4b1f14e7d0eec595b426a3c7c7c24ed2d1c6ee2534303dcabcd4008",
+  "request_sha256": "f402142dea89f042c11f8ffc6df786d2509e061da567044ee174e63ac0583b52",
+  "started_utc": "2026-11-20T21:00:23.808758+00:00",
+  "completed_utc": "2026-11-20T21:00:28.326507+00:00",
+  "usage": {
+    "input_tokens": 31620,
+    "cached_input_tokens": 22912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 165,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "73dcedeea26b7b033491b9a9ce3bf2e656927dfbedb4303c41405057cf9577f0",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1a49b78bbbcbe6e4dde9ebfee42b2bd7bb6286fe586774e5f492214cfe7f645d"
+}

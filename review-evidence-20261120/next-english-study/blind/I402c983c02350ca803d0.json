@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "background": "A 43-year-old adult lives with a partner, works part time in a print shop, and keeps score for a weekend softball league.",
+    "history": "In outpatient follow-up for schizophrenia after a hospital stay four years ago. Has taken the same evening prescription for over a year.",
+    "organization": "Keeps events in sequence. Distinguishes day-to-day observations from memories of being unwell.",
+    "spontaneity": "Conversational about work and leisure. A detail about a recent change often comes to mind while describing a routine.",
+    "guardedness": "Comfortable discussing treatment in clinic. More private about the hospital stay.",
+    "expression": "Easy conversational rhythm with dry humor about minor inconveniences. Usually speaks in a few connected sentences. Gives a shorter reply to a narrow factual question.",
+    "self_understanding": "Remembers how convincing earlier experiences felt. Uses sleep and concentration as personal indicators of how the week is going.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "content": "Opens the print shop with a coworker on three mornings each week.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work schedule and usual mornings.",
+        "kind": "background"
+      },
+      {
+        "content": "Takes the prescribed tablet with supper. The morning alarm is still hard to get up for on some days.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Medication routine and how mornings feel.",
+        "kind": "treatment"
+      },
+      {
+        "content": "The main recent sleep change was waking earlier on two nights while the apartment upstairs was being painted.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Sleep changes and recent disruptions.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Can follow a softball game from beginning to end, including keeping track of substitutions.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Concentration during leisure activities.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Before the hospital stay, announcements over a store speaker seemed to comment on personal purchases. That has not happened in the past year.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Past and current unusual experiences.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "A coworker switched opening days last week so the patient could get to a morning appointment.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work arrangements and attending appointments.",
+        "kind": "background"
+      },
+      {
+        "content": "Feels steady enough to take on one extra shift, though wants to keep Sunday free for the league.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work goals and how to spend the weekend.",
+        "kind": "subjective_belief"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What has an ordinary workday looked like for you lately?",
+      "answer": "I open the print shop with a coworker three mornings a week. Getting up with the alarm can still be a bit of a struggle, but once I’m there, I get into the usual jobs. Last week we swapped opening days so I could make a morning appointment—that worked out pretty well."
+    },
+    {
+      "question": "How have sleep and concentration been over the past month?",
+      "answer": "Sleep’s been pretty steady, apart from waking early a couple of nights when they were painting the apartment upstairs. Getting up with the alarm is still another matter. Concentration seems fine—I can keep score through a whole softball game, substitutions and all."
+    },
+    {
+      "question": "Is that getting any better?",
+      "answer": "If you mean getting up in the morning, that’s still a struggle some days. The early waking was just those two nights—it hasn’t kept happening."
+    },
+    {
+      "question": "Let me ask about sleep specifically. What change, if any, have you noticed this month?",
+      "answer": "Just waking earlier than usual on two nights while the apartment upstairs was being painted. Otherwise, my sleep’s been about the same this month."
+    },
+    {
+      "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+      "answer": "I kept score at a softball game last weekend. I had to follow each play and note the substitutions so I knew who was in the lineup. I stayed with it through the whole game without much trouble."
+    },
+    {
+      "question": "Where does taking medication fit into your day, if you take any?",
+      "answer": "I take my prescribed tablet with supper. It’s been the same one for over a year now, so it’s just part of the evening routine."
+    },
+    {
+      "question": "How do your work hours and clinic visits fit into your week?",
+      "answer": "I open the shop three mornings a week, so I fit clinic visits around those when I can. Last week a coworker swapped opening days with me so I could make a morning appointment. That helped—I didn’t have to rush from one to the other."
+    },
+    {
+      "question": "How is the timing working out?",
+      "answer": "Pretty well. Taking the tablet with supper fits my routine, and swapping opening days last week meant I could get to the appointment without a scramble."
+    },
+    {
+      "question": "I had work in mind. How well do your current work hours suit you?",
+      "answer": "The three mornings suit me pretty well. I feel steady enough to take on one extra shift, actually, but I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "question": "Have you had any experiences recently, such as a sound seeming personally significant, that you wanted to discuss?",
+      "answer": "Not recently, no. Before I went into hospital, store announcements sometimes seemed to be commenting on what I was buying. It felt convincing at the time, but that hasn’t happened in the past year."
+    },
+    {
+      "question": "Going back to your mornings, how do you usually feel when you first get up?",
+      "answer": "A bit groggy—some mornings the alarm feels a little too ambitious. Once I’m up and moving, I usually get going okay."
+    },
+    {
+      "question": "If you could choose your work hours for next month, what would you choose?",
+      "answer": "I’d keep my three opening mornings and add one extra shift. I feel ready for that, as long as Sunday stays free for the league."
+    }
+  ]
+}

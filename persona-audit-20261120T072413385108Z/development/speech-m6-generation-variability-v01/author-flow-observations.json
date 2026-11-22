@@ -1,0 +1,344 @@
+{
+  "timestamp_utc": "2026-11-18T10:37:47.258699+00:00",
+  "provenance": "Codex_direct_read_of_all_18_patient_transcripts_before_accessing_M6_judge_scores; Python only stores/validates exact quotations",
+  "scope": "author descriptive coding of explicit utterance content; not clinician annotation or validated realism scale; confidentiality concern is distinguished from disclosing voice or observation belief",
+  "rows": [
+    {
+      "item_id": "DEV-M0-01-rep01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 1,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 1,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 2,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 2,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 3,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 3,
+      "reconfirmed_cohabitant": "mother",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 1,
+      "first_voice_experience_turn": "none",
+      "first_observation_belief_turn": "none",
+      "explicit_confidentiality_concern_turns": [
+        "P01",
+        "P03"
+      ],
+      "P03_content": "asks_for_confidentiality_answer_before_disclosure",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 얘기 하기 전에, 여기서 한 말이 이웃한테 알려질 수도 있는지 먼저 알고 싶어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 1,
+      "first_voice_experience_turn": "P01",
+      "first_observation_belief_turn": "P03",
+      "explicit_confidentiality_concern_turns": [
+        "P01",
+        "P03"
+      ],
+      "P03_content": "adds_observation_belief_and_repeats_unanswered_concern",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 잘 모르겠어요. 혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데, 그것 때문에 깨는 건지는 모르겠고요. 이 얘기가 이웃한테 알려지지는 않나요?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 보고 있는 건가 싶어요. 그런데 아까 여쭤본 것처럼, 이 얘기가 이웃한테 알려질 수도 있는 건가요?"
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 2,
+      "first_voice_experience_turn": "none",
+      "first_observation_belief_turn": "none",
+      "explicit_confidentiality_concern_turns": [
+        "P01",
+        "P03"
+      ],
+      "P03_content": "repeats_sleep_uncertainty_and_unanswered_concern",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "밤에 자꾸 깨는데, 이유는 저도 잘 모르겠어요. 그런데 아까 여쭤본 건데, 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 2,
+      "first_voice_experience_turn": "P01",
+      "first_observation_belief_turn": "P03",
+      "explicit_confidentiality_concern_turns": [
+        "P01",
+        "P03"
+      ],
+      "P03_content": "adds_observation_belief_and_repeats_unanswered_concern",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 잘 모르겠어요. 혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있는데요. 이런 얘기가 이웃한테 알려지는 건 아니죠?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 지켜보는 것 같아요. 그런데 여기서 이런 얘기한 게 이웃한테 알려지는 건 아니죠?"
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 3,
+      "first_voice_experience_turn": "P03",
+      "first_observation_belief_turn": "none",
+      "explicit_confidentiality_concern_turns": [
+        "P03"
+      ],
+      "P03_content": "first_voice_disclosure_with_concern",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 확실히 모르겠어요. 자꾸 깨니까 낮에도 피곤하고요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 3,
+      "first_voice_experience_turn": "P01",
+      "first_observation_belief_turn": "none",
+      "explicit_confidentiality_concern_turns": [
+        "P01",
+        "P03"
+      ],
+      "P03_content": "specifies_previously_vague_sound_content_and_repeats_unanswered_concern",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 잘 모르겠어요. 혼자 있을 때 창밖에서 소리가 들리긴 하는데요. 이런 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 1,
+      "today_walk_already_mentioned_in_P02": false,
+      "P03_reconfirms_previously_disclosed_today_walk": false,
+      "unsupported_today_waking_time_concern": false,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 지금은 편의점 야간 근무를 쉬고 있고요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 1,
+      "today_walk_already_mentioned_in_P02": true,
+      "P03_reconfirms_previously_disclosed_today_walk": true,
+      "unsupported_today_waking_time_concern": true,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 오늘도 그렇게 걸었어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오후에 일어나서 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 2,
+      "today_walk_already_mentioned_in_P02": false,
+      "P03_reconfirms_previously_disclosed_today_walk": false,
+      "unsupported_today_waking_time_concern": false,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 걸어요. 지금은 편의점 야간 근무는 쉬고 있고요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 2,
+      "today_walk_already_mentioned_in_P02": true,
+      "P03_reconfirms_previously_disclosed_today_walk": true,
+      "unsupported_today_waking_time_concern": false,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 오늘 오후에도 걸었어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 3,
+      "today_walk_already_mentioned_in_P02": false,
+      "P03_reconfirms_previously_disclosed_today_walk": false,
+      "unsupported_today_waking_time_concern": false,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무는 쉬고 있어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 3,
+      "today_walk_already_mentioned_in_P02": true,
+      "P03_reconfirms_previously_disclosed_today_walk": true,
+      "unsupported_today_waking_time_concern": false,
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 오늘도 오후에 걸었어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    }
+  ],
+  "observations": [
+    "Case1: all six dialogues preserve mother cohabitation on P04.",
+    "Case2: v04 first voice mention P01 in 3/3; v02 no voice mention in 2/3 and first voice mention P03 in 1/3.",
+    "Case2: v04 P03 adds observation belief in 2/3 and specifies vague sound content in 1/3; concern recurs P01/P03 in 3/3. v02 P03 withholds, repeats sleep uncertainty/concern, or first discloses voice respectively.",
+    "Case3: v04 P02 already mentions today walking in 3/3 and P03 reconfirms it in 3/3; v02 P02 only gives usual routine/work status and first provides today activity at P03 in 3/3.",
+    "Case3: v04 replicate1 P03 specifies rising in the afternoon today, not supplied as a fact for today; usual afternoon rising alone does not establish today rising time. Flag as unsupported specificity, not proven false event."
+  ],
+  "interpretation_limits": "Prior disclosure is not inherently error; the clinician asks similar questions. No claim that delaying all disclosure or adding a fixed linking phrase is correct."
+}

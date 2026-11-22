@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-6f5e-7de1-b931-e5056d0bcd5b",
+  "raw": "“Cinderella lives with her stepmother and two stepsisters, and they make her do all the housework while they have everything their own way. There’s a ball at the palace, and the sisters get dressed up to go, but Cinderella is left behind.\n\nThen her fairy godmother appears and helps her go too. She turns a pumpkin into a carriage and mice into horses, and gives Cinderella a beautiful dress and glass slippers. Glass seems an awkward thing to make shoes from, but… anyway, she has to be home before midnight, because that’s when the magic ends.\n\nAt the ball, the prince dances with her, but she leaves in a hurry when the clock starts striking twelve. She loses one slipper on the stairs.\n\nThe prince has people take the slipper around to find the woman it fits. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it on, and it fits. He finds out she’s the one he danced with, and they get married. That’s the version I know.”",
+  "raw_sha256": "03a6df159ddab71a6d2bebf3a1fb0de1373072935af3faae50d94dc9697c9453",
+  "request_sha256": "a69b110f4a38c2658f3013355e05a75e41f62c05d46a63c0a9b8c07f9bd480e9",
+  "started_utc": "2026-11-20T21:25:16.142932+00:00",
+  "completed_utc": "2026-11-20T21:25:26.789253+00:00",
+  "usage": {
+    "input_tokens": 7018,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 273,
+    "reasoning_output_tokens": 56
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8727b79f0c27d61bcd7dcd9565d8fbe92763128d1b5ac53fea460c6868fe3eab",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b47f1cb98ee6539b197daca953449dd64abdbbf1fe74d342cf76dee29a956b23"
+}

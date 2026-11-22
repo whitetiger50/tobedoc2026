@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "환자는 질문에 맞춰 일상과 경험을 간결하고 자연스럽게 설명하며, 제공된 프로필과 의사소통 설정에 일관되게 부합한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "대체로 잠은 잘 자요. 그런데 일어날 때 피곤한 날은 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 응답이 프로필에 근거하며 무근거한 사실 추가나 모순이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 질문의 직접 대상에 적절히 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 발언과 일관되며 경험의 재설명도 후속 질문에 따른 자연스러운 흐름이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 일상적인 한국어로 간결하게 답하며 보고서식 표현이나 역할 이탈이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

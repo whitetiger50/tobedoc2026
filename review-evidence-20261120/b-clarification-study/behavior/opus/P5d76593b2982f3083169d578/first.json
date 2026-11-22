@@ -1,0 +1,89 @@
+{
+  "id": "P5d76593b2982f3083169d578",
+  "reader": "opus",
+  "session": "ac7fd44c-a4cc-4faa-a73f-652efd0b6526",
+  "attempt": "attempt-01",
+  "packet_sha256": "b6e721badd29f9d3ff35b410dd20b9724e728f7f3e1554953fb93892482ac9f2",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "245696d13987919ed962a5c1a01851000b753c02e51806e564542357db6a30bb",
+  "raw_sha256": "9627799de7e8065efea8dad8a35e54d6abbbbf448c78e90556258bd48d297b54",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "'There' could mean the book group or Mom's apartment, but Ren walks to both, so either reading gets the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the Wednesday book group.",
+            "answer": "Yes, Ren walks to the book group."
+          },
+          {
+            "meaning": "Whether Ren usually walks to Mom's apartment.",
+            "answer": "Yes, Ren walks to Mom's apartment."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The singular 'your shift' follows a reference to both early and late shifts, and Morgan gets home differently after each.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan gets home after an early shift.",
+            "answer": "Morgan takes the bus home after an early shift."
+          },
+          {
+            "meaning": "How Morgan gets home after a late shift.",
+            "answer": "A coworker drops Morgan off after a late shift."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "'The letter' follows mention of both letters, and only the housing letter has a reply deadline.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing office letter has a reply deadline.",
+            "answer": "Yes, the housing office wants a reply by Friday."
+          },
+          {
+            "meaning": "Whether the employer's letter has a reply deadline.",
+            "answer": "No, the work letter is for information only and needs no reply."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "'The old one' could mean the badge or the locker key, and Cameron handed back the old badge but could not hand back the lost key.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron handed back the old ID badge.",
+            "answer": "Yes, the cracked old badge was handed back."
+          },
+          {
+            "meaning": "Whether Cameron handed back the old locker key.",
+            "answer": "No, the old locker key was lost and could not be handed back."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:52:46.119663+00:00"
+}

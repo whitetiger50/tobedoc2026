@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "About an hour at the book group, then about three hours with Mom.",
+    "reason": "The reply explicitly gives the expected duration for both visits.",
+    "A": {
+      "state": "supported",
+      "quote": "About an hour at the book group"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "about three hours with Mom."
+    }
+  },
+  "v2": {
+    "quote": "After an early shift I get the bus home. If I’m on a late, a coworker drops me off.",
+    "reason": "The reply specifies the bus after early shifts and a coworker’s lift after late shifts.",
+    "A": {
+      "state": "supported",
+      "quote": "After an early shift I get the bus home."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If I’m on a late, a coworker drops me off."
+    }
+  },
+  "v3": {
+    "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+    "reason": "The reply explicitly states the expected outage duration for each day.",
+    "A": {
+      "state": "supported",
+      "quote": "On Monday it was about ten minutes."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "Thursday it was out for most of the afternoon"
+    }
+  },
+  "v4": {
+    "quote": "The badge, yes. I lost the old key.",
+    "reason": "The scoped yes confirms returning the badge, while losing the old key conveys that it was not returned.",
+    "A": {
+      "state": "supported",
+      "quote": "The badge, yes."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I lost the old key."
+    }
+  }
+}

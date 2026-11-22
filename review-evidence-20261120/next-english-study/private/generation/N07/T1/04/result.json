@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 4,
+  "question": "Can you pick it up again easily?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-a9eb-7450-aec3-0fbf69d57cfd",
+  "raw": "“The reading? Not that easily if people are talking. The slip of paper helps me keep my place. With the bike, I can look at it and see where I left off.”",
+  "raw_sha256": "02027cc014756e3e6bfd82ed6ae68d0648dcdc769ae56489ab9d571b225493c1",
+  "request_sha256": "0c5c41daa0b23f4e8f2d896aab60f7830e25e56a245f65fa9cd9c688c169f163",
+  "started_utc": "2026-11-20T21:00:23.809077+00:00",
+  "completed_utc": "2026-11-20T21:00:31.940638+00:00",
+  "usage": {
+    "input_tokens": 7270,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 142,
+    "reasoning_output_tokens": 99
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d8feafb6a4c6b9d389185058990e9feb934f289696fd1b1a5bf72e80da10501c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "65d4ed62b8e7907ee721b8dfdd7b697666af99593e95805880bbaf8d7468c007"
+}

@@ -1,0 +1,75 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 일상적인 환자 말투이며 설정과 잘 맞지만, 마지막 답변은 질문의 시간 범위와 조금 어긋난다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "프로필에 없는 거주 층수를 사실로 추가한 국소적인 무근거 구체화가 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "다음 진료 전까지 해 보고 싶은 일을 물었으나 다음 진료 때의 희망만 말해 시간 범위에 부분적으로 대응하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발언과 충돌하거나 공개 흐름을 깨는 연결 문제는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "간결하고 조직적인 일상 한국어로 자신의 경험을 표현하며 역할 설명이나 보고서식 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

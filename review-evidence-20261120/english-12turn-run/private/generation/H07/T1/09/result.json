@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "T1",
+  "turn": 9,
+  "question": "Who do you keep in touch with during the week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-d1af-78e2-bae8-bef5076a8d44",
+  "raw": "My parent, mostly. My aunt phones on Sundays. I usually enjoy talking with her.",
+  "raw_sha256": "c334ebe4dfc92dd2638e555fcb9f5c0a2d062e27fed93b46723d7910c4f7128a",
+  "request_sha256": "3929e71a8c11876cbac7f22de781e0c8bf7964f74a6ab09ce95f8b995b290488",
+  "started_utc": "2026-11-20T20:41:59.865247+00:00",
+  "completed_utc": "2026-11-20T20:42:03.841872+00:00",
+  "usage": {
+    "input_tokens": 7263,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0c09c1dc72a7e6157421102a265b105c1a3f5f4f76bc2319e571870abe8705cb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "76c3d526f05c5cbc3206d96ce32447297329523057f296227359a1b1946b45d9"
+}

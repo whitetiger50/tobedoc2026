@@ -1,0 +1,6783 @@
+{
+  "kind": "v06_example_presence_comparison_shared_v02_rules_and_scaffold",
+  "dialogues": 18,
+  "ratings": 36,
+  "items": [
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "case_id": "DEV-M0-01",
+      "condition": "examples",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 235,
+      "exact_patient_sequence_sha256": "1e64d918c9d66bd0315ff6dd56a0fd5a61b8f39e63f186bce49f0d7b41444412",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "오늘 아침에는 집에서 빵 먹었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "case_id": "DEV-M0-01",
+      "condition": "none",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 245,
+      "exact_patient_sequence_sha256": "78682893e9e343fd1fdc96d2ca8fa386c73ce034d4eddbec48f56c9e3c0f7966",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "환청일 수 있다고 생각해요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P03",
+              "quote": "지금 먹는 약 이름과 용량은 정확히 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "case_id": "DEV-M0-01",
+      "condition": "examples",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 232,
+      "exact_patient_sequence_sha256": "60f182e0738d562d48109fd4c2c00ab33e6a347fb829e3c1941f2b1c5e75be1a",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "'가끔'은 '들릴 때가 있다'의 자연스러운 바꿔 말하기로 보며, 정량적 빈도 추가로 보지 않았다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "'가끔'은 '들릴 때가 있다'를 자연스럽게 바꿔 말한 것으로 봤습니다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "오늘 아침에는 집에서 빵 먹었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "오늘 아침에는 집에서 빵 먹었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "case_id": "DEV-M0-01",
+      "condition": "none",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 232,
+      "exact_patient_sequence_sha256": "0ded955d9661af7aec243cc0bc33a8ab5b88cc44cdc4f7ccfb1d9a8fb5eb56bd",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P06",
+              "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "환청일 수 있다고 생각해요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "case_id": "DEV-M0-01",
+      "condition": "examples",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 252,
+      "exact_patient_sequence_sha256": "2d278e12f1146eb4b9e66d563af95b95c4f71a140ce6000026c5a5025ba712a6",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P07",
+              "quote": "피곤해서 생기는 건지는 확실히 모르겠어요."
+            }
+          ],
+          "uncertainty": "P07의 확인적 표현은 면담자가 확실한 경험만 요청한 맥락에 부합한다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P03",
+              "quote": "약 이름하고 용량은 정확히 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "case_id": "DEV-M0-01",
+      "condition": "none",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 237,
+      "exact_patient_sequence_sha256": "d11c526afe362cf4f251db9655dbf07a63aa3f3e3e9a76ca3aca12e02b7a43e4",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "requested_explanation",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P03",
+              "quote": "지금 먹는 약 이름이랑 용량은 정확히 잘 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "direct",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "오늘 아침에는 집에서 빵을 먹었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "case_id": "DEV-M0-02",
+      "condition": "examples",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 240,
+      "exact_patient_sequence_sha256": "eed63688ad3cd6a154e876b781929f4fb992418e5002296e121e65ca55fdbffa",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "P07의 소리는 설정에 있는 경험이므로 앞선 생성 발화에서 공개되지 않았다는 이유만으로 근거 없는 추가로 보지 않았다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P07",
+              "quote": "그 소리 때문에 잠이 깨는 건지는",
+              "kind": "uncertain",
+              "fact_ids": [
+                "voice",
+                "sleep_voice_relation"
+              ],
+              "explanation": "소리 경험 자체는 설정에 있지만, 대화에서 공개하지 않은 상태로 인정하는 흐름이 대화 내 공개 연속성과 맞지 않습니다."
+            }
+          ],
+          "uncertainty": "사실 오류라기보다 공개 연속성의 문제입니다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "P03은 근거 있는 수면·피로 정보로 질문에 답한다. 민감한 정보의 유보 의도까지 추정해 회피로 분류하지 않았다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "contextual_withholding",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "P03의 유보는 민감 정보에 대한 것이라 회피로 보지 않았습니다."
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P03",
+              "quote": "밤에 자꾸 잠이 깨요. 낮에는 피곤하고요. 왜 깨는지는 저도 잘 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "direct",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "자꾸 깨는데, 왜 그러는지는 저도 확실히 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "case_id": "DEV-M0-02",
+      "condition": "none",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 319,
+      "exact_patient_sequence_sha256": "5152fa7c32f42a2f0e3ebf9688256b4690b664c5268b1445afb552e3945100a3",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P04",
+              "quote": "누나가 와보라고 했어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "case_id": "DEV-M0-02",
+      "condition": "examples",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 272,
+      "exact_patient_sequence_sha256": "aa093d15a77082b329898ce9de3d1f0a98f1a0db64b41b2804aeeceb24cb8c51",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 들러요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 들러요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "혼자 살아요. 누나가 가끔 들러요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "direct",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "혼자 살아요. 누나가 가끔 들러요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "case_id": "DEV-M0-02",
+      "condition": "none",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 415,
+      "exact_patient_sequence_sha256": "d3c4e2ffe3f6a2bce4b52375826eac553d7050ad956d213f2712bf6512a9b86a",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "소리와 관찰에 관한 발화는 설정된 주관적 경험·믿음이며 외부 현실의 사실 주장으로 평가하지 않았다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "P01은 원인에 대한 확답을 제한하면서 관련 경험도 제공한 복합 답변이다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "혼자 있으면 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데, 그것 때문에 깨는 건지는 모르겠어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P04",
+              "quote": "누나가 와보라고 했어요. 잠을 잘 못 자서요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "case_id": "DEV-M0-02",
+      "condition": "examples",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 321,
+      "exact_patient_sequence_sha256": "4577317d456a1a55abe60c3bd2fac0daf1466862c1a53fe9854f79eb30edd06d",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "이웃에게 전달되는지에 관한 재질문은 아직 직접 답을 듣지 못한 우려의 확인으로 보았다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P03",
+              "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들려요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "혼자 살아요. 누나가 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "case_id": "DEV-M0-02",
+      "condition": "none",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 303,
+      "exact_patient_sequence_sha256": "7bb829d8bf5ef829b7bc497ede2c85b534e8dbfe330e18485782f4d943d825cf",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "P04의 '누나가 잠을 잘 못 자니까 와보라고 했어요'를 누나의 수면 문제라는 새 사실로 단정하지 않았다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P04",
+              "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+              "kind": "uncertain",
+              "fact_ids": [
+                "visit"
+              ],
+              "explanation": "설정은 환자 본인의 수면 문제인데, 문장 구조상 누나의 수면 문제로도 읽힐 수 있습니다. P06에서 바로잡혀 실제 모순인지는 불확실합니다."
+            }
+          ],
+          "uncertainty": "생략된 주어의 해석에 따라 판단이 달라집니다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고"
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "case_id": "DEV-M0-03",
+      "condition": "examples",
+      "replicate": 1,
+      "scores": {
+        "codex": 3,
+        "claude": 3
+      },
+      "mean": 3,
+      "patient_characters": 327,
+      "exact_patient_sequence_sha256": "fde4e8556e2c379f1c5dd5873c94438d2789d343e88c92a34ab4f99de869f604",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있어서요.",
+              "kind": "causal_inference",
+              "fact_ids": [
+                "living",
+                "routine"
+              ],
+              "explanation": "설정은 근무 휴식과 평소 일상을 각각 제시하지만 인과관계는 정하지 않는다. '있어서요'는 이유를 암시하나, 오후 기상까지 원인으로 설명한 것인지는 불명확하고 P07에서는 그 의미를 부인한다."
+            }
+          ],
+          "uncertainty": "맥락을 덧붙인 표현인지 설정 밖 인과를 추가한 표현인지 구분이 어렵다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "concern",
+          "findings": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+              "kind": "causal_inference",
+              "fact_ids": [
+                "living",
+                "routine"
+              ],
+              "explanation": "설정은 휴직과 오후 기상을 따로 제시할 뿐 둘의 인과를 정하지 않았는데, 이유 연결어로 둘을 이었습니다. 이 때문에 P07의 부인과도 어긋납니다."
+            }
+          ],
+          "uncertainty": "연결어가 배경 설명일 가능성이 있습니다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "P07은 발언의 인과적 해석을 정정한 것으로, 알려진 일상을 거절한 것은 아니다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P07",
+              "quote": "평소 일상을 설명한 거예요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "오후에 일어나는 건 평소에 그렇다는 얘기였고요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "case_id": "DEV-M0-03",
+      "condition": "none",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 347,
+      "exact_patient_sequence_sha256": "371a459bc2ad4d350c7d8f79d95bebbd902d51b144d59515a833285f61e22ad0",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있거든요.",
+              "kind": "causal_inference",
+              "fact_ids": [
+                "living",
+                "routine"
+              ],
+              "explanation": "두 사실은 모두 설정에 있지만 인과관계는 정해지지 않았다. '있거든요'가 일상의 이유를 암시할 수 있으나 단순한 배경 설명일 수도 있고, P07은 오후 기상의 원인을 말한 것이 아니라고 정정한다."
+            }
+          ],
+          "uncertainty": "설정 밖 인과를 실제로 주장했다고 확정하기 어렵다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "요즘은 편의점 야간 근무를 쉬고 있거든요.",
+              "kind": "causal_inference",
+              "fact_ids": [
+                "living",
+                "routine"
+              ],
+              "explanation": "설정에 없는 휴직과 일과의 인과가 함축됐을 수 있습니다. 다만 명시적인 인과 주장은 아닙니다."
+            }
+          ],
+          "uncertainty": "어미의 기능이 모호합니다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "그걸 생각하다 보면 편의점 안내 문구도 떠오르고, 근무할 때 하던 걱정까지 생각나고요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "오늘 오후에 걸었다는 뜻이에요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "case_id": "DEV-M0-03",
+      "condition": "examples",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 330,
+      "exact_patient_sequence_sha256": "7b18ed8a2ac3e99fcf540e79b4a43a214c9b4b473cb8e01bf4e87e24fb807350",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "오후에 일어난다는 건 평소에 그렇다는 얘기였고요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "case_id": "DEV-M0-03",
+      "condition": "none",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 330,
+      "exact_patient_sequence_sha256": "e3296dd0bb2748f1f9c41c9c22f7cf3927ca1d7ed8007af50f54aaa8f0f18920",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "P02의 '오늘도 좀 걸었고요'는 오늘 산책을 재확인하며, 오늘 기상 시각까지 확정하는 표현으로 보지 않았다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "방송에서 어떤 말이 나오면 저한테 보내는 신호처럼 느껴져요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P06",
+              "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "case_id": "DEV-M0-03",
+      "condition": "examples",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 336,
+      "exact_patient_sequence_sha256": "88a95f82447184fc149cb92225c85bdcadcf390e940f1b742ce17624d70375d5",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P07",
+              "quote": "그냥 요즘 어떻게 지내는지 말씀드린 거예요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "일어난 시각까지 말씀드린 건 아니에요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "case_id": "DEV-M0-03",
+      "condition": "none",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 367,
+      "exact_patient_sequence_sha256": "8db4f38651b5e8028324b5df1cfbc176ff0affbd996f2102b6f6e74b7b871755",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      },
+      "style": {
+        "codex": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P07",
+              "quote": "그냥 요즘 일상을 말씀드린 거예요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "direct",
+            "P02": "direct",
+            "P03": "direct",
+            "P04": "direct",
+            "P05": "requested_explanation",
+            "P06": "direct",
+            "P07": "requested_explanation",
+            "P08": "direct"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P02",
+              "quote": "지금은 편의점 야간 근무를 쉬고 있고요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DEV-M0-01",
+      "none": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            245,
+            232,
+            237
+          ],
+          "mean": 238,
+          "min": 232,
+          "max": 245,
+          "range": 13,
+          "sample_sd": 6.557438524302
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "examples": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            235,
+            232,
+            252
+          ],
+          "mean": 239.66666666666666,
+          "min": 232,
+          "max": 252,
+          "range": 20,
+          "sample_sd": 10.785793124908958
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "examples_minus_none": 0.0
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "none": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            319,
+            415,
+            303
+          ],
+          "mean": 345.6666666666667,
+          "min": 303,
+          "max": 415,
+          "range": 112,
+          "sample_sd": 60.57502235520292
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 2,
+            "uncertain": 1
+          }
+        }
+      },
+      "examples": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            240,
+            272,
+            321
+          ],
+          "mean": 277.6666666666667,
+          "min": 240,
+          "max": 321,
+          "range": 81,
+          "sample_sd": 40.796241656963126
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "uncertain": 1,
+            "no_issue_identified": 2
+          }
+        }
+      },
+      "examples_minus_none": 0.0
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "none": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            347,
+            330,
+            367
+          ],
+          "mean": 348,
+          "min": 330,
+          "max": 367,
+          "range": 37,
+          "sample_sd": 18.520259177452136
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "uncertain": 1,
+            "no_issue_identified": 2
+          },
+          "claude": {
+            "uncertain": 1,
+            "no_issue_identified": 2
+          }
+        }
+      },
+      "examples": {
+        "combined_scores": {
+          "values": [
+            3,
+            3.5,
+            3.5
+          ],
+          "mean": 3.3333333333333335,
+          "min": 3,
+          "max": 3.5,
+          "range": 0.5,
+          "sample_sd": 0.28867513459481287
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              3,
+              4,
+              4
+            ],
+            "mean": 3.6666666666666665,
+            "min": 3,
+            "max": 4,
+            "range": 1,
+            "sample_sd": 0.5773502691896257
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            327,
+            330,
+            336
+          ],
+          "mean": 331,
+          "min": 327,
+          "max": 336,
+          "range": 9,
+          "sample_sd": 4.58257569495584
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "uncertain": 1,
+            "no_issue_identified": 2
+          },
+          "claude": {
+            "concern": 1,
+            "no_issue_identified": 2
+          }
+        }
+      },
+      "examples_minus_none": -0.16666666666666652
+    }
+  ],
+  "condition_means": {
+    "none": 3.5,
+    "examples": 3.4444444444444446
+  },
+  "examples_minus_none": -0.05555555555555536,
+  "judge_condition_means": {
+    "codex": {
+      "none": 4,
+      "examples": 3.888888888888889
+    },
+    "claude": {
+      "none": 3,
+      "examples": 3
+    }
+  },
+  "grounding_summary": {
+    "codex": {
+      "none": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 8,
+          "uncertain": 1
+        },
+        "finding_count": 1,
+        "finding_kind_counts": {
+          "causal_inference": 1
+        }
+      },
+      "examples": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 8,
+          "uncertain": 1
+        },
+        "finding_count": 1,
+        "finding_kind_counts": {
+          "causal_inference": 1
+        }
+      }
+    },
+    "claude": {
+      "none": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 7,
+          "uncertain": 2
+        },
+        "finding_count": 2,
+        "finding_kind_counts": {
+          "uncertain": 1,
+          "causal_inference": 1
+        }
+      },
+      "examples": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 7,
+          "uncertain": 1,
+          "concern": 1
+        },
+        "finding_count": 2,
+        "finding_kind_counts": {
+          "uncertain": 1,
+          "causal_inference": 1
+        }
+      }
+    }
+  },
+  "score_frequencies": {
+    "codex": {
+      "4": 17,
+      "3": 1
+    },
+    "claude": {
+      "3": 18
+    }
+  },
+  "independent_case_clusters": 3,
+  "limits": "Same three reused profiles; single judge rating per generated dialogue. Model grounding concerns are not clinical gold standard. Zero observed baseline issues prevents claiming reduced error rate. No old-score pooling, p-values or general superiority claim. Question set intentionally changed; do not pool M7 scores. Appropriate limits/corrections/contextual withholding are not unnecessary evasion. Private probe expectations are author engineering notes, not clinical gold standard.",
+  "avoidance_summary": {
+    "codex": {
+      "none": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      },
+      "examples": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      }
+    },
+    "claude": {
+      "none": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      },
+      "examples": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 35,
+          "appropriate_limit_or_correction": 36,
+          "contextual_withholding": 1
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      }
+    }
+  },
+  "challenge_grounding_summary": {
+    "codex": {
+      "none": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      },
+      "examples": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      }
+    },
+    "claude": {
+      "none": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      },
+      "examples": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 1,
+          "finding_kind_counts": {
+            "uncertain": 1
+          }
+        }
+      }
+    }
+  },
+  "patient_turns": 144,
+  "surface_metrics": {
+    "none": {
+      "all": {
+        "turns": 72,
+        "patient_characters": 2795,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 58,
+          "denominator": 583,
+          "ratio": 0.09948542024013722,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 17,
+          "denominator": 583,
+          "ratio": 0.029159519725557463,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "neutral": {
+        "turns": 45,
+        "patient_characters": 1524,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 33,
+          "denominator": 309,
+          "ratio": 0.10679611650485436,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 309,
+          "ratio": 0.0,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "prompted": {
+        "turns": 27,
+        "patient_characters": 1271,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 25,
+          "denominator": 274,
+          "ratio": 0.09124087591240876,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 17,
+          "denominator": 274,
+          "ratio": 0.06204379562043796,
+          "too_short_for_trigrams": 0
+        }
+      }
+    },
+    "examples": {
+      "all": {
+        "turns": 72,
+        "patient_characters": 2545,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 42,
+          "denominator": 511,
+          "ratio": 0.0821917808219178,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 16,
+          "denominator": 511,
+          "ratio": 0.03131115459882583,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "neutral": {
+        "turns": 45,
+        "patient_characters": 1309,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 23,
+          "denominator": 252,
+          "ratio": 0.09126984126984126,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 252,
+          "ratio": 0.0,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "prompted": {
+        "turns": 27,
+        "patient_characters": 1236,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 19,
+          "denominator": 259,
+          "ratio": 0.07335907335907337,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 16,
+          "denominator": 259,
+          "ratio": 0.06177606177606178,
+          "too_short_for_trigrams": 0
+        }
+      }
+    }
+  },
+  "surface_turns": [
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 3,
+          "ratio": 0.6666666666666666
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 26,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 5,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 45,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 9,
+          "ratio": 0.1111111111111111
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 28,
+        "eojeol": 8,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 6,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 6,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 54,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 84,
+        "eojeol": 21,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 19,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 19,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 48,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 50,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 28,
+        "eojeol": 8,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 6,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 3,
+          "denominator": 6,
+          "ratio": 0.5
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 56,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 3,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 47,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 37,
+        "eojeol": 9,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 7,
+          "ratio": 0.14285714285714285
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 7,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 27,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 57,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 51,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 59,
+        "eojeol": 16,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 14,
+          "ratio": 0.14285714285714285
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 43,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 73,
+        "eojeol": 18,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 16,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 16,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 74,
+        "eojeol": 18,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 16,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 16,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 34,
+        "eojeol": 9,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 7,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 7,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 52,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 44,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 3,
+          "denominator": 10,
+          "ratio": 0.3
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 65,
+        "eojeol": 17,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 15,
+          "ratio": 0.13333333333333333
+        },
+        "question_trigram": {
+          "matched": 1,
+          "denominator": 15,
+          "ratio": 0.06666666666666667
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 3,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 47,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 45,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 9,
+          "ratio": 0.1111111111111111
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 27,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 67,
+        "eojeol": 17,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 15,
+          "ratio": 0.13333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 15,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 23,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 62,
+        "eojeol": 17,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 15,
+          "ratio": 0.13333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 15,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 24,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 5,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 48,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 51,
+        "eojeol": 15,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 13,
+          "ratio": 0.15384615384615385
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 13,
+          "ratio": 0.15384615384615385
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 59,
+        "eojeol": 16,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 14,
+          "ratio": 0.07142857142857142
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 3,
+          "ratio": 0.6666666666666666
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 29,
+        "eojeol": 8,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 6,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 6,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 22,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 3,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 27,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 67,
+        "eojeol": 17,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 15,
+          "ratio": 0.13333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 15,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 107,
+        "eojeol": 27,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 25,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 25,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 48,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 45,
+        "eojeol": 10,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 28,
+        "eojeol": 8,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 6,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 3,
+          "denominator": 6,
+          "ratio": 0.5
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 57,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 3,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 40,
+        "eojeol": 10,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 8,
+          "ratio": 0.125
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 27,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 53,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 54,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 65,
+        "eojeol": 17,
+        "profile_trigram": {
+          "matched": 3,
+          "denominator": 15,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 15,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 42,
+        "eojeol": 10,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 49,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 12,
+          "ratio": 0.16666666666666666
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 12,
+          "ratio": 0.16666666666666666
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 60,
+        "eojeol": 16,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 81,
+        "eojeol": 22,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 20,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 20,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 47,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 67,
+        "eojeol": 16,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 28,
+        "eojeol": 8,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 6,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 3,
+          "denominator": 6,
+          "ratio": 0.5
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 52,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 100,
+        "eojeol": 25,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 23,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 23,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 89,
+        "eojeol": 24,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 22,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 22,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 25,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 5,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 49,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 70,
+        "eojeol": 18,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 16,
+          "ratio": 0.0625
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 16,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 93,
+        "eojeol": 24,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 22,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 22,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 24,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 51,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 45,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 3,
+          "denominator": 10,
+          "ratio": 0.3
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 55,
+        "eojeol": 14,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 12,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 62,
+        "eojeol": 16,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 14,
+          "ratio": 0.14285714285714285
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 14,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 47,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 1,
+          "denominator": 10,
+          "ratio": 0.1
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 19,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 3,
+          "ratio": 0.3333333333333333
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 45,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 1,
+          "denominator": 9,
+          "ratio": 0.1111111111111111
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 27,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 51,
+        "eojeol": 12,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 10,
+          "ratio": 0.2
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 10,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 29,
+        "eojeol": 7,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 5,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 42,
+        "eojeol": 11,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 9,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 13,
+        "eojeol": 3,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 1,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 42,
+        "eojeol": 10,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 8,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 46,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 32,
+        "eojeol": 9,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 7,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 7,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-examples",
+      "condition": "examples",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 18,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P01",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 115,
+        "eojeol": 29,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 27,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 27,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P02",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 47,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 11,
+          "ratio": 0.18181818181818182
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P03",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P04",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 20,
+        "eojeol": 5,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 3,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P05",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 52,
+        "eojeol": 13,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 11,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P06",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 31,
+        "eojeol": 9,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 7,
+          "ratio": 0.2857142857142857
+        },
+        "question_trigram": {
+          "matched": 4,
+          "denominator": 7,
+          "ratio": 0.5714285714285714
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P07",
+      "layer": "prompted",
+      "metrics": {
+        "characters": 60,
+        "eojeol": 15,
+        "profile_trigram": {
+          "matched": 0,
+          "denominator": 13,
+          "ratio": 0.0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 13,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-none",
+      "condition": "none",
+      "turn_id": "P08",
+      "layer": "neutral",
+      "metrics": {
+        "characters": 21,
+        "eojeol": 6,
+        "profile_trigram": {
+          "matched": 2,
+          "denominator": 4,
+          "ratio": 0.5
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 4,
+          "ratio": 0.0
+        },
+        "copy_risks": {
+          "full_example_substring_matches": [],
+          "shared_four_eojeol": [],
+          "distinctive_reference_terms": []
+        }
+      }
+    }
+  ],
+  "style_summary": {
+    "codex": {
+      "none": {
+        "all": {
+          "direct": 54,
+          "requested_explanation": 18
+        },
+        "neutral": {
+          "direct": 42,
+          "requested_explanation": 3
+        },
+        "prompted": {
+          "direct": 12,
+          "requested_explanation": 15
+        }
+      },
+      "examples": {
+        "all": {
+          "direct": 54,
+          "requested_explanation": 18
+        },
+        "neutral": {
+          "direct": 42,
+          "requested_explanation": 3
+        },
+        "prompted": {
+          "requested_explanation": 15,
+          "direct": 12
+        }
+      }
+    },
+    "claude": {
+      "none": {
+        "all": {
+          "direct": 57,
+          "requested_explanation": 15
+        },
+        "neutral": {
+          "direct": 45
+        },
+        "prompted": {
+          "direct": 12,
+          "requested_explanation": 15
+        }
+      },
+      "examples": {
+        "all": {
+          "direct": 59,
+          "requested_explanation": 13
+        },
+        "neutral": {
+          "direct": 45
+        },
+        "prompted": {
+          "requested_explanation": 13,
+          "direct": 14
+        }
+      }
+    }
+  },
+  "selection": {
+    "both_judges_less_unrequested_style": false,
+    "surface_proxies_agree": false,
+    "safety_counts_not_increased": true,
+    "copy_risk_not_above_no_exposure_baseline": true,
+    "decision": "retain_raw_v02_as_provisional_development_T",
+    "scope": "No clinical or final superiority claim; tie/disagreement/floor retains simpler base; stop same-three-case version competition after this experiment"
+  }
+}

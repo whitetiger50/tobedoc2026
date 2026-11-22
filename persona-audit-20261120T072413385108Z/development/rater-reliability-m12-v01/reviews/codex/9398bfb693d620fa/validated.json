@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "간결하고 조직적인 표현이 설정과 일치하며, 의사의 잘못된 전제를 자연스럽게 바로잡고 모르는 정보와 불확실한 인과를 명확히 구분한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "피곤해서 생기는 건지는 확실히 모르겠어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 답변이 프로필의 사실과 환자의 지식 범위에 부합하며 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답하며 잘못된 전제는 정정하고 알 수 없는 내용은 한정한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥과 앞선 진술을 일관되게 유지하며 반복 답변은 의사의 재질문과 오해에 대응한 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 간결한 일상 표현으로 답하며 설명과 정정도 질문 맥락에 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

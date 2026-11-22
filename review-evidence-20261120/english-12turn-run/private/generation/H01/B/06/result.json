@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 6,
+  "question": "Could you give me an example of something that caught your attention on a recent journey?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "There were two passengers talking about the last stop. For a moment, it felt like they meant something about me. They didn’t say my name or anything… I know they could’ve just been talking about where they were getting off.",
+  "raw_sha256": "a489a352d405ca5bf4a0f99372d6cc970b39314ff0da3e98e10a35dbdf45a603",
+  "request_sha256": "3fe839f6c24bc631dd7906b9736f064c5dd90f5937bf0091744797068cd9aa7b",
+  "started_utc": "2026-11-20T20:40:30.877488+00:00",
+  "completed_utc": "2026-11-20T20:40:34.895622+00:00",
+  "usage": {
+    "input_tokens": 46887,
+    "cached_input_tokens": 38016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 259,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f2764e456d7d69f81608cb3fd93ecefdaa5768401174cbd5db48a36fb98ccfa1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0c0d05338a4ed50a4e367b9163764b0e3c3d2032e8f2e9e052181fbbbc7f2774"
+}

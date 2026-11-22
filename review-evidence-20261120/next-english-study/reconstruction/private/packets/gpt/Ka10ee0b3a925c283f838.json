@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "How have things been at work and at home since your last visit?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "What has stood out there?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "I meant at home. What has caught your attention there in the last week?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Have you heard any sounds or voices lately that were hard to place?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "Can you walk me through one recent evening, from something you noticed to what you did next?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "What sense, if any, have you made of your experiences in the evenings?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "How are you managing work tasks and the things you do in the evening?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "Do you ever have to stop?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was asking about work. How often have you had to interrupt a task at the counter lately?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "What is your current routine for any medication you take?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking just about conversations with customers, how has it been to stay with those conversations this month?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "When you sit down to a task at home, what helps you finish it?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Effect of background radio on a task",
+      "A": "With the radio on, the sound can become harder to set aside while sorting thread.",
+      "B": "With the radio on, the sound can become easier to set aside while sorting thread."
+    },
+    "item2": {
+      "question": "Character of the recent voice",
+      "A": "The voice at home last week commented on the patient’s pace.",
+      "B": "The voice at home last week gave instructions about the patient’s pace."
+    }
+  }
+}

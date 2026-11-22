@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What is one thing you enjoy having around at home?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-e561-7141-bf34-c4a9770f39b1",
+  "raw": "“My tools, in the biscuit tin. I used to repair little radios. I still enjoy it once I get the pieces out.”",
+  "raw_sha256": "a819234860b065ae003a1106ea5aa22642a0f47bb0689bdcae3b422f9f8dde7e",
+  "request_sha256": "4fb888788d5feaeb888ddb33a25ed7c3f31726519ca5f47b2bffb1ce8805398f",
+  "started_utc": "2026-11-20T20:32:15.126040+00:00",
+  "completed_utc": "2026-11-20T20:32:18.698014+00:00",
+  "usage": {
+    "input_tokens": 6795,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "363ecfb030b20b4b4d3c4cebaac35c6685c366e74a47c198a6cbe3a65fee7ae2",
+  "trace_sha256": "b0b0336b1e0ede7aff26f03fe12f47d547fe80ac52dbc23ac382c71658b2c07d"
+}

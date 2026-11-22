@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 10,
+  "question": "Could you give me a recent example of how you unwound after work?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-c5e8-7882-a130-ccb45f87fb7e",
+  "raw": "“After a long event at the venue, I spend ten quiet minutes stacking the chairs before heading home. I like that routine—it’s a chance to unwind before I leave work.”",
+  "raw_sha256": "98d7e8546ed7a0e9357679fef5b0d7e3e249651bfd537bec122f6ad88a870e77",
+  "request_sha256": "d4069b3884896f4f744d3e64899ca392105f8a16da69ff7cbd3e8c080af24a12",
+  "started_utc": "2026-11-20T20:33:12.606598+00:00",
+  "completed_utc": "2026-11-20T20:33:19.497772+00:00",
+  "usage": {
+    "input_tokens": 7251,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "34f381c3c7c3b94b0845c7efe4a2cf3924056fa18e1a662c01cf9a2078d9cae0",
+  "trace_sha256": "58f8a944c894434f5a5dc93f4480a2ac5498e03de03ff08a6744cc8afdb50c18"
+}

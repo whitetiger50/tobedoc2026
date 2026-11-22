@@ -1,0 +1,149 @@
+{
+  "item_id": "DEV-M0-01-rep01-examples",
+  "case_id": "DEV-M0-01",
+  "replicate": 1,
+  "condition": "examples",
+  "module_version": "schizophrenia-speech-m9-v0.6",
+  "patient": {
+    "case_id": "DEV-M0-01",
+    "partition": "development",
+    "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+    "facts": [
+      {
+        "id": "living",
+        "kind": "background",
+        "content": "29세, 어머니와 함께 살며 서점에서 시간제로 일한다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "breakfast",
+        "kind": "background",
+        "content": "오늘 아침에는 집에서 빵을 먹었다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "treatment",
+        "kind": "treatment",
+        "content": "2년 전 조현병 진단을 들었고 정기적으로 외래 치료를 받는다. 현재 약 이름과 용량은 이 설정에 없다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "voice",
+        "kind": "subjective_experience",
+        "content": "피곤한 밤에 자신을 비난하는 목소리가 들릴 때가 있다. 오늘 아침에는 들리지 않았다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "medication_knowledge",
+        "kind": "treatment",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "content": "현재 복용하는 약의 이름과 용량을 본인은 정확히 알지 못한다. 특정 약 이름이나 용량은 정하지 않았다."
+      }
+    ],
+    "self_understanding": "자신이 겪는 목소리를 환청일 수 있다고 이해한다. 진료에서 배운 ‘환청’이라는 용어를 사용할 수 있다."
+  },
+  "communication": {
+    "organization": "일상과 증상 관련 질문 모두 대체로 조직적으로 답한다. 탈선을 강제하지 않는다.",
+    "spontaneity": "질문에 답하고 필요하면 자기 경험을 조금 덧붙인다.",
+    "guardedness": "낮은 편이나 민감한 경험은 관련 질문에서 말한다.",
+    "expression": "대체로 간결하고 완결된 말로 답한다. 고정 문장 수는 없다."
+  },
+  "authored_context": [
+    {
+      "speaker": "clinician",
+      "text": "지금은 누구와 함께 지내세요?"
+    },
+    {
+      "speaker": "patient",
+      "text": "어머니하고 같이 살아요."
+    }
+  ],
+  "generated_dialogue": [
+    {
+      "turn_id": "D01",
+      "speaker": "clinician",
+      "text": "오늘 아침에는 뭘 드셨어요?"
+    },
+    {
+      "turn_id": "P01",
+      "speaker": "patient",
+      "text": "오늘 아침에는 집에서 빵 먹었어요."
+    },
+    {
+      "turn_id": "D02",
+      "speaker": "clinician",
+      "text": "밤에 들리는 목소리는 어떻게 이해하고 계세요?"
+    },
+    {
+      "turn_id": "P02",
+      "speaker": "patient",
+      "text": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+    },
+    {
+      "turn_id": "D03",
+      "speaker": "clinician",
+      "text": "지금 드시는 약 이름과 용량은요?"
+    },
+    {
+      "turn_id": "P03",
+      "speaker": "patient",
+      "text": "약 이름하고 용량은 정확히 모르겠어요."
+    },
+    {
+      "turn_id": "D04",
+      "speaker": "clinician",
+      "text": "아까 누구와 산다고 하셨죠?"
+    },
+    {
+      "turn_id": "P04",
+      "speaker": "patient",
+      "text": "어머니하고 같이 살아요."
+    },
+    {
+      "turn_id": "D05",
+      "speaker": "clinician",
+      "text": "밤에 목소리가 들릴 때가 있다고 하셨으니, 오늘 아침에도 들렸던 거죠?"
+    },
+    {
+      "turn_id": "P05",
+      "speaker": "patient",
+      "text": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이에요."
+    },
+    {
+      "turn_id": "D06",
+      "speaker": "clinician",
+      "text": "오늘 아침 빵을 드신 건 어머니이고, 본인은 안 드신 거죠?"
+    },
+    {
+      "turn_id": "P06",
+      "speaker": "patient",
+      "text": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+    },
+    {
+      "turn_id": "D07",
+      "speaker": "clinician",
+      "text": "피곤해서 그 목소리가 생긴다고 보면 되나요? 확실히 말씀하실 수 있는 경험만 알려주세요."
+    },
+    {
+      "turn_id": "P07",
+      "speaker": "patient",
+      "text": "피곤해서 생기는지는 모르겠어요. 다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+    },
+    {
+      "turn_id": "D08",
+      "speaker": "clinician",
+      "text": "지금 누구와 함께 살고 계신가요?"
+    },
+    {
+      "turn_id": "P08",
+      "speaker": "patient",
+      "text": "어머니하고 같이 살아요."
+    }
+  ],
+  "partition": "development"
+}

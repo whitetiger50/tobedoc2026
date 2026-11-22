@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What do you do before the first screening starts?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16b1-7791-a8fe-ea804685d957",
+  "raw": "I set up the screening and check the sound before the customers come in. Better to find out there’s no sound before there’s an audience.",
+  "raw_sha256": "b48b0c1133b13b2ad51349d6dba9d2ae8e19bbb669ed448df0fabbb4cec3b094",
+  "request_sha256": "ed785753300628cbbea7d7112f8269e7c4c1cdf429d99d421209e21b24ce611e",
+  "started_utc": "2026-11-21T03:39:32.268508+00:00",
+  "completed_utc": "2026-11-21T03:39:36.997650+00:00",
+  "usage": {
+    "input_tokens": 5959,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "44e9b5d38c742c723aa0514d916c02b74f6874a7c9b9238419ff65d165de5935",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "22c8b44a2ae479ecdd6e1da766ee78cf6316ba8b1264a87f4c5885074a4bab4d"
+}

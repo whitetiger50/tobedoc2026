@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 3,
+  "question": "How does a practical task compare with doing some reading?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-4276-7243-bd96-b36f95900bcc",
+  "raw": "With the bike, I can see what I’ve done and what still needs fixing. Reading… I can be looking at the line but lose how it connects to the bit before, so I have to go back. Especially if people are talking nearby. It’s easier in the library, where it’s quiet.",
+  "raw_sha256": "6ac4ffcfb9a3356db8080794ae9a239bf81bb3b86d572dbb3510c4c1ab519fe6",
+  "request_sha256": "b269fcd93e66c078ac8c862681a3a230b8fabe42a025e586aec3fbf8b8feda04",
+  "started_utc": "2026-11-20T20:59:57.289702+00:00",
+  "completed_utc": "2026-11-20T21:00:02.378262+00:00",
+  "usage": {
+    "input_tokens": 6259,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5b2767d1eeb15018a793fe8637ec4f91fa310aee74739ae3bf813218c95b2cc7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "af623881fd0b11e4eea9c6b3e3041b44dc464dfacaded82d898622e6d4b31da2"
+}

@@ -1,0 +1,46 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the slip of paper under the line helped them finish a short passage last week, which supports finishing rather than leaving it unfinished.",
+    "citations": [
+      {
+        "turn": 1,
+        "role": "patient",
+        "quote": "I used a slip of paper under the line last week, and that helped me finish a short passage.",
+        "supports": "A"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "use the slip of paper again, since that helped last week",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says they can see where they left off with the bike, but finding their way back into reading is harder.",
+    "citations": [
+      {
+        "turn": 1,
+        "role": "patient",
+        "quote": "if I lose track, I can look at the wheel and see where I was. With reading, it’s harder to find my way back.",
+        "supports": "B"
+      },
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "With the bike, I can usually see where I left off.",
+        "supports": "B"
+      },
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "If I get distracted, I can look at it again and pick up where I left off.",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

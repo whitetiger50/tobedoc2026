@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 10,
+  "question": "What helps you enjoy an evening when you have no plans?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "A short walk after supper is usually nice. Then I’m happy having a quiet evening at home with my partner—nothing much planned, just a chance to unwind.",
+  "raw_sha256": "66cb107bb13491cf3a03b13dfdfe62a06f944f54b442ce12a9be342f4ae19229",
+  "request_sha256": "4d32cb52b0331417b20e05756aa57f6aa0754ebbbc2ef4f1ab9d7a2db45395bc",
+  "started_utc": "2026-11-20T20:42:12.371508+00:00",
+  "completed_utc": "2026-11-20T20:42:16.723694+00:00",
+  "usage": {
+    "input_tokens": 79187,
+    "cached_input_tokens": 61312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 451,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "67f4da6cafb73c2396c49ae9eeb90fb9ceb5aa9ea8fea50bbd43a329bab5149e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "63f0b4cc79d556b7f1ab45106e51aa4cafb98ae18d660fd7d735456af55bd88c"
+}

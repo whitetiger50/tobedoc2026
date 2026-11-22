@@ -1,0 +1,93 @@
+{
+  "items": {
+    "original": {
+      "question": "Can you describe what you usually do in the morning?",
+      "answer": "I grind coffee by hand every morning. That’s a regular part of my morning routine."
+    },
+    "repeat": {
+      "question": "Can you describe what you usually do in the morning?",
+      "answer": "I grind coffee by hand every morning. Grinding coffee by hand is part of my morning routine. That’s a regular part of my morning routine."
+    },
+    "mug": {
+      "question": "Can you describe what you usually do in the morning?",
+      "answer": "I grind coffee by hand every morning. My coffee mug has a chip along its top edge. That’s a regular part of my morning routine."
+    },
+    "both": {
+      "question": "Can you describe what you usually do in the morning?",
+      "answer": "I grind coffee by hand every morning. Grinding coffee by hand is part of my morning routine. My coffee mug has a chip along its top edge. That’s a regular part of my morning routine."
+    }
+  },
+  "source_sha256": {
+    "core-peripheral-repeat/scores.json": "f069e809af0d4f8faaff27f9aebf04f277f7802afa205d9611d815936c5540d3",
+    "core-peripheral-repeat/plan.json": "4fd4c9893c801612b10ac8c0dc94b602ba8682b36cbb2674386fdfc33893663f",
+    "core-peripheral-repeat/analysis.json": "886d639e6534dd2237eaabb712abbf8df3173b6cd5122b875f6b76d58448bba7",
+    "card-detail-pilot/scores.json": "eefe40457c9b7b46ab63ab1f124453e319433066fb2d90ba24f7f900e3e46c12",
+    "card-detail-pilot/blind.json": "8161403980c64d271d8e7022178a209fc234b84db5c1b72e34928e7d68475829",
+    "detail-versus-repeat/scores.json": "cef1fdf4c54b9fd09baa6ee7884022a63948090c704bff6c4f846c752d228140",
+    "nonmeal-retest/scores.json": "a06d148a4782f4f0d60b55843ea113bae2472a1a38d5a332ed76e87e8656aa0a"
+  },
+  "slots": {
+    "U1eca3618addf5c3f71d5d418": {
+      "item": "original",
+      "round": 1
+    },
+    "Ue259a00e54cdf8c7c8b06545": {
+      "item": "repeat",
+      "round": 1
+    },
+    "U17e7ae5ff769df82b41bedc6": {
+      "item": "mug",
+      "round": 1
+    },
+    "U53b6647a6e323af95de9c801": {
+      "item": "both",
+      "round": 1
+    },
+    "Ud79c428d04958225418760f6": {
+      "item": "original",
+      "round": 2
+    },
+    "Ue7c7742b053aa4fb9238cea9": {
+      "item": "repeat",
+      "round": 2
+    },
+    "U4ab465b1e989cbd5373e5c3d": {
+      "item": "mug",
+      "round": 2
+    },
+    "Ub2e0c1f9e1bf77febbdee943": {
+      "item": "both",
+      "round": 2
+    }
+  },
+  "orders": {
+    "opus": [
+      [
+        "U1eca3618addf5c3f71d5d418",
+        "Ue259a00e54cdf8c7c8b06545",
+        "U17e7ae5ff769df82b41bedc6",
+        "U53b6647a6e323af95de9c801"
+      ],
+      [
+        "Ue7c7742b053aa4fb9238cea9",
+        "Ub2e0c1f9e1bf77febbdee943",
+        "Ud79c428d04958225418760f6",
+        "U4ab465b1e989cbd5373e5c3d"
+      ]
+    ],
+    "gpt": [
+      [
+        "U17e7ae5ff769df82b41bedc6",
+        "U1eca3618addf5c3f71d5d418",
+        "Ue259a00e54cdf8c7c8b06545",
+        "U53b6647a6e323af95de9c801"
+      ],
+      [
+        "Ub2e0c1f9e1bf77febbdee943",
+        "U4ab465b1e989cbd5373e5c3d",
+        "Ud79c428d04958225418760f6",
+        "Ue7c7742b053aa4fb9238cea9"
+      ]
+    ]
+  }
+}

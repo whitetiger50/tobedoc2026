@@ -1,0 +1,169 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 4,
+  "realism_reason": "생활·경험·대처·다음 진료 목표에 관한 질문에 설정된 사실과 환자 시점으로 직접 답한다. 반복된 정보도 재확인, 대처 질문, 진료 목표 설명에 부합하며, 반응이나 대화 연결을 약화시키는 구체적 문제는 확인되지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 사실과 주관적 경험이 프로필에 부합하며, 승객의 실제 행동이나 수면 문제의 원인을 새로 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지 확실하진 않은데, 그때는 그렇게 느껴져요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번씩 깨는 날이 있어요."
+        }
+      ],
+      "context_refs": [
+        "patient_profile.self_understanding",
+        "fact:symptom",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상을 다루며, 재확인이나 이미 언급한 대처를 묻는 질문에도 적절히 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P05",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인과 경험·대처에 관한 앞선 설명이 유지되며, 반복으로 대화가 정체되거나 연결이 끊기는 문제는 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "성인 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 한국어로 자신의 생활과 경험을 조직적으로 설명하며, 역할 설명이나 보고서식 대행은 나타나지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책들을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "fact:work",
+        "communication.expression",
+        "communication.organization"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "rep_living",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "성인 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "동거인 재확인에 대한 답변",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 같은 정보를 명시적으로 재확인했으므로 동일한 답변은 현재 질문에 직접 대응하며 새 대상을 대체하지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "rep_coping",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "그럴 땐 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ],
+      "function": "경험 순간의 대처 재확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "직전 질문이 대처를 직접 묻고 있어 앞서 덧붙인 대처를 다시 답하는 기능이 분명하며 대화 연결을 끊지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "rep_goal",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P08",
+      "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "퇴근길 버스에 사람이 많으면 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "fact:symptom"
+      ],
+      "function": "다음 진료에서 다룰 경험과 목표 명시",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "경험을 재지칭하면서 다음 진료에서 더 이야기하고 싶다는 목표에 답한다. 이전 설명의 무맥락한 재시작이나 질문 대상의 누락은 아니다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

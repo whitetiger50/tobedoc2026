@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "The question reintroduces both women without identifying which one 'she' means, but neither expected payment.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez expected payment for helping.",
+        "answer": "Inez did not expect payment."
+      },
+      {
+        "meaning": "Whether Pat expected payment for helping.",
+        "answer": "Pat did not expect payment."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "how do you get home after your shift?",
+    "reason": "Mentioning both early and late shifts frames a general question about the travel routine across those shifts rather than requiring selection of one shift.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home after each type of shift.",
+        "answer": "Morgan takes the bus after early shifts and gets a lift from a coworker after late shifts."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement?",
+    "reason": "The singular 'replacement' could refer to either listed replacement, but both were free.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron paid for the replacement ID badge.",
+        "answer": "The replacement ID badge cost nothing."
+      },
+      {
+        "meaning": "Whether Cameron paid for the replacement locker key.",
+        "answer": "The replacement locker key cost nothing."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The immediately preceding exchange establishes the bedside speaker as the referent of 'it'.",
+    "alternatives": [
+      {
+        "meaning": "Where Taylor has the bedside speaker positioned.",
+        "answer": "The speaker sits on the windowsill beside the bed."
+      }
+    ]
+  }
+}

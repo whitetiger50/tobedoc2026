@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I7ef963104b4ec937a00f",
+  "ended": "2026-11-20T21:05:04.301427+00:00",
+  "session": "24a9c1a9-28bc-48c3-b321-f9be2e7c49cb",
+  "packet_sha256": "ecd214773691e307f6ec55cbba1b70dad45c0c0be0d45f21138261ff81ff34fc",
+  "raw_sha256": "19e8bbd7ac2e5cf1981e3529df2fa9530443d7cb202cc554518f30b52e8a111f",
+  "provider_sha256": "0f6319ae3d799b4c515ffbdc1f848bdbc00ce25e97b3b886bfb8797fd076379d",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech is mostly natural for a low-key outpatient with decreased verbal productivity. Answers are short and plain, they don't add unprompted elaboration, and they shift accurately when the question changes. The patient also gives patient, minimal re-answers when the interviewer repeats a question (turns 4-5, 8-9). A few minor inconsistencies reduce realism. Several answers read like profile facts restated almost word for word, and turn 3 bundles separate facts together in a tidy way. The persona marks past feelings of being talked about as private, yet the patient raises this unprompted in turn 10 and confirms it in turn 11 without any hesitation or guardedness. The plain enjoyment expected when discussing maps barely comes through (turns 2 and 12). None of these seriously undermines the overall authenticity.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I shelve donated books on Wednesday and Friday afternoons."
+    },
+    {
+      "turn": 9,
+      "quote": "After my evening meal."
+    },
+    {
+      "turn": 10,
+      "quote": "I haven’t felt people were talking about me lately."
+    },
+    {
+      "turn": 11,
+      "quote": "Two years ago, it felt like people were talking about me."
+    }
+  ]
+}

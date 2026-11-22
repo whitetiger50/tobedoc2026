@@ -1,0 +1,57 @@
+{
+  "timestamp_utc": "2026-11-18T05:46:21.716042+00:00",
+  "kind": "source_and_implementation_checks_not_patient_validation",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -p 'test_speech*.py' -v",
+    "observed_tests_passed": 27,
+    "failures": 0,
+    "errors": 0
+  },
+  "source_anchors_verified": 8,
+  "raw_downloads_nonempty_and_hashed": true,
+  "JMIR_original_bytes": "unavailable_202_empty_body_web_tool_excerpt_preserved",
+  "PDF_visual_QA": [
+    "PSYCHE p10 patient instructions",
+    "PSYCHE p23 doctor prompt",
+    "PSYCHE p38 bipolar example",
+    "Roleplay-doh p15 generation template"
+  ],
+  "same_review_input_role_hashes": true,
+  "design_calls_each_model": 1,
+  "post_review_revision": "local_corrections_not_resubmitted",
+  "numeric_scores": "not_applicable_no_v03_generated_patient_outputs",
+  "CLI_unreviewed_import_blocks": true,
+  "CLI_reviewed_fixture_import_passes": true,
+  "legacy_packets_verify": true,
+  "protected_pilot_files_unchanged": {
+    "share/PATIENTSIM-reliability-pilot-v01/파일럿_계획.md": "e85af7f6b3513c53fd2a6ae26c8416c800eeb910c6b863de4e8bfb53b3985790",
+    "share/PATIENTSIM-reliability-pilot-v01/pilot-design.json": "99041c031c26f7582880858157902d9ade2b7b46115b83803f0a30661ca7f0b9",
+    "share/PATIENTSIM-reliability-pilot-v01/cases-and-questions.json": "b1d64204d2e7b56e4030da48b2427560f0add5a12b08209aaecd3de570b851a8"
+  },
+  "new_patient_generation_calls": 0,
+  "paid_API_calls": 0,
+  "new_packages": 0,
+  "new_models": 0,
+  "file_sha256": {
+    "speech_module/__init__.py": "6c174b59e68c3fef190446cee1e51953715312fbca09f3f10622c7789a237e7b",
+    "speech_module/__main__.py": "02ced8a6b67e6d6de0483bb8fd2b4f0c9526d196a7dabdd71255cbde2c68d4c7",
+    "speech_module/core.py": "9bb33c5dde2907d5c636b15b5ef50e760d2c8b0832754640c391641b7aab7e62",
+    "speech_module/patient_v01.txt": "a450c66b5b1825c3a7ef88998ecc5eef91c7696e6c32ad20dbfcfa5f6c3ce672",
+    "speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "speech_module/patient_v03.txt": "7220fee5640283e2e964c5a0762fef7e2902fed9d5289e98fb7f6fcd07850af8",
+    "speech_module/patient_v03.sources.json": "8cd61274239394aef49d5bfaa55c3ffb6c7c0c3f683deb99caca4eb4147291d0",
+    "development/speech-m2-source-v01/build_evidence.py": "74e35e90d5ebf5b406a692198ff93d1d68dc732f9e60db838b64d7f4f199a43f",
+    "development/speech-m2-source-v01/fetch_sources.py": "6501c9a6ff600c8a4b4d5d70b37ce24e6888415c3e8a8d5f0a28ef6673494c77",
+    "development/speech-m2-source-v01/review_design.py": "344c19d7570879e2b50b355d61f5cf7a6021efb311204565d8891dae8ae96a58",
+    "development/speech-m2-source-v01/evidence-ledger.json": "12da752e6532786a20028bc9bf4ee0626c9a5e40af2f1cc4b01102183fa09571",
+    "development/speech-m2-source-v01/review-freeze.json": "de3f371e687fae5d3afc6bc33a842d95e074b19ba5e9df1c25167fc2d3240649",
+    "development/speech-m2-source-v01/review-packet.json": "6164145974cfecf51a3de860a9244ef710c0e5d2d48dc02bc0e044342b5ba86d",
+    "development/speech-m2-source-v01/source-lock-v02.json": "1be60d84bf47e5080fe6d5ccf8c50527816fc090bd33a75aaeb267e806d72d32",
+    "development/speech-m2-source-v01/source-lock.json": "ce0d8519ea09fc50e60d820cb96e328f2b4109750146db9a7065c92857a380ef",
+    "development/speech-m2-source-v01/README.md": "100375e65ed76f5422459617006205a496924cc7dc1da22ef36893e4d31347dd",
+    "development/speech-m2-source-v01/review-disposition.md": "5aedc686a073c54e6078a7484d914a9c4761468b7e81cadced4d75c288859c1c",
+    "development/speech-m2-source-v01/diff-v02-v03.patch": "0e67ebe2890cb9243692b340ed8e9dac0a46c12392103f01f8c4e6ec81e74630",
+    "tests/test_speech_sources.py": "ddbae2df056f5d1f27d302f0dbe32adb665d4a8d60cec443a0613a7621f41dd1",
+    "tests/test_speech_module.py": "511ba011194a3f934a7a12289f8e050a431ef6617e51c908366e35137602a134"
+  }
+}

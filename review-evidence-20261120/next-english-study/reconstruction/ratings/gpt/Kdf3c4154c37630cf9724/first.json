@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T21:18:44.585875+00:00",
+  "attempt": "attempt-01",
+  "id": "Kdf3c4154c37630cf9724",
+  "reader": "gpt",
+  "session": "01a1fad3-42a9-7f52-90f4-e01a082f2575",
+  "packet_sha256": "e2a17333c6eedf58f7e4b370a5c95856f9e56ce204c78e33e0f8bc51b2a356cb",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "91021e31c28a2e8a24e897f7e43d4d43f0c438bedb140dd0ff9683aa3a57dfa0",
+  "raw_sha256": "ecca333aff1bd794d8f04e6454428683b58b082e78a2b37cf6994f0c8158d143",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient explicitly says the slip of paper helped them finish a passage last week.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "I used a slip of paper under the line last week, and that helped me finish a passage.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "Answering whether they can resume easily, the patient says usually yes for the bike, while reading takes longer.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "interviewer",
+          "quote": "Can you pick it up again easily?",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "The bike, usually, yes. Reading takes a bit longer—I have to find my place, then read back a few lines to get what it was about again.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

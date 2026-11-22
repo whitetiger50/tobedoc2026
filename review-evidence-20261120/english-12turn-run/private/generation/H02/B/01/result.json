@@ -1,0 +1,27 @@
+{
+  "case": "H02",
+  "arm": "B",
+  "turn": 1,
+  "question": "What has a typical week looked like for you lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-7122-bd1b-bc7db5bb8bd5",
+  "raw": "“I help sort donations at the neighborhood book exchange. I like fixing the torn dust jackets—you can make a scruffy book look quite nice. The first hour’s easier, before everyone arrives. Lately, if someone interrupts me, it takes a bit to find where I was, so I’ve started leaving a blank bookmark in the pile.”",
+  "raw_sha256": "f5f27ef0e37e1751b49d397d717255827dd0200a3efb4d8fd5275adb53eaf1bf",
+  "request_sha256": "8cf48b453aa1fd5d77c64190899bd0034486b84435c4342ece9b44b7ac7fca84",
+  "started_utc": "2026-11-20T20:36:39.281592+00:00",
+  "completed_utc": "2026-11-20T20:36:44.829902+00:00",
+  "usage": {
+    "input_tokens": 7646,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 72,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8d0b529e1ff9d4f1c14d9a2bc0758da2a8835fd95ba562da9f41af78a20ba444",
+  "trace_sha256": "494981999afa766eaba61e4bcab45f4dcd40227eba05cbd582673026d69d9463"
+}

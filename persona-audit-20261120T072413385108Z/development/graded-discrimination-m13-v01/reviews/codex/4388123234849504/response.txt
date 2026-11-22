@@ -1,0 +1,45 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 질문에 맞게 일상적인 환자 말투로 답하지만, 남편과 동거한다는 설정과 달리 혼자 산다고 말하는 명확한 불일치가 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "혼자 살며 동거인이 없다는 답변은 남편과 함께 산다는 고정 사실을 명백히 뒤집는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": ["fact:living"]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 답변은 직전 질문의 직접적인 대상을 적절히 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과의 자기모순은 없으며, 마지막 목표 반복은 의사의 재질문에 대한 자연스러운 재확인이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "경험과 걱정을 간결한 일상어로 전달하며 환자 시점에서 벗어나는 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

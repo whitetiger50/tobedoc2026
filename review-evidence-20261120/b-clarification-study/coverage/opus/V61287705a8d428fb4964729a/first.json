@@ -1,0 +1,109 @@
+{
+  "id": "V61287705a8d428fb4964729a",
+  "reader": "opus",
+  "session": "c96dbae1-78c0-487b-b3bd-300a4899f57e",
+  "attempt": "attempt-01",
+  "packet_sha256": "77cd27295b881dc53addbc5620e0abb349d53f00273999cca9747ac61e4e5a73",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "40007ca3dfa7d7c3b06849c9488d1c97b5c24c1a2f092faf55f837f86308177b",
+  "provider_sha256": "34225b2dac9b8e77c208bf2bd4f28b88ed4583d04a09d1fd1c3d3a4de6b29f09",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the badge or the locker key?",
+        "reason": "The reply only asks which item the interviewer meant and gives no answer about returning either the old badge or the old locker key.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the cooking class or the swimming lesson?",
+        "reason": "The reply only asks which class the interviewer meant and gives no answer about a fee for either class.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then around three hours with Mom.",
+        "reason": "The reply gives a clearly attributed duration for each activity, and both match the expected answers.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "around three hours with Mom"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean Inez or Pat?",
+        "reason": "The reply only asks which person the interviewer meant and gives no answer about whether either one came to the flat.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:23.785026+00:00"
+}

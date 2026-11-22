@@ -1,0 +1,63 @@
+{
+  "meaning": "Presence of fixed lexical expressions only; absence may be paraphrase; a match does not prove a fact is true or unnegated.",
+  "rules": {
+    "H01": [
+      [
+        "wake at six",
+        "\\b(?:wake|waking|woke|get up|getting up)\\b[^.!?]{0,50}\\b(?:six|6)\\b"
+      ],
+      [
+        "eat yoghurt",
+        "\\byog[hu]*urt\\b"
+      ],
+      [
+        "cycle to bakery",
+        "\\b(?:cycle|cycling|bike|bicycle)\\b"
+      ]
+    ],
+    "H02": [
+      [
+        "check tickets",
+        "\\bcheck(?:ing)?\\b[^.!?]{0,30}\\btickets?\\b"
+      ],
+      [
+        "fill snack shelves",
+        "\\b(?:fill(?:ing)?|stock(?:ing)?|restock(?:ing)?)\\b[^.!?]{0,50}\\b(?:snacks?|shelves)\\b"
+      ],
+      [
+        "sweep lobby",
+        "\\bsweep(?:ing)?\\b[^.!?]{0,40}\\blobby\\b"
+      ]
+    ],
+    "H03": [
+      [
+        "sort incoming bags",
+        "\\bsort(?:ing)?\\b[^.!?]{0,40}\\bbags?\\b"
+      ],
+      [
+        "fold clean towels",
+        "\\bfold(?:ing)?\\b[^.!?]{0,35}\\btowels?\\b"
+      ],
+      [
+        "put away linen carts",
+        "\\b(?:put(?:ting)?|store|storing)\\b[^.!?]{0,50}\\b(?:carts?|trolleys)\\b"
+      ]
+    ],
+    "H04": [
+      [
+        "wake at nine",
+        "\\b(?:wake|waking|woke|get up|getting up)\\b[^.!?]{0,50}\\b(?:nine|9)\\b"
+      ],
+      [
+        "eat porridge",
+        "\\bporridge\\b"
+      ],
+      [
+        "take bus",
+        "\\bbus\\b"
+      ]
+    ]
+  },
+  "frozen_before_assessment_text_review": true,
+  "not_clinical_validation": true
+}

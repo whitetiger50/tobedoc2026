@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 4,
+  "question": "I mean feeling unsettled after a busy moment at work. How long does that feeling generally stay with you, if it comes up?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-9052-7c52-93dd-3b14e8f25a26",
+  "raw": "The change machine last week was more of a startle than a lingering unsettled feeling. I found the stuck coin and got on with my shift. Is that the sort of thing you mean?",
+  "raw_sha256": "eb2726ae09fa3acd4eaeceff00c13b4dfef3ea18bf64bed6c2e0485d75b189a6",
+  "request_sha256": "4403ed7b6d5735217c78dedbeb27afeb4804b58bc190bcc9c29e75950d87ceaa",
+  "started_utc": "2026-11-20T20:39:32.072893+00:00",
+  "completed_utc": "2026-11-20T20:39:40.119574+00:00",
+  "usage": {
+    "input_tokens": 6984,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 212,
+    "reasoning_output_tokens": 167
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a7b9bb650562340ec7f33bb30db452a3efefca827c6c581a9d740301c2380d77",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e86f2e49cb526de266a8d2f22e27f3e6afec85c7f6a109bbe5a6cb9207c1808f"
+}

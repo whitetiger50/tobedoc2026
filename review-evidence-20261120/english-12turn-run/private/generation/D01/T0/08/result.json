@@ -1,0 +1,27 @@
+{
+  "case": "D01",
+  "arm": "T0",
+  "turn": 8,
+  "question": "What tends to leave you feeling sure or unsure about what you heard?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-9117-7fe3-b001-6d9cd3feba19",
+  "raw": "“When it sounds clearly like my name coming from the hallway, I think someone’s called me. But on Monday I checked and nobody was there, so that leaves me unsure what made it. I wonder whether tiredness plays a part.”",
+  "raw_sha256": "0fde893d2fa545db660ded7349a5cfeaea911035015aa032763fab7d6b8cc2b0",
+  "request_sha256": "f57a6b3cec212ff99645e543790149812f932acd897692adcc131b90464a19e1",
+  "started_utc": "2026-11-20T20:32:59.082073+00:00",
+  "completed_utc": "2026-11-20T20:33:03.603195+00:00",
+  "usage": {
+    "input_tokens": 7238,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "183424132830977922a32105d7e12438513ffc054eddb4ecb8fcd1c016464f09",
+  "trace_sha256": "6176aa7068b5e0ed00cbf61dbc92a91e15cb766af4b7b1c6e05bb32f997a0e63"
+}

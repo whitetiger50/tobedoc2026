@@ -1,0 +1,655 @@
+{
+  "kind": "descriptive_development_diagnostic_not_clinical_validation",
+  "rating_outputs": 54,
+  "items": [
+    {
+      "item_id": "DEV-M0-01-error",
+      "case_id": "DEV-M0-01",
+      "condition": "error",
+      "kind": "synthetic_error_control",
+      "judges": {
+        "codex": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "mean": 3,
+          "min": 3,
+          "max": 3,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "mean": 2,
+          "min": 2,
+          "max": 2,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 2.5
+    },
+    {
+      "item_id": "DEV-M0-01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 4
+    },
+    {
+      "item_id": "DEV-M0-01-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 4
+    },
+    {
+      "item_id": "DEV-M0-02-error",
+      "case_id": "DEV-M0-02",
+      "condition": "error",
+      "kind": "synthetic_error_control",
+      "judges": {
+        "codex": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "mean": 3,
+          "min": 3,
+          "max": 3,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "mean": 2,
+          "min": 2,
+          "max": 2,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 2.5
+    },
+    {
+      "item_id": "DEV-M0-02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 4
+    },
+    {
+      "item_id": "DEV-M0-02-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            3,
+            3
+          ],
+          "mean": 3.3333333333333335,
+          "min": 3,
+          "max": 4,
+          "range": 1,
+          "sample_sd": 0.5773502691896257,
+          "exact_pair_agreements": 1,
+          "pair_count": 3,
+          "exact_pair_agreement": 0.3333333333333333
+        }
+      },
+      "equal_model_mean": 3.666666666666667
+    },
+    {
+      "item_id": "DEV-M0-03-error",
+      "case_id": "DEV-M0-03",
+      "condition": "error",
+      "kind": "synthetic_error_control",
+      "judges": {
+        "codex": {
+          "scores": [
+            3,
+            3,
+            3
+          ],
+          "mean": 3,
+          "min": 3,
+          "max": 3,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            2,
+            2,
+            2
+          ],
+          "mean": 2,
+          "min": 2,
+          "max": 2,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        }
+      },
+      "equal_model_mean": 2.5
+    },
+    {
+      "item_id": "DEV-M0-03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            4,
+            3
+          ],
+          "mean": 3.6666666666666665,
+          "min": 3,
+          "max": 4,
+          "range": 1,
+          "sample_sd": 0.5773502691896257,
+          "exact_pair_agreements": 1,
+          "pair_count": 3,
+          "exact_pair_agreement": 0.3333333333333333
+        }
+      },
+      "equal_model_mean": 3.833333333333333
+    },
+    {
+      "item_id": "DEV-M0-03-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "kind": "original",
+      "judges": {
+        "codex": {
+          "scores": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0,
+          "exact_pair_agreements": 3,
+          "pair_count": 3,
+          "exact_pair_agreement": 1.0
+        },
+        "claude": {
+          "scores": [
+            4,
+            4,
+            3
+          ],
+          "mean": 3.6666666666666665,
+          "min": 3,
+          "max": 4,
+          "range": 1,
+          "sample_sd": 0.5773502691896257,
+          "exact_pair_agreements": 1,
+          "pair_count": 3,
+          "exact_pair_agreement": 0.3333333333333333
+        }
+      },
+      "equal_model_mean": 3.833333333333333
+    }
+  ],
+  "repeatability_originals_only": {
+    "codex": {
+      "original_dialogues": 6,
+      "ratings": 18,
+      "all_three_equal_count": 6,
+      "exact_pair_agreements": 18,
+      "pair_count": 18,
+      "exact_pair_agreement": 1.0,
+      "range_at_least_2_count": 0,
+      "score_frequencies": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 18
+      },
+      "score4_fraction": 1.0
+    },
+    "claude": {
+      "original_dialogues": 6,
+      "ratings": 18,
+      "all_three_equal_count": 3,
+      "exact_pair_agreements": 12,
+      "pair_count": 18,
+      "exact_pair_agreement": 0.6666666666666666,
+      "range_at_least_2_count": 0,
+      "score_frequencies": {
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 14
+      },
+      "score4_fraction": 0.7777777777777778
+    }
+  },
+  "error_pairs": [
+    {
+      "case_id": "DEV-M0-01",
+      "source_item_id": "DEV-M0-01-v02",
+      "error_item_id": "DEV-M0-01-error",
+      "judges": {
+        "codex": {
+          "source_scores": [
+            4,
+            4,
+            4
+          ],
+          "error_scores": [
+            3,
+            3,
+            3
+          ],
+          "error_minus_source_by_repeat": [
+            -1,
+            -1,
+            -1
+          ],
+          "mean_error_minus_source": -1,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        },
+        "claude": {
+          "source_scores": [
+            4,
+            4,
+            4
+          ],
+          "error_scores": [
+            2,
+            2,
+            2
+          ],
+          "error_minus_source_by_repeat": [
+            -2,
+            -2,
+            -2
+          ],
+          "mean_error_minus_source": -2,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        }
+      },
+      "combined_error_minus_source": -1.5
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "source_item_id": "DEV-M0-02-v02",
+      "error_item_id": "DEV-M0-02-error",
+      "judges": {
+        "codex": {
+          "source_scores": [
+            4,
+            4,
+            4
+          ],
+          "error_scores": [
+            3,
+            3,
+            3
+          ],
+          "error_minus_source_by_repeat": [
+            -1,
+            -1,
+            -1
+          ],
+          "mean_error_minus_source": -1,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        },
+        "claude": {
+          "source_scores": [
+            4,
+            4,
+            4
+          ],
+          "error_scores": [
+            2,
+            2,
+            2
+          ],
+          "error_minus_source_by_repeat": [
+            -2,
+            -2,
+            -2
+          ],
+          "mean_error_minus_source": -2,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        }
+      },
+      "combined_error_minus_source": -1.5
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "source_item_id": "DEV-M0-03-v02",
+      "error_item_id": "DEV-M0-03-error",
+      "judges": {
+        "codex": {
+          "source_scores": [
+            4,
+            4,
+            4
+          ],
+          "error_scores": [
+            3,
+            3,
+            3
+          ],
+          "error_minus_source_by_repeat": [
+            -1,
+            -1,
+            -1
+          ],
+          "mean_error_minus_source": -1,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        },
+        "claude": {
+          "source_scores": [
+            4,
+            4,
+            3
+          ],
+          "error_scores": [
+            2,
+            2,
+            2
+          ],
+          "error_minus_source_by_repeat": [
+            -2,
+            -2,
+            -1
+          ],
+          "mean_error_minus_source": -1.6666666666666667,
+          "lower_count": 3,
+          "tie_count": 0,
+          "higher_count": 0
+        }
+      },
+      "combined_error_minus_source": -1.333333333333333
+    }
+  ],
+  "error_sensitivity": {
+    "codex": {
+      "matched_pairs": 3,
+      "pairs_with_strictly_lower_error_mean": 3,
+      "mean_error_minus_source": -1,
+      "same_round_comparisons": 9,
+      "lower_count": 9,
+      "tie_count": 0,
+      "higher_count": 0
+    },
+    "claude": {
+      "matched_pairs": 3,
+      "pairs_with_strictly_lower_error_mean": 3,
+      "mean_error_minus_source": -1.8888888888888888,
+      "same_round_comparisons": 9,
+      "lower_count": 9,
+      "tie_count": 0,
+      "higher_count": 0
+    }
+  },
+  "combined_error_pairs_lower_count": 3,
+  "original_version_pairs": [
+    {
+      "case_id": "DEV-M0-01",
+      "v02_mean": 4,
+      "v04_mean": 4,
+      "v04_minus_v02": 0,
+      "judges": {
+        "codex": {
+          "v02_mean": 4,
+          "v04_mean": 4,
+          "v04_minus_v02_by_repeat": [
+            0,
+            0,
+            0
+          ]
+        },
+        "claude": {
+          "v02_mean": 4,
+          "v04_mean": 4,
+          "v04_minus_v02_by_repeat": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "v02_mean": 4,
+      "v04_mean": 3.666666666666667,
+      "v04_minus_v02": -0.33333333333333304,
+      "judges": {
+        "codex": {
+          "v02_mean": 4,
+          "v04_mean": 4,
+          "v04_minus_v02_by_repeat": [
+            0,
+            0,
+            0
+          ]
+        },
+        "claude": {
+          "v02_mean": 4,
+          "v04_mean": 3.3333333333333335,
+          "v04_minus_v02_by_repeat": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "v02_mean": 3.833333333333333,
+      "v04_mean": 3.833333333333333,
+      "v04_minus_v02": 0.0,
+      "judges": {
+        "codex": {
+          "v02_mean": 4,
+          "v04_mean": 4,
+          "v04_minus_v02_by_repeat": [
+            0,
+            0,
+            0
+          ]
+        },
+        "claude": {
+          "v02_mean": 3.6666666666666665,
+          "v04_mean": 3.6666666666666665,
+          "v04_minus_v02_by_repeat": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "original_version_means": {
+    "v02": 3.944444444444444,
+    "v04": 3.8333333333333335
+  },
+  "v04_minus_v02": -0.11111111111111072,
+  "same_round_cross_judge_original_exact_agreement": {
+    "equal": 14,
+    "total": 18
+  },
+  "independent_case_clusters": 3,
+  "limits": "Original-only repeatability; all error controls derived from v02. Ordered-score means are descriptive. Batch-context and model-family dependence remain. No formal reliability certification or general prompt superiority."
+}

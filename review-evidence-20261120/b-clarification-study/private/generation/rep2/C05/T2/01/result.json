@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What part of the work do you handle at the bakery?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff6d-7a01-ac6a-b194912d3e01",
+  "raw": "I stack the cooling trays and wrap the loaves. I usually do the morning shift.",
+  "raw_sha256": "dc871e30ae403eac1e3d9e6f52e515b0e698d49d0e8a59993135a047e301b8a0",
+  "request_sha256": "ff4b44166b5517a0fc5431a98212df3245aa6a2ba82f724e75b777baa44b5ba4",
+  "started_utc": "2026-11-21T03:39:26.333855+00:00",
+  "completed_utc": "2026-11-21T03:39:30.430941+00:00",
+  "usage": {
+    "input_tokens": 5991,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "84ddc47a77f5895b10e6c1e3792fc285881a794271458b0c827297bfa3bbbb5e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2b76c4389c95d3329dff145e30b0284abc7b0c49dbd8a7e6c3175d3128b744ed"
+}

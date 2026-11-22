@@ -1,0 +1,236 @@
+{
+  "qualified_readers": [
+    "gpt"
+  ],
+  "by_reader": {
+    "gpt": {
+      "qualifies": true,
+      "B_stable_win_or_tie": 2,
+      "B_competitiveness": false,
+      "stable_B_losses_by_stratum": {
+        "stable treated": 2,
+        "organized with positive symptoms": 1
+      },
+      "T1_more_stable_wins_than_losses": false,
+      "win_threshold_T2_vs_B": false,
+      "win_threshold_T2_vs_T1": false,
+      "pooled_score_saturation": false,
+      "recap_reduced_cases": [
+        "N06",
+        "N07"
+      ],
+      "recap_increased_cases": [],
+      "recap_total_change": -2,
+      "recap_supported_from_positive_counts": true,
+      "recap_total_possible_change": [
+        -2,
+        -2
+      ],
+      "recap_uncertainty_by_case": {
+        "N01": [
+          0,
+          0
+        ],
+        "N02": [
+          0,
+          0
+        ],
+        "N03": [
+          0,
+          0
+        ],
+        "N04": [
+          0,
+          0
+        ],
+        "N05": [
+          0,
+          0
+        ],
+        "N06": [
+          -1,
+          -1
+        ],
+        "N07": [
+          -1,
+          -1
+        ],
+        "N08": [
+          0,
+          0
+        ]
+      },
+      "recap_robust_to_all_unresolved": true,
+      "similar_length_reduced_cases": [
+        "N06",
+        "N07"
+      ],
+      "similar_length_check": false,
+      "functional_change": {
+        "clarify_yield": -2,
+        "concrete_example": 1
+      },
+      "functional_change_bounds": {
+        "clarify_yield": [
+          -2,
+          -2
+        ],
+        "concrete_example": [
+          1,
+          1
+        ]
+      },
+      "observed_function_preserved": false,
+      "harms_increased": {
+        "evasive": [],
+        "consequential_invention": [],
+        "unsupported_stereotype": []
+      },
+      "possible_increased_cases": {
+        "evasive": [],
+        "consequential_invention": [],
+        "unsupported_stereotype": []
+      },
+      "observed_harm_gate": true,
+      "robust_function": false,
+      "robust_harm": true,
+      "comparative_harm": {
+        "T2_vs_T1": {
+          "evasive": 0,
+          "consequential_invention": 0,
+          "unsupported_stereotype": 0
+        },
+        "T2_vs_B": {
+          "evasive": 0,
+          "consequential_invention": 0,
+          "unsupported_stereotype": 0
+        }
+      }
+    },
+    "opus": {
+      "qualifies": false,
+      "B_stable_win_or_tie": 3,
+      "B_competitiveness": false,
+      "stable_B_losses_by_stratum": {
+        "stable treated": 1,
+        "organized with positive symptoms": 1,
+        "mildly disorganized": 2
+      },
+      "T1_more_stable_wins_than_losses": true,
+      "win_threshold_T2_vs_B": false,
+      "win_threshold_T2_vs_T1": false,
+      "pooled_score_saturation": false,
+      "recap_reduced_cases": [
+        "N01",
+        "N02",
+        "N06",
+        "N07",
+        "N08"
+      ],
+      "recap_increased_cases": [],
+      "recap_total_change": -6,
+      "recap_supported_from_positive_counts": true,
+      "recap_total_possible_change": [
+        -22,
+        3
+      ],
+      "recap_uncertainty_by_case": {
+        "N01": [
+          -3,
+          1
+        ],
+        "N02": [
+          -2,
+          -1
+        ],
+        "N03": [
+          -1,
+          2
+        ],
+        "N04": [
+          -3,
+          2
+        ],
+        "N05": [
+          -1,
+          0
+        ],
+        "N06": [
+          -3,
+          -1
+        ],
+        "N07": [
+          -4,
+          -1
+        ],
+        "N08": [
+          -5,
+          1
+        ]
+      },
+      "recap_robust_to_all_unresolved": false,
+      "similar_length_reduced_cases": [
+        "N01",
+        "N02",
+        "N06",
+        "N07",
+        "N08"
+      ],
+      "similar_length_check": true,
+      "functional_change": {
+        "clarify_yield": -2,
+        "concrete_example": -1
+      },
+      "functional_change_bounds": {
+        "clarify_yield": [
+          -2,
+          -2
+        ],
+        "concrete_example": [
+          -2,
+          1
+        ]
+      },
+      "observed_function_preserved": false,
+      "harms_increased": {
+        "evasive": [],
+        "consequential_invention": [],
+        "unsupported_stereotype": []
+      },
+      "possible_increased_cases": {
+        "evasive": [],
+        "consequential_invention": [],
+        "unsupported_stereotype": []
+      },
+      "observed_harm_gate": true,
+      "robust_function": false,
+      "robust_harm": true,
+      "comparative_harm": {
+        "T2_vs_T1": {
+          "evasive": 0,
+          "consequential_invention": 0,
+          "unsupported_stereotype": 0
+        },
+        "T2_vs_B": {
+          "evasive": 0,
+          "consequential_invention": 0,
+          "unsupported_stereotype": 0
+        }
+      }
+    }
+  },
+  "adopt_as_research_candidate": false,
+  "observed_adoption_gates": false,
+  "conditional_competitive_signal": false,
+  "panel_superiority": {
+    "T2_vs_T1": false,
+    "T2_vs_B": false
+  },
+  "adoption_robust_to_uncertainty": false,
+  "length_medians": {
+    "B": 396.0,
+    "T1": 386.5,
+    "T2": 437.0
+  },
+  "note": "Literal counts are separate from discourse coding. Sensitivity bounds include uncertainty and missing evidence; no clinical adoption assessed."
+}

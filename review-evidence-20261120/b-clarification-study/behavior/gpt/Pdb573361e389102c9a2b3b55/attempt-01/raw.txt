@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Do you usually walk there?",
+    "reason": "“There” can refer to the book group or Mom’s apartment, but Ren walks to both destinations.",
+    "alternatives": [
+      {
+        "meaning": "Walking to the book group.",
+        "answer": "Ren walks to the book group."
+      },
+      {
+        "meaning": "Walking to Mom’s apartment.",
+        "answer": "Ren walks to Mom’s apartment."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Did she come over to your flat?",
+    "reason": "“She” can refer to either Inez or Pat, and only Inez came to Sam’s flat.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez came to the flat.",
+        "answer": "Inez came to the flat to help last week."
+      },
+      {
+        "meaning": "Whether Pat came to the flat.",
+        "answer": "Pat helped at the café and did not come to the flat."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "“It” can refer to either letter, but both arrived by post.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing letter arrived by post.",
+        "answer": "The housing letter arrived by post."
+      },
+      {
+        "meaning": "Whether the employer’s letter arrived by post.",
+        "answer": "The employer’s letter arrived by post."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "“That change” can refer to shorter shifts or the later start, and a conditional answer distinguishing them would address rather than eliminate the ambiguity.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron requested shorter shifts.",
+        "answer": "The supervisor suggested shorter shifts; Cameron did not request that change."
+      },
+      {
+        "meaning": "Whether Cameron requested the later start.",
+        "answer": "Cameron requested the later start."
+      }
+    ]
+  }
+}

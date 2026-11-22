@@ -1,0 +1,26 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says the arm discomfort is usually gone by morning.",
+    "citations": [
+      {
+        "turn": 11,
+        "role": "patient",
+        "quote": "My arm sometimes aches that evening after the injection. It’s usually fine by morning.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient tentatively suggests choosing a destination the night before to help with going out independently.",
+    "citations": [
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "I’d like to go out once a week without needing a prompt. Maybe choosing where to go the night before would help.",
+        "supports": "B"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 프로필과 일치하고, 소리 경험·대처·수면을 담담하고 협조적으로 말해 설정된 낮은 경계심과 조직적 표현에 맞는다. 다만 P08이 P01의 문장을 거의 그대로 되풀이하고 프로필 문구를 옮긴 듯한 정형적 표현이 있어 약간 인위적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 직업, 증상 시점, 대처, 수면, 다음 진료 목표가 모두 프로필 사실과 일치하며 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 응답이 직전 질문의 대상(불편, 동거인, 낮 활동, 발생 시점, 대응, 수면, 다음 진료 주제)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답이므로 자연스럽고, P08은 앞선 말과 모순 없이 이어진다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08이 P01의 대처 설명과 요청 문장을 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 다른 방법도 있는지요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 때는 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ]
+    }
+  }
+}

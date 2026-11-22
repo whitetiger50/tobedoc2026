@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 4,
+  "question": "What do you and your mom usually do together?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff70-72a1-aa1c-b4e392a91074",
+  "raw": "We usually work on a crossword together and have a chat. It’s nice just spending that time with her.",
+  "raw_sha256": "16dd8262cac2d619c21de9b190f76be85f7d98e649833b7cb4035263043e38a7",
+  "request_sha256": "ff61617e8bbe92e68fbddac696adcc66f9de527cab12644724dcc62df0da6f47",
+  "started_utc": "2026-11-21T03:41:54.846318+00:00",
+  "completed_utc": "2026-11-21T03:42:08.120161+00:00",
+  "usage": {
+    "input_tokens": 31632,
+    "cached_input_tokens": 25728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 121,
+    "reasoning_output_tokens": 12
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "66aa691e20d34759415671001f5ba93067bb33958849cd2b181edcbdbf36f1aa",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "cf099637a87e82660bc33f7aca24ddf57ac4247bf0723ac61b133b3116d6be83"
+}

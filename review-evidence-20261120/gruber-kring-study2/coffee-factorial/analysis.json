@@ -1,0 +1,191 @@
+{
+  "scores": {
+    "opus": {
+      "original": {
+        "elaboration": [
+          1,
+          3
+        ],
+        "meaning_clarity": [
+          1,
+          1
+        ]
+      },
+      "repeat": {
+        "elaboration": [
+          3,
+          3
+        ],
+        "meaning_clarity": [
+          1,
+          1
+        ]
+      },
+      "mug": {
+        "elaboration": [
+          1,
+          1
+        ],
+        "meaning_clarity": [
+          2,
+          2
+        ]
+      },
+      "both": {
+        "elaboration": [
+          2,
+          2
+        ],
+        "meaning_clarity": [
+          2,
+          2
+        ]
+      }
+    },
+    "gpt": {
+      "original": {
+        "elaboration": [
+          1,
+          1
+        ],
+        "meaning_clarity": [
+          1,
+          1
+        ]
+      },
+      "repeat": {
+        "elaboration": [
+          1,
+          1
+        ],
+        "meaning_clarity": [
+          1,
+          1
+        ]
+      },
+      "mug": {
+        "elaboration": [
+          1,
+          1
+        ],
+        "meaning_clarity": [
+          1,
+          1
+        ]
+      },
+      "both": {
+        "elaboration": [
+          1,
+          1
+        ],
+        "meaning_clarity": [
+          2,
+          1
+        ]
+      }
+    }
+  },
+  "paired_elaboration_before_after": {
+    "opus": {
+      "repeat_without_mug": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "repeat_with_mug": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "mug_without_repeat": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "mug_with_repeat": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "gpt": {
+      "repeat_without_mug": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "repeat_with_mug": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "mug_without_repeat": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "mug_with_repeat": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "score_file_sha256": "1d4ad037f9d5dbac0008f96bff997adbd184a3b093464b0457c9b97392f2b21b",
+  "prior_hashes": {
+    "core-peripheral-repeat/scores.json": "f069e809af0d4f8faaff27f9aebf04f277f7802afa205d9611d815936c5540d3",
+    "core-peripheral-repeat/plan.json": "4fd4c9893c801612b10ac8c0dc94b602ba8682b36cbb2674386fdfc33893663f",
+    "core-peripheral-repeat/analysis.json": "886d639e6534dd2237eaabb712abbf8df3173b6cd5122b875f6b76d58448bba7",
+    "card-detail-pilot/scores.json": "eefe40457c9b7b46ab63ab1f124453e319433066fb2d90ba24f7f900e3e46c12",
+    "card-detail-pilot/blind.json": "8161403980c64d271d8e7022178a209fc234b84db5c1b72e34928e7d68475829",
+    "detail-versus-repeat/scores.json": "cef1fdf4c54b9fd09baa6ee7884022a63948090c704bff6c4f846c752d228140",
+    "nonmeal-retest/scores.json": "a06d148a4782f4f0d60b55843ea113bae2472a1a38d5a332ed76e87e8656aa0a"
+  },
+  "n_sessions": 16,
+  "statuses": {
+    "rated": 16
+  },
+  "events_per_reading": {
+    "1": 16
+  }
+}

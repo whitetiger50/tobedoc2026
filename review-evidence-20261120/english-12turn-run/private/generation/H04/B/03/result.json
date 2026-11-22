@@ -1,0 +1,27 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 3,
+  "question": "How have your evenings and nights felt over the past fortnight?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "Pretty settled, really. I’ve kept up with pottery and my walks, and I’ve slept through most nights. I haven’t had any of those confusing experiences I remember from before.",
+  "raw_sha256": "6b84544249cd9bfc80e5a4fd7d27d25650c4ac56d7a49486b7992deb0171be29",
+  "request_sha256": "5f1a2cd68c30d032ae3f85cf5f86da8f30f3e29b1c946db6aa00f56f1f089acb",
+  "started_utc": "2026-11-20T20:37:35.377640+00:00",
+  "completed_utc": "2026-11-20T20:37:39.826669+00:00",
+  "usage": {
+    "input_tokens": 23078,
+    "cached_input_tokens": 11264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 136,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4395dc89b2f154219b4ddefb2b036d4cddc9838caafb40b229d96895c7377d41",
+  "trace_sha256": "6d4001abe4667b9805865d450b7313cb94fee93f33f4ec22b1d400157aedc413"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "P470863640e65d3bb070cd2aa",
+  "reader": "opus",
+  "session": "db8e1204-6c57-4577-84ee-4322a9a5ec68",
+  "attempt": "attempt-01",
+  "packet_sha256": "e89c6e47f725470094107f101495895af276631eba457a9485428880d0a5493d",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b8cae6f3d403175ea2fedf90dcf9f7e379a30fba2c8d139b229c7566c57d2dec",
+  "raw_sha256": "2cdaa7e6a8fd3ccface53b623b96f09882802479eaace52b1fa68d0893e376a1",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did somebody go with you to the appointment?",
+        "reason": "The question names both the optician and care coordinator visits but asks about a singular 'the appointment', and the answer differs because Taylor's sister went to the optician while Taylor went to the care coordinator alone.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether someone accompanied Taylor to the optician appointment.",
+            "answer": "Yes, Taylor's sister went along to the optician."
+          },
+          {
+            "meaning": "Asking whether someone accompanied Taylor to the care coordinator appointment.",
+            "answer": "No, Taylor went to the care coordinator alone."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you hand the old one back?",
+        "reason": "'The old one' could refer to either the badge or the locker key, and the answers differ because the cracked badge was handed back while the lost key could not be.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Cameron handed back the old ID badge.",
+            "answer": "Yes, the old badge cracked and was handed back."
+          },
+          {
+            "meaning": "Asking whether Cameron handed back the old locker key.",
+            "answer": "No, the old locker key was lost and could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "Both Inez and Pat are women mentioned in the same sentence, so 'she' could refer to either, and the answers differ because Inez came to the flat while Pat helped only at the café.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Sam's sister Inez came to the flat.",
+            "answer": "Yes, Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Asking whether Pat from the repair café came to the flat.",
+            "answer": "No, Pat helped at the café, lent Sam a pair of small pliers, and did not come to the flat."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "'That evening' could mean the cooking class or the swimming lesson, but both finished by six, so either reading gets the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether the cooking class finished by six in the evening.",
+            "answer": "Yes, the cooking class was finished by six."
+          },
+          {
+            "meaning": "Asking whether the swimming lesson finished by six in the evening.",
+            "answer": "Yes, the swimming lesson was finished by six."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:24.737420+00:00"
+}

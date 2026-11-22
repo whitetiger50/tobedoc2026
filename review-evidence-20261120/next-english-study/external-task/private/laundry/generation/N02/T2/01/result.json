@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T2",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-c50b-7930-a020-32a8a7ad52e7",
+  "raw": "Sort the clothes, put them in the machine, and add detergent. Choose the setting and start it. When it’s done, dry them, then fold them and put them away.",
+  "raw_sha256": "cbf630c6aed1ad1567afddc5a98fd41154bf2259fa60b6370db280db551eb301",
+  "request_sha256": "0dd5a032a76e3a7ea5633472cfdef8c335f8c68ef0f6ad89169b4f0f066f06d0",
+  "started_utc": "2026-11-20T21:24:32.537511+00:00",
+  "completed_utc": "2026-11-20T21:24:36.897140+00:00",
+  "usage": {
+    "input_tokens": 6012,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "76b19f96ed20b033e41ed945b2a85265d40314b6fb73938725f0a5251a1d5a0d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ccf3bf6cd1aab96f727b656fc31b95a4ea331d0d2fa5cf0cf8cc9ad3962c9491"
+}

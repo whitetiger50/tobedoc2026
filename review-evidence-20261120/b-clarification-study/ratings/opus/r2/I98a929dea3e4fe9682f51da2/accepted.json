@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I98a929dea3e4fe9682f51da2",
+  "ended": "2026-11-21T03:51:21.966677+00:00",
+  "session": "88e584f8-907e-4a1d-87f3-09e55e5662a9",
+  "packet_sha256": "b189f549ed9656390e3f15091b6d42eaf804489a0611f183cc4680bbbda63009",
+  "raw_sha256": "1445ebaa85c6e9ae1a201e87f7588d378936119e6a86bb95de15d12ecdf64c8b",
+  "provider_sha256": "e715decec4e8cc90859cbd52e4a8a24543eacf898b94d4142a01be33f50a0013",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona: warm, matter-of-fact, coherent and open. The one forgotten tablet is disclosed with mild, believable embarrassment. A few things reduce realism slightly. Several answers read like near-verbatim restatements of profile facts. The crossword line is repeated almost identically across turns 2 to 4. The patient never acknowledges the repeated questions, as a real outpatient might ('like I said'). Some answers are clipped, which slightly undercuts the persona's readiness to chat about everyday activities. These are minor inconsistencies rather than major unrealistic elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Being able to walk over to see my family is the best part. It’s smaller, but it’s nice having them close by."
+    },
+    {
+      "turn": 8,
+      "quote": "A bit embarrassing, but I haven’t missed any since starting it two weeks ago."
+    },
+    {
+      "turn": 3,
+      "quote": "About three hours. We usually do a crossword together."
+    },
+    {
+      "turn": 4,
+      "quote": "We usually work on a crossword together."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분은 자연스럽게 질문에 답하지만, P02에서 환자 대신 설정을 설명하는 작성자 시점으로 바뀌어 실제 면담의 현실감을 뚜렷하게 해친다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 전달한 사실은 프로필과 일치하며 무근거 구체화는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P02도 동거인을 밝히는 등 각 응답이 직전 질문의 직접 대상을 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02에서 앞선 환자 시점의 대화가 갑자기 설정을 기술하는 작성자 시점으로 전환되어 역할 연속성이 뚜렷하게 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "동거인을 묻는 질문에 당사자의 말이 아니라 환자 설정을 대행 보고하는 표현을 사용한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

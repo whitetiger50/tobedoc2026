@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-11-19T14:34:47.622137+00:00",
+  "lead_agent": "/root/astra_research_lead_m21",
+  "requested_model": "gpt-6.2-astra",
+  "requested_effort": "high",
+  "parent_role": "artifact_and_preservation_verification_only",
+  "source_artifacts_sha256": {
+    "astra-design.md": "99548701f4641a15fe8bf482ab5a4e386ae0f8a944e2f53a6ebac0a77d064571",
+    "handoff.md": "b29080fdcdc4a114a7176a4cebd99e9cab474c9fac6e3654f2f428210bea10db",
+    "references.json": "8e6f9b55c7525dcc12e88bac9cf1691715c573d3e081b903a5d0d18274887960",
+    "delegation-provenance.json": "4c9f776ac96b67c42d861c7de1b40f05c6eb8075d71ce8f4570a8e901708197e",
+    "reviewed-baseline-development-status.json": "81d4ecf585c8d16e6ff515013dc32c11c165aebc32aaac87c0a0ef8cedfd8e0b"
+  },
+  "protected_sources_match_predelegation": {
+    "speech_module/patient_v02.txt": true,
+    "collaboration/development-status.json": true,
+    "development/rubric-comparison-m18-v01/results.json": true,
+    "collaboration/strategy/M20-three-week-discourse-design-v01/protocol.md": true,
+    "collaboration/strategy/M20-three-week-discourse-design-v01/decision.md": true
+  },
+  "baseline_snapshot_matches_provenance": true,
+  "references_JSON_valid": true,
+  "design_arithmetic": {
+    "main": 96,
+    "basic_CLI": 134,
+    "maximum_CLI": 140,
+    "estimated_human_hours": 48
+  },
+  "Astra_reported_independence": "M20 protocol and critique never read; M19 objective and clinical sources used",
+  "new_patient_generation_calls": 0,
+  "new_numeric_ratings": 0,
+  "new_Claude_calls": 0,
+  "final12_semantic_access": false,
+  "final720_executed": false,
+  "clinical_validation": false,
+  "execution_dependencies_unconfirmed": [
+    "same-image official CLI delivery",
+    "new scenes and English task inputs",
+    "human coding time and available hours"
+  ],
+  "global_status_updated_without_changing_experimental_counts": true
+}

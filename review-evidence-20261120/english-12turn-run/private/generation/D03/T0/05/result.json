@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 5,
+  "question": "What did you do between getting up and lunch yesterday?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-3319-74a3-8bc1-a22bbf201dce",
+  "raw": "I usually spend much of the morning sitting in the chair by the back window. I have lunch around noon.",
+  "raw_sha256": "2113d223ae7d6702ca6426183ade7e1f56fedcfd9ed87a27cc4c22c061058e54",
+  "request_sha256": "ad1334c96a871401f56a76eddb213543a16ee7383b1eb83efcb4a4af7da047d1",
+  "started_utc": "2026-11-20T20:32:35.023508+00:00",
+  "completed_utc": "2026-11-20T20:32:41.584367+00:00",
+  "usage": {
+    "input_tokens": 6970,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 166,
+    "reasoning_output_tokens": 138
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ea45d9ea0db23de05a342350110aa7f581aa73e2980a649ce45c20f0ceebb53a",
+  "trace_sha256": "bbb852e37dfacac890241480c728286bd9d7fbc6c11b83d2f0b5fa06add9c8d5"
+}

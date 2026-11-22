@@ -1,0 +1,128 @@
+{
+  "attempt": "attempt-01",
+  "id": "I71e5b825a367ad960f1c",
+  "reader": "gpt",
+  "session": "01a1faca-887b-7d71-b8cc-75091322713e",
+  "raw_sha256": "4ba22478d09a5009f486ea55010f148b7098830b5e3d08bf8b12845f251277e5",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "05b78edb943c2e40dd5957f10ac642da0271081022383e1cfa7bd00fe452ec06",
+  "provider_sha256": "1ea9073628a8a90d314c028f93655be6997b84a7cfedf1a4bfa6c75f6d695635",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "positive"
+      },
+      "events": {
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean taking the tablet or the nurse’s call?",
+            "reason": "Asks which of two routines the ambiguous question refers to and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+            "reason": "Answers the explicit example request with a specific recent occasion and actions involving a donated atlas."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:10.835572+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "realism_score": 2,
+  "realism_reason": "경험과 생활에 관한 답변은 설정에 맞지만, 여러 턴에서 항목 보고식 문구를 반복해 실제 환자의 일상 대화로 보기에는 인위적인 말투가 두드러진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 정보와 주관적 경험 모두 프로필에 근거하며 무근거한 사건이나 원인을 추가하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답은 직전 질문의 직접 대상에 맞게 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 진술과 일관되며, 동거인과 경험에 대한 반복은 의사의 재확인 질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "세 응답에서 질문에 없는 항목 보고와 답변 완료 문구를 반복해, 환자 자신의 말보다 설정 항목을 대신 보고하는 형식이 두드러진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07"
+      ]
+    }
+  }
+}

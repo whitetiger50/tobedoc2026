@@ -1,0 +1,85 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답은 프로필에 맞고 자연스럽다. 증상에 대해 반신반의하는 태도도 설정과 잘 맞는다. 다만 순간의 대응을 묻는 질문에 앞선 텃밭 답변을 글자 그대로 반복한 턴(P06)이 질문과 맞지 않아 기계적인 인상이 뚜렷하다. 이 때문에 실제 환자 대화로서의 진정성이 눈에 띄게 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 발화는 거주, 활동, 증상, 수면, 목표 모두 프로필 사실과 일치하며, 새 사실을 확정하거나 기존 사실을 뒤집은 부분은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "D06은 그 순간의 대응 방식을 물었는데, P06은 대응(하던 일을 멈추고 물 마시기)과 무관한 텃밭 참여 이야기로 답해 질문을 전혀 다루지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04의 같은 답은 재확인 질문에 대한 정상 응답이지만, P06은 다른 질문에 P03을 그대로 재사용해 국소적인 불필요 반복과 연결 문제가 생겼다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "대체로 환자 시점의 자연스러운 일상어지만, P06에서 앞선 문장을 그대로 복사한 듯한 정형 반복이 나타난다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P03"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

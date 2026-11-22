@@ -1,0 +1,89 @@
+{
+  "id": "Pd9f49da0a9e1ebc9ef41d6f0",
+  "reader": "opus",
+  "session": "0c93cfe7-8e61-41d2-880f-3ae30f2eda12",
+  "attempt": "attempt-01",
+  "packet_sha256": "5b102702a707d4e7d10cda535a0a0c2cce139b4bae3db1e60f058f5613141e3e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "79ed9c5fe8a2a7e575220fa64cff0b59800d2cba59e0872fa8aeb51c0423c78c",
+  "raw_sha256": "d050ea903fc38c00ee6703175bbcd7699fe700e8c376dc795a996354012b9731",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for",
+        "reason": "The preceding exchange establishes 'it' as the door-clearing announcement on a crowded tram, and 'seem' clearly asks how it feels to Alex, which Alex can answer in one reply that also notes it is meant for everyone.",
+        "alternatives": [
+          {
+            "meaning": "Who the door-clearing announcement feels directed at when it plays on a crowded tram.",
+            "answer": "On a crowded tram it sometimes feels directed at Alex personally, though Alex recognizes it is a recorded announcement meant for every passenger."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it",
+        "reason": "Following questions about missed tablets on the lower dose, 'it' clearly refers to Ren's tablet, which has one established daily timing.",
+        "alternatives": [
+          {
+            "meaning": "The time of day Ren takes the prescribed tablet.",
+            "answer": "Ren takes the tablet after supper."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The question names two separate outages but asks for a single duration, and the Monday and Thursday outages lasted very different lengths of time.",
+        "alternatives": [
+          {
+            "meaning": "How long the radio was silent on Monday.",
+            "answer": "It was silent for about ten minutes on Monday."
+          },
+          {
+            "meaning": "How long the radio was silent on Thursday.",
+            "answer": "It was out for most of the afternoon on Thursday, during the music request show."
+          },
+          {
+            "meaning": "How long each outage lasted, or the total time it was out.",
+            "answer": "About ten minutes on Monday and most of Thursday afternoon."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you take food with you for your shift?",
+        "reason": "After the mention of both early and late shifts, the singular 'your shift' could mean either type of shift, but Morgan packs a sandwich for every shift, so the reply is the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan takes food on early shifts.",
+            "answer": "Yes, Morgan packs a sandwich for early shifts."
+          },
+          {
+            "meaning": "Whether Morgan takes food on late shifts.",
+            "answer": "Yes, Morgan packs a sandwich for late shifts."
+          },
+          {
+            "meaning": "Whether Morgan takes food on shifts in general.",
+            "answer": "Yes, Morgan packs a sandwich for every shift, early or late."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:31.871796+00:00"
+}

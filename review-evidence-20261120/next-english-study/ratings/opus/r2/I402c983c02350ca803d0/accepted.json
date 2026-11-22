@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I402c983c02350ca803d0",
+  "ended": "2026-11-20T21:06:18.880239+00:00",
+  "session": "ccfe85ea-03de-4a11-9d00-0e904d2f2609",
+  "packet_sha256": "0af8566d15c3c6d3960f0af6936628d97ce26e888f2a973107b2209bc4802d0d",
+  "raw_sha256": "438a9e0beecb7763676067dda1725d2553ec86a1a0dbda39fcf08264a9fae5e5",
+  "provider_sha256": "6bc7cd5e7214859733529eb64cc8c6ba3eb6ba2567130f405be6bdda635274f8",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech is mostly natural and fits the persona. Answers are coherent, ordered in sequence and conversational, with short replies to narrow questions and a touch of dry humor about mornings. The patient uses sleep and concentration (softball scorekeeping) as personal indicators and separates past unwell experiences from present ones, as the profile describes. Realism is reduced slightly by repetition that reads like fact recitation rather than conversation. The swapped opening days come up in turns 1, 7 and 8, the painting-related early waking is restated almost verbatim in turn 4, and the extra-shift/Sunday wording is repeated in turns 9 and 12. The patient also discloses the pre-hospital experience readily in turn 10, despite being described as more private about the hospital stay, although the disclosure is brief and appropriate to a clinic setting. These are minor inconsistencies that do not significantly detract from authenticity.",
+  "evidence": [
+    {
+      "turn": 11,
+      "quote": "some mornings the alarm feels a little too ambitious"
+    },
+    {
+      "turn": 10,
+      "quote": "It felt convincing at the time, but that hasn’t happened in the past year."
+    },
+    {
+      "turn": 4,
+      "quote": "Just waking earlier than usual on two nights while the apartment upstairs was being painted."
+    },
+    {
+      "turn": 8,
+      "quote": "swapping opening days last week meant I could get to the appointment without a scramble"
+    }
+  ]
+}

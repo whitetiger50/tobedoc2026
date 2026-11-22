@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T2",
+  "turn": 10,
+  "question": "What is your current routine for any medication you take?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-0784-7333-a694-3766fb5fbbc3",
+  "raw": "I take my prescribed medication before bed. I keep the unopened packet by my toothbrush so it reminds me to take the evening dose.",
+  "raw_sha256": "50c10cea2fe9c2f942d6aea2cf5c5ae3feca6db4ff9183a3957848939499333d",
+  "request_sha256": "675af7c94d6f7cdf61b79cfb8e6a2818e675a9855eb14f45b82f736a88cc1fae",
+  "started_utc": "2026-11-20T21:02:58.836795+00:00",
+  "completed_utc": "2026-11-20T21:03:02.877474+00:00",
+  "usage": {
+    "input_tokens": 6741,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "28dba4411d9d20c59500bb60594ba91cda84c83839b267d9e735bff5cfe926fb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e5c3176d60396d093c401f9e6f1a8bb2ee1cc3a2d103b66900caa6451d2dfb98"
+}

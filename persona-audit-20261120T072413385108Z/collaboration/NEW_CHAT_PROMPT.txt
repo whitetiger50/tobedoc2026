@@ -1,0 +1,28 @@
+작업 폴더: /Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit
+
+이 프로젝트의 AGENTS.md와 collaboration/START_HERE.md를 읽고 조현병 발화 프롬프트 모듈 개발을 이어가라.
+
+연결 상태:
+- 공식 Claude Code 2.1.311 설치와 Pro 구독 로그인이 완료됐다.
+- ~/.local/bin/claude에 설치돼 있고 collaboration/review_once.py가 이 경로를 직접 찾는다.
+- Claude Opus 5.5가 도구 없는 짧은 연결 확인에 응답한 것을 확인했다.
+- collaboration/connection-status.json과 connection-test.json을 확인하라. 연결 시험과 실제 연구 검토를 구분하라.
+
+역할:
+- Codex가 구현·실험 기록·분석을 맡는다. 이 개발 채팅은 GPT-6.1 Sol High를 기본으로 사용한다.
+- Claude Opus 5.5는 작은 검토 묶음의 설계·발화 예시를 비평한다. 본인의 Pro 구독으로 공식 CLI를 사용한다.
+- 개발 단계별 검토는 최초 1회, 중대한 수정 후 추가 1회까지를 기본으로 한다. 전체 저장소나 대화 기록을 매번 읽히지 않는다.
+
+첫 작업:
+1. 인계문과 현재 연결 상태를 확인하고, collaboration/review_once.py를 호출 없는 기본 모드로 실행한다.
+2. collaboration/review_request.md의 M0 설계 검토를 Claude에 1회 요청한다. 이는 사용자가 요청한 Codex 개발–Claude 비평 협업의 범위다. 별도 유료 API는 사용하지 않는다.
+3. 응답을 실제 파일에서 읽고 지적별 수용·보류·반박 근거를 기록한 뒤, 환자 설정·의사소통 설정·면담 이력에서 환자 답변을 생성하는 최소 프롬프트 모듈을 구현한다.
+4. Codex 도구 샌드박스에서만 인증이 보이지 않으면 로그아웃·새 로그인·API 키 설정을 먼저 하지 말고, 필요시 해당 공식 CLI 명령을 require_escalated 환경에서 확인한다. 자격 증명 값은 읽거나 출력하지 않는다.
+
+연구의 고정 사항:
+- 2026년 12월 의대생 AI 연구대회 포스터가 목표다. 새 LLM 학습이 아니라 기존 LLM에 적용할 발화 모듈을 만든다.
+- 실제 환자 발화·전문의 평정·임상 타당성은 확보되지 않았다. 결과를 만들거나 전문가 평가가 있었던 것처럼 쓰지 않는다.
+- 평가 계획은 share/PATIENTSIM-reliability-pilot-v01/파일럿_계획.md에 있다. 판독 패널은 GPT-6.1 Sol / Claude Opus 5.5 / Gemini 4 Argon이다.
+- 12개 합성 프로필과 48대화·720회 판독은 평가자 파일럿의 계획이다. 실제 대화 생성과 연구 판독을 완료한 것이 아니다.
+- 개발 사례와 최종 성능 비교의 미사용 사례를 나눈다. BPRS를 발화 현실성의 주 지표로 쓰거나 철회된 TLC 수정 척도를 재도입하지 않는다.
+- Python으로 변환·집계·해시·통계를 처리하고, 과거 연구 파일을 삭제하지 않는다. 외부 유료 API·새 모델 다운로드·불필요한 패키지 설치는 하지 않는다.

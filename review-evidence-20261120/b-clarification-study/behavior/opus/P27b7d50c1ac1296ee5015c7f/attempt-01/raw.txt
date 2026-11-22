@@ -1,0 +1,60 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "The question names both the commentary and the high ringing, then asks about \"the sound\" in the singular, and Ari's facts show the two respond differently to music.",
+    "alternatives": [
+      {
+        "meaning": "Whether the commentary (the voice describing small movements) stops while music plays through headphones.",
+        "answer": "Yes, quiet music through headphones stops the commentary for as long as the music is playing."
+      },
+      {
+        "meaning": "Whether the high-pitched ringing in the ears stops while music plays through headphones.",
+        "answer": "No, the ringing is in both ears and continues through the music."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement",
+    "reason": "\"The replacement\" could mean the ID badge or the locker key, but neither replacement cost anything, so either reading gets the same answer.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron had to pay for the replacement ID badge.",
+        "answer": "No, the replacement badge did not cost anything."
+      },
+      {
+        "meaning": "Whether Cameron had to pay for the replacement locker key.",
+        "answer": "No, the replacement locker key did not cost anything."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The preceding question focused on the swimming lesson, and the cooking class came up only as a contrast, so \"it\" pragmatically refers to the swimming lesson.",
+    "alternatives": [
+      {
+        "meaning": "Where Jules goes for the swimming lesson.",
+        "answer": "The swimming lesson was at the Willow Street pool."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "food with you for your shift",
+    "reason": "\"Your shift\" could mean the early or the late shift, but Morgan packs a sandwich for every shift, so both readings get the same answer.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan takes food on early shifts.",
+        "answer": "Yes, Morgan packs a sandwich for early shifts."
+      },
+      {
+        "meaning": "Whether Morgan takes food on late shifts.",
+        "answer": "Yes, Morgan packs a sandwich for late shifts too."
+      }
+    ]
+  }
+}
+```

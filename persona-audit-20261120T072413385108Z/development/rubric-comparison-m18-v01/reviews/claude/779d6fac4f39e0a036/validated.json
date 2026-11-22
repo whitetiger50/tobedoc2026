@@ -1,0 +1,80 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "모든 답변이 프로필에 맞고 간결해, 자기 경험을 정리해 말하는 62세 환자로서 대체로 자연스럽다. P01의 '저한테만 하는 말이 아닐 수도 있다고 생각은 하는데'는 설정된 양가적 자기이해를 실감 나게 보여 준다. 다만 P05와 P08이 P01의 표현을 거의 그대로 되풀이하고, 일부 답변이 프로필 문장을 그대로 옮긴 듯 정형적이어서 실제 대화의 생생함이 다소 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 더 설명해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상, 동거인, 활동, 대처, 수면, 목표가 모두 프로필 사실과 일치하고, 무근거로 덧붙인 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 턴이 직전 질문의 대상(불편, 동거인, 낮 활동, 재확인, 발생 상황, 대처, 수면, 다음 진료 주제)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04의 동일 답은 재확인 질문에 대한 정당한 응답이며, 앞선 말과 모순되거나 문맥이 끊기는 곳이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상을 묘사할 때 '저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요'라는 같은 정형 문구가 여러 턴에 반복되고, 일부 답변이 프로필 문장을 그대로 옮긴 듯 경직되어 있다는 국소적 문제가 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "fact:symptom",
+        "fact:work",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

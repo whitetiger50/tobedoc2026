@@ -1,0 +1,27 @@
+{
+  "n": 360,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "tools_enabled": false,
+  "one_session_per_output": true,
+  "responses_per_cell": 1,
+  "randomized_submission_seed": "GK-study2-main-generation-v1-20261121",
+  "concurrent_sessions": 8,
+  "sampling": "identical CLI/provider defaults for every condition; no sampling seed exposed",
+  "output_limit": "same CLI/provider default for all arms",
+  "empty_context": true,
+  "transport_timeout_seconds": 190,
+  "frozen_utc": "2026-11-20T18:23:26.268056+00:00",
+  "sha256": {
+    "review-evidence-20261120/gruber-kring-study2/DESIGN.ko.md": "d3610486033c7e4d6c7774b81acf3da824bc9d29b7fea86da01c42d569439e61",
+    "review-evidence-20261120/gruber-kring-study2/cards/cards.json": "d48e6793c80023526b4fac3ef3ccd25256fcd022d712ee21e296575c943ba06a",
+    "review-evidence-20261120/gruber-kring-study2/cards/audit.json": "e7dca15b002bc15ef70a4740879d89ba797678aea9383092ddcfdd75225f495e",
+    "review-evidence-20261120/gruber-kring-study2/main/generate.py": "67bc220785fb2cea16a413224b39950f31d4d604a97a7f7ed638afedee33460b",
+    "review-evidence-20261120/gruber-kring-study2/cards/prepare.py": "18c63541023a84d95428c5c1872f9e9365b36f613a597038f595a677053e247c",
+    "review-evidence-20261120/dais-generator-20261121/experiment.py": "53c7d6345ed060aa0f75c6d46c3523966e61cb6b255ef30145c2bb3536719297",
+    "review-evidence-20261120/gruber-kring-study2/main/private/generation-schedule.json": "1c93c24f3681e846fea20567816614d8ae3082a2a3d3b0fd60739847d997dc6f",
+    "review-evidence-20261120/gruber-kring-study2/main/private/blind-seed.json": "63a094268c6c5c667c5e5833751e955c0714d510672be99cf32d00d476d3ea52",
+    "review-evidence-20261120/gruber-kring-study2/boundary/calibrate.py": "52ebaabb63b20b5b1d39e107d8cc6d4ea09bde3613ce6aa6d2af76745300167b",
+    "review-evidence-20261120/gruber-kring-study2/clarity-retest/freeze.json": "5badfc78d617723eadf4acba1c7be3bebd53fdeed9295e2d25017396d768742b"
+  }
+}

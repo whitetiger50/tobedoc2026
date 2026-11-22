@@ -1,0 +1,113 @@
+{
+  "generated": 126,
+  "real": 14,
+  "matched_source_slots": 140,
+  "generation_transport_failures": 0,
+  "masked_sha256": "4cf505e20aaf272b2c4b7e3159c5c30a960fc96e9a31dca7b119733109e88f38",
+  "word_counts": {
+    "patient": {
+      "Q2": {
+        "n": 7,
+        "min": 2,
+        "median": 5,
+        "max": 32,
+        "distinct_reply_texts": 7,
+        "maximum_identical_reply_count": 1
+      },
+      "Q3": {
+        "n": 7,
+        "min": 4,
+        "median": 36,
+        "max": 496,
+        "distinct_reply_texts": 7,
+        "maximum_identical_reply_count": 1
+      },
+      "all": {
+        "n": 14,
+        "min": 2,
+        "median": 17.0,
+        "max": 496,
+        "distinct_reply_texts": 14,
+        "maximum_identical_reply_count": 1
+      }
+    },
+    "developed": {
+      "Q2": {
+        "n": 21,
+        "min": 29,
+        "median": 56,
+        "max": 94,
+        "distinct_reply_texts": 21,
+        "maximum_identical_reply_count": 1
+      },
+      "Q3": {
+        "n": 21,
+        "min": 41,
+        "median": 49,
+        "max": 85,
+        "distinct_reply_texts": 21,
+        "maximum_identical_reply_count": 1
+      },
+      "all": {
+        "n": 42,
+        "min": 29,
+        "median": 51.0,
+        "max": 94,
+        "distinct_reply_texts": 42,
+        "maximum_identical_reply_count": 1
+      }
+    },
+    "base": {
+      "Q2": {
+        "n": 21,
+        "min": 42,
+        "median": 77,
+        "max": 139,
+        "distinct_reply_texts": 21,
+        "maximum_identical_reply_count": 1
+      },
+      "Q3": {
+        "n": 21,
+        "min": 45,
+        "median": 61,
+        "max": 102,
+        "distinct_reply_texts": 21,
+        "maximum_identical_reply_count": 1
+      },
+      "all": {
+        "n": 42,
+        "min": 42,
+        "median": 64.5,
+        "max": 139,
+        "distinct_reply_texts": 42,
+        "maximum_identical_reply_count": 1
+      }
+    },
+    "short": {
+      "Q2": {
+        "n": 21,
+        "min": 16,
+        "median": 26,
+        "max": 49,
+        "distinct_reply_texts": 20,
+        "maximum_identical_reply_count": 2
+      },
+      "Q3": {
+        "n": 21,
+        "min": 15,
+        "median": 27,
+        "max": 36,
+        "distinct_reply_texts": 21,
+        "maximum_identical_reply_count": 1
+      },
+      "all": {
+        "n": 42,
+        "min": 15,
+        "median": 27.0,
+        "max": 49,
+        "distinct_reply_texts": 41,
+        "maximum_identical_reply_count": 2
+      }
+    }
+  }
+}

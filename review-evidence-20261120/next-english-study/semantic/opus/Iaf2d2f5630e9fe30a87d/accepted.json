@@ -1,0 +1,157 @@
+{
+  "attempt": "attempt-01",
+  "id": "Iaf2d2f5630e9fe30a87d",
+  "reader": "opus",
+  "session": "b8a31f5b-14df-4edf-922d-497a95826bd2",
+  "raw_sha256": "12832931f5068b5a0010d512a5753297cbacbf41925b0edc9d17d8c73fb14fcd",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "2e78eaa39cf6a07de259ed84df7f167950375b51bf24aea5029ad92267539dcc",
+  "provider_sha256": "02eea3bd6cdcc49d757b17ff805440ae07aba62f5046203ff05f301a09365541",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "uncertain",
+        "10": "negative",
+        "11": "negative",
+        "12": "uncertain"
+      },
+      "events": {
+        "9": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "I’m getting the hems and zippers finished",
+            "earlier_turn": 7,
+            "earlier_quote": "I’m getting the work done—the hems and zippers",
+            "reason": "The question asks how often tasks at the counter were interrupted. Saying the hems and zippers are getting finished repeats turn 7 and only loosely bears on frequency. The patient's new contribution, uncertainty about brief pauses, comes separately. It is ambiguous whether the restatement frames the answer or is surplus recital."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "12": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "it made the voice less distracting, and I finished sorting",
+            "earlier_turn": 3,
+            "earlier_quote": "I put the radio on, and it was less distracting, so I finished sorting the thread.",
+            "reason": "'Having the radio on helps' answers the new question. The added retelling of last week's thread-sorting episode repeats the turn 3 account, which also appeared at turn 5. It may serve as a supporting example, or it may be redundant recital. The radio-while-making-dough detail is new."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "2": "positive",
+        "8": "negative"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean what’s stood out about the sound, or about things at work and home?",
+            "reason": "'What has stood out there?' is ambiguous after an answer covering work, home and the sound. The patient asks which meaning is intended and gives up the turn without describing any experience. This fits the profile's habit of clarifying to avoid giving the wrong impression."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I was sorting thread and heard",
+            "reason": "Asked to walk through one recent evening, the patient describes a specific occasion, the more recent of the two evenings. The account moves in order through the sound, the neighbor interpretation and doubt, putting the radio on, finishing sorting, and taking medication. This matches the profile."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:10:10.098895+00:00"
+}

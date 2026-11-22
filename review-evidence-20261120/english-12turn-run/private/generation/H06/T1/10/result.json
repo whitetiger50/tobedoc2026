@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T1",
+  "turn": 10,
+  "question": "What do you do when two things need your attention at the same time?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-0268-7fd3-8d66-f082329169aa",
+  "raw": "“I can get pulled onto one and lose track of the other. That’s what happened with the bus card—the bibs were ready, but looking for the card took my attention off taking the bag. If my housemate reads the jobs back while I gather things, that helps. I can do the jobs; it’s keeping both in mind that’s tricky. At least the card and the bibs travel together now!”",
+  "raw_sha256": "b46efb84aa7382d803d1dd8c32be5d2321fad648dc443c3a702ef2335d103ee6",
+  "request_sha256": "f5e70a99b7c7b150157c350a547793ec811ff8e2fdbf3d7f11d5e5d641a7d55b",
+  "started_utc": "2026-11-20T20:42:12.363285+00:00",
+  "completed_utc": "2026-11-20T20:42:18.098650+00:00",
+  "usage": {
+    "input_tokens": 7893,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3290960ed2c3586bef37bca3cfab9e272120fdc3f66261d590b288e8e9b789b3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cdeb09b969ff6aa6b61a41004f6a0c788ee8a702c401b958ab9aee6359a144ff"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 8,
+  "question": "What gets in the way there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-34e5-7c72-bd58-7d46d44256f2",
+  "raw": "“In class, you mean? When several things are happening, my attention gets pulled away from what’s being said. Then… I’m trying to catch up with the bit I missed, and I lose the next bit too.”",
+  "raw_sha256": "ab16bd47680a835dd2c512cb950a41afd52ae5bc9bb3e25cd21b763346459ff0",
+  "request_sha256": "74f4cb6e5fff654599269699ca059245bfdf8f6e533be59e80e1315f16016eaf",
+  "started_utc": "2026-11-20T21:02:04.919029+00:00",
+  "completed_utc": "2026-11-20T21:02:09.550361+00:00",
+  "usage": {
+    "input_tokens": 6675,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0c133779b02ba0e38c986cc28405d6e848307f0bc9daecf2fb3aba9ef06da5de",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8acbbd888e9afac26f3cec5443499aa9c9ce28cc28b7fda81d3d7bad50b7219d"
+}

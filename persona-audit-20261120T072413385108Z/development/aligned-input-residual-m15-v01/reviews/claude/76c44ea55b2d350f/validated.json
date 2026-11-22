@@ -1,0 +1,69 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 간결하고 자연스러운 일상 환자 말투이며 프로필에 충실하다. 증상을 확신하지 않는 태도도 설정에 맞다. 다만 마지막 응답이 첫 증상 진술을 거의 같은 문구로 되풀이해 약간 정형적이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 일, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하며 새로운 사실을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞게 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 말과 모순이 없다. 목표 질문에 증상 주제를 다시 언급한 것은 질문에 따른 자연스러운 연결이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08이 P01의 증상 서술을 프로필 문구에 가깝게 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

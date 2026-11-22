@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "Short",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-c51b-71f0-86a9-209efe426db8",
+  "raw": "Cinderella lived with her cruel stepmother and stepsisters, who made her do all the chores, but her fairy godmother helped her go to the prince’s ball with a beautiful dress, a pumpkin carriage, and glass slippers, warning her to leave before midnight. She danced with the prince but lost a slipper as she hurried away, and he searched until he found that it fitted her, then they married and lived happily ever after.",
+  "raw_sha256": "2d7d4907db61dc6354b214174ab00164bdb8e1a09ec4a788004a8d2e6ebddee2",
+  "request_sha256": "c6e3b6715a3525eaf461c643590545dabbf41e363468c2dad07248cc2dbf03dc",
+  "started_utc": "2026-11-20T21:24:32.543344+00:00",
+  "completed_utc": "2026-11-20T21:24:38.029646+00:00",
+  "usage": {
+    "input_tokens": 6032,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 91,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0a47fd4032b0701fe53df2aefc0e737422bc68d57efd381b22172910a8f3d032",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "44f271ca9cb50c811e46fc51c91e336acaf11c4a3ec6d5b76d2b8f011b41e53c"
+}

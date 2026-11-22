@@ -1,0 +1,67 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "질문에 간결하고 자연스럽게 답하며 전반적으로 설정과 잘 맞지만, 프로필에 없는 거주 층수를 사실로 덧붙인 경미한 이탈이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "언니와 동거한다는 사실에는 부합하지만, 거주 층수는 프로필에 근거가 없는 국소적 구체화다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞춰 경험과 일상 정보를 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발언과 모순 없이 이어지며, 증상 발생 상황의 반복도 재질문에 따른 적절한 재확인이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 관점의 일상적인 한국어로 간결하고 조직적으로 답하며 역할 설명이나 부자연스러운 메타 표현이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

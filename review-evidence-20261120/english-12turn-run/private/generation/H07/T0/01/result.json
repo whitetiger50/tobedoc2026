@@ -1,0 +1,27 @@
+{
+  "case": "H07",
+  "arm": "T0",
+  "turn": 1,
+  "question": "How has your week at home been?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7470-986e-16f8f9451206",
+  "raw": "“I’ve mostly been sitting by the kitchen window in the afternoons. There was a robin on the feeder yesterday. I watched it until it flew off. That was nice.”",
+  "raw_sha256": "9a042aec33403fcccaf818ab59b5f75a7376e5e6bcdcbd20dc4426473ed8d025",
+  "request_sha256": "c3be5b9ebc645ae0311d7b7685df92a209edc695457ecc2d7ffaee0452dfb7b8",
+  "started_utc": "2026-11-20T20:36:54.018403+00:00",
+  "completed_utc": "2026-11-20T20:36:58.235778+00:00",
+  "usage": {
+    "input_tokens": 6738,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "331aa156f60b191228fe368c601f0829d6b20ce7301420128d948239da73b3b4",
+  "trace_sha256": "8e23399f8b58fa36982e938a484b097a15b751c7b77a6cbd353d0f2a94682c01"
+}

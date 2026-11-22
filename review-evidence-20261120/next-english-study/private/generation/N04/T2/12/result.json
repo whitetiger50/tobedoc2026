@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 12,
+  "question": "If you were arranging your next family visit, what time of day would suit you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac6-274f-79e2-aa58-181c59feeeac",
+  "raw": "An afternoon visit would suit me best, not too long. I’d enjoy seeing my sister and having a chat, then head home before dinner, before I get too tired.",
+  "raw_sha256": "a71fdcc4bbb0e6cc509aca70bf147a65aa35f6cb1419813b739dcc29d449afa1",
+  "request_sha256": "e0ac6486cc9cbeddb6958520a655f94738fa626ef4f67ff120ecf9ccd674346b",
+  "started_utc": "2026-11-20T21:04:12.520673+00:00",
+  "completed_utc": "2026-11-20T21:04:16.831491+00:00",
+  "usage": {
+    "input_tokens": 6858,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9ea16cfd889d4cf919d09020dec4ba4abdc1b56ae9c066075c2bbfb6f04502d8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b98a22eaf8927c522a9a93adbf5c2a28d9e9b1afe5e1c90b5f5b432d64d87bf3"
+}

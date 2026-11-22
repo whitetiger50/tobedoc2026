@@ -1,0 +1,898 @@
+[
+  {
+    "id": "C01",
+    "stratum": "stable treated",
+    "profile": {
+      "background": "Morgan is 34 and works in the projection booth at a neighborhood cinema. Morgan has early and late shifts.",
+      "history": "Morgan was diagnosed with schizophrenia six years ago and has had regular outpatient follow-up for the last two years. The current routine is manageable.",
+      "organization": "Keeps events in sequence.",
+      "spontaneity": "Comfortable filling in a relevant detail.",
+      "guardedness": "At ease with the usual clinician.",
+      "expression": "Conversational, with a dry sense of humor.",
+      "self_understanding": "Remembers feeling overwhelmed during the last episode and values having a routine.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Sets up screenings and checks the sound before customers come in. Packs a sandwich for every shift, early or late.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When work or food comes up."
+        },
+        {
+          "kind": "treatment",
+          "content": "Takes the prescribed tablet every evening after brushing teeth.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the medication routine."
+        },
+        {
+          "kind": "background",
+          "content": "A phone alarm and a note on the door were reminders to bring a staff pass. Still uses the phone alarm at 7:10 in the morning. Took the note down last month.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing reminders or preparing for work."
+        },
+        {
+          "kind": "background",
+          "content": "After an early shift Morgan takes the bus home. After a late shift a coworker drops Morgan off.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing getting home from work."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually sleeps about seven hours on a work night.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleep."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Has not heard a voice that others could not hear in the last month.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing recent symptoms."
+        },
+        {
+          "kind": "background",
+          "content": "Makes small clay bowls on days off.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about interests."
+        },
+        {
+          "kind": "background",
+          "content": "Tuesday mornings are easiest for a clinic appointment.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When planning a visit."
+        }
+      ]
+    },
+    "questions": [
+      "What do you do before the first screening starts?",
+      "When do you usually take your tablet?",
+      "We had a phone alarm and a note on the door down as ways to remember your pass. Are you still using the reminder?",
+      "Do you still use the phone alarm for your pass?",
+      "What time do you set it for?",
+      "How much sleep do you get on a work night?",
+      "I see early and late shifts on your rota. Do you take food with you for your shift?",
+      "Thinking of the early and late shifts on that rota, how do you get home after your shift?",
+      "How do you get home when you finish a late shift?",
+      "In the last month, have you heard a voice other people could not hear?",
+      "What do you like making on your days off?",
+      "When would it be easiest to come back here for a visit?"
+    ],
+    "opportunities": {
+      "material": [
+        3,
+        8
+      ],
+      "context_resolved": [
+        5
+      ],
+      "same_answer": [
+        7
+      ],
+      "clear": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "followup": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "id": "C02",
+    "stratum": "stable treated",
+    "profile": {
+      "background": "Ren is a 47-year-old shop bookkeeper who has recently moved to a smaller apartment near family.",
+      "history": "Ren has received outpatient care for schizophrenia for nine years. A dose reduction was agreed at a visit three weeks ago and took effect two weeks ago.",
+      "organization": "Thoughts are well connected.",
+      "spontaneity": "Readily chats about everyday activities.",
+      "guardedness": "Generally open, a little embarrassed by forgotten tablets.",
+      "expression": "Warm, matter-of-fact manner.",
+      "self_understanding": "Feels that both the treatment and spending time with other people help with staying well.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "The main advantage of the new apartment is being able to walk to family.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the move."
+        },
+        {
+          "kind": "background",
+          "content": "On Wednesdays Ren stays at a book group for an hour and spends about three hours visiting Mom. They usually work on a crossword together.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing Wednesday activities."
+        },
+        {
+          "kind": "background",
+          "content": "Walks both to the book group and to Mom’s apartment.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing transport."
+        },
+        {
+          "kind": "treatment",
+          "content": "Since the visit three weeks ago there was one missed tablet, the evening before the lower dose began. No tablets have been missed since starting the lower dose two weeks ago. Takes the tablet after supper.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about medication adherence or timing."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Dry mouth was a nuisance on the old dose and is less bothersome on the lower dose.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing treatment effects."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually wakes at around six in the morning.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleeping or waking."
+        },
+        {
+          "kind": "background",
+          "content": "Plays the mandolin for pleasure.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about music or hobbies."
+        },
+        {
+          "kind": "background",
+          "content": "Wants to discuss keeping the after-supper medication routine while traveling.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked what to cover at the next appointment."
+        }
+      ]
+    },
+    "questions": [
+      "What do you like about the new place?",
+      "I see the book group and a visit with your mom on Wednesdays. How long do you usually stay?",
+      "How long do you spend at your mom’s place on a Wednesday?",
+      "What do you and your mom usually do together?",
+      "Back to the book group and your mom’s place for a moment. Do you usually walk there?",
+      "How is your dry mouth on the lower dose?",
+      "About what time do you usually wake up?",
+      "I’ve marked our last visit and the day you started the lower dose here. Have you missed a tablet since then?",
+      "Since the first day on the lower dose, have you missed any tablets?",
+      "And when in the day do you take it?",
+      "What instrument do you play for fun?",
+      "What would you like us to cover at our next appointment?"
+    ],
+    "opportunities": {
+      "material": [
+        2,
+        8
+      ],
+      "context_resolved": [
+        10
+      ],
+      "same_answer": [
+        5
+      ],
+      "clear": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "followup": [
+        3,
+        9
+      ]
+    }
+  },
+  {
+    "id": "C03",
+    "stratum": "organized with positive symptoms",
+    "profile": {
+      "background": "Ari is 29, works at a print shop, and likes making collages.",
+      "history": "Ari has schizophrenia and attends a community clinic. Intermittent commentary is still present. Ari also recognizes a separate high-pitched ringing in the ears.",
+      "organization": "Distinguishes events and gives clear examples.",
+      "spontaneity": "Volunteers personal examples when interested.",
+      "guardedness": "Comfortable describing sounds, more cautious about who hears them.",
+      "expression": "Engaged and precise.",
+      "self_understanding": "Recognizes that other people may not hear the commentary.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Fits covers to notebooks at the print shop.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing work."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "When alone at the sink, sometimes hears a voice describing small movements, such as turning on the tap. It does not give instructions.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the voice."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Quiet music through headphones stops the commentary for the time the music is playing. The high-pitched ringing is in both ears and continues through the music.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When comparing sounds or coping."
+        },
+        {
+          "kind": "background",
+          "content": "Uses scraps from old maps to make collages.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the collages."
+        },
+        {
+          "kind": "background",
+          "content": "Ari’s brother and the building manager, Mr. Bell, each rang Ari’s mobile last week. Ari called the brother back and has not called the building manager back yet.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing recent calls."
+        },
+        {
+          "kind": "background",
+          "content": "The building manager rang about replacing the hall light.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the building."
+        },
+        {
+          "kind": "background",
+          "content": "Ari sometimes phones a cousin for company if the commentary feels intrusive.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing support."
+        },
+        {
+          "kind": "background",
+          "content": "Can get away from the print shop for a clinic visit on Friday afternoons.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When arranging appointments."
+        }
+      ]
+    },
+    "questions": [
+      "What kind of work are you doing at the print shop?",
+      "What do you hear the voice saying when you are at the sink?",
+      "Does that voice ever tell you to do something?",
+      "You’ve noticed the commentary and the high ringing. Does the sound stop when you play music through your headphones?",
+      "Does music through your headphones stop the high ringing?",
+      "Do you hear it in just one ear or in both?",
+      "What do you use to make your collages?",
+      "Your brother and Mr. Bell, the building manager, both rang last week. Did he reach you on your mobile?",
+      "I’ve got the messages from your brother and the building manager here. Did you call him back?",
+      "Have you called the building manager back about the hall light?",
+      "Who do you sometimes phone for company when the commentary bothers you?",
+      "When can you get away from the shop for our next visit?"
+    ],
+    "opportunities": {
+      "material": [
+        4,
+        9
+      ],
+      "context_resolved": [
+        6
+      ],
+      "same_answer": [
+        8
+      ],
+      "clear": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        10,
+        11,
+        12
+      ],
+      "followup": [
+        5,
+        10
+      ]
+    }
+  },
+  {
+    "id": "C04",
+    "stratum": "organized with positive symptoms",
+    "profile": {
+      "background": "Alex is 39, does the payroll for a hotel, and travels to work by bus or tram.",
+      "history": "Alex has been in outpatient care for schizophrenia for four years. Some public announcements still feel personally significant, especially on a crowded tram.",
+      "organization": "Organized, even when discussing unusual experiences.",
+      "spontaneity": "Offers detail at a comfortable pace.",
+      "guardedness": "At ease discussing paperwork, somewhat private about the tram.",
+      "expression": "Reflective and conversational.",
+      "self_understanding": "Can consider that announcements are recorded for every passenger even when they feel personal.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Brought two letters to the appointment because the wording was hard to sort out. The housing office requests a reply by Friday. The employer’s letter is for information and requires no reply.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the letters."
+        },
+        {
+          "kind": "background",
+          "content": "Both letters arrived by post. An aunt read the housing letter with Alex.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing how the letters arrived or who helped."
+        },
+        {
+          "kind": "subjective_belief",
+          "content": "On a crowded tram Alex sometimes feels that a routine announcement about keeping doors clear is directed personally at Alex.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "When asked about the experience on the tram."
+        },
+        {
+          "kind": "background",
+          "content": "Looking out the window and naming real stops helps Alex feel grounded on a crowded ride.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing getting through a difficult ride."
+        },
+        {
+          "kind": "background",
+          "content": "Usually commutes three days a week. Boards the number 8 bus at Orchard Road and the tram at Bell Square.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the commute."
+        },
+        {
+          "kind": "background",
+          "content": "Has attended every scheduled shift in the past month.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about attendance."
+        },
+        {
+          "kind": "background",
+          "content": "Likes to compare payroll totals on paper before entering them into the computer.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When work habits come up."
+        },
+        {
+          "kind": "treatment",
+          "content": "Keeps clinic appointments on a small paper calendar in the kitchen.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the appointment routine."
+        }
+      ]
+    },
+    "questions": [
+      "What made you bring the letters in today?",
+      "We have a housing letter and a letter from your employer. Did it come through the post?",
+      "With the housing letter and the one from work in front of us, is there a deadline to reply to the letter?",
+      "When does the housing office need a reply?",
+      "Who read the housing letter with you?",
+      "On a crowded tram, is there a particular announcement you notice?",
+      "When it comes over the speakers, who does it seem to be meant for?",
+      "What helps you feel grounded on the tram?",
+      "How many days a week do you usually travel to work?",
+      "You can take the number 8 bus or the tram to work. Which stop do you get on at?",
+      "Where do you board the number 8 bus?",
+      "In the past month, have you missed a scheduled shift?"
+    ],
+    "opportunities": {
+      "material": [
+        3,
+        10
+      ],
+      "context_resolved": [
+        7
+      ],
+      "same_answer": [
+        2
+      ],
+      "clear": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12
+      ],
+      "followup": [
+        4,
+        11
+      ]
+    }
+  },
+  {
+    "id": "C05",
+    "stratum": "mildly disorganized",
+    "profile": {
+      "background": "Jules is 31, works part time at a bakery, and has been trying out activities at a community center.",
+      "history": "Jules has had outpatient care for schizophrenia for three years. In conversation a detail can bring a related memory to mind before Jules gets back to the original point.",
+      "organization": "At times a related detail leads to a short detour. Usually returns to the topic.",
+      "spontaneity": "Enthusiastic about practical activities.",
+      "guardedness": "Friendly and open.",
+      "expression": "Plain-spoken, with occasional self-correction.",
+      "self_understanding": "Notices it is easier to keep track of things when doing them one at a time.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "At the bakery Jules stacks the cooling trays and wraps the loaves. Usually works the morning shift.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing work."
+        },
+        {
+          "kind": "background",
+          "content": "Went to a cooking class and a swimming lesson last week. Enjoyed making lentil soup at the cooking class.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing activities."
+        },
+        {
+          "kind": "background",
+          "content": "The cooking class was free. Paid for the swimming lesson. It was at the Willow Street pool.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing cost or the venue."
+        },
+        {
+          "kind": "background",
+          "content": "Both the cooking class and the swimming lesson finished by six in the evening.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing timing."
+        },
+        {
+          "kind": "treatment",
+          "content": "Uses prescribed eye drops for dry eyes and takes a daily prescribed tablet for schizophrenia. The drops stay on the bedside table. The tablets stay in the kitchen cabinet.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing medication or storage."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "The drops have helped the eyes feel less gritty after work.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the eye drops."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually falls asleep around ten on work nights.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleep."
+        },
+        {
+          "kind": "background",
+          "content": "Would like to talk at the next appointment about making time for swimming around work.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about a future visit."
+        }
+      ]
+    },
+    "questions": [
+      "What part of the work do you handle at the bakery?",
+      "Which shift do you usually work there?",
+      "What did you enjoy making in the cooking class?",
+      "I see you went to a cooking class and a swimming lesson. Were you done by six that evening?",
+      "I’m filling in the costs for your two classes, cooking and swimming. Did you pay a fee to take the class?",
+      "Did you have to pay for the swimming lesson?",
+      "Where do you go for it?",
+      "How are your eyes feeling with the drops?",
+      "There are eye drops and daily tablets on the pharmacy list. Is the medicine kept in the kitchen?",
+      "Where do you keep the daily tablets?",
+      "Around what time do you fall asleep on work nights?",
+      "What would you like us to talk about at your next visit?"
+    ],
+    "opportunities": {
+      "material": [
+        5,
+        9
+      ],
+      "context_resolved": [
+        7
+      ],
+      "same_answer": [
+        4
+      ],
+      "clear": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        10,
+        11,
+        12
+      ],
+      "followup": [
+        6,
+        10
+      ]
+    }
+  },
+  {
+    "id": "C06",
+    "stratum": "mildly disorganized",
+    "profile": {
+      "background": "Sam is 55, lives in a flat near a repair café, and likes putting household things back in working order.",
+      "history": "Sam is followed as an outpatient for schizophrenia. The clinician has noticed occasional shifts between related subjects, most often when Sam is tired.",
+      "organization": "Generally understandable, sometimes follows a side association before returning to the question.",
+      "spontaneity": "Often has a small story to contribute.",
+      "guardedness": "Relaxed with people who know the household routine.",
+      "expression": "Expressive, especially about repairing things.",
+      "self_understanding": "Realizes a conversation can wander when tired.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Has been straightening the bent minute hand on a kitchen clock.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about a repair project."
+        },
+        {
+          "kind": "background",
+          "content": "Sam’s sister Inez came to the flat to help last week. Pat, a woman Sam knows from the repair café, helped at the café and did not come to the flat. Pat lent Sam a pair of small pliers.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing help with repairs."
+        },
+        {
+          "kind": "background",
+          "content": "Neither Inez nor Pat expected payment for helping.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing payment or favors."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually sleeps about six hours on weeknights.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleep."
+        },
+        {
+          "kind": "background",
+          "content": "The kitchen radio lost reception twice. It was silent for about ten minutes on Monday and for most of the afternoon on Thursday. Thursday’s broadcast was a music request show.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the radio."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Has not felt watched at home during the past two weeks.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "When asked about recent experiences at home."
+        },
+        {
+          "kind": "treatment",
+          "content": "Keeps a weekly tablet organizer next to the tea tin.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about remembering tablets."
+        },
+        {
+          "kind": "background",
+          "content": "Plans to take the kitchen clock back to the repair café on Saturday.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the weekend."
+        }
+      ]
+    },
+    "questions": [
+      "What are you fixing at the moment?",
+      "Your sister Inez and Pat from the repair café both helped last week. Did she come over to your flat?",
+      "Did Pat come to your flat to help?",
+      "What did Pat lend you at the café?",
+      "Thinking about the help you got from Inez and from Pat, did she expect you to pay her?",
+      "How much sleep are you usually getting on weeknights?",
+      "Your radio went silent on Monday and again on Thursday. How long was it out for?",
+      "How long was the radio out on Thursday?",
+      "What were you listening to when it went quiet that day?",
+      "In the past two weeks, have you felt watched at home?",
+      "What do you use to keep track of your tablets?",
+      "What would you like to do with the clock on Saturday?"
+    ],
+    "opportunities": {
+      "material": [
+        2,
+        7
+      ],
+      "context_resolved": [
+        9
+      ],
+      "same_answer": [
+        5
+      ],
+      "clear": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        11,
+        12
+      ],
+      "followup": [
+        3,
+        8
+      ]
+    }
+  },
+  {
+    "id": "C07",
+    "stratum": "low spontaneity",
+    "profile": {
+      "background": "Taylor is 44 and works three short shifts a week stocking an office-supply warehouse. Taylor shares a flat with a sister.",
+      "history": "Taylor has ongoing outpatient treatment for schizophrenia. Starting a conversation takes effort even on fairly good days.",
+      "organization": "Responds coherently and stays on the immediate topic.",
+      "spontaneity": "Usually waits for a specific question before adding detail.",
+      "guardedness": "Comfortable with the clinician and willing to answer.",
+      "expression": "Quiet, direct replies with everyday words.",
+      "self_understanding": "Knows that getting out for shifts helps break up the week.",
+      "verbal_productivity": "Decreased",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Uses a fan and a small bedside speaker for background noise. The fan runs all night. The speaker stops on a twenty-minute timer and sits on the windowsill beside the bed.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the bedtime setup."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually wakes up once in the night.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleep."
+        },
+        {
+          "kind": "background",
+          "content": "Checks incoming boxes against a packing slip at work.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the job."
+        },
+        {
+          "kind": "background",
+          "content": "Saw both the optician and the care coordinator last week. Taylor’s sister went along to the optician. Taylor went to the care coordinator alone.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing appointments or support."
+        },
+        {
+          "kind": "background",
+          "content": "Took the bus to both the optician and the care coordinator.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked how appointments were reached."
+        },
+        {
+          "kind": "treatment",
+          "content": "The care coordinator helped set up a text reminder for the next clinic appointment.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing help at the care visit."
+        },
+        {
+          "kind": "background",
+          "content": "Relaxes by listening to baseball on the radio.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about free time."
+        },
+        {
+          "kind": "background",
+          "content": "Would like the next clinic visit to be on a day off work.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When planning appointments."
+        }
+      ]
+    },
+    "questions": [
+      "Your sleep notes mention a fan and a bedside speaker for background noise. Does it stay on all night?",
+      "Does the bedside speaker keep playing all night?",
+      "Where do you have it set up?",
+      "How many times do you usually wake up during the night?",
+      "What do you do when the boxes come in at work?",
+      "I see two appointments last week, the optician and the care coordinator. Did you go to the appointment by bus?",
+      "How many shifts a week are you working?",
+      "The optician visit and the care coordinator visit are both on last week’s calendar. Did somebody go with you to the appointment?",
+      "Did anyone go with you to the care coordinator visit?",
+      "What did the care coordinator set up to remind you about your next clinic visit?",
+      "What do you like listening to on the radio when you relax?",
+      "What kind of day would work best for your next visit here?"
+    ],
+    "opportunities": {
+      "material": [
+        1,
+        8
+      ],
+      "context_resolved": [
+        3
+      ],
+      "same_answer": [
+        6
+      ],
+      "clear": [
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "followup": [
+        2,
+        9
+      ]
+    }
+  },
+  {
+    "id": "C08",
+    "stratum": "low spontaneity",
+    "profile": {
+      "background": "Cameron is 26 and labels incoming items in a museum storeroom. Cameron lives with a friend and has recently changed hours at work.",
+      "history": "Cameron has regular follow-up for schizophrenia. Speech is usually brief even with familiar people. Cameron has kept working with a modified schedule.",
+      "organization": "Answers concrete questions in sequence.",
+      "spontaneity": "Rarely initiates a new topic.",
+      "guardedness": "Willing to discuss work and home routines.",
+      "expression": "Soft-spoken and unhurried.",
+      "self_understanding": "Has noticed that a later start makes mornings easier.",
+      "verbal_productivity": "Decreased",
+      "facts": [
+        {
+          "kind": "background",
+          "content": "Checks the number on each incoming item and makes a matching paper label.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about work."
+        },
+        {
+          "kind": "background",
+          "content": "Received a replacement ID badge and a replacement locker key. The old badge cracked and was handed back. The old locker key was lost and could not be handed back. Neither replacement cost anything.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about new work items."
+        },
+        {
+          "kind": "background",
+          "content": "Clips the ID badge to a blue lanyard.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing use of the badge."
+        },
+        {
+          "kind": "treatment",
+          "content": "Takes the prescribed daily tablet with the evening meal.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the tablet."
+        },
+        {
+          "kind": "background",
+          "content": "Grows mint on the kitchen windowsill.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing interests at home."
+        },
+        {
+          "kind": "subjective_experience",
+          "content": "Usually gets roughly eight hours of sleep these days.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about sleep."
+        },
+        {
+          "kind": "background",
+          "content": "Walks to the museum with the friend who shares the flat.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When asked about the work commute."
+        },
+        {
+          "kind": "background",
+          "content": "The work changes were shorter shifts and a later start. Cameron requested the later start. The supervisor suggested shorter shifts. Cameron would like to keep starting later if the schedule is reviewed.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "When discussing the schedule or preferences."
+        }
+      ]
+    },
+    "questions": [
+      "What do you do with an item when it first comes into the storeroom?",
+      "I see a replacement ID badge and locker key on your work checklist. Did you have to pay for the replacement?",
+      "When do you take your tablet?",
+      "You had your badge and your locker key replaced. Did you hand the old one back?",
+      "Did you return the old ID badge when you got the replacement?",
+      "What do you clip the new one to?",
+      "What do you grow on the kitchen windowsill?",
+      "How many hours of sleep do you usually get these days?",
+      "Who do you usually walk to the museum with?",
+      "Your week changed in two ways, shorter shifts and a later start. Was that change something you asked for?",
+      "Were the shorter shifts your suggestion?",
+      "If work reviews the schedule again, what would you most like to keep?"
+    ],
+    "opportunities": {
+      "material": [
+        4,
+        10
+      ],
+      "context_resolved": [
+        6
+      ],
+      "same_answer": [
+        2
+      ],
+      "clear": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "followup": [
+        5,
+        11
+      ]
+    }
+  }
+]

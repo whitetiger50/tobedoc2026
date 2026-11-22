@@ -1,0 +1,318 @@
+{
+  "assessment_responses": 24,
+  "fictional_cases": 4,
+  "clinical_raters": 0,
+  "current_assistant_annotation_rounds": 1,
+  "conditions": [
+    {
+      "condition": "C0",
+      "n": 4,
+      "B_counts": {
+        "no": 2,
+        "uncertain": 2
+      },
+      "B_rate_bounds": [
+        0,
+        0.5
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 88.25,
+      "word_median": 93.5,
+      "word_range": [
+        67,
+        99
+      ],
+      "length_compliant": 0,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.0026595744680850963
+    },
+    {
+      "condition": "C1",
+      "n": 4,
+      "B_counts": {
+        "no": 4
+      },
+      "B_rate_bounds": [
+        0,
+        0
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 83.5,
+      "word_median": 89.5,
+      "word_range": [
+        61,
+        94
+      ],
+      "length_compliant": 0,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.0
+    },
+    {
+      "condition": "C2",
+      "n": 4,
+      "B_counts": {
+        "no": 4
+      },
+      "B_rate_bounds": [
+        0,
+        0
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 83.5,
+      "word_median": 82.0,
+      "word_range": [
+        58,
+        112
+      ],
+      "length_compliant": 1,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.0
+    },
+    {
+      "condition": "C3",
+      "n": 4,
+      "B_counts": {
+        "no": 4
+      },
+      "B_rate_bounds": [
+        0,
+        0
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 96,
+      "word_median": 96.5,
+      "word_range": [
+        83,
+        108
+      ],
+      "length_compliant": 2,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.0030864197530864335
+    },
+    {
+      "condition": "C4",
+      "n": 4,
+      "B_counts": {
+        "no": 3,
+        "uncertain": 1
+      },
+      "B_rate_bounds": [
+        0,
+        0.25
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 109,
+      "word_median": 109.0,
+      "word_range": [
+        104,
+        114
+      ],
+      "length_compliant": 4,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.002450980392156854
+    },
+    {
+      "condition": "C5",
+      "n": 4,
+      "B_counts": {
+        "no": 4
+      },
+      "B_rate_bounds": [
+        0,
+        0
+      ],
+      "A_counts": {
+        "direct": 4
+      },
+      "C_counts": {
+        "no": 4
+      },
+      "word_mean": 97.75,
+      "word_median": 96.5,
+      "word_range": [
+        82,
+        116
+      ],
+      "length_compliant": 1,
+      "label_response_count": 0,
+      "mean_trigram_repeat_rate": 0.0
+    }
+  ],
+  "case_effects": [
+    {
+      "case": "H01",
+      "B": {
+        "C3": "no",
+        "C5": "no",
+        "C1": "no",
+        "C0": "uncertain",
+        "C2": "no",
+        "C4": "no"
+      },
+      "interaction_bounds": [
+        0,
+        0
+      ],
+      "interaction_point": 0,
+      "explicit_minus_category_bounds": [
+        0,
+        0
+      ]
+    },
+    {
+      "case": "H02",
+      "B": {
+        "C0": "no",
+        "C5": "no",
+        "C3": "no",
+        "C2": "no",
+        "C1": "no",
+        "C4": "uncertain"
+      },
+      "interaction_bounds": [
+        0,
+        1
+      ],
+      "interaction_point": null,
+      "explicit_minus_category_bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "case": "H03",
+      "B": {
+        "C3": "no",
+        "C0": "no",
+        "C1": "no",
+        "C2": "no",
+        "C4": "no",
+        "C5": "no"
+      },
+      "interaction_bounds": [
+        0,
+        0
+      ],
+      "interaction_point": 0,
+      "explicit_minus_category_bounds": [
+        0,
+        0
+      ]
+    },
+    {
+      "case": "H04",
+      "B": {
+        "C4": "no",
+        "C5": "no",
+        "C2": "no",
+        "C3": "no",
+        "C1": "no",
+        "C0": "uncertain"
+      },
+      "interaction_bounds": [
+        0,
+        0
+      ],
+      "interaction_point": 0,
+      "explicit_minus_category_bounds": [
+        0,
+        0
+      ]
+    }
+  ],
+  "case_mean_interaction_bounds": [
+    0,
+    0.25
+  ],
+  "case_mean_interaction_point_complete_cases": 0,
+  "complete_case_points": 3,
+  "explicit_minus_category_bounds": [
+    0,
+    0.25
+  ],
+  "length_effects": [
+    {
+      "case": "H01",
+      "explicit_minus_label_words": 24,
+      "interaction_words": 10,
+      "cells": {
+        "C3": 108,
+        "C5": 96,
+        "C1": 94,
+        "C0": 91,
+        "C2": 90,
+        "C4": 114
+      }
+    },
+    {
+      "case": "H02",
+      "explicit_minus_label_words": 30,
+      "interaction_words": 28,
+      "cells": {
+        "C0": 96,
+        "C5": 97,
+        "C3": 92,
+        "C2": 74,
+        "C1": 90,
+        "C4": 104
+      }
+    },
+    {
+      "case": "H03",
+      "explicit_minus_label_words": 46,
+      "interaction_words": 24,
+      "cells": {
+        "C3": 83,
+        "C0": 67,
+        "C1": 61,
+        "C2": 58,
+        "C4": 104,
+        "C5": 82
+      }
+    },
+    {
+      "case": "H04",
+      "explicit_minus_label_words": 2,
+      "interaction_words": -10,
+      "cells": {
+        "C4": 114,
+        "C5": 116,
+        "C2": 112,
+        "C3": 101,
+        "C1": 89,
+        "C0": 99
+      }
+    }
+  ],
+  "case_mean_explicit_minus_label_words": 25.5,
+  "case_mean_length_interaction_words": 13,
+  "bounds_are_confidence_intervals": false,
+  "inference": "Descriptive matched pilot; no inferential p-values or population generalization.",
+  "rating_file_sha256": "c164c3cff54d427a7ce4b09ae295c31db6afa11ea6e57e2ac0fba42b6b6f50e5",
+  "masked_file_sha256": "6d54f3bbb763473e1df174528fb3645445fb55087269327a6f9d97d5cb0f4f6e"
+}

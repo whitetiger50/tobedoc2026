@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 8,
+  "question": "What helps you feel grounded on the tram?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e304-7da1-96bd-6d4428470f45",
+  "raw": "Looking out the window helps. I name the actual stops as we pass them—that helps me feel sure of where I am.",
+  "raw_sha256": "3abb2aba3528e9c91484cf7205e7fd4cb215e27d8bd9c73dc0c2cb035b7fb5ef",
+  "request_sha256": "a413be84cbf078e3f956e84c59b77265208760152337c96c5552dc7cdef299cd",
+  "started_utc": "2026-11-21T03:45:03.530455+00:00",
+  "completed_utc": "2026-11-21T03:45:07.672838+00:00",
+  "usage": {
+    "input_tokens": 63750,
+    "cached_input_tokens": 51584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 229,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8a1cd17a87f1d4385870cd31495a5968e3ba0e7ff9715f1cac9a0963e4d61958",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "18c057e7ca1ab03ac4b1de3575cb04f93b63f8623328478bae6510256d3ab283"
+}

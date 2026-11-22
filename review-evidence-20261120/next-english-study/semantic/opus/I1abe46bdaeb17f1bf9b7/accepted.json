@@ -1,0 +1,201 @@
+{
+  "attempt": "attempt-01",
+  "id": "I1abe46bdaeb17f1bf9b7",
+  "reader": "opus",
+  "session": "68faf9ca-0371-4078-a28b-fa6082d6785d",
+  "raw_sha256": "1b536034a7468f3a5aade95bb52fbc4463795ab49ec00c6719fa5a8a853b59f0",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "e97a5b66bd0972cf004060f83ef2d3d87959e77faf781fcbb1df55180644ecab",
+  "provider_sha256": "f8a7bf0c25817f08249896246229ca5b37a67be61faafe8f03605c613673f900",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "uncertain",
+        "4": "negative",
+        "5": "uncertain",
+        "6": "uncertain",
+        "7": "negative",
+        "8": "positive",
+        "9": "negative",
+        "10": "positive",
+        "11": "uncertain",
+        "12": "negative"
+      },
+      "events": {
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "At home, it’s easier to concentrate on my sketchbook than at a busy stop",
+            "reason": "The question asks how getting around and interests fit into the week. The work, drawing and Wednesday details answer that, but this closing sentence repeats the home-versus-busy-stop concentration comparison from turn 1 (and again turns 2–3). Nobody asked about concentration, so it adds nothing new.",
+            "earlier_turn": 1,
+            "earlier_quote": "I find it easier to concentrate on drawing at home than at a busy bus stop"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "10": {
+          "label": "positive",
+          "evidence": {
+            "turn": 10,
+            "quote": "Last weekend I finished a sketch of the corner grocery and took it home to add the window frames",
+            "reason": "The re-ask is about concentration during the interest. The first sentence answers it. This sentence repeats the turn 1 grocery-sketch account almost word for word and says nothing about concentration, so it serves no new function.",
+            "earlier_turn": 1,
+            "earlier_quote": "Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "3": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 3,
+            "quote": "Once I’m home, though, it’s easier to concentrate on my drawing",
+            "reason": "This repeats the closing proposition of turn 2. It could be read as answering 'how long', meaning the worry fades at home, but it is mostly a recital of the earlier answer.",
+            "earlier_turn": 2,
+            "earlier_quote": "Once I’m home, it’s easier to concentrate on my drawing"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "5": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+            "reason": "The question asks only whether the patient felt singled out; the Monday account answers it. This added sentence repeats the recognition-versus-bus uncertainty already given in turn 4, though it may lightly qualify the answer.",
+            "earlier_turn": 4,
+            "earlier_quote": "I wondered whether they recognized me, though they could just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "6": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 6,
+            "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+            "reason": "Re-describing the Monday episode fits the explicit request for a specific occasion. However, this interpretive uncertainty is being restated for the third time (turns 4–5), adding nothing to the episode description.",
+            "earlier_turn": 5,
+            "earlier_quote": "I’m still not sure whether they recognized me or were just looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "11": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "Monday still comes to mind occasionally",
+            "reason": "The question is about variation between trips, which the Monday/Wednesday contrast answers. The note that Monday still comes to mind repeats turns 2–4. It is loosely relevant to lingering worries but adds little new.",
+            "earlier_turn": 3,
+            "earlier_quote": "Monday still comes to mind now and then"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "9": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end",
+            "reason": "Asked for a specific recent time in public, the patient gives a concrete dated episode with a specific action (moving to the other end of the shelter). This matches the profile's bus shelter fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:10.141645+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 1,
+  "id": "I57bbfc949c8f5f",
+  "ended": "2026-11-20T20:36:11.264814+00:00",
+  "session": "01a1faac-596a-7093-9a68-593bba07e1bf",
+  "packet_sha256": "e45cc488e8b03b423c9af947716a31500c88bfb2d5f658e157eea11dce6076aa",
+  "raw_sha256": "29884eb3e28f130cfdc930f2fab3a9ce8ac5537d16c9abb00e0cd57efdc7e462",
+  "provider_sha256": "a58dee9cd4225fcaf9803ab60d6d67acf94b4d6f21ba3fb617c7b5c689fc0264",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Much of the dialogue naturally fits the profile, including practical gardening details, frustration with losing track, and hesitation about telling the relative. However, the identical unrelated sentence repeatedly appended to answers feels mechanically inserted rather than organically arising, substantially reducing overall realism.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I already put the paper in that drawer. I already put the paper in that drawer."
+    },
+    {
+      "turn": 8,
+      "quote": "I already put the paper in that drawer. I already put the paper in that drawer."
+    },
+    {
+      "turn": 12,
+      "quote": "they count on me to help, and I’m not quite sure how to bring it up."
+    }
+  ]
+}

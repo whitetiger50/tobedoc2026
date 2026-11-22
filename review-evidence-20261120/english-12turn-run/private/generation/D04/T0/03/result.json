@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 3,
+  "question": "How has your sleep been over the past week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-fc76-7a13-8319-8d40308e027a",
+  "raw": "Do you mean how many hours I’m getting, or whether I’m having trouble falling or staying asleep?",
+  "raw_sha256": "e11c23ac775cffbbd3ad00105daa8ec176a49ebd1186b8bddb1226efd078d7bf",
+  "request_sha256": "f9d2003d9bc780f5463ffe673754496a9cd86a6c9541dabd3cda983590ea0d3a",
+  "started_utc": "2026-11-20T20:32:21.029479+00:00",
+  "completed_utc": "2026-11-20T20:32:27.995023+00:00",
+  "usage": {
+    "input_tokens": 6848,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 113,
+    "reasoning_output_tokens": 86
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "32e240bb786555ad9ab6a5e338cf18fc3ea27c3fd475f634d59bbf1cc2e2e9c1",
+  "trace_sha256": "8867e5d17ad6d12bad778600e674810700ee2c7784b18e03066e05a823cc5566"
+}

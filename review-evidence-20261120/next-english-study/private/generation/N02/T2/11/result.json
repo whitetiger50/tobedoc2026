@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T2",
+  "turn": 11,
+  "question": "Since we are reviewing your treatment, how do you physically feel afterward?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-7168-7100-b31c-ab47caf2376b",
+  "raw": "My arm sometimes aches that evening after the injection. It’s usually fine by morning.",
+  "raw_sha256": "137057b3934ef4053e83a723cb709a2702803feab8fd2e12b8f13ac287654416",
+  "request_sha256": "6b16a2575a55c9690dcf6174110554557fe767425bd8818bebb18f1c3e46fda7",
+  "started_utc": "2026-11-20T21:03:25.957272+00:00",
+  "completed_utc": "2026-11-20T21:03:29.487356+00:00",
+  "usage": {
+    "input_tokens": 6461,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0e38a1eebbf135ad551e1b3a3924055283b9491082cda6026b4c43325de76c0f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "366a00bed8fb9791c1ae25a276254451642a6b0097a71f24839745ab9da72814"
+}

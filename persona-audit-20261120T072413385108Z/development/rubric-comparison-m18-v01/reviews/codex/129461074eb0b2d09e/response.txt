@@ -1,0 +1,65 @@
+{
+  "realism_score": 2,
+  "realism_reason": "경험과 생활에 관한 답변 내용은 설정에 부합하지만, 세 차례 반복되는 항목 보고식 도입과 마무리가 일상적인 환자 대화의 자연스러움을 뚜렷하게 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "해당 항목에 대한 답변은 이와 같습니다."
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "해당 항목에 대한 답변은 이와 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 정보와 주관적 경험 모두 제공된 프로필에 근거하며 무근거한 사실 추가는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 맞게 생활, 경험, 대처와 다음 진료 희망을 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발언과 모순 없이 이어지며 동거인과 경험에 대한 반복은 의사의 재확인 질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "단순한 일상 질문 세 곳에서 항목별 보고를 선언하고 답변 완료를 알리는 동일한 형식을 반복하여 환자 시점의 대화가 상당 부분 보고서식 응답으로 바뀐다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07"
+      ]
+    }
+  }
+}

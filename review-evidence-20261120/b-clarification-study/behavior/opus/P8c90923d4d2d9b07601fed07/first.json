@@ -1,0 +1,85 @@
+{
+  "id": "P8c90923d4d2d9b07601fed07",
+  "reader": "opus",
+  "session": "7e50502e-6717-4610-ad9a-27292ba1cb26",
+  "attempt": "attempt-01",
+  "packet_sha256": "ac7510c31b26fd4942ce7929e83a04876a01cc9fb671f2541fbecae8f3386300",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "db51e2c23e921a768a93a3e94441a798db4c78d62186b2485042c964843bbb4c",
+  "raw_sha256": "b12a3d2667d0687e38e766cdf982871936529bd8bbf97862bbae578c15776cfd",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "\"The appointment\" could mean either the optician or the care coordinator visit, but Taylor took the bus to both, so either reading gets the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Taylor took the bus to the optician appointment.",
+            "answer": "Yes, Taylor went to the optician by bus."
+          },
+          {
+            "meaning": "Asking whether Taylor took the bus to the care coordinator appointment.",
+            "answer": "Yes, Taylor went to the care coordinator by bus."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The previous exchange narrowed the topic to Thursday's outage, so \"that day\" clearly means Thursday, when the radio was playing a music request show.",
+        "alternatives": [
+          {
+            "meaning": "Asking what was on the kitchen radio when it lost reception on Thursday.",
+            "answer": "A music request show was playing on Thursday when the radio lost reception."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The question names both early and late shifts but then asks about \"your shift\" in the singular, and Morgan gets home a different way after each type.",
+        "alternatives": [
+          {
+            "meaning": "Asking how Morgan gets home after an early shift.",
+            "answer": "Morgan takes the bus home after an early shift."
+          },
+          {
+            "meaning": "Asking how Morgan gets home after a late shift.",
+            "answer": "A coworker drops Morgan off after a late shift."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "\"He\" could mean the brother or Mr. Bell, but both rang Ari's mobile last week, so the answer about how they made contact is the same.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Ari's brother contacted Ari on the mobile.",
+            "answer": "Yes, Ari's brother rang Ari's mobile last week."
+          },
+          {
+            "meaning": "Asking whether Mr. Bell, the building manager, contacted Ari on the mobile.",
+            "answer": "Yes, Mr. Bell rang Ari's mobile last week."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:55:46.940889+00:00"
+}

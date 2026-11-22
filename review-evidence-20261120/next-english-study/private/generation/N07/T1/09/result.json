@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 9,
+  "question": "I was asking about class itself. What has it been like to concentrate during the last few classes?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-a539-7ad2-9ac3-08ef8ac9f89d",
+  "raw": "“I still find it hard to keep the thread when several things are competing for my attention. But it hasn’t been voices interrupting me in the last few classes. It’s more keeping hold of what I’m trying to follow.”",
+  "raw_sha256": "734b3157557f5501744fb644ac774d646d32601c23a5647131d049dc25985040",
+  "request_sha256": "084485d9447719fe8cd2f6eb8dc5520246ef92aa2252cefcb3a3308f60840e48",
+  "started_utc": "2026-11-20T21:02:33.672096+00:00",
+  "completed_utc": "2026-11-20T21:02:40.509966+00:00",
+  "usage": {
+    "input_tokens": 7624,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 149,
+    "reasoning_output_tokens": 97
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9be38846ab087db4f49e6b7ab62f26c21887cf295cbe40d0a85c942e5dd51a5d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4e37b238fc3c4a339bd23bf2388689308dbf7b1987bdba67be40fcf10de29566"
+}

@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I71e5b825a367ad960f1c",
+  "ended": "2026-11-20T21:05:04.014512+00:00",
+  "session": "45ca744d-7849-43eb-b975-1543de231bd7",
+  "packet_sha256": "de84f103b19c70c5c5f848bd99db01dc9b96c18e6e12434088789e6fe8260a0d",
+  "raw_sha256": "882abfe90253d5646ceb4abb4007206c59225314283d1559673da255906d9a95",
+  "provider_sha256": "94c236349a3537bc6e985ced948de6f97917635e0c543788e641b858fd916e9f",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The brevity, flat tone and willingness to wait for questions fit the decreased-productivity, low-key persona. The answers stay accurate about recent shifts, the patient switches topics easily, and the clarifying question in turn 8 sounds natural. Several things undercut realism, though. Many answers read like near-verbatim restatements of profile facts rather than spontaneous speech. The 'shoes on for nearly half an hour' phrasing repeats almost word for word across three turns, and the turn 5 answer is wrapped in quotation marks, a clear generation artifact. Most notably, the profile says the patient keeps the past feeling of being talked about private. Yet in turn 10 the patient volunteers it in reply to a general question about passengers, and in turn 11 discloses the episode readily with no hesitation or guardedness. Enjoyment of maps is also only faintly expressed. Overall the dialogue is moderately authentic but has noticeable unrealistic elements.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "“Nearly half an hour, sitting with my shoes on before I leave.”"
+    },
+    {
+      "turn": 4,
+      "quote": "I still sit with my shoes on for nearly half an hour before leaving."
+    },
+    {
+      "turn": 10,
+      "quote": "I don’t feel like they’re talking about me these days."
+    },
+    {
+      "turn": 11,
+      "quote": "Two years ago it seemed people were talking about me."
+    },
+    {
+      "turn": 8,
+      "quote": "Do you mean taking the tablet or the nurse’s call?"
+    }
+  ]
+}

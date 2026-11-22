@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 5,
+  "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-e2ee-73f2-a786-8767d5f65d43",
+  "raw": "“One evening last week, I was sorting my sewing supplies and heard ‘too slow.’ I wondered if it was a neighbor through the wall, but I couldn’t tell—that’s a possibility, not something I’m sure of. I turned on the radio, which made it less distracting, and finished sorting the thread.”",
+  "raw_sha256": "19836235fa5e1c912315ffbe7a112987e93b443649193733d117b6750b7b3c7d",
+  "request_sha256": "3ef4ffb9d6ab92b2b92305db653560d71f3ef5bac61bd55166cc4c09a242c58c",
+  "started_utc": "2026-11-20T21:00:38.407072+00:00",
+  "completed_utc": "2026-11-20T21:00:43.834302+00:00",
+  "usage": {
+    "input_tokens": 7266,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2d43229c4219f1f6aa63918221364f4869d65c08e0af419f4f241c64b1ba8fb0",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0f63dc6377e857fe44e14a367d5d0bd6fd4a2aa0ca447256319d42e7203518e6"
+}

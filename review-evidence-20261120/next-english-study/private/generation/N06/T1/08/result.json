@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T1",
+  "turn": 8,
+  "question": "Does that interfere with what you are doing?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-34d2-7733-b2c4-244ca688a8c3",
+  "raw": "It’s noticeable, but I manage it by keeping my water bottle handy during the shift.",
+  "raw_sha256": "763825f3293e55c4b2b56d375968e57eedd4a091cbced6ad2e431ec77f162672",
+  "request_sha256": "9e70691d958130ada62c66ac293600b46fbd4ec4bcc5468813613a993000d95f",
+  "started_utc": "2026-11-20T21:02:04.917648+00:00",
+  "completed_utc": "2026-11-20T21:02:12.032346+00:00",
+  "usage": {
+    "input_tokens": 7473,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132,
+    "reasoning_output_tokens": 108
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "883e139d3e6c51978f2a68ca2f8d912a7ac54365eaaebd9814aee3e5bdbebd4d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4df8b464e6df2b3a0cc626bcc31ae2dc226116c97bcee73a0c642c16254fb344"
+}

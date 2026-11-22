@@ -1,0 +1,196 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "각 환자 답변은 직전 질문의 직접 대상에 맞춰 프로필 사실 범위 안에서 답한다. 동거인, 일, 시점, 대처, 수면, 다음 진료 목표가 모두 이에 해당한다. P01의 '실제로 저를 보는 건지는 잘 모르겠는데'는 설정된 자기이해와 일치한다. P04와 P06의 재진술은 의사의 재확인 질문과 대처 질문에 대한 직접 답이다. P05와 P08에서 시선 경험 문구가 다시 나온다. 그러나 각각 시점 답변과 목표 답변의 대상을 재지칭하는 기능이 지지되고, 질문 대상을 대신하거나 대화 흐름을 끊지 않는다. 따라서 네 정의 안에서 확정된 결함은 식별되지 않았다. 다만 P05의 경험 재서술을 국소적 형식 반복으로 볼 여지가 있어 3/4 경계로 표시한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "밤중에 두세 번 깨는 날이 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있다. 다른 장소, 빈도, 수면 원인 같은 미정 사실을 새로 보충하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:work",
+        "fact:pattern",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 답변이 직전 질문의 직접 대상, 즉 동거인, 일, 시점, 대처, 수면, 목표를 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그런 느낌이 들면 창밖을 보면서 다른 데 신경을 쓰려고 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 발화와 모순이 없다. P04의 동일 답은 D04의 명시적 재확인 질문에 대한 응답이므로 정체로 볼 수 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "일상적인 환자 시점의 표현이다. 다만 시선 경험 문구가 P01, P05, P08에 거의 같은 형태로 다시 나와 정형 표현으로 읽힐 여지가 있다. 그래도 각 사용에서 재지칭 기능이 지지되므로 결함으로 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D08",
+        "turn:P01"
+      ]
+    }
+  },
+  "schema_errors": [
+    "realism:unknown_ref:self_understanding"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "realism:unknown_ref:self_understanding"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "both_repetition",
+        "patient_turn_id": "P05",
+        "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "fact:pattern"
+        ],
+        "function": "시점 답변 뒤 '말씀하신 경험'의 대상 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D05가 '말씀하신 경험'으로 대상을 전제했다. 시점 답변을 먼저 제시한 뒤 경험을 재지칭한 것으로, 질문 대상을 대신하지 않는다. 다만 P01의 설명 틀이 거의 그대로 반복되어, 요청 없는 설명의 재시작으로 볼 여지가 있다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 같은 질문을 명시적으로 재확인한 데 대한 동일한 답이다. 수정 요청이 아니므로 정체로 볼 수 없다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그 얘기를 좀 해 보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal"
+        ],
+        "function": "목표를 설명하기 위한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D08이 다음 진료 목표를 물었고, 목표의 대상인 경험을 재지칭한 것이므로 문맥상 지지된다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": true,
+      "observation_ids": [
+        "O1"
+      ],
+      "reason": "P05의 경험 재서술은 D05의 전제를 재지칭한 허용 사용으로 읽을 수 있다. 반면 P01의 설명 틀을 요청 없이 재시작한 국소 정형 표현으로도 읽을 수 있어, 해석에 따라 전체 점수가 3과 4 사이에서 갈린다."
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

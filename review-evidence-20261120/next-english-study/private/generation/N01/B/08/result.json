@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 8,
+  "question": "How is the timing working out?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7a43-b0bd-945ecb63c8a8",
+  "raw": "Pretty well. Taking the tablet with supper fits my routine, and swapping opening days last week meant I could get to the appointment without a scramble.",
+  "raw_sha256": "ed67e4cbb0a86e605d47dadc7186d6826c7729c9733aabe9932ab71e3dec3522",
+  "request_sha256": "44ed6941f8024cc9a487e592cdee6cf0888c2c369f8a8ff8ccbcea32a8b16bcd",
+  "started_utc": "2026-11-20T21:01:51.934866+00:00",
+  "completed_utc": "2026-11-20T21:01:56.786515+00:00",
+  "usage": {
+    "input_tokens": 64277,
+    "cached_input_tokens": 54656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 353,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "50603e9a76d377f67148c66d1a3492e051cc877719827ad785904eabe7bd1f3a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "34f1b130f99bf803780c60184b6c88ea37d2a5ff7e5b5b91152d74b8b7c16cdc"
+}

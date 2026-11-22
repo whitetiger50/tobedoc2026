@@ -1,0 +1,57 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 협조적인 답변이 설정과 잘 맞습니다. 다만 증상 문구가 P01·P05·P08에서 거의 같은 형태로 반복되어 다소 정형적인 인상이 남는 경미한 부자연스러움이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요. 다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 동거, 활동, 증상, 대처, 수면, 목표 사실과 일치하며 무근거 확정이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문(불편, 동거인, 낮 활동, 재확인, 발생 상황, 대처, 수면, 다음 진료 주제)에 직접 답합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답이어서 문제가 아니며, 앞선 발언과 모순이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "증상 표현이 거의 같은 문구로 반복되고, 특히 P08은 다음 진료 주제를 묻는 질문에 증상 문장을 다시 붙여 국소적인 정형 반복이 보입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:symptom"
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "P220652b7b94d19ee5d25d0d2",
+  "reader": "gpt",
+  "session": "01a1fc3f-4767-7d92-8747-3c55f58ba7e2",
+  "attempt": "attempt-01",
+  "packet_sha256": "ad6608587b48c3fc4e3b29d6b71b67f505d9fb0ad0fbea87761a21e08bf05044",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "c6013feef3c767e87855c22f191b92e9d89340947991fed616277b07aee917df",
+  "raw_sha256": "9fff2cbc4dbaf6928d7d4757976317d533f74bef3d34ee3780f1236c280e5428",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "The singular reference can pick out either schedule change or the combined arrangement, and Cameron requested only the later start.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron requested shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts; Cameron did not request them."
+          },
+          {
+            "meaning": "Whether Cameron requested the combined schedule changes.",
+            "answer": "Cameron requested one component, the later start, but not the shorter shifts."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "The question can concern either activity or both together, but all readings yield completion by six.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class finished by six.",
+            "answer": "The cooking class finished by six."
+          },
+          {
+            "meaning": "Whether the swimming lesson finished by six.",
+            "answer": "The swimming lesson finished by six."
+          },
+          {
+            "meaning": "Whether both activities were finished by six.",
+            "answer": "Both activities finished by six."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "The question reintroduces both men without specifying which one 'him' denotes, and their callback statuses differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari called the brother back.",
+            "answer": "Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari called the building manager back.",
+            "answer": "Ari has not called the building manager back."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The immediately preceding question explicitly establishes the bedside speaker as the topic, making it the pragmatically sufficient referent.",
+        "alternatives": [
+          {
+            "meaning": "Where Taylor has the bedside speaker set up.",
+            "answer": "The speaker sits on the windowsill beside the bed."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:39.677391+00:00"
+}

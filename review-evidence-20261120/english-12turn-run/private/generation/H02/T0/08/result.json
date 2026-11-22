@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T0",
+  "turn": 8,
+  "question": "What do you think makes it easier or harder to get back to something after a break?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-854c-7332-9e7f-2a78d81b39f1",
+  "raw": "“The bookmark helps because I can see where I left off. It’s harder when the room is busy—finding the right pile isn’t quite the same as getting back into what I was doing. And I appreciate someone pointing me back without making a fuss.”",
+  "raw_sha256": "b6e9414e0b09b19ba6bd009d6bae16a787b96f1d4206dd29b036e6ebb7f4ce21",
+  "request_sha256": "1287be4af83e4b22772b52e7430a8868fcb35678f9382d0ed91542c25cb3ab8b",
+  "started_utc": "2026-11-20T20:41:40.338008+00:00",
+  "completed_utc": "2026-11-20T20:41:45.116966+00:00",
+  "usage": {
+    "input_tokens": 7316,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "cc90f149eb21b239493505b5cd97b76bcd6460f15ff898ec25322edbb803fe8c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d823453d2211cac0fbce91cbf8b5d8263aa35e8fdd3899a3fe901aaa936300c3"
+}

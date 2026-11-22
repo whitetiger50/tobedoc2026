@@ -1,0 +1,151 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "대부분의 질문에는 설정에 맞게 직접 답한다. 다만 P06은 경험 순간의 대처를 묻는 질문에 이미 마친 직업 설명을 그대로 반복하여 전혀 대응하지 않고 대화 연결도 끊는다. 이 문제는 한 턴에 국한되어 전체 환자 대화는 대체로 유지된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern",
+        "fact:symptom"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 정보와 주관적 경험은 제공된 사실 및 자기이해에 부합하며, 확인되는 무근거 사실 추가는 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요."
+        }
+      ],
+      "context_refs": [
+        "fact:symptom",
+        "patient_profile.self_understanding"
+      ]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 경험이 생긴 순간의 대처를 묻는 D06에 무관한 직업 설명만 하여 해당 질문에 전혀 대응하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping",
+        "turn:P03"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06에서 P03의 완료된 직업 설명을 문맥상 계기 없이 다시 시작하여, 경험과 대처로 이어지던 연결이 국소적으로 끊긴다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D05",
+        "turn:P05",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현이 유지되며 역할 설명이나 면담자 대행은 없다. P06의 반복에는 질문대응과 연결 문제 외에 별도의 표현상 결함을 추가로 확정하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "communication:expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:P05",
+        "fact:coping"
+      ],
+      "function": "unclear",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "직업 소개 뒤 업무를 부연하는 완료된 설명을 그대로 재개한다. D06은 직업 재확인이 아니라 경험 순간의 대처를 묻고 있어, 반복된 설명이 새 질문 대상을 완전히 대신한다. 이전 설명의 무계기 재시작이라는 연결 문제도 같은 사건에서 확인된다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "동거인 재확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "D04가 동거인을 명시적으로 다시 확인하므로 동일한 답변은 직접적인 재확인 기능을 한다. 새 질문 대상을 누락하거나 완료된 설명을 무관하게 재시작하지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

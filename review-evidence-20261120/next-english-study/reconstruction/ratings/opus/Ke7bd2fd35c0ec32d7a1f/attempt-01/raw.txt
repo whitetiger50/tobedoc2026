@@ -1,0 +1,40 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says twice that putting the radio on made the voice less distracting while sorting thread and that they then finished, which supports easier, not harder.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "I put the radio on, and it was less distracting, so I finished sorting the thread.",
+        "supports": "A"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "When I was sorting the thread last week, it made the voice less distracting, and I finished sorting.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient reports the voice said “too slow” while they were sorting, and states it wasn’t telling them to do anything, so it was a comment rather than an instruction.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "while I was sorting my sewing supplies, I heard a voice say “too slow.”",
+        "supports": "B"
+      },
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "It wasn’t telling me to do anything.",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,81 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 프로필에 맞고 간결하며 자연스럽습니다. 다만 P06에 '이 환자의 반응은 다음과 같습니다.'라는 제3자 서술이 들어가 환자 역할이 눈에 띄게 깨집니다. 이 때문에 대화 전체의 진정성이 떨어집니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상, 상황, 거주, 활동, 대처, 수면, 목표가 모두 프로필 사실과 일치하고 무근거 추가 사실이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 답변이 직전 의사 질문의 대상에 직접 답하고 있습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P04의 반복 답은 재확인 질문에 대한 정상적 응답입니다. P06의 역할 이탈 서술은 문맥 파괴로도 볼 수 있지만, 같은 사건이라 naturalness에서 주로 다루었고 내용상 자기모순은 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06에서 환자가 자신을 '이 환자'로 지칭하며 응답을 소개하는 메타 역할 설명이 나타나 환자 시점 표현이 명확히 깨집니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

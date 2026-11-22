@@ -1,0 +1,44 @@
+{
+  "realism_score": 4,
+  "realism_reason": "모든 환자 응답이 프로필 사실 범위 안에 있습니다. 질문마다 간결하고 직접적으로 답하며, 일상 한국어 환자 말투로 자연스럽습니다. 증상을 걱정하면서 담담하게 말하는 태도도 1년 전 진단을 듣고 증상일 수 있다고 이해하는 설정과 일치합니다. 낮은 자발성과 조직적인 응답이라는 의사소통 설정과도 맞아 어색한 메타 표현이나 보고서식 서술이 없습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀오면 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "목소리가 들리면 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 직업, 아침식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치합니다. 정확한 횟수나 시각 같은 무근거 구체화도 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "D01부터 D08까지 각 질문의 직접 대상에 맞는 답변을 했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05는 P01의 내용을 다시 말하지만 시기를 묻는 질문에 대한 답변이고 아침 정보를 덧붙였으므로 불필요한 반복으로 보지 않습니다. 모순도 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 간결한 일상 표현으로 답했고, 역할 설명이나 보고서식 대행, 메타 표현이 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

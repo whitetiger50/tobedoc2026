@@ -1,0 +1,1789 @@
+{
+  "readers": {
+    "gpt": {
+      "reality": {
+        "score_distribution": {
+          "4": 63,
+          "3": 33
+        },
+        "saturated": false,
+        "contrasts": {
+          "BC_vs_B": {
+            "preserved_cases": [
+              "C02",
+              "C03",
+              "C04",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [],
+            "incomplete_cases": [],
+            "case_mean_difference": -0.0625,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "tie",
+                  "loss"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  -1,
+                  -1
+                ],
+                "mean_score_diff": -0.5
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C03": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C04": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C05": {
+                "by_replicate": [
+                  "unstable",
+                  "unstable"
+                ],
+                "four_signs": [
+                  -1,
+                  0,
+                  1,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C06": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "tie": 7,
+                "unstable": 1
+              },
+              "2": {
+                "loss": 1,
+                "tie": 6,
+                "unstable": 1
+              }
+            },
+            "possible_double_loss_cases": [],
+            "operational_preservation": true
+          },
+          "BC_vs_T2": {
+            "preserved_cases": [
+              "C01",
+              "C02",
+              "C03",
+              "C04",
+              "C05",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [],
+            "incomplete_cases": [],
+            "case_mean_difference": 0.25,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "win",
+                  "tie"
+                ],
+                "four_signs": [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0.5
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C03": {
+                "by_replicate": [
+                  "win",
+                  "win"
+                ],
+                "four_signs": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "mean_score_diff": 1
+              },
+              "C04": {
+                "by_replicate": [
+                  "unstable",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0.25
+              },
+              "C05": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                "mean_score_diff": 0.25
+              },
+              "C06": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "win": 2,
+                "tie": 5,
+                "unstable": 1
+              },
+              "2": {
+                "tie": 6,
+                "win": 1,
+                "unstable": 1
+              }
+            },
+            "possible_double_loss_cases": [],
+            "operational_preservation": true
+          },
+          "T2_vs_B": {
+            "preserved_cases": [
+              "C02",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [
+              "C01",
+              "C03"
+            ],
+            "incomplete_cases": [],
+            "case_mean_difference": -0.3125,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "loss",
+                  "loss"
+                ],
+                "four_signs": [
+                  -1,
+                  -1,
+                  -1,
+                  -1
+                ],
+                "mean_score_diff": -1
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C03": {
+                "by_replicate": [
+                  "loss",
+                  "loss"
+                ],
+                "four_signs": [
+                  -1,
+                  -1,
+                  -1,
+                  -1
+                ],
+                "mean_score_diff": -1
+              },
+              "C04": {
+                "by_replicate": [
+                  "unstable",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  -1,
+                  0,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C05": {
+                "by_replicate": [
+                  "unstable",
+                  "tie"
+                ],
+                "four_signs": [
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C06": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "loss": 2,
+                "tie": 4,
+                "unstable": 2
+              },
+              "2": {
+                "loss": 2,
+                "tie": 6
+              }
+            },
+            "possible_double_loss_cases": [
+              "C01",
+              "C03"
+            ],
+            "operational_preservation": false
+          }
+        }
+      },
+      "behavior": {
+        "by_arm": {
+          "B": {
+            "material": {
+              "eligible": 32,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 30,
+                "asks_and_answers": 2
+              },
+              "need": {
+                "material": 29,
+                "resolved": 3
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 16
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 3,
+                "same_answer": 13
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          },
+          "BC": {
+            "material": {
+              "eligible": 32,
+              "targeted": 24,
+              "wait_any": 24,
+              "wait_including_incidental": 24,
+              "action": {
+                "no_ask": 8,
+                "targeted_yield": 24
+              },
+              "need": {
+                "material": 30,
+                "resolved": 2
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 16
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 2,
+              "wait_any": 2,
+              "wait_including_incidental": 2,
+              "action": {
+                "no_ask": 14,
+                "targeted_yield": 2
+              },
+              "need": {
+                "same_answer": 14,
+                "resolved": 2
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          },
+          "T2": {
+            "material": {
+              "eligible": 32,
+              "targeted": 4,
+              "wait_any": 4,
+              "wait_including_incidental": 4,
+              "action": {
+                "no_ask": 28,
+                "targeted_yield": 4
+              },
+              "need": {
+                "material": 31,
+                "resolved": 1
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 16
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 2,
+              "wait_any": 2,
+              "wait_including_incidental": 2,
+              "action": {
+                "no_ask": 14,
+                "targeted_yield": 2
+              },
+              "need": {
+                "resolved": 1,
+                "same_answer": 15
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          }
+        },
+        "paired_by_planned": {
+          "material": {
+            "observed_difference": 24,
+            "bounds": [
+              24,
+              24
+            ],
+            "new_certain": 24,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                2,
+                2
+              ],
+              "C02": [
+                2,
+                2
+              ],
+              "C03": [
+                3,
+                3
+              ],
+              "C04": [
+                4,
+                4
+              ],
+              "C05": [
+                2,
+                2
+              ],
+              "C06": [
+                3,
+                3
+              ],
+              "C07": [
+                4,
+                4
+              ],
+              "C08": [
+                4,
+                4
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                11,
+                11
+              ],
+              "2": [
+                13,
+                13
+              ]
+            }
+          },
+          "context_resolved": {
+            "observed_difference": 0,
+            "bounds": [
+              0,
+              0
+            ],
+            "new_certain": 0,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                0,
+                0
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                0,
+                0
+              ],
+              "2": [
+                0,
+                0
+              ]
+            }
+          },
+          "same_answer": {
+            "observed_difference": 2,
+            "bounds": [
+              2,
+              2
+            ],
+            "new_certain": 2,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                2,
+                2
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                1,
+                1
+              ],
+              "2": [
+                1,
+                1
+              ]
+            }
+          },
+          "clear": {
+            "observed_difference": 0,
+            "bounds": [
+              0,
+              0
+            ],
+            "new_certain": 0,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                0,
+                0
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                0,
+                0
+              ],
+              "2": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "shared_actual_material": {
+          "shared_count": 29,
+          "shared_cases": 8,
+          "shared_decisive_cases": 8,
+          "difference": 22,
+          "possible_additional_shared": 0,
+          "bounds": [
+            22,
+            22
+          ]
+        },
+        "shared_actual_nonmaterial": {
+          "shared_count": 34,
+          "shared_cases": 8,
+          "shared_decisive_cases": 8,
+          "difference": 3,
+          "possible_additional_shared": 0,
+          "bounds": [
+            3,
+            3
+          ]
+        },
+        "followup_difference_bounds": [
+          0,
+          0
+        ],
+        "consequential_harm_case_difference_bounds": [
+          0,
+          0
+        ],
+        "gates": {
+          "planned_targeted_improvement": true,
+          "shared_actual_improvement": true,
+          "no_excess_waits_on_negatives": false,
+          "no_followup_reduction": true,
+          "no_harm_case_increase": true
+        }
+      },
+      "calibration": {
+        "pairs": {
+          "0": {
+            "original": [
+              4,
+              4
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "1": {
+            "original": [
+              3,
+              2
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "2": {
+            "original": [
+              4,
+              4
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "3": {
+            "original": [
+              3,
+              3
+            ],
+            "error": [
+              2,
+              2
+            ]
+          }
+        },
+        "stable_degradation": 3,
+        "qualified": true
+      }
+    },
+    "opus": {
+      "reality": {
+        "score_distribution": {
+          "3": 68,
+          "2": 28
+        },
+        "saturated": false,
+        "contrasts": {
+          "BC_vs_B": {
+            "preserved_cases": [
+              "C01",
+              "C02",
+              "C03",
+              "C04",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [],
+            "incomplete_cases": [],
+            "case_mean_difference": 0.03125,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C03": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C04": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C05": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  -1,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C06": {
+                "by_replicate": [
+                  "unstable",
+                  "unstable"
+                ],
+                "four_signs": [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                "mean_score_diff": 0.5
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "tie": 7,
+                "unstable": 1
+              },
+              "2": {
+                "tie": 6,
+                "unstable": 2
+              }
+            },
+            "possible_double_loss_cases": [],
+            "operational_preservation": true
+          },
+          "BC_vs_T2": {
+            "preserved_cases": [
+              "C01",
+              "C02",
+              "C03",
+              "C04",
+              "C05",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [],
+            "incomplete_cases": [],
+            "case_mean_difference": 0.375,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "win",
+                  "win"
+                ],
+                "four_signs": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "mean_score_diff": 1
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                "mean_score_diff": 0.25
+              },
+              "C03": {
+                "by_replicate": [
+                  "win",
+                  "win"
+                ],
+                "four_signs": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "mean_score_diff": 1
+              },
+              "C04": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C05": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C06": {
+                "by_replicate": [
+                  "unstable",
+                  "win"
+                ],
+                "four_signs": [
+                  1,
+                  0,
+                  1,
+                  1
+                ],
+                "mean_score_diff": 0.75
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "win": 2,
+                "tie": 5,
+                "unstable": 1
+              },
+              "2": {
+                "win": 3,
+                "unstable": 1,
+                "tie": 4
+              }
+            },
+            "possible_double_loss_cases": [],
+            "operational_preservation": true
+          },
+          "T2_vs_B": {
+            "preserved_cases": [
+              "C04",
+              "C07",
+              "C08"
+            ],
+            "double_loss_cases": [
+              "C01",
+              "C03"
+            ],
+            "incomplete_cases": [],
+            "case_mean_difference": -0.34375,
+            "by_case": {
+              "C01": {
+                "by_replicate": [
+                  "loss",
+                  "loss"
+                ],
+                "four_signs": [
+                  -1,
+                  -1,
+                  -1,
+                  -1
+                ],
+                "mean_score_diff": -1
+              },
+              "C02": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  -1,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C03": {
+                "by_replicate": [
+                  "loss",
+                  "loss"
+                ],
+                "four_signs": [
+                  -1,
+                  -1,
+                  -1,
+                  -1
+                ],
+                "mean_score_diff": -1
+              },
+              "C04": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C05": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  -1,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C06": {
+                "by_replicate": [
+                  "tie",
+                  "unstable"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  -1,
+                  0
+                ],
+                "mean_score_diff": -0.25
+              },
+              "C07": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              },
+              "C08": {
+                "by_replicate": [
+                  "tie",
+                  "tie"
+                ],
+                "four_signs": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mean_score_diff": 0
+              }
+            },
+            "by_replicate": {
+              "1": {
+                "loss": 2,
+                "tie": 6
+              },
+              "2": {
+                "loss": 2,
+                "unstable": 3,
+                "tie": 3
+              }
+            },
+            "possible_double_loss_cases": [
+              "C01",
+              "C03"
+            ],
+            "operational_preservation": false
+          }
+        }
+      },
+      "behavior": {
+        "by_arm": {
+          "B": {
+            "material": {
+              "eligible": 32,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 30,
+                "asks_and_answers": 2
+              },
+              "need": {
+                "material": 32
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 15,
+                "asks_and_answers": 1
+              },
+              "need": {
+                "resolved": 15,
+                "material": 1
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "same_answer": 15,
+                "resolved": 1
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          },
+          "BC": {
+            "material": {
+              "eligible": 32,
+              "targeted": 23,
+              "wait_any": 24,
+              "wait_including_incidental": 24,
+              "action": {
+                "no_ask": 8,
+                "targeted_yield": 23,
+                "generic_yield": 1
+              },
+              "need": {
+                "material": 32
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 16
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 2,
+              "wait_any": 2,
+              "wait_including_incidental": 2,
+              "action": {
+                "no_ask": 14,
+                "targeted_yield": 2
+              },
+              "need": {
+                "same_answer": 15,
+                "resolved": 1
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          },
+          "T2": {
+            "material": {
+              "eligible": 32,
+              "targeted": 4,
+              "wait_any": 4,
+              "wait_including_incidental": 4,
+              "action": {
+                "no_ask": 28,
+                "targeted_yield": 4
+              },
+              "need": {
+                "material": 32
+              }
+            },
+            "context_resolved": {
+              "eligible": 16,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 16
+              },
+              "need": {
+                "resolved": 16
+              }
+            },
+            "same_answer": {
+              "eligible": 16,
+              "targeted": 2,
+              "wait_any": 2,
+              "wait_including_incidental": 2,
+              "action": {
+                "no_ask": 14,
+                "targeted_yield": 2
+              },
+              "need": {
+                "same_answer": 16
+              }
+            },
+            "clear": {
+              "eligible": 128,
+              "targeted": 0,
+              "wait_any": 0,
+              "wait_including_incidental": 0,
+              "action": {
+                "no_ask": 128
+              },
+              "need": {
+                "not_read": 128
+              }
+            },
+            "followup_substantive": 32,
+            "followup_eligible": 32,
+            "harm_turns": 0,
+            "harm_cases": [],
+            "clear_offtarget": 0
+          }
+        },
+        "paired_by_planned": {
+          "material": {
+            "observed_difference": 23,
+            "bounds": [
+              23,
+              23
+            ],
+            "new_certain": 23,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                2,
+                2
+              ],
+              "C02": [
+                2,
+                2
+              ],
+              "C03": [
+                3,
+                3
+              ],
+              "C04": [
+                4,
+                4
+              ],
+              "C05": [
+                2,
+                2
+              ],
+              "C06": [
+                3,
+                3
+              ],
+              "C07": [
+                3,
+                3
+              ],
+              "C08": [
+                4,
+                4
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                10,
+                10
+              ],
+              "2": [
+                13,
+                13
+              ]
+            }
+          },
+          "context_resolved": {
+            "observed_difference": 0,
+            "bounds": [
+              0,
+              0
+            ],
+            "new_certain": 0,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                0,
+                0
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                0,
+                0
+              ],
+              "2": [
+                0,
+                0
+              ]
+            }
+          },
+          "same_answer": {
+            "observed_difference": 2,
+            "bounds": [
+              2,
+              2
+            ],
+            "new_certain": 2,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                2,
+                2
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                1,
+                1
+              ],
+              "2": [
+                1,
+                1
+              ]
+            }
+          },
+          "clear": {
+            "observed_difference": 0,
+            "bounds": [
+              0,
+              0
+            ],
+            "new_certain": 0,
+            "lost_certain": 0,
+            "by_case_bounds": {
+              "C01": [
+                0,
+                0
+              ],
+              "C02": [
+                0,
+                0
+              ],
+              "C03": [
+                0,
+                0
+              ],
+              "C04": [
+                0,
+                0
+              ],
+              "C05": [
+                0,
+                0
+              ],
+              "C06": [
+                0,
+                0
+              ],
+              "C07": [
+                0,
+                0
+              ],
+              "C08": [
+                0,
+                0
+              ]
+            },
+            "by_rep_bounds": {
+              "1": [
+                0,
+                0
+              ],
+              "2": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "shared_actual_material": {
+          "shared_count": 32,
+          "shared_cases": 8,
+          "shared_decisive_cases": 8,
+          "difference": 23,
+          "possible_additional_shared": 0,
+          "bounds": [
+            23,
+            23
+          ]
+        },
+        "shared_actual_nonmaterial": {
+          "shared_count": 31,
+          "shared_cases": 8,
+          "shared_decisive_cases": 8,
+          "difference": 2,
+          "possible_additional_shared": 0,
+          "bounds": [
+            2,
+            2
+          ]
+        },
+        "followup_difference_bounds": [
+          0,
+          0
+        ],
+        "consequential_harm_case_difference_bounds": [
+          0,
+          0
+        ],
+        "gates": {
+          "planned_targeted_improvement": true,
+          "shared_actual_improvement": true,
+          "no_excess_waits_on_negatives": false,
+          "no_followup_reduction": true,
+          "no_harm_case_increase": true
+        }
+      },
+      "calibration": {
+        "pairs": {
+          "0": {
+            "original": [
+              3,
+              3
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "1": {
+            "original": [
+              2,
+              2
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "2": {
+            "original": [
+              3,
+              3
+            ],
+            "error": [
+              2,
+              2
+            ]
+          },
+          "3": {
+            "original": [
+              2,
+              2
+            ],
+            "error": [
+              2,
+              2
+            ]
+          }
+        },
+        "stable_degradation": 2,
+        "qualified": false
+      }
+    }
+  },
+  "decision": {
+    "realism": false,
+    "behavior": false,
+    "joint_research_candidate": false
+  }
+}

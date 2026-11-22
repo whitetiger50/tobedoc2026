@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I01c91c2a2e5284a524b5c19d",
+  "ended": "2026-11-21T03:50:47.406255+00:00",
+  "session": "44613b2d-dad3-45d6-bf10-4409ee121724",
+  "packet_sha256": "ef030bdf49473e0c3a26f62bd5a99b1c46b6ab18e90a264dfc6574da396ca6b1",
+  "raw_sha256": "497b589a356ff3e3f20989ef35ba5f36833c3ae23a83128ae06e80676a685837",
+  "provider_sha256": "2a7734d698e4ae40ce3b1ec785f9ecd90475a1722d8abf639def840ea5bf6278",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's answers are mostly natural and fit the persona: warm, matter-of-fact, coherent and plainly worded, with no stilted clinical language. Asking which time frame the clinician meant (turn 8) is a realistic and well-organized response to an ambiguous adherence question. A few minor issues reduce authenticity. The patient re-answers repeated questions (turns 2–4 and 9–10) in near-identical wording and never acknowledges the repetition, as in 'like I said'. Several answers are terse and close to the profile facts, which fits the persona's 'readily chats about everyday activities' only moderately. There is also no sign of the mild embarrassment about missed tablets, although the questions never directly invited it.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "It’s smaller than my old place, but having them nearby makes up for that."
+    },
+    {
+      "turn": 8,
+      "quote": "Do you mean since our last visit, or since I started the lower dose?"
+    },
+    {
+      "turn": 4,
+      "quote": "We usually work on a crossword together and have a chat."
+    },
+    {
+      "turn": 10,
+      "quote": "After supper."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 4,
+  "question": "I was asking about the journey. Are there things from the ride or the wait that you keep thinking about afterward?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-77be-73b2-a616-be8f546afb80",
+  "raw": "“Yes, that moment on Monday when they both looked up. I wondered whether they recognized me, though they could just have been looking for the bus. I still think about it occasionally because I’m not sure what to make of it.”",
+  "raw_sha256": "3634957feba776dac96bbab1259d7fed83b29d28406f4ac6a3a2fd8aa34a060a",
+  "request_sha256": "806a51cc196b93eda1de6f79643b34df46913c6a3b893e2eb3693cf7d2da164c",
+  "started_utc": "2026-11-20T21:00:10.985879+00:00",
+  "completed_utc": "2026-11-20T21:00:16.080347+00:00",
+  "usage": {
+    "input_tokens": 7266,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f0b1860e9f2bd27c063881cfffc3d0a17afbb9968806e620661f949de5bd2527",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0784ec5f96b93fbc276764c980692e75caa04ac2c13472d5f21fde00adedc2e2"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T1",
+  "turn": 5,
+  "question": "How does it work once you get started?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-48c4-72a0-a3f9-fecad78e38cc",
+  "raw": "Do you mean how I sort the books, or how I get back to what I was doing after someone interrupts?",
+  "raw_sha256": "e346004340e7c6b75ea974d88266d70678bc074bff3e1bc207c8cf3bee63744c",
+  "request_sha256": "279e93609ba7f12c3ba8fd093c2aebce4b9a3efe918e995308bbf5027983b200",
+  "started_utc": "2026-11-20T20:40:19.298257+00:00",
+  "completed_utc": "2026-11-20T20:40:24.884660+00:00",
+  "usage": {
+    "input_tokens": 7185,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81,
+    "reasoning_output_tokens": 52
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2560e99ab8d025f38b5b73ea1e0407ec85e250d143a55aea90dc5fcfa38f2aa3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7029adde7c75552e339595e45fd12801e688a22a555c58f8dd38c1881c71ce4d"
+}

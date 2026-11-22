@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 4,
+  "question": "Could you give me an example of a recent sound that stood out to you, if one comes to mind?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "That one on Tuesday stands out. I was pulling the lace through and heard something like, “They’re moving their hand.” I stopped for a moment—it sounded quite clear, but I was alone.",
+  "raw_sha256": "2d1c421cc54ff2b098badb0a0a35342b0f9d4bd5c7bc74c0caf709603a189d2b",
+  "request_sha256": "cbf0f5ff3a5085893f982c3c0336887856b3f05ed75ef250ab6ef1c1f20418e7",
+  "started_utc": "2026-11-20T20:39:46.632005+00:00",
+  "completed_utc": "2026-11-20T20:39:51.227079+00:00",
+  "usage": {
+    "input_tokens": 31180,
+    "cached_input_tokens": 26624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 222,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4b6f167f2d7b94cfd67743cd58b39fc93279db52f34462a6ad2b076f614278c0",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8ecfc81052ae6e005ce38c9eda6bb3339ca62d0dfeff58fe2f2c3e4eb1795ffb"
+}

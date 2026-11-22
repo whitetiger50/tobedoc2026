@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 6,
+  "question": "What do you clip the new one to?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e2d8-7f00-9604-b6074c8a7b33",
+  "raw": "My blue lanyard.",
+  "raw_sha256": "12da9c044883943d2557c32df534299450cdb181454834c9441d38919a27175f",
+  "request_sha256": "40fd01ad2531cd37960800450cd8850de2b6ceead3aaf074db8bbf8c2213b5ba",
+  "started_utc": "2026-11-21T03:43:25.848515+00:00",
+  "completed_utc": "2026-11-21T03:43:30.035344+00:00",
+  "usage": {
+    "input_tokens": 47548,
+    "cached_input_tokens": 42624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 93,
+    "reasoning_output_tokens": 18
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "44a88a72fe68dc52a68cdf930f6c850a8362080f7429cf0415afb82fbb6dd47c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ab7f2e0b4125ba3c46d4fde1b8334f0cad54f5f91a9356f7eeae22c5e0a3d66d"
+}

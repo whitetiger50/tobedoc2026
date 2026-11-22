@@ -1,0 +1,40 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says turning on the radio made the voice less distracting and let them finish sorting thread, so the sound became easier to set aside, not harder.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "Turning on the radio made it less distracting, and I was able to finish sorting the thread.",
+        "supports": "A"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "it made the voice less distracting, and I was able to finish sorting the thread.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient reports the voice said 'too slow', which is a remark about pace, and explicitly denies that it told them to do anything, so it commented rather than instructed.",
+    "citations": [
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "I heard a voice say ‘too slow’ while I was sorting my sewing supplies.",
+        "supports": "B"
+      },
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "It wasn’t telling me to do anything.",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

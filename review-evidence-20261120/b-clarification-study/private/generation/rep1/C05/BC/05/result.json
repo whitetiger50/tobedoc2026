@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 5,
+  "question": "I’m filling in the costs for your two classes, cooking and swimming. Did you pay a fee to take the class?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b3af-76c3-8e24-ec7016140875",
+  "raw": "Do you mean the cooking class or the swimming lesson?",
+  "raw_sha256": "94cd898efff4e6387fa916985004c972ae7ca25f2f2fabf4178772d79488e32e",
+  "request_sha256": "ed3ecade459ad546713e78cde42fdec1e58c7740a0ed8a1564329b45fe1a4f0d",
+  "started_utc": "2026-11-21T03:42:20.823936+00:00",
+  "completed_utc": "2026-11-21T03:42:26.059038+00:00",
+  "usage": {
+    "input_tokens": 39530,
+    "cached_input_tokens": 33280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 101,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "23224a56efb63422fb12cb7bce29af472007fe069e34a16baee0344e2b2751de",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a0273603ceecb4f2723974d4afd41221cfd06ed6b33cf23f138378e08b31e937"
+}

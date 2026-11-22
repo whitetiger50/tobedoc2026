@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 4,
+  "question": "When, if at all, have you felt unsettled recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-19b6-77d0-8c87-7267a7bdd6ce",
+  "raw": "I haven’t felt particularly unsettled lately. Last-minute changes to plans can irritate me—I like having the week laid out—but overall things have felt settled.",
+  "raw_sha256": "da9a8b4a4b8be96ce3e18e2bd1ee05c45119b433d397d99d6bfa770366458442",
+  "request_sha256": "818f11cf9bb53ec8bc469576943a1b172916858c79fc8f68533eb6330fa9a1ff",
+  "started_utc": "2026-11-20T20:32:28.521759+00:00",
+  "completed_utc": "2026-11-20T20:32:33.657658+00:00",
+  "usage": {
+    "input_tokens": 6894,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95,
+    "reasoning_output_tokens": 57
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bcf6dd29ff79dbc83d1029716d9b12f16051d7d601677a3121a65f58e31af969",
+  "trace_sha256": "f1bfe421312c5c7c3e882c39072ef0f9898262c453be7188750e839a3e97f7fc"
+}

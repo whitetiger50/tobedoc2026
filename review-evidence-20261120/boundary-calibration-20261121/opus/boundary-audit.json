@@ -1,0 +1,98 @@
+{
+  "discrepancies": [
+    {
+      "id": "B28",
+      "feature": "UNCLEAR_REFERENCE",
+      "expected": "present",
+      "observed": "uncertain",
+      "reason": "The prior answer names two companions, Mara and Jo. 'She' could refer to either, and who marked the route matters for the question. If Jo is understood as male, 'she' resolves to Mara, so a credible alternative reading exists."
+    },
+    {
+      "id": "B75",
+      "feature": "UNCLEAR_REFERENCE",
+      "expected": "absent",
+      "observed": "uncertain",
+      "reason": "'those kinds of things' uses a demonstrative that points to kinds of activities never identified in the reply or the earlier dialogue, so the intended referent is missing. A credible alternative reading is that it simply refers back to the reply's own generic phrase 'the sort of things you do with time'. On that reading the problem is vagueness of content, not an unresolvable reference."
+    },
+    {
+      "id": "B54",
+      "feature": "TANGENTIALITY",
+      "expected": "not_assessable",
+      "observed": "absent",
+      "reason": "The speaker explicitly declines to discuss the topic asked about and does not follow a peripheral or different line. The form states that an explicit refusal does not demonstrate tangentiality."
+    }
+  ],
+  "authored_or_observed_abstentions": [
+    {
+      "id": "B28",
+      "feature": "UNCLEAR_REFERENCE",
+      "expected": "present",
+      "observed": "uncertain",
+      "reason": "The prior answer names two companions, Mara and Jo. 'She' could refer to either, and who marked the route matters for the question. If Jo is understood as male, 'she' resolves to Mara, so a credible alternative reading exists."
+    },
+    {
+      "id": "B75",
+      "feature": "UNCLEAR_REFERENCE",
+      "expected": "absent",
+      "observed": "uncertain",
+      "reason": "'those kinds of things' uses a demonstrative that points to kinds of activities never identified in the reply or the earlier dialogue, so the intended referent is missing. A credible alternative reading is that it simply refers back to the reply's own generic phrase 'the sort of things you do with time'. On that reading the problem is vagueness of content, not an unresolvable reference."
+    },
+    {
+      "id": "B54",
+      "feature": "DERAILMENT",
+      "expected": "not_assessable",
+      "observed": "not_assessable",
+      "reason": "The reply is a single short sentence with no sequence of ideas, so there is no chance to observe a shift in the train of thought."
+    },
+    {
+      "id": "B54",
+      "feature": "POVERTY_OF_CONTENT",
+      "expected": "not_assessable",
+      "observed": "not_assessable",
+      "reason": "The reply is a simple refusal, not a sustained answer. The form says a simple refusal or brief reply alone should not be scored, and there is too little speech to judge whether content is empty, vague or circular."
+    },
+    {
+      "id": "B54",
+      "feature": "TANGENTIALITY",
+      "expected": "not_assessable",
+      "observed": "absent",
+      "reason": "The speaker explicitly declines to discuss the topic asked about and does not follow a peripheral or different line. The form states that an explicit refusal does not demonstrate tangentiality."
+    }
+  ],
+  "outer_markdown_fence_removed_for_json_decoding": [
+    "B14",
+    "B42",
+    "B61",
+    "B28",
+    "B83",
+    "B75",
+    "B46",
+    "B19",
+    "B54",
+    "B32",
+    "B92"
+  ],
+  "session_count": 12,
+  "unique_sessions": 12,
+  "one_turn_each": true,
+  "zero_tools": true,
+  "b14_registered_cli_builtins": [
+    {
+      "name": "cc-plugin-agents-md",
+      "path": "builtin",
+      "source": "cc-plugin-agents-md@builtin"
+    },
+    {
+      "name": "cc-plugin-privacy",
+      "path": "builtin",
+      "source": "cc-plugin-privacy@builtin"
+    },
+    {
+      "name": "cc-plugin-plugin-authoring",
+      "path": "builtin",
+      "source": "cc-plugin-plugin-authoring@builtin"
+    }
+  ],
+  "remaining_zero_plugins": true,
+  "runtime_note": "B14 used CLI safe mode and disabled all hooks, but built-ins registered at initialization. Hook event reporting was explicitly enabled on the remaining 11 sessions. Each form is the first and only output for its case."
+}

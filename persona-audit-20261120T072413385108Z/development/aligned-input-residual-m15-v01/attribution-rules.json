@@ -1,0 +1,21 @@
+{
+  "locked_before_generation": true,
+  "review_unit": "patientturn+actualquestion+patientfacts+selfunderstanding+prioractualhistory",
+  "categories": {
+    "generator_clear": "Explicit fixedfact contradiction,definite unsupported assertion beyond knownscope,unambiguous rolebreak,orclear directquestionfailure despite adequate unambiguous knownfact;exactsourcequotesrequired",
+    "input_issue": "Question/requiredfactsubject,time,knowledgeorantecedent mismatch;do not attribute to patient alone",
+    "boundary": "Korean entailment/scope ambiguity,style norm,clinical judgement not established;keep uncertainty",
+    "allowed_response": "Relevant spontaneous elaboration,short valid reconfirmation,scope correction,appropriate Korean ellipsis/paraphrase",
+    "no_issue_observed": "Author foundno concrete issue at thisturn;notproofzeroerrororclinicalaccuracy"
+  },
+  "multiple_events_per_turn_allowed": true,
+  "same_event_across_judges_orfacets_not_independent_errors": true,
+  "prejudge_author_review": "Readall72patientturns before newjudgeoutputs;recordqualitativenotesandhash;notadditionalclinicalraterornewnumericscale",
+  "judge_input_excludes_author_audit": true,
+  "primary_scores": "Allcompleted9texts;no score-basedexclusion. Reportinputattributionseparatelyinstead ofdeletingbadscoreconversations. Anyunexpectedinputissueisretainedanddisclosed.",
+  "no_finding_does_not_prove_no_defect": true,
+  "clear_single_case_error_can_be_identified": true,
+  "no_automatic_prompt_modification": true,
+  "no_new_criteria_or_posthoc_weighting": true,
+  "future_target": "At mostonebestgroundedgeneratorissue ifany;otherwisekeepv02andendthisboundedcycle;noextenduntilfaultfound"
+}

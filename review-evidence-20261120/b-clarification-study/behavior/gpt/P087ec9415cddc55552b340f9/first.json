@@ -1,0 +1,85 @@
+{
+  "id": "P087ec9415cddc55552b340f9",
+  "reader": "gpt",
+  "session": "01a1fc46-165b-7c32-9902-8335fd40e8ab",
+  "attempt": "attempt-01",
+  "packet_sha256": "1f0ae13c1f68cf6e393c3c64b4c55fc3d9a5aee60cfa0939f2813f54b582ac10",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "23ad1227eac74814bdc9f31850777469d3f39d565ef3547ffc38bb41a80a6734",
+  "raw_sha256": "7d6df75fa736c717a65f9d839ed2218f4b8ef86195db80788948252d61d1939b",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "Both men are explicitly reintroduced, and the unresolved reference changes whether Ari has returned the call.",
+        "alternatives": [
+          {
+            "meaning": "“Him” refers to Ari’s brother.",
+            "answer": "Ari has called the brother back."
+          },
+          {
+            "meaning": "“Him” refers to the building manager.",
+            "answer": "Ari has not called the building manager back."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "The question naturally asks whether Jules had finished the two named activities by six, without requiring a choice between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class and swimming lesson were both finished by six.",
+            "answer": "Both activities finished by six in the evening."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "“It” could refer to either named letter, but both arrived by post.",
+        "alternatives": [
+          {
+            "meaning": "“It” refers to the housing letter.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "“It” refers to the employer’s letter.",
+            "answer": "The employer’s letter arrived by post."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "Naming both women reopens the pronoun reference despite the earlier clarification, but neither expected payment.",
+        "alternatives": [
+          {
+            "meaning": "“She” refers to Inez.",
+            "answer": "Inez did not expect payment for helping."
+          },
+          {
+            "meaning": "“She” refers to Pat.",
+            "answer": "Pat did not expect payment for helping."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:03:58.126743+00:00"
+}

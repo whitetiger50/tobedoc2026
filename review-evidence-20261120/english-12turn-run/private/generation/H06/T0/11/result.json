@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 11,
+  "question": "How do you remember when it's time for a clinic appointment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-5ef2-75a1-89e9-3fbc56605a25",
+  "raw": "“It’s the day after the group walk, so that helps me remember. I look forward to the walk every week, and then I know it’s the clinic the next day.”",
+  "raw_sha256": "f19b6597648e07777b7171f91decfc7353b98a1b082df0c40c4818c00a4d4dae",
+  "request_sha256": "eaa1834f3d193623f94715e7ef18f1b5925d95aa5bd88d6ff103cab6e20b7d6e",
+  "started_utc": "2026-11-20T20:42:36.045099+00:00",
+  "completed_utc": "2026-11-20T20:42:40.332035+00:00",
+  "usage": {
+    "input_tokens": 7821,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0fc01cafcb0749b8dca7b2d81defa7945481e0b7766dee90cc67eeff563134c6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "19a2217e9dfc3725e2e23d7a0cb40ffa775d9d7cb07f31e253a6e1c25f22e8df"
+}

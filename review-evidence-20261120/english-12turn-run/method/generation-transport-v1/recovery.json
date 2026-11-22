@@ -1,0 +1,31 @@
+{
+  "reason": "First real traces identified one pre-turn CLI feature-notice event and native item_completed UserMessage/AgentMessage event shape. Narrow parser exception for one exact notice only before the unique turn start. Requests and frozen generation settings unchanged. Original four outputs recovered with subprocess.run hard-disabled.",
+  "prior_generator": "413aee84ec590ed96fe0cebd00ac6ce47147b5e3c9091c14014191ffb02e7280",
+  "new_generator": "a36898fb5c4b2a85a0c7d2a9987ee7e80959506a9f26d7c72b278c5604ab0ccc",
+  "rows": [
+    {
+      "case": "D01",
+      "raw_sha256": "b01a799bdc02b40fc362a5bfa1b987093e4fb97112a4e4e2a199bb37e1a14945",
+      "trace_sha256": "a5747680203c60e5abbb99a16515acaee6dd57885802686ae27cd721b2871812",
+      "session": "01a1faa7-2af0-70d0-8f7d-60ffe9e494d0"
+    },
+    {
+      "case": "D02",
+      "raw_sha256": "0a651ea2e41541bed0e2a0a2986c9d46f036b9a4cfcd89c16e6698589871a44a",
+      "trace_sha256": "f846e2ceadc9b7fc0fcf11e80c1e7ceb1e08d33dfba81d74200cfc4af685d276",
+      "session": "01a1faa7-2af0-7173-af48-5da43364dd36"
+    },
+    {
+      "case": "D03",
+      "raw_sha256": "e1d391307240c1830834f5ecbb203e6eb15c55bd67a560561b59da083bb96b51",
+      "trace_sha256": "d29d00aa290d1f29ce7264ebde7473c66c556cb3275ebf3c5f96a2137369b197",
+      "session": "01a1faa7-2aed-7202-a279-e4c91f52c8f9"
+    },
+    {
+      "case": "D04",
+      "raw_sha256": "232ea8159be84574c0c0d790198c0ca23d7d28b4a5236b9efaeea59f4e576df5",
+      "trace_sha256": "7eb7b72163f62fe79b551d19c2322e509ca6216e6d37d2f1af37624d8bb8e8f0",
+      "session": "01a1faa7-2aed-7e53-b6e9-981b5a01a34f"
+    }
+  ]
+}

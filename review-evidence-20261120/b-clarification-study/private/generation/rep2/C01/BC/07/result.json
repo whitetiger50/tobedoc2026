@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 7,
+  "question": "I see early and late shifts on your rota. Do you take food with you for your shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e2-7b93-81c2-db72fe1a7c09",
+  "raw": "Yes, I pack a sandwich for every shift, early or late. Nothing very exciting, but it does the job.",
+  "raw_sha256": "03c03357b8fc5a99cb62ef221359eff9a4007763e4ef6a6b21b66a9bbe712677",
+  "request_sha256": "9dff6bacfc56a4ef88896cc83dc535a3c1e721f4f255e50c36c3452fb6697a94",
+  "started_utc": "2026-11-21T03:43:39.184737+00:00",
+  "completed_utc": "2026-11-21T03:43:45.018082+00:00",
+  "usage": {
+    "input_tokens": 55753,
+    "cached_input_tokens": 44928,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 208,
+    "reasoning_output_tokens": 61
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b0bf035aa5967ef0979c1d703b986684569f89ab03fb92b4395a7bcd09fd5fbe",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "da6bf3eb1b870755f8268bdb5b98e5d2bbac4a7c29c69dd0bf4a3e1c7405d655"
+}

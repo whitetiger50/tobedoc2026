@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T23:00:42.078321+00:00",
+  "attempt": "attempt-01",
+  "id": "Kcc840627a66486c2daaf",
+  "reader": "opus",
+  "session": "78aa44e5-7b8d-4228-af47-2e561e87ffa6",
+  "packet_sha256": "ed5f6076970db9c9860e87c58836a8c32adbf284edc3adb32d6b5c678b583295",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "1ba4587309bf8ba47cfecded9f365105fda3c58eec2ad329d6e948178e8bcc80",
+  "raw_sha256": "cc1c17945c839faf5d453800030a1c45586e1d9f44706f2495b4f1360595dadd",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says twice that the slip of paper under the line helped them finish a short passage last week. Nothing they say suggests the passage was left unfinished.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "a slip of paper under the line helped me finish a passage last week",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "It helped me finish a short passage last week.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says they can see where they left off on the bike, but that reading is harder to pick up again, at least when distracted or when people are talking. Reading is easier in the library, but they never say it is easier to resume than a hands-on task.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "Reading is harder to pick up again if I get distracted",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "With a bike, I can look at it and see where I left off.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "With reading, if people are talking, I lose my place",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+```json
+{
+  "v1": {
+    "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+    "reason": "The reply gives a separate outage duration for each day, and both match the case.",
+    "A": {"state": "supported", "quote": "About ten minutes on Monday"},
+    "B": {"state": "supported", "quote": "most of the afternoon on Thursday"}
+  },
+  "v2": {
+    "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+    "reason": "The reply places the tablets in the kitchen cabinet and the eye drops on the bedside table, which means the drops are not in the kitchen.",
+    "A": {"state": "supported", "quote": "I keep the eye drops on my bedside table."},
+    "B": {"state": "supported", "quote": "The tablets are in the kitchen cabinet."}
+  },
+  "v3": {
+    "quote": "I did miss one, the evening before I started the lower dose.",
+    "reason": "Answering the 'since then' question, the patient affirms one missed tablet in the period after the last visit and none since starting the lower dose.",
+    "A": {"state": "supported", "quote": "I did miss one, the evening before I started the lower dose."},
+    "B": {"state": "supported", "quote": "I haven't missed any since starting it two weeks ago."}
+  },
+  "v4": {
+    "quote": "Do you mean the phone alarm or the note on the door?",
+    "reason": "The reply only asks which reminder is meant and gives no answer about either one.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  }
+}
+```

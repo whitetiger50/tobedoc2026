@@ -1,0 +1,198 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "질문에 맞는 경험 설명과 대화 연결은 대체로 유지된다. 다만 P06의 도입은 환자를 제삼자로 소개하는 명시적인 역할 이탈이다. 이어지는 대처 설명은 질문에 직접 답하고 있어 이 문제는 해당 도입에 국한되며, 대화 전반을 지배하지는 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다. 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 배경, 경험 양상, 대처와 수면 설명이 제공된 사실에 부합하며 새로운 사건을 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "낮에 가게에서 일할 때는 거의 안 들리고요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:pattern",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다룬다. P06도 역할 밖 도입과 별개로 그 순간의 대응을 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 모순되지 않으며, 재진술은 재확인이나 관련 후속 질문에 연결된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "turn:P01",
+        "turn:D08"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06의 도입은 자신의 경험을 말하는 대신 환자의 반응을 제삼자가 소개하는 명시적인 보고자 역할로 전환한다. 이탈 범위는 도입 한 문장이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "communication:expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication:expression",
+    "observations[0]:unknown_ref:communication:expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "observations[0]:unknown_ref:communication:expression"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "non_repetition_issue",
+        "patient_turn_id": "P06",
+        "quote": "이 환자의 반응은 다음과 같습니다.",
+        "related_evidence": [],
+        "context_refs": [
+          "turn:D06",
+          "communication:expression"
+        ],
+        "function": "not_applicable",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "의사는 경험 순간의 대응을 물었으나, 도입에서 환자 자신이 아닌 반응을 소개하는 보고자 시점으로 이탈한다. 뒤의 직접적인 대처 답변과 구별되는 역할 표현 문제다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "동거인 재확인",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "의사가 같은 정보를 명시적으로 다시 확인했으므로 동일한 답이 현재 질문에 직접 대응한다. 새로운 대상을 대신하거나 대화를 정체시키지 않는다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "turn:P01",
+          "fact:coping",
+          "fact:goal"
+        ],
+        "function": "다음 진료 목표와 현재 대처의 연결",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "다음 진료에서 다룰 내용을 묻는 질문에 현재 대처를 재지칭하여 추가 방법을 알고 싶다는 목표를 설명한다. 이미 마친 설명의 무관한 재시작이나 현재 질문의 대체가 아니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

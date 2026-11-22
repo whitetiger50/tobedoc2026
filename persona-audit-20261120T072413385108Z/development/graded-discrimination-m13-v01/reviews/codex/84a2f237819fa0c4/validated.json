@@ -1,0 +1,76 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 자연스럽고 설정에 부합하지만, P02에서 환자가 아닌 설정 설명자의 말투로 전환되어 실제 환자 대화로서의 진정성을 뚜렷하게 해친다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "진술 내용은 프로필과 일치하며 무근거 사실 추가나 모순은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "표현 방식의 문제와 별개로 각 답변은 직전 질문의 직접 대상을 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P01의 당사자 진술에서 P02의 외부 설정 설명으로 전환되며 환자 역할의 연속성이 명확히 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인을 묻는 질문에 환자 자신의 경험이 아닌 제삼자의 설정 설명을 제시한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

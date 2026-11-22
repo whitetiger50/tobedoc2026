@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I9a9ab6517454f4cf53e54074",
+  "ended": "2026-11-21T03:48:52.949810+00:00",
+  "session": "3c2ce51e-c4a0-4efa-b585-e26620581e4c",
+  "packet_sha256": "b74c2cab9512cefad470ef3fb0f5e8e68912cf8efea1989ea9ba91adf434fd9c",
+  "raw_sha256": "ff01509f7868718575af4daa1d944bcbf36dee684b0171c0a01d4b5c12124498",
+  "provider_sha256": "a137b6830ca89cc1b801b7fc58884ecc275f41d05092a428949509ee96cb604b",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are organized and calm, the patient sounds at ease with the paperwork, and the tram experience is described reflectively with appropriate insight that the announcement is a recording for everyone. The two clarifying questions about ambiguous prompts (turns 3 and 10) feel realistic. The hesitant 'Um' before the tram disclosure suggests mild privacy, though the patient discloses quite readily for someone described as somewhat private about the tram. Some minor artificial elements lower the score. Several answers closely echo the profile wording or the question itself (turns 1 and 12). Later answers are clipped and repetitive (turns 4, 5 and 11). Spontaneous elaboration is limited, with little personal texture or tangential detail beyond what was asked, which makes parts of the exchange feel somewhat scripted.",
+  "evidence": [
+    {
+      "turn": 6,
+      "quote": "Um, the one about keeping the doors clear. Sometimes it feels like it’s aimed at me, even though I know it could just be the recording everyone hears."
+    },
+    {
+      "turn": 8,
+      "quote": "It brings my attention back to where I actually am."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean the housing letter or the one from work?"
+    },
+    {
+      "turn": 12,
+      "quote": "No, I’ve been to every scheduled shift this past month."
+    },
+    {
+      "turn": 1,
+      "quote": "I brought two letters because I was having trouble sorting out the wording."
+    }
+  ]
+}

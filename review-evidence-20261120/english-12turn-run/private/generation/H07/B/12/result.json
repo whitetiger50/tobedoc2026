@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 12,
+  "question": "What would you like to leave me with about how things are at home?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "It’s quiet. I’m mostly comfortable there.",
+  "raw_sha256": "a90f955848e73c9c2fe1cdcdd5f38cbe5e174cdc8fbc10e5f418eecf94bde339",
+  "request_sha256": "df94eb1fd97fbab26c5dac9ff11677a01429611697f125912224bdfdb9d7dd5a",
+  "started_utc": "2026-11-20T20:43:17.378158+00:00",
+  "completed_utc": "2026-11-20T20:43:21.372423+00:00",
+  "usage": {
+    "input_tokens": 94382,
+    "cached_input_tokens": 84096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 242,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "cb77a7b02fb80a8580bfc6b147fa13fe5300969e5561201cee48c619e7fea6be",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "94c004ddd26204b9424de1a6bcb7292ea7fbc3e7ad16e167bacde728f98a4b10"
+}

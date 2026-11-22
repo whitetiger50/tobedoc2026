@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I4d49625c27b88facb1",
+  "ended": "2026-11-20T20:59:04.947385+00:00",
+  "session": "94f85acd-6250-4fb3-9d50-f5c8cd3614be",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "a1299ec8198a02e556cb562b3fbefbfbd3b172d6cccc2832cc92c369d3d966c3",
+  "provider_sha256": "fca36adc89bc5e9d03ee6e5fb751efabe6fe084148168a45e93d7409173a9220",
+  "status": "valid",
+  "score": 2,
+  "rationale": "When the patient actually answers, the replies are short, quiet and concrete. They fit the decreased verbal productivity, the low spontaneity and the comfort with present-day topics, such as the soup visit, the Saturday match, waiting for the brother to call, and needing quiet time. The clarifying question at turn 3 also fits someone who understands specific questions but struggles with vague ones. However, in 4 of 12 turns (2, 5, 8, 11) the patient gives the same scripted line that reverses roles and speaks as the interviewer. None of those four questions touches the guarded topic (the hospital stay), so this is not believable guardedness. It is an artificial break in character, and it makes a third of the conversation feel unrealistic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "It was nice sitting together, even without much talking."
+    },
+    {
+      "turn": 4,
+      "quote": "it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 2,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

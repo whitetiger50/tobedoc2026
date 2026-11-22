@@ -1,0 +1,81 @@
+{
+  "id": "Pb71cb7b3040ac9f75e597bab",
+  "reader": "gpt",
+  "session": "01a1fc3f-4767-7b00-9a5c-cd3f7acbbbf8",
+  "attempt": "attempt-01",
+  "packet_sha256": "1002dbba6c98262855d7c4591c151ffe141885621a768ee646ab24c05e3bcdd3",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "302a46c3e925e57877bd3efecc84c5b126ddc61c59503acbe443e10e920a8bb6",
+  "raw_sha256": "8efd218e55312a1d7b039c6e8e78d4c1db0d4fd1a3f635e457a984c60b55c422",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you hear it",
+        "reason": "The immediately preceding question explicitly targets the high ringing, making that the pragmatically clear referent despite the contrasting mention of commentary.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high ringing is heard in one ear or both.",
+            "answer": "Ari hears the high ringing in both ears."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "walk there",
+        "reason": "Both destinations are explicitly reopened, but either referent yields the same affirmative answer about walking.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the book group.",
+            "answer": "Ren walks to the book group."
+          },
+          {
+            "meaning": "Whether Ren usually walks to Mom’s apartment.",
+            "answer": "Ren walks to Mom’s apartment."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "pay a fee to take the class",
+        "reason": "Both classes remain live referents for the singular phrase, and their fee statuses differ even though a direct answer distinguishing both could cover the ambiguity.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid a fee for the cooking class.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid a fee for the swimming lesson.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "set it for",
+        "reason": "The preceding exchange explicitly establishes the phone alarm as the current topic, so the question clearly asks its scheduled time.",
+        "alternatives": [
+          {
+            "meaning": "What time Morgan sets the phone alarm for the staff pass.",
+            "answer": "The alarm is set for 7:10 every morning."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:25.405091+00:00"
+}

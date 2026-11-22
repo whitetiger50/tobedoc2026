@@ -1,0 +1,203 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "사실 내용과 질문 대응, 연결은 전반적으로 유지됩니다. 재확인(D04)과 상황 질문(D05)에 대한 재진술에도 문맥상 근거가 있습니다. 다만 P03·P06·P07에서 '그 부분을 항목별로 말씀드리면…해당 항목에 대한 답변은 이와 같습니다'라는 도입·종결 틀이 반복됩니다. 의사는 일상적인 단일 질문을 했고 항목별 정리를 요청하지 않았습니다. 설정도 고정 문구 없는 일상 대화입니다. 이 틀은 답변 완료를 선언하는 보고서식 메타 표현이라 환자 시점의 표현을 국소적으로 약화합니다. 그래서 4의 조건을 충족하지 않습니다. 답변 내용 자체는 직접적이고 다른 턴은 자연스러워 2에는 이르지 않습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 일, 증상 상황, 대처, 수면, 목표가 모두 고정 사실과 일치합니다. 확신하지 않는다는 표현도 자기이해 설정과 맞습니다. 무근거 추가는 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work",
+        "self_understanding"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 턴이 직전 질문의 직접 대상(불편, 동거인, 낮 활동, 발생 상황, 대처, 잠, 다음 진료 주제)에 답합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "자기모순이나 문맥 파괴는 없습니다. P04는 D04의 명시적 재확인 요청에 대한 답이고, P05·P08의 재진술은 각 질문이 요구한 내용입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "세 턴에서 '항목별로 말씀드리면'으로 시작해 '해당 항목에 대한 답변은 이와 같습니다'로 끝나는 보고서식 틀이 반복되어, 일상 대화 설정과 부조화합니다. 내용은 환자 시점으로 유지되어 국소적 정형 표현(1)으로 보았습니다. 다만 반복 빈도상 보고서식 대행(0)으로 읽을 여지도 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "grounding:invalid_context_ref:self_understanding",
+    "naturalness:invalid_context_ref:communication.expression",
+    "realism:unknown_ref:communication.expression",
+    "realism:unknown_ref:self_understanding",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "realism:unknown_ref:communication.expression",
+    "realism:unknown_ref:self_understanding",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "obs1",
+        "kind": "form_repetition",
+        "patient_turn_id": "P06",
+        "quote": "그 부분을 항목별로 말씀드리면",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+          },
+          {
+            "patient_turn_id": "P07",
+            "quote": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+          }
+        ],
+        "context_refs": [
+          "turn:D03",
+          "turn:D06",
+          "turn:D07",
+          "communication.expression"
+        ],
+        "function": "unclear",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "같은 순서의 틀이 세 턴에서 반복됩니다. 도입에서는 항목별 정리를 선언하고, 이어 내용을 채운 뒤, 종결에서 답변 완료를 선언합니다. 의사의 질문은 단일 일상 질문이었고 항목 구분이나 정리를 요청·전제하지 않았습니다. 설정 역시 고정 문구 없는 일상 대화를 명시하므로, 이 도입·종결 담화 행위는 현재 질문의 요청과 어긋나는 메타 표현입니다.",
+        "used_in_global": true
+      },
+      {
+        "id": "obs2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "확인 요청에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D04가 같은 정보를 명시적으로 다시 확인하므로 동일 답변은 재확인 응답입니다. 새 대상을 대신하거나 대화를 정체시키지 않습니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "obs3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal"
+        ],
+        "function": "목표 설명을 위한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D08이 다음 진료 주제를 묻고, 목표 사실이 그 경험을 다루는 것이므로 재지칭이 질문 대상에 직접 답합니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

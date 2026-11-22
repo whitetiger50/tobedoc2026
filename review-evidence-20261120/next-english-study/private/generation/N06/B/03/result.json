@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 3,
+  "question": "Do you miss much of it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "No, not much—just the odd line when there’s traffic or other noise. Once I replay it, I can usually carry on fine.",
+  "raw_sha256": "16b1417e4d8b47ce78d7d11553e5e4318a02474eda7d4fa9f19134af890111fd",
+  "request_sha256": "c2b5c1881ee3bd9506d9ab9fb4bc074f1ed1d52d5dd81d8b6041d3848ebedd22",
+  "started_utc": "2026-11-20T20:58:36.381050+00:00",
+  "completed_utc": "2026-11-20T20:59:50.794919+00:00",
+  "usage": {
+    "input_tokens": 23622,
+    "cached_input_tokens": 15232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 130,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2bab3ccf133b5966ff346ca630e2f61a75fe4a3b99ad1053299d05dea39b8b73",
+  "https_fallback": false,
+  "websocket_handshake_retries": 3,
+  "trace_sha256": "a1f07fa4bd1a7e03b17a48f2e41ba1eae79f238a0f91c07ec5e27bd09af46d90"
+}

@@ -1,0 +1,17 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says twice that sorting goes smoothly and is easier once at the shop, which supports finding it fairly easy to get going.",
+    "citations": [
+      {"turn": 3, "role": "patient", "quote": "Once I’m at the shop, sorting goes smoothly.", "supports": "A"},
+      {"turn": 6, "role": "patient", "quote": "At the shop, I can get on with sorting.", "supports": "A"}
+    ]
+  },
+  "item2": {
+    "choice": "insufficient",
+    "reason": "The patient says they currently don't feel passengers are talking about them, and that this happened two years ago, not recently. That rules out A, but they never say conversations seem to be about unrelated things, so B is not established either.",
+    "citations": []
+  }
+}
+```

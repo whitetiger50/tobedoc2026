@@ -1,0 +1,600 @@
+{
+  "timestamp_utc": "2026-11-19T10:23:33.521209+00:00",
+  "scope": "Codexpost-ratingunblindedattributionusingactualsource/lockedrules;notadditionalraterorclinicalgold",
+  "events": [
+    {
+      "event_id": "M15-01-g2-reconfirmation_style_boundary",
+      "item_id": "DEV-M13-01-rep02-v02",
+      "patient_turn_id": "P05",
+      "related_turn_ids": [
+        "P01",
+        "P05"
+      ],
+      "category": "boundary",
+      "subtype": "reconfirmation_style_boundary",
+      "patient_generation_candidate": false,
+      "clear_defect_established": false,
+      "quote": "주로 잠들기 전 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요.",
+      "reason": "D05가 발생 시기를 직접 물으므로 P05의 알려진 시점 재진술은 관련 답변이다. Claude의 정형성 비평은 보존하되 필요한 시간 정보를 없애야 한다는 확정 결함으로 판정하지 않는다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-01-rep02-v02",
+          "case_id": "DEV-M13-01",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P01",
+          "readings_with_location": 1,
+          "confirmed_problem_readings": 1,
+          "uncertain_readings": 1,
+          "readings": [
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": true,
+              "reason": "환자 시점의 일상 표현이지만, P01의 구절을 P05에서 거의 그대로 반복하는 국소적 정형 반복이 있다. 다만 시점 질문에 대한 재확인으로 볼 여지도 있다.",
+              "quotes": [
+                "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05",
+                "fact:pattern"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        },
+        {
+          "item_id": "DEV-M13-01-rep02-v02",
+          "case_id": "DEV-M13-01",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P05",
+          "readings_with_location": 2,
+          "confirmed_problem_readings": 2,
+          "uncertain_readings": 1,
+          "readings": [
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "환자 시점의 표현이지만 P05가 P01의 '잠들기 전 조용할 때 가끔'이라는 프로필식 문구를 그대로 반복해 다소 정형적이다.",
+              "quotes": [
+                "주로 잠들기 전 조용할 때 가끔 그래요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "fact:pattern"
+              ]
+            },
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": true,
+              "reason": "환자 시점의 일상 표현이지만, P01의 구절을 P05에서 거의 그대로 반복하는 국소적 정형 반복이 있다. 다만 시점 질문에 대한 재확인으로 볼 여지도 있다.",
+              "quotes": [
+                "주로 잠들기 전 조용할 때 가끔 그래요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05",
+                "fact:pattern"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-01-g3-legitimate_elaboration_with_style_concern",
+      "item_id": "DEV-M13-01-rep03-v02",
+      "patient_turn_id": "P07",
+      "related_turn_ids": [
+        "P07",
+        "P08"
+      ],
+      "category": "boundary",
+      "subtype": "legitimate_elaboration_with_style_concern",
+      "patient_generation_candidate": false,
+      "clear_defect_established": false,
+      "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 밤중에 자주 깨지는 않아요. 다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요.",
+      "reason": "수면 기록 목표는 수면 질문과 관련되고 설정이 자발적 추가를 허용한다. 뒤의 의사 질문이 같은 목표를 다시 묻는다. 정형성 비평은 남기되 선공개/재확인을 명백한 결함으로 확정하지 않는다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-01-rep03-v02",
+          "case_id": "DEV-M13-01",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P07",
+          "readings_with_location": 3,
+          "confirmed_problem_readings": 3,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 1,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "수면 질문에 답하면서 묻지 않은 진료 목표를 설정 항목처럼 붙인 표현이 국소적으로 정형적입니다.",
+              "quotes": [
+                "다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:D07",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P07에서 수면 상태를 말하다가 묻지 않은 다음 진료 계획을 프로필 항목처럼 곧바로 덧붙여, 설정을 순서대로 소진하는 듯한 정형성이 국소적으로 보인다.",
+              "quotes": [
+                "다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:D07",
+                "fact:goal",
+                "fact:sleep"
+              ]
+            },
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P07에서 잠 상태를 묻는 질문에 묻지 않은 진료 목표 항목을 덧붙여 프로필 항목을 나열하는 듯한 인상이 있고, 이어 P08에서 같은 문장을 거의 그대로 반복해 국소적인 정형 반복이 생겼다.",
+              "quotes": [
+                "다음 진료 전까지는 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:D07",
+                "turn:D08",
+                "fact:goal",
+                "fact:sleep"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        },
+        {
+          "item_id": "DEV-M13-01-rep03-v02",
+          "case_id": "DEV-M13-01",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P08",
+          "readings_with_location": 1,
+          "confirmed_problem_readings": 1,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P07에서 잠 상태를 묻는 질문에 묻지 않은 진료 목표 항목을 덧붙여 프로필 항목을 나열하는 듯한 인상이 있고, 이어 P08에서 같은 문장을 거의 그대로 반복해 국소적인 정형 반복이 생겼다.",
+              "quotes": [
+                "잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:D07",
+                "turn:D08",
+                "fact:goal",
+                "fact:sleep"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-02-g1-repeated_wording_candidate",
+      "item_id": "DEV-M13-02-rep01-v02",
+      "patient_turn_id": "P08",
+      "related_turn_ids": [
+        "P08"
+      ],
+      "category": "boundary",
+      "subtype": "repeated_wording_candidate",
+      "patient_generation_candidate": true,
+      "clear_defect_established": false,
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "reason": "시간을 맞춘 새 D08에도 P01의 증상 표현을 길게 다시 엮는다는 문체 지적이 남는다. 내용은 goal과 질문에 맞고 프로필의 goal 자체도 같은 경험을 재지칭하므로, 생성기 고유의 확정 결함이나 임상적 부자연스러움으로 단정하지 않는다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-02-rep01-v02",
+          "case_id": "DEV-M13-02",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P08",
+          "readings_with_location": 3,
+          "confirmed_problem_readings": 3,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 1,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "다음 진료 목표를 말하면서 P01의 증상 표현을 거의 그대로 반복하여 국소적으로 정형적인 표현이 나타난다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요"
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P08이 첫 호소의 표현과 프로필 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P08이 P01과 프로필의 증상 문구를 거의 그대로 반복해 국소적으로 정형적인 표현이 된다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "fact:goal",
+                "fact:symptom"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-02-g2-repeated_wording_candidate",
+      "item_id": "DEV-M13-02-rep02-v02",
+      "patient_turn_id": "P08",
+      "related_turn_ids": [
+        "P08"
+      ],
+      "category": "boundary",
+      "subtype": "repeated_wording_candidate",
+      "patient_generation_candidate": true,
+      "clear_defect_established": false,
+      "quote": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+      "reason": "내용상 정당한 진료 목표 응답이지만 첫 호소와 긴 표현을 재사용한다는 Claude의 지적이 3회 반복된다. 입력의 시간 불일치와는 별개로 남는 문체 후보이며 임상 정답은 아니다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-02-rep02-v02",
+          "case_id": "DEV-M13-02",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P08",
+          "readings_with_location": 3,
+          "confirmed_problem_readings": 3,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 1,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P08이 P01의 긴 표현을 거의 그대로 반복해 정형적으로 들린다. 그 외 표현은 환자 시점에서 자연스럽다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P08이 P01의 증상 서술을 프로필 문구에 가깝게 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P08이 P01의 호소를 거의 같은 표현으로 되풀이해, 다음 진료 목표를 설정 문구처럼 읽는 듯한 국소적 정형 반복이 있습니다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요"
+              ],
+              "context_refs": [
+                "turn:D08",
+                "turn:P01",
+                "fact:goal"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-02-g3-repeated_wording_candidate",
+      "item_id": "DEV-M13-02-rep03-v02",
+      "patient_turn_id": "P08",
+      "related_turn_ids": [
+        "P08"
+      ],
+      "category": "boundary",
+      "subtype": "repeated_wording_candidate",
+      "patient_generation_candidate": true,
+      "clear_defect_established": false,
+      "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "reason": "진료 때 이야기할 주제라는 정렬된 목표에 답하면서 첫 호소의 긴 표현을 다시 사용한다. Claude의 3회 지적은 보존하며 단순히 같은 사실을 말했다는 이유만으로 오류로 승격하지 않는다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-02-rep03-v02",
+          "case_id": "DEV-M13-02",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P08",
+          "readings_with_location": 3,
+          "confirmed_problem_readings": 3,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 1,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "대체로 일상적인 당사자 표현이지만, P08은 P01의 표현과 프로필 문구를 거의 그대로 되풀이하여 국소적으로 정형적인 느낌을 준다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "전반적으로 환자 시점의 일상어이다. 다만 P08이 P01의 호소 문구를 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            },
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "전반적으로 환자 시점의 자연스러운 말투다. 다만 P08이 P01과 goal 사실의 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+              "quotes": [
+                "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D08",
+                "fact:goal"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-03-g2-reconfirmation_style_boundary",
+      "item_id": "DEV-M13-03-rep02-v02",
+      "patient_turn_id": "P05",
+      "related_turn_ids": [
+        "P01",
+        "P05"
+      ],
+      "category": "boundary",
+      "subtype": "reconfirmation_style_boundary",
+      "patient_generation_candidate": false,
+      "clear_defect_established": false,
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요. 아침에는 잘 안 들리는 편이에요.",
+      "reason": "D05가 발생 시기를 다시 물으므로 시간 구절의 재진술은 허용된다. Claude도 해당 지적을 불확실하게 남겼고 같은 원문 총점은4/3/4로 변했다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-03-rep02-v02",
+          "case_id": "DEV-M13-03",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P01",
+          "readings_with_location": 1,
+          "confirmed_problem_readings": 1,
+          "uncertain_readings": 1,
+          "readings": [
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": true,
+              "reason": "P05는 시기를 묻는 질문에 대한 정당한 재진술이지만, P01의 구절을 거의 동일하게 반복해 국소적으로 정형적인 표현이 된다. 질문에 맞춘 자연스러운 반복으로 볼 여지도 있어 불확실성을 표시했다.",
+              "quotes": [
+                "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05",
+                "fact:pattern"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        },
+        {
+          "item_id": "DEV-M13-03-rep02-v02",
+          "case_id": "DEV-M13-03",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P05",
+          "readings_with_location": 1,
+          "confirmed_problem_readings": 1,
+          "uncertain_readings": 1,
+          "readings": [
+            {
+              "repetition": 2,
+              "rating": 1,
+              "uncertain": true,
+              "reason": "P05는 시기를 묻는 질문에 대한 정당한 재진술이지만, P01의 구절을 거의 동일하게 반복해 국소적으로 정형적인 표현이 된다. 질문에 맞춘 자연스러운 반복으로 볼 여지도 있어 불확실성을 표시했다.",
+              "quotes": [
+                "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05",
+                "fact:pattern"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "M15-03-g3-reconfirmation_style_boundary",
+      "item_id": "DEV-M13-03-rep03-v02",
+      "patient_turn_id": "P05",
+      "related_turn_ids": [
+        "P05"
+      ],
+      "category": "boundary",
+      "subtype": "reconfirmation_style_boundary",
+      "patient_generation_candidate": false,
+      "clear_defect_established": false,
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요. 아침에는 잘 안 들리는 편이고요.",
+      "reason": "현재 질문이 시기를 요구한다. 같은 시점 표현의 반복은 정당한 답변으로 볼 수 있으며 단회 문체 지적을 명확한 생성 결함으로 확정하지 않는다.",
+      "existing_judge_locations": [
+        {
+          "item_id": "DEV-M13-03-rep03-v02",
+          "case_id": "DEV-M13-03",
+          "provider": "claude",
+          "facet": "naturalness",
+          "patient_turn_id": "P05",
+          "readings_with_location": 1,
+          "confirmed_problem_readings": 1,
+          "uncertain_readings": 0,
+          "readings": [
+            {
+              "repetition": 3,
+              "rating": 1,
+              "uncertain": false,
+              "reason": "P05가 P01의 문장을 거의 그대로 되풀이해 국소적으로 정형적인 반복이 보인다.",
+              "quotes": [
+                "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요."
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05"
+              ]
+            }
+          ],
+          "warning": "Sameeventcanappearinmultiplefacets/models;notindependenterrorcountorclinicaladjudication"
+        }
+      ],
+      "counting": "Multiplequotes/facets/recallsrefertoonestyleconcern,notindependenterrors"
+    },
+    {
+      "event_id": "DEV-M13-02-g2-P02-household",
+      "item_id": "DEV-M13-02-rep02-v02",
+      "patient_turn_id": "P02",
+      "related_turn_ids": [
+        "P02"
+      ],
+      "category": "boundary",
+      "subtype": "household_exclusivity_candidate",
+      "patient_generation_candidate": true,
+      "clear_defect_established": false,
+      "quote": "성인 딸하고 둘이 살고 있어요.",
+      "reason": "명시된 사실은 성인 딸과 함께 산다는 것까지다. 둘이는 배타적2인가구로 읽힐 수 있으나 관용적 동거 응답과의 의미 경계가 있다. 사례별 생성에서재출현했지만 그것만으로 임상/논리정답을확정하지않는다. 새 판독에서도 해당 원문의 사실축은 두 모델3회 모두2였다. 지적 부재가 옳음/틀림을 판정하지 않는다.",
+      "existing_judge_locations": [],
+      "source": "Frozenprejudgeauthornote"
+    },
+    {
+      "event_id": "DEV-M13-02-g3-P02-household",
+      "item_id": "DEV-M13-02-rep03-v02",
+      "patient_turn_id": "P02",
+      "related_turn_ids": [
+        "P02"
+      ],
+      "category": "boundary",
+      "subtype": "household_exclusivity_candidate",
+      "patient_generation_candidate": true,
+      "clear_defect_established": false,
+      "quote": "다 큰 딸하고 둘이 살고 있어요.",
+      "reason": "명시된 사실은 성인 딸과 함께 산다는 것까지다. 둘이는 배타적2인가구로 읽힐 수 있으나 관용적 동거 응답과의 의미 경계가 있다. 사례별 생성에서재출현했지만 그것만으로 임상/논리정답을확정하지않는다. 새 판독에서도 해당 원문의 사실축은 두 모델3회 모두2였다. 지적 부재가 옳음/틀림을 판정하지 않는다.",
+      "existing_judge_locations": [],
+      "source": "Frozenprejudgeauthornote"
+    },
+    {
+      "event_id": "M15-01-g1-globalexpectation",
+      "item_id": "DEV-M13-01-rep01-v02",
+      "patient_turn_id": "P05",
+      "related_turn_ids": [
+        "P05",
+        "P07"
+      ],
+      "category": "boundary",
+      "subtype": "evaluator_expectation_boundary",
+      "patient_generation_candidate": false,
+      "clear_defect_established": false,
+      "quote": "주로 잠들기 전, 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요.",
+      "reason": "Claude 첫 판독은 망설임/감정 결이 부족하다고 총점3을 줬지만 보조4축은 모두2였다. 해당 표현/망설임을 필수로 요구하는 설정이나 전문의 기준은 없다. 같은 원문의 이후 총점은4/4다. 환자에게 망설임을 추가하도록 자동 수정하지 않는다.",
+      "existing_realism_reason": "모든 답이 질문에 맞고 프로필과 일치하며 일상적인 한국어로 간결하게 표현되었다. 다만 증상 관련 답변이 프로필 문장을 거의 그대로 옮긴 듯 평탄하게 반복되어, 실제 환자에게서 기대되는 망설임이나 감정의 결이 약간 부족하다.",
+      "existing_realism_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 잠들기 전, 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 밤중에 자주 깨지는 않아요.",
+          "valid_quote": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "clear_generator_events_selected": [],
+    "post_alignment_input_mismatch_events_selected": [],
+    "household_exclusivity_boundary_generation_count": 2,
+    "household_case_generation_denominator": 3,
+    "case02_P08_CLaude_repeated_wording_findings": 9,
+    "case02_P08_available_Claude_reads": 9,
+    "case02_P08_generation_denominator": 3,
+    "facts_responsiveness_continuity_problem_ratings": 0,
+    "all_conversations_retained": true,
+    "all_input_causes_ruled_out": false,
+    "clinical_style_correctness_established": false,
+    "new_prompt_version_selected": null,
+    "bounded_cycle": "complete;retainv02;noadditionaldata/rerating/promptchangeinthisexperiment"
+  },
+  "results_sha256": "333199998b508a1d0f8f314b03c0481d6cf82b6182c8b9338abc26ddd12fed8b",
+  "prejudge_audit_sha256": "a79bee81e2745c0137726b8c014fb3e1a2ec580f1a32afb15c034cd0d909fef2"
+}

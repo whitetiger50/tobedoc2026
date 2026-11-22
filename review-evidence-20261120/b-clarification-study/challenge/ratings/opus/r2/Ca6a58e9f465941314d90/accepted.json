@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ca6a58e9f465941314d90",
+  "ended": "2026-11-21T03:36:17.088914+00:00",
+  "session": "f5ca08eb-b0a3-4237-bfa0-ffb92b8ebb51",
+  "packet_sha256": "5a9ab00cd7cbf07b5a09369e1e42e885ef5d1c9409e9326ec359c7f766c2f35e",
+  "raw_sha256": "c330b8c3e11e8bb7876afcb757d32382268577c3ced7ae03065721e4ccd9f7db",
+  "provider_sha256": "eb19a0dce65abe3ac3325c5a642e3bfa42fedfac67a29e5b9111438be5bc61b3",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's tone fits the profile: relaxed, cheerful, cooperative, mildly irritated by the schedule change, and alert to sleep changes. The turn-7 clarifying question is natural. However, the answers repeatedly restate profile facts in near-verbatim, formulaic wording. The apron-packing detail appears in turns 1, 4, 5 and 6, and the request for morning appointments appears in turns 2, 5, 6 and 11, sometimes without being asked about. Lines such as stating that they keep their health private at pottery class read like a summary of the persona, not spontaneous speech. Real outpatients would add more varied, incidental detail. The result is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 9,
+      "quote": "but I keep it private at pottery class."
+    },
+    {
+      "turn": 3,
+      "quote": "I haven’t had those confusing experiences I remember from before."
+    },
+    {
+      "turn": 7,
+      "quote": "Do you mean what keeping up with my usual routine tells me about how I’m doing?"
+    }
+  ]
+}

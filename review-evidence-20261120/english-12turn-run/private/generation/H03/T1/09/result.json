@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T1",
+  "turn": 9,
+  "question": "How do you feel about a bit of space?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-b224-71b1-8f15-6cf769fd68d2",
+  "raw": "Do you mean some quiet time while I gather my thoughts?",
+  "raw_sha256": "c3f015b2dd85c8ebffac7ac65e7ab363f236609357608bd95d07a9069d627fad",
+  "request_sha256": "52527e1b9b052a520c9b90b8b05956acea04163e56ee12546d6efbc56fce4086",
+  "started_utc": "2026-11-20T20:41:51.816925+00:00",
+  "completed_utc": "2026-11-20T20:41:56.575376+00:00",
+  "usage": {
+    "input_tokens": 7264,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 74,
+    "reasoning_output_tokens": 56
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a0cb64bfc543f2882800ae562c983b7d605e721b8341bda486f5885909e3315e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7a550aef12665470d7538d062633a29eed24c887cf0724876e8cf98d498d55a0"
+}

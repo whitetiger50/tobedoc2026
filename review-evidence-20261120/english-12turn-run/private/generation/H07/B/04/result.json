@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 4,
+  "question": "Could you give me an example of something you enjoyed noticing in the last few days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "A robin came to the feeder yesterday. I was washing a cup and stopped to watch it.",
+  "raw_sha256": "7828a1ce6b64ba8f98768ab510b56648513640c03b547b9deae2b4c8b230b72c",
+  "request_sha256": "c6926a2034e3cc3ed43fc79050d1539c3fbf391a8b64203a0e30b0e6d96658ce",
+  "started_utc": "2026-11-20T20:39:46.631887+00:00",
+  "completed_utc": "2026-11-20T20:39:50.713054+00:00",
+  "usage": {
+    "input_tokens": 30757,
+    "cached_input_tokens": 26240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b5c3fdd6c117c7d1d634517443a6d7a55e9f89d4ce77942ec6a3d6458357a1f4",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "785b568d94c24021181f207ba85e2179b1b144c387a5b136a0d7970dd82698b3"
+}

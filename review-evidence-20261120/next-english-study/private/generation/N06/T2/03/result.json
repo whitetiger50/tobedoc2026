@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 3,
+  "question": "Do you miss much of it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-426d-7661-a09b-20b2e0a2b7d9",
+  "raw": "No, just the odd line when it’s noisy. I can follow most of it.",
+  "raw_sha256": "62d27278e586352c5dd5e1492355d9bedbcad3a5b0915c613b70ddd6755b7300",
+  "request_sha256": "38145126b7dc56cd463b69a286c1b186ebe07ae2c753ba3bbca02b718571d943",
+  "started_utc": "2026-11-20T20:59:57.288478+00:00",
+  "completed_utc": "2026-11-20T21:00:01.519728+00:00",
+  "usage": {
+    "input_tokens": 6166,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "cf4b5a0e357dc46ca53dcd24ac1ef5a69102a0b5f955d4f488e3f88a30481e58",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "88de07e2f5a3ed559343ae49e9da5d2544d019d205e6296e93a5c8000c38d2db"
+}

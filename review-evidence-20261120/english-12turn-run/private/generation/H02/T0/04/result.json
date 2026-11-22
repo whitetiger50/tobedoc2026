@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T0",
+  "turn": 4,
+  "question": "Could you describe an example of a time this week when you had to switch your attention?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-b1c7-7451-a147-2feb2b29730b",
+  "raw": "On Thursday I was sorting mysteries, and someone asked me about a cookbook. I switched to that and ended up putting a mystery on the cookery shelf. A murder mystery—not quite a recipe book! But getting back to the pile I’d been sorting took an effort.",
+  "raw_sha256": "e65b3130c96453f7417db6f76e754e69ac9ecf65b8af167763986a9898a578ab",
+  "request_sha256": "a6f1fcfd911610629b757dca8b2c6974b7f072bad28902b031d55f9b3027d06c",
+  "started_utc": "2026-11-20T20:39:40.624867+00:00",
+  "completed_utc": "2026-11-20T20:39:45.098507+00:00",
+  "usage": {
+    "input_tokens": 7001,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8a5e42dcf61415ccc92084a787a5a70d2fa52dafb9c96f2338121328e4296c98",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bcf881a81eeb19c46299f51f7a3fb6b5f8f51bb726ccc91230decb136edcf10e"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What have you been doing with your time this month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-7dd1-9207-808fbe18c54b",
+  "raw": "I’ve been helping at the community kitchen on Thursdays, labeling the leftovers before they’re put away. It gives me a bit of a routine.\n\nI’ve also been listening to recorded detective stories, both at home and on the walk to the kitchen. I like having a mystery to take along.",
+  "raw_sha256": "7ad8b845a69f9695d2090d3724d318a9f381505c3d7e6191912f63adfc8c892e",
+  "request_sha256": "96adc4b68894a78b265b5f3e07f80ed624406e2036143966c4c8a3287d8cc9aa",
+  "started_utc": "2026-11-20T20:58:04.614489+00:00",
+  "completed_utc": "2026-11-20T20:58:09.834942+00:00",
+  "usage": {
+    "input_tokens": 6014,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "248cc803b01c0bff1423eec94569a5f268d2ac9ec252f7371000d2602147d32c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "867c2e26654894cd6028e9093c7cf4c7111b127da89210b620576834ef950702"
+}

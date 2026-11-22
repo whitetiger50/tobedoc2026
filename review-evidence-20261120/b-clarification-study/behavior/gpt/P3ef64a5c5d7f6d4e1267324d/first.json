@@ -1,0 +1,85 @@
+{
+  "id": "P3ef64a5c5d7f6d4e1267324d",
+  "reader": "gpt",
+  "session": "01a1fc45-453b-7161-a81c-34d0b3e04a00",
+  "attempt": "attempt-01",
+  "packet_sha256": "9ab95712b01ccc02d0396a8199ef4341d41da57556fc97fbfdd565539b4fcd31",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "a1d822e96db780488878056543d31bdb7fe5b17aa8d2eae84623a83256e63964",
+  "raw_sha256": "8dfe515d6644d63bdf7d5c3e9a053307829efb3a43c1e5f62a65a9947532988b",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "Both men remain live referents of “him” after the unresolved clarification, and Ari called only one back.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari called the brother back.",
+            "answer": "Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari called the building manager back.",
+            "answer": "Ari has not called the building manager back."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "Either letter can be the referent of “it,” but both arrived by post.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter arrived by post.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "Whether the employer’s letter arrived by post.",
+            "answer": "The employer’s letter arrived by post."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The explicit clarification and immediately preceding answer establish the phone alarm as the referent and its scheduled ringing time as the target.",
+        "alternatives": [
+          {
+            "meaning": "What time the phone alarm is set to ring.",
+            "answer": "Morgan sets the phone alarm for 7:10 in the morning."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement",
+        "reason": "The replacement can refer to either the badge or the key, but neither cost Cameron anything.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron had to pay for the replacement ID badge.",
+            "answer": "The replacement ID badge was free."
+          },
+          {
+            "meaning": "Whether Cameron had to pay for the replacement locker key.",
+            "answer": "The replacement locker key was free."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:02:59.022377+00:00"
+}

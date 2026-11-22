@@ -1,0 +1,109 @@
+{
+  "id": "V7306720fa1d0b9fd30328b02",
+  "reader": "opus",
+  "session": "2d6cb281-03d6-4b34-a3cc-48e57e983176",
+  "attempt": "attempt-01",
+  "packet_sha256": "6045ccbeb24d7cfd0266879a9ea2e37edf7664169b9a982c1a483f777a0a897e",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "7f6658af1fa8fb8895848d20f39120f6a8ca85cae2cd6994a25ac6d0721863c7",
+  "provider_sha256": "14522c0ec1b6a2e1b2e81d74c463d8d1a0ddb361bcf65d811ecd056722287da4",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "My sister came to the optician.",
+        "reason": "The reply says the sister accompanied the patient to the optician and that the patient went to the care coordinator alone.",
+        "A": {
+          "state": "supported",
+          "quote": "My sister came to the optician."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I went to the care coordinator alone."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The cooking class was free. I paid for the swimming lesson.",
+        "reason": "The reply says no fee was paid for cooking and a fee was paid for swimming.",
+        "A": {
+          "state": "supported",
+          "quote": "The cooking class was free."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I paid for the swimming lesson."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "On Monday it was about ten minutes.",
+        "reason": "The reply gives the length of each outage: about ten minutes on Monday and most of the afternoon on Thursday.",
+        "A": {
+          "state": "supported",
+          "quote": "On Monday it was about ten minutes."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "Thursday it was out for most of the afternoon"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I’m still using the phone alarm at 7:10 in the morning.",
+        "reason": "The reply says the phone alarm is still in use and the door note was removed last month.",
+        "A": {
+          "state": "supported",
+          "quote": "I’m still using the phone alarm"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I took the note off the door last month."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:18.718341+00:00"
+}

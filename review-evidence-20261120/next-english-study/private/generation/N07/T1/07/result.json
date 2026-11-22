@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 7,
+  "question": "How are you getting on with assignments at home and with time spent in class?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-df5d-7782-b4c8-d35af6595c7b",
+  "raw": "“I like the geography class. It’s the reading beforehand that’s harder, especially if there’s conversation around me. The slip of paper helped last week, but I’d like to do more before I leave home rather than on the way there.”",
+  "raw_sha256": "111e40dbcf1ca679ef300902223388d6c7de4dfd9ecd506d12fe66a691777c9a",
+  "request_sha256": "5918287c9d0cdbe569688a0204679d80a375a4690b014ea64498fcde1d27ccab",
+  "started_utc": "2026-11-20T21:01:43.029044+00:00",
+  "completed_utc": "2026-11-20T21:01:51.079364+00:00",
+  "usage": {
+    "input_tokens": 7495,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_output_tokens": 41
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "95ccfedbe9c4d563ac17880928d70a1678a98e90312adb69d1600a0c01f9dc14",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a453aee8573d24756bea740368a21e9a0e649677e947a689ffc9267e48bab923"
+}

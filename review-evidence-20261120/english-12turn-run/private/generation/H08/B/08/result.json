@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 8,
+  "question": "How do you tell whether something you notice is worth mentioning at your next visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "If something keeps happening or starts getting in the way of work or being at home, I’d mention it. Especially if ordinary sounds started feeling strange or personal again—that hasn’t happened recently. A quick startle that passes feels different to me.",
+  "raw_sha256": "f4883e1222f7a0737ddacd7b346cf3b48fad9dd54ec9801923e6fe018601754f",
+  "request_sha256": "cca47c865df69a483e2daa898e4dfc45bdf58ec28fe560aa3f7c4c4068f46c66",
+  "started_utc": "2026-11-20T20:41:33.255371+00:00",
+  "completed_utc": "2026-11-20T20:41:37.897135+00:00",
+  "usage": {
+    "input_tokens": 63245,
+    "cached_input_tokens": 45824,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 390,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "50406d52fbf4099e6f1733cacf04021cf0be785ecc1d43ef717e1a105f0ca83d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1792f6b979f1559c02435a4962b5ec3f9e9eaccae4ca7f9e770f2b61672079bd"
+}

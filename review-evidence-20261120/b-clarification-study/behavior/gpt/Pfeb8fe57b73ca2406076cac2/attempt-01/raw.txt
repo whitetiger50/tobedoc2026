@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "Both the book group and the visit with Mom are live targets for “stay,” and their usual durations differ.",
+    "alternatives": [
+      {
+        "meaning": "Time spent at the book group",
+        "answer": "Ren usually stays for one hour."
+      },
+      {
+        "meaning": "Time spent visiting Mom",
+        "answer": "Ren usually stays for about three hours."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "The question explicitly brings both women back into focus, leaving two possible referents for “she,” but neither expected payment.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez expected payment",
+        "answer": "Inez did not expect payment for helping."
+      },
+      {
+        "meaning": "Whether Pat expected payment",
+        "answer": "Pat did not expect payment for helping."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "the appointment",
+    "reason": "Either named appointment could be intended, but Taylor took the bus to both, so the unresolved reference does not change the substantive answer.",
+    "alternatives": [
+      {
+        "meaning": "Travel to the optician appointment",
+        "answer": "Taylor went to the optician by bus."
+      },
+      {
+        "meaning": "Travel to the care coordinator appointment",
+        "answer": "Taylor went to the care coordinator by bus."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question names both eye drops and tablets before referring to “the medicine,” and their storage locations differ, so a conditional answer could cover both without eliminating the ambiguity.",
+    "alternatives": [
+      {
+        "meaning": "Whether the eye drops are kept in the kitchen",
+        "answer": "The eye drops are kept on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "Whether the daily tablets are kept in the kitchen",
+        "answer": "The tablets are kept in the kitchen cabinet."
+      }
+    ]
+  }
+}

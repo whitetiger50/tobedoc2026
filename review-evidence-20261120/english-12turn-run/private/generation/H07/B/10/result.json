@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 10,
+  "question": "What is it like when someone tries to work out how you're feeling?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "Sometimes they think I’m sad. I might just be quiet.",
+  "raw_sha256": "6c9eb18ff1d5c82a6c402eeb28cf882989ca534d7d81bbe68e46db32c92845c9",
+  "request_sha256": "826b432b0c056e81f3a53fa6ba3a620d3f5fbd538c0d6feb8c134d934cebf361",
+  "started_utc": "2026-11-20T20:42:12.368406+00:00",
+  "completed_utc": "2026-11-20T20:42:16.168872+00:00",
+  "usage": {
+    "input_tokens": 78236,
+    "cached_input_tokens": 68352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 209,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "99da35b20e8aecd23593217eee335e9220ac0aac18bccb13d9051d63b7b5d7bf",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9a7c61c79125a1c870f8ffecd8e14d17dbb4eabff3536af79ce738066004e5b4"
+}

@@ -1,0 +1,76 @@
+{
+  "cycle": "M23",
+  "checked": "2026-11-20 Asia/Seoul",
+  "question": "Does the checked Zimmerer package supply matching patient/control statistics, reproducible linguistic measures and the same usable original stimulus for a new synthetic comparison?",
+  "decision": "Published clinical comparisons exist. A same-task, same-measure benchmark is not currently established. Keep M21 main generation on hold. Do not replace the original comic with a new comic and report the old group levels as a matching reference.",
+  "sources": [
+    {
+      "source": "Zimmerer et al. Cortex 195 (2026), 81–95; DOI 10.1016/j.cortex.2025.12.006",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10219274/1/Zimmerer_1-s2.0-S0010945225003193-main.pdf",
+      "sha256_of_retrieved_pdf": "8337c64292940bbed9481f170fea0d9034038435d03a0accb6d3a4bdffd9e4c3",
+      "locations": "Methods §§2.1–2.2; Table 3; Results §§3.1.2, 3.4; §3.4 paragraph immediately after Fig. 1 (journal p. 88): authors explicitly describe the correlation analysis as exploratory due to its post-hoc nature and numerous comparisons.",
+      "scope": "30 English-speaking patients with schizophrenia and 15 corresponding Newcastle healthy controls in the cartoon task. Original study also includes aphasia and London comparison groups; those cohorts are not used for the listed SZ contrasts. The clinical measure is an observed PANSS conceptual-disorganization item, while M21's previous interview cue was investigator-authored.",
+      "measurement": "The misdescriptions counted by the authors include wrong, odd and irrelevant descriptions per total propositions. Qualitative and emotional expression counts (including repetitions) are divided by words. The source within-SZ between-person evaluation composite uses standardized component measures. The M21 E and V differ in both operationalization and aggregation. Pauses require speech timing; ACS additionally requires the source controls’ sequences of coded propositions.",
+      "public_article_copy": "collaboration/strategy/M23-astra-led-operations-v01/evidence/Zimmerer-et-al-Cortex-2026.pdf",
+      "attribution": "Zimmerer et al., © 2025 The Author(s), published by Elsevier Ltd., Cortex 195 (2026) 81–95. Unmodified PDF from UCL Discovery. Article CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Original third-party cartoon excluded from any assumption of licensed reuse."
+    },
+    {
+      "source": "Author-posted R analysis and rendered outputs. Read from the immutable bytes fetched during M21, without executing R code or computing individual-level statistics.",
+      "project": "https://osf.io/6p5wu/",
+      "inventory": "https://api.osf.io/v2/nodes/6p5wu/files/osfstorage/",
+      "file": "https://osf.io/download/gde5x/",
+      "sha256_of_zip": "62cbf0fbab0011045e8d5a8f50abb8172a91704422c8ba71afd6f5167869ebb8",
+      "group_code": "R_analysis_code_and_output/R_analysis_code_and_output/R_analysis_markdown_scripts/Group_Differences_R_analysis.Rmd",
+      "group_output": "R_analysis_code_and_output/R_analysis_code_and_output/R_analysis_output/Group_Differences_R_analysis.html",
+      "how_to_locate": "Within the Newcastle regression section take the JointSZSZ predictor row under each listed outcome (not the earlier JointSZAphasia or later standardized cross-clinical comparison). Ref is NCNC. Rmd fits outcome ~ JointSZ + Age, uses emmeans and eff_size with fitted model residual sigma/df, and places the signed group effect in EffectSize. Ratio variables may be transformed; these are standardized model effects, not raw group means or per-person distributions.",
+      "between_group_published_model_outputs": [
+        {
+          "outcome": "Misconceptions_ratio",
+          "reported_measure": "misdescriptions",
+          "group_effect_d": 0.5312325,
+          "t": 1.678395,
+          "p": 0.100697
+        },
+        {
+          "outcome": "QLN_ratio",
+          "reported_measure": "qualitative language",
+          "group_effect_d": -0.7074804,
+          "t": -2.2228593,
+          "p": 0.031799
+        },
+        {
+          "outcome": "ELN_ratio",
+          "reported_measure": "emotional language",
+          "group_effect_d": -0.7453092,
+          "t": -2.354756,
+          "p": 0.023284
+        }
+      ],
+      "within_group_output": "R_analysis_code_and_output/R_analysis_code_and_output/R_analysis_output/Within_Group_Correlations_R_analysis.html; schizophrenia results rows 51 and 56",
+      "within_sz_correlations_from_author_output": [
+        {
+          "outcome": "misdescriptions",
+          "spearman_rho": 0.511393706,
+          "p": 0.003873328,
+          "fdr_p": 0.02582219
+        },
+        {
+          "outcome": "evaluative devices composite",
+          "spearman_rho": -0.608443559,
+          "p": 0.00046189,
+          "fdr_p": 0.0046189
+        }
+      ],
+      "interpretation": "The positive within-SZ between-person, cross-sectional correlation does not establish a patient-versus-control effect. The latter has a positive estimate and inconclusive conventional test for misdescriptions; p=.100697 does not establish zero or equivalence. Report all three author-posted model contrasts together; the group p values here are those printed, not new multiplicity-adjusted confirmatory tests. The two evaluation-language group effects refer to the separate qualitative and emotional rates. We did not locate a corresponding between-group comparison of the same standardized composite used for the correlation. Negative symptoms and medication are alternative contributors to group contrasts. No longitudinal or within-person change was measured. Confidence intervals for d were not supplied in the extracted output rows.",
+      "available_and_missing": "Code and HTML establish same-outcome contrasts that M22 did not have. We did not establish a ready-to-use bundle of the per-group raw mean, SD and individual distributions for all required measures in the inspected reports. Do not confuse age-regression intercepts with group means. A speaker-feature CSV is publicly indexed; M21 checked its header. OSF project license metadata had no license. No participant rows were extracted this cycle and permission for reuse or sending participant material to a provider is not assumed."
+    },
+    {
+      "source": "Authors' MacroNarr software repository; complete recursive Git tree response: truncated=false, 23 paths. README, documentation, test CSVs, assets, and source files.",
+      "url": "https://github.com/macronarr/macronarr/tree/0ee7e9f4322f465fce095205f5708e657ef92692",
+      "documentation": "https://github.com/macronarr/macronarr/blob/0ee7e9f4322f465fce095205f5708e657ef92692/MacroNarr_Documentation.pdf",
+      "attributions": "https://github.com/macronarr/macronarr/blob/0ee7e9f4322f465fce095205f5708e657ef92692/ATTRIBUTIONS.txt",
+      "observed": "Public instructions describe building a control-derived list of narrative concepts, talk of a future database and label distributed examples dummy data. Root has software licensing/attributions. No separately named Dinner Party eight-panel stimulus, stimulus-specific reuse permission or certified original control proposition-sequence reference was identified in the inspected tree and documentation. Clinical paper identifies Fletcher & Birt (1983) as separate source. Access, copyright and external delivery are unconfirmed, not proven prohibited. No images or dummy/participant sequences were sent to a model."
+    }
+  ],
+  "next_action": "Write one finite clinical-evidence brief addressing the original question. Contrast this anchor with Barch & Berenbaum (1997) in a separate patient speech-production task; record exactly which observable pattern each study supports. No new clinical claim from synthetic data."
+}

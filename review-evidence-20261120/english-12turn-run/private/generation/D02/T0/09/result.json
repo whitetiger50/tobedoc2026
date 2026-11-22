@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 9,
+  "question": "Could you give me an example of something another person did this week that was helpful or unhelpful?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-a7dc-7422-9479-cfdaabb584d4",
+  "raw": "My flatmate keeps a pencil by the shopping list. That’s helpful—writing the item down helps me keep track of it rather than losing it before it gets onto the list.",
+  "raw_sha256": "bd30d5bc056c7e0797468f39300b45261a5ff0368463a0bf76341073593602db",
+  "request_sha256": "7e201a4c3a68798e7d2f7960c49008f635e7d66e6987dde2e25e31e298d0f951",
+  "started_utc": "2026-11-20T20:33:04.909026+00:00",
+  "completed_utc": "2026-11-20T20:33:11.528093+00:00",
+  "usage": {
+    "input_tokens": 7382,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_output_tokens": 54
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "614fcf92d3a020402ac37191410c8b70e6e97b374b5cbecc64e0489565040f7f",
+  "trace_sha256": "4f05129a2853024531c2ca3c7a2be33138fefdf84fc22f74388270fc31ffccd0"
+}

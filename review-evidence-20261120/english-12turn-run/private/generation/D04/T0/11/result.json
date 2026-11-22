@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 11,
+  "question": "How well do the current appointment arrangements fit your life?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-e63b-7f93-b0bd-7630c85e4195",
+  "raw": "\"They could fit better around my shifts. I’d like us to agree on dates in advance so I can plan work around them—last-minute changes are frustrating.\"",
+  "raw_sha256": "73972d62beb78bfaa92a76feb5032a9b91c070d107bb816905f578e692469a3f",
+  "request_sha256": "0f0062b4474ceb428b025796257c33ee898e41c50e32e6a2f42aa71bc581c247",
+  "started_utc": "2026-11-20T20:33:20.877678+00:00",
+  "completed_utc": "2026-11-20T20:33:26.343855+00:00",
+  "usage": {
+    "input_tokens": 7325,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "35c2e857bb005b144c86e053811144b5a3a525a7c4c7acb22a1756b838381ce8",
+  "trace_sha256": "a08d231d625ea32c3d41c6448709470bda30fdb46c3f4992d2380e382c1efcd7"
+}

@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "For the number 8 bus, I get on at Orchard Road. For the tram, it’s Bell Square.",
+    "reason": "The reply explicitly gives the expected boarding stop for each mode of transport.",
+    "A": {
+      "state": "supported",
+      "quote": "For the number 8 bus, I get on at Orchard Road."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "For the tram, it’s Bell Square."
+    }
+  },
+  "v2": {
+    "quote": "Do you mean on Monday or on Thursday?",
+    "reason": "The reply asks which outage is meant without communicating either outage’s duration.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v3": {
+    "quote": "The commentary stops while I’m playing quiet music through my headphones. But the high ringing in both ears keeps going, even with the music on.",
+    "reason": "The reply states that commentary stops during headphone music while ringing continues.",
+    "A": {
+      "state": "supported",
+      "quote": "The commentary stops while I’m playing quiet music through my headphones."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "But the high ringing in both ears keeps going, even with the music on."
+    }
+  },
+  "v4": {
+    "quote": "About an hour at the book group, then around three hours with Mom.",
+    "reason": "The reply explicitly assigns the expected duration to each activity.",
+    "A": {
+      "state": "supported",
+      "quote": "About an hour at the book group"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "around three hours with Mom."
+    }
+  }
+}

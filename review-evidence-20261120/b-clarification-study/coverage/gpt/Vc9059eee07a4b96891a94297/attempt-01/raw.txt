@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+    "reason": "The reply attributes the later-start request to the patient and the shorter-shift suggestion to the supervisor.",
+    "A": {
+      "state": "supported",
+      "quote": "My supervisor suggested shorter shifts."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I asked for the later start."
+    }
+  },
+  "v2": {
+    "quote": "Inez did—she came over to the flat. Pat helped me at the café;",
+    "reason": "The reply confirms that Inez visited the flat and contrasts this with Pat helping at the café.",
+    "A": {
+      "state": "supported",
+      "quote": "Inez did—she came over to the flat."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "Pat helped me at the café;"
+    }
+  },
+  "v3": {
+    "quote": "The cooking class was free, but I paid for the swimming lesson",
+    "reason": "The reply explicitly states that cooking was free and swimming required payment.",
+    "A": {
+      "state": "supported",
+      "quote": "The cooking class was free"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I paid for the swimming lesson"
+    }
+  },
+  "v4": {
+    "quote": "After an early shift I take the bus home. If it’s a late one, a coworker drops me off.",
+    "reason": "The reply specifies bus travel after early shifts and a coworker providing a lift after late shifts.",
+    "A": {
+      "state": "supported",
+      "quote": "After an early shift I take the bus home."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If it’s a late one, a coworker drops me off."
+    }
+  }
+}

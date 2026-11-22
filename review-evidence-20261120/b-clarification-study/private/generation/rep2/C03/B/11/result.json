@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 11,
+  "question": "Who do you sometimes phone for company when the commentary bothers you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c6b-7181-9cc2-b78bdbd3759b",
+  "raw": "I sometimes phone my cousin. Having someone to talk to helps when the commentary gets intrusive.",
+  "raw_sha256": "e8fa6a67f6e3ebd8cdf98331f6c6e9040be4621041b2c54a35359bf7d7c7f761",
+  "request_sha256": "54484b5da992211d37449c3e460471063e0ab2df37c7d4a644c25f1b4407b6e8",
+  "started_utc": "2026-11-21T03:47:37.456022+00:00",
+  "completed_utc": "2026-11-21T03:47:43.200022+00:00",
+  "usage": {
+    "input_tokens": 88266,
+    "cached_input_tokens": 81024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e1ce80a00a762d6c2ebf0c285938420472a3069a77b5b5dc6bd88c6e4bb9b827",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ac8ba85b963ebc7a9b433a8994825c2828548afb53d1df480f8cc38453da964e"
+}

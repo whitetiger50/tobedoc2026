@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 8,
+  "question": "I mean a change in your usual sleep. What significance would such a change have for you personally?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "If I started sleeping less or going to bed much later, I’d take notice—it could be a sign I’m getting less settled. One odd night wouldn’t necessarily worry me, but if it kept happening, I’d talk to my partner and the clinic.",
+  "raw_sha256": "618f9ed3f848f5aa3ba76163e17246b9abc185aac5cda398ec764f180d80ebd9",
+  "request_sha256": "957a6e129e58837b3561d343e6004f0fdcf186fcb0504cef489f56985a577e1f",
+  "started_utc": "2026-11-20T20:41:27.169535+00:00",
+  "completed_utc": "2026-11-20T20:41:32.522800+00:00",
+  "usage": {
+    "input_tokens": 62820,
+    "cached_input_tokens": 49664,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 365,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e4289bb0642e6ef9dd9c392be5139324ae6b2322e39f316d940f3ddfa3eb3b17",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "97766c16f9dad949c9dd7625c750286b07836c77e3071e9f955e3f2feab216f5"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "P5c8dce37094bf58930d1dea4",
+  "reader": "opus",
+  "session": "915eb145-2ab5-4652-a674-80c556859ffd",
+  "attempt": "attempt-01",
+  "packet_sha256": "1081986a2b0e7056fdf744f2eb2129e8f650b5a963adcf5040000b68265c5bdd",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "04a5698ee440a832dc66dab8cf62e5708a881ecd866009a41754cbc16b29a146",
+  "raw_sha256": "f0d51b0376cdf50d90998df9442c08556f91bd60137e5ca4d878d0819c0f23be",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "Both the brother and Mr. Bell were just named, so \"he\" could mean either man, but each rang Ari's mobile last week, so the reply about reaching Ari on the mobile is the same for both.",
+        "alternatives": [
+          {
+            "meaning": "\"He\" refers to Ari's brother: did the brother contact Ari on the mobile?",
+            "answer": "Yes, the brother rang Ari's mobile last week (and Ari called him back)."
+          },
+          {
+            "meaning": "\"He\" refers to Mr. Bell, the building manager: did he contact Ari on the mobile?",
+            "answer": "Yes, Mr. Bell rang Ari's mobile last week (about replacing the hall light; Ari hasn't called back yet)."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "\"The appointment\" could mean either the optician or the care coordinator visit just mentioned, but Taylor took the bus to both, so the answer is the same.",
+        "alternatives": [
+          {
+            "meaning": "Asking about travel to the optician appointment.",
+            "answer": "Yes, Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Asking about travel to the care coordinator appointment.",
+            "answer": "Yes, Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you take food with you for your shift?",
+        "reason": "After early and late shifts are mentioned, \"your shift\" could mean either type, but Morgan packs a sandwich for every shift, so the reply is the same.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Morgan brings food for the early shift.",
+            "answer": "Yes, Morgan packs a sandwich for early shifts."
+          },
+          {
+            "meaning": "Asking whether Morgan brings food for the late shift.",
+            "answer": "Yes, Morgan packs a sandwich for late shifts too."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The previous exchange was only about the swimming lesson, and the cooking class was already settled as free, so \"it\" clearly means the swimming lesson.",
+        "alternatives": [
+          {
+            "meaning": "Asking where Jules goes for the swimming lesson.",
+            "answer": "The swimming lesson was at the Willow Street pool."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:33.753298+00:00"
+}

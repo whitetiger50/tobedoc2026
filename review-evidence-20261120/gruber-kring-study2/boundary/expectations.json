@@ -1,0 +1,12 @@
+{
+  "comparisons": [
+    {"pair": "length", "before": "K71", "after": "K52", "elaboration": "equal", "meaning_clarity": "equal"},
+    {"pair": "detail", "before": "K16", "after": "K38", "elaboration": "decrease"},
+    {"pair": "reference", "before": "K83", "after": "K94", "meaning_clarity": "increase"}
+  ],
+  "decision": "For each reader and scale separately, withhold superiority claims for that reader and scale if any prespecified relation on that scale fails. Report the other scale in the detail and reference pairs descriptively. Do not require an exact absolute grade or agreement between readers for these directional checks.",
+  "order": {
+    "opus": ["K94", "K38", "K52", "K83", "K71", "K16"],
+    "gpt": ["K16", "K83", "K71", "K38", "K94", "K52"]
+  }
+}

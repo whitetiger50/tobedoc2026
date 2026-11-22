@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-11-19T09:02:59.796301+00:00",
+  "profiles": [
+    {
+      "case_id": "DEV-M13-01",
+      "transcript_sha256": "8c999515ca0ea98a9bf79211430960559b6f46f7691baf6571945b95f1ed3ab8",
+      "target_P02": "남편이랑 같이 살고 있어요.",
+      "cohabitant_explicit": true,
+      "original_literal_template_eligible": true,
+      "eligibility_amendment_required": false,
+      "eligibility_basis": "Originalprewrittenrulemet;directcurrentcohabitantwithnoadditionalpropositions",
+      "additional_target_propositions": [],
+      "prior_or_later_cohabitation_or_floor_references": [],
+      "floor_stated_or_entailed_in_profile_or_dialogue": false,
+      "preexisting_target_register_problem": false,
+      "non_target_source_observations": [
+        "P07alreadymentionsgoal;P08reconfirmsgoal.Thisisretainedinallconditions;notanindependentraterfinding."
+      ],
+      "author_semantic_audit_not_clinical_validation": true,
+      "eligible_under_original_rule": true,
+      "proceeded_by_pre_rating_amendment": false,
+      "eligible_for_amended_pilot": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "transcript_sha256": "4810e2a2dbc82489ccd03869824a07c14fe93ddc04caabb0e4f3a31e214c092f",
+      "target_P02": "다 큰 딸하고 둘이 살고 있어요.",
+      "cohabitant_explicit": true,
+      "original_literal_template_eligible": false,
+      "eligibility_amendment_required": true,
+      "eligibility_basis": "Originalrulefailed;explicitpre-ratingexceptionpreservesadultdaughterandtwo-personhouseholdinI/N;nooutputselection",
+      "additional_target_propositions": [
+        "adult daughter",
+        "exactly two-person household"
+      ],
+      "prior_or_later_cohabitation_or_floor_references": [],
+      "floor_stated_or_entailed_in_profile_or_dialogue": false,
+      "preexisting_target_register_problem": false,
+      "non_target_source_observations": [
+        "Elevatorcontextdoesnotspecifyfloor.F1floorplausibilitydiffersfromothercases.Notaclincialraterfinding."
+      ],
+      "author_semantic_audit_not_clinical_validation": true,
+      "eligible_under_original_rule": false,
+      "proceeded_by_pre_rating_amendment": true,
+      "eligible_for_amended_pilot": true,
+      "preexisting_target_grounding_question": "Householdsize:둘이notexplicitintheprofile;potentialunsupportedrefinement,preservedinR/I/F1/N1/N2;F2removesit."
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "transcript_sha256": "2eb34548882eb74d7200724d5977967e5c39d3db6b59d3fb50e05d9a08f9789f",
+      "target_P02": "언니와 함께 살아요.",
+      "cohabitant_explicit": true,
+      "original_literal_template_eligible": true,
+      "eligibility_amendment_required": false,
+      "eligibility_basis": "Originalprewrittenrulemet;directcurrentcohabitantwithnoadditionalpropositions",
+      "additional_target_propositions": [],
+      "prior_or_later_cohabitation_or_floor_references": [],
+      "floor_stated_or_entailed_in_profile_or_dialogue": false,
+      "preexisting_target_register_problem": false,
+      "non_target_source_observations": [],
+      "author_semantic_audit_not_clinical_validation": true,
+      "eligible_under_original_rule": true,
+      "proceeded_by_pre_rating_amendment": false,
+      "eligible_for_amended_pilot": true
+    }
+  ],
+  "patient_outputs_read": 24,
+  "patient_outputs_modified": 0,
+  "numeric_ratings_seen": 0,
+  "final12_content_read": false
+}

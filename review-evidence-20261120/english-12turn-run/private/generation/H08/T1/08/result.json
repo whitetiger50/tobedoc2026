@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T1",
+  "turn": 8,
+  "question": "How do you tell whether something you notice is worth mentioning at your next visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-34dc-7400-a5ba-94b9f452f559",
+  "raw": "“I think about whether it’s just a brief reaction or a change from how I usually feel. Being startled by the machine didn’t stop me getting on with work. If ordinary sounds started unsettling me again, or seemed to have a message for me, I’d want to mention that.”",
+  "raw_sha256": "c9a3cd8eca1d0cc0216ddd6d1d891ce5f90f34674d74f7f781c5639e900921e9",
+  "request_sha256": "33925258531ebb9b82cc4f5b1ab3b584b578c985b3827f216c7a8c56fbb1abda",
+  "started_utc": "2026-11-20T20:41:19.734845+00:00",
+  "completed_utc": "2026-11-20T20:41:24.454347+00:00",
+  "usage": {
+    "input_tokens": 7331,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 61,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "20114ce2fef7b129513755a6978d5abdd54bb62ea56b7a925dd71c149bc14eca",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2ba1991b98550eefa4d36fc224148aa018e2d0420ee3ad74ab7d1501ad6eba39"
+}

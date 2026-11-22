@@ -1,0 +1,46 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 7,
+        "quote": "If there’s conversation around, I keep going over the same bit.",
+        "earlier_turn": 3,
+        "earlier_quote": "sometimes over the same bit",
+        "reason": "This repeats the turn 3 point that distraction makes the patient re-read the same passage. It may be legitimate because the question asks about assignments at home, where the patient lives with a sibling. If so, it applies known information to a new setting. But it adds no home-specific detail, so whether it does new work is ambiguous."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 2,
+        "quote": "I straightened a bent mudguard on my sibling’s bike last weekend.",
+        "reason": "Asked for an example of recent hands-on work, the patient describes a specific occasion with concrete actions: easing the mudguard back and spinning the wheel to check. This matches the profile fact about last weekend's mudguard repair."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

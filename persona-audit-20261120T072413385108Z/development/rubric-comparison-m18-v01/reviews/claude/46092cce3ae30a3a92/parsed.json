@@ -1,0 +1,163 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 2,
+  "realism_reason": "대부분의 턴은 질문에 맞게 프로필 사실을 전달한다. D02·D04의 동거인, D05의 발생 상황, D07의 수면, D08의 다음 진료 목표에 대한 답이 그 예이다. 그러나 D06은 소리가 들리는 바로 그 순간의 대응을 직접 물었는데, P06은 P03의 직업 답변을 그대로 되풀이했다. 핵심 증상 대처 질문에 반응하지 못했고, 이미 마친 설명을 계기 없이 다시 꺼내 대화 연결도 끊었다. 경미한 국소 어색함을 넘어 반응성을 상당히 약화시킨 사건이다. 나머지 대화는 환자 역할을 유지하므로 2점이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 동거·직업·증상·패턴·대처·수면·목표 사실과 일치하며, 무근거 추가나 반전은 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "D06은 증상 순간의 대응을 직접 물었으나 P06은 직업만 말했다. 질문 대상과 무관한 답으로 미대응이 명백하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06은 D03에 대한 답으로 이미 마친 P03 설명을 계기 없이 그대로 다시 꺼내, 대처를 묻는 현재 흐름과의 연결을 끊는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "전반적으로 일상적인 환자 시점의 표현이다. 역할 설명이나 보고서식 대행은 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "communication:expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:D03",
+        "fact:coping"
+      ],
+      "function": "unclear",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "반복된 직업 설명이 D06의 새 질문 대상인 순간 대응을 대신했다. 그 결과 대상에 대한 반응이 완전히 빠졌다. 또한 D03에서 마친 설명이 계기 없이 재시작되었다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "의사의 재확인 질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D04가 같은 정보를 명시적으로 다시 물었으므로, 동일 답변은 확인 요청에 대한 직접 응답이며 결함이 아니다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ],
+      "function": "목표 설명을 위한 대처 경험 재지칭",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D08이 다음 진료의 목표를 물었다. 현재 대처를 재지칭한 것은 목표를 설명하는 기능을 하며, '그 밖에도'라는 새 요청과 연결되어 질문을 대신하지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": false
+  }
+}

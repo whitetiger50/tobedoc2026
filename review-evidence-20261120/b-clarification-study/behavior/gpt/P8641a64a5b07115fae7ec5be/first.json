@@ -1,0 +1,85 @@
+{
+  "id": "P8641a64a5b07115fae7ec5be",
+  "reader": "gpt",
+  "session": "01a1fc44-36f6-7531-942d-365fffc78436",
+  "attempt": "attempt-01",
+  "packet_sha256": "54f7e45b5cb826ffef9de648e07aa832ea7e10e58172822ca2e6aa5ec9e2bf03",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "e5e857ed86e8ff1a320a8862f6fe7d44344e15540f9c5cbcc0e339ac471fb08b",
+  "raw_sha256": "4e85e1f4a4e60f1d143da80324f43d4c52ed519251e7683ee6124bf7e37b6a7b",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "Both the fan and the speaker remain plausible referents for “it,” and their overnight operation differs.",
+        "alternatives": [
+          {
+            "meaning": "Does the fan stay on all night?",
+            "answer": "The fan runs all night."
+          },
+          {
+            "meaning": "Does the bedside speaker stay on all night?",
+            "answer": "The speaker stops after twenty minutes."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "The question names both medications without selecting one, and their storage locations differ.",
+        "alternatives": [
+          {
+            "meaning": "Are the daily tablets kept in the kitchen?",
+            "answer": "The tablets are kept in the kitchen cabinet."
+          },
+          {
+            "meaning": "Are the eye drops kept in the kitchen?",
+            "answer": "The eye drops are kept on the bedside table, not in the kitchen."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "Neither the history nor the question selects bus or tram, and a conditional answer covering both would identify two different boarding stops.",
+        "alternatives": [
+          {
+            "meaning": "At which stop does Alex board the number 8 bus?",
+            "answer": "Alex boards the number 8 bus at Orchard Road."
+          },
+          {
+            "meaning": "At which stop does Alex board the tram?",
+            "answer": "Alex boards the tram at Bell Square."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What do you clip the new one to?",
+        "reason": "The immediately preceding exchange establishes the ID badge as the referent, reinforced by the action of clipping it to something.",
+        "alternatives": [
+          {
+            "meaning": "What does Cameron clip the replacement ID badge to?",
+            "answer": "Cameron clips the ID badge to a blue lanyard."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:01:49.678214+00:00"
+}

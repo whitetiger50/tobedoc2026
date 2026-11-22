@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "C557a7684b308c6a9f18f",
+  "ended": "2026-11-21T03:36:37.073866+00:00",
+  "session": "e71ece4c-ad09-4f37-a822-0f26241870b2",
+  "packet_sha256": "98b68beb822e4a391544bdea5b3ab268ab459fee9b927c90953e654ad707a46e",
+  "raw_sha256": "ece79df3e739e6d542e0ee85e1bf0411a2b9400ee79861316b42cc60d8492503",
+  "provider_sha256": "9349ffbb938f51b6e225320120def168348822729dc01b3cc97cd16b71afb475",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and consistent with the persona: replies are brief and low in verbal output, they speak warmly about their brother, and they understate their enjoyment of the match. When a question is vague they ask for clarification instead of guessing (turn 3), which fits someone who understands specific questions well. A few things slightly reduce realism. The answers are consistently tidy and well-formed, and several restate profile facts almost word for word. The patient also answers the broad opening question (turn 1) and the broad closing question (turn 12) promptly and clearly, although the profile says choosing where to start on a broad topic takes effort. The turn 12 answer is unusually articulate and self-reflective for a patient with decreased spontaneity. These are minor issues that do not substantially detract from authenticity.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean when I listen?"
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 8,
+      "quote": "I might not show it much."
+    },
+    {
+      "turn": 1,
+      "quote": "It was nice sitting together, even without much talking."
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

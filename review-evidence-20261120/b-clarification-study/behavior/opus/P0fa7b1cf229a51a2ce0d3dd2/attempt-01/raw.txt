@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "is there a deadline to reply to the letter?",
+    "reason": "Both letters are named just before the singular 'the letter', so either could be meant, and the answers differ: the housing letter needs a reply by Friday while the employer's letter needs no reply at all.",
+    "alternatives": [
+      {
+        "meaning": "The housing office letter",
+        "answer": "Yes, the housing office wants a reply by Friday."
+      },
+      {
+        "meaning": "The employer's letter",
+        "answer": "No, it is for information only, so there is no reply and no deadline."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Have you missed a tablet since then?",
+    "reason": "'Since then' could anchor to the visit three weeks ago or to the lower-dose start two weeks ago, and the one missed tablet falls between those dates, so the answer changes from yes to no.",
+    "alternatives": [
+      {
+        "meaning": "Since the last visit three weeks ago",
+        "answer": "Yes, one tablet was missed, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Since starting the lower dose two weeks ago",
+        "answer": "No, no tablets have been missed since the lower dose started."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did somebody go with you to the appointment?",
+    "reason": "Two appointments are named before the singular 'the appointment', and the facts differ: the sister went to the optician, but Taylor went to the care coordinator alone.",
+    "alternatives": [
+      {
+        "meaning": "The optician appointment",
+        "answer": "Yes, Taylor's sister went along to the optician."
+      },
+      {
+        "meaning": "The care coordinator appointment",
+        "answer": "No, Taylor went to the care coordinator alone."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "'She' could refer to Inez or to Pat, but neither expected payment, so both readings lead to the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether Inez, Sam's sister who came to the flat, expected payment",
+        "answer": "No, Inez did not expect payment for helping."
+      },
+      {
+        "meaning": "Whether Pat, who helped at the repair café and lent the pliers, expected payment",
+        "answer": "No, Pat did not expect payment for helping."
+      }
+    ]
+  }
+}
+```

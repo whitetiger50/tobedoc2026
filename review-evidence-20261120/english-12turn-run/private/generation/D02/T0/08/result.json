@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 8,
+  "question": "I mean the difference between a day when concentrating is easy and a day when it takes effort. What do you think might account for it, if you've noticed that difference?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-9117-7732-9627-dfe8b5756f7d",
+  "raw": "“Tiredness seems to make a difference—it’s harder to hold on to a thought then. Before lunch is usually easier, but I’m not really sure why it varies from one day to another.”",
+  "raw_sha256": "c3686d6998b0cce38da31919df8095cd3e8700aa3f2528a96796e4cc71697e72",
+  "request_sha256": "e1f1d31cb5a308e05f0eb29d491a36502b363c2cd62ac97a64b0080648ff6e00",
+  "started_utc": "2026-11-20T20:32:59.082128+00:00",
+  "completed_utc": "2026-11-20T20:33:03.299977+00:00",
+  "usage": {
+    "input_tokens": 7305,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f4f37ab30ba589bac8a859127547226e9d6b573fc5106b5c7d79c68fc5f8f404",
+  "trace_sha256": "6be302a24c520f02064138fa2b9d8f6e5c01dd832f9439a360ce00219ab53b39"
+}

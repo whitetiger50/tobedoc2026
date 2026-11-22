@@ -1,0 +1,85 @@
+{
+  "id": "Pa316473d7d3035ce00e367f2",
+  "reader": "opus",
+  "session": "cac45645-2172-4838-b1ae-b159b3430958",
+  "attempt": "attempt-01",
+  "packet_sha256": "ad709feccef32000c35fc69a1a0687f89015de39a39215fef338057dde80ba34",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "73542eecfad057c2bdf0f7993505a6b784dc970e6ea3057b1838888e33d311f8",
+  "raw_sha256": "801a34885be80cce090cecdeca55730fd5c27acfec58f62e2692b03db00256e5",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you take food with you for your shift?",
+        "reason": "After the interviewer names both early and late shifts, 'your shift' could mean either shift type, but Morgan packs a sandwich for every shift, so the reply is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan takes food to an early shift.",
+            "answer": "Yes, Morgan packs a sandwich for early shifts."
+          },
+          {
+            "meaning": "Whether Morgan takes food to a late shift.",
+            "answer": "Yes, Morgan packs a sandwich for late shifts too."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you have to pay for the replacement?",
+        "reason": "The singular 'the replacement' could refer to the ID badge or the locker key, but neither replacement cost anything, so the reply is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron paid for the replacement ID badge.",
+            "answer": "No, the replacement badge cost nothing."
+          },
+          {
+            "meaning": "Whether Cameron paid for the replacement locker key.",
+            "answer": "No, the replacement locker key cost nothing."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "Both letters are named just before the singular 'the letter', and they differ: the housing letter needs a reply by Friday, while the employer's letter needs no reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing office letter has a reply deadline.",
+            "answer": "Yes, the housing office wants a reply by Friday."
+          },
+          {
+            "meaning": "Whether the employer's letter has a reply deadline.",
+            "answer": "No, the work letter is for information only and needs no reply, so there is no deadline."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "in just one ear or in both?",
+        "reason": "The question directly follows an exchange solely about the high ringing, so 'it' pragmatically refers to the ringing, which Ari has already described as being in both ears.",
+        "alternatives": [
+          {
+            "meaning": "Whether the high-pitched ringing is heard in one ear or both.",
+            "answer": "Both ears; the high ringing is in both ears."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:52:46.730328+00:00"
+}

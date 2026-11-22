@@ -1,0 +1,77 @@
+{
+  "id": "P0013ac13fd77708c32aae961",
+  "reader": "gpt",
+  "session": "01a1fc43-96d3-7723-a78e-2ff78b84985f",
+  "attempt": "attempt-01",
+  "packet_sha256": "04a57d25f2dafa990c337ebd820be8047b0431264cbe0b18da4d4f66e3f9804b",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "9415e10ebc0300d7977a259c1cf5161049386fd483e479f2d179701bf45a59f0",
+  "raw_sha256": "25fb046eacfeebfdc25d9fcff1a919a7319996612cdc65a46d654d1f28e4a560",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "the new one",
+        "reason": "The immediately preceding clarification establishes the ID badge as the referent, and clipping it is consistent with that reading.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the replacement ID badge to.",
+            "answer": "The blue lanyard."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "that day",
+        "reason": "The immediately preceding exchange identifies Thursday, and the history already identifies Thursday’s broadcast.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio went silent on Thursday.",
+            "answer": "A music request show."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "The question introduces two distinct dates without clearly choosing one, and the missed tablet falls between them.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+            "answer": "One tablet was missed, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+            "answer": "No tablets have been missed during that period."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "set it for",
+        "reason": "The immediately preceding question and answer explicitly establish the phone alarm as the referent, even though its time has already been given.",
+        "alternatives": [
+          {
+            "meaning": "What time Morgan sets the phone alarm for the staff pass.",
+            "answer": "7:10 every morning."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:01:04.580735+00:00"
+}

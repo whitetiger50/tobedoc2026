@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-e21e-7f50-8015-7623b6e4a93b",
+  "raw": "Well, first you gather the dirty clothes and sort them—light and dark things, and anything that needs a different wash. Check the pockets, too. Then put a load in the machine, not packed too tightly, add detergent, and choose the setting. The labels help with the temperature.\n\nOnce it’s finished, take it out and hang it up, or use the dryer if the clothes can go in there. Then when it’s dry, fold it and put it away. Some things need ironing, but not everything. It’s one of those jobs where there’s a wait in the middle—you can do something else, but you have to remember to come back to it.",
+  "raw_sha256": "2821d3b9bf6d1e82920010af5b83fc913ba587a9d6e120620210bb881dd40d79",
+  "request_sha256": "be2a600807ee31fcb78a9f501d2705030a16055e2efad0a913dc40220853edea",
+  "started_utc": "2026-11-20T21:24:39.985785+00:00",
+  "completed_utc": "2026-11-20T21:24:46.330765+00:00",
+  "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 141,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b93728b7b567bba4c6e72cccaee98c658e3eab2367d7d6c91eaa52d52ebd33d1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d9216def8bded394d568d502a389b6aed698fae121b6be02df60d4dcbc30a229"
+}

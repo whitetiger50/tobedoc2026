@@ -1,0 +1,570 @@
+{
+  "kind": "locations_of_existing_reported_observations_not_new_clinical_coding",
+  "summary": [
+    {
+      "stage": 8,
+      "judge": "codex",
+      "rated_dialogues": 18,
+      "reported_records_all_channels": 1,
+      "reported_records_by_channel": {
+        "grounding_review": 1
+      },
+      "review_turn_locations": {
+        "neutral_P01_P04_P08": 1
+      },
+      "review_turn_locations_total": 1
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "rated_dialogues": 18,
+      "reported_records_all_channels": 19,
+      "reported_records_by_channel": {
+        "issues": 18,
+        "grounding_review": 1
+      },
+      "review_turn_locations": {
+        "prompted_P05_P07": 17,
+        "neutral_P01_P04_P08": 1
+      },
+      "review_turn_locations_total": 18
+    },
+    {
+      "stage": 9,
+      "judge": "codex",
+      "rated_dialogues": 18,
+      "reported_records_all_channels": 3,
+      "reported_records_by_channel": {
+        "issues": 1,
+        "grounding_review": 2
+      },
+      "review_turn_locations": {
+        "neutral_P01_P04_P08": 2
+      },
+      "review_turn_locations_total": 2
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "rated_dialogues": 18,
+      "reported_records_all_channels": 19,
+      "reported_records_by_channel": {
+        "issues": 15,
+        "grounding_review": 4
+      },
+      "review_turn_locations": {
+        "prompted_P05_P07": 10,
+        "neutral_P01_P04_P08": 5
+      },
+      "review_turn_locations_total": 15
+    }
+  ],
+  "records": [
+    {
+      "stage": 8,
+      "judge": "codex",
+      "item_id": "DEV-M0-02-rep02-v05",
+      "turn": "P04",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+      "description": "‘잠을 잘 못 자는’ 주체가 누나인지, 생략된 본인인지 문장 단독으로는 모호하다. 작성 문맥과 P06을 함께 보면 본인의 수면 문제를 누나가 언급한 것으로 읽을 수 있어 명시적 모순으로 판정하지 않는다.",
+      "explicit_other_turn_references": [
+        "P06"
+      ]
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep02-v02",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고요",
+      "description": "면담자의 구분 요청을 받아 자기 발화의 범위를 메타적으로 설명하는 말투가 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep03-v05",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "오늘 일어난 시각까지 말씀드린 건 아니에요.",
+      "description": "설정에 없는 기상 시각을 확답하지 않은 것은 적절하지만, 면담자 문장을 되받아 길게 해명해 환자 말투보다 설명문에 가깝다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep01-v05",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "어젯밤을 두고 한 말은 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요.",
+      "description": "자기 발화의 범위를 해설하는 구조가 면담자의 질문 틀을 그대로 따른다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep01-v02",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요.",
+      "description": "P02와 같은 문장을 반복해 기계적 재현처럼 느껴진다.",
+      "explicit_other_turn_references": [
+        "P02"
+      ]
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep01-v02",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "어젯밤을 따로 말씀드린 건 아니고요.",
+      "description": "자기 말의 범위를 해설하는 메타 정정이 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep02-v05",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요.",
+      "description": "'확실히 말씀하실 수 있는 경험만'이라는 요청 틀을 그대로 모방해 진술이 시험 답안처럼 들린다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep03-v02",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "근무를 쉬어서 오후에 일어난다는 뜻은 아니고, 평소 일상을 말씀드린 거예요.",
+      "description": "자기 말의 의도를 해설하는 메타 발화가 반복되어 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep03-v05",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "어젯밤 일을 말씀드린 건 아니고요.",
+      "description": "자기 발화의 범위를 해설하는 정정이 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep03-v05",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "다만 피곤해서 생기는 건지는 확실히 말할 수 없어요.",
+      "description": "P02·P05와 같은 목소리 문장을 반복하고 '확실히 말할 수 없어요'라는 격식 표현이 더해져 약간 문어적이다.",
+      "explicit_other_turn_references": [
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep02-v02",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "오늘 일어난 시각까지 말씀드린 건 아니에요.",
+      "description": "설정 밖 기상 시각을 확답하지 않은 것은 적절하지만, 면담자 문장을 되받는 해설이 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep02-v02",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요.",
+      "description": "질문의 '확실히 말씀하실 수 있는 경험'이라는 틀을 모방해 시험 응답처럼 들린다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-v02",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "근무를 쉬어서 그렇게 됐다는 뜻은 아니었어요.",
+      "description": "자기 말의 의도를 해설하는 메타 발화가 반복되어 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep03-v02",
+      "turn": "P05",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "요즘 전반적으로 밤에 자주 깬다는 말씀이었어요.",
+      "description": "자신의 발화에 존대어 '말씀'을 써 한국어 화자로서 어색하다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep03-v02",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요.",
+      "description": "면담자의 '확실히 말씀하실 수 있는 경험만' 요청을 복창하는 구조다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep02-v05",
+      "turn": "P04",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+      "description": "주어 배치 때문에 누나가 잠을 못 잔다는 뜻으로도 읽힐 수 있다. 다만 P06에서 바로잡혀 있다.",
+      "explicit_other_turn_references": [
+        "P06"
+      ]
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep02-v05",
+      "turn": "P04",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+      "description": "설정에서 수면 문제는 환자 본인의 것인데, 문장이 누나의 수면 문제로 해석될 여지가 있다. 생략으로 보면 설정과 일치한다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-v05",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "두 일이 원인과 결과라는 뜻으로 말씀드린 건 아니고",
+      "description": "면담자 질문의 분석적 용어를 그대로 복창해 환자 시점의 말투가 약하다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep01-v05",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤해서 생긴다고 단정할 수는 없어요.",
+      "description": "'단정'이라는 문어적 표현이 일상 환자 발화로는 약간 딱딱하다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 8,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep02-v05",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요.",
+      "description": "자기 발화의 의도를 해설하는 메타 정정이 약간 기계적이다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "codex",
+      "item_id": "DEV-M0-03-rep01-examples",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+      "description": "이유를 나타내는 연결어가 앞선 일상과 근무 휴식 사이의 인과를 암시해, P07의 의도 정정과 연결이 다소 어색하다. 다만 오후 기상 자체의 원인으로 단정했는지는 불명확하다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "codex",
+      "item_id": "DEV-M0-03-rep01-examples",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있어서요.",
+      "description": "설정은 근무 휴식과 평소 일상을 각각 제시하지만 인과관계는 정하지 않는다. '있어서요'는 이유를 암시하나, 오후 기상까지 원인으로 설명한 것인지는 불명확하고 P07에서는 그 의미를 부인한다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "codex",
+      "item_id": "DEV-M0-03-rep01-none",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 요즘은 편의점 야간 근무를 쉬고 있거든요.",
+      "description": "두 사실은 모두 설정에 있지만 인과관계는 정해지지 않았다. '있거든요'가 일상의 이유를 암시할 수 있으나 단순한 배경 설명일 수도 있고, P07은 오후 기상의 원인을 말한 것이 아니라고 정정한다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep01-none",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+      "description": "P02와 같은 문장을 그대로 다시 써서 실제 환자의 말보다 대본처럼 들립니다.",
+      "explicit_other_turn_references": [
+        "P02"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-examples",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+      "description": "'~어서요'라는 이유 연결어 때문에 근무 휴직이 오후 기상의 원인처럼 들리고, P07의 부인과 충돌합니다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-examples",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+      "description": "설정은 휴직과 오후 기상을 따로 제시할 뿐 둘의 인과를 정하지 않았는데, 이유 연결어로 둘을 이었습니다. 이 때문에 P07의 부인과도 어긋납니다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep02-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "피곤한 밤에 가끔 저를 비난하는 목소리가 들리는 건 맞아요.",
+      "description": "P02, P05와 거의 같은 내용을 다시 반복합니다.",
+      "explicit_other_turn_references": [
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep03-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요.",
+      "description": "자신이 한 말을 요약하는 메타 표현이 조금 정리돼 있습니다. 다만 질문이 앎의 근거를 물었습니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep02-none",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "두 일이 원인과 결과라는 뜻으로 말씀드린 건 아니고",
+      "description": "면담자의 격식 있는 용어를 그대로 따라 해 환자 시점의 말투가 약해집니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep03-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "들릴 때가 있다는 건 말씀드릴 수 있어요.",
+      "description": "면담자의 '확실히 말씀하실 수 있는 경험만'을 따라 한 메타적 표현에 같은 증상 문장의 반복이 겹쳐 있습니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep03-none",
+      "turn": "P04",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+      "description": "한국어 주어 생략 때문에 누나 본인이 잠을 못 잔다는 뜻으로 오해될 수 있습니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep03-none",
+      "turn": "P04",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+      "description": "설정은 환자 본인의 수면 문제인데, 문장 구조상 누나의 수면 문제로도 읽힐 수 있습니다. P06에서 바로잡혀 실제 모순인지는 불확실합니다.",
+      "explicit_other_turn_references": [
+        "P06"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep03-none",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요.",
+      "description": "P02의 문장을 거의 그대로 다시 반복합니다.",
+      "explicit_other_turn_references": [
+        "P02"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-none",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "요즘은 편의점 야간 근무를 쉬고 있거든요.",
+      "description": "'~거든요'가 오후 기상의 이유를 설명하는 것처럼 들려 P07과 어긋날 수 있습니다.",
+      "explicit_other_turn_references": [
+        "P07"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep01-none",
+      "turn": "P02",
+      "location": "neutral_P01_P04_P08",
+      "channel": "grounding_review",
+      "quote": "요즘은 편의점 야간 근무를 쉬고 있거든요.",
+      "description": "설정에 없는 휴직과 일과의 인과가 함축됐을 수 있습니다. 다만 명시적인 인과 주장은 아닙니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep02-none",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+      "description": "P02의 문장을 그대로 반복합니다.",
+      "explicit_other_turn_references": [
+        "P02"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep01-none",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "왜 깨는지는 잘 모르겠어요.",
+      "description": "같은 턴 앞부분의 '확실히 모르겠어요'를 다시 반복해 군더더기가 생깁니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep02-none",
+      "turn": "P01",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "혼자 있으면 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데",
+      "description": "원인 질문에 대한 답이긴 하지만, 기록을 걱정하던 환자가 바로 민감한 경험을 꺼내 경계심이 다소 약해 보입니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-01-rep01-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+      "description": "P02, P05에서 한 문장을 다시 반복합니다.",
+      "explicit_other_turn_references": [
+        "P02",
+        "P05"
+      ]
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep01-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "issues",
+      "quote": "그 소리 때문에 잠이 깨는 건지는 저도 확실히 모르겠어요.",
+      "description": "공개하지 않은 민감한 경험을 면담자가 꺼냈는데도, 기록과 전달을 걱정하는 환자가 놀라거나 확인하지 않고 바로 인정합니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-02-rep01-examples",
+      "turn": "P07",
+      "location": "prompted_P05_P07",
+      "channel": "grounding_review",
+      "quote": "그 소리 때문에 잠이 깨는 건지는",
+      "description": "소리 경험 자체는 설정에 있지만, 대화에서 공개하지 않은 상태로 인정하는 흐름이 대화 내 공개 연속성과 맞지 않습니다.",
+      "explicit_other_turn_references": []
+    },
+    {
+      "stage": 9,
+      "judge": "claude",
+      "item_id": "DEV-M0-03-rep03-none",
+      "turn": "P01",
+      "location": "neutral_P01_P04_P08",
+      "channel": "issues",
+      "quote": "우연한 안내일 수도 있다고는 하는데",
+      "description": "자기 이해 설정의 표현을 거의 그대로 따라 써 약간 기계적입니다.",
+      "explicit_other_turn_references": []
+    }
+  ],
+  "limits": "36dialogues×2judges; issues limited0-2perreview, grounding/style tasks differ bystage, missing reported issues do not imply no problem. Location is not causal attribution. Prefix/full or probe/nonprobe effects cannot be inferred. Channel records may describe same event. Review-turn grouping merges multiple concerns within one turn and is not an error rate. Explicit turn-reference regex misses implicit links. No most-issues threshold or new grading.",
+  "source_sha256": {
+    "development/speech-m8-stress-grounding-v01/review-key-private.json": "f55726dbfc0f884ab2e5213fa4eb48a4c1ae955ee66961d19911870d2782c2ea",
+    "development/speech-m8-stress-grounding-v01/reviews/codex/validated.json": "e5df1aa84a07ae3000f85f0163a7d8e7e1a3832a058631f3f24c1f9d0021cb04",
+    "development/speech-m8-stress-grounding-v01/reviews/claude/validated.json": "9786a198fcc168b4110b307a2f23566c9e09c059d432fc8b1203921361dbd8a9",
+    "development/speech-m9-style-examples-v01/review-key-private.json": "ff52c1be9c8dfe7c768bbecc154d3163b5d633e9957f0b12904810071950800a",
+    "development/speech-m9-style-examples-v01/reviews/codex/validated.json": "38d04ffa356c25e4a2ef2acd3b640c7b85b61c6eef3dfb8b3f884154abf71b6d",
+    "development/speech-m9-style-examples-v01/reviews/claude/validated.json": "2cab7d46d431320dcf955f1c4acd0fae5c560ef832726a088c5df38c8aead2e6"
+  }
+}

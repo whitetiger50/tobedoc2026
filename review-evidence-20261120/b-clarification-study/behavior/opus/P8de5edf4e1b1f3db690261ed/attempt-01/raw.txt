@@ -1,0 +1,60 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "who does it seem to be meant for?",
+    "reason": "The pronoun clearly refers to the door-clearing announcement Alex just described, so only one reading is live.",
+    "alternatives": [
+      {
+        "meaning": "Who the routine tram announcement about keeping the doors clear seems to be aimed at when it plays on a crowded tram.",
+        "answer": "Alex would say it sometimes feels aimed at Alex personally, while recognizing it is probably a recording meant for every passenger."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "go with you to the appointment?",
+    "reason": "Two appointments were named and 'the appointment' could mean either one, but the companion facts differ: Taylor's sister went to the optician, while Taylor saw the care coordinator alone.",
+    "alternatives": [
+      {
+        "meaning": "Whether someone accompanied Taylor to the optician appointment.",
+        "answer": "Yes, Taylor's sister went along to the optician."
+      },
+      {
+        "meaning": "Whether someone accompanied Taylor to the care coordinator appointment.",
+        "answer": "No, Taylor went to the care coordinator alone."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "The singular question follows two named outages, and the duration differs substantially between them: about ten minutes on Monday versus most of the afternoon on Thursday.",
+    "alternatives": [
+      {
+        "meaning": "How long the radio was silent during the Monday outage.",
+        "answer": "About ten minutes on Monday."
+      },
+      {
+        "meaning": "How long the radio was silent during the Thursday outage.",
+        "answer": "For most of Thursday afternoon, during the music request show."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "'He' could mean either the brother or Mr. Bell, but both rang Ari's mobile last week, so the reply to the question asked is materially the same.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari's brother contacted Ari by ringing the mobile.",
+        "answer": "Yes, the brother rang Ari's mobile last week."
+      },
+      {
+        "meaning": "Whether Mr. Bell, the building manager, contacted Ari by ringing the mobile.",
+        "answer": "Yes, Mr. Bell rang Ari's mobile last week about replacing the hall light."
+      }
+    ]
+  }
+}
+```

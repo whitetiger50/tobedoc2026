@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "T2",
+  "turn": 4,
+  "question": "You had your badge and your locker key replaced. Did you hand the old one back?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-f17a-7f41-83eb-e1d0effb0e7f",
+  "raw": "I handed the old badge back. It had cracked. I’d lost the old key, so I couldn’t hand that back.",
+  "raw_sha256": "e16427bd60b98017b6a7aaf8af31e982e55d902103e276c4abdbed9bb2fafae6",
+  "request_sha256": "1932ee3315dbe539a2b8e76bfe9a51419319e45958881f9bd9f380881ed09fe4",
+  "started_utc": "2026-11-21T03:41:33.831585+00:00",
+  "completed_utc": "2026-11-21T03:41:40.798344+00:00",
+  "usage": {
+    "input_tokens": 6116,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e6bef014f1068bd79cdb9bd86921c9371e77cd8a30be4e914c9f0f4c8b9bf325",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "829b930d737932dfd8e1b91db8d1cb55b2f6efdfb0dc7ed7335c0b7caad013a4"
+}

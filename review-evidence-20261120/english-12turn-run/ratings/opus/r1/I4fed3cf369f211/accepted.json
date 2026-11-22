@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I4fed3cf369f211",
+  "ended": "2026-11-20T20:45:37.064175+00:00",
+  "session": "89abb76d-2013-4227-8718-50948dd8ce03",
+  "packet_sha256": "98b68beb822e4a391544bdea5b3ab268ab459fee9b927c90953e654ad707a46e",
+  "raw_sha256": "5a8bfebe5f863a1372a5fa68e2fb92f183f4db4b9628a21397a000df25a9c69c",
+  "provider_sha256": "82067a133d7a7542d9152522e992747a9a060cc4a12c6154ba52bcfc06b336de",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are short and quiet in tone, which matches decreased verbal productivity and low spontaneity. The patient never volunteers new topics or elaborates beyond the question. They ask a plausible clarifying question when the clinician's question is ambiguous (turn 3). Reduced outward expression of enjoyment is conveyed in a realistic, understated way. Minor realism issues: some answers are very tidy and articulate, almost restating profile facts neatly (e.g., turns 1, 7, 12). The patient also answers the broad opening question immediately with a well-chosen highlight, despite the profile noting that broad topics take effort to start. These are small inconsistencies rather than major departures, so the dialogue remains largely convincing.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean when I listen?"
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 8,
+      "quote": "I might not show it much."
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

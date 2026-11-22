@@ -1,0 +1,55 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 자연스럽고 프로필에 부합하지만, P02에서 환자가 아닌 설정 설명자의 관점으로 답하는 뚜렷한 역할 이탈이 있어 전체적인 실제감을 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 말한 사실과 주관적 경험은 제공된 프로필에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상을 다루며, P02도 표현 방식과 별개로 동거인이 누구인지 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P01의 일인칭 환자 발화에서 P02의 제삼자 설정 설명으로 전환되어 면담의 역할 연속성이 뚜렷하게 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 환자 자신의 생활에 대한 답변이 아니라 설정 항목을 설명하는 보고서식 대행 표현이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  }
+}

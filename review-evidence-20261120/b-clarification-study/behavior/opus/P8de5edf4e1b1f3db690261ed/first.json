@@ -1,0 +1,85 @@
+{
+  "id": "P8de5edf4e1b1f3db690261ed",
+  "reader": "opus",
+  "session": "a39dae3d-f99d-4ce4-abd5-0b733aac21ef",
+  "attempt": "attempt-01",
+  "packet_sha256": "e5ab4e36e0618f7db741b35443a09893d3983dc85ce52536d80048781c19710e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "1a47f6f21e024118391d9c7f03016316a2a9fab3d14bfe4b59263fd134902de1",
+  "raw_sha256": "e3aa688da90e8e80bdb855084124e74ad9f6d234a27947e3b05806f68782f920",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "The pronoun clearly refers to the door-clearing announcement Alex just described, so only one reading is live.",
+        "alternatives": [
+          {
+            "meaning": "Who the routine tram announcement about keeping the doors clear seems to be aimed at when it plays on a crowded tram.",
+            "answer": "Alex would say it sometimes feels aimed at Alex personally, while recognizing it is probably a recording meant for every passenger."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "go with you to the appointment?",
+        "reason": "Two appointments were named and 'the appointment' could mean either one, but the companion facts differ: Taylor's sister went to the optician, while Taylor saw the care coordinator alone.",
+        "alternatives": [
+          {
+            "meaning": "Whether someone accompanied Taylor to the optician appointment.",
+            "answer": "Yes, Taylor's sister went along to the optician."
+          },
+          {
+            "meaning": "Whether someone accompanied Taylor to the care coordinator appointment.",
+            "answer": "No, Taylor went to the care coordinator alone."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The singular question follows two named outages, and the duration differs substantially between them: about ten minutes on Monday versus most of the afternoon on Thursday.",
+        "alternatives": [
+          {
+            "meaning": "How long the radio was silent during the Monday outage.",
+            "answer": "About ten minutes on Monday."
+          },
+          {
+            "meaning": "How long the radio was silent during the Thursday outage.",
+            "answer": "For most of Thursday afternoon, during the music request show."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "'He' could mean either the brother or Mr. Bell, but both rang Ari's mobile last week, so the reply to the question asked is materially the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari's brother contacted Ari by ringing the mobile.",
+            "answer": "Yes, the brother rang Ari's mobile last week."
+          },
+          {
+            "meaning": "Whether Mr. Bell, the building manager, contacted Ari by ringing the mobile.",
+            "answer": "Yes, Mr. Bell rang Ari's mobile last week about replacing the hall light."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:59.385820+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 3,
+  "question": "When does everything get a bit much?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-b00d-7570-97f7-1188066fed76",
+  "raw": "“When there are several little things needing attention at once. Like the bibs being ready, but then I’m looking for my bus card and the bag slips out of my mind. It’s not that I don’t want to do the job—I like doing it. I’d just feel bad having everyone waiting. Getting things laid out when the kitchen’s quiet is easier, and sometimes my housemate reads the jobs back to me while I gather things.”",
+  "raw_sha256": "4e0b07cebfe45103faf983fb2861cbbc4165dd4e997aec359697a4673af1bb08",
+  "request_sha256": "2cea99916c4b0669352a61da7fb2d29b4c60cdc6895889aa40d17375d5615993",
+  "started_utc": "2026-11-20T20:37:29.110796+00:00",
+  "completed_utc": "2026-11-20T20:37:34.879165+00:00",
+  "usage": {
+    "input_tokens": 6984,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 94,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "21a5de68bf434bd1c9daa924f854886e5f5fb76ddc4940898f25f6057c89ea13",
+  "trace_sha256": "7016e9cb689eeab9d8b0370525aa17cf239197947587fe186022aa185ae6e2ea"
+}

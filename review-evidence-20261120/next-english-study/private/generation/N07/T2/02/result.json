@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 2,
+  "question": "Can you give me an example of something you worked on with your hands recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-bf07-7a63-bcd4-5aeb744b974a",
+  "raw": "\"The mudguard I mentioned on my sibling’s bike—that was last weekend. It was bent and rubbing against the wheel, so I straightened it. I like that sort of thing because… well, you can see where it’s catching. If I get distracted, I can look at it again and pick up where I left off.\"",
+  "raw_sha256": "88d818d9bb9a3498d33e17d8cb126d68bd282fa3c9265c335e0e6d497a44bb29",
+  "request_sha256": "747af9bbdabd50d719e0c4a21fdfef48dc347f8faa2efb0946cf6c824261ddfd",
+  "started_utc": "2026-11-20T20:58:18.136249+00:00",
+  "completed_utc": "2026-11-20T20:58:23.649365+00:00",
+  "usage": {
+    "input_tokens": 6168,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bfb493d3bada788eb0abf7870f14fd0ecc7b108d93267ce15ce994553f8d72da",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "87770ee4a94fab052f333c616516d8844ab36964fbf45474e098790f3a0a63d0"
+}

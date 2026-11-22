@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 2,
+  "question": "Can you give me an example of something you worked on with your hands recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-f370-7801-a017-fc34ba8ff51d",
+  "raw": "“The mudguard I mentioned—that was last weekend. My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard. I like that sort of job. If I get distracted, I can look at it and see where I’ve got to.”",
+  "raw_sha256": "e8125f7f97c9886c992782da3745aa41e47634802991c123a1e9ab1defe40fe9",
+  "request_sha256": "20c382d04eb863c6079b9b27883e1b86d968ab77ff7ccbed4be95d53861632a9",
+  "started_utc": "2026-11-20T20:58:31.560682+00:00",
+  "completed_utc": "2026-11-20T20:58:35.866408+00:00",
+  "usage": {
+    "input_tokens": 7103,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c1b4f897dd0fcf22088c0625425490f758747949cd5b230d21411b0bb0c5bfe3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c522e1b1234ad17aea7a6ae69a93fe9bc6d1494115e5b6285e135be3f4d83aa0"
+}

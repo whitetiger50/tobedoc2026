@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I57bbfc949c8f5f",
+  "ended": "2026-11-20T20:36:55.472121+00:00",
+  "session": "76216124-7c3c-4fb2-a5f5-213fd4991d3a",
+  "packet_sha256": "e45cc488e8b03b423c9af947716a31500c88bfb2d5f658e157eea11dce6076aa",
+  "raw_sha256": "7741765e7967f8059b42e14d6ba9b03bfc8231ba85063a626b6741340aee3dc1",
+  "provider_sha256": "7ab663b1619312a6d0bedf20358ff7b4ce27e512ab64ea167b6f908f8502b0d1",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some content fits the persona well. The patient talks easily about the allotment and everyday mishaps. Their train of thought sometimes drifts, as at turn 1 where gloves lead into the string story. They visibly lose a thought in turn 3, which matches the profile's frustration about losing their place. Their hesitancy about raising difficulties with the relative also fits (turn 12). However, the identical doubled sentence 'I already put the paper in that drawer.' is tacked onto seven answers with no connection to the question, the persona or the conversation. It reads as an artificial insertion rather than a recognisable clinical feature, and it strongly undermines realism. The answers also repeat profile facts and the word 'frustrating' in nearly formulaic ways. Sensitive details come out unprompted very early: the string mishap in the opening answer and others' puzzled looks in turn 2. Quotation-mark formatting is inconsistent across answers. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I already put the paper in that drawer. I already put the paper in that drawer."
+    },
+    {
+      "turn": 4,
+      "quote": "I already put the paper in that drawer. I already put the paper in that drawer."
+    },
+    {
+      "turn": 1,
+      "quote": "I went to fetch some, stopped to rinse a pot, and then found I’d left the string in the shed."
+    },
+    {
+      "turn": 3,
+      "quote": "what was I going to say? That’s the frustrating bit, losing the point."
+    },
+    {
+      "turn": 12,
+      "quote": "they count on me to help, and I’m not quite sure how to bring it up."
+    }
+  ]
+}

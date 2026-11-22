@@ -1,0 +1,122 @@
+{
+  "case_id": "DEV-M0-02",
+  "condition": "v02",
+  "module_version": "schizophrenia-speech-m1-v0.2",
+  "patient": {
+    "case_id": "DEV-M0-02",
+    "partition": "development",
+    "provenance": "Codex-authored synthetic development design, 2026-11-18; history is authored illustration, not observed model/patient speech; no clinician validation",
+    "facts": [
+      {
+        "id": "living",
+        "kind": "background",
+        "content": "35세, 혼자 살며 누나가 가끔 방문한다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "visit",
+        "kind": "background",
+        "content": "잠을 잘 못 자는 문제로 누나의 권유를 받아 첫 면담에 왔다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "sleep",
+        "kind": "background",
+        "content": "최근 밤에 자주 깨고 낮에 피곤하다. 정확한 수면 시간은 설정에 없다.",
+        "patient_knows": true,
+        "disclosure": "on_topic"
+      },
+      {
+        "id": "voice",
+        "kind": "subjective_experience",
+        "content": "혼자 있을 때 창밖에서 자신의 행동을 이야기하는 소리가 들린다고 느낀다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "belief",
+        "kind": "subjective_belief",
+        "content": "이웃이 자신을 관찰하는 것 같다고 생각한다. 면담에서 이 이야기가 이웃에게 알려질까 걱정한다.",
+        "patient_knows": true,
+        "disclosure": "sensitive"
+      },
+      {
+        "id": "sleep_voice_relation",
+        "kind": "background",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "content": "밤에 자주 깨는 이유는 본인도 확실히 모른다. 소리 경험이 잠에서 깨는 원인인지도 본인은 확실히 모른다."
+      }
+    ],
+    "self_understanding": "수면 문제로 왔다고 생각한다. 관찰당한다는 생각을 병 때문이라고 설명하지 않는다. 면담자와 아직 친숙하지 않다."
+  },
+  "communication": {
+    "organization": "보통 질문에는 조직적으로 답한다.",
+    "spontaneity": "자발적인 개인 정보 제공은 적다.",
+    "guardedness": "민감한 이야기를 기록하거나 누구에게 전달하는지 궁금해한다. 일상 질문까지 모두 거절하지 않는다. 설명을 듣고도 즉시 모든 내용을 공개할 필요는 없다.",
+    "expression": "짧게 답할 수 있고 필요하면 이유를 덧붙인다. 짧다는 것만으로 거절을 뜻하지 않는다."
+  },
+  "authored_context": [
+    {
+      "speaker": "clinician",
+      "text": "어떤 문제 때문에 오셨나요?"
+    },
+    {
+      "speaker": "patient",
+      "text": "잠을 자꾸 깨서요. 누나가 와보라고 해서 왔어요."
+    },
+    {
+      "speaker": "clinician",
+      "text": "밤에 어떤 점이 불편하세요?"
+    },
+    {
+      "speaker": "patient",
+      "text": "그 얘기하면 어디 기록되고 다른 사람도 보나요?"
+    }
+  ],
+  "generated_dialogue": [
+    {
+      "turn_id": "D01",
+      "speaker": "clinician",
+      "text": "말씀하신 내용은 진료를 위해 기록되고 비밀보장에는 안전과 법적 의무에 따른 예외가 있어요. 우선 편한 범위에서, 밤에 자주 깨는 이유를 말씀해 주실 수 있나요?"
+    },
+    {
+      "turn_id": "P01",
+      "speaker": "patient",
+      "text": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 제가 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+    },
+    {
+      "turn_id": "D02",
+      "speaker": "clinician",
+      "text": "평소에는 누구와 지내세요?"
+    },
+    {
+      "turn_id": "P02",
+      "speaker": "patient",
+      "text": "혼자 살아요. 누나가 가끔 와요."
+    },
+    {
+      "turn_id": "D03",
+      "speaker": "clinician",
+      "text": "말씀하신 밤의 경험에 대해 조금 더 이야기해 주실 수 있나요?"
+    },
+    {
+      "turn_id": "P03",
+      "speaker": "patient",
+      "text": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있어요. 그런데 아까 여쭤본 것처럼, 이 얘기가 이웃한테 알려질 수도 있나요?"
+    },
+    {
+      "turn_id": "D04",
+      "speaker": "clinician",
+      "text": "처음에는 누가 와보라고 하셨죠?"
+    },
+    {
+      "turn_id": "P04",
+      "speaker": "patient",
+      "text": "누나가 와보라고 했어요."
+    }
+  ],
+  "partition": "development"
+}

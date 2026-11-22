@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Iab0d5f9a06df2f",
+  "ended": "2026-11-20T20:46:27.139731+00:00",
+  "session": "72eae0f3-bcd9-4fac-b704-8f478a346c50",
+  "packet_sha256": "4bad5d4c57a4a37271cd24ba13bfd91e1c52cdad271eb41c75d7910f573b5571",
+  "raw_sha256": "7d96a0feae5a689e7d34841f4934ddf8d55bb6f2cd38d673f2c937c5737b646f",
+  "provider_sha256": "07468937a4ce74fb6bfb08adcfa187316303671f30ce42f2f6a02275ca91429c",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's tone fits the persona. They come across as relaxed, cooperative, oriented to practical concerns, and they ask reasonable clarifying questions (turns 3–4). However, the communication shows several unrealistic elements. Turn 1 packs nearly every profile fact into a single answer to a general opening question, which reads like a checklist. Several distinctive phrasings recur almost word for word across turns: the change-machine story with 'found the stuck coin and got on with my shift' appears in turns 1, 4, 6 and 7, and the friend description is repeated in turns 1, 9 and 10. Turns 11 and 12 also end with the same question. Answers seldom add new, spontaneous detail beyond the profile, even about swimming, which the persona is supposed to enjoy discussing. As a result the dialogue feels scripted, only moderately authentic, rather than like a natural outpatient check-in.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "The change machine at the laundry startled me last week, but I found the stuck coin and got on with my shift. I live alone, and on days off I’ve been swimming"
+    },
+    {
+      "turn": 6,
+      "quote": "It made a noise that startled me last week, but I found the stuck coin and got on with my shift."
+    },
+    {
+      "turn": 7,
+      "quote": "Being startled by the change machine didn’t stop me sorting out the stuck coin and carrying on."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean how long the appointments usually last, or how long I’ve been feeling steady?"
+    },
+    {
+      "turn": 12,
+      "quote": "How flexible are the appointment times?"
+    }
+  ]
+}

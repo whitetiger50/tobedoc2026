@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "B",
+  "turn": 2,
+  "question": "How do you feel on the way home and once you have settled in?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e89-74d2-86bf-97aae7d0a843",
+  "raw": "Sometimes I feel a bit uneasy waiting for the bus, especially when people are standing close by. Once I’m home, I’m more comfortable and it’s easier to concentrate on my drawing.",
+  "raw_sha256": "5d2addfdab5fd5fac158c914b43f2a2150c2b3fe0a44a645fe35c9de936d2052",
+  "request_sha256": "2a3e33d1e148fff2ed16f615f6be04da436ca1fff432bff3f4a0cd2730647773",
+  "started_utc": "2026-11-20T20:58:10.284246+00:00",
+  "completed_utc": "2026-11-20T20:58:14.533434+00:00",
+  "usage": {
+    "input_tokens": 15712,
+    "cached_input_tokens": 11392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 83,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4666d24072c9ff14be0e434f455b50d9160c1d9c37de9cc210b2abed6d9d058e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9bc62469a109c4b159556147dc547bc296cd9f1d496923143999b0d756194263"
+}

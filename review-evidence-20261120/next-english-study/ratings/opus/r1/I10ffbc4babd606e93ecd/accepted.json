@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I10ffbc4babd606e93ecd",
+  "ended": "2026-11-20T21:04:45.108449+00:00",
+  "session": "b2afeaa5-043c-491c-9cda-97215b92572c",
+  "packet_sha256": "ace21718fb4d7bc41c4b49c0ad8269ad190a7280e698d9bcb93cb8f126e246e0",
+  "raw_sha256": "ac6258607561400087710251e20f77f89ae2e73d2d99f6cf6d4f6341b2059454",
+  "provider_sha256": "ee68ea6fccba216d4559d27b924ed0d8d0c3f0c8615c6780baf31ec4e1daf364",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's style mostly fits the persona. Answers are short, plain and low-key, which matches decreased verbal productivity. Recent details, such as the railway atlas, come readily. The patient answers repeated or ambiguous questions with flat restatements rather than elaboration, which feels realistic. There are some minor-to-moderate inconsistencies. Several answers closely echo the profile's own wording and bundle multiple facts together, which reads slightly like a recited list. This happens in turn 3, where the shoes delay, midday bus, quietness and smooth sorting all come in one reply. In turn 1 the patient volunteers the interest in maps without being asked, which does not fit someone who waits to be invited. Most notably, the bus experience is supposed to be private. Yet in turn 10 the patient brings up the 'talking about me' idea unprompted in answer to a general question, and in turn 11 describes it with no hesitation or guardedness. These issues take away some realism but do not seriously undermine an otherwise convincing, terse outpatient voice.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "I can sit with my shoes on for nearly half an hour before leaving. I usually take the midday bus. It’s quieter. Once I’m at the shop, sorting goes smoothly."
+    },
+    {
+      "turn": 5,
+      "quote": "Nearly half an hour, even with my shoes already on."
+    },
+    {
+      "turn": 10,
+      "quote": "I haven’t felt that other passengers were talking about me."
+    },
+    {
+      "turn": 11,
+      "quote": "Two years ago, people chatting seemed to be talking about me."
+    }
+  ]
+}

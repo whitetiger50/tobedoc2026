@@ -1,0 +1,79 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "프로필 사실과 맞고 의사의 잘못된 전제(아침 환청, 어머니가 빵 섭취)도 자연스럽게 정정한다. 다만 목소리 경험을 프로필 문구와 거의 같은 문장으로 세 번 반복해 다소 정형적인 느낌이 남는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "피곤한 밤에 들릴 때가 있다는 말이에요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "식사, 동거인, 목소리, 약 정보 모름 모두 프로필과 일치하며 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답했고, 모르는 약 정보는 제한했으며 잘못된 전제는 정정했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥 및 앞선 답과 모순이 없고, 같은 답 반복은 의사의 재확인 질문에 대한 응답이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "목소리 경험을 거의 같은 정형 문장으로 반복하고, 의사 지시 문구를 받아 '말씀드릴 수 있어요'로 답하는 등 국소적인 정형성이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D07",
+        "fact:voice"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

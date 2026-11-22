@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What do you do with an item when it first comes into the storeroom?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16a6-7eb3-82d4-18748bf7ee7d",
+  "raw": "I check the number on it, then make a paper label with the same number.",
+  "raw_sha256": "119554284fb67952ef999c10356c4aa20f15892571b7eb77ff61fa66c1c6c558",
+  "request_sha256": "612ca3751ac7dccc71a19f0a63869469c97a03594bab20266fd6c85fdc5d9350",
+  "started_utc": "2026-11-21T03:39:32.267279+00:00",
+  "completed_utc": "2026-11-21T03:39:36.255162+00:00",
+  "usage": {
+    "input_tokens": 5979,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "32252a185848635ad11f61ff00c542dca4793abe289bbcbbbf8c908b65814b67",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e97502973e15f8f53f251284eef26c08cda3943e196109a01006263cca38fa2b"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 7,
+  "question": "How do your work hours and clinic visits fit into your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7a43-b0bd-945ecb63c8a8",
+  "raw": "I open the shop three mornings a week, so I fit clinic visits around those when I can. Last week a coworker swapped opening days with me so I could make a morning appointment. That helped—I didn’t have to rush from one to the other.",
+  "raw_sha256": "c3574b6fdb909346cca5d239957bac455c802883f18516a94ac37d7588eaeda3",
+  "request_sha256": "16e5b789b8cde357f6b52422aafdcfbc43ecb496d60f82f10f58b94cfbd56bab",
+  "started_utc": "2026-11-20T21:01:37.146888+00:00",
+  "completed_utc": "2026-11-20T21:01:42.123776+00:00",
+  "usage": {
+    "input_tokens": 56021,
+    "cached_input_tokens": 46720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 320,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2ea58d5a1f233be4b8b7dd3a4093807435dfee64a24c1f435ae529e959414735",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "589c3d6a2eed351c4fb60c69670122ff91704151e9fcfbd8efdce5c515d77844"
+}

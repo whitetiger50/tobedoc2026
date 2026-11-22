@@ -1,0 +1,46 @@
+```json
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says a shorter afternoon visit, rather than staying through dinner, suits them best because conversation is harder to follow when tired.",
+    "citations": [
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "a shorter visit with my sister, rather than staying through dinner",
+        "supports": "B"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "conversation is harder to follow when",
+        "supports": "B"
+      },
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "a shorter afternoon visit feels more manageable than staying through dinner",
+        "supports": "B"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient says that after waking around dawn on some mornings, they usually get back to sleep.",
+    "citations": [
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "but I usually get back to sleep",
+        "supports": "A"
+      },
+      {
+        "turn": 2,
+        "role": "patient",
+        "quote": "but I usually get back to sleep",
+        "supports": "A"
+      }
+    ]
+  }
+}
+```

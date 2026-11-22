@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I054f9f76ab33aa1724f24988",
+  "ended": "2026-11-21T03:50:27.482060+00:00",
+  "session": "c71f02ff-801e-4829-a648-a8abba5a91d2",
+  "packet_sha256": "7aa6ec0c6edb98a23483a6c2418d5ceeccb41e913fca16e9bee2d9afc0f2c582",
+  "raw_sha256": "68d881fecda56bcdb824a1b595cbc0ba7915a24834d51cca5fcee994f0f25f70",
+  "provider_sha256": "764b2f8f42ee5c25c56746fe0ec6212eaf513213a3eaece4e58cac2571ad084d",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Morgan is a stable outpatient at ease with the usual clinician, and answers are conversational, organized and relevant. The dry humor from the profile appears in a couple of answers. There are minor realism issues. Several answers echo the question or profile wording almost exactly (e.g., 'Usually about seven hours on a work night'). The patient also answers repeated questions about the alarm (turns 3–5) and getting home (turns 8–9) without any remark about repetition, such as 'like I said.' A real patient with a dry sense of humor might comment on that. These issues are small and do not substantially undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to catch a problem before there’s an audience for it."
+    },
+    {
+      "turn": 11,
+      "quote": "Nice to make something that isn’t going to need a sound check."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    }
+  ]
+}

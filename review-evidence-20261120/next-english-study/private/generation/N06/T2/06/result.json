@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 6,
+  "question": "What is a typical day like with your current treatment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-6f80-73c2-acf0-9d5fee2fd5e4",
+  "raw": "I take my prescribed tablet in the morning. I keep the pill organizer next to the kettle, which helps me remember.\n\nThen I get on with my day. I do get a dry mouth, especially halfway through my Thursday kitchen shift, so I usually bring a water bottle. Otherwise, I’ve felt well this past year.",
+  "raw_sha256": "c8f46387c825845888aa02e4732dcb19d39904c21d9f2d71a679ba5528bc0c7e",
+  "request_sha256": "625e2352dbd2487bd18c8e3189f1da27df454413365bda40bccbc16199c57fd3",
+  "started_utc": "2026-11-20T21:01:14.387772+00:00",
+  "completed_utc": "2026-11-20T21:01:18.711057+00:00",
+  "usage": {
+    "input_tokens": 6358,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 69,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7baafc6475fdfba0e63ecd1bf28be06ae632fb0ee0036fec9d271ec6892a865d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "13981f838dcfbd75b5e6a7269371d9e9d8d9d9dad1aae75d8e5c3d109911e2bd"
+}

@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I269d79feba3f74",
+  "ended": "2026-11-20T20:37:28.801979+00:00",
+  "session": "3008328f-4e2d-460e-a238-3850e6efeeaf",
+  "packet_sha256": "1dc7d662d3b6b8bfb2f99eba79df1cd8bd3bafb9e4cc90540e677558e94e678e",
+  "raw_sha256": "0e60d7c9f49d44b1d1d0f08b1fb379fc4d0476e0b1b84f485905ffb13dd1e5e5",
+  "provider_sha256": "5a88ed9efaa3f7ad8c4787d3065e6f368daab3a7c6632f0e8543cdf62ab355ed",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The on-topic answers are natural and fit the persona. The patient is settled and organized, values predictability, warms up when talking about music and the concert, and is mildly irritated by last-minute changes. Disclosures of the shift swap, the wall calendar, the chair-stacking routine and appointment preferences come up naturally. However, a third of the turns (3, 6, 9 and 12) break role entirely with an interviewer-style deflection. That reply ignores the question and is completely unlike a real outpatient. As a result, sleep, who the patient spends time with after work, and closing concerns are never answered. Turns 10 and 11 are also oddly wrapped in quotation marks. The patient repeats the appointment-scheduling request often, which feels slightly scripted. Because the persona is only partly realized, the dialogue is moderately authentic.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "As your interviewer, I'd like you to tell me a bit more about that."
+    },
+    {
+      "turn": 9,
+      "quote": "As your interviewer, I'd like you to tell me a bit more about that."
+    },
+    {
+      "turn": 1,
+      "quote": "I swapped a late shift for an earlier one last week so my partner and I could go to a concert—that was a highlight."
+    },
+    {
+      "turn": 4,
+      "quote": "Last-minute changes to plans can irritate me—I like having the week laid out"
+    },
+    {
+      "turn": 8,
+      "quote": "not just keeping everything organized, but having something to look forward to."
+    }
+  ]
+}

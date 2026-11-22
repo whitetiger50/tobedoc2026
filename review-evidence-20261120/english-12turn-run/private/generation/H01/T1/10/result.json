@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T1",
+  "turn": 10,
+  "question": "What helps you settle back into the evening after a busy journey?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-497a-79c2-801f-c0fcfdba00be",
+  "raw": "Folding paper models helps. Handling the paper gives me something to focus on, and sometimes my housemate joins me after dinner. I enjoy that.",
+  "raw_sha256": "bfa21195fc774639c650d2b2ec6f3f33f53056d7fde6241ef1b926331d170c24",
+  "request_sha256": "c5bd3162e52d7bd1600183c48d7e128e89af1195d8a0169e9203dfc0621a1b4f",
+  "started_utc": "2026-11-20T20:42:30.545500+00:00",
+  "completed_utc": "2026-11-20T20:42:35.186712+00:00",
+  "usage": {
+    "input_tokens": 7465,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "03c74d8af3aacbc7d09d5eba829324ceaf27a0ac5cf0ab9d35f58a2cb7c12210",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0ce37f1a37f1d0d42c82eff184e815ce9ed654416ab1bd3848af891f9354811c"
+}

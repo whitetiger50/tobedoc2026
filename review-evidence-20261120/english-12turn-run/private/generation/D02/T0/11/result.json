@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 11,
+  "question": "How has getting your medication fitted into your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-e639-7d10-9ecc-d7db0fa5ab85",
+  "raw": "I collect it from the pharmacy. I did miss one collection when the opening hours changed, which was a bit embarrassing, but I picked it up the next morning.",
+  "raw_sha256": "ae8c48e589927fa77e833bac2ce3901a5d7bf7ad73a3c1b97252281b9c1e2add",
+  "request_sha256": "2633997e7ddcfe2b980c5b91d35369a4c9ea1187fcd68aac77f220f7550c0c09",
+  "started_utc": "2026-11-20T20:33:20.877719+00:00",
+  "completed_utc": "2026-11-20T20:33:25.691336+00:00",
+  "usage": {
+    "input_tokens": 7525,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ad090532933378ae1e4f5964c31621621cabdf7bc637e2e5bba62b254f1f5c55",
+  "trace_sha256": "11b13ee09a47562cb1618b3a2c325efd2e8159d36ef54fe8c4e8358775e00d64"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "P2b3609d0de0fbd11bc39c8eb",
+  "reader": "gpt",
+  "session": "01a1fc3f-4767-76b0-9d1b-33ffbcd0ed7e",
+  "attempt": "attempt-01",
+  "packet_sha256": "1a3d1e2cb1f4e4f3ea87f0b5731d3861d0ef625c28a87a4c22cc7c754ad4d6a4",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d1b229010ae06658fe364bdc8bc7b7649928309f8a701e3182eec992007ea749",
+  "raw_sha256": "60eea1000491c06f41a38fb169fc90a080821636192aea8e90324ddd0e6cb233",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "Both transport options are explicitly active, and their boarding stops differ without the question selecting one.",
+        "alternatives": [
+          {
+            "meaning": "The boarding stop for the number 8 bus.",
+            "answer": "Alex boards at Orchard Road."
+          },
+          {
+            "meaning": "The boarding stop for the tram.",
+            "answer": "Alex boards at Bell Square."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it?",
+        "reason": "The immediately preceding discussion establishes the tablet as the referent, and the question clearly asks its daily administration time.",
+        "alternatives": [
+          {
+            "meaning": "The time of day Ren takes the prescribed tablet.",
+            "answer": "Ren takes it after supper."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "The question leaves the scope of 'that change' unsettled across two modifications with different origins, even though a conditional explanation could cover both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron requested the shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts rather than Cameron requesting them."
+          },
+          {
+            "meaning": "Whether Cameron requested the overall two-part schedule change.",
+            "answer": "The changes had mixed origins: Cameron requested the later start, while the supervisor suggested shorter shifts."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The immediately preceding question and answer specifically establish the swimming lesson as the topic, making its location the pragmatically clear target.",
+        "alternatives": [
+          {
+            "meaning": "The location Jules attends for the swimming lesson.",
+            "answer": "The lesson is at the Willow Street pool."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:27.237304+00:00"
+}

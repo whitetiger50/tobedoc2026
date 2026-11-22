@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 7,
+  "question": "What tells you a busy day is still going reasonably well for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "I can keep up with customers and sort out little problems without them sticking in my head. I might feel tired or a bit flustered, but once it settles down, I feel like myself again.",
+  "raw_sha256": "b044a969e82fc77de473d645383211bc5f4a955f96016ae95208ed652b7c7332",
+  "request_sha256": "48517a3bbfd6cbd3129d217164289c62853fafc379c61f4597b557186e3429e7",
+  "started_utc": "2026-11-20T20:40:51.859258+00:00",
+  "completed_utc": "2026-11-20T20:40:56.495806+00:00",
+  "usage": {
+    "input_tokens": 55107,
+    "cached_input_tokens": 38272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 337,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1c0457e32bd819d8e918760ad3b0e5782e8ad030df98421c97b8ddf4b9ef9c45",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b5a8b33b727c7458c1f297cd27894815555f13eac05d781d8f7c4e1af8475943"
+}

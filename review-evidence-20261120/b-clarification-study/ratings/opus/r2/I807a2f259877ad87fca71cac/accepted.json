@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I807a2f259877ad87fca71cac",
+  "ended": "2026-11-21T03:50:36.626311+00:00",
+  "session": "f335d886-a9fe-4c6d-a6cd-ea26601d2479",
+  "packet_sha256": "5df2df9726ccf2a03b1a2f8b1934fc8d963a91e1fbf0e8e0ebffd45cf39ccb9b",
+  "raw_sha256": "882529638bf70432471ed5dcb490eb328418d1d5262d2dc2751ed3246af87885",
+  "provider_sha256": "1d2043f42a401a8e707ee2de5077709585441a2a50877145e297364badac0640",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are brief and concrete, and they track each question in order. This matches decreased verbal productivity, rarely starting new topics, and good organization on concrete questions (e.g., turn 7, turn 8). The patient talks openly about work and home routines, consistent with low guardedness on these topics. The schedule answers are differentiated and fit the stated self-understanding that a later start makes mornings easier (turn 12). Turn 5 asks again about the badge, already answered in turn 4. The patient answers plainly without noting the repetition, which reads as realistic for this persona. Minor issues: some phrasing closely mirrors the profile wording and sounds slightly scripted rather than spontaneous (turns 1 and 2). There are also no small hesitations, qualifiers, or fillers that might convey a soft-spoken, unhurried manner. These do not significantly detract from realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I check its number and make a matching paper label."
+    },
+    {
+      "turn": 2,
+      "quote": "No, neither cost anything."
+    },
+    {
+      "turn": 4,
+      "quote": "The badge, yes. I lost the old key."
+    },
+    {
+      "turn": 7,
+      "quote": "Mint."
+    },
+    {
+      "turn": 12,
+      "quote": "The later start. Mornings are easier."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "V80f33e41e23ff5285831ef5c",
+  "reader": "gpt",
+  "session": "01a1fc4b-9f6d-7f00-9d8e-1bb14e71b75e",
+  "attempt": "attempt-01",
+  "packet_sha256": "1113a0a3ba9de4fba0c5398fde77ac132f4c67d7b35169b683452cf9ceb5d72b",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "908e4df8b0f13a4835d3502c25e07251986640f85aaf5eab6cf8b0da9c8665ac",
+  "provider_sha256": "3c09db15db7969806a6c818db13b12a3b0ea5b2f14e0a236c02f55da5a55db21",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I still use the phone alarm at 7:10 in the morning. I took the note off the door last month.",
+        "reason": "The reply confirms continued use of the phone alarm and removal of the door note last month.",
+        "A": {
+          "state": "supported",
+          "quote": "I still use the phone alarm at 7:10 in the morning."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I took the note off the door last month."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+        "reason": "The reply attributes the later-start request to the patient and the shorter-shift suggestion to the supervisor.",
+        "A": {
+          "state": "supported",
+          "quote": "My supervisor suggested shorter shifts."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I asked for the later start."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the commentary or the high-pitched ringing?",
+        "reason": "The reply asks which sound is meant without stating whether either stops during music.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean since our last visit, or since I started the lower dose?",
+        "reason": "The reply asks which timeframe is meant without stating whether any tablets were missed in either period.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:50.458993+00:00"
+}

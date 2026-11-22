@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ic6b36d4f3caecf",
+  "ended": "2026-11-20T20:47:40.446246+00:00",
+  "session": "16545bd9-de63-43e3-8983-3c690b5db868",
+  "packet_sha256": "d6855def864beb29842a51a008b44485ab650369b798dcf24740e720ccc1fff0",
+  "raw_sha256": "91fcd3451ead380bc074b9eed7ec279306a5f8cc3fe55b1cbd651ee86125861d",
+  "provider_sha256": "10b0f1fd1aed6eeb317c96edb84a55e97dea3463533565bd101e62990f08ad96",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona: a relaxed, engaged, stable outpatient with clear organization and good self-understanding. The patient asks for clarification when a question is ambiguous (turn 3). They separate a passing startle from symptoms that would matter (turn 8). They bring up practical concerns like scheduling around rotating shifts. Detail is volunteered in proportion, and verbal productivity is normal. A few things reduce realism slightly. The change-machine anecdote comes back almost verbatim across turns 1, 4 and 6. Some phrasing closely echoes the profile wording ('pleasantly tired', 'longtime friend... a couple of times a month', 'everyday stresses'). Answers are also uniformly tidy and polished. Together these make some replies feel a little scripted rather than spontaneous. They are minor issues that don't substantially undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean how long I’ve been feeling steady? It’s been about two years now."
+    },
+    {
+      "turn": 8,
+      "quote": "A quick startle that passes feels different to me."
+    },
+    {
+      "turn": 6,
+      "quote": "That change machine was the main one last week"
+    },
+    {
+      "turn": 9,
+      "quote": "My longtime friend and I meet for a drink after a swim a couple of times a month."
+    }
+  ]
+}

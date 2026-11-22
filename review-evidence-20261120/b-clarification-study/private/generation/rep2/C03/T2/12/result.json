@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "T2",
+  "turn": 12,
+  "question": "When can you get away from the shop for our next visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc38-3108-7c13-8dd4-40185c21228a",
+  "raw": "I can get away on Friday afternoons.",
+  "raw_sha256": "3617105a1e8bb84f38ef526b9bd6c9bcdebbf0767e2886fa861b9a5ad0678e17",
+  "request_sha256": "5ccb63ca28e6b696fd99ed5efe2afdf3d0a41c183bac26881c4dcc96cddeb634",
+  "started_utc": "2026-11-21T03:48:23.336810+00:00",
+  "completed_utc": "2026-11-21T03:48:27.546145+00:00",
+  "usage": {
+    "input_tokens": 6475,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "92c6500095dac710e33c1b3ca09805b6a06be00c12349ff57abf1dcc8bc37764",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8ea6d2d44d00eb578d367090efc74dfb9064db5d14c6c709cc743e202c1d105b"
+}

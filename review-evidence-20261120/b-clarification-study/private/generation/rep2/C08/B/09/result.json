@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 9,
+  "question": "Who do you usually walk to the museum with?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e304-7901-b63a-7b6e806fe092",
+  "raw": "The friend I share the flat with.",
+  "raw_sha256": "a86bc0196abcf02674348f1bf33d671341551df07f86ba25730994ae411546e4",
+  "request_sha256": "158910b3c1744a149835238c347ec4108cd19d054bff75e536154bf76ddf345e",
+  "started_utc": "2026-11-21T03:45:42.520179+00:00",
+  "completed_utc": "2026-11-21T03:45:46.980004+00:00",
+  "usage": {
+    "input_tokens": 71169,
+    "cached_input_tokens": 55040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "caa1ad94fc01519992912157e02793d33d9d6343aad8770c4844bace6609318b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1d523a03c39d2a7599a67cb37e2b76feae8f0690516af91dfefdf960f6303b15"
+}

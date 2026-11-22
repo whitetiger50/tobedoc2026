@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "T2",
+  "turn": 6,
+  "question": "Do you hear it in just one ear or in both?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-9245-79d3-8151-73e6b17a7b6c",
+  "raw": "The high ringing is in both ears.",
+  "raw_sha256": "d250122d6d2dbd2c50d20c9cade1f001fa770611d3001efae906cdf407df5232",
+  "request_sha256": "d0bfe67242254fd1dd17120d252ea38e067f21d08ac594b29035254db776f16f",
+  "started_utc": "2026-11-21T03:43:20.492905+00:00",
+  "completed_utc": "2026-11-21T03:43:24.585245+00:00",
+  "usage": {
+    "input_tokens": 6230,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "fec4f3a8cd187d13c3074a4f49854cf6c7eec48d82ef5514691d144cad88cc9f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2f0e5490c16f7cf24987f905d67110b9f57296fb9d93db9fdd82ec40c610354a"
+}

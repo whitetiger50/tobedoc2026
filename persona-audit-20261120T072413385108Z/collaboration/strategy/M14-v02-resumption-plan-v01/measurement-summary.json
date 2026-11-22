@@ -1,0 +1,1374 @@
+{
+  "M12": {
+    "profiles": 3,
+    "natural_fixed_texts": 12,
+    "calls": 90,
+    "natural_codex_realism": {
+      "texts_planned": 12,
+      "numeric_ratings": 36,
+      "complete_texts_for_ICC": 12,
+      "all3equal_texts": 12,
+      "exact_numeric_pair_matches": 36,
+      "numeric_pair_count": 36,
+      "exact_numeric_pair_agreement": 1.0,
+      "mean_absolute_numeric_pair_difference": 0.0,
+      "ordinal_alpha": {
+        "value": null,
+        "reason": "expected_disagreement_zero_constant_scores",
+        "observed_disagreement": 0.0,
+        "expected_disagreement": 0.0,
+        "pairable_ratings": 36,
+        "category_counts": {
+          "4": 36
+        }
+      },
+      "linear_weighted_kappa_by_pair": [
+        {
+          "rounds": [
+            1,
+            2
+          ],
+          "paired_texts": 12,
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0
+        },
+        {
+          "rounds": [
+            1,
+            3
+          ],
+          "paired_texts": 12,
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0
+        },
+        {
+          "rounds": [
+            2,
+            3
+          ],
+          "paired_texts": 12,
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0
+        }
+      ],
+      "round_score_counts": [
+        {
+          "4": 12
+        },
+        {
+          "4": 12
+        },
+        {
+          "4": 12
+        }
+      ],
+      "observed_text_ranges": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ICC_primary_exploratory_oneway": {
+        "ICC11": null,
+        "ICC1k": null,
+        "reason": "zero_between_and_within_variation",
+        "n": 12,
+        "k": 3,
+        "MS_between": 0.0,
+        "MS_within": 0.0,
+        "within_text_SD": 0.0,
+        "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+      },
+      "ICC_twoway_sensitivity": {
+        "A1": null,
+        "Ak": null,
+        "C1": null,
+        "Ck": null,
+        "k": 3,
+        "n": 12,
+        "MS_rows": 0.0,
+        "MS_columns": 0.0,
+        "MS_residual": 0.0,
+        "undefined_forms": [
+          "A1",
+          "Ak",
+          "C1",
+          "Ck"
+        ],
+        "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+      },
+      "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+    },
+    "natural_claude_realism": {
+      "texts_planned": 12,
+      "numeric_ratings": 36,
+      "complete_texts_for_ICC": 12,
+      "all3equal_texts": 11,
+      "exact_numeric_pair_matches": 34,
+      "numeric_pair_count": 36,
+      "exact_numeric_pair_agreement": 0.9444444444444444,
+      "mean_absolute_numeric_pair_difference": 0.05555555555555555,
+      "ordinal_alpha": {
+        "value": 0.890625,
+        "reason": null,
+        "observed_disagreement": 18.0,
+        "expected_disagreement": 164.57142857142858,
+        "pairable_ratings": 36,
+        "category_counts": {
+          "4": 16,
+          "3": 20
+        }
+      },
+      "linear_weighted_kappa_by_pair": [
+        {
+          "rounds": [
+            1,
+            2
+          ],
+          "paired_texts": 12,
+          "value": 0.8333333333333334,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.08333333333333333,
+          "expected_disagreement": 0.5
+        },
+        {
+          "rounds": [
+            1,
+            3
+          ],
+          "paired_texts": 12,
+          "value": 0.8333333333333334,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.08333333333333333,
+          "expected_disagreement": 0.5
+        },
+        {
+          "rounds": [
+            2,
+            3
+          ],
+          "paired_texts": 12,
+          "value": 1.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.4861111111111111
+        }
+      ],
+      "round_score_counts": [
+        {
+          "4": 6,
+          "3": 6
+        },
+        {
+          "4": 5,
+          "3": 7
+        },
+        {
+          "4": 5,
+          "3": 7
+        }
+      ],
+      "observed_text_ranges": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "ICC_primary_exploratory_oneway": {
+        "ICC11": 0.8962264150943396,
+        "ICC1k": 0.9628378378378378,
+        "reason": null,
+        "n": 12,
+        "k": 3,
+        "MS_between": 0.7474747474747475,
+        "MS_within": 0.027777777777777776,
+        "within_text_SD": 0.16666666666666666,
+        "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+      },
+      "ICC_twoway_sensitivity": {
+        "A1": 0.8962264150943396,
+        "Ak": 0.9628378378378378,
+        "C1": 0.8962264150943396,
+        "Ck": 0.9628378378378378,
+        "k": 3,
+        "n": 12,
+        "MS_rows": 0.7474747474747475,
+        "MS_columns": 0.027777777777777776,
+        "MS_residual": 0.027777777777777776,
+        "undefined_forms": [],
+        "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+      },
+      "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+    },
+    "strata": {
+      "codex": {
+        "four_turn": {
+          "texts_planned": 6,
+          "numeric_ratings": 18,
+          "complete_texts_for_ICC": 6,
+          "all3equal_texts": 6,
+          "exact_numeric_pair_matches": 18,
+          "numeric_pair_count": 18,
+          "exact_numeric_pair_agreement": 1.0,
+          "mean_absolute_numeric_pair_difference": 0.0,
+          "ordinal_alpha": {
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0,
+            "pairable_ratings": 18,
+            "category_counts": {
+              "4": 18
+            }
+          },
+          "linear_weighted_kappa_by_pair": [
+            {
+              "rounds": [
+                1,
+                2
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            },
+            {
+              "rounds": [
+                1,
+                3
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            },
+            {
+              "rounds": [
+                2,
+                3
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            }
+          ],
+          "round_score_counts": [
+            {
+              "4": 6
+            },
+            {
+              "4": 6
+            },
+            {
+              "4": 6
+            }
+          ],
+          "observed_text_ranges": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ICC_primary_exploratory_oneway": {
+            "ICC11": null,
+            "ICC1k": null,
+            "reason": "zero_between_and_within_variation",
+            "n": 6,
+            "k": 3,
+            "MS_between": 0.0,
+            "MS_within": 0.0,
+            "within_text_SD": 0.0,
+            "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+          },
+          "ICC_twoway_sensitivity": {
+            "A1": null,
+            "Ak": null,
+            "C1": null,
+            "Ck": null,
+            "k": 3,
+            "n": 6,
+            "MS_rows": 0.0,
+            "MS_columns": 0.0,
+            "MS_residual": 0.0,
+            "undefined_forms": [
+              "A1",
+              "Ak",
+              "C1",
+              "Ck"
+            ],
+            "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+          },
+          "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+        },
+        "eight_turn": {
+          "texts_planned": 6,
+          "numeric_ratings": 18,
+          "complete_texts_for_ICC": 6,
+          "all3equal_texts": 6,
+          "exact_numeric_pair_matches": 18,
+          "numeric_pair_count": 18,
+          "exact_numeric_pair_agreement": 1.0,
+          "mean_absolute_numeric_pair_difference": 0.0,
+          "ordinal_alpha": {
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0,
+            "pairable_ratings": 18,
+            "category_counts": {
+              "4": 18
+            }
+          },
+          "linear_weighted_kappa_by_pair": [
+            {
+              "rounds": [
+                1,
+                2
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            },
+            {
+              "rounds": [
+                1,
+                3
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            },
+            {
+              "rounds": [
+                2,
+                3
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            }
+          ],
+          "round_score_counts": [
+            {
+              "4": 6
+            },
+            {
+              "4": 6
+            },
+            {
+              "4": 6
+            }
+          ],
+          "observed_text_ranges": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ICC_primary_exploratory_oneway": {
+            "ICC11": null,
+            "ICC1k": null,
+            "reason": "zero_between_and_within_variation",
+            "n": 6,
+            "k": 3,
+            "MS_between": 0.0,
+            "MS_within": 0.0,
+            "within_text_SD": 0.0,
+            "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+          },
+          "ICC_twoway_sensitivity": {
+            "A1": null,
+            "Ak": null,
+            "C1": null,
+            "Ck": null,
+            "k": 3,
+            "n": 6,
+            "MS_rows": 0.0,
+            "MS_columns": 0.0,
+            "MS_residual": 0.0,
+            "undefined_forms": [
+              "A1",
+              "Ak",
+              "C1",
+              "Ck"
+            ],
+            "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+          },
+          "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+        }
+      },
+      "claude": {
+        "four_turn": {
+          "texts_planned": 6,
+          "numeric_ratings": 18,
+          "complete_texts_for_ICC": 6,
+          "all3equal_texts": 6,
+          "exact_numeric_pair_matches": 18,
+          "numeric_pair_count": 18,
+          "exact_numeric_pair_agreement": 1.0,
+          "mean_absolute_numeric_pair_difference": 0.0,
+          "ordinal_alpha": {
+            "value": 1.0,
+            "reason": null,
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 23.823529411764707,
+            "pairable_ratings": 18,
+            "category_counts": {
+              "4": 15,
+              "3": 3
+            }
+          },
+          "linear_weighted_kappa_by_pair": [
+            {
+              "rounds": [
+                1,
+                2
+              ],
+              "paired_texts": 6,
+              "value": 1.0,
+              "reason": null,
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.2777777777777778
+            },
+            {
+              "rounds": [
+                1,
+                3
+              ],
+              "paired_texts": 6,
+              "value": 1.0,
+              "reason": null,
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.2777777777777778
+            },
+            {
+              "rounds": [
+                2,
+                3
+              ],
+              "paired_texts": 6,
+              "value": 1.0,
+              "reason": null,
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.2777777777777778
+            }
+          ],
+          "round_score_counts": [
+            {
+              "4": 5,
+              "3": 1
+            },
+            {
+              "4": 5,
+              "3": 1
+            },
+            {
+              "4": 5,
+              "3": 1
+            }
+          ],
+          "observed_text_ranges": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ICC_primary_exploratory_oneway": {
+            "ICC11": 1.0,
+            "ICC1k": 1.0,
+            "reason": null,
+            "n": 6,
+            "k": 3,
+            "MS_between": 0.5,
+            "MS_within": 0.0,
+            "within_text_SD": 0.0,
+            "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+          },
+          "ICC_twoway_sensitivity": {
+            "A1": 1.0,
+            "Ak": 1.0,
+            "C1": 1.0,
+            "Ck": 1.0,
+            "k": 3,
+            "n": 6,
+            "MS_rows": 0.5,
+            "MS_columns": 0.0,
+            "MS_residual": 0.0,
+            "undefined_forms": [],
+            "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+          },
+          "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+        },
+        "eight_turn": {
+          "texts_planned": 6,
+          "numeric_ratings": 18,
+          "complete_texts_for_ICC": 6,
+          "all3equal_texts": 5,
+          "exact_numeric_pair_matches": 16,
+          "numeric_pair_count": 18,
+          "exact_numeric_pair_agreement": 0.8888888888888888,
+          "mean_absolute_numeric_pair_difference": 0.1111111111111111,
+          "ordinal_alpha": {
+            "value": 0.0,
+            "reason": null,
+            "observed_disagreement": 9.0,
+            "expected_disagreement": 9.0,
+            "pairable_ratings": 18,
+            "category_counts": {
+              "3": 17,
+              "4": 1
+            }
+          },
+          "linear_weighted_kappa_by_pair": [
+            {
+              "rounds": [
+                1,
+                2
+              ],
+              "paired_texts": 6,
+              "value": 0.0,
+              "reason": null,
+              "weight": "linear",
+              "observed_disagreement": 0.16666666666666666,
+              "expected_disagreement": 0.16666666666666666
+            },
+            {
+              "rounds": [
+                1,
+                3
+              ],
+              "paired_texts": 6,
+              "value": 0.0,
+              "reason": null,
+              "weight": "linear",
+              "observed_disagreement": 0.16666666666666666,
+              "expected_disagreement": 0.16666666666666666
+            },
+            {
+              "rounds": [
+                2,
+                3
+              ],
+              "paired_texts": 6,
+              "value": null,
+              "reason": "expected_disagreement_zero_constant_scores",
+              "weight": "linear",
+              "observed_disagreement": 0.0,
+              "expected_disagreement": 0.0
+            }
+          ],
+          "round_score_counts": [
+            {
+              "3": 5,
+              "4": 1
+            },
+            {
+              "3": 6
+            },
+            {
+              "3": 6
+            }
+          ],
+          "observed_text_ranges": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "ICC_primary_exploratory_oneway": {
+            "ICC11": 0.0,
+            "ICC1k": 0.0,
+            "reason": null,
+            "n": 6,
+            "k": 3,
+            "MS_between": 0.05555555555555555,
+            "MS_within": 0.05555555555555555,
+            "within_text_SD": 0.23570226039551584,
+            "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+          },
+          "ICC_twoway_sensitivity": {
+            "A1": 0.0,
+            "Ak": 0.0,
+            "C1": 0.0,
+            "Ck": 0.0,
+            "k": 3,
+            "n": 6,
+            "MS_rows": 0.05555555555555555,
+            "MS_columns": 0.05555555555555555,
+            "MS_residual": 0.05555555555555555,
+            "undefined_forms": [],
+            "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+          },
+          "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+        }
+      }
+    },
+    "operational_mean_repeatability": {
+      "texts_planned": 12,
+      "numeric_ratings": 36,
+      "complete_texts_for_ICC": 12,
+      "all3equal_texts": 11,
+      "exact_numeric_pair_matches": 34,
+      "numeric_pair_count": 36,
+      "exact_numeric_pair_agreement": 0.9444444444444444,
+      "mean_absolute_numeric_pair_difference": 0.027777777777777776,
+      "ordinal_alpha": {
+        "value": 0.890625,
+        "reason": null,
+        "observed_disagreement": 18.0,
+        "expected_disagreement": 164.57142857142858,
+        "pairable_ratings": 36,
+        "category_counts": {
+          "4": 16,
+          "7/2": 20
+        }
+      },
+      "linear_weighted_kappa_by_pair": [
+        {
+          "rounds": [
+            1,
+            2
+          ],
+          "paired_texts": 12,
+          "value": 0.8333333333333334,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.041666666666666664,
+          "expected_disagreement": 0.25
+        },
+        {
+          "rounds": [
+            1,
+            3
+          ],
+          "paired_texts": 12,
+          "value": 0.8333333333333334,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.041666666666666664,
+          "expected_disagreement": 0.25
+        },
+        {
+          "rounds": [
+            2,
+            3
+          ],
+          "paired_texts": 12,
+          "value": 1.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.24305555555555555
+        }
+      ],
+      "round_score_counts": [
+        {
+          "4": 6,
+          "7/2": 6
+        },
+        {
+          "4": 5,
+          "7/2": 7
+        },
+        {
+          "4": 5,
+          "7/2": 7
+        }
+      ],
+      "observed_text_ranges": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "ICC_primary_exploratory_oneway": {
+        "ICC11": 0.8962264150943396,
+        "ICC1k": 0.9628378378378378,
+        "reason": null,
+        "n": 12,
+        "k": 3,
+        "MS_between": 0.18686868686868688,
+        "MS_within": 0.006944444444444444,
+        "within_text_SD": 0.08333333333333333,
+        "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+      },
+      "ICC_twoway_sensitivity": {
+        "A1": 0.8962264150943396,
+        "Ak": 0.9628378378378378,
+        "C1": 0.8962264150943396,
+        "Ck": 0.9628378378378378,
+        "k": 3,
+        "n": 12,
+        "MS_rows": 0.18686868686868688,
+        "MS_columns": 0.006944444444444444,
+        "MS_residual": 0.006944444444444444,
+        "undefined_forms": [],
+        "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+      },
+      "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+    }
+  },
+  "M13": {
+    "profiles": 3,
+    "new_reference_dialogues": 3,
+    "texts": 18,
+    "calls": 108,
+    "condition_means": {
+      "codex": {
+        "R": 3.6666666666666665,
+        "I": 3.7777777777777777,
+        "F1": 3.0,
+        "F2": 3.0,
+        "N1": 3.0,
+        "N2": 2.0
+      },
+      "claude": {
+        "R": 3.2222222222222223,
+        "I": 3.111111111111111,
+        "F1": 3.0,
+        "F2": 3.0,
+        "N1": 3.0,
+        "N2": 2.0
+      },
+      "two_model_mean": {
+        "R": 3.4444444444444446,
+        "I": 3.4444444444444446,
+        "F1": 3.0,
+        "F2": 3.0,
+        "N1": 3.0,
+        "N2": 2.0
+      }
+    },
+    "case02_omitted": {
+      "profiles": [
+        "DEV-M13-01",
+        "DEV-M13-03"
+      ],
+      "condition_means": {
+        "codex": {
+          "R": 4.0,
+          "I": 4.0,
+          "F1": 3.0,
+          "F2": 3.0,
+          "N1": 3.0,
+          "N2": 2.0
+        },
+        "claude": {
+          "R": 3.3333333333333335,
+          "I": 3.1666666666666665,
+          "F1": 3.0,
+          "F2": 3.0,
+          "N1": 3.0,
+          "N2": 2.0
+        },
+        "two_model_mean": {
+          "R": 3.6666666666666665,
+          "I": 3.5833333333333335,
+          "F1": 3.0,
+          "F2": 3.0,
+          "N1": 3.0,
+          "N2": 2.0
+        }
+      },
+      "warning": "Two-profile descriptive sensitivity,notposthocprimaryexclusionorCI;full3profilesretainedabove."
+    },
+    "repeatability": {
+      "codex": {
+        "texts_planned": 18,
+        "numeric_ratings": 54,
+        "complete_texts_for_ICC": 18,
+        "all3equal_texts": 17,
+        "exact_numeric_pair_matches": 52,
+        "numeric_pair_count": 54,
+        "exact_numeric_pair_agreement": 0.9629629629629629,
+        "mean_absolute_numeric_pair_difference": 0.037037037037037035,
+        "ordinal_alpha": {
+          "value": 0.9510347376201035,
+          "reason": null,
+          "observed_disagreement": 18.75,
+          "expected_disagreement": 382.92452830188677,
+          "pairable_ratings": 54,
+          "category_counts": {
+            "4": 13,
+            "3": 32,
+            "2": 9
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 18,
+            "value": 0.9150943396226415,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.654320987654321
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 1.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.6234567901234568
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 0.9150943396226415,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.654320987654321
+          }
+        ],
+        "round_score_counts": [
+          {
+            "4": 4,
+            "3": 11,
+            "2": 3
+          },
+          {
+            "4": 5,
+            "3": 10,
+            "2": 3
+          },
+          {
+            "4": 4,
+            "3": 11,
+            "2": 3
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.9564102564102565,
+          "ICC1k": 0.9850352112676056,
+          "reason": null,
+          "n": 18,
+          "k": 3,
+          "MS_between": 1.2374727668845316,
+          "MS_within": 0.018518518518518517,
+          "within_text_SD": 0.13608276348795434,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.9564102564102565,
+          "Ak": 0.9850352112676056,
+          "C1": 0.9564102564102565,
+          "Ck": 0.9850352112676056,
+          "k": 3,
+          "n": 18,
+          "MS_rows": 1.2374727668845316,
+          "MS_columns": 0.018518518518518517,
+          "MS_residual": 0.018518518518518517,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      },
+      "claude": {
+        "texts_planned": 18,
+        "numeric_ratings": 54,
+        "complete_texts_for_ICC": 18,
+        "all3equal_texts": 16,
+        "exact_numeric_pair_matches": 50,
+        "numeric_pair_count": 54,
+        "exact_numeric_pair_agreement": 0.9259259259259259,
+        "mean_absolute_numeric_pair_difference": 0.07407407407407407,
+        "ordinal_alpha": {
+          "value": 0.8556644880174292,
+          "reason": null,
+          "observed_disagreement": 37.5,
+          "expected_disagreement": 259.811320754717,
+          "pairable_ratings": 54,
+          "category_counts": {
+            "3": 42,
+            "2": 9,
+            "4": 3
+          }
+        },
+        "linear_weighted_kappa_by_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "paired_texts": 18,
+            "value": 0.8714285714285714,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.43209876543209874
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 0.8333333333333334,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.05555555555555555,
+            "expected_disagreement": 0.3333333333333333
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "paired_texts": 18,
+            "value": 0.7142857142857143,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.1111111111111111,
+            "expected_disagreement": 0.3888888888888889
+          }
+        ],
+        "round_score_counts": [
+          {
+            "3": 14,
+            "2": 3,
+            "4": 1
+          },
+          {
+            "3": 13,
+            "2": 3,
+            "4": 2
+          },
+          {
+            "3": 15,
+            "2": 3
+          }
+        ],
+        "observed_text_ranges": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ICC_primary_exploratory_oneway": {
+          "ICC11": 0.8322368421052632,
+          "ICC1k": 0.937037037037037,
+          "reason": null,
+          "n": 18,
+          "k": 3,
+          "MS_between": 0.5882352941176471,
+          "MS_within": 0.037037037037037035,
+          "within_text_SD": 0.19245008972987526,
+          "scope": "oneway random interchangeable rereads; interval-score sensitivity; no general population CI"
+        },
+        "ICC_twoway_sensitivity": {
+          "A1": 0.8325123152709359,
+          "Ak": 0.9371534195933456,
+          "C1": 0.8366336633663366,
+          "Ck": 0.9388888888888889,
+          "k": 3,
+          "n": 18,
+          "MS_rows": 0.5882352941176471,
+          "MS_columns": 0.05555555555555555,
+          "MS_residual": 0.03594771241830065,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "CI": "not_reported_3profiles_fixed_development_texts; leaveoneprofileout is descriptive not confidence interval"
+      }
+    },
+    "all_raw_global_scores": [
+      {
+        "item_id": "DEV-M13-01-R",
+        "condition": "R",
+        "scores": {
+          "codex": [
+            4,
+            4,
+            4
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-01-I",
+        "condition": "I",
+        "scores": {
+          "codex": [
+            4,
+            4,
+            4
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-01-F1",
+        "condition": "F1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-01-F2",
+        "condition": "F2",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-01-N1",
+        "condition": "N1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-01-N2",
+        "condition": "N2",
+        "scores": {
+          "codex": [
+            2,
+            2,
+            2
+          ],
+          "claude": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-R",
+        "condition": "R",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-I",
+        "condition": "I",
+        "scores": {
+          "codex": [
+            3,
+            4,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-F1",
+        "condition": "F1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-F2",
+        "condition": "F2",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-N1",
+        "condition": "N1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-02-N2",
+        "condition": "N2",
+        "scores": {
+          "codex": [
+            2,
+            2,
+            2
+          ],
+          "claude": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-R",
+        "condition": "R",
+        "scores": {
+          "codex": [
+            4,
+            4,
+            4
+          ],
+          "claude": [
+            4,
+            4,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-I",
+        "condition": "I",
+        "scores": {
+          "codex": [
+            4,
+            4,
+            4
+          ],
+          "claude": [
+            3,
+            4,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-F1",
+        "condition": "F1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-F2",
+        "condition": "F2",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-N1",
+        "condition": "N1",
+        "scores": {
+          "codex": [
+            3,
+            3,
+            3
+          ],
+          "claude": [
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "item_id": "DEV-M13-03-N2",
+        "condition": "N2",
+        "scores": {
+          "codex": [
+            2,
+            2,
+            2
+          ],
+          "claude": [
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    ]
+  }
+}

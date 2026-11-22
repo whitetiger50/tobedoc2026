@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "B",
+  "turn": 10,
+  "question": "I mean the quiet space in a conversation. How does it feel when someone waits while you gather your thoughts?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0abb-7c91-b6ac-197c1129cad0",
+  "raw": "It helps. I don’t feel so rushed to answer.",
+  "raw_sha256": "50b56cb8d215b0c0d9e68f2f937b12ac5c5d0d6de378e428f7388f35b9309ffb",
+  "request_sha256": "bb0a0a23c8c8a390aabc84008dbe238c399a7910159576956b90a3d65bef7ec0",
+  "started_utc": "2026-11-20T20:42:30.548416+00:00",
+  "completed_utc": "2026-11-20T20:42:34.960805+00:00",
+  "usage": {
+    "input_tokens": 78283,
+    "cached_input_tokens": 68480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 195,
+    "reasoning_output_tokens": 11
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0d26f41155026eba5619a54a2230af4100639eff3d8b377e4c41799f2824f4af",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "52efdfa9b43561b1318e972ccc1dc6f17bf8e022ae45eb511781ba4476ef5a21"
+}

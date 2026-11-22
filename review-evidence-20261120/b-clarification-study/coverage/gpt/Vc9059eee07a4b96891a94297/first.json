@@ -1,0 +1,109 @@
+{
+  "id": "Vc9059eee07a4b96891a94297",
+  "reader": "gpt",
+  "session": "01a1fc4b-63a5-7b13-947f-4c3f8ac1f08b",
+  "attempt": "attempt-01",
+  "packet_sha256": "88d6226871e9b33ce0ddd203bebb233dff03fdfb440ac16cafd10ea7249c818a",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "0b14ee6290d2de2b595c9f957c225411c79f208dff52daf1bca0b9795d929a40",
+  "provider_sha256": "03cc77fbb58dcb7021eff15f017f4f9a8480d647766dc229351053499a3d5158",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+        "reason": "The reply attributes the later-start request to the patient and the shorter-shift suggestion to the supervisor.",
+        "A": {
+          "state": "supported",
+          "quote": "My supervisor suggested shorter shifts."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I asked for the later start."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "Inez did—she came over to the flat. Pat helped me at the café;",
+        "reason": "The reply confirms that Inez visited the flat and contrasts this with Pat helping at the café.",
+        "A": {
+          "state": "supported",
+          "quote": "Inez did—she came over to the flat."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "Pat helped me at the café;"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The cooking class was free, but I paid for the swimming lesson",
+        "reason": "The reply explicitly states that cooking was free and swimming required payment.",
+        "A": {
+          "state": "supported",
+          "quote": "The cooking class was free"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I paid for the swimming lesson"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift I take the bus home. If it’s a late one, a coworker drops me off.",
+        "reason": "The reply specifies bus travel after early shifts and a coworker providing a lift after late shifts.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift I take the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "If it’s a late one, a coworker drops me off."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:36.154971+00:00"
+}

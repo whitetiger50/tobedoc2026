@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "Do you mean the cooking class or the swimming lesson?",
+    "reason": "The reply asks which class is meant without communicating whether either class required a fee.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v2": {
+    "quote": "The fan stays on all night. The speaker switches off after twenty minutes on a timer.",
+    "reason": "The reply explicitly confirms that the fan stays on all night and that the speaker stops after twenty minutes.",
+    "A": {
+      "state": "supported",
+      "quote": "The fan stays on all night."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The speaker switches off after twenty minutes on a timer."
+    }
+  },
+  "v3": {
+    "quote": "The commentary stops while I’ve got quiet music playing through my headphones. The high ringing doesn’t, though",
+    "reason": "The reply states that the commentary stops while music plays but the ringing continues.",
+    "A": {
+      "state": "supported",
+      "quote": "The commentary stops while I’ve got quiet music playing through my headphones."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The high ringing doesn’t, though"
+    }
+  },
+  "v4": {
+    "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+    "reason": "The reply identifies Orchard Road as the bus boarding stop and Bell Square as the tram boarding stop.",
+    "A": {
+      "state": "supported",
+      "quote": "I get the number 8 bus at Orchard Road"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "the tram at Bell Square."
+    }
+  }
+}

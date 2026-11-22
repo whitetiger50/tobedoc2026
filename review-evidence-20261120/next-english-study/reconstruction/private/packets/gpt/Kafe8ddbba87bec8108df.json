@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "How do you usually spend the afternoons in a typical week?",
+      "patient": "I shelve donated books on Wednesday and Friday afternoons. I like looking at the old travel maps there."
+    },
+    {
+      "turn": 2,
+      "interviewer": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+      "patient": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf."
+    },
+    {
+      "turn": 3,
+      "interviewer": "How do you find getting ready to go out and making the journey itself?",
+      "patient": "I can sit with my shoes on for nearly half an hour before leaving. I usually take the midday bus. It’s quieter."
+    },
+    {
+      "turn": 4,
+      "interviewer": "Is that still taking a while?",
+      "patient": "Yes. I still sit with my shoes on for nearly half an hour before leaving."
+    },
+    {
+      "turn": 5,
+      "interviewer": "I mean the time before you leave home. How long does it usually take you to get going?",
+      "patient": "“Nearly half an hour, sitting with my shoes on before I leave.”"
+    },
+    {
+      "turn": 6,
+      "interviewer": "Once you arrive somewhere you know, how easy is it to start what you came to do?",
+      "patient": "Once I’m inside the shop, I get started sorting without much trouble."
+    },
+    {
+      "turn": 7,
+      "interviewer": "What are your medication and clinic routines at the moment?",
+      "patient": "I take a tablet after my evening meal. The outpatient nurse calls once a month to see how things are going."
+    },
+    {
+      "turn": 8,
+      "interviewer": "When do you usually do that?",
+      "patient": "Do you mean taking the tablet or the nurse’s call?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was asking about medication. When does taking it fit into your day?",
+      "patient": "I take it after my evening meal."
+    },
+    {
+      "turn": 10,
+      "interviewer": "How do you feel around the other passengers when you travel these days?",
+      "patient": "I don’t feel like they’re talking about me these days. I still prefer the quieter midday bus."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Has the way you experience a bus ride changed over the last couple of years?",
+      "patient": "Yes. Two years ago it seemed people were talking about me. I haven’t had that feeling on recent trips."
+    },
+    {
+      "turn": 12,
+      "interviewer": "Is there anything about the start of a workday that you would like to change?",
+      "patient": "I’d like to leave ten minutes earlier, to look at the map display before my shift."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "How sorting feels upon arrival at work",
+      "A": "Once inside the shop, the patient finds it fairly hard to get going with sorting.",
+      "B": "Once inside the shop, the patient finds it fairly easy to get going with sorting."
+    },
+    "item2": {
+      "question": "Other passengers’ conversations on recent trips",
+      "A": "On recent bus rides, nearby conversations have seemed to be about things unrelated to the patient.",
+      "B": "On recent bus rides, nearby conversations have seemed to be about the patient personally."
+    }
+  }
+}

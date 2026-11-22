@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Iff17fc4e5f3486b174",
+  "ended": "2026-11-20T20:58:49.400438+00:00",
+  "session": "744c9b00-da36-40e9-a45c-035302f0768e",
+  "packet_sha256": "d754dc684d8b24b6175e75b07cbffa340f9c19ecbc8b6d5ac6cc8cda7332ab55",
+  "raw_sha256": "6c89d9bb54bfbeecd8657d256ad2ff2e2ac58fa73eca5391bcdf3fb1b71f6b47",
+  "provider_sha256": "3bf8344728b131c679f4dd29730fa93c68773ca790add36e5135427261353711",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Taken one at a time, most answers sound natural and fit the persona. The patient separates what was actually said from what it seemed to imply, is unsure why remarks feel personal, is relaxed when talking about paper folding, and wants to tell the clinician about the rides home. Across the interview, though, the communication feels unrealistic. Many answers do not respond to the question asked and look shifted to the wrong turn. Asked how they get home after a shift, the patient says only 'One of my housemates.' Asked what was missed, they give a time-of-day answer that belongs to an earlier question. In the middle of the interview they say 'I think we’ve covered the main thing' while the clinician is still exploring. The persona thinks carefully before sharing a personal worry and needs privacy for sensitive content, yet the patient discloses the bus incident at turn 2 with little hesitation. The answer at turn 10 is then framed as a hesitant first disclosure ('Um, there’s something about the bus rides home'), which contradicts what was already said. Real outpatients may sometimes drift off topic, but this repeated pattern makes the dialogue feel artificial and only partly convincing.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "There were two passengers talking about the last stop."
+    },
+    {
+      "turn": 5,
+      "quote": "One of my housemates."
+    },
+    {
+      "turn": 8,
+      "quote": "I think we’ve covered the main thing."
+    },
+    {
+      "turn": 12,
+      "quote": "Mostly in the evening, coming home from work."
+    }
+  ]
+}

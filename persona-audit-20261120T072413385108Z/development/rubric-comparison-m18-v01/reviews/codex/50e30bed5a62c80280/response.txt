@@ -1,0 +1,63 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분 간결하고 자연스러운 환자 표현이지만, 대처 방법을 묻는 질문에 앞선 활동 소개를 그대로 반복한 부분이 대화의 현실감을 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 진술한 사실과 주관적 경험에서 프로필에 어긋나는 내용이나 무근거 구체화는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 경험이 생긴 순간의 대처를 묻는 질문에 답하지 않고 평소 참여 활동만 설명한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06에서 이미 답한 P03의 내용을 그대로 되풀이하여 국소적으로 대화 연결이 끊긴다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "대부분 일상적인 표현이나, P06에서 다른 질문에 앞선 두 문장을 통째로 반복하는 방식은 기계적으로 느껴진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    }
+  }
+}

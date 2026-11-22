@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Icbf359893ba94806f54d215f",
+  "ended": "2026-11-21T03:51:30.628102+00:00",
+  "session": "fb4333b3-1a9b-4dc6-afdf-def951f88ab7",
+  "packet_sha256": "3761cc3565ff0f4b076f55398462117a05b5cce2b28bd7b91160ae45607f0a33",
+  "raw_sha256": "28507f8265265cc37213d3ea7dba89682b371f6b464f22cd6ff5cce752b50a14",
+  "provider_sha256": "254d430724a65b47fc91ed59ca9e5ad725443110f9bbbc9daf81c227bf87c08b",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient mostly sounds like a stable, at-ease outpatient: answers are relevant and in order, and there are small touches of dry humor that fit the persona (turns 1, 7, 11). A few moments feel scripted rather than fully natural. In turn 3 the patient asks which reminder is meant without volunteering that the note came down last month, even though the persona is comfortable filling in relevant details. In turn 8 the patient asks for clarification instead of simply describing both routes home. Turn 5 repeats the time flatly, with no acknowledgment that it was just given. These are minor issues and do not seriously undermine realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to catch any problems before there’s an audience for them."
+    },
+    {
+      "turn": 11,
+      "quote": "They don’t all come out perfectly round, but that’s part of the charm."
+    },
+    {
+      "turn": 8,
+      "quote": "Do you mean after an early shift or a late one?"
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    }
+  ]
+}

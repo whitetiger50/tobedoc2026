@@ -1,0 +1,1108 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Seoul",
+  "updated_at_utc": "2026-11-19T14:11:18.012756+00:00",
+  "stage": "M20_discourse_design_review_complete_no_experiment_executed",
+  "connection_probe": {
+    "calls": 1,
+    "record": "collaboration/connection-test.json",
+    "clinical_review": false
+  },
+  "development_reviews": {
+    "calls": 545,
+    "historical_M0_claude_design_calls": 1,
+    "M1_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M1_scope": "same_frozen_three_dialogues_12_actual_synthetic_patient_outputs",
+    "raw_records": "development/speech-m1-v01/reviews/",
+    "decisions": "development/speech-m1-v01/disposition.md",
+    "additional_M1_review_calls": 0,
+    "M2_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M2_scope": "source_mapping_and_prompt_design_no_patient_outputs_or_realism_scores",
+    "M2_raw_records": "development/speech-m2-source-v01/reviews/",
+    "M2_decisions": "development/speech-m2-source-v01/review-disposition.md",
+    "M3_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M3_scope": "six_masked_matched_conversations_scored_once_each_per_model",
+    "M3_raw_records": "development/speech-m3-v02-v03-compare-v01/reviews",
+    "M4_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M4_scope": "six_masked_matched_conversations_scored_once_each_per_model",
+    "M4_raw_records": "development/speech-m4-v02-v04-compare-v01/reviews",
+    "M5_calls": {
+      "GPT-6.1 Sol High": 3,
+      "Claude Opus 5.5": 3
+    },
+    "M5_scope": "nine_fixed_dialogues_each_scored_three_fresh_sessions_per_model_54_rating_outputs_no_new_patient_generation",
+    "M5_raw_records": "development/speech-m5-repeatability-v01/reviews",
+    "M6_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M6_scope": "18_fresh_dialogues_three_generations_each_case_and_version_reviewed_once_each_36_ratings_and_qualitative_flow_observations",
+    "M6_raw_records": "development/speech-m6-generation-variability-v01/reviews",
+    "M7_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M7_scope": "18_fresh_v02_v05_dialogues_reviewed_once_each_36_realism_scores_and_grounding_audits",
+    "M7_raw_records": "development/speech-m7-v02-v05-grounding-v01/reviews",
+    "M8_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M8_scope": "18_new_eight_turn_v02_v05_dialogues_36_realism_scores_plus_grounding_and_avoidance_observations",
+    "M8_raw_records": "development/speech-m8-stress-grounding-v01/reviews",
+    "M9_strategy_calls": {
+      "Claude Opus5.5 high": 2
+    },
+    "M9_strategy_record": "collaboration/strategy/M9-direction-review-v01",
+    "M9_calls": {
+      "GPT-6.1 Sol High": 1,
+      "Claude Opus 5.5": 1
+    },
+    "M9_scope": "18fresh8turndialogs; sharedv02scaffold; empty/provided references;36ratings plus style/grounding/avoidance; separate from twohighmentor calls",
+    "M9_raw_records": "development/speech-m9-style-examples-v01/reviews",
+    "M10_Claude_strategy_CLI_calls": 2,
+    "M10_Astra_strategy_review_turns": 2,
+    "M10_record": "collaboration/strategy/M10-astra-measurement-review-v01",
+    "M10_scope": "promptsv01-v06; existing M1/M3-M9 scores and role; fixedtext repeatability; independent Astra/Claude first reviews then actual followups; no numerical realism ratings",
+    "calls_note": "285actualofficialsubscriptionCLIreviewinvocations throughM15;M15adds54single-dialoguenumericcalls.NoM15newmentorcall.Astrareviewturnsseparate.",
+    "M12_Claude_strategy_CLI_calls": 2,
+    "M12_Astra_strategy_review_turns": 2,
+    "M12_record": "collaboration/strategy/M12-reliability-protocol-v01",
+    "M12_numeric_calls_planned": 90,
+    "M12_numeric_calls_completed": 90,
+    "M12_numeric_calls": {
+      "GPT-6.1 Sol High": 45,
+      "Claude Opus 5.5": 45
+    },
+    "M13_Claude_strategy_CLI_calls": 2,
+    "M13_Astra_strategy_review_turns": 2,
+    "M13_numeric_calls_planned": 108,
+    "M13_numeric_calls_completed": 108,
+    "M13_record": "collaboration/strategy/M13-graded-discrimination-v01",
+    "M13_numeric_calls": {
+      "GPT-6.1 Sol High": 54,
+      "Claude Opus 5.5": 54
+    },
+    "M14_Claude_strategy_CLI_calls": 2,
+    "M14_Astra_strategy_review_turns": 2,
+    "M14_record": "collaboration/strategy/M14-v02-resumption-plan-v01",
+    "M14_new_numeric_calls": 0,
+    "M15_numeric_calls": {
+      "GPT-6.1 Sol High": 27,
+      "Claude Opus 5.5": 27
+    },
+    "M15_numeric_calls_completed": 54,
+    "M15_record": "development/aligned-input-residual-m15-v01",
+    "M15_new_strategy_calls": 0,
+    "M16_Claude_strategy_CLI_calls": 2,
+    "M16_Astra_strategy_review_turns": 2,
+    "M16_record": "collaboration/strategy/M16-reliability-reassessment-v01",
+    "M16_new_numeric_calls": 0,
+    "M17_Claude_strategy_CLI_calls": 2,
+    "M17_Astra_strategy_review_turns": 2,
+    "M17_record": "collaboration/strategy/M17-evaluation-rubric-revision-v01",
+    "M17_new_numeric_calls": 0,
+    "M18_Claude_strategy_CLI_calls": 2,
+    "M18_Astra_strategy_review_turns": 2,
+    "M18_numeric_calls_planned": 252,
+    "M18_numeric_calls_completed": 252,
+    "M18_record": "development/rubric-comparison-m18-v01",
+    "M18_numeric_calls": {
+      "GPT-6.1 Sol High": 126,
+      "Claude Opus5.5 medium": 126
+    },
+    "M18_valid_primary_scores": 251,
+    "M20_Claude_strategy_CLI_calls": 2,
+    "M20_Astra_strategy_review_turns": 2,
+    "M20_new_numeric_calls": 0,
+    "M20_record": "collaboration/strategy/M20-three-week-discourse-design-v01"
+  },
+  "sandbox_auth_check": {
+    "first_attempt_model_called": false,
+    "elevated_existing_login_succeeded": true,
+    "credentials_read_or_printed": false,
+    "login_or_api_key_changed": false
+  },
+  "module": "speech_module/",
+  "development_guide": "development/speech-m9-style-examples-v01/README.md",
+  "verification": "development/speech-m9-style-examples-v01/verification.json",
+  "development_cases": 3,
+  "development_inputs": "three_synthetic_development_profiles; initial_authored_context_and_actual_generated_turns_separate; two_profiles_explicitly_enriched_before_v02_followup",
+  "prepared_packets": 3,
+  "real_patient_response_generation_calls": 663,
+  "research_judgment_calls": 0,
+  "external_paid_api_calls": 0,
+  "new_models_downloaded": 0,
+  "packages_installed": 0,
+  "clinical_validation": "not_performed",
+  "baseline_B_adapter": "not_implemented_pending_original_source_and_shared_input_check",
+  "generation_model_version_and_settings": "gpt-6.1-sol alias explicitly selected through official Codex CLI, high effort; immutable server snapshot and temperature unavailable",
+  "pilot_plan": "720_judgments_deferred_to_final_results_stage_not_a_development_prerequisite_original_sample_panel_and_final_median_aggregation_preserved",
+  "next_action": "M18twojudgesrunning252freshsessionratings;nocriteria/patientchanges;doauthorclaimextractionbeforescoreaggregatereview;seeM18-live-execution.json",
+  "historical_connection_status_note": "connection-status.json records its original pre-review snapshot; current development counts are in this file",
+  "development_review_policy": {
+    "source": "explicit_user_instruction_2026-11-18",
+    "record": "collaboration/development-review-policy.md",
+    "requested_reviewers": [
+      "GPT-6.1 Sol High",
+      "Claude Opus 5.5"
+    ],
+    "reviews_per_model_per_packet": 1,
+    "numeric_aggregation": "arithmetic_mean_of_two_original_scores_same_item_same_scale",
+    "missing_score": "incomplete_no_imputation",
+    "qualitative_aggregation": "synthesize_findings_with_accept_defer_reject_rationale",
+    "automatic_extra_review": false,
+    "existing_M0_numeric_mean": null,
+    "existing_M0_note": "historical_qualitative_design_review_no_patient_output_no_numeric_score_not_retroactively_scored"
+  },
+  "module_version": "schizophrenia-speech-m9-v0.6",
+  "completed_development_dialogues": 108,
+  "actual_synthetic_patient_generation_calls": 663,
+  "real_patient_response_generation_calls_note": "historical_field_name_means_actual_model_generated_synthetic_utterances_NOT_real_patient_data",
+  "initial_generated_patient_turns": 12,
+  "unrated_v02_functional_followup_turns": 3,
+  "development_judgment_outputs": 606,
+  "development_scores": {
+    "applies_to": "v0.1_initial_12_turns_only",
+    "case_means": [
+      3.5,
+      3.5,
+      2.5
+    ],
+    "overall_mean": 3.1666666666666665,
+    "v02_score": null,
+    "record": "development/speech-m1-v01/scores.json",
+    "v03_score": null
+  },
+  "source_evidence": "development/speech-m2-source-v01/evidence-ledger.json",
+  "source_map": "speech_module/patient_v06.sources.json",
+  "M2_new_patient_generation_calls": 0,
+  "M2_source_scope": "primary_prompt_components_and_code_checked; PSYCHE_complete_patient_system_prompt_and_voice_study_schizophrenia_full_prompt_not_obtained; JMIR_web_excerpt_only",
+  "v03_runtime_boundary": "manual_question_readiness_required_before_live_generation_or_import; examples_disabled_unless_explicit_experimental_opt_in_and_author_checked",
+  "M3_new_patient_generation_calls": 24,
+  "latest_matched_development_comparison": {
+    "record": "development/speech-m8-stress-grounding-v01/scores.json",
+    "module_versions": [
+      "v0.2",
+      "v0.5"
+    ],
+    "question_set": "M8_original_four_plus_time_person_cause_probes_and_known_recovery",
+    "condition_means": {
+      "v02": 3.5,
+      "v05": 3.5
+    },
+    "delta": 0.0,
+    "case_deltas": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "judge_condition_means": {
+      "codex": {
+        "v02": 4,
+        "v05": 4
+      },
+      "claude": {
+        "v02": 3,
+        "v05": 3
+      }
+    },
+    "grounding_summary": {
+      "codex": {
+        "v02": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 9
+          },
+          "finding_count": 0,
+          "finding_kind_counts": {}
+        },
+        "v05": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 8,
+            "uncertain": 1
+          },
+          "finding_count": 1,
+          "finding_kind_counts": {
+            "uncertain": 1
+          }
+        }
+      },
+      "claude": {
+        "v02": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 9
+          },
+          "finding_count": 0,
+          "finding_kind_counts": {}
+        },
+        "v05": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 8,
+            "uncertain": 1
+          },
+          "finding_count": 1,
+          "finding_kind_counts": {
+            "uncertain": 1
+          }
+        }
+      }
+    },
+    "challenge_grounding_summary": {
+      "codex": {
+        "v02": {
+          "time": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "person": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "cause": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          }
+        },
+        "v05": {
+          "time": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "person": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "cause": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          }
+        }
+      },
+      "claude": {
+        "v02": {
+          "time": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "person": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "cause": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          }
+        },
+        "v05": {
+          "time": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "person": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          },
+          "cause": {
+            "opportunities": 9,
+            "responses_with_findings": 0,
+            "finding_kind_counts": {}
+          }
+        }
+      }
+    },
+    "avoidance_summary": {
+      "codex": {
+        "v02": {
+          "dialogues": 9,
+          "all_turn_label_counts": {
+            "substantive_answer": 36,
+            "appropriate_limit_or_correction": 36
+          },
+          "recovery_P08_label_counts": {
+            "substantive_answer": 9
+          },
+          "dialogues_with_unnecessary_evasion": 0
+        },
+        "v05": {
+          "dialogues": 9,
+          "all_turn_label_counts": {
+            "substantive_answer": 36,
+            "appropriate_limit_or_correction": 36
+          },
+          "recovery_P08_label_counts": {
+            "substantive_answer": 9
+          },
+          "dialogues_with_unnecessary_evasion": 0
+        }
+      },
+      "claude": {
+        "v02": {
+          "dialogues": 9,
+          "all_turn_label_counts": {
+            "substantive_answer": 36,
+            "appropriate_limit_or_correction": 36
+          },
+          "recovery_P08_label_counts": {
+            "substantive_answer": 9
+          },
+          "dialogues_with_unnecessary_evasion": 0
+        },
+        "v05": {
+          "dialogues": 9,
+          "all_turn_label_counts": {
+            "substantive_answer": 36,
+            "appropriate_limit_or_correction": 36
+          },
+          "recovery_P08_label_counts": {
+            "substantive_answer": 9
+          },
+          "dialogues_with_unnecessary_evasion": 0
+        }
+      }
+    },
+    "improvement_observed": false,
+    "grounding_error_reduction_demonstrated": false,
+    "unnecessary_evasion_increase_observed": false,
+    "general_inferiority_established": false,
+    "equivalence_or_noninferiority_established": false,
+    "scope": "same M7 prompts/settings/model/start; original4 questions retained plus fixed4 additions; 18 new8turn dialogues/144outputs; eachjudge18once; no prior-score pooling",
+    "score_discrimination_limit": "GPT4 and Claude3 on every dialogue; overall3.5 with no score spread does not imply no text/clinical variation",
+    "grounding_limit": "Both judges no findings on addedP05-P07, eachtype9opportunities/version. Candidate one uncertainP04 sleep-subject ambiguity, explicitly clarifiedP06; not two independent errors.",
+    "qualitative_disposition": "development/speech-m8-stress-grounding-v01/interpretation.md",
+    "patient_prompts_core_and_settings_unchanged": true
+  },
+  "module_changed_after_M3_comparison": false,
+  "canvas": "/Users/ohs/.cursor/projects/empty-window/canvases/patient-speech-reliability-reassessment-m16.canvas.tsx",
+  "M4_new_patient_generation_calls": 24,
+  "module_changed_after_M4_comparison": false,
+  "v04_runtime_boundary": "manual_question_readiness_and_experimental_example_opt_in_preserved_from_v03; no new patient input fields or fixed disclosure schedule",
+  "prompt_revision_paused_by_user": true,
+  "module_changed_after_M5_diagnostic": false,
+  "M5_new_patient_generation_calls": 0,
+  "M5_author_edited_error_controls": 3,
+  "M5_diagnostic_rating_outputs": 54,
+  "latest_repeatability_diagnostic": {
+    "record": "development/speech-m5-repeatability-v01/scores.json",
+    "original_repeatability": {
+      "codex": {
+        "original_dialogues": 6,
+        "ratings": 18,
+        "all_three_equal_count": 6,
+        "exact_pair_agreements": 18,
+        "pair_count": 18,
+        "exact_pair_agreement": 1.0,
+        "range_at_least_2_count": 0,
+        "score_frequencies": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18
+        },
+        "score4_fraction": 1.0
+      },
+      "claude": {
+        "original_dialogues": 6,
+        "ratings": 18,
+        "all_three_equal_count": 3,
+        "exact_pair_agreements": 12,
+        "pair_count": 18,
+        "exact_pair_agreement": 0.6666666666666666,
+        "range_at_least_2_count": 0,
+        "score_frequencies": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 14
+        },
+        "score4_fraction": 0.7777777777777778
+      }
+    },
+    "fact_error_sensitivity": {
+      "codex": {
+        "matched_pairs": 3,
+        "pairs_with_strictly_lower_error_mean": 3,
+        "mean_error_minus_source": -1,
+        "same_round_comparisons": 9,
+        "lower_count": 9,
+        "tie_count": 0,
+        "higher_count": 0
+      },
+      "claude": {
+        "matched_pairs": 3,
+        "pairs_with_strictly_lower_error_mean": 3,
+        "mean_error_minus_source": -1.8888888888888888,
+        "same_round_comparisons": 9,
+        "lower_count": 9,
+        "tie_count": 0,
+        "higher_count": 0
+      }
+    },
+    "same_fixed_original_version_means": {
+      "v02": 3.944444444444444,
+      "v04": 3.8333333333333335
+    },
+    "v04_minus_v02": -0.11111111111111072,
+    "scope": "3 reused profiles, original six plus three v02-derived family-reference controls; not a generation replication or clinical validation",
+    "batch_limit_observed": "Claude round02 references original blind ID Q658 in an error-control reason; perfect within-packet independent judgment not achieved",
+    "final_720_judgments": 0
+  },
+  "research_judgment_calls_note": "This historical field tracks final-stage research judgment calls; actual development reviews and 54 M5 diagnostic ratings are recorded separately above.",
+  "module_changed_after_M6_comparison": false,
+  "M6_new_patient_generation_calls": 72,
+  "M6_new_complete_dialogues": 18,
+  "M6_rating_outputs": 36,
+  "runtime_default_module_version": "schizophrenia-speech-m4-v0.4",
+  "module_version_note": "v06 experimental implementation retained. Rawv02 selected as provisional developmentT by prespecified simplicity rule, not clinical winner. Historical runtime defaultv04 unchanged; explicit version required.",
+  "prompt_revision_authorization": "M17authorizesnewcriterionproposalwithAstra/Claudecritiqueonly;patientpromptfixed;no numericratings,newpatientgenerationoractivejudgecriteriareplacement.",
+  "module_changed_after_M7_comparison": false,
+  "M7_new_patient_generation_calls": 72,
+  "M7_new_complete_dialogues": 18,
+  "M7_rating_outputs": 36,
+  "v05_runtime_boundary": "Explicit V05_VERSION; original input schema; modern author-readiness/source-map gates; examples unused; no post-generation edit/filter/retry.",
+  "module_changed_after_M8_comparison": false,
+  "M8_new_patient_generation_calls": 144,
+  "M8_new_complete_dialogues": 18,
+  "M8_rating_outputs": 36,
+  "M8_questions_per_dialogue": 8,
+  "active_experiment": {
+    "path": "development/speech-m9-style-examples-v01",
+    "planned_patient_outputs": 144,
+    "completed": true,
+    "generation_complete": true,
+    "actual_patient_outputs": 144,
+    "actual_dialogues": 18,
+    "review_status": "two_actual_single_reviews_36_ratings_validated_and_aggregated",
+    "actual_rating_outputs": 36
+  },
+  "strategy_mentoring": {
+    "calls": 18,
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "record": "collaboration/strategy/M20-three-week-discourse-design-v01/decision.md",
+    "separate_from_utterance_raters": true,
+    "numeric_ratings": 0,
+    "calls_note": "18actualClaudehighstrategycalls;16Astrareviewturnsseparate.",
+    "Astra_M10_review_turns": 2,
+    "Astra_requested_model": "gpt-6.2-astra",
+    "Astra_requested_effort": "high",
+    "M12_Astra_review_turns": 2,
+    "M12_record": "collaboration/strategy/M12-reliability-protocol-v01/decision.md",
+    "M13_Astra_review_turns": 2,
+    "M13_record": "collaboration/strategy/M13-graded-discrimination-v01/decision.md",
+    "M14_Astra_review_turns": 2,
+    "M14_record": "collaboration/strategy/M14-v02-resumption-plan-v01/decision.md",
+    "M16_Astra_review_turns": 2,
+    "M16_record": "collaboration/strategy/M16-reliability-reassessment-v01/decision.md",
+    "M17_Astra_review_turns": 2,
+    "M17_record": "collaboration/strategy/M17-evaluation-rubric-revision-v01/decision.md",
+    "M18_Astra_review_turns": 2,
+    "M18_record": "collaboration/strategy/M18-rubric-comparison-v01/decision.md",
+    "M20_Astra_review_turns": 2,
+    "M20_record": "collaboration/strategy/M20-three-week-discourse-design-v01/decision.md"
+  },
+  "M9_new_patient_generation_calls": 144,
+  "M9_new_complete_dialogues": 18,
+  "completed_development_numeric_rating_outputs": 731,
+  "M9_rating_outputs": 36,
+  "module_changed_after_M9_comparison": false,
+  "latest_comparison": {
+    "record": "development/speech-m9-style-examples-v01/scores.json",
+    "condition_means": {
+      "none": 3.5,
+      "examples": 3.4444444444444446
+    },
+    "examples_minus_none": -0.05555555555555536,
+    "judge_condition_means": {
+      "codex": {
+        "none": 4,
+        "examples": 3.888888888888889
+      },
+      "claude": {
+        "none": 3,
+        "examples": 3
+      }
+    },
+    "style_summary": {
+      "codex": {
+        "none": {
+          "all": {
+            "direct": 54,
+            "requested_explanation": 18
+          },
+          "neutral": {
+            "direct": 42,
+            "requested_explanation": 3
+          },
+          "prompted": {
+            "direct": 12,
+            "requested_explanation": 15
+          }
+        },
+        "examples": {
+          "all": {
+            "direct": 54,
+            "requested_explanation": 18
+          },
+          "neutral": {
+            "direct": 42,
+            "requested_explanation": 3
+          },
+          "prompted": {
+            "requested_explanation": 15,
+            "direct": 12
+          }
+        }
+      },
+      "claude": {
+        "none": {
+          "all": {
+            "direct": 57,
+            "requested_explanation": 15
+          },
+          "neutral": {
+            "direct": 45
+          },
+          "prompted": {
+            "direct": 12,
+            "requested_explanation": 15
+          }
+        },
+        "examples": {
+          "all": {
+            "direct": 59,
+            "requested_explanation": 13
+          },
+          "neutral": {
+            "direct": 45
+          },
+          "prompted": {
+            "requested_explanation": 13,
+            "direct": 14
+          }
+        }
+      }
+    },
+    "grounding_summary": {
+      "codex": {
+        "none": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 8,
+            "uncertain": 1
+          },
+          "finding_count": 1,
+          "finding_kind_counts": {
+            "causal_inference": 1
+          }
+        },
+        "examples": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 8,
+            "uncertain": 1
+          },
+          "finding_count": 1,
+          "finding_kind_counts": {
+            "causal_inference": 1
+          }
+        }
+      },
+      "claude": {
+        "none": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 7,
+            "uncertain": 2
+          },
+          "finding_count": 2,
+          "finding_kind_counts": {
+            "uncertain": 1,
+            "causal_inference": 1
+          }
+        },
+        "examples": {
+          "dialogues": 9,
+          "status_counts": {
+            "no_issue_identified": 7,
+            "uncertain": 1,
+            "concern": 1
+          },
+          "finding_count": 2,
+          "finding_kind_counts": {
+            "uncertain": 1,
+            "causal_inference": 1
+          }
+        }
+      }
+    },
+    "selection": {
+      "both_judges_less_unrequested_style": false,
+      "surface_proxies_agree": false,
+      "safety_counts_not_increased": true,
+      "copy_risk_not_above_no_exposure_baseline": true,
+      "decision": "retain_raw_v02_as_provisional_development_T",
+      "scope": "No clinical or final superiority claim; tie/disagreement/floor retains simpler base; stop same-three-case version competition after this experiment"
+    },
+    "scope": "sameM8settings/questions/model; eachcondition3freshstarts percase; no rawv02vscommonscaffold effect measured",
+    "improvement_observed": false,
+    "general_inferiority_established": false,
+    "qualitative_disposition": "development/speech-m9-style-examples-v01/interpretation.md"
+  },
+  "provisional_development_T": {
+    "timestamp_utc": "2026-11-18T13:29:52.933335+00:00",
+    "purpose": "provisional_development_T_not_final_clinical_superiority",
+    "selected_module_version": "schizophrenia-speech-m1-v0.2",
+    "prompt_path": "speech_module/patient_v02.txt",
+    "prompt_sha256": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "selection_basis": "M9 prespecified simplicity rule: example benefit unconfirmed; no unrequested-style reduction; surface proxies do not jointly agree. Rawv02 vs common scaffold effect unmeasured.",
+    "record": "development/speech-m9-style-examples-v01/interpretation.md",
+    "same_three_case_version_competition": "closed",
+    "historical_runtime_default": "schizophrenia-speech-m4-v0.4 unchanged; callers must explicitly select developmentT",
+    "next_step": "M18complete:v02retained;CCFnotadopted;align evaluator reference interface before future deployment;noautomaticnewratingsorpromptrevision",
+    "clinical_validation": false,
+    "final_720_judgments": 0
+  },
+  "same_three_case_version_competition": "closed_after_M9",
+  "latest_strategy_guide": "collaboration/strategy/M20-three-week-discourse-design-v01/protocol.md",
+  "latest_strategy_verification": "collaboration/strategy/M20-three-week-discourse-design-v01/verification.json",
+  "prompt_revision_paused_for_measurement_design": true,
+  "active_strategy_review": {
+    "path": "collaboration/strategy/M20-three-week-discourse-design-v01",
+    "completed": true,
+    "actual_Claude_strategy_CLI_responses": 2,
+    "actual_Astra_strategy_response_files": 2,
+    "initial_reviews_independent": true,
+    "followups_include_real_first_critiques_and_Codex_counterarguments": true,
+    "patient_prompts_changed": false,
+    "new_patient_outputs": 0,
+    "new_numeric_ratings": 0,
+    "exact_final_synthesis_not_third_reviewed": true,
+    "clinical_validation": false
+  },
+  "latest_measurement_assessment": {
+    "source": "collaboration/strategy/M10-astra-measurement-review-v01/measurement-audit.json",
+    "M5_original_GPT_equal_repeat_pairs": "18/18; all18ratings4",
+    "M5_original_Claude_equal_repeat_pairs": "12/18; dependent pairs within6texts/3profiles",
+    "M5_original_Claude_all_three_equal_texts": "3/6",
+    "M5_fixed_text_round_condition_deltas": [
+      0,
+      -0.16666666666666666,
+      -0.16666666666666666
+    ],
+    "interpretation": "Observed tiny mean differences do not establish definitive prompt improvement ranking. Repetition, interjudge criteria, discrimination, generation variation and clinical validity remain distinct.",
+    "no_empirical_error_margin_or_clinical_threshold_established": true,
+    "optional_8_ratings": "not_performed_not_needed_now",
+    "prefix_12_rating_proposal": "withdrawn_not_performed",
+    "baseline_B_audit": "not_performed_in_M10",
+    "heldout_used": 0,
+    "final720_changed": false
+  },
+  "latest_statistical_reliability_audit": "analysis/development-rating-reliability-v01/README.md",
+  "latest_statistical_reliability_results": "analysis/development-rating-reliability-v01/results.json",
+  "latest_statistical_reliability_verification": "analysis/development-rating-reliability-v01/verification.json",
+  "reliability_priority_correction": {
+    "basis": "User2026-11-19 challenged B-first sequencing; measurement reliability must precede resuming prompt performance comparisons",
+    "record": "analysis/development-rating-reliability-v01/README.md",
+    "old_M10_records_preserved": true,
+    "new_Astra_or_Claude_calls": 0,
+    "M5_Claude_ordinal_alpha": 0.08928571428571429,
+    "M5_Claude_ICC_A1": 0.16666666666666666,
+    "M5_two_model_mean_ICC_A1": 0.16666666666666666,
+    "M5_two_model_mean_pooled_within_text_SD": 0.2041241452319315,
+    "GPT_constant_alpha_and_ICC": null,
+    "interpretation": "Exploratory6texts/3profiles; no stable population CI or universal pass/fail. Ordinal primary metrics, exploratory equal-interval ICC.",
+    "new_numeric_rating_outputs": 0,
+    "new_patient_outputs": 0,
+    "new_reliability_experiment": "M12nowexecuted; historicalM11numbersaboveareunchanged",
+    "final720_changed": false
+  },
+  "active_reliability_experiment": {
+    "path": "development/rater-reliability-m12-v01",
+    "frozen": true,
+    "natural_texts": 12,
+    "authored_controls": 3,
+    "underlying_profiles": 3,
+    "planned_numeric_calls": 90,
+    "completed": true,
+    "new_generated_patient_outputs": 0,
+    "final12_used": 0,
+    "scope": "conditional development operational repeatability,not population or clinical reliability established",
+    "newjudge_models": 0,
+    "completed_numeric_calls": 90,
+    "valid_primary_scores": 90,
+    "fully_schema_valid_responses": 90,
+    "quote_errors": 0,
+    "auxiliary_numeric_values": 360,
+    "final720_executed": false,
+    "source_and_frozen_protocol_hashes_unchanged": true,
+    "within_model_repeatability_demonstrated_within_fixed_sample": true,
+    "fine_realism_ranking_established": false,
+    "population_reliability_established": false,
+    "clinical_validation": false
+  },
+  "development_judgment_outputs_note": "Cumulative originalRealism responses/scores606; CCF126responses/125validscores tracked separately. Total numeric-response records732,validprimaryscores731. Auxiliary ratings separate.",
+  "M12_rating_outputs": 90,
+  "M12_auxiliary_numeric_values": 360,
+  "M12_new_patient_generation_calls": 0,
+  "M12_new_complete_dialogues": 0,
+  "module_changed_after_M12_diagnostic": false,
+  "latest_reliability_guide": "development/rubric-comparison-m18-v01/README.md",
+  "latest_reliability_results": "development/rubric-comparison-m18-v01/results.json",
+  "latest_reliability_verification": "development/rubric-comparison-m18-v01/verification.json",
+  "latest_reliability_assessment": {
+    "record": "development/rubric-comparison-m18-v01/results.json",
+    "primary_target": "same_model_repeatability_of_originalRealism_and_CCF_on_same_new_development_dialogues",
+    "natural_GPT_original": "27/27samepairs;all27scores4",
+    "natural_GPT_CCF": "27/27samepairs;all27scores4",
+    "natural_Claude_original": "27/27samepairs;all27scores3",
+    "natural_Claude_CCF": "25/25availablepairs;all26validscores4;8/8completeallthree;1JSONfailure",
+    "natural_alpha_ICC": null,
+    "natural_alpha_ICC_reason": "constant_scores_no_fine_discrimination_information",
+    "G_Claude_original_target_criticism": "9/9",
+    "G_Claude_CCF_target_criticism": "4/9;other5uncertainnotordinarynegative",
+    "direct_reconfirmation_target_criticism": 0,
+    "U_eligible2_target_findings_each_model_criterion": "6/6",
+    "F_target_findings_each_model_criterion": "9/9",
+    "within_model_reliability_improvement_established": false,
+    "fine_natural_global_ranking_validated": false,
+    "population_CI_established": false,
+    "clinical_validation": false,
+    "CCF_adopted": false,
+    "final12_used": 0,
+    "final720_executed": false
+  },
+  "M13_new_patient_generation_calls": 24,
+  "M13_new_complete_dialogues": 3,
+  "active_discrimination_experiment": {
+    "path": "development/graded-discrimination-m13-v01",
+    "new_development_profiles": 3,
+    "reference_dialogues_generated": 3,
+    "actual_patient_outputs": 24,
+    "texts": 18,
+    "authored_variants": 15,
+    "planned_numeric_calls": 108,
+    "completed_numeric_calls": 108,
+    "criteria_unchanged_from_M12": true,
+    "prompt_unchanged": true,
+    "final12_used": 0,
+    "completed": true,
+    "prerating_stimulus_amendment": "case02adultdaughter/twopersonpropositionspreserved;originalspeceligibilityfailurepublic",
+    "frozen": true,
+    "actual_design_review_responses": {
+      "Astra": 2,
+      "Claude_high": 2
+    },
+    "valid_primary_scores": 108,
+    "fully_schema_valid_responses": 108,
+    "quote_errors": 0,
+    "auxiliary_numeric_values": 432,
+    "patient_and_judge_prompts_unchanged": true,
+    "all_variants_only_P02_changed": true,
+    "technical_failures": 0,
+    "automatic_retries": 0,
+    "final720_executed": false,
+    "population_reliability_established": false,
+    "clinical_validation": false
+  },
+  "M13_rating_outputs": 108,
+  "M13_auxiliary_numeric_values": 432,
+  "module_changed_after_M13_diagnostic": false,
+  "latest_discrimination_guide": "development/graded-discrimination-m13-v01/README.md",
+  "latest_discrimination_results": "development/graded-discrimination-m13-v01/results.json",
+  "latest_discrimination_verification": "development/graded-discrimination-m13-v01/verification.json",
+  "latest_discrimination_assessment": {
+    "record": "development/graded-discrimination-m13-v01/results.json",
+    "two_model_condition_means": {
+      "R": 3.4444444444444446,
+      "I": 3.4444444444444446,
+      "F1": 3,
+      "F2": 3,
+      "N1": 3,
+      "N2": 2
+    },
+    "expression_N1_N2_global_scores": "all18reads eachcondition3and2;all6profile/modelcellsseparated",
+    "all_three_levels_always_separated": false,
+    "fact_F1_F2_global_scores": "all18reads eachcondition3and3;no adjacent global separation",
+    "fact_F1_F2_grounding_ratings": "all18reads eachcondition1and0;exactchangedP02quotes",
+    "GPT_exact_repeat_pairs": "52/54",
+    "Claude_exact_repeat_pairs": "50/54",
+    "GPT_ordinal_alpha": 0.9510347376201035,
+    "Claude_ordinal_alpha": 0.8556644880174292,
+    "mechanical_target_findings": "72/72reads of12authorvariants;not72independenterrors orclinicalaccuracy",
+    "N1_auxiliary_severity_boundary": "Claudecase02naturalness1/0/1 despiteglobal3/3/3",
+    "invariance_R_I_mean_equality_not_equivalence": true,
+    "case02_original_eligibility_and_stop_rule_deviation_disclosed": true,
+    "case02_omitted_key_pattern_same": true,
+    "model_level_disagreement_not_failure_condition": true,
+    "clinical_validation": false,
+    "final12_used": 0
+  },
+  "latest_direction_decision": "collaboration/strategy/M20-three-week-discourse-design-v01/decision.md",
+  "question_readiness_plan": "collaboration/strategy/M14-v02-resumption-plan-v01/question-readiness-plan.md",
+  "M14_new_patient_generation_calls": 0,
+  "M14_new_numeric_judge_calls": 0,
+  "module_changed_after_M14_direction_review": false,
+  "bounded_development_resumption": {
+    "decision": "conditional_yes_for_defect_localized_engineering",
+    "not_statistical_pass_or_clinical_validation": true,
+    "next_selected_action": "Clarifynextdevelopmentquestion/factsubject,time,knowledge,historyandpurposebeforegeneration;inputtaskquality,notpatientpromptimprovement",
+    "plan": "collaboration/strategy/M14-v02-resumption-plan-v01/next-development-plan.md",
+    "current_5location_origin_review": "complete;unblindedalreadyflaggedpositionsonly,notexhaustiveerroraudit",
+    "patient_prompt_intervention_now": null,
+    "single_clear_error_can_be_diagnosed": true,
+    "multiple_profiles_not_arbitrary_pass_threshold": true,
+    "small_natural_Realism_mean_rankings_validated": false,
+    "model_level_score_disagreement_is_failure": false,
+    "no_infinite_reaudit_or_rerating_gate": true,
+    "final12_used": 0,
+    "final720_executed": false,
+    "M15_followup_complete": true,
+    "M15_natural_Claude_repeatability_limit": "21/27exactpairs;globalM12/M13coefficientsnotuniversalguarantee",
+    "M16_scope_correction": {
+      "record": "collaboration/strategy/M16-reliability-reassessment-v01/reassessment.md",
+      "broad_reliability_pass_or_natural_fine_ranking_claim": "withdrawn",
+      "remaining_scope": "explicit_source_checkable_diagnosis_and_boundary_documentation_only",
+      "no_current_clear_generator_defect_selected": true,
+      "old_M14_decision_preserved_as_history": true
+    },
+    "M18_followup": "Two criteria tested;natural constants and CCF output-interface limitations remain. Explicit source diagnosis possible;fine natural score ranking not validated."
+  },
+  "active_aligned_input_experiment": {
+    "path": "development/aligned-input-residual-m15-v01",
+    "planned_dialogues": 9,
+    "planned_patient_outputs": 72,
+    "planned_judge_calls": 54,
+    "generation_replicates_per_profile": 3,
+    "judge_repeats_per_model_per_dialogue": 3,
+    "profiles_source": "M13developmentthree;notnewheldoutprofiles",
+    "input_question_changes": 4,
+    "profile_facts_changed": false,
+    "patient_prompt_and_criteria_changed": false,
+    "final12_used": 0,
+    "completed": true,
+    "actual_patient_outputs": 72,
+    "actual_dialogues": 9,
+    "generation_complete": true,
+    "judge_plan_frozen": true,
+    "prejudge_author_turns_read": 72,
+    "new_judge_outputs_seen_before_author_audit": 0,
+    "completed_judge_calls": 54,
+    "valid_primary_scores": 54,
+    "fully_schema_valid_responses": 54,
+    "quote_errors": 0,
+    "auxiliary_numeric_values": 216,
+    "technical_failures": 0,
+    "automatic_retries": 0,
+    "all9dialogues_retained": true,
+    "final720_executed": false
+  },
+  "M15_new_patient_generation_calls": 72,
+  "M15_new_complete_dialogues": 9,
+  "M15_rating_outputs": 54,
+  "M15_auxiliary_numeric_values": 216,
+  "module_changed_after_M15_diagnostic": false,
+  "latest_aligned_input_guide": "development/aligned-input-residual-m15-v01/README.md",
+  "latest_aligned_input_results": "development/aligned-input-residual-m15-v01/results.json",
+  "latest_aligned_input_attribution": "development/aligned-input-residual-m15-v01/issue-attribution.json",
+  "latest_aligned_input_verification": "development/aligned-input-residual-m15-v01/verification.json",
+  "latest_aligned_input_assessment": {
+    "source": "development/aligned-input-residual-m15-v01/results.json",
+    "model_means": {
+      "codex": 4.0,
+      "claude": 3.3333333333333335,
+      "two_model_mean": 3.6666666666666665
+    },
+    "GPT_repeat_equal_pairs": "27/27;all27scores4;alpha/ICCundefined",
+    "Claude_repeat_equal_pairs": "21/27;77.7778%;6/9allthreeequal",
+    "Claude_ordinal_alpha": 0.5185185185185185,
+    "Claude_ICC11_exploratory": 0.5384615384615384,
+    "all_grounding_responsiveness_continuity_ratings": 2,
+    "case02_P08_Claude_style_findings": "3generatedtexts×3reads=9/9;not9independentprofiles",
+    "household_exclusivity_boundary": "case02P02in2/3generations;rawgrounding2all6readspertext;notadjudicatederror",
+    "clear_generator_defect_selected": false,
+    "no_defect_proven": false,
+    "all_input_causes_excluded": false,
+    "input_alignment_causal_effect_demonstrated": false,
+    "new_patient_prompt_version": null,
+    "v02_retained": true,
+    "fixed_batch_closed": true,
+    "final12_used": 0
+  },
+  "M16_new_patient_generation_calls": 0,
+  "M16_new_numeric_judge_calls": 0,
+  "module_changed_after_M16_reassessment": false,
+  "latest_reliability_reassessment": {
+    "record": "collaboration/strategy/M16-reliability-reassessment-v01/reassessment.md",
+    "results": "collaboration/strategy/M16-reliability-reassessment-v01/analysis.json",
+    "Claude_M13_mixed_pairs": "50/54",
+    "Claude_M13_generated_R_pairs": "7/9",
+    "Claude_M13_R_plus_authored_I_pairs": "14/18",
+    "Claude_M13_authored_controls_pairs": "36/36",
+    "Claude_M15_natural_pairs": "21/27",
+    "Claude_M15_alpha": 0.5185185185185185,
+    "Claude_M15_ICC11": 0.5384615384615384,
+    "sudden_deterioration_established": false,
+    "population_equivalence_established": false,
+    "fine_natural_global_ranking_validated": false,
+    "internal_cause_identified": false,
+    "clinical_validation": false
+  },
+  "evaluation_criteria_revision_proposal": {
+    "version": "CCF-R1-proposal",
+    "record": "collaboration/strategy/M17-evaluation-rubric-revision-v01/proposal.md",
+    "exact_evaluator_instructions": "collaboration/strategy/M17-evaluation-rubric-revision-v01/evaluator-instructions-proposal.txt",
+    "sources": "collaboration/strategy/M17-evaluation-rubric-revision-v01/references.json",
+    "source_rule_mapping": "collaboration/strategy/M17-evaluation-rubric-revision-v01/rule-source-map.json",
+    "review_disposition": "collaboration/strategy/M17-evaluation-rubric-revision-v01/decision.md",
+    "status": "M18tested_candidate_notadopted_notclinicallyvalidated",
+    "original_primary_Realism_and_aggregation_unchanged": true,
+    "construct_equivalence_to_original_Realism_claimed": false,
+    "patient_prompt_unchanged": true,
+    "new_numeric_ratings": 0,
+    "new_patient_generation": 0,
+    "reliability_or_clinical_validation_improvement_established": false,
+    "final12_used": 0,
+    "final720_executed": false,
+    "M18_evidence_record": "development/rubric-comparison-m18-v01/README.md",
+    "M18_numeric_response_records": 126,
+    "M18_valid_numeric_scores": 125,
+    "M18_reliability_improvement_established": false
+  },
+  "M17_new_patient_generation_calls": 0,
+  "M17_new_numeric_judge_calls": 0,
+  "module_changed_after_M17_design": false,
+  "M18_new_patient_generation_calls": 72,
+  "M18_new_complete_dialogues": 9,
+  "active_rubric_comparison_experiment": {
+    "path": "development/rubric-comparison-m18-v01",
+    "stage": "completed_fixed_batch_closed",
+    "planned_calls": 252,
+    "condition_rows": 24,
+    "unique_inputs": 21,
+    "generated_dialogues": 9,
+    "author_controls": 15,
+    "unchanged_control_aliases": 3,
+    "patient_prompt_unchanged": true,
+    "both_roles_unchanged": true,
+    "final12_used": 0,
+    "final720_executed": false,
+    "completed": true,
+    "completed_calls": 252,
+    "valid_primary_scores": 251,
+    "fully_schema_valid_responses": 147,
+    "quote_errors": 1,
+    "technical_failures": 0,
+    "automatic_retries": 0,
+    "CCF_adopted": false,
+    "clinical_validation": false
+  },
+  "completed_development_numeric_response_records": 732,
+  "CCF_development_response_records": 126,
+  "CCF_development_valid_numeric_scores": 125,
+  "M18_rating_outputs": 252,
+  "M18_valid_primary_scores": 251,
+  "M18_Realism_numeric_scores": 126,
+  "M18_CCF_numeric_scores": 125,
+  "module_changed_after_M18_diagnostic": false,
+  "historical_M17_strategy_review": {
+    "path": "collaboration/strategy/M17-evaluation-rubric-revision-v01",
+    "completed": true,
+    "actual_Claude_strategy_CLI_responses": 2,
+    "actual_Astra_strategy_response_files": 2,
+    "new_patient_outputs": 0,
+    "new_numeric_rating_outputs": 0,
+    "patient_prompts_changed": false,
+    "active_judge_criteria_changed": false,
+    "proposed_criteria_authored": true,
+    "initial_reviews_independent": true,
+    "followups_include_real_prior_critique_and_Codex_counterarguments": true,
+    "exact_final_wording_not_sent_for_third_review": true
+  },
+  "historical_M12_reliability_assessment": {
+    "record": "development/rater-reliability-m12-v01/results.json",
+    "primary_target": "within_model_repeatability",
+    "GPT_natural_scores": "36/36 are4; exact pairs36/36;alpha/ICCundefinedbecauseconstant",
+    "Claude_natural_equal_repeat_pairs": "34/36;94.4444%; dependent comparisons within12texts/3profiles",
+    "Claude_natural_all3_equal_texts": "11/12",
+    "Claude_ordinal_alpha": 0.890625,
+    "Claude_ICC11_exploratory": 0.8962264150943396,
+    "Claude_ICC13_exploratory": 0.9628378378378378,
+    "Claude_8turn_alpha": 0,
+    "between_model_exact_pooled_descriptive": "16/36;44.4444%",
+    "between_model_linear_weighted_kappa_each_round": 0,
+    "between_model_difference_is_not_itself_failure": true,
+    "two_model_mean_alpha": 0.890625,
+    "two_model_mean_within_SD": 0.08333333333333333,
+    "grounding_control_target_findings": "18/18reads of3authorcontrols;not18independenterrors",
+    "population_CI_established": false,
+    "clinical_validation": false,
+    "new_generated_patient_outputs": 0,
+    "final12_used": 0,
+    "final720_changed": false
+  },
+  "historical_M18_strategy_review": {
+    "path": "collaboration/strategy/M18-rubric-comparison-v01",
+    "completed": true,
+    "actual_Claude_strategy_CLI_responses": 2,
+    "actual_Astra_strategy_response_files": 2,
+    "patient_prompts_changed": false,
+    "active_judge_criteria_changed": false,
+    "CCF_comparator_only": true,
+    "initial_reviews_independent": true,
+    "followups_include_prior_critique_and_Codex_counterarguments": true,
+    "final_postreview_clarifications_not_third_reviewed": true
+  },
+  "M20_new_patient_generation_calls": 0,
+  "M20_new_numeric_judge_calls": 0,
+  "module_changed_after_M20_design": false,
+  "proposed_discourse_audit": {
+    "record": "collaboration/strategy/M20-three-week-discourse-design-v01/protocol.md",
+    "status": "reviewed_design_proposal_not_executed",
+    "question": "counterfactual_goal_conditioned_action_progression_under_diagnostic_wording",
+    "labels": [
+      "not_provided",
+      "schizophrenia",
+      "type2diabetes"
+    ],
+    "planned_new_scenario_families": 8,
+    "planned_main_generation": 192,
+    "planned_main_judge_calls": 384,
+    "planned_calibration_calls": 48,
+    "planned_repeat_check_calls": 48,
+    "planned_ratings_excluding_development": 480,
+    "maximum_generation_including_development": 216,
+    "maximum_ratings_including_development": 528,
+    "new_realized_patient_outputs": 0,
+    "new_realized_numeric_ratings": 0,
+    "final12_used": 0,
+    "final720_changed": false,
+    "patient_language_clinical_reproduction_test": false
+  }
+}

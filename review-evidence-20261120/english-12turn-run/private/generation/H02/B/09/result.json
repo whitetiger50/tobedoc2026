@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "B",
+  "turn": 9,
+  "question": "How does that go with other people?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-7122-bd1b-bc7db5bb8bd5",
+  "raw": "“Mostly we get along. I don’t mind people asking about books—that’s part of being there. I just get a bit embarrassed if I’ve put something in the wrong place. The volunteer who quietly points it out makes it easier; I don’t feel like everyone’s watching.”",
+  "raw_sha256": "04a571b376c9f042f28b8bb231b103936d68d157aa5610d0e53181c281474359",
+  "request_sha256": "4d7adbbd067d0d92a3319e25408686be78be5c68828450c60d92630b4d4ee171",
+  "started_utc": "2026-11-20T20:41:46.452072+00:00",
+  "completed_utc": "2026-11-20T20:41:51.213911+00:00",
+  "usage": {
+    "input_tokens": 71759,
+    "cached_input_tokens": 53632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 555,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "477aa2dbba3f8d7154eeb7aa94aed00753e14e9fda5d75714259409b3a21f52c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e74b708026ee2f9be5886a799aa43d0356a5c95ebaf091fcaae420bd2f734d4e"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "B",
+  "turn": 6,
+  "question": "Could you give me a recent example of something that held your interest for a while?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0abb-7c91-b6ac-197c1129cad0",
+  "raw": "The match on Saturday afternoon. I listened in the kitchen, right through to the result.",
+  "raw_sha256": "0f61f7417bea740db7a79d472f44847691456be2eaf1edaee97c81078d09bcf6",
+  "request_sha256": "4c0df5ab0c764d3319c435b69c66a1d7c791ffb958f5003e5be08789f7b954c3",
+  "started_utc": "2026-11-20T20:40:25.600696+00:00",
+  "completed_utc": "2026-11-20T20:40:29.161144+00:00",
+  "usage": {
+    "input_tokens": 46492,
+    "cached_input_tokens": 37760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 121,
+    "reasoning_output_tokens": 11
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6ecd9e555ae78953e356e27adcdd3d07276a28a79884411388e9f7e3de93023b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a4bbba038a3c91dac718c0963dd2e6ec9a765bfc361c4bb891becf1e94da7b03"
+}

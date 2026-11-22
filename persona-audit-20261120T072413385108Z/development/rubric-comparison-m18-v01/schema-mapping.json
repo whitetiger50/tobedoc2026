@@ -1,0 +1,28 @@
+{
+  "realism_role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+  "ccf_role_sha256": "22037f565ee38ea0a17c4b88fcf120cee17ab87cad3d4c3e3dae730d7816d56f",
+  "both_common_fields": {
+    "realism_score": "1–4integer",
+    "realism_reason": "string",
+    "realism_evidence": "patient_turn_id/quote array",
+    "facets": "grounding/responsiveness/continuity/naturalness each rating0/1/2ornull,uncertain,reason,evidence,context_refs"
+  },
+  "same_evidence_rules": [
+    "both require facet evidence for0/1 oruncertain=true",
+    "both require context_refs forfacet0/1",
+    "both require global evidence below4"
+  ],
+  "ccf_only_requirements": [
+    "global representative evidence alsoat4 withcontext_refs",
+    "criteria_version",
+    "observations",
+    "boundary_34",
+    "coverage",
+    "global/facetconsistency"
+  ],
+  "common_target_usable": "Event-levelvalidtargetnegativequoteiskeptdespiteunrelatederrors;withoutpositivetarget,unresolvedadversequotes/uncertainreferencesreportedseparately;CCFextrasdonotdeterminecommontargetvalidity",
+  "numeric_retention": "retainallvalidnumericfieldsdespiteotherfield/schemaerror",
+  "quote_matching": "rawpatienttextunchanged;exactturnid+substringthenpositionoverlap;noNFC/whitespaceutteranceediting",
+  "matching_overlap": "atleast2sharedletters/digits;technicalspanmatchingnotclinicalthreshold",
+  "null_uncertain_exception": "Bothrolesallowoptionalquotefornull;nullor2/uncertainmentionisnotadverseissue"
+}

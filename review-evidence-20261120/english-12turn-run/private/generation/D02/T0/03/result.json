@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 3,
+  "question": "What has concentrating been like over the last few days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-fc76-7ea3-ba3d-c1dbdda371df",
+  "raw": "“It’s been harder to hold on to a thought when I’m tired. Before lunch I usually do better. Writing things down helps—my flatmate keeps a pencil by the shopping list. But in a conversation you can’t always stop and write… what was I going to say? That’s the frustrating bit, losing the point.”",
+  "raw_sha256": "4eef13f3827d76ba35ca8b660da223d0af1d04101e4ddaf8902842a5c7ab75a9",
+  "request_sha256": "7d701b6cd4d6e2a31dec479e814f430b87029b2d13d3090639fe4b8afc48b678",
+  "started_utc": "2026-11-20T20:32:21.027260+00:00",
+  "completed_utc": "2026-11-20T20:32:26.755979+00:00",
+  "usage": {
+    "input_tokens": 6943,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "319ddb467cace3e96959d1ccf599fa797f2b446dcae03674b451d97ccb77499c",
+  "trace_sha256": "36dded3e9a339554509fc011bc04a8136833afcddfe70c5f4d53e665b71fa419"
+}

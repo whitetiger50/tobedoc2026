@@ -1,0 +1,56 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "who does it seem to be meant for?",
+    "reason": "The immediately preceding exchange names only the announcement about keeping the doors clear, so 'it' clearly refers to that tram announcement.",
+    "alternatives": [
+      {
+        "meaning": "Who the routine announcement about keeping the doors clear seems to be aimed at when it plays on a crowded tram.",
+        "answer": "It sometimes feels directed at Alex personally, although Alex can consider that it is a recording every passenger hears."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "'It' could refer to either the fan or the bedside speaker, and the two have different running times, so the factual answer depends on which device is meant.",
+    "alternatives": [
+      {
+        "meaning": "Whether the fan stays on all night.",
+        "answer": "Yes, the fan runs all night."
+      },
+      {
+        "meaning": "Whether the bedside speaker stays on all night.",
+        "answer": "No, the speaker stops on a twenty-minute timer."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Have you missed a tablet since then?",
+    "reason": "'Since then' could refer to the visit three weeks ago or to the start of the lower dose two weeks ago, and the one missed tablet falls between those two dates.",
+    "alternatives": [
+      {
+        "meaning": "Whether any tablet has been missed since the last visit three weeks ago.",
+        "answer": "Yes, one tablet was missed, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Whether any tablet has been missed since starting the lower dose two weeks ago.",
+        "answer": "No, none have been missed since the lower dose started."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "in just one ear or in both?",
+    "reason": "The immediately preceding question and answer focused only on the high-pitched ringing, and asking about ears fits that sound, so 'it' clearly refers to the ringing.",
+    "alternatives": [
+      {
+        "meaning": "Whether the high-pitched ringing is heard in one ear or in both ears.",
+        "answer": "Both ears; the ringing is in both ears and continues through music."
+      }
+    ]
+  }
+}
+```

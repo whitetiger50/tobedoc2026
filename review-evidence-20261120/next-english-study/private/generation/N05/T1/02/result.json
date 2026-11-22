@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T1",
+  "turn": 2,
+  "question": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-d851-7450-80f6-528ce36960aa",
+  "raw": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+  "raw_sha256": "2cd560ed77f374a7d2d1c876b25f69434a2b2fb5982a28505e8ef527c99dfebb",
+  "request_sha256": "c17ebc97e0076ddad5da73ac7db4416b2ac1bf7b45910c618456e020a3d8d740",
+  "started_utc": "2026-11-20T20:58:24.623562+00:00",
+  "completed_utc": "2026-11-20T20:58:28.123543+00:00",
+  "usage": {
+    "input_tokens": 7061,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "33ed3a4cfc4cd55d4e39550c31560cb0e1b1a5fc13216c85ac5709badd40a879",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e12478e7b5d89ac73d661a99ef6c2530bc0990cca6e0c7959a53b042684dbb4b"
+}

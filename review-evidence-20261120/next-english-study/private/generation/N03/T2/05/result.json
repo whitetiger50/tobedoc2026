@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T2",
+  "turn": 5,
+  "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-2923-7cf2-b0ce-41ab12c131e4",
+  "raw": "The more recent of those two evenings, I was sorting thread and heard “too slow.” I wondered if it was the neighbor, but remembering I’d heard it when that apartment was empty left me unsure. I put the radio on, which made it less distracting, and finished sorting. Later, before bed, I took my medication. I keep the unopened packet by my toothbrush to remind me.",
+  "raw_sha256": "7c9c03e9da4f5fabb9bdb98c69db63da9e4909385ec647a59fdf5f950d505c77",
+  "request_sha256": "aa89307a90db0acd679303bc8edff46b35e4dbbcfc6c3c03c571862d79a4e9f5",
+  "started_utc": "2026-11-20T21:00:56.384765+00:00",
+  "completed_utc": "2026-11-20T21:01:01.304752+00:00",
+  "usage": {
+    "input_tokens": 6330,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 83,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "67851ee1990ff47ac2b3444a58a22555782c1b2463ed3981e4a172e362eafdac",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "70255be7e0ee2528da0586206ddb15ed89d0de3783362e3147ab5f182d56e513"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "B",
+  "turn": 8,
+  "question": "How have getting around and spending time on your interests fitted into your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e89-74d2-86bf-97aae7d0a843",
+  "raw": "I’ve still been getting to my morning shifts and taking the bus home. The wait on Monday was uncomfortable, but Wednesday was fine. I’ve been drawing after work too—it’s easier to settle into it once I’m home.",
+  "raw_sha256": "bf7ff8cc23608fa42269b96be9d5845255eb136934c77eecfff524e359c30270",
+  "request_sha256": "d1622ed774bb432a661fad68c6772cf607b03ae88f1152e8672b3cbc33fc809f",
+  "started_utc": "2026-11-20T21:02:04.917082+00:00",
+  "completed_utc": "2026-11-20T21:02:09.888341+00:00",
+  "usage": {
+    "input_tokens": 64527,
+    "cached_input_tokens": 54656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 389,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3eace9a63d37349723b62ca7890590d926a9acca700fd10ab824f288a53ac9ea",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "03a67064c7635d78213564e31bd841170597ef31e8534bc45a314c7a82149579"
+}

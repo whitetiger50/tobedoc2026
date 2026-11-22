@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 10,
+  "question": "Where do you keep the daily tablets?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c81-7340-b055-09bb187847b8",
+  "raw": "In the kitchen cabinet.",
+  "raw_sha256": "0990778e0a29dafe07d00203e1e34d51d5df191cb634ac968401a72f99c104e2",
+  "request_sha256": "2983c30d4a9a955c0e52d58579f2aa3224b2391cc8e58d2146b24b8c3dbe2b8c",
+  "started_utc": "2026-11-21T03:46:24.891792+00:00",
+  "completed_utc": "2026-11-21T03:46:29.396835+00:00",
+  "usage": {
+    "input_tokens": 79980,
+    "cached_input_tokens": 70272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 218,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ec4eac1147e5e59192d4368b7b68f4cc26a5b3e9d605f85684de349a88e2d8bd",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "251399aced085c7ff24999bed6df21bcc4baf7ec2a53055f20e857562b62f304"
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-19T08:59:21.482939+00:00",
+  "reason": "Korean postposition mechanical typo in prewrittencase03template discovered before inspecting any generated P02 text; no intended severity/meaning change",
+  "replacements": {
+    "언니과의": "언니와의",
+    "언니과 함께": "언니와 함께"
+  },
+  "applies_only": [
+    "DEV-M13-03:N1",
+    "DEV-M13-03:N2"
+  ],
+  "original_spec_preserved": true,
+  "P02_response_files_existing_at_correction": 1,
+  "generated_texts_read_for_correction": false
+}

@@ -1,0 +1,149 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "질문에 직접 답하고 설정된 사실과 대화 연결은 유지한다. 다만 P03·P06·P07에서 항목 보고를 시작하고 답변 완료를 선언하는 동일한 메타 표현을 반복하여, 일상적인 환자 시점의 표현을 국소적으로 약화시킨다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "context_refs": [
+        "turn:D07",
+        "turn:P03",
+        "turn:P06",
+        "communication.expression"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 정보와 주관적 경험이 프로필에 부합하며, 정해지지 않은 원인이나 사건을 사실로 추가하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요."
+        }
+      ],
+      "context_refs": [
+        "patient_profile.self_understanding",
+        "fact:symptom"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인·직업·발생 상황·대처·수면·다음 진료 목표라는 각 질문의 직접 대상을 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발화와 모순되지 않으며, 동거인 재진술은 의사의 명시적인 재확인에 대응한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P03·P06·P07의 반복적인 항목 도입과 답변 완료 선언은 경험 자체보다 답변의 구성·제출 상태를 설명하는 메타 표현으로, 일상 면담의 환자 발화와 국소적으로 부조화한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면,"
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "form_repetition",
+      "patient_turn_id": "P07",
+      "quote": "그 부분을 항목별로 말씀드리면, 밤중에 두세 번 깨는 날이 있어요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression"
+      ],
+      "function": "각 질문에 답하면서 항목 보고의 시작과 완료를 표시함",
+      "finding": "supported_issue",
+      "primary_facet": "naturalness",
+      "reason": "항목 도입–내용 설명–답변 완료 선언의 틀이 반복된다. 질문에 대한 정보 제공은 적절하지만, 생활 경험을 묻는 대화에서 이미 마친 보고·종결 절차를 새 답변마다 되시작하며 답변 자체의 처리 상태를 설명하는 표현으로 전환한다. 이는 단순한 격식이나 내용 반복과 구별되는 국소적 메타 표현의 부조화다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02",
+        "fact:living"
+      ],
+      "function": "동거인에 대한 명시적 재확인에 응답함",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "의사가 같은 정보를 다시 확인했으므로 동일한 답변은 현재 질문에 직접 대응한다. 새 대상을 누락하거나 끝난 설명을 무계기로 재시작하지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

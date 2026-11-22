@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "How have things been at work and at home since your last visit?",
+      "patient": "“Work’s been fairly steady. On Friday I closed with a coworker, and we finished all the tickets before going home. At home I’ve been doing some baking and sorting my sewing supplies. I still get that sound occasionally, more at home than at work, but putting the radio on makes it less distracting. I can carry on with what I’m doing.”"
+    },
+    {
+      "turn": 2,
+      "interviewer": "What has stood out there?",
+      "patient": "Do you mean what’s stood out about the sound, or about things at work and home?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "I meant at home. What has caught your attention there in the last week?",
+      "patient": "Two evenings last week, while I was sorting my sewing supplies, I heard a voice say “too slow.” It wasn’t telling me to do anything. I put the radio on, and it was less distracting, so I finished sorting the thread."
+    },
+    {
+      "turn": 4,
+      "interviewer": "Have you heard any sounds or voices lately that were hard to place?",
+      "patient": "Yes, that voice I mentioned, on those two evenings last week. It said “too slow.” Sometimes I wonder if it’s a neighbor through the wall, but I’ve heard it when that apartment was empty too, so I’m not sure where it comes from."
+    },
+    {
+      "turn": 5,
+      "interviewer": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+      "patient": "The more recent of those two evenings, I was sorting thread and heard “too slow.” I wondered if it was the neighbor, but remembering I’d heard it when that apartment was empty left me unsure. I put the radio on, which made it less distracting, and finished sorting. Later, before bed, I took my medication. I keep the unopened packet by my toothbrush to remind me."
+    },
+    {
+      "turn": 6,
+      "interviewer": "What sense, if any, have you made of your experiences in the evenings?",
+      "patient": "I haven’t really settled on an explanation. Sometimes I think it could be the neighbor, but hearing it when that flat was empty makes me doubt that. It’s more distracting after work than when I’m there, but I don’t know why."
+    },
+    {
+      "turn": 7,
+      "interviewer": "How are you managing work tasks and the things you do in the evening?",
+      "patient": "I’m getting the work done—the hems and zippers—and the sound hasn’t interrupted a conversation with a customer this month. In the evenings it can be more distracting, but with the radio on I can still finish what I’m doing. I’m still baking and doing my sewing, too."
+    },
+    {
+      "turn": 8,
+      "interviewer": "Do you ever have to stop?",
+      "patient": "Do you mean stop what I’m doing because of the sound? It can distract me, but I don’t have to leave the task unfinished. Putting the radio on helps me carry on."
+    },
+    {
+      "turn": 9,
+      "interviewer": "I was asking about work. How often have you had to interrupt a task at the counter lately?",
+      "patient": "I can’t give you an exact number. It hasn’t interrupted a customer conversation this month, and I’m getting the hems and zippers finished. I’m less sure how often I’ve paused briefly while doing them."
+    },
+    {
+      "turn": 10,
+      "interviewer": "What is your current routine for any medication you take?",
+      "patient": "I take my prescribed medication before bed. I keep the unopened packet by my toothbrush so it reminds me to take the evening dose."
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking just about conversations with customers, how has it been to stay with those conversations this month?",
+      "patient": "I’ve been able to stay with them. The sound hasn’t interrupted a conversation with a customer this month."
+    },
+    {
+      "turn": 12,
+      "interviewer": "When you sit down to a task at home, what helps you finish it?",
+      "patient": "Having the radio on helps. When I was sorting the thread last week, it made the voice less distracting, and I finished sorting. I also like listening to a radio show while I’m making dough."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Effect of background radio on a task",
+      "A": "With the radio on, the sound can become harder to set aside while sorting thread.",
+      "B": "With the radio on, the sound can become easier to set aside while sorting thread."
+    },
+    "item2": {
+      "question": "Character of the recent voice",
+      "A": "The voice at home last week commented on the patient’s pace.",
+      "B": "The voice at home last week gave instructions about the patient’s pace."
+    }
+  }
+}

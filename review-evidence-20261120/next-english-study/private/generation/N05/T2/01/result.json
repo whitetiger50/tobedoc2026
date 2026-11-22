@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T2",
+  "turn": 1,
+  "question": "How do you usually spend the afternoons in a typical week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8bce-a01a417d673a",
+  "raw": "I shelve donated books on Wednesday and Friday afternoons. The other days I’m usually at home. I like looking at old travel maps.",
+  "raw_sha256": "1f650047096d46c912a172e6bbbdf16ec6d4cac3852bb6dc60788cb608815ffb",
+  "request_sha256": "14bcd41ad412e7ac539852e488529f039523f579ecec349b1da0ce34e19def41",
+  "started_utc": "2026-11-20T20:57:49.475104+00:00",
+  "completed_utc": "2026-11-20T20:57:53.531632+00:00",
+  "usage": {
+    "input_tokens": 6022,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 32,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b483de501982d236e7fc8033eea673a932deb2d76742da259195ad90155bbdc1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "287be1ae810f28940e7509a1c14ae271d2028752c338510866e509284e1205c8"
+}

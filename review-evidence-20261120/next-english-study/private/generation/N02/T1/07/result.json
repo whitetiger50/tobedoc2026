@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T1",
+  "turn": 7,
+  "question": "What has your experience with treatment been like recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-df67-72c1-8e58-28e7c3fec3ca",
+  "raw": "I go to the clinic for my injection. My arm can ache that evening, but it’s usually fine the next morning.",
+  "raw_sha256": "71a7aa9028702a9eb87e63dafcb97c702b88d2e91cfc62bdb6902081a937247a",
+  "request_sha256": "20573afd95a6a251f51e830eae1dcfde259419b065552c99926845db8bfc1110",
+  "started_utc": "2026-11-20T21:01:43.030082+00:00",
+  "completed_utc": "2026-11-20T21:01:46.975679+00:00",
+  "usage": {
+    "input_tokens": 7276,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "26b4b28538489d6772e9404a51913da3afed9b99f5fd784c1e20aa83e03721e2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "27f8a2becd8e00236fcff187d18a5e5166aea55502d908d3d682af41933292e5"
+}

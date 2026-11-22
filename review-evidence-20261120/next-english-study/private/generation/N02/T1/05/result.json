@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T1",
+  "turn": 5,
+  "question": "Could you give me an example of a recent time you went outside, even for a small errand?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-e2ed-7e40-93f8-c1be823452cb",
+  "raw": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river.",
+  "raw_sha256": "a9cf44e155bb8d057120b23c2f3adfd5f526bd488c21bf405ff808798b9a2333",
+  "request_sha256": "579972b3d20f304a549db3fb4a90ed46d38e7fcbae29369e169889955a9367aa",
+  "started_utc": "2026-11-20T21:00:38.406310+00:00",
+  "completed_utc": "2026-11-20T21:00:41.916386+00:00",
+  "usage": {
+    "input_tokens": 7189,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4958c97ecf17e0f1f2848a112b3730f144dbdec94df8c74c8ccc0d32ec84d431",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bd15d70c197805c2092afe9078778d82cd814d2b5c11da2d67672d2e2cda2fc4"
+}

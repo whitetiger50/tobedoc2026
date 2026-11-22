@@ -1,0 +1,81 @@
+{
+  "id": "Pf233118c0a6a38cf8bfdcafb",
+  "reader": "gpt",
+  "session": "01a1fc49-0fa3-7931-9727-fd626107ff28",
+  "attempt": "attempt-01",
+  "packet_sha256": "47447eb296ffc3ef98946824414dd56b2174990704c9d285095cdbc4989bc6c9",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "931d6a1605c94705e674717a7e983e460e49c9e8b37832cc76603a7e5f839763",
+  "raw_sha256": "ce780b5cb1d0faecb77ddb0d53a84c3817f7ef6523a0103825f25470c55070bd",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The immediately preceding exchange establishes the swimming lesson as the referent of “it.”",
+        "alternatives": [
+          {
+            "meaning": "Where Jules goes for the swimming lesson.",
+            "answer": "The swimming lesson is at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The preceding exchange explicitly identifies the phone alarm, making its scheduled time the clear target.",
+        "alternatives": [
+          {
+            "meaning": "What time Morgan sets the phone alarm to sound.",
+            "answer": "The alarm is set for 7:10 every morning."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "Both schedule changes remain live referents of “that change,” and their different initiators matter even though a direct answer could explain both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts rather than Cameron requesting them."
+          },
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron requested the combined schedule change.",
+            "answer": "Cameron requested the later start, while the supervisor suggested shorter shifts."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The immediately preceding question establishes Thursday as the day, and Sam has identified its broadcast as the music request show.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio lost reception on Thursday.",
+            "answer": "Thursday’s broadcast was the music request show."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:07:10.172323+00:00"
+}

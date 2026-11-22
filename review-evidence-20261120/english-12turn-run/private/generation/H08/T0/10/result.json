@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 10,
+  "question": "I mean meeting a friend after swimming. What is that time together usually like for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-3069-7d03-ae82-8c45c14b1766",
+  "raw": "“It’s enjoyable. We have a drink and talk about everyday stresses. We’ve known each other a long time, so it’s nice having someone familiar to talk things through with.”",
+  "raw_sha256": "a51da2616e95dab7bfbed9d52bce24f0874ae9c41ba6f3ef79480c125d7e4a23",
+  "request_sha256": "ecaa745701c5cbd57d624940e5b90a6cffaec1cc0f1a4463af9cc49aed41f44e",
+  "started_utc": "2026-11-20T20:42:24.128483+00:00",
+  "completed_utc": "2026-11-20T20:42:28.890381+00:00",
+  "usage": {
+    "input_tokens": 7398,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f68469cad8abf5116bec7b5e0e857afe9a1b0949e19378ef73118ae8232d86af",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a8f0188ba3945b9d8e873d411978b99f4fc249d8cbca2962e6f2fa99c20a62df"
+}

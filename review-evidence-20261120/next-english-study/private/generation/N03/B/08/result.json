@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "B",
+  "turn": 8,
+  "question": "Do you ever have to stop?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f1b-7040-a85f-83a0a7fab294",
+  "raw": "Sometimes I pause for a moment to listen, but I haven’t had to leave a task unfinished because of it. Once I put the radio on, I can usually carry on.",
+  "raw_sha256": "74ae16af59b6671b1dfc4da49a3c861b6835cdf3647a7b4c7aaaeddca65a0360",
+  "request_sha256": "332f27e53126a55b78dfac06bbe05ed2b1827cadb14f1d22c797ee1aba172068",
+  "started_utc": "2026-11-20T21:01:58.549186+00:00",
+  "completed_utc": "2026-11-20T21:02:03.079828+00:00",
+  "usage": {
+    "input_tokens": 64596,
+    "cached_input_tokens": 54656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 444,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "eac67b0d02964db361a34c2040de254c336ccbc00491a77cff6c7a79d06a07da",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f064206596c6ebddff5d0e19522fec23972e8fc9a5b312a36ad2c023d069210d"
+}

@@ -1,0 +1,52 @@
+{
+  "n_cases": 8,
+  "first_outputs": 16,
+  "unique_sessions": 16,
+  "blind_sha256": "ac74c2408e1e7f71bbd28583128a7a29b7b648485d65cc4059a7ea94d18b1581",
+  "reader_freeze_sha256": "d27936e926d9d3489b656fd569932cfac11568a97b931af41fb1f690a14ed85b",
+  "scores_sha256": "1d4ad037f9d5dbac0008f96bff997adbd184a3b093464b0457c9b97392f2b21b",
+  "reader_results": {
+    "opus": {
+      "counts": {
+        "rated": 8,
+        "server_model_ids_available": 8
+      },
+      "transport_failures": {},
+      "receipt_hashes": {
+        "U1eca3618addf5c3f71d5d418": "61816834013e4e5bbf009baf05e95f12b016fa8ec850e785d7d1ec7cb8c37a57",
+        "Ue259a00e54cdf8c7c8b06545": "714142f985d9e1fbaa1204f5456c96ea74d6e6bf5fdb7466cd34c91ae34780df",
+        "U17e7ae5ff769df82b41bedc6": "4c6c45180975c40d98c6c88e5fc75875a5c5734c7b29757783f5c79caeb5190d",
+        "U53b6647a6e323af95de9c801": "6cb1165a10ace9203e7cd66a1871e0e63e463233bcfc494cd2435c415d342f4b",
+        "Ue7c7742b053aa4fb9238cea9": "0cbbabf92f04d2308f0ed8b6f87ddaead973a423ca6e1fd393f027be37772033",
+        "Ub2e0c1f9e1bf77febbdee943": "cb2105b0552418c0af1f6c94f76effff31bc193c47ce44701ec47db9bc643fbb",
+        "Ud79c428d04958225418760f6": "febf67ee672d7a1850dea473cb13d7dd4cb2872f9c3adae4227c688a923e1fcc",
+        "U4ab465b1e989cbd5373e5c3d": "58bd2147b79e313a2c1980dd6eccfa0ad8fcd14d8f756485f8f0c1bc0bc3a863"
+      },
+      "score_rows_sha256": "c27a07dbd16862a92530047d3269639ed55a61fc3d5ac0132ba3ba4f49bf21f7",
+      "reader_freeze_sha256": "d27936e926d9d3489b656fd569932cfac11568a97b931af41fb1f690a14ed85b"
+    },
+    "gpt": {
+      "counts": {
+        "rated": 8,
+        "server_model_ids_available": 0
+      },
+      "transport_failures": {},
+      "receipt_hashes": {
+        "U17e7ae5ff769df82b41bedc6": "fc1399b1b042bac54b2b4f2fe32680075c2d31012b0469a2c220fc294ae5a677",
+        "U1eca3618addf5c3f71d5d418": "f80f6a905514ed3212386aacb3cb09d034d77697f6b43cc9cb5c5b6383d9cf8f",
+        "Ue259a00e54cdf8c7c8b06545": "3d9f2505d9b5900cd4b0408b1f43a42ba438d78d2a0b1d668917d96e190e48d0",
+        "U53b6647a6e323af95de9c801": "d8c07d38b0efc1ec1a4f8c7777acd26a83972fc68fddb3f63c19652f1098d582",
+        "Ub2e0c1f9e1bf77febbdee943": "68b29bd4da8df24639f910bac064f606397f829a6b32208eb8ca8b0f804d4119",
+        "U4ab465b1e989cbd5373e5c3d": "d102e2c26d897b4480a4291710112db8374eba09b94f7d0cf9886b5ea28feec0",
+        "Ud79c428d04958225418760f6": "fc925e8c18e534d05ca98ef3d30dc6fe3299f8048eb7e5917912b2f463002fb0",
+        "Ue7c7742b053aa4fb9238cea9": "75842172b444226d252acac8f286193f91a692872a43c7f6ca1ec6b525e9e3c0"
+      },
+      "score_rows_sha256": "3c1025f7cda2133a74ad26d08d4f0581430dafe0d21ee8077ee77a09b7c24201",
+      "reader_freeze_sha256": "d27936e926d9d3489b656fd569932cfac11568a97b931af41fb1f690a14ed85b"
+    }
+  },
+  "same_item_payload_each_reader": true,
+  "tools_used": 0,
+  "first_outputs_replaced": 0,
+  "model_identity": "Claude assistant service ID; GPT official CLI selection, separate service ID when exposed."
+}

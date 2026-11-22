@@ -1,0 +1,27 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 3,
+  "question": "When does everything get a bit much?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Mostly when I’m getting ready to go out and there’s more than one thing to remember. Last week I had the clean bibs by the door, all ready, then I went looking for my bus card and got caught up in that. A friend reminded me about the bag. Bit embarrassing, really—it was sitting right there. In the evening, when the kitchen’s quiet, I can get things laid out more easily. It’s when everything needs attention together that I lose my place.”",
+  "raw_sha256": "11688c215734f1d6d7228b88ae9b73168edaaef589bcb9c1bd5ff3177a693bff",
+  "request_sha256": "9ee97434ec6e0c7177e3532493d72384c96ecf3fd5ff1f3ce5b99724b552ea42",
+  "started_utc": "2026-11-20T20:37:22.871922+00:00",
+  "completed_utc": "2026-11-20T20:37:28.152943+00:00",
+  "usage": {
+    "input_tokens": 23332,
+    "cached_input_tokens": 14976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 283,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f8767c72f8be6767381f5111e9f660cef83787445fc8821b95f2c2fe77ce1ac9",
+  "trace_sha256": "06075ee140549fd5a2ae0be9fb8a54731ab36444f09aa77086899768db2b5a01"
+}

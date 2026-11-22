@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 10,
+  "question": "And when in the day do you take it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c6e-70f3-84e2-536c894d15df",
+  "raw": "I take it after supper.",
+  "raw_sha256": "72778f746a8e0b2d1bdbfdb72a581bf896caf7bc4bccfc2b534e6b5e81e843e7",
+  "request_sha256": "a61df38c2f077eaa04b127b8238e18b3ab00416401fc5286ad3a4476fa549e46",
+  "started_utc": "2026-11-21T03:46:40.110855+00:00",
+  "completed_utc": "2026-11-21T03:46:44.473846+00:00",
+  "usage": {
+    "input_tokens": 79951,
+    "cached_input_tokens": 62208,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 244,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "72d0b02a98655c9fda9542508accd8874d8d700fa1cbb8ee631b690c979ba73e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a4e655a79e35e83caa34d2424bcf705f3b34e23546994481a38adc4ed2e3d4c1"
+}

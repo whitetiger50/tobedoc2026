@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 9,
+  "question": "What were you listening to when it went quiet that day?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff97-7e50-811a-4cde65d60b00",
+  "raw": "“The music request show. Then the reception went and it all went quiet.”",
+  "raw_sha256": "5b64980dbd240fce6b52c871ee510c30b78ca84f7e2f3a49a916917f0a2fe8a0",
+  "request_sha256": "f17565a9884fee271e7ff99fb1044e8c4fea17c26a25b72460a4105b91ec293d",
+  "started_utc": "2026-11-21T03:45:48.283782+00:00",
+  "completed_utc": "2026-11-21T03:45:53.014740+00:00",
+  "usage": {
+    "input_tokens": 71851,
+    "cached_input_tokens": 60800,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 238,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9c36f143a34df48cd046c8ff38ee0402f3d0aff95938a9aaacc743af0d97320d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7614fd8b64fbf8535633c572d16de17913aa7aaae4b67fdcf5502f54d0e30960"
+}

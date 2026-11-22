@@ -1,0 +1,58 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 자연스럽고 프로필에 맞는 협조적인 환자 말투입니다. 다만 P07에서 묻지 않은 다음 진료 목표를 미리 꺼내고, P08에서 같은 문장을 그대로 반복해 다소 대본처럼 느껴지는 부분이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 사실과 자기이해 범위 안에 있고, 새로 지어낸 사실이나 모순이 확인되지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답했고, P07의 추가 발언도 수면 주제와 관련되어 질문을 벗어나지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P07에서 다음 진료 목표를 먼저 말한 뒤, D08 질문에 같은 내용을 거의 그대로 반복해 공개 흐름이 국소적으로 중복됩니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "turn:D08",
+        "turn:P07",
+        "fact:goal"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 환자 시점의 표현이며, 보고서식 서술이나 면담자 역할을 대신하는 표현은 확인되지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

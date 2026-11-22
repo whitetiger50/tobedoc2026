@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-18T10:17:16.087218+00:00",
+  "kind": "small_development_repeatability_and_fact_error_sensitivity_diagnostic",
+  "authorization": "explicit_user_request_9_dialogues_two_models_three_repetitions_each",
+  "original_dialogues": 6,
+  "deterministic_error_variants": 3,
+  "new_patient_generation_calls": 0,
+  "models": {
+    "codex": "gpt-6.1-sol_high",
+    "claude": "claude-opus-5-5_medium"
+  },
+  "calls_per_model": 3,
+  "total_CLI_calls_planned": 6,
+  "total_rating_outputs_planned": 54,
+  "rounds": [
+    {
+      "repeat": 1,
+      "packet": "round01-packet.json",
+      "packet_sha256": "dc0ce41f63fb9b31689bc8874476a80cb9dc5361778ad2401197e438301965c4",
+      "key": "round01-key-private.json",
+      "key_sha256": "dca8d95b75204b4c62bc9f388bea1fd34bdc973e40999a7edfd7645f86dcb055"
+    },
+    {
+      "repeat": 2,
+      "packet": "round02-packet.json",
+      "packet_sha256": "88a91c2fe50fea4b185766eb362916d9721283dcb5bed95e2e81d2b7a4b22087",
+      "key": "round02-key-private.json",
+      "key_sha256": "cc085634ff713599f869b1f8023e0d602df9d4828d4fcc63413f6e0a82043ae7"
+    },
+    {
+      "repeat": 3,
+      "packet": "round03-packet.json",
+      "packet_sha256": "3683d056b77b510183c0c728f82ad252ea1fbe22656bf8d98cb0addaca749557",
+      "key": "round03-key-private.json",
+      "key_sha256": "58e1e5e9770ce313d57a262e79c8061064029a37e4b364ee9ab3673f539b020f"
+    }
+  ],
+  "role_sha256": "d4e7a93b0482f3887abfabbca16f349a8a665d02ccf15bc8240fdb8fedffb55e",
+  "items_sha256": "17911b53e42513005fe0e863e4e2435f42f7ddd81d2784b36d1dfc8136d6c291",
+  "frozen_file_sha256": {
+    "development/speech-m4-v02-v04-compare-v01/review-packet.json": "f682198e0ddcea7ae57e202a72400e3d4361cc4c51c8a3b0644387fe9f2de46b",
+    "development/speech-m4-v02-v04-compare-v01/review-key-private.json": "224e92627a90ea13739779182d1d86dd0c161e878a6db878165ab9b3075ef6e5",
+    "development/speech-m4-v02-v04-compare-v01/review-role.txt": "6e5ed4ab9bf6ff2914910979d48d52c915837855e43ee22909db83b634a5c3a9",
+    "development/speech-m4-v02-v04-compare-v01/verification.json": "36f38de451dce04bf29d96d6d859d33e3750d10e1279bf7818de242dbf83622d",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-03/v02/transcript.json": "67ddd3aa6c5a1dee56568edc445fa2def2d04499a5ed9d09ab9ae239d0fcd995",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-02/v04/transcript.json": "b37dbe87e38a40c3d29988bb5ed6d5decbee97be62e3abe588c5eb9005a9f376",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-01/v02/transcript.json": "8e49fdd24196c633d5fbed931fb4b491164b8daf9877d5d45acf26ca3347bcd7",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-02/v02/transcript.json": "68d065de483366bf8e5bf300654e45180f00e946c647e3cf6583c4003806728b",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-01/v04/transcript.json": "51884d50612ca3a1e76b122c04019989f281be293a579ffe174bb25f62cbcdc6",
+    "development/speech-m4-v02-v04-compare-v01/runs/DEV-M0-03/v04/transcript.json": "b1c274cac644432d2c6ca89faf3b33e5020ffb3a6513bd19a9de0d4bffeb2f2d",
+    "speech_module/patient_v01.txt": "a450c66b5b1825c3a7ef88998ecc5eef91c7696e6c32ad20dbfcfa5f6c3ce672",
+    "speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "speech_module/patient_v03.txt": "7220fee5640283e2e964c5a0762fef7e2902fed9d5289e98fb7f6fcd07850af8",
+    "speech_module/patient_v04.txt": "1ca989518268e2d5244dbebeffd92d6776b0c6eed2f7e366f5feec029ed0500c",
+    "share/PATIENTSIM-reliability-pilot-v01/.DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "share/PATIENTSIM-reliability-pilot-v01/PATIENTSIM-reliability-pilot.canvas.tsx": "f15d7a3b4067dd8dcad50da169e1be53e80189c6c720f0770d2a112c107d6c73",
+    "share/PATIENTSIM-reliability-pilot-v01/analysis_key_DO_NOT_SHOW_JUDGES.csv": "9a2d07242503284f654aa561a5aac5a48c2dff44fd7dea6397627366df9d55f1",
+    "share/PATIENTSIM-reliability-pilot-v01/build_design.py": "93bd67574526381a3af9573170ee3060177f0254bc2c3f3c458aa38ea56df21b",
+    "share/PATIENTSIM-reliability-pilot-v01/cases-and-questions.json": "b1d64204d2e7b56e4030da48b2427560f0add5a12b08209aaecd3de570b851a8",
+    "share/PATIENTSIM-reliability-pilot-v01/design-verification.json": "560a31ea37f7a9d3628c8395cd2cf055533181deab5cce8dd7059b818cf027d2",
+    "share/PATIENTSIM-reliability-pilot-v01/make_team_brief.py": "0b38dcda0235dd95266af93de1927e72649d7c2b015f742dbd43232ce4d287a9",
+    "share/PATIENTSIM-reliability-pilot-v01/native-font-render-check.json": "0398e9b423712d87a3a3758f2d464063940f7f8d2dad13ffee584ffda57eceec",
+    "share/PATIENTSIM-reliability-pilot-v01/native_pdf_canvas.py": "37ba3bcf337c6880709f6165f1d4b40e0cb97cf4c3817770f3888aa17415c642",
+    "share/PATIENTSIM-reliability-pilot-v01/pilot-design.json": "99041c031c26f7582880858157902d9ade2b7b46115b83803f0a30661ca7f0b9",
+    "share/PATIENTSIM-reliability-pilot-v01/planned_judgment_slots.csv": "39b619bee49115fe642035457ceaef49d5c1ebdc6745d94fe3d03d31562d35b1",
+    "share/PATIENTSIM-reliability-pilot-v01/render_native_pdf.swift": "62e8080716fa3229d235f14474b4fc89e1ba01656f97d66f8ad3eae0bc86ee58",
+    "share/PATIENTSIM-reliability-pilot-v01/source-lock.json": "5154ebaa53ea1578b6235919be88c5a117b69cd084666d2e0019c294c9643315",
+    "share/PATIENTSIM-reliability-pilot-v01/team-brief-check.json": "71ee4c4081e28624ad8ab3b1c9fa7a20aeb6a00e22ea8f9f121b6262a0d1e727",
+    "share/PATIENTSIM-reliability-pilot-v01/파일럿_계획.md": "e85af7f6b3513c53fd2a6ae26c8416c800eeb910c6b863de4e8bfb53b3985790",
+    "share/PATIENTSIM-reliability-pilot-v01/판독_입력틀.txt": "222685674b41196cfffbc84646950a5e606eb374969358d302efce55bea83489",
+    "development/speech-m5-repeatability-v01/experiment.py": "3f9c5ca1173f70efb2de8bd8c7cab054e9563ab8e9b4a2345cc7080a503aedc9",
+    "collaboration/subscription_call.py": "04227ac6c4bf10d5233fe62552751f612bfb28e84c45ddc50f16d2f07b9539e4",
+    "development/speech-m1-v01/review_dev.py": "21712f2105e50ccff874f9bbf41617ab71f4bd652b96977f1174ce886befafad",
+    "development/speech-m5-repeatability-v01/methods.md": "103d23f7f76c9f157d2ee9fb34aa1eba25708df3ac0204011bf8b12bc16d5631",
+    "development/speech-m5-repeatability-v01/test_analysis.py": "d1254618108295785df8cf0fe5cec36355cb68e3f69cdd0433579cf60218e6e5"
+  },
+  "aggregation_prespecified": {
+    "item": "retain 3 integer scores per model, mean, min/max, sample SD, exact pair agreement (3 pairs)",
+    "repeatability_primary": "original 6 dialogues only; mean exact pair agreement, all-three-equal count, range>=2 count, score4 frequency",
+    "error_sensitivity": "per model, error minus source score per repeat and mean; strict negative is detection; ties are not detection; 3 matched source/error pairs",
+    "combined": "equal-model arithmetic mean across all 6 scores per item; original v04-minus-v02 per case and equal-case overall mean; do not pool M4 scores",
+    "cross_judge": "same-round exact agreement on original six dialogues, descriptive only",
+    "inference": "no p-values, confidence intervals, threshold-based reliability certification, clinical validation, or final superiority claim; 3 cases remain 3 clusters"
+  },
+  "manipulation": "one P04 family referent replacement in each v02 source; identical Unicode length, other turns/profiles unchanged; all controls from v02 for a common simple source rule, not condition-balanced error sensitivity",
+  "masking": "version, source, artificial-error status, previous scores and other reviewer responses hidden; shared profiles/text may reveal related items; 9-item batch context can influence scores",
+  "repeats": "fresh no-persistence CLI processes; no preceding scores; fixed content but randomized order/opaque IDs per round; provider packets byte-identical within round",
+  "settings_limit": "server snapshot and temperature not exposed; independent sessions do not establish independent clinical judgments; no wrapper retry or best-of",
+  "final_720_ratings": "not_run_and_plan_unchanged",
+  "clinical_validation": "not_performed"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Pd337ee0a52b4eb52af60b530",
+  "reader": "opus",
+  "session": "e0513ad8-524f-4f27-8cbc-b817573644f1",
+  "attempt": "attempt-01",
+  "packet_sha256": "3dc23e10ac4d1ebdd07f0b85742a7ad40791731fb68185509708cea894cacc9f",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "ba1f5e4199008801146c1c92daef92cd82ebcde484376ca32b5c311c6267bb2d",
+  "raw_sha256": "02efdde79403a351e4cc4230112ea37b8e327557e61943c213c643423ac2389b",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "\"Him\" could mean the brother or Mr. Bell, Ari already flagged this same ambiguity in the prior turn, and the answers differ because Ari returned the brother's call but not Mr. Bell's.",
+        "alternatives": [
+          {
+            "meaning": "Did Ari call the brother back?",
+            "answer": "Yes. Ari called the brother back after his call last week."
+          },
+          {
+            "meaning": "Did Ari call Mr. Bell, the building manager, back?",
+            "answer": "No. Ari has not yet returned Mr. Bell's call about replacing the hall light."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "\"The appointment\" could mean either the optician or the care coordinator visit, but Taylor took the bus to both, so the answer is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Did Taylor take the bus to the optician appointment?",
+            "answer": "Yes. Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Did Taylor take the bus to the care coordinator appointment?",
+            "answer": "Yes. Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "Inez and Pat are both women, so \"she\" could refer to either, and the answers differ because Inez came to the flat while Pat helped only at the café.",
+        "alternatives": [
+          {
+            "meaning": "Did Sam's sister Inez come to the flat?",
+            "answer": "Yes. Inez came to the flat last week to help."
+          },
+          {
+            "meaning": "Did Pat from the repair café come to the flat?",
+            "answer": "No. Pat helped at the repair café, did not come to the flat, and lent Sam a pair of small pliers."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "\"It\" could mean either the housing letter or the employer's letter, but both arrived by post, so the answer is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Did the housing office letter arrive by post?",
+            "answer": "Yes. The housing letter came by post."
+          },
+          {
+            "meaning": "Did the employer's letter arrive by post?",
+            "answer": "Yes. The employer's letter also came by post."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:18.883560+00:00"
+}

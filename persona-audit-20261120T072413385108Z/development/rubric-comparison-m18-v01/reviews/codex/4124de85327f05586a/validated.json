@@ -1,0 +1,192 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "동거인 재확인, 경험의 발생 상황, 즉각적인 대처와 다음 진료 목표에 각각 직접 답하며 설정된 사실과 환자 시점을 유지한다. 반복되는 정보는 재확인이나 질문 대상에 맞춘 경험 재지칭으로 기능하며, 구체적인 의사소통 부적절함은 확인되지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "아내와 함께 살고 있어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활, 주관적 경험, 대처 및 수면 설명이 제공된 사실과 일치하며 무근거한 사실 보충은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다룬다. 특히 즉각적인 대응을 묻자 실제 대처를 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발화와 일관되며, 동거인 반복은 의사의 명시적인 재확인에 따른 응답이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아내와 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "간결한 일상 한국어로 경험과 희망을 표현하며, 역할 설명이나 보고서식 대행은 나타나지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "communication:expression",
+        "communication:spontaneity"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication:expression",
+    "naturalness:invalid_context_ref:communication:spontaneity"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "아내와 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "아내와 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "명시적인 동거인 재확인에 답함",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 같은 정보를 다시 확인했으므로 동일한 답변은 현재 대화를 이어 간다. 이미 끝난 설명을 임의로 재시작한 것이 아니다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P05",
+        "quote": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "fact:symptom",
+          "fact:pattern"
+        ],
+        "function": "발생 상황을 확인하면서 해당 경험을 재지칭함",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "발생 상황을 첫 문장에서 직접 답하고 관련 경험을 덧붙인다. 반복이 질문의 새 대상을 대신하거나 답변을 약화시키지 않는다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P05",
+            "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal",
+          "turn:P05"
+        ],
+        "function": "다음 진료에서 다룰 목표를 설명하기 위한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "의사가 해당 경험과 관련된 다음 진료 목표를 물었으므로 경험을 다시 지칭하는 것이 적절하다. 설명해 보고 싶다는 목표도 명확히 답한다.",
+        "used_in_global": true
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

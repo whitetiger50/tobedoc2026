@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 1,
+  "question": "What's been going on in your life since your last visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa7-2aed-7e53-b6e9-981b5a01a34f",
+  "raw": "Things have been pretty settled. I swapped a late shift for an earlier one last week so my partner and I could go to a concert—that was a highlight. I’m still enjoying the work at the venue. One thing I’d like to sort out is making future appointments fit a bit more easily around my shifts.",
+  "raw_sha256": "232ea8159be84574c0c0d790198c0ca23d7d28b4a5236b9efaeea59f4e576df5",
+  "request_sha256": "fcabf7ad638b57eea45c1548fdc00bfc99b78d260b66ec7eb0575452d9c61759",
+  "started_utc": "2026-11-20T20:30:21.849407+00:00",
+  "completed_utc": "2026-11-20T20:31:59.162432+00:00",
+  "usage": {
+    "input_tokens": 6699,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0f147e367b9236efb19dda877c09211d46a382949b139a5b6832b4793ebb4530",
+  "trace_sha256": "7eb7b72163f62fe79b551d19c2322e509ca6216e6d37d2f1af37624d8bb8e8f0"
+}

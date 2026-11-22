@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 6,
+  "question": "I see two appointments last week, the optician and the care coordinator. Did you go to the appointment by bus?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b3af-7750-93dc-619e0d321a4a",
+  "raw": "Yes, I took the bus to both.",
+  "raw_sha256": "39b0b30a754ef5eb0914808678edadca6012eb9572d016da291c316963b4d958",
+  "request_sha256": "e02fdd12d3f4a569f4e645e632a47a7c4961359c199b0efb7f1b4d09322f2099",
+  "started_utc": "2026-11-21T03:42:51.470174+00:00",
+  "completed_utc": "2026-11-21T03:42:56.014058+00:00",
+  "usage": {
+    "input_tokens": 47109,
+    "cached_input_tokens": 31488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 70,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1d29ca3cf6a6b60eb649430101129697028e8ba64555e04a2d81e785b3261628",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "86f5156de57f6b056826ef96d8e37dd9642ede8298878eb18c9754c9746d5d83"
+}

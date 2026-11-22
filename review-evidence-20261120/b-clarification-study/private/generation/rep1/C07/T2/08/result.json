@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 8,
+  "question": "The optician visit and the care coordinator visit are both on last week’s calendar. Did somebody go with you to the appointment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc34-b642-70e3-8cd5-d7ab5e8d9028",
+  "raw": "My sister came with me to the optician. I went to the care coordinator on my own.",
+  "raw_sha256": "7c3bae44a63081d1202e9b6a57968dd776e8fbdf3ee135a21eac6601f0584299",
+  "request_sha256": "be737c2686cff3ae7f77333c68692bd05a82222743fd8b5ab35c6db13c831fde",
+  "started_utc": "2026-11-21T03:44:35.272134+00:00",
+  "completed_utc": "2026-11-21T03:44:39.864765+00:00",
+  "usage": {
+    "input_tokens": 6240,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "73e77cf97032871472d270d4233e9c4715f6cded5696b90e5f32057b6339973b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6aa514be61c2b45cca14bfe8d031308270bbc519552ab733b587ec39b6d89787"
+}

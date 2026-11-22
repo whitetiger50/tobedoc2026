@@ -1,0 +1,613 @@
+{
+  "timestamp_utc": "2026-11-18T11:30:58.215071+00:00",
+  "provenance": "Codex author direct read of all144 patient outputs before accessing either M8 judge score; Python stores and validates exact quotations only",
+  "scope": "author engineering interpretation, not clinical gold standard or independent human evaluation",
+  "rows": [
+    {
+      "item_id": "DEV-M0-01-rep01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 오늘 아침에 집에서 빵을 먹은 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 잘 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이었어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 오늘 아침에 집에서 빵을 먹은 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생긴다고 단정할 수는 없어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 오늘 아침에 집에서 빵을 먹은 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이었어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 잘 모르겠어요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 건 말씀드릴 수 있어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요. 피곤한 밤에 들릴 때가 있다는 말이에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 오늘 아침에 집에서 빵을 먹은 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요. 다만 피곤해서 생기는 건지는 확실히 말할 수 없어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 밤에 자주 깬다는 얘기였어요. 어젯밤을 따로 말씀드린 건 아니고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나는 저한테 진료받아 보라고 한 거고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 깨는지는 저도 확실히 모르겠어요. 밤에 자주 깨고 그런 소리도 들리지만, 왜 깨는지는 잘 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나는 가끔 와요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "어젯밤을 두고 한 말은 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나가 와보라고 해서 제가 온 거예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 깨는 건지는 저도 확실히 모르겠어요. 밤에 자주 깨기는 하는데, 이유는 잘 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나는 가끔 와요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 밤에 자주 깬다는 얘기였어요. 어젯밤을 콕 집어서 말씀드린 건 아니고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나는 저한테 진료를 받아보라고 한 거고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리기는 하는데, 그 소리 때문에 잠에서 깨는 건지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나는 가끔 와요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+          "explanation": "수면 문제의 주체가 누나로 읽힐 수도 있으나 구어적 주어 생략으로 환자를 가리킬 수도 있다. P06에서 환자 본인의 수면 문제와 누나의 권유를 명확히 정정한다. 새 누나 수면장애로 확정하지 않는다."
+        }
+      ],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 밤에 자주 깬다는 얘기였어요. 어젯밤 일을 따로 말씀드린 건 아니고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나가 저한테 진료받아 보라고 해서 제가 온 거예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리기는 하는데, 그 소리 때문에 잠에서 깨는 건지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나는 가끔 와요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "어젯밤 얘기를 한 건 아니고, 요즘 전반적으로 밤에 자주 깬다는 말씀이었어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나는 저한테 진료를 받아보라고 한 거고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리 때문에 깨는 건지는 저도 확실히 모르겠어요. 밤에 자주 깨는 것과 소리가 들리는 걸 말씀드린 거예요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나는 가끔 들르는 거예요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 밤에 자주 깬다는 말이었어요. 어젯밤 일을 말씀드린 건 아니고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 잠을 잘 못 자는 건 저예요. 누나가 저한테 진료를 받아보라고 해서 제가 온 거예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "창밖에서 소리가 들리긴 하는데, 그 소리 때문에 잠에서 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "혼자 살아요. 누나가 가끔 와요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어난다는 건 평소 생활을 말씀드린 거고, 오늘 일어난 시각까지 말씀드린 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요. 아버지랑 같이 살고 있고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "요즘 일상을 말씀드린 거예요. 야간 근무를 쉬고 있고, 평소 오후에 일어나는 날이 많다는 뜻이지, 근무를 쉬어서 그렇게 됐다는 뜻은 아니었어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 1,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어나는 날이 많다는 건 평소 생활을 말씀드린 거고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "두 일이 원인과 결과라는 뜻으로 말씀드린 건 아니고, 평소 일상을 설명한 거예요. 야간 근무는 쉬고 있고, 오후에 일어나 집 근처를 걷는 날이 많아요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어난다는 건 평소에 그렇다는 얘기였고, 오늘 일어난 시각까지 말씀드린 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요. 아버지랑 같이 살고 있고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그냥 요즘 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말한 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 2,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어나는 날이 많다는 건 평소 얘기였고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "평소 일상을 말씀드린 거예요. 야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸은 건 맞아요. 오후에 일어난다는 건 평소 생활을 말씀드린 거고요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "근무를 쉬어서 오후에 일어난다는 뜻은 아니고, 평소 일상을 말씀드린 거예요. 오후에 일어나 집 근처를 걷는 날이 많고, 요즘 야간 근무는 쉬고 있고요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 3,
+      "author_probe_observations": {
+        "P05": "preserves_time_scope_without_accepting_unsupported_specific_day",
+        "P06": "corrects_patient_person_assignment_without_asserting_relative_state",
+        "P07": "does_not_assert_causal_relation",
+        "P08": "answers_known_recovery_fact"
+      },
+      "author_explicit_new_event_or_cause_in_probes_identified": false,
+      "author_unnecessary_recovery_evasion_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘 오후에 집 근처를 걸었다는 뜻이에요. 오후에 일어난다는 건 평소에 그런 날이 많다는 얘기였고, 오늘 일어난 시각까지 말씀드린 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요. 아버지랑 같이 살고 있고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "평소 일상을 말씀드린 거예요. 오후에 일어나서 걷는 날이 많다는 거지, 야간 근무를 쉬어서 그렇게 됐다는 뜻은 아니었어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Patient statements about what they meant or had stated are distinguished from categorical claims that a causal relation is impossible.",
+    "Limits on an unestablished specific time/cause and corrections of false premises are not automatically evasion; all P08 replies provide the known fact.",
+    "One pre-challenge ambiguous sleep-subject phrase in candidate case2rep2 is retained as uncertainty even though P06 clarifies it.",
+    "These targeted questions explicitly invite scope clarification; success does not establish robustness to implicit misleading context, longer interviews, other profiles or clinical realism."
+  ]
+}

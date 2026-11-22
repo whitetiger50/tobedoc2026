@@ -1,0 +1,194 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "동거인 재확인, 경험의 발생 상황, 대처, 수면, 다음 진료 의제에 각각 직접 답한다. 경험의 반복 진술도 질문에 따른 설명이나 의제 연결로 기능하며, 환자 역할의 의사소통 적합성을 낮추는 구체적 문제는 확인되지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 정보와 주관적 경험이 제공된 사실에 부합하며, 실제 시선 여부의 불확실성도 유지한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "patient_profile.self_understanding",
+        "fact:symptom",
+        "fact:pattern"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다루며, 다음 진료 질문에도 원하는 의제를 명시한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 생활 정보와 경험 설명이 일관되고, 반복도 재확인이나 관련 후속 질문에 연결된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상적인 환자 시점의 표현으로 조직적으로 답하며, 설정 보고나 면담자 대행은 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "fact:work",
+        "communication.expression",
+        "communication.organization"
+      ]
+    }
+  },
+  "schema_errors": [
+    "grounding:invalid_context_ref:patient_profile.self_understanding",
+    "naturalness:invalid_context_ref:communication.expression",
+    "naturalness:invalid_context_ref:communication.organization"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "turn:P02",
+          "fact:living"
+        ],
+        "function": "동거인 재확인 요청에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "의사가 같은 정보를 명시적으로 재확인하여 동일한 답변이 질문에 직접 대응한다. 새 대상을 누락하거나 대화를 정체시키지 않는다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P05",
+        "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "turn:P01",
+          "fact:pattern"
+        ],
+        "function": "경험의 발생 상황 설명",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "발생 상황을 묻는 질문에 혼잡한 퇴근길 버스라는 조건을 직접 제시한다. 경험 재진술이 질문의 대상을 대신하거나 연결을 끊지 않는다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요. 다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "patient_turn_id": "P01",
+            "quote": "그 얘기를 좀 해보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "turn:P01",
+          "fact:symptom",
+          "fact:goal"
+        ],
+        "function": "경험을 재지칭하여 다음 진료 의제 제시",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "의사가 해당 경험과 관련된 다음 진료 의제를 물었다. 경험을 다시 짚고 원하는 주제를 명시하므로, 이미 마친 설명의 부적절한 재시작이나 질문 대상의 누락으로 볼 근거가 없다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

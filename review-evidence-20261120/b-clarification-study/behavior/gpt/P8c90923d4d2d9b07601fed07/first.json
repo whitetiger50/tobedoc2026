@@ -1,0 +1,85 @@
+{
+  "id": "P8c90923d4d2d9b07601fed07",
+  "reader": "gpt",
+  "session": "01a1fc48-8974-7e63-a956-01c137fd3f09",
+  "attempt": "attempt-01",
+  "packet_sha256": "ac7510c31b26fd4942ce7929e83a04876a01cc9fb671f2541fbecae8f3386300",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "0dfece8c8aa0c0202662cecb6f49303bdfdce32064c3a033e336cc9077b395df",
+  "raw_sha256": "593759d4e4c7ae3b2c0fc190c231948a94edfef0b97f03ba6896475af9895dc2",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the appointment",
+        "reason": "Either appointment could be intended, but Taylor took the bus to both.",
+        "alternatives": [
+          {
+            "meaning": "The optician appointment.",
+            "answer": "Taylor travelled to the optician by bus."
+          },
+          {
+            "meaning": "The care coordinator appointment.",
+            "answer": "Taylor travelled to the care coordinator by bus."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "that day",
+        "reason": "The preceding question and answer establish Thursday as the current topic.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when reception failed on Thursday.",
+            "answer": "Sam was listening to a music request show."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "after your shift",
+        "reason": "Early and late shifts remain possible targets with different transport arrangements, even though a direct conditional explanation could cover both.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan gets home after an early shift.",
+            "answer": "Morgan takes the bus home."
+          },
+          {
+            "meaning": "How Morgan gets home after a late shift.",
+            "answer": "A coworker drops Morgan off."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "Either man could be intended, but both rang Ari’s mobile; the different callback histories do not change which phone they contacted.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari’s brother rang Ari’s mobile.",
+            "answer": "Ari’s brother rang Ari’s mobile."
+          },
+          {
+            "meaning": "Whether Mr. Bell rang Ari’s mobile.",
+            "answer": "Mr. Bell rang Ari’s mobile."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:06:48.190101+00:00"
+}

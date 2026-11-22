@@ -1,0 +1,53 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "질문에 맞춰 일상과 주관적 경험을 자연스럽게 설명하며, 시선에 대한 불확실성 표현도 설정과 일치한다. 반복 답변은 재확인 질문에 따른 것으로 대화 흐름에 어긋나지 않는다.",
+  "realism_evidence": [],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 정보, 경험의 상황, 대처 방식과 수면 상태 모두 프로필에 근거하며 무근거 사실 추가가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞게 답하고 필요한 관련 설명을 덧붙인다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 일관되며 재확인 및 경험에 대한 후속 질문에 따른 반복도 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 입장의 일상적인 한국어로 간결하게 말하며 보고서식 표현이나 역할 이탈이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

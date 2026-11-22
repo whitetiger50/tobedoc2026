@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 8,
+  "question": "How have getting around and spending time on your interests fitted into your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-34d1-74d3-abd9-ac381ee2d465",
+  "raw": "I’ve still been taking the bus to my morning shifts and drawing after work. Some journeys feel uncomfortable, but not all of them. Drawing fits in more easily once I’m home, where I can settle down and concentrate on the details.",
+  "raw_sha256": "67931330bb02f85203d7abadfb0c4092ed4b34459dd0c087b5dc1d4d51acc3b8",
+  "request_sha256": "1f2d3f7a4bdae590ea4a4845967b5220598d5e09a6f7195803fc0764ffe1c72a",
+  "started_utc": "2026-11-20T21:02:04.918477+00:00",
+  "completed_utc": "2026-11-20T21:02:17.161625+00:00",
+  "usage": {
+    "input_tokens": 6602,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2a02f6f6a6fc0acb90ecffad82577abfe4a67a1e06e063484b0994352881fc52",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "306061e3e4cdf8a99b34e6f89d0543b747a10494331f72fce49054f51a590457"
+}

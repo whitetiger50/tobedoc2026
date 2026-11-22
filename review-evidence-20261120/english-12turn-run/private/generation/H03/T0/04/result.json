@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T0",
+  "turn": 4,
+  "question": "I mean the time it takes to start a conversation. Is that different now from a few months ago?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-b1c8-7221-8591-7d3f16840950",
+  "raw": "“Yes. It takes more effort now. I start fewer conversations—usually I wait for my brother to call.”",
+  "raw_sha256": "2406cfb86c9814725ad0d0878a20c793bc0ac75f4ca6345b0ef4a622959428b9",
+  "request_sha256": "9f40ccf4955f304ab01e259369220473644de5d6ac6933d20c2665df00640e91",
+  "started_utc": "2026-11-20T20:39:40.636261+00:00",
+  "completed_utc": "2026-11-20T20:39:44.418957+00:00",
+  "usage": {
+    "input_tokens": 6881,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "536bcb40f48bd27ecddc3dc2167aa22a390cc1a6ffa3dfd73dc9413eade98bec",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8f001a18c63bfea2c42ea79ae7e315cb46752c33f446d7e8ee19d72f8482a177"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 4,
+  "question": "How many times do you usually wake up during the night?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-d734-7210-ae30-5c9bb514ec08",
+  "raw": "Usually once.",
+  "raw_sha256": "a9091ef3674e94fc89430b6d597885af65ad951a532b1f0acb23f09c755b7346",
+  "request_sha256": "d9d80dc5309bdbd66e8e2078cef2d449a9b0a73d30bb35aa8203e3207019c744",
+  "started_utc": "2026-11-21T03:41:27.127110+00:00",
+  "completed_utc": "2026-11-21T03:41:30.640909+00:00",
+  "usage": {
+    "input_tokens": 6083,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "dddc63bd09febff0a6d0fbcd09eac189f440ad4031be8f703d5e1abb4f5d6d23",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "656f8b5aea5f0a74f503e8ec1d69f9e59472ad2b3a94d9be0573d1e621de7c93"
+}

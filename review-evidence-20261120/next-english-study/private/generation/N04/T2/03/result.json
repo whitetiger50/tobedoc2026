@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 3,
+  "question": "Has it been happening often?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-4274-7aa3-b9e8-67646a783233",
+  "raw": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+  "raw_sha256": "788d58279c03aa91e1590a573522b0345e805c4b3e70ab491515d3964e01158a",
+  "request_sha256": "1bd892788c222268480025587fb310a4eb9cb7472b5d06486788b9ca15ee9504",
+  "started_utc": "2026-11-20T20:59:57.288260+00:00",
+  "completed_utc": "2026-11-20T21:00:02.681349+00:00",
+  "usage": {
+    "input_tokens": 6195,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 67,
+    "reasoning_output_tokens": 42
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0b31c777b3c5d99ab0e9baa171669fd5e885fcbbb80574cd0cac2dbf057d3be8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e67e02f7acbb2148566c743fae5c56ea299f0604476021015b3899de9ac7e846"
+}

@@ -1,0 +1,185 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ie156c4f59c7313506367",
+  "reader": "opus",
+  "session": "c4c92bbc-4320-494b-8325-05889827b9ae",
+  "raw_sha256": "3dc10acd3691abcee94b77cf3ce85fb8702a00be3d807bafbf89c2cecb0e4d5d",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "e56dbb97c4d0d29277570d38857e943cf08a09dbf6b1fee6046f5824ddbedcfc",
+  "provider_sha256": "631d71125ccc5b6d46387423b23b162d4d8f1dad34a01da9596f2316584de5ed",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "positive",
+        "3": "uncertain",
+        "4": "positive",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "uncertain",
+        "12": "negative"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "If I get distracted, I can look at it and see where I’ve got to",
+            "reason": "The interviewer asked only for an example of hands-on work. The mudguard story answers that. The closing line repeats the turn-1 point that a repair shows where you are, which was not asked and adds nothing new.",
+            "earlier_turn": 1,
+            "earlier_quote": "With that, you can see where you’ve got to"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "4": {
+          "label": "positive",
+          "evidence": {
+            "turn": 4,
+            "quote": "With the bike, I can look at it and see where I left off",
+            "reason": "The patient reads the question as being about reading and answers it. They then repeat the turn-3 bike comparison almost word for word, which has no new purpose here.",
+            "earlier_turn": 3,
+            "earlier_quote": "With a bike, I can look at it and see where I left off"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "3": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 3,
+            "quote": "though the slip of paper helps me keep track of the line, too",
+            "reason": "The question asks how a practical task compares with reading. Bringing up the slip of paper again, already mentioned at turn 1, could be an unprompted repeat. It could also be a relevant point about keeping one's place.",
+            "earlier_turn": 1,
+            "earlier_quote": "a slip of paper under the line helped me finish a passage last week"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "11": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "the slip of paper under the line helps too",
+            "reason": "The question asks where it is easiest to finish a passage, and 'the library' answers it. The slip-of-paper aside repeats turns 5 and 7. It may be redundant, or it may be a brief relevant addition.",
+            "earlier_turn": 5,
+            "earlier_quote": "The slip of paper under the line helps"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "positive"
+      },
+      "events": {
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean getting the reading done at home, or keeping up during class?",
+            "reason": "'There' is ambiguous after a question about both home assignments and class. The patient asks which one is meant and gives up the turn without describing any experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard",
+            "reason": "The interviewer explicitly asked for an example of recent hands-on work. The patient gives a specific episode from last weekend, which matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:07:56.005091+00:00"
+}

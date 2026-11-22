@@ -1,0 +1,53 @@
+{
+  "realism_score": 3,
+  "realism_reason": "모든 답변이 프로필에 맞고 질문에 직접 답하며 일상적인 환자 말투로 자연스럽다. 다만 P01에서 이미 한 대처 방식과 상담 희망 표현을 P08에서 거의 같은 문장으로 되풀이해 다소 정형적인 인상이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그럴 때 라디오를 켜고 다른 소리에 집중해 보는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중해 보는데, 그 밖에도 도움이 되는 방법이 있는지요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인, 직업, 증상 양상, 대처, 수면, 상담 목표가 모두 프로필 사실과 일치하며 무근거로 추가한 구체 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 턴이 직전 질문의 대상에 직접 답하고 있다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "D04의 재확인에 같은 답을 짧게 한 것은 자연스러운 응답이며, 앞선 말과 모순되거나 문맥을 깨는 부분이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08이 P01의 대처 설명과 상담 희망 표현을 거의 같은 구문으로 반복해 국소적인 정형 반복이 보인다. 그 외 표현은 환자 시점의 일상어로 자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal"
+      ]
+    }
+  }
+}

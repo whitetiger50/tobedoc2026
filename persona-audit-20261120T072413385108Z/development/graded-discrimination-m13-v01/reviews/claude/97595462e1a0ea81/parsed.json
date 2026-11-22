@@ -1,0 +1,60 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 조심스러운 일상 환자 말투가 설정과 잘 맞고, 증상에 대한 불확실성 표현도 자연스럽다. 다만 P02의 거주 형태 진술은 '성인 딸과 함께 산다'는 고정 사실을 정면으로 뒤집어 페르소나 일관성을 떨어뜨린다. 응답 전반이 다소 정형적이고 매끄러운 편이기도 하다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필에는 성인 딸과 함께 산다고 되어 있는데, 환자는 혼자 산다고 말하고 동거인이 없다고 확정해 핵심 인물 사실이 반전되었다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "D08은 다음 진료 전까지 해 볼 일을 물었는데, P08은 다음 진료 때 이야기하고 싶은 내용으로 답해 질문 대상에 부분적으로만 대응했다. 다만 프로필의 목표 진술을 그대로 옮긴 것이어서 질문을 넓게 해석한 답일 가능성도 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이전 작성 문맥이 없고, 이번 대화 안에서 환자 발화끼리 서로 모순되거나 흐름이 끊기는 부분은 확인되지 않았다. 거주 형태 문제는 프로필과의 모순이므로 grounding에서 다뤘다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "질문에 맞춰 짧게 답하는 환자 시점의 일상 표현으로, 역할 설명이나 보고서식 대행은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

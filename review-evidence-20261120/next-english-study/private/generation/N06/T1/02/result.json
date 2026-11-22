@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T1",
+  "turn": 2,
+  "question": "How have listening for pleasure and following conversations been for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-a060-7513-b302-5cd756534f04",
+  "raw": "I’m still enjoying the detective stories and can follow most of a mystery on my walk. Sometimes I miss a line at a noisy corner, so I rewind a little. What sort of conversations did you have in mind?",
+  "raw_sha256": "73a67effb08bd613d941e14e66b9dfb7668ac00de5fe41a7b415bbb0bc24e5c5",
+  "request_sha256": "6d9531caff9a4f4d28da89a9a7b36a7d6fee5deacc14b39019e507c94d35a5d5",
+  "started_utc": "2026-11-20T20:58:10.289894+00:00",
+  "completed_utc": "2026-11-20T20:58:17.674624+00:00",
+  "usage": {
+    "input_tokens": 7077,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 140,
+    "reasoning_output_tokens": 90
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7795fcff8fd7686cb94724c821f9282bb3895501bba1430848adc1b831a1346a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "289502cf52728d237e58094b9f1e489541031336a7e80e1c121d5221b6a54eca"
+}

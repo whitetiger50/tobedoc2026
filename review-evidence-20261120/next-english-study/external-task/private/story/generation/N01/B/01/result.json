@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-bfdb-7c31-8563-4b670a161e81",
+  "raw": "Sure. Cinderella lived with her stepmother and two stepsisters, who made her do all the housework while they more or less put their feet up.\n\nOne day, the prince invited everyone to a ball. Her stepsisters went, but Cinderella was left behind with nothing suitable to wear. Then her fairy godmother appeared, turned a pumpkin into a carriage and some mice into horses, and gave her a beautiful dress and glass slippers. The catch was that the magic would wear off at midnight.\n\nAt the ball, the prince danced with Cinderella and fell for her. But when the clock started striking twelve, she ran off, leaving one glass slipper behind.\n\nThe prince searched for whoever the slipper belonged to. The stepsisters tried it, but it didn’t fit either of them. When Cinderella tried it on, it fit perfectly. He recognized her, and they got married and lived happily ever after. Hopefully with a fairer arrangement about the housework.",
+  "raw_sha256": "2724a43d6b2204b31cc1e945c5cac53719bc868c06a1eb10bf8fa20089af0c21",
+  "request_sha256": "1017509dfd1d1181b0c0a27f0306167a5efc385a51813a3f4d45b9bfc83b1dca",
+  "started_utc": "2026-11-20T21:25:36.746880+00:00",
+  "completed_utc": "2026-11-20T21:25:44.405881+00:00",
+  "usage": {
+    "input_tokens": 7812,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 195,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "575f77c8694e9b6943699730700a9f05c88c43be533748b13250beaad7cbfd5d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2ca79c17e42055ad6550c82eb484f0fa9f83b5696fcdce43ffaae375f3c43d78"
+}

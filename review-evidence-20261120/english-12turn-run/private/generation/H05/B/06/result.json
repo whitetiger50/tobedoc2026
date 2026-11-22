@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 6,
+  "question": "I mean getting the repair stall ready. What do you usually set out before opening?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "The brushes and the spare laces, mostly. I sort the laces by color so they’re easy to find. It’s a familiar little routine—I enjoy that part.",
+  "raw_sha256": "51964063fcc1df7e2947aa48aa6eab489f56cad35f2bac92629fffaa1db6bdb1",
+  "request_sha256": "c9def207a4e14042fbf27b6f20b852778e552a748f25945fd7b385e6739d594f",
+  "started_utc": "2026-11-20T20:40:38.073899+00:00",
+  "completed_utc": "2026-11-20T20:40:42.326715+00:00",
+  "usage": {
+    "input_tokens": 47210,
+    "cached_input_tokens": 42240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 318,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d0599ba609c0dcc19c92f4fecac951e728361a6eeb3dac620f89b79066b4fb49",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d44147655944a6a4220cb200bebd9bcd42081a3ba7ad3f37c90528ee5407a406"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "Pd9f49da0a9e1ebc9ef41d6f0",
+  "reader": "gpt",
+  "session": "01a1fc44-36f7-7e12-8b8c-96d51e46d8b7",
+  "attempt": "attempt-01",
+  "packet_sha256": "5b102702a707d4e7d10cda535a0a0c2cce139b4bae3db1e60f058f5613141e3e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d55ee3e3147555d6e49d04222c9095fd8f667d7f13105b04d5fa7f71381024dd",
+  "raw_sha256": "b5ddb1b8b781dafa3afc4f34a888c8bd4924f5f9b7ebc545e22c9f02bc33dd7d",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "who does it seem to be meant for?",
+        "reason": "Following Alex’s distinction between personal feeling and shared purpose, “seem” sufficiently identifies the felt recipient rather than the announcement’s actual audience.",
+        "alternatives": [
+          {
+            "meaning": "Who the announcement feels directed at when Alex hears it.",
+            "answer": "It sometimes feels directed personally at Alex, despite Alex knowing it is for everyone."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it?",
+        "reason": "The immediately preceding discussion establishes the tablet as the referent, and the question clearly asks about its daily timing.",
+        "alternatives": [
+          {
+            "meaning": "The usual time or daily routine for taking the tablet.",
+            "answer": "Ren takes the tablet after supper."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "Both outages are explicitly introduced without specifying which duration is requested, and their durations differ substantially.",
+        "alternatives": [
+          {
+            "meaning": "The duration of Monday’s radio outage.",
+            "answer": "The radio was silent for about ten minutes."
+          },
+          {
+            "meaning": "The duration of Thursday’s radio outage.",
+            "answer": "The radio was silent for most of the afternoon."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "for your shift",
+        "reason": "Early and late shifts are both available references, but Morgan’s food-taking practice is identical for either.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan brings food for an early shift.",
+            "answer": "Morgan packs a sandwich for every early shift."
+          },
+          {
+            "meaning": "Whether Morgan brings food for a late shift.",
+            "answer": "Morgan packs a sandwich for every late shift."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:02:08.258309+00:00"
+}

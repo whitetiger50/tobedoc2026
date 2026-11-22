@@ -1,0 +1,29 @@
+{
+  "module_version": "schizophrenia-speech-m7-v0.5",
+  "status": "v02_derived_fact_scope_engineering_hypothesis_not_clinical_validation",
+  "parent_prompt": "speech_module/patient_v02.txt",
+  "parent_prompt_sha256": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+  "change_scope": "three added fact-boundary bullets only; all original v02 text preserved; disclosure and repetition rules byte-identical",
+  "new_rules": [
+    "retain temporal/frequency/certainty/person scope",
+    "do not merge separate facts into unsupported event sequences",
+    "remove unsupported qualifiers without inventing refusal or withholding supported content"
+  ],
+  "local_evidence_sha256": {
+    "development/speech-m6-generation-variability-v01/author-flow-observations.json": "11237498ad58a2662a21dc201d9f2a4eafc855eadc4e0183bff0aa355589026c",
+    "development/speech-m6-generation-variability-v01/reviews/codex/validated.json": "6226e02c668e40efac8b96efa832360dde215f5bd1c24bbc0577c60120b1e456",
+    "development/speech-m6-generation-variability-v01/reviews/claude/validated.json": "67371fbadbd3ba3ad0c7bb3082e8848a2f5409945f5ef0b1fee3ae5aba73389b"
+  },
+  "source_attribution": "Own engineering design responding to M6 synthetic examples and explicit user request; no direct clinical or schizophrenia-specific validation claimed.",
+  "no_changes": [
+    "case input schema",
+    "case facts",
+    "questions",
+    "patient knowledge",
+    "disclosure policy",
+    "repetition policy",
+    "generation model",
+    "post-generation editing"
+  ],
+  "candidate_selection": "Explicit V05_VERSION registration; existing default VERSION remains v04 to preserve historical calls until a separate promotion decision."
+}

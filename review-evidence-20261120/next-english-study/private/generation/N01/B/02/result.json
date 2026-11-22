@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 2,
+  "question": "How have sleep and concentration been over the past month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7a43-b0bd-945ecb63c8a8",
+  "raw": "Sleep’s been pretty steady, apart from waking early a couple of nights when they were painting the apartment upstairs. Getting up with the alarm is still another matter. Concentration seems fine—I can keep score through a whole softball game, substitutions and all.",
+  "raw_sha256": "49fd4cf6e345c1a718dcc2237d53378540b99ca7494019aaf1176d4b3aff8d33",
+  "request_sha256": "84b95b399582c0c9887a8c72718ecab7b5f623b2fdcc88e94f5dde64c63cfce8",
+  "started_utc": "2026-11-20T20:58:10.289769+00:00",
+  "completed_utc": "2026-11-20T20:58:15.106675+00:00",
+  "usage": {
+    "input_tokens": 15679,
+    "cached_input_tokens": 11392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 118,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "105e5df5bf05c4736a1ee0bbdf17a06e87278497f484d0508684127ee968659a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "fdb16f812ca5aecdff73f372ca1c6b00e6022be8e83632c758ecb28f6933f005"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 7,
+  "question": "Your radio went silent on Monday and again on Thursday. How long was it out for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff97-7e50-811a-4cde65d60b00",
+  "raw": "“On Monday it was about ten minutes. Thursday it was out for most of the afternoon—I’d been listening to the music request show.”",
+  "raw_sha256": "83c4017af86f66acda72f590ded8c4876d445a308a89efc8d58b90d7987ab144",
+  "request_sha256": "f60fca9a2d8138ead0cfcc1292ea9364ab50d29a507cade8ed830a061b07ef3a",
+  "started_utc": "2026-11-21T03:44:12.987253+00:00",
+  "completed_utc": "2026-11-21T03:44:17.212869+00:00",
+  "usage": {
+    "input_tokens": 55564,
+    "cached_input_tokens": 49152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 198,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "47d44e13f96e413295583921c9576bf3aace71c6786dda1230cc3d71fb1531d6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a7556dabac0ffbc4d14ec25c2056abb3c8ad42f33869fe4d553fe4aca15b31bf"
+}

@@ -1,0 +1,60 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분의 답변은 증상에 대한 확신 없음, 장소 한정, 대처 방식을 일상적인 말투로 자연스럽게 전달합니다. 다만 동거인에 관한 P02 답변은 설정 항목을 보고서처럼 옮긴 듯한 격식체여서 그 턴의 현실감이 눈에 띄게 떨어집니다. P08도 질문의 시점과 약간 어긋납니다. 전체 흐름을 크게 해치지는 않아 3점으로 판단합니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 일, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하고, 새로 확정한 사실이나 모순이 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "D08은 다음 진료 전까지 해 보고 싶은 일을 물었는데 P08은 다음 진료 때 이야기하고 싶은 내용으로 답해 시점이 부분적으로 어긋납니다. 다만 프로필의 목표가 그 내용뿐이어서 해석에 불확실성이 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "증상을 처음 꺼낸 뒤 양상, 대처, 목표로 이어지는 흐름에 자기모순이나 불필요한 반복이 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P02가 '거주 형태', '2인 공동 거주에 해당합니다'처럼 설정 항목을 보고서식으로 옮긴 격식 표현이어서 국소적으로 부자연스럽고, 다른 턴은 자연스럽습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

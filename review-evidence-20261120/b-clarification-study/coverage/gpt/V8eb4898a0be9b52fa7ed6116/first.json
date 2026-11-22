@@ -1,0 +1,109 @@
+{
+  "id": "V8eb4898a0be9b52fa7ed6116",
+  "reader": "gpt",
+  "session": "01a1fc4a-b29a-7102-b60f-03db80a069c0",
+  "attempt": "attempt-01",
+  "packet_sha256": "94563d9efb54eba066c5649a6bd5b5d47b452a31633bf6191b57f0a416da6dbe",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "f0e90c92c041be87fe4f2947cd4309d22c7354104a1dc9d698c86c96c753ba0c",
+  "provider_sha256": "1c0a2d432756bebc9b6b32ca0354c981fef7caa49520dad2264529a878d6661e",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "Inez did, yes—my sister. Pat helped me at the café; she didn’t come to the flat.",
+        "reason": "The reply confirms that Inez visited the flat and that Pat helped at the café instead.",
+        "A": {
+          "state": "supported",
+          "quote": "Inez did, yes—my sister."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "Pat helped me at the café; she didn’t come to the flat."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The fan does. The speaker stops after twenty minutes.",
+        "reason": "The elliptical affirmation says the fan stays on all night, while the speaker stops after twenty minutes.",
+        "A": {
+          "state": "supported",
+          "quote": "The fan does."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The speaker stops after twenty minutes."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I did miss one, the evening before I started the lower dose. A bit embarrassing, but I haven’t missed any since starting it two weeks ago.",
+        "reason": "The reply affirms one missed tablet in the queried period before the lower dose and denies any misses since starting that dose.",
+        "A": {
+          "state": "supported",
+          "quote": "I did miss one, the evening before I started the lower dose."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I haven’t missed any since starting it two weeks ago."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+        "reason": "The reply places the eye drops on the bedside table and the tablets in the kitchen cabinet.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:50.848426+00:00"
+}

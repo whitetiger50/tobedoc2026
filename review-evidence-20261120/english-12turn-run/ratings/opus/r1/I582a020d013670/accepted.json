@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I582a020d013670",
+  "ended": "2026-11-20T20:45:27.925374+00:00",
+  "session": "907fe9d6-45bb-4f4c-9d6f-b239fa274c80",
+  "packet_sha256": "4f3430065af9507aed025a27b21f1ea782e048017429c5221d16782d2ac46bff",
+  "raw_sha256": "4805140f3ea30ef6cdbc38a7bdf67e4b7c023d6e54752d88b4af4b10d063da8d",
+  "provider_sha256": "d3c86c81907c3a7b3e6b136427a57d36239efb241dd6ad84a310bb6c95baa365",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech is mostly natural and fits the persona. Answers are brief and concrete, with decreased verbal productivity. The patient shows real, low-key interest when talking about the robin and the feeder, and stays content and non-defensive. Asking for clarification when questions are vague (turns 5 and 7) is realistic. So is the patient's own comment that broad questions are harder. The aunt's worry is handled gently, without criticizing her. Minor issues reduce full authenticity. Turn 1 volunteers several profile facts at once to a broad opening question, which is a bit forthcoming for someone with little urge to speak. The robin anecdote is repeated almost word for word across turns 1 to 4, which feels scripted rather than naturally perseverative. Turns 8, 10 and 12 restate the 'quiet isn't sad' self-understanding in a tidy, summary-like way, which reads slightly polished.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "A robin landed on the feeder yesterday while I was washing a cup."
+    },
+    {
+      "turn": 4,
+      "quote": "The robin yesterday."
+    },
+    {
+      "turn": 5,
+      "quote": "Do you mean watching the birds, or filling the feeder?"
+    },
+    {
+      "turn": 12,
+      "quote": "being quiet at home doesn’t always mean I’m sad"
+    }
+  ]
+}

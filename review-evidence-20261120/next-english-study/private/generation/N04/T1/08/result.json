@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T1",
+  "turn": 8,
+  "question": "Which part takes longer to get back into?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-66c1-7e81-8071-5820e40ddb51",
+  "raw": "“The conversation is harder to follow when I’m tired—I can lose the thread with my sister. Repotting the basil together felt easy, though.”",
+  "raw_sha256": "7e14fe4352fa30e2f32ed11057de863188e08771e9fe147875588782f2a31866",
+  "request_sha256": "a575ef4f775982291883a8aa28b8d379ff7a61ddb274a3e3ee87c3966b4fe76e",
+  "started_utc": "2026-11-20T21:02:17.699180+00:00",
+  "completed_utc": "2026-11-20T21:02:26.667661+00:00",
+  "usage": {
+    "input_tokens": 7501,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 172,
+    "reasoning_output_tokens": 136
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8d8d82b93947f296539311d6bd1cafae1dd3ef5579181c3ef24db0e64ac07e95",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8882578482c3b83ab2b99a8d17effb21851266a346061903ddb858f131cdb599"
+}

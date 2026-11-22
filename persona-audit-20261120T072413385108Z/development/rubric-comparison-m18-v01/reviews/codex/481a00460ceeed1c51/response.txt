@@ -1,0 +1,55 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분 일상적인 환자 표현으로 설정과 경험에 맞게 답하지만, P06에서 직업 설명을 그대로 반복하며 대처 질문에 답하지 않는 점이 국소적으로 부자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 진술한 사실과 경험은 프로필에 근거하며 무근거 구체화나 모순이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 소리가 들리는 순간의 대응을 묻는 질문에 직업만 설명하여 직접 대상을 전혀 다루지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": ["turn:D06"]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06에서 앞서 마친 직업 설명을 연결 없이 그대로 반복하여 국소적인 대화 흐름 단절이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": ["turn:P03", "turn:D06"]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "문장 자체는 일상적이지만 P06의 문맥에 맞지 않는 동일 문장 반복은 정형적인 답변 재사용처럼 느껴진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+        }
+      ],
+      "context_refs": ["turn:P03", "turn:D06"]
+    }
+  }
+}

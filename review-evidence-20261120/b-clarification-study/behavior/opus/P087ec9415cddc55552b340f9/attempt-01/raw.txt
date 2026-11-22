@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "The question names both the brother and the building manager before asking about 'him', so the pronoun could mean either man, and Ari called back only the brother.",
+    "alternatives": [
+      {
+        "meaning": "Did Ari call the brother back?",
+        "answer": "Yes, Ari called the brother back."
+      },
+      {
+        "meaning": "Did Ari call the building manager, Mr. Bell, back?",
+        "answer": "No, Ari has not called Mr. Bell back yet."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Were you done by six that evening?",
+    "reason": "The question could refer to the cooking class, the swimming lesson or both, but each finished by six in the evening, so every reading gets the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Was Jules finished with the cooking class by six?",
+        "answer": "Yes, the cooking class finished by six in the evening."
+      },
+      {
+        "meaning": "Was Jules finished with the swimming lesson by six?",
+        "answer": "Yes, the swimming lesson finished by six in the evening."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "'It' could mean the housing letter or the employer's letter, but both arrived by post, so the reply is the same either way.",
+    "alternatives": [
+      {
+        "meaning": "Did the housing letter arrive by post?",
+        "answer": "Yes, the housing letter came by post."
+      },
+      {
+        "meaning": "Did the employer's letter arrive by post?",
+        "answer": "Yes, the employer's letter came by post."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "did she expect you to pay her?",
+    "reason": "The question mentions both Inez and Pat before asking about 'she', but neither expected payment, so the reply is the same either way.",
+    "alternatives": [
+      {
+        "meaning": "Did Inez expect payment for helping?",
+        "answer": "No, Inez did not expect to be paid."
+      },
+      {
+        "meaning": "Did Pat expect payment for helping?",
+        "answer": "No, Pat did not expect to be paid."
+      }
+    ]
+  }
+}
+```

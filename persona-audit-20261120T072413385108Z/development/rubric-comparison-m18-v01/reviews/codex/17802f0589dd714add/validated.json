@@ -1,0 +1,190 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대체로 질문에 직접 답하고 설정된 경험과 생활 정보를 일관되게 유지한다. 다만 P06의 도입은 환자 자신의 말이 아니라 환자 반응을 설명하는 제3자 보고로 역할을 이탈한다. 곧바로 질문에 맞는 대처 설명으로 돌아오므로 문제는 해당 구절에 국한되지만, 전체 4점의 조건은 충족하지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다. 그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "생활 정보, 시선 경험, 대처와 수면 설명이 제공된 사실에 부합하며 무근거 사실 추가는 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상을 다룬다. P06도 부적절한 도입과 별개로 그 순간의 대처에 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 말과 모순되지 않으며, 반복된 정보도 재확인이나 경험·목표 질문에 연결된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06의 명시적인 제3자 보고 도입은 환자 시점의 발화가 아니라 환자 반응을 대신 소개하는 역할 설명이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication.expression",
+    "realism:unknown_ref:communication.expression",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "realism:unknown_ref:communication.expression",
+    "observations[0]:unknown_ref:communication.expression"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "non_repetition_issue",
+        "patient_turn_id": "P06",
+        "quote": "이 환자의 반응은 다음과 같습니다.",
+        "related_evidence": [],
+        "context_refs": [
+          "turn:D06",
+          "communication.expression"
+        ],
+        "function": "not_applicable",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "자신의 대처를 묻는 질문에서 환자 반응을 제3자 보고로 소개하여 환자 역할을 벗어난다. 뒤의 대처 설명은 적절하므로 이탈 범위는 도입에 한정된다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D02",
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "동거인 재확인에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 동거인을 다시 확인했으므로 동일한 답변은 현재 요청에 부합하며, 마친 설명을 무관하게 재시작한 것이 아니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          },
+          {
+            "patient_turn_id": "P05",
+            "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D01",
+          "turn:D05",
+          "turn:D08",
+          "fact:symptom",
+          "fact:pattern",
+          "fact:goal"
+        ],
+        "function": "다음 진료 목표를 설명하기 위한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "P05는 경험이 생기는 상황을, P08은 다음 진료에서 다룰 주제를 답하면서 같은 경험을 재지칭한다. 반복이 각 질문의 새 대상을 대신하거나 대화를 정체시키지 않는다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

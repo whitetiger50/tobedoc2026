@@ -1,0 +1,45 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 질문에 맞춰 간결하고 자연스럽게 답하지만, 언니와 함께 산다는 설정과 달리 혼자 산다고 명확히 말해 인물 설정의 일관성이 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "언니와 함께 산다는 고정 사실을 부정하여 동거 관계에 명백한 모순이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": ["fact:living"]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문의 직접적인 대상을 적절히 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이번 대화의 앞선 환자 발언과 모순되거나 공개 흐름을 깨는 응답은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 관점의 일상적인 한국어로 간결하게 답하며 보고서식 표현이나 역할 이탈은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

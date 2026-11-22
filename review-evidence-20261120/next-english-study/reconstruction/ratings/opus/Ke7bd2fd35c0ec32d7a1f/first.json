@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-20T23:01:09.671590+00:00",
+  "attempt": "attempt-01",
+  "id": "Ke7bd2fd35c0ec32d7a1f",
+  "reader": "opus",
+  "session": "304650e3-d326-4ab1-a342-83269422b394",
+  "packet_sha256": "8af805178d0ca14a8e303c9c155eed7b7d2383f8324af127b2398d3d0ae7d717",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "cfc5ae5fd7d83773d1a172af24f7e747fd2ad0d2744bab6bc37c0ed6ceb35499",
+  "raw_sha256": "b5cf7d0ba857d7782f33bc0cba2af27d7c697dbbc9e56cb7f71e6f3ac2e44fcd",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says twice that putting the radio on made the voice less distracting while sorting thread and that they then finished, which supports easier, not harder.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "I put the radio on, and it was less distracting, so I finished sorting the thread.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "When I was sorting the thread last week, it made the voice less distracting, and I finished sorting.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient reports the voice said “too slow” while they were sorting, and states it wasn’t telling them to do anything, so it was a comment rather than an instruction.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "while I was sorting my sewing supplies, I heard a voice say “too slow.”",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "It wasn’t telling me to do anything.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

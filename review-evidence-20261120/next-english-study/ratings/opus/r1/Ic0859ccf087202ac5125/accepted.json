@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ic0859ccf087202ac5125",
+  "ended": "2026-11-20T21:05:46.681392+00:00",
+  "session": "03729cd6-4988-47d2-ba97-c883ad84c300",
+  "packet_sha256": "ff7d98b8287e772a8425c9ea158415912f8ec0dae34c47ba5ad6485e1c0de691",
+  "raw_sha256": "c1c2ba3ae68e9a8b69b86a9dd7c054a8ea56d20f971feae5e7bef8f7ebea4aa4",
+  "provider_sha256": "f94d8761c55088aa3c3e5ded64739b805d38378c9120104deb1aba10155b87b5",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The answers read as natural, plain speech from an outpatient. The tone is friendly and conversational, the patient describes losing the thread when tired, and the brief hesitation before disclosing the voices feels believable. There is one small sensory aside in turn 1. Several things fall short of the persona, though. Answers are unusually tidy and packed with information: turn 2 supplies early waking, evening fatigue and the visit-length preference in one go when only general mornings and evenings were asked about. The described tendency for asides to interrupt an account, and for one detail to call up loosely related memories, appears mostly as self-report rather than in the speech itself. There are no spontaneous neighbourhood stories or moments of choosing between recent events. The basil anecdote repeats across turns. Hesitancy about the sister relationship was never tested. These keep the conversation from feeling fully authentic, but they do not make it artificial.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Basil smells lovely when you brush against it"
+    },
+    {
+      "turn": 2,
+      "quote": "a short afternoon visit suits me better than staying through dinner"
+    },
+    {
+      "turn": 7,
+      "quote": "Someone says something and it reminds me of something else, then I’ve missed the next bit."
+    },
+    {
+      "turn": 11,
+      "quote": "Um… yes, about three weeks ago, one evening when I was on my own."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 6,
+  "question": "Did you have to pay for the swimming lesson?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b3af-76c3-8e24-ec7016140875",
+  "raw": "Yes, I paid for the swimming lesson. The cooking class was free.",
+  "raw_sha256": "dd943f2a0726a3922380214bf6fc9c7e5c5b66964086dbd1872e0f18a2493b6d",
+  "request_sha256": "da211aec99d9f19d6bb995a2c0dd9b4b983b0199ba88f25848f965ed94bfbe9e",
+  "started_utc": "2026-11-21T03:42:58.284276+00:00",
+  "completed_utc": "2026-11-21T03:43:02.353242+00:00",
+  "usage": {
+    "input_tokens": 47565,
+    "cached_input_tokens": 41088,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 120,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9614b3d8d8b86fbcea01d447771a43b1df41a476e70e973f5706b6dd40e161b6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "be84e3c162e386b975eb177e328a16fae61f8b4e91caf93143891f780646e50b"
+}

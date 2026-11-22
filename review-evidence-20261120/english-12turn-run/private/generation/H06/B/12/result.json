@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 12,
+  "question": "Is there anything about your day-to-day life you'd like us to talk more about?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Yes, keeping on top of my own jobs without someone having to remind me quite so much. I don’t mind my housemate helping—they’re good about it—but I like doing my share. The walking group’s something I enjoy, and I want to keep washing the bibs. It’s just those little bits between getting them washed and actually getting out the door that seem to trip me up.”",
+  "raw_sha256": "06f5a4d3f8b9389dd83dc7bd9cb5529d19d95a0612d7468ee9abbc4e9931cb74",
+  "request_sha256": "1369e8cd8cd8af1c58df2be1ebb7ba6f12dc6c2cef86ce38f7ab0e569459e953",
+  "started_utc": "2026-11-20T20:43:04.221320+00:00",
+  "completed_utc": "2026-11-20T20:43:09.828391+00:00",
+  "usage": {
+    "input_tokens": 99432,
+    "cached_input_tokens": 88576,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1063,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ed9ee7d4f3a28d95c9f4ca3703b74f8cf06a563dc015eac26e6411d5c2f3ed50",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e142709f083e5ac1308a922bf6a131b97c0a34d3064c3100cf68b5f4f88cf6c8"
+}

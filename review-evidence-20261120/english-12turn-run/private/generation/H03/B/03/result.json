@@ -1,0 +1,27 @@
+{
+  "case": "H03",
+  "arm": "B",
+  "turn": 3,
+  "question": "Has the timing changed much?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0abb-7c91-b6ac-197c1129cad0",
+  "raw": "Do you mean when I listen?",
+  "raw_sha256": "fcaf1fba93f52df5cff2e73ab02da44bc15cedd11d04b01b5500fb0eb68586d6",
+  "request_sha256": "986e3baf58efa568d727e99e414afe7fccd81da3b679294b630e405207a8e4b3",
+  "started_utc": "2026-11-20T20:37:22.870345+00:00",
+  "completed_utc": "2026-11-20T20:37:28.206890+00:00",
+  "usage": {
+    "input_tokens": 23060,
+    "cached_input_tokens": 18816,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62,
+    "reasoning_output_tokens": 11
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ee2b160d1b4aa81124becc0aeae8822e3b0ce7992905e9b6956450914c49131b",
+  "trace_sha256": "14c74d64f7a2fbda7e9251147d0df9995c65a7c28591182e9621941eaa6bb9f6"
+}

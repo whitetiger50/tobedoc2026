@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 8,
+  "question": "How do you tell whether something you notice is worth mentioning at your next visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-853e-75a3-a8a0-fcff4fb7805f",
+  "raw": "“I’d mention something that felt different from my usual everyday stress, especially if it kept bothering me or got in the way of work. If sounds started feeling like they had a message for me, I’d bring that up. That hasn’t been happening lately. It helps to check in with someone who knows me, even if I’m not sure whether something matters.”",
+  "raw_sha256": "b90c1f620381f14e1ce5ba6ceab237f4f617fe773a2c6e4ca258ba67b6d58347",
+  "request_sha256": "3d8464ea159bd45ff2b6544000d6c55c064ff5fd2ed22ac8a42552b73a78b48b",
+  "started_utc": "2026-11-20T20:41:40.334479+00:00",
+  "completed_utc": "2026-11-20T20:41:45.903685+00:00",
+  "usage": {
+    "input_tokens": 7235,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 77,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9db459a3dde8da47f91fb599a3b0c12a51a002bb880e32050edd164a05432366",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "613c2c9eb330a5566f8472517eb9c63d28f8977e60079c5b3d91b23fb8331de6"
+}

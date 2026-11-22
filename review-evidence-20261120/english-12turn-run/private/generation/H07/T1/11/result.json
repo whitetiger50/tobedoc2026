@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "T1",
+  "turn": 11,
+  "question": "What kinds of questions at your appointments are easiest for you to answer?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-8765-7630-932f-1d98c6e735a5",
+  "raw": "Questions about a particular day are easier. If you ask how life is going in general, it’s harder to know where to start.",
+  "raw_sha256": "e71e47ce647b8daca248c2e0bdd78cdd283c88cdb00b7473412dbab1ded98256",
+  "request_sha256": "6b81773f2d36de88f53e81a571e2d5fcdf5d97a804fe7c72bc5246437cf5a872",
+  "started_utc": "2026-11-20T20:42:46.390106+00:00",
+  "completed_utc": "2026-11-20T20:42:50.578516+00:00",
+  "usage": {
+    "input_tokens": 7383,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7f44c89810ca94d7e7c0c3221292592e43778911216d17fd111f2d989a1db382",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1af068e670da8d67bad4c6615d62ff3cd60119134e0d9510d1ed4c23692cb448"
+}

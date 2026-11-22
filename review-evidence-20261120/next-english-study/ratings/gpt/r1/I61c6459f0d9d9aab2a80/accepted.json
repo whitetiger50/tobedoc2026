@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 1,
+  "id": "I61c6459f0d9d9aab2a80",
+  "ended": "2026-11-20T21:05:45.070544+00:00",
+  "session": "01a1fac7-6e77-7ad1-9391-7a88fc72e6ca",
+  "packet_sha256": "e7aec196770775d70e07784e037dca7bc15f73bb6b72e5b3880fd18c29cad620",
+  "raw_sha256": "12dd67f6db513a34a7a72c1ead6e09f491b00b35c291da6425ec2660973b10b5",
+  "provider_sha256": "bb2f6a3507501c9ccd3e6b6b7a59d02c372e3b6515e6ebd13d6e97362fc24913",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient is coherent, conversational, and consistent with the profile, using dry humor, seeking clarification, and distinguishing past symptoms from current experience. However, repeated wording about opening shifts and keeping Sunday free makes parts of the interview feel somewhat scripted.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean waking early, or the struggle to get up with the alarm?"
+    },
+    {
+      "turn": 10,
+      "quote": "It felt convincing at the time, but that hasn’t happened in the past year."
+    },
+    {
+      "turn": 12,
+      "quote": "I feel steady enough for that, but I’d keep Sunday free for softball."
+    }
+  ]
+}

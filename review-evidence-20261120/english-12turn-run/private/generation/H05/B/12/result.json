@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 12,
+  "question": "What would you especially like me to remember from today's conversation?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "That the voice has come back even though I’ve been taking my tablets. I’d like some help with that, but I’m still managing at the stall, and I’m worried my family might assume I can’t.",
+  "raw_sha256": "35b7962eb9be7bdeed38952a13b96aa4596f14d1c051e546ad55a4840d8eb4d6",
+  "request_sha256": "063e8dc3c5da15b4873ed028edf625b75f0d21d4ebe2f5e091caa803ebdc834f",
+  "started_utc": "2026-11-20T20:43:10.764468+00:00",
+  "completed_utc": "2026-11-20T20:43:15.014862+00:00",
+  "usage": {
+    "input_tokens": 96898,
+    "cached_input_tokens": 86144,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 586,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d6effd79f47a449683ce7ee1a63a30c7d0b5cb4765d7d99268a94ac24bbc583a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ea162a62cb5641eb43e20026d4ef61963b99cb15832cc127f5b63b4a1407cdac"
+}

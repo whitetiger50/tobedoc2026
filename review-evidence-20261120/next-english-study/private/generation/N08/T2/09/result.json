@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 9,
+  "question": "How easy is it to focus then?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-c89b-73c1-a570-07c2559ec92a",
+  "raw": "Once I’m settled at home, it’s fairly easy to focus on the drawing. An uncomfortable moment might come back to mind, but it doesn’t hold my attention the whole time. It’s harder at a busy stop with people standing close by.",
+  "raw_sha256": "54d54e3c5c0d259722ed0766478ef4378208825742c983a75d095e9176e9b752",
+  "request_sha256": "c0cc9e68c471b9e139e29a5b0dc6f88d13384f1e0885e2df265e068943cac1da",
+  "started_utc": "2026-11-20T21:02:42.732353+00:00",
+  "completed_utc": "2026-11-20T21:02:46.994728+00:00",
+  "usage": {
+    "input_tokens": 6670,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8a79b6fb5ecfec2c90f16ee8304753328cd60f2113e3bd8aabb2ff6c4c328128",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f0dd1f50daaa9e6aa4970fc023dbcc364d70b402f0cc923cd2697c31ad93f59b"
+}

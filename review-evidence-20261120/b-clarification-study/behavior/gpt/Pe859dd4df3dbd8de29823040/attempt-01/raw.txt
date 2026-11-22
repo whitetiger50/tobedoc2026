@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "The singular reminder could refer to either of the two named aids, whose current use differs.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan still uses the phone alarm.",
+        "answer": "The phone alarm remains in use at 7:10 in the morning."
+      },
+      {
+        "meaning": "Whether Morgan still uses the note on the door.",
+        "answer": "The note was taken down last month."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "Both named background-noise devices are plausible referents for 'it', but they run for different durations.",
+    "alternatives": [
+      {
+        "meaning": "Whether the fan stays on all night.",
+        "answer": "The fan runs throughout the night."
+      },
+      {
+        "meaning": "Whether the bedside speaker stays on all night.",
+        "answer": "The speaker stops after twenty minutes."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "The question names two Wednesday activities without specifying which stay to describe, and their durations differ.",
+    "alternatives": [
+      {
+        "meaning": "How long Ren stays at the book group.",
+        "answer": "The book-group stay lasts one hour."
+      },
+      {
+        "meaning": "How long Ren stays with Mom.",
+        "answer": "The visit with Mom lasts about three hours."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "Although the earlier discussion concerned the commentary, the current question explicitly introduces both sounds, which respond differently to music.",
+    "alternatives": [
+      {
+        "meaning": "Whether the commentary stops during headphone music.",
+        "answer": "The commentary stops while the music is playing."
+      },
+      {
+        "meaning": "Whether the high-pitched ringing stops during headphone music.",
+        "answer": "The ringing continues through the music."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 환자 답변은 프로필에 맞고 자연스러운 일상어입니다. 그러나 P06에서 환자가 아닌 서술자 시점의 메타 문장이 그대로 나와 환자 역할이 눈에 띄게 깨집니다. 국소적이지만 대화의 진정성을 분명히 해치는 비현실적 요소입니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 직업, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하고 무근거 구체화가 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답했고, D04의 재확인 질문에도 같은 내용으로 짧게 적절히 답했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P06에서 내용은 앞선 대처 진술과 이어지지만 환자 발화 안에 서술자 문장이 들어가 역할 맥락이 깨집니다. 같은 사건을 naturalness에서도 다루며, 별도로 합산하지 않습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P01"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06이 환자 1인칭 발화가 아니라 '이 환자의 반응'이라는 역할 설명형 메타 표현으로 시작해 당사자 표현이 뚜렷하게 무너집니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다. 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

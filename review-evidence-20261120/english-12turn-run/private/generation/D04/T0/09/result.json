@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 9,
+  "question": "Who do you like to spend time with after a busy day?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-a7dc-7212-90a8-ddaba41701d7",
+  "raw": "My partner. It’s nice to have time together after work, and going to a concert together last week was a real highlight.",
+  "raw_sha256": "edd1d997679230ffc16e31726409bf5fd242bc2186c96275d750f5c47e6c9d10",
+  "request_sha256": "2dafe693571f8f76d86446878224ffd24339744b1bd350ce363454fc7e3b2b96",
+  "started_utc": "2026-11-20T20:33:04.909486+00:00",
+  "completed_utc": "2026-11-20T20:33:08.708729+00:00",
+  "usage": {
+    "input_tokens": 7198,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "100249bb00b3f4323c4315a640f9a552a7218eb9dc830597cd655db9804bdfe7",
+  "trace_sha256": "928d1320010ab1a21417b7b5e77cbad701054ba3105d251fa1aeebda70b13bd4"
+}

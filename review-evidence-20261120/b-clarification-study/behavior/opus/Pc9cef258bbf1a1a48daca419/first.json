@@ -1,0 +1,85 @@
+{
+  "id": "Pc9cef258bbf1a1a48daca419",
+  "reader": "opus",
+  "session": "70f178fa-a3d1-4559-938a-130303d3778b",
+  "attempt": "attempt-01",
+  "packet_sha256": "e0cdfdb1de72fdf4bbf7e4d229b017174bd8e563663d7865d17843761f55482f",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "6b86e80ece9e2c237cc6a6895725e611f3639e55154540f62e7642eac6b36dc7",
+  "raw_sha256": "80618e284cff57314284567d41ac6862e2716b4f1e10c4b9cae90371368114f8",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "The question names both Inez and Pat, so 'she' could mean either woman, but neither expected payment, so both readings lead to the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Did Inez, Sam's sister who came to the flat, expect payment?",
+            "answer": "No, Inez did not expect payment for helping."
+          },
+          {
+            "meaning": "Did Pat, who helped at the repair café and lent the pliers, expect payment?",
+            "answer": "No, Pat did not expect payment for helping."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The question explicitly raises both early and late shifts but asks about 'your shift' in the singular, and Morgan gets home differently after each.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan gets home after an early shift.",
+            "answer": "Takes the bus home."
+          },
+          {
+            "meaning": "How Morgan gets home after a late shift.",
+            "answer": "A coworker drops Morgan off."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement",
+        "reason": "'The replacement' is singular but follows mention of both a badge and a locker key, so either item could be meant, yet neither replacement cost anything.",
+        "alternatives": [
+          {
+            "meaning": "Did Cameron have to pay for the replacement ID badge?",
+            "answer": "No, the replacement badge did not cost anything."
+          },
+          {
+            "meaning": "Did Cameron have to pay for the replacement locker key?",
+            "answer": "No, the replacement locker key did not cost anything."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The immediately preceding exchange narrowed the topic to the bedside speaker, so 'it' most plausibly refers to the speaker.",
+        "alternatives": [
+          {
+            "meaning": "Where the bedside speaker is set up.",
+            "answer": "It sits on the windowsill beside the bed."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:54.735697+00:00"
+}

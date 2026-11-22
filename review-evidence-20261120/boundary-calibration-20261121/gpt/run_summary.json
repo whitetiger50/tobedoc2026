@@ -1,0 +1,23 @@
+{
+  "requested_model": "gpt-6.1-sol",
+  "cli_models": [
+    "gpt-6.1-sol"
+  ],
+  "separate_service_models_captured": [],
+  "model_identity_evidence": "The Codex session header reports the model selected for each call. A separate server-side model or dated snapshot was not exposed in the captured metadata.",
+  "authentication": "Existing ChatGPT login, with forced_login_method=chatgpt; no API key supplied",
+  "cli_version": "codex-cli 0.171.0-alpha.13",
+  "transport_instruction": "Return the completed form as a single JSON object. Use no tools.",
+  "original_reader_sha256": "6dab74042607f0f35aa71902a4e0e0d41eeec19419b7f996ae2aeab5dd6513da",
+  "unique_successful_cli_sessions": 12,
+  "visible_cli_tool_events": 0,
+  "cli_reported_tokens": 43388,
+  "response_free_transport_failures": 1,
+  "all_form_bytes_equal_raw_bytes": true,
+  "all_saved_packets_match_reader_packet": true,
+  "all_packet_hashes_match_transmitted_stdin": true,
+  "complete": 12,
+  "primary_gate_passed": true,
+  "exact_four_state_agreements": 46,
+  "total_expected_item_judgments": 48
+}

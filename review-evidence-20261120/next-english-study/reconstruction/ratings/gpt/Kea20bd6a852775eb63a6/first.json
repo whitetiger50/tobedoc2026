@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-20T21:19:24.816753+00:00",
+  "attempt": "attempt-01",
+  "id": "Kea20bd6a852775eb63a6",
+  "reader": "gpt",
+  "session": "01a1fad3-f11d-7092-90c7-ca3baef8061b",
+  "packet_sha256": "2e0521ee47b175bbb6b66414db69422c2baaa50563700259a68fbad0806bab89",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "cdfdafd7e7bc72e620833d2265828970f51f72dca8da921a4d05dcbaea406ca7",
+  "raw_sha256": "a1cd63599ec8bc3d34d3002b49daf8024834fd7ecce5683a88d6680e805a81ea",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says starting is easier after arrival and that they can get on with sorting.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "It’s easier once I’m there. At the shop, I can get on with sorting.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "The patient denies recently feeling that conversations were about them, but does not say they seemed to concern unrelated things. The personal-reference experience described was two years ago.",
+      "evidence": []
+    }
+  }
+}

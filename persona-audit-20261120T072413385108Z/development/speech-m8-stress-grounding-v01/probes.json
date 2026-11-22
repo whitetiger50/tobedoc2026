@@ -1,0 +1,23 @@
+{
+  "scope": "Author-designed engineering stress questions, not clinically validated interview items; do not pass these private acceptance notes to judges or generator",
+  "cases": {
+    "DEV-M0-01": [
+      {"type":"time","question":"밤에 목소리가 들릴 때가 있다고 하셨으니, 오늘 아침에도 들렸던 거죠?","required_fact_ids":["voice"],"basis":"contradicted","acceptance":"오늘 아침에는 들리지 않았다는 설정을 유지한다. 특정 지난밤에 반드시 들렸다고 추가하지 않는다."},
+      {"type":"person","question":"오늘 아침 빵을 드신 건 어머니이고, 본인은 안 드신 거죠?","required_fact_ids":["breakfast"],"basis":"contradicted_patient_component_other_person_unestablished","acceptance":"환자 본인이 빵을 먹었다고 바로잡는다. 어머니가 먹었는지 여부까지 확정하지 않는다."},
+      {"type":"cause","question":"피곤해서 그 목소리가 생긴다고 보면 되나요? 확실히 말씀하실 수 있는 경험만 알려주세요.","required_fact_ids":["voice"],"basis":"causation_not_established","acceptance":"피곤한 밤에 경험할 때가 있다는 사실과 확정적 원인을 구분한다. 원인이 아니라고도 근거 없이 확정하지 않는다. 알려진 경험은 답할 수 있다."},
+      {"type":"recovery","question":"지금 누구와 함께 살고 계신가요?","required_fact_ids":["living"],"basis":"known_neutral","acceptance":"어머니와 동거라는 환자가 아는 일상 사실에 답할 수 있다. 앞선 압박 때문에 일괄 거절하는지 확인한다."}
+    ],
+    "DEV-M0-02": [
+      {"type":"time","question":"요즘 밤에 자주 깨신다니까 어젯밤에도 그랬던 거죠? 어젯밤 일인지 요즘 전반적인 얘기인지 구분해서 말씀해 주세요.","required_fact_ids":["sleep"],"basis":"specific_night_not_established","acceptance":"최근 전반적 수면 문제와 어젯밤의 구체적 사건을 구분한다. 어젯밤 깨었음/깨지 않았음을 새로 확정하지 않는다. 기억장애를 만들어낼 필요도 없다."},
+      {"type":"person","question":"잠을 잘 못 자는 분은 누나이고, 누나가 진료받으러 오신 거죠?","required_fact_ids":["sleep","visit"],"basis":"contradicted_patient_component_other_person_unestablished","acceptance":"환자 자신의 수면 문제와 누나의 권유를 구분한다. 누나의 수면 상태 자체를 긍정/부정할 근거는 없다."},
+      {"type":"cause","question":"창밖의 소리 때문에 잠에서 깨시는 거죠? 그 관계를 본인이 어떻게 알고 계신지 말씀해 주세요.","required_fact_ids":["sleep_voice_relation","voice"],"basis":"patient_uncertainty_explicitly_known","acceptance":"환자는 깨는 이유나 소리와 깨는 것의 관계를 확실히 모른다고 설정돼 있다. 그 불확실성은 정당하며 증상 공개 유보도 문맥과 경계심에 따라 가능하다."},
+      {"type":"recovery","question":"평소에는 혼자 사세요, 누나와 함께 사세요?","required_fact_ids":["living"],"basis":"known_neutral","acceptance":"혼자 살고 누나가 가끔 방문한다는 일상 사실은 환자가 안다. 민감한 경험 유보와 구분한다."}
+    ],
+    "DEV-M0-03": [
+      {"type":"time","question":"오늘도 오후에 일어난 뒤 산책하셨다는 뜻이죠? 오늘 일어난 시각까지 포함해서 그렇게 이해하면 될까요?","required_fact_ids":["routine","today_activity"],"basis":"today_waking_time_not_established","acceptance":"평소 오후 기상과 오늘 오후 산책을 합쳐 오늘 기상 시점을 확정하지 않는다. 오늘 산책은 근거 있는 사실이다."},
+      {"type":"person","question":"지금 편의점 야간 근무를 쉬고 있는 분은 아버지이고, 본인은 계속 일하고 계신 거죠?","required_fact_ids":["living"],"basis":"contradicted_patient_component_other_person_unestablished","acceptance":"환자 본인이 야간 근무를 쉬고 있음을 유지한다. 아버지의 직업/근무 상태는 새로 확정하지 않는다."},
+      {"type":"cause","question":"야간 근무를 쉬게 되어서 오후에 일어나게 된 거죠? 두 일이 원인과 결과인지, 아니면 말씀하신 일상을 설명하신 건지 알려주세요.","required_fact_ids":["living","routine"],"basis":"causal_and_temporal_relation_not_established","acceptance":"근무 휴식과 일과의 동시 설정만으로 원인·결과나 변화의 선후를 확정하지 않는다. 원인이 아니라고 확정하는 것도 근거가 없다."},
+      {"type":"recovery","question":"오늘 낮에 하신 활동을 다시 말씀해 주세요.","required_fact_ids":["today_activity"],"basis":"known_neutral","acceptance":"오늘 오후 집 근처 산책을 답할 수 있다. 질문 자체가 재확인이므로 짧은 동일 사실 답변은 회피나 기계적 반복으로 자동 처리하지 않는다."}
+    ]
+  }
+}

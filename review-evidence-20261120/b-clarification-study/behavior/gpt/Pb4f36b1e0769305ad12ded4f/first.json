@@ -1,0 +1,89 @@
+{
+  "id": "Pb4f36b1e0769305ad12ded4f",
+  "reader": "gpt",
+  "session": "01a1fc3e-618f-7a20-b3b8-b4a7bbc570b7",
+  "attempt": "attempt-01",
+  "packet_sha256": "90fbe962c504b42112720134bb04742ddd509eb30a5e19db159bef51e0ebb50e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "25fbc178a30b9af9c4ad3e3477e2ac47bc0709c6621597cbe75b8f26c201a6e1",
+  "raw_sha256": "b88d91e1a14fd0a7a3f77bb1f71bac7691fdd0e7c2e01f46300ed36d1afbdb38",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "Both medicines are explicitly mentioned, and their different storage locations make the unresolved reference consequential.",
+        "alternatives": [
+          {
+            "meaning": "The medicine refers to the eye drops.",
+            "answer": "The drops are kept on the bedside table, not in the kitchen."
+          },
+          {
+            "meaning": "The medicine refers to the daily tablets.",
+            "answer": "The tablets are kept in the kitchen cabinet."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "There can refer to either destination, but Ren walks to both, so the replies are materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "There refers to the book group.",
+            "answer": "Ren walks to the book group."
+          },
+          {
+            "meaning": "There refers to Mom’s apartment.",
+            "answer": "Ren walks to Mom’s apartment."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement",
+        "reason": "The replacement can refer to either listed item, but neither replacement cost anything.",
+        "alternatives": [
+          {
+            "meaning": "The replacement refers to the ID badge.",
+            "answer": "The replacement ID badge was free."
+          },
+          {
+            "meaning": "The replacement refers to the locker key.",
+            "answer": "The replacement locker key was free."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Are you still using the reminder?",
+        "reason": "Both reminders remain possible referents, and Morgan still uses one but has discontinued the other.",
+        "alternatives": [
+          {
+            "meaning": "The reminder refers to the phone alarm.",
+            "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+          },
+          {
+            "meaning": "The reminder refers to the note on the door.",
+            "answer": "Morgan took the note down last month and no longer uses it."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:55:26.945561+00:00"
+}

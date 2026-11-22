@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T2",
+  "turn": 10,
+  "question": "How do you feel around the other passengers when you travel these days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-5207-77f3-b2db-ccc1f1faa4bd",
+  "raw": "It’s been all right lately. I haven’t felt that other passengers were talking about me.",
+  "raw_sha256": "6b3b012a507fb0771b27fd8f040fd982b565acd8ba9604c64c31b7fbe2ca01ab",
+  "request_sha256": "950d9f3abd1ff4b8925a3323672da5636938c5d6dd039cc1d752ac94e8919ad2",
+  "started_utc": "2026-11-20T21:03:17.928035+00:00",
+  "completed_utc": "2026-11-20T21:03:25.506044+00:00",
+  "usage": {
+    "input_tokens": 6460,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 164,
+    "reasoning_output_tokens": 139
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "144b99b631352fed61030307a1f4b2623e63b52bc26a0035f762dd0614bb85c8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c66835ada09fb5b658c44df3d57001af8d10960f57e8daa185c89b0979d48e04"
+}

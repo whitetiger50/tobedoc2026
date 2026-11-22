@@ -1,0 +1,82 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 간결하고 자연스러운 일상 말투이며, 증상을 확신하지 않는 태도도 설정과 잘 맞는다. 다만 P08은 '다음 진료 전까지 해 보고 싶은 일'이라는 질문에 프로필 문장을 거의 그대로 옮긴 듯 '다음 진료 때' 이야기할 주제로 답한다. 이 때문에 질문과 약간 어긋나고 다소 정형적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있다. 새로운 사건이나 구체 사실을 확정한 부분은 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "D08은 다음 진료 전까지 해 볼 일을 물었는데, P08은 다음 진료 때 이야기할 내용으로 답해 질문의 시점과 대상에 부분적으로 어긋난다. 다만 진료 목표 진술로 넓게 해석할 여지가 있어 불확실하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P01과 P05의 증상 설명, P06의 대처가 서로 모순 없이 이어진다. 불필요한 반복이나 문맥 파괴는 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "대체로 환자 시점의 자연스러운 표현이다. 다만 P08은 프로필 목표 문장을 그대로 옮긴 듯한 정형적 표현이 국소적으로 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:goal",
+        "turn:D08"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

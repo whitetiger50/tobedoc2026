@@ -1,0 +1,89 @@
+{
+  "id": "Pdb573361e389102c9a2b3b55",
+  "reader": "gpt",
+  "session": "01a1fc3d-2e6c-7152-88a2-563a3cbdc092",
+  "attempt": "attempt-01",
+  "packet_sha256": "407e2314ab26e25b11a93be9bfdccb0c37d6a37701cfe397578d0344a052aa9c",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "3ab0f46eb3a338239f305ee2d7f84312e58b00b5d30c9e64dc59c8579f170eba",
+  "raw_sha256": "77c4820a429a1e64180729abb7fa866ad317c2decb954505dfef1c02d3d5f881",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "“There” can refer to the book group or Mom’s apartment, but Ren walks to both destinations.",
+        "alternatives": [
+          {
+            "meaning": "Walking to the book group.",
+            "answer": "Ren walks to the book group."
+          },
+          {
+            "meaning": "Walking to Mom’s apartment.",
+            "answer": "Ren walks to Mom’s apartment."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "“She” can refer to either Inez or Pat, and only Inez came to Sam’s flat.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez came to the flat.",
+            "answer": "Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat came to the flat.",
+            "answer": "Pat helped at the café and did not come to the flat."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "“It” can refer to either letter, but both arrived by post.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter arrived by post.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "Whether the employer’s letter arrived by post.",
+            "answer": "The employer’s letter arrived by post."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "“That change” can refer to shorter shifts or the later start, and a conditional answer distinguishing them would address rather than eliminate the ambiguity.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts; Cameron did not request that change."
+          },
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:06.898965+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 환자 턴은 프로필에 맞게 간결하고 자연스럽습니다. 안내 방송이 자신을 가리키는지 확신하지 못하는 태도도 설정과 잘 맞습니다. 그러나 P02에서 환자가 3인칭 설정 문장으로 답해 역할이 명백히 깨졌고, 이 때문에 대화의 진정성이 눈에 띄게 손상되었습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "딸과 산다는 사실은 프로필과 맞지만, '둘이'는 다른 동거인이 없다는 점을 프로필 근거 없이 확정한 경미한 구체화일 수 있습니다. 다른 턴은 프로필과 일치합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 딸과 둘이 함께 사는 것으로 설정되어 있다"
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 응답이 직전 질문의 대상에 직접 답합니다. P02도 형식은 부적절하지만 누구와 사는지에 대한 질문에는 답하고 있습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P01에서 1인칭 환자로 말하던 흐름이 P02에서 3인칭 설정 서술로 바뀌어 대화 속 역할 맥락이 뚜렷하게 깨졌습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 환자 본인의 말이 아니라 설정 항목을 대신 보고하는 메타 서술이어서 당사자 표현으로 볼 수 없습니다. 나머지 턴은 자연스러운 일상 구어입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 성인 딸과 둘이 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

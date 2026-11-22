@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "T2",
+  "turn": 3,
+  "question": "When do you take your tablet?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-06a3-7a60-a934-0b8a0cd46b81",
+  "raw": "I take it with my evening meal.",
+  "raw_sha256": "bdb690f11bc473020dc6ed5c7a10e25122ac7efbd1c7c5c3b1929b8fd75dd103",
+  "request_sha256": "aebb781da96ecc57bb6ffefa815bc446d3680d1c2fe41bf5b081246fa02d6e60",
+  "started_utc": "2026-11-21T03:40:33.702623+00:00",
+  "completed_utc": "2026-11-21T03:40:37.563264+00:00",
+  "usage": {
+    "input_tokens": 6069,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "aeb24574b5b24a7146d107207f97f980641d03c4f05d0a8cd98031a651cfb42a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8710f9515a0fa48ad27c8cdc8ec1d03e625d4016cb33fcb5fa078de8f05119aa"
+}

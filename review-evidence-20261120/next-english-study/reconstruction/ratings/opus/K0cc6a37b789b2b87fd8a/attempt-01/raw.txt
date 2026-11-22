@@ -1,0 +1,20 @@
+```json
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says the arm aches that evening but is usually fine by the next morning, so the discomfort has usually settled.",
+    "citations": [
+      {"turn": 7, "role": "patient", "quote": "it’s usually fine the next morning", "supports": "B"},
+      {"turn": 11, "role": "patient", "quote": "it’s usually fine by the next morning", "supports": "B"}
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient suggests that choosing where to go the night before might help, which means picking a destination the evening before the trip.",
+    "citations": [
+      {"turn": 8, "role": "patient", "quote": "I think choosing where to go the night before might help.", "supports": "A"},
+      {"turn": 9, "role": "patient", "quote": "I think choosing where to go the night before might help.", "supports": "A"}
+    ]
+  }
+}
+```

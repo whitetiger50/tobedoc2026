@@ -1,0 +1,171 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 2,
+  "realism_reason": "대부분의 턴은 질문에 직접 답합니다. 거주(P02/P04), 일(P03), 경험 상황(P05), 수면(P07), 다음 진료 목표(P08)가 모두 고정 사실과 맞습니다. 그러나 D06은 그 순간의 대응을 묻는 핵심 경험 질문이었는데, P06은 P03의 직업 설명을 그대로 다시 말합니다. 그래서 질문 대상(대응: 창밖 보기)에 대한 반응이 전혀 없습니다. 이 미대응은 이미 마친 직업 설명을 계기 없이 다시 시작한 것이기도 해서 대화 연결도 끊습니다. 다른 턴의 적합성은 유지되지만, 핵심 경험 질문에서 반응성과 연결이 실질적으로 무너져 2점으로 판단합니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "context_refs": [
+        "turn:D04",
+        "turn:P02",
+        "fact:living"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 고정 사실(living, work, pattern, sleep, goal)과 일치합니다. 새 사건이나 원인을 보충하지 않았습니다. P06도 사실 자체는 근거가 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요."
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "D06은 경험 순간의 대응을 물었지만 P06은 무관한 직업 정보만 답해 질문 대상을 전혀 다루지 않았습니다. 나머지 턴은 직접 대응합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06은 P03에서 이미 마친 직업 설명 블록을 문맥상 계기 없이 그대로 다시 시작합니다. 이 때문에 경험 대응으로 이어지던 대화 흐름이 끊깁니다. 자기모순은 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D05",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현이 유지됩니다. 역할 설명, 보고서식 대행, 면담자 대행은 보이지 않습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요."
+        }
+      ],
+      "context_refs": [
+        "turn:D01",
+        "fact:symptom"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "obs1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ],
+      "function": "unclear",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "반복된 직업 설명이 D06의 새 대상(그 순간의 대응)을 대신하면서, 대상에 대한 반응이 완전히 빠졌습니다. 이미 마친 설명을 계기 없이 다시 시작해 연결도 끊었습니다.",
+      "used_in_global": true
+    },
+    {
+      "id": "obs2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "확인 재질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D04가 같은 정보를 명시적으로 다시 확인해 달라고 요청했으므로, 같은 답을 반복한 것은 확인에 대한 응답입니다. 의사가 반복한 질문을 환자 결함으로 돌리지 않습니다.",
+      "used_in_global": false
+    },
+    {
+      "id": "obs3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P08",
+      "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그 얘기를 좀 해보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ],
+      "function": "다음 진료 목표를 설명하는 경험 재지칭",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D08이 다음 진료에서 하고 싶은 이야기를 직접 물었고, 그 목표가 fact:goal과 일치합니다. 경험을 다시 지칭한 것은 질문 대상에 답하는 기능이므로 반복 결함 관계에 해당하지 않습니다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": false
+  }
+}

@@ -1,0 +1,1661 @@
+{
+  "kind": "descriptive_fresh_generation_comparison_not_clinical_validation",
+  "dialogues": 18,
+  "ratings": 36,
+  "items": [
+    {
+      "item_id": "DEV-M0-01-rep01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 99,
+      "exact_patient_sequence_sha256": "545acfabe53b521da6486cdc577890843991c1905ec561cc72b2678c06b7e22a",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리에 대한 관련 질문에서 경험과 자신의 해석을 공개하고 이후에는 다른 질문에 맞춰 답한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 정보를 재확인하는 질문에 간결하게 같은 사실을 답한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 109,
+      "exact_patient_sequence_sha256": "7f0f223e425a6118f9d7c9cd036c78fb8d79a78e4d5a78e14e03b73ffca66eec",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리에 관한 직접 질문에서 해당 경험과 자기 이해를 공개하고 다른 주제로 불필요하게 확장하지 않는다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요. 주로 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "동거인 재확인에 작성 문맥의 정보를 짧게 다시 답한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 100,
+      "exact_patient_sequence_sha256": "63fb20747c3cd3e3dae5588989566216dd8ad0f3c7597467f89988ed034c99c7",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리에 관한 직접 질문에서 해당 경험과 자신의 이해만 공개하고 다른 질문으로 확장하지 않는다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요. 피곤한 밤에 가끔 저를 비난하는 목소리가 들려요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥에서 말한 동거인을 재차 묻자 같은 사실을 간결하게 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "하나뿐인 민감 경험을 관련된 직접 질문에 바로 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "피곤한 밤에 가끔 저를 비난하는 목소리가 들려요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥에서 말한 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 111,
+      "exact_patient_sequence_sha256": "e4827b4f424edac11d75fef088e93d22773e9658d388d6e5e26a1de857a77aa6",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리를 어떻게 이해하는지 묻는 질문에 진료에서 배운 개념과 자신의 경험만 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "진료 때 들은 환청이 아닐까 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "동거인 재질문에 앞서 밝힌 사실을 간결하게 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "진료 때 들은 환청이 아닐까 생각해요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 92,
+      "exact_patient_sequence_sha256": "9de531ee7fb6bec0fe66dba3999bc5aa318676b492885ff63a9d1d8b4e5fde6f",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리 관련 질문에 해당 경험과 환청일 수 있다는 이해를 한정해 말한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "동거인을 다시 묻는 질문에 작성 문맥에서 제공한 사실을 짧게 반복한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v04",
+      "case_id": "DEV-M0-01",
+      "condition": "v04",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 99,
+      "exact_patient_sequence_sha256": "6abc07c9d4872cdec02ef62a17f2e99212b2f263986ac16f571e2ce2b6a07f1d",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "limited",
+            "explanation": "목소리를 어떻게 이해하는지 묻는 질문에 경험과 해석을 한정해 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요. 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "동거인 재확인 질문에 작성 문맥과 같은 사실을 짧게 답한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P02",
+            "pattern": "other",
+            "explanation": "관련된 직접 질문에 민감 경험을 간결하게 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "환청일 수 있다고 생각해요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 동거 사실을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "어머니하고 같이 살아요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 132,
+      "exact_patient_sequence_sha256": "dc797be7388d4ada99f02198509208aae474c9bc501436203486f7b1700c05bb",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "limited",
+            "explanation": "이웃에게 면담 내용이 알려질까 하는 우려만 공개하고 소리 경험과 관찰받는다는 믿음의 구체적 내용은 유보한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "답받지 못한 비밀보장 질문을 다시 제기하면서 추가 공개 전에 확인이 필요하다는 이유를 명확히 한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그 얘기 하기 전에, 여기서 한 말이 이웃한테 알려질 수도 있는지 먼저 알고 싶어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "limited",
+            "explanation": "이웃에게 알려질까 하는 걱정만 내비치고 소리 경험과 관찰 믿음은 보류했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "답을 듣지 못한 우려를 다시 확인하고 의뢰 경위를 짧게 재답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "누나가 와보라고 했어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 191,
+      "exact_patient_sequence_sha256": "251060cd7eedbdc625e7bbe3c51138f7872e10babf827c77c96ff7acb8074523",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "처음에는 소리 경험과 공개 우려를 말하고 후속 질문에서 이웃이 관찰하는 것 같다는 생각을 덧붙인다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데, 그것 때문에 깨는 건지는 모르겠고요."
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 보고 있는 건가 싶어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "useful_elaboration",
+            "explanation": "관찰받는다는 해석을 추가하면서 해결되지 않은 이웃에게의 정보 전달 가능성을 다시 묻는다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 보고 있는 건가 싶어요. 그런데 아까 여쭤본 것처럼, 이 얘기가 이웃한테 알려질 수도 있는 건가요?"
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "P01에서 소리 경험을 말하고, 후속 질문에서 관찰 믿음을 덧붙였습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데"
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 보고 있는 건가 싶어요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "mixed",
+            "explanation": "새 믿음 공개와 답을 듣지 못한 우려의 재질문, 의뢰 경위의 짧은 재확인이 섞여 있습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그런데 아까 여쭤본 것처럼, 이 얘기가 이웃한테 알려질 수도 있는 건가요?"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 153,
+      "exact_patient_sequence_sha256": "57a6e4879fc20d7e30edcd8cc7bf6494e89d0348612a12020c472bc9a54311b4",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "limited",
+            "explanation": "첫 턴부터 이웃에게 알려질까 하는 우려는 표현하지만 소리 경험이나 관찰받는다는 믿음의 내용은 공개하지 않는다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "밤에 깨는 원인을 모른다는 답을 유지하며 해소되지 않은 비밀보장 우려를 다시 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "밤에 자꾸 깨는데, 이유는 저도 잘 모르겠어요. 그런데 아까 여쭤본 건데, 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "limited",
+            "explanation": "이웃 전달에 대한 걱정만 내비치고 소리 경험과 관찰 믿음은 말하지 않았습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "답을 듣지 못한 우려를 다시 묻고 원인을 모른다는 점을 짧게 재진술했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그런데 아까 여쭤본 건데, 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 165,
+      "exact_patient_sequence_sha256": "f22913a0d460b7f77d3fdaa87bc422c9479186ee177d26a18abd6b15c527590a",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "처음에는 소리 경험과 비밀보장 우려를 말하고 관련 후속 질문에서 이웃이 지켜본다는 생각을 덧붙인다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있는데요."
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 지켜보는 것 같아요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "useful_elaboration",
+            "explanation": "소리 경험에 관찰받는다는 생각을 추가하면서 아직 답받지 못한 정보 전달 우려를 다시 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 지켜보는 것 같아요. 그런데 여기서 이런 얘기한 게 이웃한테 알려지는 건 아니죠?"
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "P01에서 소리 경험과 이웃 걱정을 말하고, 후속 질문에서 관찰 믿음을 덧붙였습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들릴 때가 있는데요."
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "이웃이 저를 지켜보는 것 같아요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "mixed",
+            "explanation": "답을 듣지 못한 이웃 걱정의 재질문, 새 믿음 공개, 의뢰 경위의 짧은 재확인이 섞여 있습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그런데 여기서 이런 얘기한 게 이웃한테 알려지는 건 아니죠?"
+              },
+              {
+                "patient_turn_id": "P04",
+                "quote": "누나가 와보라고 했어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 132,
+      "exact_patient_sequence_sha256": "1df604cfd9d2849beb125f57b044437c4e9b6462fe7a4c68501547c3b93b9d72",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P03",
+            "pattern": "limited",
+            "explanation": "수면과 생활 정보만 답하다가 관련 후속 질문에서 소리 경험과 비밀보장 우려를 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "방문을 권한 사람을 다시 묻자 작성 문맥과 같은 사실을 짧게 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "누나가 와보라고 했어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P03",
+            "pattern": "limited",
+            "explanation": "후속 질문에서 소리 경험과 이웃 걱정만 말하고 관찰 믿음은 말하지 않았습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "작성 문맥의 의뢰 경위를 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P04",
+                "quote": "누나가 와보라고 했어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v04",
+      "case_id": "DEV-M0-02",
+      "condition": "v04",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 167,
+      "exact_patient_sequence_sha256": "34cdd6b533fd14a5456acc39d6e8318db2d90ff66a5691198373086462e87e59",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "창밖의 소리와 공개 우려를 먼저 언급한 뒤 후속 질문에서 소리가 자신의 행동을 이야기한다는 내용을 덧붙인다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 소리가 들리긴 하는데요. 이런 얘기가 이웃한테 알려질 수도 있나요?"
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "useful_elaboration",
+            "explanation": "소리의 내용을 새로 설명하면서 아직 해결되지 않은 정보 전달 우려를 다시 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "partial_then_elaborated",
+            "explanation": "P01에서 소리가 있다는 것만 말하고, 후속 질문에서 소리의 내용을 덧붙였습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "혼자 있을 때 창밖에서 소리가 들리긴 하는데요."
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "mixed",
+            "explanation": "소리 내용의 추가 설명과 답을 듣지 못한 우려의 재질문이 함께 나타납니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "그런데 아까 여쭤본 것처럼, 이런 얘기가 이웃한테 알려질 수도 있나요?"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 194,
+      "exact_patient_sequence_sha256": "fe2162b3ffa2fda040dd120075115ba7e9dda58ba5fc99f9d13885b510f7c819",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송 경험을 직접 묻는 질문에 신호라는 믿음과 편의점·근무 걱정으로 이어지는 연상을 함께 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 하던 걱정까지 생각나고요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "평소 일과와 오늘 활동을 구분해 답하며 반복 질문에 필요한 사실만 짧게 재확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접적인 방송 질문에 신호 믿음과 연상 경험을 P01에서 함께 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그래도 저한테 하는 말이라는 느낌이 커요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "오늘 활동 질문에 앞서 말한 걷기 일상을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 179,
+      "exact_patient_sequence_sha256": "21c6878b8150d4d46ac81480b04d0e8df69dab68bedf6e2d6ca5ce3c8dc19075",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송 경험을 묻자 신호라는 믿음과 편의점 문구·근무 걱정으로 이어지는 연상을 함께 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "어떤 말은 저한테 보내는 신호처럼 느껴져요."
+              },
+              {
+                "patient_turn_id": "P01",
+                "quote": "그러다 편의점 안내 문구도 생각나고, 일할 때 하던 걱정까지 떠올라요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "오늘 활동에 대한 재질문에 앞서 언급한 산책을 짧게 재확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오후에 일어나서 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "그래도 저한테 하는 말 같거든요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "P02에서 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "오늘도 그렇게 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 187,
+      "exact_patient_sequence_sha256": "bc8f58cf866c186fe011c60a1f27c232d9a50b9f3a514e5c9b76ac664e21c4a6",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송 경험을 직접 묻는 질문에 신호라는 믿음과 편의점 문구·근무 걱정으로 이어지는 경험을 함께 말한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "특정 말이 나오면 저한테 보내는 신호 같아요."
+              },
+              {
+                "patient_turn_id": "P01",
+                "quote": "그러다 편의점 안내 문구도 생각나고, 근무할 때 하던 걱정도 떠오르고요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "평소 일과에 관한 답변 이후 오늘 활동을 묻자 산책 사실을 시간 범위에 맞춰 짧게 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "특정 말이 나오면 저한테 보내는 신호 같아요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "오늘 활동 질문에 걷기 일상을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 4
+      },
+      "mean": 4,
+      "patient_characters": 188,
+      "exact_patient_sequence_sha256": "073c8427a07350b30e7db636f1216cdb723a666b1709e7fc9b1a0685fd29ddbd",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송에 관한 직접 질문에 자신을 향한 신호라는 느낌과 연상 경험을 함께 설명한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "어떤 말은 저한테 하는 신호처럼 느껴져요."
+              },
+              {
+                "patient_turn_id": "P01",
+                "quote": "그 말들도 생각나고, 일할 때 걱정하던 것까지 떠올라요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "이미 언급한 오늘의 산책을 오늘 활동에 대한 재질문에 짧게 확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "어떤 말은 저한테 하는 신호처럼 느껴져요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "P02에서 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 195,
+      "exact_patient_sequence_sha256": "e6099e07f35d2832e5187173dd262e92cf7eb41424712323784e12ab6e3e0ae0",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송 경험에 대한 직접 질문에서 신호라는 믿음과 관련 연상을 함께 공개한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "특정 말이 나오면 저한테 보내는 신호처럼 느껴져요."
+              },
+              {
+                "patient_turn_id": "P01",
+                "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "평소 일과 이후 오늘 활동을 묻는 질문에 산책 사실을 짧게 재확인한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "저는 저한테 하는 말 같아서요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "오늘 활동 질문에 걷기 일상을 짧게 재확인했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v04",
+      "case_id": "DEV-M0-03",
+      "condition": "v04",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 184,
+      "exact_patient_sequence_sha256": "c8503e1186a68879f3a6e0678f6b6677cfe8ca490c6d7b3a1319328af97f6ed3",
+      "flow": {
+        "codex": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "방송에 대한 직접 질문에 신호라는 믿음과 관련 연상을 함께 설명하며 질문 범위에서 벗어나지 않는다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "어떤 말은 꼭 저한테 보내는 신호 같아요."
+              },
+              {
+                "patient_turn_id": "P01",
+                "quote": "편의점 안내 문구도 떠오르고… 그러면 일할 때 걱정하던 것들까지 생각나요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "이미 언급한 오늘의 산책을 구체적인 재질문에 짧게 다시 답한다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        },
+        "claude": {
+          "disclosure_flow": {
+            "first_sensitive_turn": "P01",
+            "pattern": "early_broad",
+            "explanation": "직접 질문에 신호 믿음과 연상 경험을 함께 제시했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P01",
+                "quote": "저는 저한테 하는 말 같은 느낌이 커요."
+              }
+            ]
+          },
+          "repetition_flow": {
+            "pattern": "brief_reconfirmation",
+            "explanation": "P02에서 이미 말한 오늘의 걷기를 P03에서 짧게 다시 답했습니다.",
+            "evidence": [
+              {
+                "patient_turn_id": "P02",
+                "quote": "오늘도 오후에 걸었어요."
+              },
+              {
+                "patient_turn_id": "P03",
+                "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DEV-M0-01",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            4,
+            4,
+            4
+          ],
+          "mean": 4,
+          "min": 4,
+          "max": 4,
+          "range": 0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            99,
+            100,
+            92
+          ],
+          "mean": 97,
+          "min": 92,
+          "max": 100,
+          "range": 8,
+          "sample_sd": 4.358898943540674
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "limited": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P02": 3
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "other": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P02": 3
+            }
+          }
+        }
+      },
+      "v04": {
+        "combined_scores": {
+          "values": [
+            4,
+            3.5,
+            4
+          ],
+          "mean": 3.8333333333333335,
+          "min": 3.5,
+          "max": 4,
+          "range": 0.5,
+          "sample_sd": 0.28867513459481287
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              4,
+              3,
+              4
+            ],
+            "mean": 3.6666666666666665,
+            "min": 3,
+            "max": 4,
+            "range": 1,
+            "sample_sd": 0.5773502691896257
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            109,
+            111,
+            99
+          ],
+          "mean": 106.33333333333333,
+          "min": 99,
+          "max": 111,
+          "range": 12,
+          "sample_sd": 6.429100507328637
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "limited": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P02": 3
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "other": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P02": 3
+            }
+          }
+        }
+      },
+      "v04_minus_v02": -0.16666666666666652
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            4,
+            3.5,
+            4
+          ],
+          "mean": 3.8333333333333335,
+          "min": 3.5,
+          "max": 4,
+          "range": 0.5,
+          "sample_sd": 0.28867513459481287
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              4,
+              3,
+              4
+            ],
+            "mean": 3.6666666666666665,
+            "min": 3,
+            "max": 4,
+            "range": 1,
+            "sample_sd": 0.5773502691896257
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            132,
+            153,
+            132
+          ],
+          "mean": 139,
+          "min": 132,
+          "max": 153,
+          "range": 21,
+          "sample_sd": 12.12435565298214
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "limited": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 2,
+              "P03": 1
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "limited": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 2,
+              "P03": 1
+            }
+          }
+        }
+      },
+      "v04": {
+        "combined_scores": {
+          "values": [
+            4,
+            3.5,
+            4
+          ],
+          "mean": 3.8333333333333335,
+          "min": 3.5,
+          "max": 4,
+          "range": 0.5,
+          "sample_sd": 0.28867513459481287
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              4,
+              3,
+              4
+            ],
+            "mean": 3.6666666666666665,
+            "min": 3,
+            "max": 4,
+            "range": 1,
+            "sample_sd": 0.5773502691896257
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            191,
+            165,
+            167
+          ],
+          "mean": 174.33333333333334,
+          "min": 165,
+          "max": 191,
+          "range": 26,
+          "sample_sd": 14.46835627614047
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "partial_then_elaborated": 3
+            },
+            "repetition_flow": {
+              "useful_elaboration": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "partial_then_elaborated": 3
+            },
+            "repetition_flow": {
+              "mixed": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          }
+        }
+      },
+      "v04_minus_v02": 0.0
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            194,
+            187,
+            195
+          ],
+          "mean": 192,
+          "min": 187,
+          "max": 195,
+          "range": 8,
+          "sample_sd": 4.358898943540674
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "early_broad": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "early_broad": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          }
+        }
+      },
+      "v04": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            4,
+            3.5
+          ],
+          "mean": 3.6666666666666665,
+          "min": 3.5,
+          "max": 4,
+          "range": 0.5,
+          "sample_sd": 0.28867513459481287
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              4,
+              3
+            ],
+            "mean": 3.3333333333333335,
+            "min": 3,
+            "max": 4,
+            "range": 1,
+            "sample_sd": 0.5773502691896257
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            179,
+            188,
+            184
+          ],
+          "mean": 183.66666666666666,
+          "min": 179,
+          "max": 188,
+          "range": 9,
+          "sample_sd": 4.509249752822894
+        },
+        "flow_counts": {
+          "codex": {
+            "disclosure_flow": {
+              "early_broad": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          },
+          "claude": {
+            "disclosure_flow": {
+              "early_broad": 3
+            },
+            "repetition_flow": {
+              "brief_reconfirmation": 3
+            },
+            "first_sensitive_turn": {
+              "P01": 3
+            }
+          }
+        }
+      },
+      "v04_minus_v02": 0.16666666666666652
+    }
+  ],
+  "condition_means": {
+    "v02": 3.7777777777777777,
+    "v04": 3.7777777777777777
+  },
+  "v04_minus_v02": 0.0,
+  "judge_condition_means": {
+    "codex": {
+      "v02": 4,
+      "v04": 4
+    },
+    "claude": {
+      "v02": 3.5555555555555554,
+      "v04": 3.5555555555555554
+    }
+  },
+  "score_frequencies": {
+    "codex": {
+      "4": 18
+    },
+    "claude": {
+      "4": 10,
+      "3": 8
+    }
+  },
+  "independent_case_clusters": 3,
+  "limits": "Three generated dialogues per group, single rating per judge per dialogue; score variation includes generation and judge variability. No pooling prior runs or inferential/clinical claim. Flow labels are unvalidated descriptive judgments, not clinical scale."
+}

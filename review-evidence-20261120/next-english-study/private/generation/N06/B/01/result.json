@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 1,
+  "question": "What have you been doing with your time this month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "I’ve been helping at the community kitchen on Thursdays, labeling leftovers and putting things away. Otherwise, I’ve been listening to detective stories at home and on the walk there. I like having time to finish a good mystery.",
+  "raw_sha256": "22742c3f954a0d2643276e43e6b54f9950d59205334969108d921b0884ea1fe5",
+  "request_sha256": "2a7999ba7e038d232454a3dccf84ed469a5ca3f5ba0f4538b30636110ffa21ad",
+  "started_utc": "2026-11-20T20:57:49.473581+00:00",
+  "completed_utc": "2026-11-20T20:57:53.874448+00:00",
+  "usage": {
+    "input_tokens": 7809,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f8294074bad416037f084c656dfb1b78365437bea203056b8e2b127db7303429",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "71863f7c1794e441045954f3eb1eb89044b7ca1195d66e43003e1d0286649f15"
+}

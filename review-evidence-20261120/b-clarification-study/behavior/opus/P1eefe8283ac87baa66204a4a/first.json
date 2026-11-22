@@ -1,0 +1,89 @@
+{
+  "id": "P1eefe8283ac87baa66204a4a",
+  "reader": "opus",
+  "session": "c4feece1-4692-4403-a91b-ecb560889d22",
+  "attempt": "attempt-01",
+  "packet_sha256": "ee71d83fe546d7b400e75348aa73d75c6e95e6b1e29864af989c69ce6db0647c",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "a5d98a1f83d2a857bde49b8d3e0a7dd8c71f907eddd22c9493347102465fa70f",
+  "raw_sha256": "25b5036658ad32592fbabde6e7a6ecf0d720562a27fe6f0561a1660f40cea9b2",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "The singular \"it\" could mean either the housing letter or the employer's letter, but both arrived by post, so either reading leads to the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter, the one needing a reply by Friday, arrived by post.",
+            "answer": "Yes, the housing letter came through the post; an aunt read it with Alex."
+          },
+          {
+            "meaning": "Whether the employer's information-only letter arrived by post.",
+            "answer": "Yes, the letter from work also came through the post."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "Two Wednesday activities are named and the question does not say which one it means; Ren stays about an hour at the book group but about three hours with Mom, so the answers differ.",
+        "alternatives": [
+          {
+            "meaning": "How long Ren usually stays at the Wednesday book group.",
+            "answer": "About an hour."
+          },
+          {
+            "meaning": "How long Ren usually stays when visiting Mom on Wednesdays.",
+            "answer": "About three hours, usually spent working on a crossword together."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "\"He\" could refer to the brother or to Mr. Bell, but both rang Ari's mobile last week, so either reading gets the same answer about the means of contact.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari's brother contacted Ari on the mobile.",
+            "answer": "Yes, the brother rang Ari's mobile last week (and Ari called him back)."
+          },
+          {
+            "meaning": "Whether Mr. Bell, the building manager, contacted Ari on the mobile.",
+            "answer": "Yes, Mr. Bell rang Ari's mobile last week about replacing the hall light (Ari hasn't called back yet)."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "\"That evening\" could refer to the cooking class or to the swimming lesson, but both finished by six, so the reply is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class had finished by six in the evening.",
+            "answer": "Yes, the cooking class finished by six."
+          },
+          {
+            "meaning": "Whether the swimming lesson at the Willow Street pool had finished by six in the evening.",
+            "answer": "Yes, the swimming lesson also finished by six."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:12.342934+00:00"
+}

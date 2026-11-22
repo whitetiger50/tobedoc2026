@@ -1,0 +1,143 @@
+{
+  "attempt": "attempt-01",
+  "id": "I71e5b825a367ad960f1c",
+  "reader": "opus",
+  "session": "35c34797-3d46-4940-b345-c49b4a8b1caa",
+  "raw_sha256": "1dd20277147c25716a8f081a016629569aceb07a177a8b8edd740f11ad976160",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "05b78edb943c2e40dd5957f10ac642da0271081022383e1cfa7bd00fe452ec06",
+  "provider_sha256": "b0ad70d06b813e220e00a247d1163e822b42c4c256f9b9e59c983e6e3065d84b",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "uncertain",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "10": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 10,
+            "quote": "I still prefer the quieter midday bus",
+            "earlier_turn": 3,
+            "earlier_quote": "I usually take the midday bus",
+            "reason": "Turn 3 already said the patient takes the quieter midday bus. The question here asks how the patient feels around other passengers, so a preference for a quieter bus may be relevant to that different aspect. It largely paraphrases the earlier statement, though, and adds little beyond the new disclosure in the same turn, so the code is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "positive"
+      },
+      "events": {
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean taking the tablet or the nurse’s call?",
+            "reason": "'When do you usually do that?' could refer to either routine named in turn 7. The patient asks which one is meant and gives up the turn without answering under either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box",
+            "reason": "The interviewer asked for one thing handled on a recent afternoon. The patient describes a specific occasion and action, finding the atlas and setting it aside for the map shelf, which matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:12:50.868845+00:00"
+}

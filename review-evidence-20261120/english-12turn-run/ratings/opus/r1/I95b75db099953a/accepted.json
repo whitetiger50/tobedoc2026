@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I95b75db099953a",
+  "ended": "2026-11-20T20:45:05.151761+00:00",
+  "session": "db2cd5b1-777f-470b-a3a5-ccbe76f96260",
+  "packet_sha256": "ff37a6c38067f4e4eb49ac36e5f9f7684c0165e29a19b76cbd17fd0526719052",
+  "raw_sha256": "2ea28228d2a05fe913ba1972631122c58cc2ac2ac23797cdf9e3c2c0c5059120",
+  "provider_sha256": "1643b35505343a780221ca479eb0ad8723be84613cf193499b62b66854bb4145",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are brief and concrete, they never start new topics, and they speak a little more fully about the robin, which matches the reduced verbal output and the interest in animals described in the profile. In turn 5 they ask a natural clarifying question. In turn 10 they refer to the aunt's worry only as 'they', which fits their wish not to criticize her. One minor inconsistency stops this from being fully convincing. The profile says broad, open questions take effort, yet the patient answers abstract or open prompts (turns 7, 12) as fluently as concrete ones, with no hesitation, 'I don't know', or struggle. Their phrasing is also consistently tidy and well-formed, and their self-insight comes very readily. None of this greatly reduces the realism.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "A robin came to the feeder yesterday. I was washing a cup and stopped to watch it."
+    },
+    {
+      "turn": 5,
+      "quote": "The feeder? My parent buys the seed."
+    },
+    {
+      "turn": 10,
+      "quote": "Sometimes they think I’m sad. I might just be quiet."
+    },
+    {
+      "turn": 12,
+      "quote": "It’s quiet. I’m mostly comfortable there."
+    }
+  ]
+}

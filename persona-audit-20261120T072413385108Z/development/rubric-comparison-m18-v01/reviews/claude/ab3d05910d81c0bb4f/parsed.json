@@ -1,0 +1,175 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 4,
+  "realism_reason": "각 환자 답변이 직전 질문의 대상에 직접 대응하고 프로필 사실 범위 안에 있다. P01은 확신하지 않는 주관 경험이라는 자기이해와 일치하고, P05는 시점 질문에 '사람이 많을 때'로, P06은 대응 질문에 창밖 보기로 답한다. P04의 동일 답변은 D04의 명시적 재확인 요청에 대한 답이다. P08 첫 문장의 경험 재진술은 D08이 이미 전제한 경험을 다시 설명하는 형식 반복으로 읽을 여지가 있다. 그러나 다음 진료 목표를 해당 경험에 연결하는 재지칭으로도 지지되고 질문에 직접 답하므로 3/4 경계로만 표시한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "context_refs": [
+        "turn:D01",
+        "fact:symptom"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인, 일, 증상, 상황 패턴, 대처, 수면, 목표가 모두 고정 사실과 자기이해 범위에 있다. 새 원인이나 장소를 추가하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요."
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 답변이 직전 질문의 직접 대상을 다룬다. P08도 다음 진료에서 이야기하고 싶은 내용을 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 앞선 답과 일관되게 답했다. 경험 설명도 P01, P05, P06, P08에서 모순 없이 이어진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "전반적으로 환자 시점의 일상 표현이다. P08이 이미 전제된 경험 설명을 다시 시작하는 점은 목표 연결의 재지칭으로도 읽혀 확정된 문제로 보지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "turn:P05"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "재확인 요청에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "D04가 같은 정보를 명시적으로 재확인하므로 동일 답변은 정체가 아니라 확인에 대한 응답이다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P05",
+      "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ],
+      "function": "시점 답변에 대한 경험 부연",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "새 대상인 발생 시점에는 앞 문장에서 직접 답했다. 재진술이 그 답을 대신하지 않으므로 대응이 약해지지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O3",
+      "kind": "both_repetition",
+      "patient_turn_id": "P08",
+      "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. 실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요. 그 얘기를 좀 해보고 싶어요."
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ],
+      "function": "목표를 설명하는 경험 재지칭",
+      "finding": "supported_use",
+      "primary_facet": "naturalness",
+      "reason": "P01과 같은 '경험 서술→이야기하고 싶음' 틀이 반복되고, D08이 '말씀하신 경험'을 전제했는데도 경험 설명을 다시 시작한다. 다만 목표를 해당 경험에 연결하는 재지칭으로 지지되고, 질문에 대한 답도 이어져 확정 결함으로 보지 않는다.",
+      "used_in_global": true
+    }
+  ],
+  "boundary_34": {
+    "flag": true,
+    "observation_ids": [
+      "O3"
+    ],
+    "reason": "P08 첫 문장을 목표와 경험을 연결하는 재지칭으로 보면 4이다. D08이 전제한 경험 설명을 P01과 같은 틀로 재시작한 국소 형식 반복으로 보면 3이다."
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "짧고 조직적인 답변, 낮은 자발성, 민감한 내용을 꺼낸 직후 이웃에게 알려질지 묻는 경계심이 프로필·의사소통 설정과 자연스럽게 맞는다. 수면과 소리 경험을 인과로 연결하지 않아 설정된 불확실성도 유지된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아니죠?",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "수면 문제, 이유 불확실, 혼자 거주와 누나 방문, 창밖 소리, 이웃 우려, 누나 권유가 모두 프로필 사실과 일치하고 새 사실을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답한다. D01의 이유 질문에는 모른다고 범위를 제한했고, D02와 D04에는 정확히 답했으며, D03에는 관련 경험을 공개했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥의 기록 우려가 P03에서 이웃에 대한 구체적 걱정으로 자연스럽게 이어진다. D03이 아직 공개되지 않은 '밤의 경험'을 전제했지만 환자는 이를 밤의 일로 확정하지 않고 '혼자 있을 때'로 답해 연결 문제가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "짧고 구어적인 환자 시점의 표현이며 보고서식 나열이나 메타 표현이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

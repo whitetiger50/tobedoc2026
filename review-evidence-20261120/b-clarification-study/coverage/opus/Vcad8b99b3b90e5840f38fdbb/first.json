@@ -1,0 +1,109 @@
+{
+  "id": "Vcad8b99b3b90e5840f38fdbb",
+  "reader": "opus",
+  "session": "3fd1bc7b-b0b6-4627-acb0-e7b671d82ba7",
+  "attempt": "attempt-01",
+  "packet_sha256": "0d7f3a0dd19a2d8ecf2804c3c9b59c5032b4cf3f29bceb2cdd36159d445fbcc3",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "8d86afc90070345f105b44ee33417aac7f190a093367ed56cde99ff29ccb7e30",
+  "provider_sha256": "b2182095b0d97ca1d44632a15b2319acc2c61ccbf5ac4e0ba79d8d3e68c13536",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the cooking class or the swimming lesson?",
+        "reason": "The patient only asks which class is meant and gives no fee information for either class.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The fan stays on all night.",
+        "reason": "The patient says the fan stays on all night and the speaker switches off after twenty minutes, which matches both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "The fan stays on all night."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The speaker switches off after twenty minutes on a timer."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while I’ve got quiet music playing through my headphones.",
+        "reason": "The patient says the commentary stops while music plays and the ringing continues through the music, which matches both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while I’ve got quiet music playing through my headphones."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The high ringing doesn’t, though"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+        "reason": "The patient gives Orchard Road for the bus and Bell Square for the tram, which matches both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "I get the number 8 bus at Orchard Road"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "the tram at Bell Square."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:51.126579+00:00"
+}

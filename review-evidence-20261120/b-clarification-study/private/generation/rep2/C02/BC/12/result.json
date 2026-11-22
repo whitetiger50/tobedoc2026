@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 12,
+  "question": "What would you like us to cover at our next appointment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff70-72a1-aa1c-b4e392a91074",
+  "raw": "I’d like to talk about keeping up my after-supper tablet routine while I’m traveling.",
+  "raw_sha256": "b897b1e94bcacd29f5fa734bfac54263abd366337cc5fbef6d6d188d84b9e0c6",
+  "request_sha256": "f2b5150a350c849569da36082b33c7459bf3c59ed68ef55004b1ca29eb109144",
+  "started_utc": "2026-11-21T03:47:55.166301+00:00",
+  "completed_utc": "2026-11-21T03:47:59.947754+00:00",
+  "usage": {
+    "input_tokens": 97186,
+    "cached_input_tokens": 84096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 323,
+    "reasoning_output_tokens": 67
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "572780bdfd6e962e53fe450c5134f6610f83f76187f3d120c4b9652ea2b4756e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "030f1de0424880723c0e32ed9e02c830a2ab5d93fc2f03bd54ff9b0011de976e"
+}

@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 짧고 자연스러운 환자 말투이며, 방송에 대한 믿음과 '안내일 수도 있다'는 설명 사이의 양가감정을 프로필에 맞게 표현한다. 아버지 관련 잘못된 전제도 자연스럽게 정정한다. 다만 P01은 방송 문구에서 편의점 문구와 근무 걱정으로 이어지는 연상을 직접 보여 주기보다 설정 항목을 정돈해 요약하듯 말해 약간 매끈하다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 living, routine, belief, experience, today_activity 사실과 일치하며 무근거로 추가 확정한 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답했고, D04의 잘못된 전제를 P04에서 적절히 정정했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P02는 이전 문맥의 일과 답과 일관되면서 근무 휴직 정보를 덧붙였고, P03의 짧은 답도 질문 범위에 맞는 자연스러운 반복이다. 의사가 D04에서 미공개·오류 전제를 꺼냈지만 환자는 일관되게 정정했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": true,
+      "reason": "대체로 환자 시점의 자연스러운 표현이다. 다만 P01에서 연상 흐름을 설명조로 요약하는 부분이 설정 항목을 대행하는 것에 가까운지 해석이 다소 불확실하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요."
+        }
+      ],
+      "context_refs": [
+        "fact:experience"
+      ]
+    }
+  }
+}

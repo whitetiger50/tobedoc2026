@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 9,
+  "question": "I was thinking of conversation. When your attention wanders, how is it to pick up what someone is saying?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-e684-70f3-ac26-5dca14e7ad52",
+  "raw": "It takes me a little while. I’m listening again, but I haven’t quite caught what we’re talking about. Sometimes I need my sister to repeat a bit, and then I can get back into it. It’s harder when I’m tired.",
+  "raw_sha256": "4734b309139c2e8cc297a17f6a98af1364f370abc636bff6bb51964270d05f77",
+  "request_sha256": "22c6a1de46130c3a72bac428ac3e59cca530c1fc7978e94a1eed34fc55edc6e6",
+  "started_utc": "2026-11-20T21:02:50.384254+00:00",
+  "completed_utc": "2026-11-20T21:02:54.720360+00:00",
+  "usage": {
+    "input_tokens": 6637,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "96cf49ec77ad3caa127d45ca1e0bb20a8a463bad36d31d09e8c6c95f14d79829",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "326ca16e9377721eef60803e0c2fe343d12e946e46d78aaa5b25a577e557d1b1"
+}

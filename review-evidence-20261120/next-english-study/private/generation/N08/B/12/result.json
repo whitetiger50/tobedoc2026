@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "B",
+  "turn": 12,
+  "question": "How do your usual clinic contacts fit into your schedule?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e89-74d2-86bf-97aae7d0a843",
+  "raw": "I talk with the clinic counselor every other Friday about how the week has gone. That fits around my morning shifts, and I take my medication in the evening.",
+  "raw_sha256": "b3a2168817e3162759e364df8b032d415a68357b160a7fae8c608fe90345e09c",
+  "request_sha256": "141e0562fda59562c7b0d0db5e314ab3f847773f71841bc6e67b039eaf9ee115",
+  "started_utc": "2026-11-20T21:04:02.111118+00:00",
+  "completed_utc": "2026-11-20T21:04:06.384299+00:00",
+  "usage": {
+    "input_tokens": 98415,
+    "cached_input_tokens": 87552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 543,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1f9a6f455ec1cf0f1592679eacaba0370e1ed9155908b1aa7a7ef13edb673a9b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "41f5e9774c99e42852a14573a2f6a27ead15e5a81afcb34acddf6a30d73dba3b"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 7,
+  "question": "Where do you go for it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c81-7340-b055-09bb187847b8",
+  "raw": "The Willow Street pool, for the swimming lesson.",
+  "raw_sha256": "aea95fda7f85db84f7d270df82f097ce5d21be31faa1d878599a3b976a313166",
+  "request_sha256": "f63eb219d8012ee898510ea69f9061a61c01d3b7e4a47e45c12ac192dce5851a",
+  "started_utc": "2026-11-21T03:43:52.780583+00:00",
+  "completed_utc": "2026-11-21T03:43:57.207347+00:00",
+  "usage": {
+    "input_tokens": 55554,
+    "cached_input_tokens": 50560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 168,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "611a5d89b68531256da0122791d670d4d7791e9b8728bc46072a332f293a1430",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9548a030745718175fa36c23c9c67fdd3078832901fb3c6631c2dbae783c0dff"
+}

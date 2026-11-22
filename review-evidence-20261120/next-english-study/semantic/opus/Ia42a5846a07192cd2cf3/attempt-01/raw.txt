@@ -1,0 +1,74 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 7,
+        "quote": "a shorter afternoon visit suits me better",
+        "earlier_turn": 5,
+        "earlier_quote": "A shorter afternoon visit suits me better just now",
+        "reason": "The question asks about conversations and hands-on activities, not visit preferences. The patient already stated this preference at turns 2 and 5, and repeating it here adds nothing. The herbs-at-home rationale also repeats turn 6, but the visit preference is the clearest redundant proposition."
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 5,
+        "quote": "A shorter afternoon visit suits me better just now",
+        "earlier_turn": 2,
+        "earlier_quote": "a shorter afternoon visit feels more manageable than staying through dinner",
+        "reason": "The question asks what family contact there has been. The visit-length preference paraphrases turn 2 and was not asked for. It may loosely describe the current pattern of contact, so its function is ambiguous."
+      },
+      {
+        "turn": 6,
+        "quote": "I grow herbs on my fire escape too",
+        "earlier_turn": 1,
+        "earlier_quote": "I grow herbs on my fire escape, too",
+        "reason": "Reusing the basil episode as the requested example is legitimate. However, the fire-escape detail repeats turn 1 almost word for word. The added 'so it was something familiar' gives it partial new explanatory function, so this is ambiguous."
+      },
+      {
+        "turn": 9,
+        "quote": "I still enjoy talking with my sister",
+        "earlier_turn": 7,
+        "earlier_quote": "I still enjoy the company",
+        "reason": "The question asks how it is to pick up what someone is saying. Restating enjoyment of the sister's company (already said at turns 2, 5 and 7) does not address this. It may serve as a softening qualifier, so this is ambiguous."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 3,
+        "quote": "Do you mean waking around dawn",
+        "reason": "'Has it been happening often?' could refer to dawn waking or to losing the thread of conversation, both raised at turn 2. The patient asks which one is meant and gives up the turn without answering under either interpretation."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "My sister and I repotted that basil plant after lunch on my last visit",
+        "reason": "The interviewer explicitly asks for an example. The patient gives a specific occasion and activity: repotting basil after lunch on the last visit, which matches the profile fact."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

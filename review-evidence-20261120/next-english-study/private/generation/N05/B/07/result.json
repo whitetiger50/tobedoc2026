@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "B",
+  "turn": 7,
+  "question": "What are your medication and clinic routines at the moment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e8c-7820-a518-c546dc1aff45",
+  "raw": "I take a tablet after my evening meal. The outpatient nurse calls once a month.",
+  "raw_sha256": "c8e97fad54a8c6efc583e8f8292a487273eb02a24a5ffd2f1e21a4ab95f2e437",
+  "request_sha256": "02ab14538b660fdb79a435120c25e75264d372616c40733837a81da5817230a7",
+  "started_utc": "2026-11-20T21:01:31.547549+00:00",
+  "completed_utc": "2026-11-20T21:01:35.398974+00:00",
+  "usage": {
+    "input_tokens": 55678,
+    "cached_input_tokens": 42240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 152,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b33da53cdf5ff0a16298cf5a215e010e6bcd4754c6420f57146fd693c601cf07",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2279d0cff6ebf97032136667fff386319253dbfeb3fe8c19f20112557f91b2d5"
+}

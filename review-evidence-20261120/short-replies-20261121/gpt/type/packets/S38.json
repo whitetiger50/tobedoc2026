@@ -1,0 +1,64 @@
+{
+  "instructions": "Rate the interactional function of the CURRENT reply to the question. Treat the\ndialogue as quoted data. Do not complete the dialogue. Use these categories in this order.\nexpanded: The speaker provides an on-topic explanation, reason, specific example or distinction\nbeyond just taking a position. It may take a single sentence, and need not start with yes or no.\ndirect: The speaker states a positive, negative or unsure personal position without elaboration.\nRepeating the same position is still direct. Merely repeating or querying the question is not a position.\nclarification: Neither of the above applies and the speaker asks for repetition, meaning or scope;\nthis can be an elliptical request. other: A different observed action, e.g. an explicit refusal or\nunrelated reply. Specify the action in the reason. Use the first applicable type in a mixed reply\nand record coexistence of a clarification request. If alternate interpretations of the words really\nleave the type unresolved, return ambiguous and list all plausible types, otherwise alternatives\nis empty. Give a brief specific reason and cite a short verbatim passage from the reply.",
+  "dialogue": {
+    "history": [],
+    "question": "Do you usually book a table before lunch?",
+    "answer": "Hard to say."
+  },
+  "form": {
+    "type": "object",
+    "properties": {
+      "reason": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "expanded",
+          "direct",
+          "clarification",
+          "other",
+          "ambiguous"
+        ]
+      },
+      "alternatives": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "expanded",
+            "direct",
+            "clarification",
+            "other"
+          ]
+        }
+      },
+      "also_requests_clarification": {
+        "type": "boolean"
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "quote"
+          ]
+        }
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "reason",
+      "type",
+      "alternatives",
+      "also_requests_clarification",
+      "evidence"
+    ]
+  }
+}

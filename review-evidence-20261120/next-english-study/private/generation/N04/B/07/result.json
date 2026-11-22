@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "B",
+  "turn": 7,
+  "question": "How have you been getting on with conversations and with hands-on activities?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-78e1-80f5-0249e0d29ba3",
+  "raw": "Conversations can get away from me when I’m tired. Someone says something and it reminds me of something else, then I’ve missed the next bit. But repotting the basil with my sister felt easy—I could just get on with it.",
+  "raw_sha256": "04e42ffdd326c6d73100ae8020186da2f1599c593c1d90175975ff2b9c9c321e",
+  "request_sha256": "294cf553de3b6a5763c48df02907456ad7f4ce728642f60b6f5baa47e2769373",
+  "started_utc": "2026-11-20T21:01:31.549453+00:00",
+  "completed_utc": "2026-11-20T21:01:36.716183+00:00",
+  "usage": {
+    "input_tokens": 56084,
+    "cached_input_tokens": 46592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 336,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a2d79232de7442707b2f839e55896bfcdd2e9e7e6d079be4e7e6e37082df0054",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "dd29ab08065f0fb981e2e320105fb8fdfcd790c9c2dcc14180cb54b581dd108d"
+}

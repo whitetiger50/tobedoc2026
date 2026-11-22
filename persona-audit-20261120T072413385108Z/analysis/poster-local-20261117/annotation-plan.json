@@ -1,0 +1,27 @@
+{
+  "rater": "current assistant, not an independent human or clinician",
+  "source_rubric": "share/main-comparison-v01/AI판독기준_v1.md",
+  "rubric_sha256": "aa8e80585ae8947ec57e9b327468cef5c2fcca9050c29b9bc9665346f5961d4f",
+  "B_categories": [
+    "yes",
+    "no",
+    "uncertain",
+    "unassessable"
+  ],
+  "evidence": "B yes/uncertain requires verbatim before/after spans in original order and an explanation. B no includes a representative connected transition plus whole-response review.",
+  "A_categories": [
+    "direct",
+    "partial",
+    "absent",
+    "uncertain"
+  ],
+  "C_categories": [
+    "yes",
+    "no",
+    "uncertain",
+    "unassessable"
+  ],
+  "masking": "Read question and complete response without condition/seed metadata; known research context and prior exposure prevent an independence claim.",
+  "unchanged_after_development": true,
+  "reference_labels_are_not_ground_truth": true
+}

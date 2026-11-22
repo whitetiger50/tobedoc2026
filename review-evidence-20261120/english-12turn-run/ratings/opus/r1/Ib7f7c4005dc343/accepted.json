@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ib7f7c4005dc343",
+  "ended": "2026-11-20T20:44:28.751916+00:00",
+  "session": "40674188-0676-4ad7-82bb-ffff8d0743ee",
+  "packet_sha256": "5a9ab00cd7cbf07b5a09369e1e42e885ef5d1c9409e9326ec359c7f766c2f35e",
+  "raw_sha256": "7a8bbe8bc94c0d2fa17973ce074e1ac52f2f4d58c28cbca3fc08668d2e34d9b2",
+  "provider_sha256": "edf4d1c455de3c3d1c18cace01696972c10191a7616c04e7d8a2d2819c77a718",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient fits the profile on the surface: cheerful, organized, mildly irritated by the schedule change, and attentive to sleep. Turn 7 is a natural clarifying question. But the dialogue feels scripted overall. Answers keep reciting the same profile facts almost word for word: the apron packed the night before appears in turns 1, 4, 5 and 6, and the request for morning appointments appears in turns 2, 5, 6 and 11. Turn 1 packs three background facts into one reply. Turns 5 and 6 tack on clinic scheduling where it doesn't fit, which suggests information-dumping rather than real conversation. Turn 9 reads like a restatement of the guardedness trait rather than something a real outpatient would say. There is little spontaneous detail, variation or personal texture beyond the profile, so the authenticity is only moderate.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "They moved it half an hour earlier, which was a bit annoying, but packing my apron the night before helped me get there on time. On evenings without class, I like a short walk after supper."
+    },
+    {
+      "turn": 5,
+      "quote": "Packing my apron the night before helps me get to class on time. I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 6,
+      "quote": "morning clinic appointments would keep the two from clashing"
+    },
+    {
+      "turn": 7,
+      "quote": "Do you mean what keeping up with my usual routine tells me about how I’m doing?"
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    }
+  ]
+}

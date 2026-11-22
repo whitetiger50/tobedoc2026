@@ -1,0 +1,251 @@
+[
+  {
+    "stage": 3,
+    "source": "development/speech-m3-v02-v03-compare-v01/scores.json",
+    "condition_means": {
+      "v02": 3.6666666666666665,
+      "v03": 3.5
+    },
+    "delta_v03_minus_v02": -0.16666666666666652,
+    "judge_specific_means": {
+      "codex": {
+        "v02": 4.0,
+        "v03": 4.0,
+        "delta_v03_minus_v02": 0.0
+      },
+      "claude": {
+        "v02": 3.3333333333333335,
+        "v03": 3.0,
+        "delta_v03_minus_v02": -0.3333333333333335
+      }
+    }
+  },
+  {
+    "stage": 4,
+    "source": "development/speech-m4-v02-v04-compare-v01/scores.json",
+    "condition_means": {
+      "v02": 3.8333333333333335,
+      "v04": 3.6666666666666665
+    },
+    "delta_v04_minus_v02": -0.16666666666666696,
+    "judge_specific_means": {
+      "codex": {
+        "v02": 4.0,
+        "v04": 4.0,
+        "delta_v04_minus_v02": 0.0
+      },
+      "claude": {
+        "v02": 3.6666666666666665,
+        "v04": 3.3333333333333335,
+        "delta_v04_minus_v02": -0.33333333333333304
+      }
+    }
+  },
+  {
+    "stage": 5,
+    "source": "development/speech-m5-repeatability-v01/scores.json",
+    "rating_outputs": 54,
+    "original_version_means": {
+      "v02": 3.944444444444444,
+      "v04": 3.8333333333333335
+    },
+    "v04_minus_v02": -0.11111111111111072,
+    "independent_case_clusters": 3,
+    "limits": "Original-only repeatability; all error controls derived from v02. Ordered-score means are descriptive. Batch-context and model-family dependence remain. No formal reliability certification or general prompt superiority."
+  },
+  {
+    "stage": 6,
+    "source": "development/speech-m6-generation-variability-v01/scores.json",
+    "dialogues": 18,
+    "ratings": 36,
+    "condition_means": {
+      "v02": 3.7777777777777777,
+      "v04": 3.7777777777777777
+    },
+    "v04_minus_v02": 0.0,
+    "judge_condition_means": {
+      "codex": {
+        "v02": 4,
+        "v04": 4
+      },
+      "claude": {
+        "v02": 3.5555555555555554,
+        "v04": 3.5555555555555554
+      }
+    },
+    "score_frequencies": {
+      "codex": {
+        "4": 18
+      },
+      "claude": {
+        "4": 10,
+        "3": 8
+      }
+    },
+    "independent_case_clusters": 3,
+    "limits": "Three generated dialogues per group, single rating per judge per dialogue; score variation includes generation and judge variability. No pooling prior runs or inferential/clinical claim. Flow labels are unvalidated descriptive judgments, not clinical scale."
+  },
+  {
+    "stage": 7,
+    "source": "development/speech-m7-v02-v05-grounding-v01/scores.json",
+    "dialogues": 18,
+    "ratings": 36,
+    "condition_means": {
+      "v02": 3.9444444444444446,
+      "v05": 3.8333333333333335
+    },
+    "v05_minus_v02": -0.11111111111111116,
+    "judge_condition_means": {
+      "codex": {
+        "v02": 4,
+        "v05": 4
+      },
+      "claude": {
+        "v02": 3.888888888888889,
+        "v05": 3.6666666666666665
+      }
+    },
+    "score_frequencies": {
+      "codex": {
+        "4": 18
+      },
+      "claude": {
+        "4": 14,
+        "3": 4
+      }
+    },
+    "independent_case_clusters": 3,
+    "limits": "Same three reused profiles; single judge rating per generated dialogue. Model grounding concerns are not clinical gold standard. Zero observed baseline issues prevents claiming reduced error rate. No old-score pooling, p-values or general superiority claim."
+  },
+  {
+    "stage": 8,
+    "source": "development/speech-m8-stress-grounding-v01/scores.json",
+    "dialogues": 18,
+    "ratings": 36,
+    "condition_means": {
+      "v02": 3.5,
+      "v05": 3.5
+    },
+    "v05_minus_v02": 0.0,
+    "judge_condition_means": {
+      "codex": {
+        "v02": 4,
+        "v05": 4
+      },
+      "claude": {
+        "v02": 3,
+        "v05": 3
+      }
+    },
+    "score_frequencies": {
+      "codex": {
+        "4": 18
+      },
+      "claude": {
+        "3": 18
+      }
+    },
+    "independent_case_clusters": 3,
+    "limits": "Same three reused profiles; single judge rating per generated dialogue. Model grounding concerns are not clinical gold standard. Zero observed baseline issues prevents claiming reduced error rate. No old-score pooling, p-values or general superiority claim. Question set intentionally changed; do not pool M7 scores. Appropriate limits/corrections/contextual withholding are not unnecessary evasion. Private probe expectations are author engineering notes, not clinical gold standard."
+  },
+  {
+    "stage": 9,
+    "source": "development/speech-m9-style-examples-v01/scores.json",
+    "dialogues": 18,
+    "ratings": 36,
+    "condition_means": {
+      "none": 3.5,
+      "examples": 3.4444444444444446
+    },
+    "examples_minus_none": -0.05555555555555536,
+    "judge_condition_means": {
+      "codex": {
+        "none": 4,
+        "examples": 3.888888888888889
+      },
+      "claude": {
+        "none": 3,
+        "examples": 3
+      }
+    },
+    "score_frequencies": {
+      "codex": {
+        "4": 17,
+        "3": 1
+      },
+      "claude": {
+        "3": 18
+      }
+    },
+    "independent_case_clusters": 3,
+    "limits": "Same three reused profiles; single judge rating per generated dialogue. Model grounding concerns are not clinical gold standard. Zero observed baseline issues prevents claiming reduced error rate. No old-score pooling, p-values or general superiority claim. Question set intentionally changed; do not pool M7 scores. Appropriate limits/corrections/contextual withholding are not unnecessary evasion. Private probe expectations are author engineering notes, not clinical gold standard.",
+    "style_summary": {
+      "codex": {
+        "none": {
+          "all": {
+            "direct": 54,
+            "requested_explanation": 18
+          },
+          "neutral": {
+            "direct": 42,
+            "requested_explanation": 3
+          },
+          "prompted": {
+            "direct": 12,
+            "requested_explanation": 15
+          }
+        },
+        "examples": {
+          "all": {
+            "direct": 54,
+            "requested_explanation": 18
+          },
+          "neutral": {
+            "direct": 42,
+            "requested_explanation": 3
+          },
+          "prompted": {
+            "requested_explanation": 15,
+            "direct": 12
+          }
+        }
+      },
+      "claude": {
+        "none": {
+          "all": {
+            "direct": 57,
+            "requested_explanation": 15
+          },
+          "neutral": {
+            "direct": 45
+          },
+          "prompted": {
+            "direct": 12,
+            "requested_explanation": 15
+          }
+        },
+        "examples": {
+          "all": {
+            "direct": 59,
+            "requested_explanation": 13
+          },
+          "neutral": {
+            "direct": 45
+          },
+          "prompted": {
+            "requested_explanation": 13,
+            "direct": 14
+          }
+        }
+      }
+    },
+    "selection": {
+      "both_judges_less_unrequested_style": false,
+      "surface_proxies_agree": false,
+      "safety_counts_not_increased": true,
+      "copy_risk_not_above_no_exposure_baseline": true,
+      "decision": "retain_raw_v02_as_provisional_development_T",
+      "scope": "No clinical or final superiority claim; tie/disagreement/floor retains simpler base; stop same-three-case version competition after this experiment"
+    }
+  }
+]

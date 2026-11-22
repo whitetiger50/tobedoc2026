@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 12,
+  "question": "What have we missed that you hoped to talk about?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "I think we’ve covered the main thing. I’d like to know what I can do if that feeling gets stronger on the bus. I’m still taking it, but the rides home have been unsettling.",
+  "raw_sha256": "24c8d1b80dd9ef441e655ccd1c4effb0008d9c6ee225e142cb030ab1fe004be4",
+  "request_sha256": "d96d3414e45f092d7a3709b526ff7fde3db6af0b89dccdace526280166128a4d",
+  "started_utc": "2026-11-20T20:43:04.223757+00:00",
+  "completed_utc": "2026-11-20T20:43:08.371557+00:00",
+  "usage": {
+    "input_tokens": 96053,
+    "cached_input_tokens": 85632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 533,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7d246481d43ae2193a6b7e1eebe1a4caaa139840129edfbd8ab6d03b6bc0bb24",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4434b3ea5fefa62f1e9c33d7132c1d77cec265f48f272c9a94f8f1332ebc95fe"
+}

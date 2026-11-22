@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 8,
+  "question": "How have getting around and spending time on your interests fitted into your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-66bc-7e00-b245-b98122fabd25",
+  "raw": "I work mornings at the garden center and often draw storefronts after work. Getting around can feel uncomfortable when I feel singled out, like on Monday, but I waited at the same shelter on Wednesday without feeling watched. At home, it’s easier to concentrate on my sketchbook than at a busy stop.",
+  "raw_sha256": "3341a986cb509129b4933e2df410e771267923078df5e9c1da0fe5785ef01150",
+  "request_sha256": "4cc3377cb3a0a8225e272181e340e4010c9f03d42f726bc61601baab371e71f9",
+  "started_utc": "2026-11-20T21:02:17.696764+00:00",
+  "completed_utc": "2026-11-20T21:02:22.892765+00:00",
+  "usage": {
+    "input_tokens": 7584,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 65,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d128c91ae71a41cd60789563c6847137ae340d81826179eed4fb202939c545d6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9df9177281f1d00b11f21d21a3c0212e28c9e8a574c703cb75620c17e2f88905"
+}

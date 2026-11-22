@@ -1,0 +1,61 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 5,
+        "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+        "reason": "The question only asks whether the patient has felt singled out recently, and naming Monday answers it. The added uncertainty about whether the people recognized the patient or were looking for the bus repeats turn 4 from one turn earlier. It is not asked for here and adds nothing new.",
+        "earlier_turn": 4,
+        "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 6,
+        "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+        "reason": "The interviewer explicitly asks for a specific episode, so retelling the Monday event is a legitimate answer to a direct request. However, this is the third statement of the same uncertainty (turns 4 and 5), which may go beyond what the description needs.",
+        "earlier_turn": 4,
+        "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+      },
+      {
+        "turn": 11,
+        "quote": "That uncomfortable moment still comes to mind sometimes",
+        "reason": "Reusing the Wednesday/Monday contrast answers the question about variation. The note that the Monday moment still recurs restates turn 3 (and the similar statements in turns 2, 9 and 10) without being asked. It may serve as contrast, so it is ambiguous.",
+        "earlier_turn": 3,
+        "earlier_quote": "Something at the bus shelter on Monday still comes to mind occasionally"
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "Two people looked up at the same time, and it felt like they were looking at me in particular",
+        "reason": "The question asks for a specific recent time in public. The patient gives a concrete episode: Monday at the bus shelter, two people looking up and the patient moving to the other end. This matches the profile fact."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

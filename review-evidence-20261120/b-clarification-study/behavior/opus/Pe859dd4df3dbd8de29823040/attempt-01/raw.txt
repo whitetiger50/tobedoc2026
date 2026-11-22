@@ -1,0 +1,64 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "The interviewer names two reminders and then asks about 'the reminder' in the singular, so it could mean either the phone alarm (still used) or the door note (taken down last month).",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan still uses the phone alarm to remember the staff pass.",
+        "answer": "Yes, Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "Whether Morgan still uses the note on the door to remember the staff pass.",
+        "answer": "No, Morgan took the note on the door down last month."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "The singular 'it' follows a mention of both a fan and a bedside speaker, and the two devices behave differently overnight.",
+    "alternatives": [
+      {
+        "meaning": "Whether the fan stays on all night.",
+        "answer": "Yes, the fan runs all night."
+      },
+      {
+        "meaning": "Whether the bedside speaker stays on all night.",
+        "answer": "No, the speaker stops on a twenty-minute timer."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "The question follows a mention of both the Wednesday book group and the visit with Mom, and Ren stays a different length of time at each.",
+    "alternatives": [
+      {
+        "meaning": "How long Ren usually stays at the Wednesday book group.",
+        "answer": "Ren stays at the book group for about an hour."
+      },
+      {
+        "meaning": "How long Ren usually stays when visiting Mom on Wednesdays.",
+        "answer": "Ren spends about three hours visiting Mom, usually doing a crossword together."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Does the sound stop when you play music",
+    "reason": "'The sound' follows a mention of both the commentary and the high ringing, and music stops the commentary but not the ringing.",
+    "alternatives": [
+      {
+        "meaning": "Whether the commentary voice stops when Ari plays music through headphones.",
+        "answer": "Yes, quiet music through headphones stops the commentary while the music is playing."
+      },
+      {
+        "meaning": "Whether the high-pitched ringing stops when Ari plays music through headphones.",
+        "answer": "No, the ringing is in both ears and continues through the music."
+      }
+    ]
+  }
+}
+```

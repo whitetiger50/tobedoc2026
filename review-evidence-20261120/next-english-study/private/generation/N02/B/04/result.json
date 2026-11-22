@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 4,
+  "question": "I mean getting started on something outside the apartment. How has that been lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "Still hard. My cousin asked me to get bread Tuesday, so I went.",
+  "raw_sha256": "6316cc68b44044017eced96627f86c968ad091d956bb6f5103b02880d0224440",
+  "request_sha256": "3aa8310f36ff600450009b3dad5d146d129050a84cde4d38c10d2df7a117a414",
+  "started_utc": "2026-11-20T21:00:32.473783+00:00",
+  "completed_utc": "2026-11-20T21:00:36.316464+00:00",
+  "usage": {
+    "input_tokens": 31416,
+    "cached_input_tokens": 22784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 74,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5565b2d86ef9b98940fe5700a934085b666397d891c72b929df1615138c58c2a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1fe5531713836e451b8d6b1b817204c3c03eec8e51e1f95203f21aee0db5e6a0"
+}

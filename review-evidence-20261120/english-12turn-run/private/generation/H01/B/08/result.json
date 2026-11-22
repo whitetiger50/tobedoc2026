@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 8,
+  "question": "I mean overheard remarks in public. How do you decide whether a remark has anything to do with you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "I try to think about what they actually said—whether they mentioned me or were just talking to each other. With the last stop, there wasn’t anything that clearly connected it to me. It just felt personal for a moment, which is the unsettling part.",
+  "raw_sha256": "7c2d461fc20cce945c39045683c519c64316fc881959186e9548c6569b3ac762",
+  "request_sha256": "71fda318d22f18a54d773f80a318c9710ca38c9876258a153034358bc9caa55c",
+  "started_utc": "2026-11-20T20:41:33.254410+00:00",
+  "completed_utc": "2026-11-20T20:41:37.713452+00:00",
+  "usage": {
+    "input_tokens": 63014,
+    "cached_input_tokens": 53504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 356,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b803c9573df132d8f61b00a24d9acb5f3b91b854bc9614035037a24dd969046e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f766e5666cc247b564e0b6ee15b7fa79bcb8c8dfe09075982b2065dbc005aba9"
+}

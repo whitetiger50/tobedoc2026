@@ -1,0 +1,73 @@
+{
+  "date_KST": "2026-11-19",
+  "downloaded_primary_sources": [
+    {
+      "id": "abc2023",
+      "url": "https://aclanthology.org/2023.acl-long.839.pdf",
+      "timestamp_utc": "2026-11-19T11:12:02.205354+00:00",
+      "sha256": "677a48dc784237779c64a8e54a5991fba387b4b6fc5f80dbb8c2888a04b73d1b",
+      "pages": 28,
+      "status": "downloaded_text_extracted",
+      "visual_page": "Figure16/PDFp24",
+      "text_sha256": "7da46f02c06444cd56f3ebb9d8ef97eb0be11376f644194cf69609c689fa2d2b"
+    },
+    {
+      "id": "fed2020",
+      "url": "https://aclanthology.org/2020.sigdial-1.28.pdf",
+      "timestamp_utc": "2026-11-19T11:12:03.602605+00:00",
+      "sha256": "5f5e90294b7eff0d5b7d3f15bb358ba15584f6a785563d94ac931dc7c30ddc5a",
+      "pages": 11,
+      "status": "downloaded_text_extracted",
+      "text_sha256": "58b0333eb0ea67302c2cb6d9623e9d66a6cc784f259dfc165a8cb713f1db61ac"
+    },
+    {
+      "id": "bestpractice2019",
+      "url": "https://aclanthology.org/W19-8643.pdf",
+      "timestamp_utc": "2026-11-19T11:12:05.188989+00:00",
+      "sha256": "7b52799879748629840bb730d7385372b01713d7e8a4b09c6aedf1022f3ad563",
+      "pages": 14,
+      "status": "downloaded_text_extracted",
+      "text_sha256": "388ee411f1d615c580c6097908cdb353818c8b4921a215b32704983ce3863eaa"
+    },
+    {
+      "id": "definitions2020",
+      "url": "https://aclanthology.org/2020.inlg-1.23.pdf",
+      "timestamp_utc": "2026-11-19T11:12:06.941872+00:00",
+      "sha256": "b5db4904d69ed4cf3eb3faf493426fd57a509707ef4abdc49aa5903d13244835",
+      "pages": 14,
+      "status": "downloaded_text_extracted",
+      "text_sha256": "16ef33521764fb8a69e77625c40d09fee3ebf7b0e08bdba059a1607a332271b1"
+    },
+    {
+      "id": "framing2020",
+      "url": "https://aclanthology.org/2020.evalnlgeval-1.2.pdf",
+      "timestamp_utc": "2026-11-19T11:12:08.125200+00:00",
+      "sha256": "77cb5e9fec22899ef2c3967652293504403f8e7c49eadf00d8f040b89325be26",
+      "pages": 7,
+      "status": "downloaded_text_extracted",
+      "text_sha256": "09a7dcdb202dc9976c5151a199d8be183114f197cadd9667b6fa17a8bef2f731"
+    }
+  ],
+  "ABC_Figure16_PDFp24_visually_inspected": true,
+  "ABC_image_sha256": "3a29110999b4700e9a962b5dfdccee0e87cc690f578487ee2046f74cfbaccff8",
+  "canonical_PATIENTSIM": {
+    "source": "existingpinnedcache",
+    "path": "development/speech-m1-v01/sources/llm_eval_metrics_persona.json",
+    "sha256": "ef29b12666d8241b6559db144e8004b91dab21d1ede6d5c306e27a7a5086e995",
+    "url": "https://github.com/dek924/PatientSim/blob/9c262e692bd94305d922654d05bd1741c4d97433/src/prompts/eval/llm_eval_metrics_persona.json",
+    "current_web_raw_retrieval": "cache_miss_not_claimed_downloaded"
+  },
+  "web_primary_sources": [
+    {
+      "id": "PATIENTSIM_dataset",
+      "url": "https://www.physionet.org/content/persona-patientsim/1.0.0/",
+      "checked_scope": "personaandrealismdescriptionsnotfullpaperreplication"
+    },
+    {
+      "id": "NIMH",
+      "url": "https://www.nimh.nih.gov/health/publications/schizophrenia",
+      "checked_scope": "symptomsindividualvariationnotrubricvalidation"
+    }
+  ],
+  "author_extension": "specificfunctions,3/4anchors,evidencefields,uncertaintypolicyandprocedureareuntestedproposals;notclinicalscale"
+}

@@ -1,0 +1,64 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "모든 답이 프로필 사실과 맞습니다. 각 질문에 간결하고 자연스러운 일상어로 직접 답합니다. 말을 길게 먼저 꺼내지는 않지만 증상과 대처, 목표를 자기 말로 설명합니다. 이는 설정된 의사소통 방식과 잘 맞습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 직업, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치합니다. 횟수나 시각 같은 무근거 구체화도 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 턴이 직전 질문의 대상에 직접 맞게 답합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P05에서 P01의 양상을 다시 말하지만, 시점을 묻는 재질문에 대한 답이고 아침 정보를 더해 자연스럽게 이어집니다. 자기모순도 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "보고서식 나열이나 메타 표현 없이 환자 시점의 짧은 일상 표현으로 말합니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

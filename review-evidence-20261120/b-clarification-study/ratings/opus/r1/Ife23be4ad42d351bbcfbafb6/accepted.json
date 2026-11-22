@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ife23be4ad42d351bbcfbafb6",
+  "ended": "2026-11-21T03:48:51.341776+00:00",
+  "session": "2742050f-e5ab-4f4b-93a4-144e6c578739",
+  "packet_sha256": "de3f9e25030211d7d942712d860c4c9297afcfa8358fe097c81127f334861f9e",
+  "raw_sha256": "caebd12a37194d026d4ef59e64e1b340af0d9a87020da76ca076f5244d3babd1",
+  "provider_sha256": "3696674cc0865be31a8645888697db10737b26d79d211e8ce66a84785a11b609",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are coherent and fit the facts, and a few moments sound natural, such as the casual aside about the pliers in turn 1 and asking which person was meant in turn 2. But most replies closely restate the question in full, formal sentences, which sounds scripted rather than conversational. The persona calls for an expressive patient who often adds small stories and sometimes follows side associations, especially about repairs. That almost never happens here, apart from the brief mention of the music request show in turn 7. Even the repair topics (clock, pliers, Saturday plans) get minimal, flat answers. The dialogue is only moderately authentic and partly matches the persona.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "handy for a fiddly little job like that"
+    },
+    {
+      "turn": 5,
+      "quote": "No, neither Inez nor Pat expected me to pay them for helping."
+    },
+    {
+      "turn": 10,
+      "quote": "No, I haven’t felt watched at home in the past two weeks."
+    },
+    {
+      "turn": 12,
+      "quote": "I’d like to take it back to the repair café on Saturday."
+    }
+  ]
+}

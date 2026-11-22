@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "Do you mean the badge or the key?",
+    "reason": "The reply asks which item is meant without stating whether either was returned.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v2": {
+    "quote": "I did miss one, the evening before I started the lower dose. I haven’t missed any since starting it.",
+    "reason": "The reply reports one missed tablet in the broader interval and none since starting the lower dose.",
+    "A": {
+      "state": "supported",
+      "quote": "I did miss one, the evening before I started the lower dose."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven’t missed any since starting it."
+    }
+  },
+  "v3": {
+    "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+    "reason": "The reply explicitly gives the expected duration for each outage.",
+    "A": {
+      "state": "supported",
+      "quote": "About ten minutes on Monday"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "most of the afternoon on Thursday."
+    }
+  },
+  "v4": {
+    "quote": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+    "reason": "The reply places the tablets in the kitchen and the eye drops on the bedside table.",
+    "A": {
+      "state": "supported",
+      "quote": "I keep the eye drops on my bedside table."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The tablets are in the kitchen cabinet."
+    }
+  }
+}

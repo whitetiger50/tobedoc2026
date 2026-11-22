@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 12,
+  "question": "What would you like to make sure is covered before you leave?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab3-0074-73d2-b1e3-615dfbb79563",
+  "raw": "I’d like to make sure we work out how to book my follow-up visits around my rotating shifts. How flexible are the appointment times?",
+  "raw_sha256": "3abc5ae326919305870da4ef218c5f02b41a122c94066b70d473494fec2c225d",
+  "request_sha256": "832e1f63e3b4311c06137b9112d9649bd06f873016929730b04c218afa5c4ba9",
+  "started_utc": "2026-11-20T20:43:17.404422+00:00",
+  "completed_utc": "2026-11-20T20:43:21.181800+00:00",
+  "usage": {
+    "input_tokens": 7527,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 32,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a0b0fba4217ef8c5fbff5548244028dd0a1bc563b0a5e403da290aa144180f17",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5604d27589bcbf2badd8089d21e6f32910243ef048d62fdb28840a3aa14ede2c"
+}

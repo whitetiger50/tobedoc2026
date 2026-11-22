@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 7,
+  "question": "How have you been getting on with conversations and with hands-on activities?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-9b81-7e03-bfc8-2d8ba7410d55",
+  "raw": "Conversations are mostly all right, though when I’m tired I can lose track of what we’re talking about. That’s why the afternoon visits suit me. Doing something with my hands feels easier—the repotting with my sister went fine. I enjoyed that.",
+  "raw_sha256": "b1c3251126baf92b11ee7422806d35f37db74364fb5171700ac4189d02f497c4",
+  "request_sha256": "c613a4765b53b43f11890bf19c5e2dbdd1210e79490f947f83be63327c2c13e2",
+  "started_utc": "2026-11-20T21:01:25.668183+00:00",
+  "completed_utc": "2026-11-20T21:01:30.382681+00:00",
+  "usage": {
+    "input_tokens": 6479,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ded7fce69b5ff5e524c19a05d798b073055a452c07fd2f6ae391d69ed5b9adde",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "57e632e28b74f7e7d24fa0b50cbf11d3e69a3b59bf087d46efb3d3622d00b30c"
+}

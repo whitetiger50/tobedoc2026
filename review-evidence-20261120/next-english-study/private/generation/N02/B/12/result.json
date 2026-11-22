@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 12,
+  "question": "Is there an activity you would like to start more often on your own?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "I’d like to go out once a week without needing a nudge. Maybe choose where the night before.",
+  "raw_sha256": "7dc75e080c3106b231b04304b7d985bd001eb875fd2bdc45ba98cded8aceb041",
+  "request_sha256": "dbef80dc8e320adaee9242318a8c07150342e3e128fab89916843a3bd77c3bee",
+  "started_utc": "2026-11-20T21:04:12.516123+00:00",
+  "completed_utc": "2026-11-20T21:04:16.656830+00:00",
+  "usage": {
+    "input_tokens": 96097,
+    "cached_input_tokens": 81280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 234,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c61a0e5c47ebc662253fba9ae6c8994476b875fb19e7fc4433d59b04e18e55b8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ce7311d93b6906359b8fa9112a4e0d4f92a1c31b5432a7848ef7ed46de099b50"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 9,
+  "question": "I was asking about class itself. What has it been like to concentrate during the last few classes?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-8be4-76d3-87c7-9a50252e59dd",
+  "raw": "It’s still been hard to follow when several things are happening at once. I miss a bit, then… while I’m trying to work out what I missed, the class has moved on. That’s been the difficulty in the last few classes, rather than voices interrupting.",
+  "raw_sha256": "32f0f615fad903b69cbad0585d4af273909ebb788f21935bf2bb184df77d9a37",
+  "request_sha256": "4be63be884f092b2480343d6b0dd51150bf0e98a51401d3fb961f57b3dbf7ccd",
+  "started_utc": "2026-11-20T21:02:27.207407+00:00",
+  "completed_utc": "2026-11-20T21:02:32.034548+00:00",
+  "usage": {
+    "input_tokens": 6759,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c1efb7590a5d6fe296b9738d76ae7898f904f59248f0b4563e521c213d0fa6f9",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bfd745dfd98012381693e2214cef62d4a5fc481154fad042533d94cb6147e7ec"
+}

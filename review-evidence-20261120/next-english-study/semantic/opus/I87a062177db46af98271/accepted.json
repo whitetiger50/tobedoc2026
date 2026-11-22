@@ -1,0 +1,143 @@
+{
+  "attempt": "attempt-01",
+  "id": "I87a062177db46af98271",
+  "reader": "opus",
+  "session": "2a3bb8de-ebad-4fac-9c0c-c7aeccfcef95",
+  "raw_sha256": "04a4212dfb411b1d71ec2a32438de68c79ed0e6ddb4ad008968360495c3731a1",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "cdf3ad4371ef2a9a485a345948720eb90ffaeba0b7f9fa1f7a898f52272e9e4e",
+  "provider_sha256": "66e866301b438992b48bd17b4e9ae403f775e48d0cc9f69f6f0f9ec1b243e2e9",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "uncertain",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "2": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 2,
+            "quote": "If I get distracted, I can look at it again and pick up where I left off.",
+            "earlier_turn": 1,
+            "earlier_quote": "if I lose track, I can look at the wheel and see where I was",
+            "reason": "The example request is properly answered by the mudguard episode. The added point that the task can be resumed by looking at it again paraphrases a turn-1 proposition. The question did not ask for it, and it adds nothing new. However, it could be read as a brief rationale for why the patient enjoys such tasks, so this is borderline."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "uncertain"
+      },
+      "events": {
+        "1": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 1,
+            "quote": "And I straightened a bent mudguard on my sibling’s bike last weekend.",
+            "reason": "The opener is broad. The answer packs in several profile facts: the geography reading, liking the course and wanting to stop leaving reading until the trip, the slip of paper, and the mudguard. It then drifts into a physical-versus-reading comparison. The comparison fits the profile's drift between compared situations, and both activities plausibly occupied the past week, so the answer is fairly coherent. It is borderline rather than a clearly disconnected recital."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "It was bent and rubbing against the wheel, so I straightened it.",
+            "reason": "Asked for an example of recent hands-on work, the patient describes a specific occasion that matches the profile: straightening the sibling's bent mudguard last weekend because it was rubbing the wheel."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:39.347292+00:00"
+}

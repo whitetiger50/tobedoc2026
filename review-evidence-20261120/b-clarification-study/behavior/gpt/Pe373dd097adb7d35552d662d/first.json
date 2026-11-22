@@ -1,0 +1,81 @@
+{
+  "id": "Pe373dd097adb7d35552d662d",
+  "reader": "gpt",
+  "session": "01a1fc41-596e-7273-b52d-afbaf9e913c3",
+  "attempt": "attempt-01",
+  "packet_sha256": "006d13f47e1cef8f70c54041e4ee725938128f2549756494e4c83ed05f63a4dc",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d517b98e3d48c7c0bea7a3ef3aceaa6f08c695449a4b63c069262a8047ff491b",
+  "raw_sha256": "ced655bc067f1083feb8c045fab20c81f7dd8849da56b1dbc6630f0879415982",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "the new one",
+        "reason": "The immediately preceding exchange establishes the ID badge as the referent, so the replacement locker key is no longer a live reading.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the replacement ID badge to.",
+            "answer": "The badge is clipped to a blue lanyard."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "since then",
+        "reason": "Both marked dates remain live starting points, and the missed tablet falls between them, so a conditional answer could cover both meanings without eliminating the ambiguity.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+            "answer": "One tablet was missed, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+            "answer": "No tablets have been missed during that period."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the class",
+        "reason": "The current question explicitly presents cooking and swimming as two classes without selecting either, and their fees differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid a fee for the cooking class.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid a fee for the swimming lesson.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "it",
+        "reason": "The immediately preceding question and answer focus specifically on the bedside speaker, making it the pragmatically clear referent.",
+        "alternatives": [
+          {
+            "meaning": "Where Taylor has the bedside speaker set up.",
+            "answer": "The speaker sits on the windowsill beside the bed."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:41.837683+00:00"
+}

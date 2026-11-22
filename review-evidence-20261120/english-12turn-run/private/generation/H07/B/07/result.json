@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 7,
+  "question": "What does it mean when things go quiet?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "Usually I just don’t have much to say. I’m okay sitting quietly.",
+  "raw_sha256": "3095eedf5a0b963e1e1098faaeff824b8b99b24d26075c87f7c117fc1b083af5",
+  "request_sha256": "e7a657b63d162c385f6bf8a4d24141af915c2697ff7cdaec5b130831bfaf42a6",
+  "started_utc": "2026-11-20T20:40:56.984986+00:00",
+  "completed_utc": "2026-11-20T20:41:01.769725+00:00",
+  "usage": {
+    "input_tokens": 54293,
+    "cached_input_tokens": 49152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 159,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "926e3cf18dd52b750d8c8c70126861b24a2059db0e683c4b25767c2e06e09e3e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "49a5c9c73f61e2d53e0b4dfb6d4967304b5caf21d2f663591033bdbfbeeddfe9"
+}

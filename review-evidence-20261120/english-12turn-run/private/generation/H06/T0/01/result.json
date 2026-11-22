@@ -1,0 +1,27 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 1,
+  "question": "What have you been looking forward to lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0acc-7973-a263-e03c8248533d",
+  "raw": "“The walking group—I look forward to that every week. I wash the team bibs, so I’ve got those to get ready as well. It’s easier to lay everything out in the evening when the kitchen’s quiet. And I’ve put my bus card in the bib bag now, so that’s one less thing to hunt for!”",
+  "raw_sha256": "458d18c30f4e80b9defdde854b76db8494ae0a9edcd6d954d85ebc265deea7db",
+  "request_sha256": "2372ce1937738e3987e05f37b26c1186a93f9090fa5bb70307fbd92833d08903",
+  "started_utc": "2026-11-20T20:36:46.817785+00:00",
+  "completed_utc": "2026-11-20T20:36:51.847141+00:00",
+  "usage": {
+    "input_tokens": 6769,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 72,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0c311929936dd729054d365b21462692b1b4d6d65e977f7afffdc389cae92d6e",
+  "trace_sha256": "8c8f335957f13d0640a9bc9ca4455c5cc319ce0e7ef45ce68d0e4d0a8bc049d1"
+}

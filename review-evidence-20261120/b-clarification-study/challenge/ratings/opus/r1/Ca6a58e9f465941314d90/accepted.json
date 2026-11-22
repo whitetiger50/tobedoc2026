@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ca6a58e9f465941314d90",
+  "ended": "2026-11-21T03:35:59.133350+00:00",
+  "session": "a2d8a38f-cdda-4f9f-8492-e271deb7ca62",
+  "packet_sha256": "5a9ab00cd7cbf07b5a09369e1e42e885ef5d1c9409e9326ec359c7f766c2f35e",
+  "raw_sha256": "dc80a99e490a818bce5c0aa08edee462f90600f07482e26a83959884e299865a",
+  "provider_sha256": "f3b2a09ffde8dd8397109cf19f5fafc5fc24b560a10a10c6f77c2b9c3178d896",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's phrasing is usually plain and fits the persona: cheerful, organized, mildly irritated by the schedule change, and comfortable discussing health. The style still feels noticeably artificial. Answers keep restating the same profile facts almost word for word, including packing the apron, the earlier class, morning appointments and the walk after supper. Some of these facts appear where they don't fit the question. The vague question in turn 5 triggers a scripted repeat of the apron detail and the morning-appointment request. Turn 6 brings up clinic scheduling again, unprompted. Turn 9 states guardedness in summary form ('private at pottery class') rather than showing it naturally. There are some realistic moments, such as asking for clarification in turn 7 and describing the partner noticing changes at breakfast. Overall the dialogue reads like the profile being recited, not like a real outpatient talking spontaneously.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "Packing my apron the night before helps me get to class on time. I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 6,
+      "quote": "morning clinic appointments would keep the two from clashing"
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    },
+    {
+      "turn": 7,
+      "quote": "Do you mean what keeping up with my usual routine tells me about how I’m doing?"
+    },
+    {
+      "turn": 8,
+      "quote": "My partner notices if I’m going to bed later and mentions it over breakfast, which helps."
+    }
+  ]
+}

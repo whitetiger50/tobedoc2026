@@ -1,0 +1,27 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What would you like to talk over while you're here?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-696e-76c3-aacf-84a0eced3bc3",
+  "raw": "\"I’d like to talk about keeping track when there are several little jobs at once. Last week I had the clean bibs by the door, then got caught up looking for my bus card, and my friend had to remind me to take the bag. All washed and ready, and nearly left behind! I do want people to be able to count on me. Putting the card in the bag should help, but it’s that losing track I’d like to talk over.\"",
+  "raw_sha256": "b0a91ef3319f80ffe1856845585ba7e4ed1dad17e22b2662d5b3b8dfbc8edfab",
+  "request_sha256": "4ec024c5749240dc02ee21804d8349e1fa5d8e62a8bc202c2aeafe616b566716",
+  "started_utc": "2026-11-20T20:37:11.058560+00:00",
+  "completed_utc": "2026-11-20T20:37:17.252155+00:00",
+  "usage": {
+    "input_tokens": 6862,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 99,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "921ac9dc6f3910deb3a7b9febc70d164da55bcabe210fffb3fcbe7a2e38a6b72",
+  "trace_sha256": "48bd70c764ef8ba1383ec879a61c5e9def25b494db7ce0add87b42daa6c928ac"
+}

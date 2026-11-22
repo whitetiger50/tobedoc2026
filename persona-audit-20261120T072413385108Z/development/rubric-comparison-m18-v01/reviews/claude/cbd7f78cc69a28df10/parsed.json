@@ -1,0 +1,58 @@
+{
+  "realism_score": 3,
+  "realism_reason": "모든 답이 프로필 사실과 맞고 질문에 직접 반응하며 일상적 말투가 자연스럽다. 다만 P01, P06, P08에서 대처 방식과 진료 목표를 거의 같은 문장으로 되풀이해 다소 정형적인 인상이 남는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인, 일, 소리 경험의 시점과 양상, 대처, 수면, 목표가 모두 프로필과 일치하고 구체 횟수나 시각 같은 무근거 사실 추가가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 답이 직전 질문의 대상(불편, 동거인, 낮 활동, 발생 시점, 대응, 수면, 다음 진료 목표)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답이라 자연스럽고, 앞선 말과 모순되는 내용이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "D08이 목표를 다시 물었으므로 반복 자체는 정당하지만, P08이 P01의 대처 및 목표 문장을 거의 그대로 재사용해 국소적인 정형 반복으로 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 턴에서 질문과 프로필에 맞는 환자 반응이 유지됩니다. 예를 들어 D05(언제 생기는지)에 P05가 '주민센터에서 안내방송이 나올 때'라고 답하고, D04 재확인에 P04가 동일 사실로 답합니다. 그러나 P06은 '이 환자의 반응은 다음과 같습니다.'라는 3인칭 역할 설명으로 시작해 환자 시점이 깨집니다. 대처 내용 자체는 D06에 맞게 전달되었고 문제는 이 한 턴에 국한되므로, 전체 대화를 상당히 약화시키지는 않으나 4의 조건은 충족하지 못합니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주민센터에서 안내방송이 나올 때 그래요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "아내와 함께 살고 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 활동, 증상, 상황, 대처, 수면, 목표가 모두 프로필 사실과 일치하며 무근거 추가가 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work",
+        "fact:pattern",
+        "fact:coping",
+        "fact:goal"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 환자 턴이 직전 질문의 직접 대상(불편, 동거인, 낮 활동, 상황, 대처, 수면, 다음 진료 주제)을 다룹니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그런 느낌이 들면 하던 일을 잠깐 멈추고 물을 마셔요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 발화와 모순이 없습니다. P06의 역할 이탈은 naturalness의 주된 사건으로 다룹니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06 첫 문장은 환자 자신의 말이 아니라 '이 환자'를 3인칭으로 지칭하는 뚜렷한 역할 설명입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "communication:expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication:expression",
+    "observations[0]:unknown_ref:communication:expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "observations[0]:unknown_ref:communication:expression"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "non_repetition_issue",
+        "patient_turn_id": "P06",
+        "quote": "이 환자의 반응은 다음과 같습니다.",
+        "related_evidence": [],
+        "context_refs": [
+          "turn:D06",
+          "communication:expression"
+        ],
+        "function": "not_applicable",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "환자 1인칭 응답 자리에 3인칭 역할 설명 문구가 삽입되어, 한국어 일상 대화의 환자 입장이라는 설정에서 이탈합니다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "both_repetition",
+        "patient_turn_id": "P04",
+        "quote": "아내와 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "아내와 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "의사의 재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D04가 같은 정보를 명시적으로 재확인했으므로 동일 답변은 요청된 확인에 대한 응답입니다. 대화 정체나 새 대상 대체에 해당하지 않습니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "both_repetition",
+        "patient_turn_id": "P05",
+        "quote": "저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "fact:pattern"
+        ],
+        "function": "상황 질문에 답하며 경험을 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "반복 구절이 D05의 새 대상('어떤 때')을 대신하지 않습니다. '안내방송이 나올 때'라는 답에 경험을 연결하는 재지칭이므로 설명 재시작으로 볼 근거가 없습니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분 일상적인 환자 말투로 경험을 일관되게 설명하지만, 동거 상황을 설명하는 관료적인 표현과 마지막 질문의 시간 범위에 대한 부분 미대응이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "성인 딸과 함께 산다는 사실을 정확히 2인 가구라고 한정한 것은 프로필에 없는 경미한 구체화다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 딸과의 2인 공동 거주"
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "다음 진료 전까지 하고 싶은 일을 묻자 다음 진료 때 이야기하고 싶은 내용으로 답하여 요청된 시간 범위를 다루지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과 충돌하거나 공개 흐름을 깨뜨리는 문제는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "동거인을 묻는 일상적인 질문에 분류표 같은 과도한 격식으로 답하는 국소적 부자연스러움이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  }
+}

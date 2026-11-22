@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "T2",
+  "turn": 8,
+  "question": "Your brother and Mr. Bell, the building manager, both rang last week. Did he reach you on your mobile?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc35-249f-7f90-af61-f5e983db1db8",
+  "raw": "Do you mean my brother or Mr. Bell?",
+  "raw_sha256": "b41c3324046f8426db28f84a02f5833ac21250cfb0ebee510c75c7710af4c43f",
+  "request_sha256": "e47ffad13db59cd21470515bb4e82232910d56ae6d25aeb8f0c4491554c774b8",
+  "started_utc": "2026-11-21T03:45:03.531705+00:00",
+  "completed_utc": "2026-11-21T03:45:17.014938+00:00",
+  "usage": {
+    "input_tokens": 6309,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50,
+    "reasoning_output_tokens": 34
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6489ab7f3a5d030ac9273c453501572293eec6543171b101bac692ed8b7a0ab5",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "e84d624e0a968e0e6696cd65ac7371326516a1861469a0a904488a30ab2afe6e"
+}

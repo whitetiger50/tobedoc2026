@@ -1,0 +1,89 @@
+{
+  "id": "P068e483ca74ece953927496e",
+  "reader": "opus",
+  "session": "b13e285d-438d-4c9f-9237-d69a6d9e50cd",
+  "attempt": "attempt-01",
+  "packet_sha256": "49e8f838cf149e39fb0555f34797b7c40c24e029963b96ca775cbd968b0e951b",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d8223ef8f2c24c70d7d3d983f35de57dba0ace85fb7b9a8ccd1da38a8f338065",
+  "raw_sha256": "5ad297272fcd67bb591a97d56a61f6c37cccfb931442d948b5d1d50dd1382475",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "The question follows two Wednesday activities, so it could ask about either one, and Ren's answer would differ: about an hour at the book group or about three hours with Mom.",
+        "alternatives": [
+          {
+            "meaning": "How long Ren usually stays at the Wednesday book group.",
+            "answer": "Ren usually stays at the book group for about an hour."
+          },
+          {
+            "meaning": "How long Ren usually stays when visiting Mom on Wednesdays.",
+            "answer": "Ren usually spends about three hours with Mom, often doing a crossword together."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The singular 'it was out' follows two separate outages, and the durations differ: about ten minutes on Monday and most of the afternoon on Thursday.",
+        "alternatives": [
+          {
+            "meaning": "How long the radio was silent on Monday.",
+            "answer": "On Monday the radio was silent for about ten minutes."
+          },
+          {
+            "meaning": "How long the radio was silent on Thursday.",
+            "answer": "On Thursday the radio was out for most of the afternoon, during the music request show."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you take food with you for your shift?",
+        "reason": "'Your shift' could mean either an early or a late shift, but Morgan packs a sandwich for every shift, so the reply is the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan takes food for an early shift.",
+            "answer": "Yes, Morgan packs a sandwich for early shifts."
+          },
+          {
+            "meaning": "Whether Morgan takes food for a late shift.",
+            "answer": "Yes, Morgan packs a sandwich for late shifts too."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "'Him' could refer to the brother or to Mr. Bell, Ari had just asked which one was meant, and the answers differ: Ari called the brother back but has not called Mr. Bell yet.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari called the brother back.",
+            "answer": "Yes, Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari called the building manager, Mr. Bell, back.",
+            "answer": "No, Ari has not called Mr. Bell back yet about replacing the hall light."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:53:44.471707+00:00"
+}

@@ -1,0 +1,127 @@
+{
+  "design_version": "0.2",
+  "date": "2026-11-18",
+  "status": "panel_selected_not_preregistered_not_executed",
+  "counts": {
+    "cases": 12,
+    "questions_per_dialogue": 12,
+    "natural_dialogues": 24,
+    "corruption_dialogues": 12,
+    "length_dialogues": 12,
+    "total_dialogues": 48,
+    "judge_families": 3,
+    "repeats": 5,
+    "planned_judgments": 720
+  },
+  "primary_reliability_set": "natural_only",
+  "case_creator": "Codex (LLM); twelve synthetic profile drafts created specifically for this pilot",
+  "case_origin": "Not sampled from real patient records or a clinically validated case bank",
+  "judge_slots": {
+    "A": {
+      "provider": "OpenAI",
+      "model_name": "GPT-6.1 Sol",
+      "api_model_id": "gpt-6.1-sol",
+      "proposed_reasoning_effort": "high",
+      "release_and_runtime_settings_lock": "pending execution verification"
+    },
+    "B": {
+      "provider": "Anthropic",
+      "model_name": "Claude Opus 5.5",
+      "api_model_id": "claude-opus-5-5",
+      "proposed_reasoning_effort": "medium",
+      "release_and_runtime_settings_lock": "pending execution verification"
+    },
+    "C": {
+      "provider": "Google",
+      "model_name": "Gemini 4 Argon",
+      "api_model_id": "gemini-4-argon",
+      "proposed_reasoning_effort": "platform default, record actual supported setting before lock",
+      "release_and_runtime_settings_lock": "pending execution verification"
+    }
+  },
+  "judge_selection_reason": "capable general-purpose models from three families; practical panel choice, not task-specific validated superiority",
+  "judge_tools": "no web search, retrieval, external patient information, or evaluator discussion during rating",
+  "aggregation": "median_of_three_model_medians_of_five_integer_scores",
+  "missing": "require all five valid ratings per model and all three model medians for aggregate",
+  "gates_are": "proposed operational choices, NOT PATIENTSIM or schizophrenia clinical standards",
+  "gates": {
+    "valid_rating_fraction_min": 0.99,
+    "complete_natural_fraction_min": 0.95,
+    "within_each_model": {
+      "ordinal_alpha_min": 0.8,
+      "alpha_ci_lower_min": 0.67,
+      "pair_exact_agreement_min": 0.8,
+      "range_ge_2_fraction_max": 0.1
+    },
+    "across_model_medians": {
+      "ordinal_alpha_min": 0.67,
+      "alpha_ci_lower_min": 0.5,
+      "range_ge_2_fraction_max": 0.1,
+      "clear_opposite_prompt_effects": "disqualify sole aggregate claim"
+    },
+    "corruption": {
+      "panel_strict_decreases_min": 10,
+      "total": 12,
+      "per_type_min": 3,
+      "per_type_total": 4,
+      "each_judge_strict_decreases_min": 9
+    },
+    "length": {
+      "panel_unchanged_min": 10,
+      "total": 12,
+      "abs_difference_ge_2_max": 0,
+      "neutrality": "must be audited before rating; otherwise indeterminate"
+    },
+    "expert_later_natural_only": {
+      "ordinal_alpha_min": 0.67,
+      "alpha_ci_lower_min": 0.5,
+      "exact_agreement_min": 0.6,
+      "abs_difference_ge_2_fraction_max": 0.1
+    }
+  },
+  "uncertainty": {
+    "method": "case_cluster_percentile_bootstrap",
+    "replicates": 4000,
+    "seed": 20261118,
+    "ci": 0.95,
+    "invalid_bootstrap_fraction_max": 0.05
+  },
+  "indeterminate_if": [
+    "expected_disagreement_zero",
+    "dominant_natural_score_fraction_ge_0.80",
+    "CI insufficient despite adequate point estimate",
+    "length-control neutrality uncertain"
+  ],
+  "expert_phase": {
+    "natural": 24,
+    "corruption": 6,
+    "length": 6,
+    "total": 36,
+    "clinical_raters": 1,
+    "status": "not secured_not_performed",
+    "selected_corruption_cases": [
+      "C01",
+      "C03",
+      "C05",
+      "C07",
+      "C08",
+      "C11"
+    ],
+    "selected_length_cases": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C07",
+      "C10"
+    ]
+  },
+  "claims_after_LLM_pass": "Primary endpoint permitted only as LLM-rated realism under an adapted research rubric",
+  "not_established": [
+    "clinical validity by LLM consensus",
+    "real patient speech equivalence",
+    "clinical severity",
+    "augmentation utility"
+  ],
+  "new_model_outputs": false
+}

@@ -1,0 +1,27 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 2,
+  "question": "What would you like to talk over while you're here?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Lately I keep losing track when there are a few little things to do at once. I’ll start getting something ready, then something else catches my attention, and… what was I doing? (small laugh) It’s not that I can’t do the jobs. I like having my bit to do for the walking group. I just don’t like the thought of people waiting on me because I’ve left something unfinished.”",
+  "raw_sha256": "7152268844dac4e2c7abc3d14c535c9a8bfe2d3920bfbd5afb6d2af53fcd902a",
+  "request_sha256": "0f8c785b84aac574917c5c72e834d58a8be2a75bf037274e134d898863cd7250",
+  "started_utc": "2026-11-20T20:37:11.065709+00:00",
+  "completed_utc": "2026-11-20T20:37:16.890138+00:00",
+  "usage": {
+    "input_tokens": 15450,
+    "cached_input_tokens": 7424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 179,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c853dea7162efc2e3536f0a8122dbc5219de54a2988bf1b77c63914e0dfd6472",
+  "trace_sha256": "250011c65fdadd7f273792991aa254f3827a01f0a25ab3a765f559fc0f56a9a7"
+}

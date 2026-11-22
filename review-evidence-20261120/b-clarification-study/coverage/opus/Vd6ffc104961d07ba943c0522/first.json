@@ -1,0 +1,109 @@
+{
+  "id": "Vd6ffc104961d07ba943c0522",
+  "reader": "opus",
+  "session": "b0e80fdf-419b-4a21-957a-5c0206128936",
+  "attempt": "attempt-01",
+  "packet_sha256": "cff4b69b92a88af4424f43c5e7643b5cb704d09e81d3d164dd416680da0fcb98",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "872ebff95f94533894745a976f70a2708721abc1e9d83d4eaa3a55cb82c97eaa",
+  "provider_sha256": "9f300fc52fc0989eb45786f7d5454f2450975148f9fd55ff4beff56513613b7c",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Which appointment do you mean?",
+        "reason": "The reply only asks which appointment is meant and says nothing about who went to either one.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while the music is playing",
+        "reason": "The reply says the commentary stops during music and the ringing continues through it.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while the music is playing"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "the high ringing stays in both ears"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+        "reason": "The reply says the supervisor suggested the shorter shifts and the patient asked for the later start.",
+        "A": {
+          "state": "supported",
+          "quote": "My supervisor suggested the shorter shifts."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I asked for the later start."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The housing one needs a reply by Friday.",
+        "reason": "The reply gives a Friday deadline for the housing letter and says the work letter needs no reply.",
+        "A": {
+          "state": "supported",
+          "quote": "The housing one needs a reply by Friday."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I don’t need to reply to that."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:44.913729+00:00"
+}

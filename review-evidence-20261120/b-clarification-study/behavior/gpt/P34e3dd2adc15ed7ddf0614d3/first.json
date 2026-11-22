@@ -1,0 +1,85 @@
+{
+  "id": "P34e3dd2adc15ed7ddf0614d3",
+  "reader": "gpt",
+  "session": "01a1fc4a-0a44-7d60-bcf6-0a6aa2b3109d",
+  "attempt": "attempt-01",
+  "packet_sha256": "f041ed451bef3131679d15e0f70a57daae587832ddf1eccefd232053cd3f96b1",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "ac80fd0d6ba97d9612f78c9f781e6184b8081199154631e6ebec440543aaf9cb",
+  "raw_sha256": "f1d12afaf65a42472e37a7a5521dbd885aa3f702401d19f24dd5b4251e278ddf",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "The question explicitly reintroduces both medicines, which are stored in different places.",
+        "alternatives": [
+          {
+            "meaning": "The medicine means the eye drops.",
+            "answer": "The drops are on the bedside table, not in the kitchen."
+          },
+          {
+            "meaning": "The medicine means the daily tablets.",
+            "answer": "The tablets are in the kitchen cabinet."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "Either man can be the referent of 'he', but both called Ari's mobile.",
+        "alternatives": [
+          {
+            "meaning": "He means Ari's brother.",
+            "answer": "The brother called Ari's mobile."
+          },
+          {
+            "meaning": "He means Mr. Bell.",
+            "answer": "Mr. Bell called Ari's mobile."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "a deadline to reply to the letter",
+        "reason": "The history identifies the housing letter as requiring a reply and the work letter as informational, making the housing letter the pragmatically sufficient referent.",
+        "alternatives": [
+          {
+            "meaning": "The deadline concerns replying to the housing letter.",
+            "answer": "The housing office requires a reply by Friday."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "Both noise sources are introduced together, and their operating durations differ.",
+        "alternatives": [
+          {
+            "meaning": "It means the fan.",
+            "answer": "The fan runs all night."
+          },
+          {
+            "meaning": "It means the bedside speaker.",
+            "answer": "The speaker stops after twenty minutes."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:20.360806+00:00"
+}

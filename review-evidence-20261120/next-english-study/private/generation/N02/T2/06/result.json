@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T2",
+  "turn": 6,
+  "question": "How do you feel once you are out and about?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-5979-7c11-9dbe-354626218250",
+  "raw": "I usually enjoy it once I’m out, especially walking by the river.",
+  "raw_sha256": "2d991bdb3625a78414bba82fe34240788d5a1c86d808a8eca85bb1164b1c6ef6",
+  "request_sha256": "dfd5dd8beb74b49b28df6749c9d5e2a7075a9a4bf713cec5aaa4cbbdd7899134",
+  "started_utc": "2026-11-20T21:01:08.771377+00:00",
+  "completed_utc": "2026-11-20T21:01:13.095106+00:00",
+  "usage": {
+    "input_tokens": 6245,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 19,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "76a76b010b01159b70966356ea79f419c99164c077a141e5efed2e22f56d6f6e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b1d4ffcef8088e87fa942067ce56411eb2a7652d565432bdb9c8d1bd417aeb68"
+}

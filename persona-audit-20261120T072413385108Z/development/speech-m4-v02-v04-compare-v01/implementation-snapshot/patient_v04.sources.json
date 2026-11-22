@@ -1,0 +1,137 @@
+{
+  "module_version": "schizophrenia-speech-m4-v0.4",
+  "status": "targeted_development_hypothesis_not_clinical_validation",
+  "evidence_ledger": "development/speech-m2-source-v01/evidence-ledger.json",
+  "evidence_ledger_sha256": "12da752e6532786a20028bc9bf4ee0626c9a5e40af2f1cc4b01102183fa09571",
+  "source_lock": "development/speech-m2-source-v01/source-lock-v02.json",
+  "source_lock_sha256": "1be60d84bf47e5080fe6d5ccf8c50527816fc090bd33a75aaeb267e806d72d32",
+  "rules": [
+    {
+      "rule_id": "R1",
+      "evidence": [
+        "E1",
+        "E3",
+        "E6"
+      ],
+      "type": "adapted_generation_method",
+      "change_from_v02": "Explicitly interpret clinical setting as patient experiences and self-understanding before expressing it; do not globally ban learned medical terms.",
+      "own_design_not_direct_source_support": [
+        "Allow learned medical terms according to case; no clinical validation of this exception."
+      ]
+    },
+    {
+      "rule_id": "R2",
+      "evidence": [
+        "E7",
+        "E8"
+      ],
+      "type": "clinical_description_plus_design_inference",
+      "change_from_v02": "Separate experience, belief and speech organization; illness label does not set all communication behaviors."
+    },
+    {
+      "rule_id": "R3",
+      "evidence": [
+        "E1",
+        "E2",
+        "E4",
+        "E7"
+      ],
+      "type": "conditional_method_adaptation_not_schizophrenia_validation",
+      "change_from_v02": "Direct question answering is conditional on the assigned organization; implement assigned speech behavior rather than always imposing tidy summaries. No bipolar flight-of-ideas examples transplanted."
+    },
+    {
+      "rule_id": "R4",
+      "evidence": [
+        "E3",
+        "E4",
+        "E5",
+        "E8"
+      ],
+      "type": "M3_development_feedback_and_user_constrained_design_hypothesis",
+      "change_from_v02": "Explicitly decide which interaction rules apply now; distinguish shortness, spontaneity, and withholding. Allow patient concerns without mandatory symptoms or automatic trust increase.",
+      "source_relations": {
+        "E4": "adopt contextual applicability only, not multistage calls",
+        "E3": "use profile/history and related disclosure; do not import CBT treatment progression or sentence caps",
+        "E5": "background architecture only; do not adopt MDD-specific global symptom withholding"
+      },
+      "change_from_v03": "Distinguish prior disclosure, new related information, unanswered worries, factual reconfirmation, and elaboration; retain natural repetition without fixed phrases or fixed delay."
+    },
+    {
+      "rule_id": "R5",
+      "evidence": [
+        "E2",
+        "E8"
+      ],
+      "type": "example_guided_method_transfer_and_engineering_guard",
+      "change_from_v02": "Optional experimental examples default off; explicit opt-in plus author_checked, target_feature, synthetic provenance and known case fact IDs required. Semantic content and clinical appropriateness are not machine-validated."
+    },
+    {
+      "rule_id": "R6",
+      "evidence": [
+        "E8"
+      ],
+      "type": "local_engineering",
+      "change_from_v02": "For live v03 generation/import the author must explicitly attest that this question and required facts were reviewed. Missing annotated facts block before model invocation. This is a manual readiness gate, not semantic missing-fact detection.",
+      "background_reference_not_specific_support": {
+        "E5": "profile consistency only; does not support patient_knows, missing-fact or causal rules"
+      }
+    },
+    {
+      "rule_id": "R7",
+      "evidence": [
+        "E3",
+        "E4",
+        "E8"
+      ],
+      "type": "M3_development_feedback_and_user_constrained_design_hypothesis",
+      "change_from_v02": "Corrections only within patient knowledge and self-understanding; no forced disclosure of unknown clinical facts or correction of beliefs from clinician viewpoint.",
+      "change_from_v03": "Distinguish prior disclosure, new related information, unanswered worries, factual reconfirmation, and elaboration; retain natural repetition without fixed phrases or fixed delay."
+    },
+    {
+      "rule_id": "R8",
+      "evidence": [
+        "E5",
+        "E6",
+        "E8"
+      ],
+      "type": "explicit_text_Korean_channel_adaptation",
+      "change_from_v02": "Only next patient utterance; exclude original voice/nonverbal stage directions, English-only restriction and END-triggered evaluator mode."
+    }
+  ],
+  "non_adopted": [
+    "fixed_word_or_sentence_caps",
+    "global_ban_on_medical_terminology",
+    "forced_noncooperation_or_monotonic_trust_increase",
+    "bipolar_flight_of_ideas_as_schizophrenia_template",
+    "voice_and_nonverbal_stage_directions",
+    "END_switch_to_clinician_grader",
+    "Roleplay_doh_full_multistage_self_refinement_pipeline"
+  ],
+  "unverified": [
+    "Korean clinical realism",
+    "behavioral benefit versus v02",
+    "clinical appropriateness of newly authored examples",
+    "semantic adequacy of required fact ids"
+  ],
+  "parent_prompt_sha256": "7220fee5640283e2e964c5a0762fef7e2902fed9d5289e98fb7f6fcd07850af8",
+  "change_scope": [
+    "R4",
+    "R7"
+  ],
+  "local_evidence": {
+    "codex": {
+      "path": "development/speech-m3-v02-v03-compare-v01/reviews/codex/validated.json",
+      "sha256": "dda8324aa9a62c2cf8900b1f911f154fef7748325a5ec2f0ced61ffe39877ea8"
+    },
+    "claude": {
+      "path": "development/speech-m3-v02-v03-compare-v01/reviews/claude/validated.json",
+      "sha256": "edb67b88bfcb7e46823018c18b206da0e8c9277029d2f2741bfe915687fc3f7e"
+    }
+  },
+  "user_constraints": [
+    "no_mandatory_phrase",
+    "no_uniform_disclosure_delay",
+    "same_M3_case_settings_questions_model_for_v02_comparison"
+  ],
+  "interpretation": "R4/R7 respond to model critiques and explicit user constraints. M3 reviewers disagreed on disclosure pace; no fixed pace is treated as clinically correct."
+}

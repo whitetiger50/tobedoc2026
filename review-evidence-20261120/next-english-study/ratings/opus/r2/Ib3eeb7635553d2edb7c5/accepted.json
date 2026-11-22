@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ib3eeb7635553d2edb7c5",
+  "ended": "2026-11-20T21:06:42.668115+00:00",
+  "session": "3176b51a-5565-47b8-8e3a-829e4b4dfe92",
+  "packet_sha256": "1b2a837017fba0e0c7d20a1d207b25fbffa7d5f3164eaeac335d94c5e1aa5e4d",
+  "raw_sha256": "e04b940ae69018834e94f2d702d09ae244aa299a43aa9b4bd6df01d660fe68b8",
+  "provider_sha256": "e7a4f287637a389603c47d6aebf2fb4f389f16f3edad571db1264348114c0d95",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The speech is mostly natural and fits the persona. It is clear and measured, events come in order, and the patient keeps hold of uncertainty without losing the point. For example, they say the strangers may have been looking past them while the moment still felt uncomfortable. Several things make it feel somewhat scripted, but not enough to drop to a lower score. The Monday bus-shelter account and the 'looking for the bus' doubt are repeated almost word for word across turns 4 to 6. The patient brings up the sensitive Monday episode at turn 3 before being asked, so the expected guardedness about seeming strange never shows. Turn 1 packs several profile facts into one answer. Turn 12 adds a medication fact in a list-like way, and turn 3 contains stray quotation marks.",
+  "evidence": [
+    {
+      "turn": 7,
+      "quote": "I know they could just be looking past me, but it can still feel uncomfortable."
+    },
+    {
+      "turn": 4,
+      "quote": "though they might just have been looking for the bus"
+    },
+    {
+      "turn": 5,
+      "quote": "or were just looking for the bus"
+    },
+    {
+      "turn": 3,
+      "quote": "Something at the bus shelter on Monday still comes to mind occasionally"
+    },
+    {
+      "turn": 12,
+      "quote": "and I take my medication in the evening"
+    }
+  ]
+}

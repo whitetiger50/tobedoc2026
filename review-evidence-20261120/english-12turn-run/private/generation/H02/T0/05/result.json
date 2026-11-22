@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How does it work once you get started?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-290e-72e3-8a46-22521ced5cff",
+  "raw": "“The bookmark shows me where I stopped, but getting back into the sorting still takes an effort when it’s busy. Sometimes another volunteer just points to the pile without making a fuss. I appreciate that—I don’t want a misplaced mystery becoming everyone’s business.”",
+  "raw_sha256": "3cc6778e473b2f3808b70cea54e651086b9dab66c8aae1d4a7f62c9bda05525b",
+  "request_sha256": "9c757ee5a8ae17a0d631a85d4cc4452099373492d058de2054182cf02f3b1bca",
+  "started_utc": "2026-11-20T20:40:11.184777+00:00",
+  "completed_utc": "2026-11-20T20:40:18.795788+00:00",
+  "usage": {
+    "input_tokens": 7079,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 170,
+    "reasoning_output_tokens": 113
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bc045b2b10fd62546e2078d13694b2fe2d942ad673088bfda79f13483af22785",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4881ecbe8cac6af20a063f08eaac213874501871f4c8d5459ea9491e7e53d074"
+}

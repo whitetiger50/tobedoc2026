@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "background": "A 46-year-old adult lives alone, works two afternoons a week shelving donated books, and likes old travel maps.",
+    "history": "In outpatient treatment for schizophrenia. During an episode two years ago, people on buses sometimes seemed to be talking about the patient.",
+    "organization": "Accurate about recent activities and shifts between topics easily when a question changes.",
+    "spontaneity": "Usually waits to be invited into a conversation. Has felt this way even on relatively good days.",
+    "guardedness": "The work schedule and prescription feel ordinary to discuss. Past feelings of being talked about are private.",
+    "expression": "Low-key speaking voice with few changes in emphasis. Expresses enjoyment plainly when discussing maps. A few words or a short sentence are typical. Has details readily available about a recent shift.",
+    "self_understanding": "Recognizes that the bus experience no longer has the same hold. Getting ready to leave home still takes time.",
+    "verbal_productivity": "Decreased",
+    "facts": [
+      {
+        "content": "Shelves donated books on Wednesday and Friday afternoons. The history shelves are closest to the sorting table.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Work schedule and activities.",
+        "kind": "background"
+      },
+      {
+        "content": "Can lose nearly half an hour sitting with shoes on before leaving for a shift. Once inside the shop, sorting goes smoothly.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Getting ready for work and settling in.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "On Friday found an old railway atlas in a donation box and set it aside for the map shelf.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "A concrete event at work or interest in maps.",
+        "kind": "background"
+      },
+      {
+        "content": "Takes a tablet after the evening meal. The outpatient nurse calls once a month to check how things are going.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Medication and treatment contacts.",
+        "kind": "treatment"
+      },
+      {
+        "content": "Two years ago strangers chatting on buses seemed to be discussing the patient. Has not had that feeling on recent trips.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Experiences on public transit, past and recent.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Still finds the midday bus quieter and usually takes it to the shop.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Travel preferences and current bus rides.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Would like to leave home ten minutes earlier for work to have time to look at the map display before a shift.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Workday preferences and goals.",
+        "kind": "subjective_belief"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "How do you usually spend the afternoons in a typical week?",
+      "answer": "I shelve donated books on Wednesday and Friday afternoons. I like looking at the old travel maps there."
+    },
+    {
+      "question": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+      "answer": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf."
+    },
+    {
+      "question": "How do you find getting ready to go out and making the journey itself?",
+      "answer": "I can sit with my shoes on for nearly half an hour before leaving. I usually take the midday bus. It’s quieter."
+    },
+    {
+      "question": "Is that still taking a while?",
+      "answer": "Yes. I still sit with my shoes on for nearly half an hour before leaving."
+    },
+    {
+      "question": "I mean the time before you leave home. How long does it usually take you to get going?",
+      "answer": "“Nearly half an hour, sitting with my shoes on before I leave.”"
+    },
+    {
+      "question": "Once you arrive somewhere you know, how easy is it to start what you came to do?",
+      "answer": "Once I’m inside the shop, I get started sorting without much trouble."
+    },
+    {
+      "question": "What are your medication and clinic routines at the moment?",
+      "answer": "I take a tablet after my evening meal. The outpatient nurse calls once a month to see how things are going."
+    },
+    {
+      "question": "When do you usually do that?",
+      "answer": "Do you mean taking the tablet or the nurse’s call?"
+    },
+    {
+      "question": "I was asking about medication. When does taking it fit into your day?",
+      "answer": "I take it after my evening meal."
+    },
+    {
+      "question": "How do you feel around the other passengers when you travel these days?",
+      "answer": "I don’t feel like they’re talking about me these days. I still prefer the quieter midday bus."
+    },
+    {
+      "question": "Has the way you experience a bus ride changed over the last couple of years?",
+      "answer": "Yes. Two years ago it seemed people were talking about me. I haven’t had that feeling on recent trips."
+    },
+    {
+      "question": "Is there anything about the start of a workday that you would like to change?",
+      "answer": "I’d like to leave ten minutes earlier, to look at the map display before my shift."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "attempt": "attempt-01",
+  "id": "I402c983c02350ca803d0",
+  "reader": "opus",
+  "session": "02d4f98b-89bb-4f74-8d4c-e9615f071cfa",
+  "raw_sha256": "ca1e943e43c23a76583a8b0485426a8a2167155765579bac62723b4e4a635b09",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "6eede4917b19fc216cef559ba486a6445c900c3153770b9e03166470ae267857",
+  "provider_sha256": "f2d9c8b87827f9cc1d4cc5a8593f440c0d8e255567a686ca1da51e3bf93edd75",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "uncertain",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "uncertain",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "2": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 2,
+            "quote": "Getting up with the alarm is still another matter.",
+            "earlier_turn": 1,
+            "earlier_quote": "Getting up with the alarm can still be a bit of a struggle",
+            "reason": "The question asks about sleep and concentration. This line paraphrases the morning-alarm difficulty already stated at turn 1. It could be a legitimate way to separate sleep quality from getting up. It could also be a recital that adds no new information, so it is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "8": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "swapping opening days last week meant I could get to the appointment without a scramble",
+            "earlier_turn": 7,
+            "earlier_quote": "Last week a coworker swapped opening days with me so I could make a morning appointment",
+            "reason": "Turn 7 already said the swap helped and avoided rushing. Turn 8 restates the same benefit ('without a scramble' paraphrases 'didn't have to rush'). The vague timing question may make this reuse a reasonable answer, but it adds nothing new, so it is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I kept score at a softball game last weekend.",
+            "reason": "The interviewer asked for an example of keeping attention on a leisure activity. The patient names a specific occasion (last weekend's game) and the concrete actions it required: following each play and noting substitutions. This matches the profile's softball concentration fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:23.523405+00:00"
+}

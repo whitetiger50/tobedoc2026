@@ -1,0 +1,74 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "일상 질문과 시선 경험 질문에 프로필에 맞게 직접 답했고, 확신하지 않는다는 자기이해도 자연스럽게 드러났습니다. 다만 P08에서 다음 진료 목표를 묻는 질문에 앞서 증상 문장을 거의 그대로 다시 말해 약간 정형적이고 설정을 낭독하는 듯한 느낌이 있습니다. 전체 현실감을 크게 해치지는 않는 경미한 부분입니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 직업, 증상 양상, 대처, 수면, 목표 모두 프로필 사실 범위 안에서 표현되었고 새로운 사실을 확정하지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 턴이 직전 질문의 대상에 직접 답했고, P08도 다음 진료에서 하고 싶은 이야기를 답했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04는 재확인 질문에 대한 짧은 동일 답이고 앞선 말과의 모순은 없습니다. P08의 반복은 표현 문제로 naturalness 축에서만 다룹니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08에서 질문과 직접 관련 없는 증상 진술을 P01·P05와 비슷한 문장으로 다시 앞세워 국소적으로 정형 반복처럼 들립니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P05",
+        "fact:goal"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

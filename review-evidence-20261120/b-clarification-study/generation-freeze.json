@@ -1,0 +1,53 @@
+{
+  "hashes": {
+    "private/runtime/rep1/B.json": "e26834caa997e8e5e4b21e7d5ea7a8afe5c991c83c8729783332ee732342dce3",
+    "private/runtime/rep2/B.json": "e26834caa997e8e5e4b21e7d5ea7a8afe5c991c83c8729783332ee732342dce3",
+    "private/runtime/rep1/BC.json": "d8a4b8a2fb3cb14322ede3b3872c0ad567724d05c1ee60cafd393f893600e74a",
+    "private/runtime/rep2/BC.json": "d8a4b8a2fb3cb14322ede3b3872c0ad567724d05c1ee60cafd393f893600e74a",
+    "private/runtime/rep1/T2.json": "51a19c5dbad45a970b655b404e2e01af8b34f61748fe3d3fcd1ba25a10e1c39b",
+    "private/runtime/rep2/T2.json": "51a19c5dbad45a970b655b404e2e01af8b34f61748fe3d3fcd1ba25a10e1c39b",
+    "run.py": "9271f635874d1def8511296f6834ad74121da81bcfa24eddc8a80bac64bae88b",
+    "B.txt": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "BC.txt": "ab86929cce87c07b9df58e82107dffcf6cc6a39e9d62f5fa1384e365c8a962ca",
+    "RULE.txt": "bff837812ac8f7fa9d606dbae0b3848baf65ff096620888a58cd480ef8d2c25e",
+    "T2.txt": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e",
+    "private/key.json": "57329256f4c9a07a2112fa64aa140040f180d2f5a5404774c8a77f9f3614fc75",
+    "cases.json": "fc546f9208dff96d09e17fce4823a988b7cc4e16c3ae6dedcaddba4a991c0f74",
+    "DESIGN.ko.md": "0f3db535a97191f31257075714ff98a9992560761d040df57f64169e1f9f73e4",
+    "method/design-receipt.json": "1d82af8df5001d7efe73914cf817a52b202d2939d3004d9674e5a14159e739a8",
+    "../next-english-study/method/interpretation-receipt.json": "fd6afecb9f29677692dfdad6d82e913f594b0c39c95baa6e6d5718ffe543e932",
+    "../next-english-study/T2.txt": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e",
+    "../next-english-study/runner.py": "01e2140d71425ba4a76718aa0151bc8cfe1e92628ec810d47fc8530e3564ba1c",
+    "../next-english-study/resume_generation.py": "65a7b6f40a25bd5c5ac8650315ddc298e2a6021041690fea552bb4a0d907990e",
+    "../english-12turn-run/generation.py": "dacae4a94d2426fef12df63003e232c976ebb9c8d97f2e1e2e0db5c23f9db266",
+    "../english-12turn-run/assess.py": "a7883ecdfcb8c70942a8ed4fc3042662ab9d9995e0b5ac5a367f5c2293c12144",
+    "../english-12turn-run/quota.py": "6d7ec47c8487abb4ec4dc6e3cd7172d731202acdf5af9228b41351a9497f9fec",
+    "../../persona-audit-20261120T072413385108Z/development/speech-m1-v01/sources/llm_eval_metrics_persona.json": "ef29b12666d8241b6559db144e8004b91dab21d1ede6d5c306e27a7a5086e995",
+    "../boundary-calibration-20261121/gpt/collect.py": "85495d420b49df8212097d1f1adda1c8d589173dbb9833396e5ad35ca772fb8c",
+    "../boundary-calibration-20261121/opus/run.py": "645c1c22637e5c339c9ec3d04f2147e69a9b376eb0129d568b77541470033d95",
+    "../../tobedoc2026/config/main-freeze-v01/system-template.txt": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "../../persona-audit-20261120T072413385108Z/speech_module/patient_v02.txt": "721203cb5a1ece9c3f93dfb1fb3ed172fc734439a6ed89a7e47f86ab2bf9e269",
+    "../first-turn-revision-proposal/proposed-prompt.txt": "755dcc39be74dbe41ce61b2e3e145c7af97a4558cbbad85f3a9ab3c0d4829fb8",
+    "../../persona-audit-20261120T072413385108Z/speech_module/core.py": "746780923ce885c7c21e4eed71a5c5df1aa9d5696fb8b792fa849f4aa836bc0b"
+  },
+  "conditions": [
+    "B",
+    "BC",
+    "T2"
+  ],
+  "replicates": [
+    1,
+    2
+  ],
+  "case_count": 8,
+  "primary_ratings": 192,
+  "turns_per_interview": 12,
+  "first_answers": 576,
+  "source_system_sha256": {
+    "B": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+    "BC": "ab86929cce87c07b9df58e82107dffcf6cc6a39e9d62f5fa1384e365c8a962ca",
+    "T2": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e"
+  },
+  "single_rule": "Only when the question still has more than one plausible meaning in this conversation and your answer would differ depending on which meaning was intended, ask briefly which one the interviewer means and wait for their reply.",
+  "history": "B and BC use the original B native session collector; T2 uses the original JSON history collector."
+}

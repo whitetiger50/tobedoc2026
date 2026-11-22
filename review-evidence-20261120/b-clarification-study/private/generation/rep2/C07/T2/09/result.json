@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 9,
+  "question": "Did anyone go with you to the care coordinator visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc35-a48a-7b92-a960-035a3025e21a",
+  "raw": "No, I went on my own.",
+  "raw_sha256": "f452d8b8a1a217dad115779147696a82907f297228a5392e2a7e2a910a51d188",
+  "request_sha256": "6bba93f7ec3368e82d838ab93891f5ec1d3f5498f9b984289ca63c105415ba9d",
+  "started_utc": "2026-11-21T03:45:36.258900+00:00",
+  "completed_utc": "2026-11-21T03:45:40.174657+00:00",
+  "usage": {
+    "input_tokens": 6287,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "828c1fc93b4cecc09a3eae0bb12acae98781aa9db0676644e71e84603e0befd5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bb67fec12568358bf436c10eba5520ed2e461235a3794ab460d1884ec7c5709e"
+}

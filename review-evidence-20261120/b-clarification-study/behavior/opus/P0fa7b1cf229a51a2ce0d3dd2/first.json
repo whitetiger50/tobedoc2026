@@ -1,0 +1,89 @@
+{
+  "id": "P0fa7b1cf229a51a2ce0d3dd2",
+  "reader": "opus",
+  "session": "5e2c8967-1ebb-449f-8f6b-64e7d0e14363",
+  "attempt": "attempt-01",
+  "packet_sha256": "fffd29ce964387186a729b8f73132c1fe384d5e7c37d531c0c30440d2bc4fed4",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "452be4a60984c8e1ceda7724a45786e04b79a88e26bd2fff64fef3d2f843d833",
+  "raw_sha256": "7c8474eb60829461197e6f570a8984ef338d7122552d0edc75d2aa80a68a4142",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "Both letters are named just before the singular 'the letter', so either could be meant, and the answers differ: the housing letter needs a reply by Friday while the employer's letter needs no reply at all.",
+        "alternatives": [
+          {
+            "meaning": "The housing office letter",
+            "answer": "Yes, the housing office wants a reply by Friday."
+          },
+          {
+            "meaning": "The employer's letter",
+            "answer": "No, it is for information only, so there is no reply and no deadline."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Have you missed a tablet since then?",
+        "reason": "'Since then' could anchor to the visit three weeks ago or to the lower-dose start two weeks ago, and the one missed tablet falls between those dates, so the answer changes from yes to no.",
+        "alternatives": [
+          {
+            "meaning": "Since the last visit three weeks ago",
+            "answer": "Yes, one tablet was missed, on the evening before the lower dose began."
+          },
+          {
+            "meaning": "Since starting the lower dose two weeks ago",
+            "answer": "No, no tablets have been missed since the lower dose started."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did somebody go with you to the appointment?",
+        "reason": "Two appointments are named before the singular 'the appointment', and the facts differ: the sister went to the optician, but Taylor went to the care coordinator alone.",
+        "alternatives": [
+          {
+            "meaning": "The optician appointment",
+            "answer": "Yes, Taylor's sister went along to the optician."
+          },
+          {
+            "meaning": "The care coordinator appointment",
+            "answer": "No, Taylor went to the care coordinator alone."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "'She' could refer to Inez or to Pat, but neither expected payment, so both readings lead to the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez, Sam's sister who came to the flat, expected payment",
+            "answer": "No, Inez did not expect payment for helping."
+          },
+          {
+            "meaning": "Whether Pat, who helped at the repair café and lent the pliers, expected payment",
+            "answer": "No, Pat did not expect payment for helping."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:12.361255+00:00"
+}

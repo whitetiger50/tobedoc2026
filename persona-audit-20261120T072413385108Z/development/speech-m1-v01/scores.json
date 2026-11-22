@@ -1,0 +1,37 @@
+{
+  "kind": "descriptive_development_scores_not_final_performance",
+  "scale": "PATIENTSIM adapted Realism 1..4",
+  "cases": [
+    {
+      "blind_id": "M1-A",
+      "original_scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "arithmetic_mean": 3.5
+    },
+    {
+      "blind_id": "M1-B",
+      "original_scores": {
+        "codex": 3,
+        "claude": 2
+      },
+      "arithmetic_mean": 2.5
+    },
+    {
+      "blind_id": "M1-C",
+      "original_scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "arithmetic_mean": 3.5
+    }
+  ],
+  "overall_case_mean": 3.1666666666666665,
+  "original_reviewer_means": {
+    "codex": 3.6666666666666665,
+    "claude": 2.6666666666666665
+  },
+  "clinical_validation": "not_performed",
+  "generation_and_review": "same_model_self_judging_present_for_GPT"
+}

@@ -1,0 +1,1448 @@
+{
+  "C01": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The question asks about a specific part of the job.",
+      "interpretations": [
+        {
+          "meaning": "Preparation at work",
+          "expected_answer": "Sets up the screening and checks the sound."
+        }
+      ]
+    },
+    "2": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "There is one prescribed tablet routine on the card.",
+      "interpretations": [
+        {
+          "meaning": "Usual timing",
+          "expected_answer": "In the evening after brushing teeth."
+        }
+      ]
+    },
+    "3": {
+      "role": "material",
+      "context_sources": [
+        "Q03",
+        "F03"
+      ],
+      "rationale": "Two reminders serve the same purpose. Their current use differs.",
+      "interpretations": [
+        {
+          "meaning": "Phone alarm",
+          "expected_answer": "Yes, still uses it."
+        },
+        {
+          "meaning": "Door note",
+          "expected_answer": "No, took it down last month."
+        }
+      ]
+    },
+    "4": {
+      "role": "followup",
+      "context_sources": [
+        "Q03",
+        "Q04",
+        "F03"
+      ],
+      "rationale": "The clinician names the phone alarm.",
+      "interpretations": [
+        {
+          "meaning": "Phone alarm",
+          "expected_answer": "Yes."
+        }
+      ],
+      "target_turn": 3
+    },
+    "5": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q04",
+        "F03"
+      ],
+      "rationale": "The preceding clinician question selects the alarm. A written note also has no set time.",
+      "interpretations": [
+        {
+          "meaning": "Alarm time",
+          "expected_answer": "7:10 in the morning."
+        }
+      ]
+    },
+    "6": {
+      "role": "clear",
+      "context_sources": [
+        "F05"
+      ],
+      "rationale": "The time window and measure are stated.",
+      "interpretations": [
+        {
+          "meaning": "Hours slept",
+          "expected_answer": "About seven hours."
+        }
+      ]
+    },
+    "7": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q07",
+        "F01"
+      ],
+      "rationale": "Either shift gives the same answer about food.",
+      "interpretations": [
+        {
+          "meaning": "Early shift",
+          "expected_answer": "Yes, packs a sandwich."
+        },
+        {
+          "meaning": "Late shift",
+          "expected_answer": "Yes, packs a sandwich."
+        }
+      ]
+    },
+    "8": {
+      "role": "material",
+      "context_sources": [
+        "Q07",
+        "Q08",
+        "F04"
+      ],
+      "rationale": "The question gives equal scope to two shift types with different return trips.",
+      "interpretations": [
+        {
+          "meaning": "Early shift",
+          "expected_answer": "Takes the bus home."
+        },
+        {
+          "meaning": "Late shift",
+          "expected_answer": "Gets a lift from a coworker."
+        }
+      ]
+    },
+    "9": {
+      "role": "followup",
+      "context_sources": [
+        "Q08",
+        "Q09",
+        "F04"
+      ],
+      "rationale": "The named shift determines the trip.",
+      "interpretations": [
+        {
+          "meaning": "Late shift",
+          "expected_answer": "A coworker drops Morgan off."
+        }
+      ],
+      "target_turn": 8
+    },
+    "10": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "The symptom and time window are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Past month",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "The card supplies a specific activity away from work.",
+      "interpretations": [
+        {
+          "meaning": "Craft on days off",
+          "expected_answer": "Small clay bowls."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "The appointment preference is explicit.",
+      "interpretations": [
+        {
+          "meaning": "Clinic time",
+          "expected_answer": "Tuesday morning."
+        }
+      ]
+    }
+  },
+  "C02": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The move has one stated benefit.",
+      "interpretations": [
+        {
+          "meaning": "Benefit of the move",
+          "expected_answer": "Can walk to family."
+        }
+      ]
+    },
+    "2": {
+      "role": "material",
+      "context_sources": [
+        "Q02",
+        "F02"
+      ],
+      "rationale": "Either Wednesday stop is a plausible destination for “stay.”",
+      "interpretations": [
+        {
+          "meaning": "Book group",
+          "expected_answer": "An hour."
+        },
+        {
+          "meaning": "Visit with mother",
+          "expected_answer": "About three hours."
+        }
+      ]
+    },
+    "3": {
+      "role": "followup",
+      "context_sources": [
+        "Q02",
+        "Q03",
+        "F02"
+      ],
+      "rationale": "The destination is specified.",
+      "interpretations": [
+        {
+          "meaning": "Mother’s apartment",
+          "expected_answer": "About three hours."
+        }
+      ],
+      "target_turn": 2
+    },
+    "4": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "The question names the person and the shared activity.",
+      "interpretations": [
+        {
+          "meaning": "Shared pastime",
+          "expected_answer": "Work on a crossword."
+        }
+      ]
+    },
+    "5": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q05",
+        "F03"
+      ],
+      "rationale": "Both destinations are reached on foot.",
+      "interpretations": [
+        {
+          "meaning": "Book group",
+          "expected_answer": "Yes, walks."
+        },
+        {
+          "meaning": "Mother’s apartment",
+          "expected_answer": "Yes, walks."
+        }
+      ]
+    },
+    "6": {
+      "role": "clear",
+      "context_sources": [
+        "F05"
+      ],
+      "rationale": "The treatment period and effect are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Dry mouth on lower dose",
+          "expected_answer": "Less bothersome."
+        }
+      ]
+    },
+    "7": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "The morning wake time is known.",
+      "interpretations": [
+        {
+          "meaning": "Usual wake time",
+          "expected_answer": "Around six."
+        }
+      ]
+    },
+    "8": {
+      "role": "material",
+      "context_sources": [
+        "Q08",
+        "F04",
+        "history"
+      ],
+      "rationale": "Two plausible starting dates include different medication histories.",
+      "interpretations": [
+        {
+          "meaning": "Since the last visit",
+          "expected_answer": "Yes, once."
+        },
+        {
+          "meaning": "Since starting the lower dose",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "9": {
+      "role": "followup",
+      "context_sources": [
+        "Q08",
+        "Q09",
+        "F04"
+      ],
+      "rationale": "This gives one starting date.",
+      "interpretations": [
+        {
+          "meaning": "Since the reduction began",
+          "expected_answer": "No missed tablets."
+        }
+      ],
+      "target_turn": 8
+    },
+    "10": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q09",
+        "F04"
+      ],
+      "rationale": "The preceding clinician question explicitly concerned tablets on the current dose.",
+      "interpretations": [
+        {
+          "meaning": "Current tablet timing",
+          "expected_answer": "After supper."
+        }
+      ]
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "One instrument is recorded.",
+      "interpretations": [
+        {
+          "meaning": "Instrument",
+          "expected_answer": "Mandolin."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "Ren has one stated future discussion priority.",
+      "interpretations": [
+        {
+          "meaning": "Next visit priority",
+          "expected_answer": "Keeping the medication routine while traveling."
+        }
+      ]
+    }
+  },
+  "C03": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The work task is specified on the card.",
+      "interpretations": [
+        {
+          "meaning": "Current work",
+          "expected_answer": "Fits covers to notebooks."
+        }
+      ]
+    },
+    "2": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "The setting identifies the voice and the content sought.",
+      "interpretations": [
+        {
+          "meaning": "Voice content",
+          "expected_answer": "Describes ordinary movements, such as turning on the tap."
+        }
+      ]
+    },
+    "3": {
+      "role": "clear",
+      "context_sources": [
+        "Q02",
+        "F02"
+      ],
+      "rationale": "The question directly asks whether the named voice gives instructions.",
+      "interpretations": [
+        {
+          "meaning": "Commands",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "4": {
+      "role": "material",
+      "context_sources": [
+        "Q04",
+        "F03"
+      ],
+      "rationale": "Two sounds are explicitly active. Music has different effects on them.",
+      "interpretations": [
+        {
+          "meaning": "Commentary",
+          "expected_answer": "Yes, for as long as the music plays."
+        },
+        {
+          "meaning": "Ringing",
+          "expected_answer": "No, it continues."
+        }
+      ]
+    },
+    "5": {
+      "role": "followup",
+      "context_sources": [
+        "Q04",
+        "Q05",
+        "F03"
+      ],
+      "rationale": "The clinician specifies ringing.",
+      "interpretations": [
+        {
+          "meaning": "High ringing",
+          "expected_answer": "No."
+        }
+      ],
+      "target_turn": 4
+    },
+    "6": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q05",
+        "F03"
+      ],
+      "rationale": "The previous clinician question explicitly selected the high ringing.",
+      "interpretations": [
+        {
+          "meaning": "Location of ringing",
+          "expected_answer": "Both ears."
+        }
+      ]
+    },
+    "7": {
+      "role": "clear",
+      "context_sources": [
+        "F04"
+      ],
+      "rationale": "The material is specified.",
+      "interpretations": [
+        {
+          "meaning": "Collage material",
+          "expected_answer": "Scraps of old maps."
+        }
+      ]
+    },
+    "8": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q08",
+        "F05"
+      ],
+      "rationale": "Both callers used the mobile.",
+      "interpretations": [
+        {
+          "meaning": "Brother",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Building manager",
+          "expected_answer": "Yes."
+        }
+      ]
+    },
+    "9": {
+      "role": "material",
+      "context_sources": [
+        "Q08",
+        "Q09",
+        "F05"
+      ],
+      "rationale": "Both messages are foregrounded. Only one call has been returned.",
+      "interpretations": [
+        {
+          "meaning": "Brother",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Building manager",
+          "expected_answer": "No, not yet."
+        }
+      ]
+    },
+    "10": {
+      "role": "followup",
+      "context_sources": [
+        "Q09",
+        "Q10",
+        "F05",
+        "F06"
+      ],
+      "rationale": "The caller is named.",
+      "interpretations": [
+        {
+          "meaning": "Building manager",
+          "expected_answer": "No, not yet."
+        }
+      ],
+      "target_turn": 9
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "The reason and type of contact identify the cousin.",
+      "interpretations": [
+        {
+          "meaning": "Support contact",
+          "expected_answer": "A cousin."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "A clinic availability window is stated.",
+      "interpretations": [
+        {
+          "meaning": "Appointment availability",
+          "expected_answer": "Friday afternoons."
+        }
+      ]
+    }
+  },
+  "C04": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The purpose is common to the paperwork.",
+      "interpretations": [
+        {
+          "meaning": "Reason for bringing letters",
+          "expected_answer": "Wants help sorting out the wording."
+        }
+      ]
+    },
+    "2": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q02",
+        "F02"
+      ],
+      "rationale": "Both letters arrived the same way.",
+      "interpretations": [
+        {
+          "meaning": "Housing letter",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Employer’s letter",
+          "expected_answer": "Yes."
+        }
+      ]
+    },
+    "3": {
+      "role": "material",
+      "context_sources": [
+        "Q03",
+        "F01"
+      ],
+      "rationale": "A reply deadline exists for one letter only.",
+      "interpretations": [
+        {
+          "meaning": "Housing letter",
+          "expected_answer": "Yes, Friday."
+        },
+        {
+          "meaning": "Employer’s letter",
+          "expected_answer": "No reply is required."
+        }
+      ]
+    },
+    "4": {
+      "role": "followup",
+      "context_sources": [
+        "Q03",
+        "Q04",
+        "F01"
+      ],
+      "rationale": "The sender specifies the relevant letter.",
+      "interpretations": [
+        {
+          "meaning": "Housing letter deadline",
+          "expected_answer": "Friday."
+        }
+      ],
+      "target_turn": 3
+    },
+    "5": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "The document and action are specified.",
+      "interpretations": [
+        {
+          "meaning": "Person who helped",
+          "expected_answer": "An aunt."
+        }
+      ]
+    },
+    "6": {
+      "role": "clear",
+      "context_sources": [
+        "F03"
+      ],
+      "rationale": "There is one personally salient announcement.",
+      "interpretations": [
+        {
+          "meaning": "Announcement content",
+          "expected_answer": "The announcement about keeping the doors clear."
+        }
+      ]
+    },
+    "7": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q06",
+        "F03"
+      ],
+      "rationale": "The preceding question names a tram announcement, and the speaker cue reinforces that referent.",
+      "interpretations": [
+        {
+          "meaning": "Perceived audience for the announcement",
+          "expected_answer": "Sometimes feels it is meant for Alex personally."
+        }
+      ]
+    },
+    "8": {
+      "role": "clear",
+      "context_sources": [
+        "F04"
+      ],
+      "rationale": "The coping activity and setting are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Grounding on tram",
+          "expected_answer": "Looks out the window and names the stops."
+        }
+      ]
+    },
+    "9": {
+      "role": "clear",
+      "context_sources": [
+        "F05"
+      ],
+      "rationale": "The unit and destination are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Commuting days",
+          "expected_answer": "Three days a week."
+        }
+      ]
+    },
+    "10": {
+      "role": "material",
+      "context_sources": [
+        "Q10",
+        "F05"
+      ],
+      "rationale": "Each active route has its own boarding stop.",
+      "interpretations": [
+        {
+          "meaning": "Bus",
+          "expected_answer": "Orchard Road."
+        },
+        {
+          "meaning": "Tram",
+          "expected_answer": "Bell Square."
+        }
+      ]
+    },
+    "11": {
+      "role": "followup",
+      "context_sources": [
+        "Q10",
+        "Q11",
+        "F05"
+      ],
+      "rationale": "The route is specified.",
+      "interpretations": [
+        {
+          "meaning": "Bus boarding stop",
+          "expected_answer": "Orchard Road."
+        }
+      ],
+      "target_turn": 10
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "The time window and outcome are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Work attendance",
+          "expected_answer": "No."
+        }
+      ]
+    }
+  },
+  "C05": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The bakery role is explicit.",
+      "interpretations": [
+        {
+          "meaning": "Bakery tasks",
+          "expected_answer": "Stacks cooling trays and wraps loaves."
+        }
+      ]
+    },
+    "2": {
+      "role": "clear",
+      "context_sources": [
+        "Q01",
+        "F01"
+      ],
+      "rationale": "One workplace and one usual shift are in context.",
+      "interpretations": [
+        {
+          "meaning": "Bakery shift",
+          "expected_answer": "Morning."
+        }
+      ]
+    },
+    "3": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "The question identifies a class and a concrete activity.",
+      "interpretations": [
+        {
+          "meaning": "Dish made",
+          "expected_answer": "Lentil soup."
+        }
+      ]
+    },
+    "4": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q04",
+        "F04"
+      ],
+      "rationale": "Evening end time gives the same yes/no answer for either activity.",
+      "interpretations": [
+        {
+          "meaning": "Evening of cooking class",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Evening of swimming lesson",
+          "expected_answer": "Yes."
+        }
+      ]
+    },
+    "5": {
+      "role": "material",
+      "context_sources": [
+        "Q05",
+        "F03"
+      ],
+      "rationale": "Both activities are explicitly called classes, and their costs differ.",
+      "interpretations": [
+        {
+          "meaning": "Cooking",
+          "expected_answer": "No, it was free."
+        },
+        {
+          "meaning": "Swimming",
+          "expected_answer": "Yes."
+        }
+      ]
+    },
+    "6": {
+      "role": "followup",
+      "context_sources": [
+        "Q05",
+        "Q06",
+        "F03"
+      ],
+      "rationale": "The activity is named.",
+      "interpretations": [
+        {
+          "meaning": "Swimming lesson",
+          "expected_answer": "Yes."
+        }
+      ],
+      "target_turn": 5
+    },
+    "7": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q06",
+        "F03"
+      ],
+      "rationale": "The immediately preceding clinician question singles out swimming.",
+      "interpretations": [
+        {
+          "meaning": "Swimming venue",
+          "expected_answer": "The Willow Street pool."
+        }
+      ]
+    },
+    "8": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "Asks for the known effect on the eyes.",
+      "interpretations": [
+        {
+          "meaning": "Eye symptoms on drops",
+          "expected_answer": "Less gritty after work."
+        }
+      ]
+    },
+    "9": {
+      "role": "material",
+      "context_sources": [
+        "Q09",
+        "F05"
+      ],
+      "rationale": "Both are medicines on the list and are kept in different rooms.",
+      "interpretations": [
+        {
+          "meaning": "Eye drops",
+          "expected_answer": "No, on the bedside table."
+        },
+        {
+          "meaning": "Tablets",
+          "expected_answer": "Yes, in the kitchen cabinet."
+        }
+      ]
+    },
+    "10": {
+      "role": "followup",
+      "context_sources": [
+        "Q09",
+        "Q10",
+        "F05"
+      ],
+      "rationale": "The clinician names the tablets.",
+      "interpretations": [
+        {
+          "meaning": "Tablets",
+          "expected_answer": "In the kitchen cabinet."
+        }
+      ],
+      "target_turn": 9
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "The time and day type are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Usual sleep onset",
+          "expected_answer": "Around ten."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "There is one stated future discussion priority.",
+      "interpretations": [
+        {
+          "meaning": "Next visit topic",
+          "expected_answer": "Making time for swimming around work."
+        }
+      ]
+    }
+  },
+  "C06": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The current repair project is explicit.",
+      "interpretations": [
+        {
+          "meaning": "Repair project",
+          "expected_answer": "The bent minute hand on the kitchen clock."
+        }
+      ]
+    },
+    "2": {
+      "role": "material",
+      "context_sources": [
+        "Q02",
+        "F02"
+      ],
+      "rationale": "Both women are named as helpers. Only Inez came to the flat.",
+      "interpretations": [
+        {
+          "meaning": "Inez",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Pat",
+          "expected_answer": "No, helped at the café."
+        }
+      ]
+    },
+    "3": {
+      "role": "followup",
+      "context_sources": [
+        "Q02",
+        "Q03",
+        "F02"
+      ],
+      "rationale": "The question names Pat.",
+      "interpretations": [
+        {
+          "meaning": "Pat",
+          "expected_answer": "No."
+        }
+      ],
+      "target_turn": 2
+    },
+    "4": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "The helper, action and setting specify a single loan.",
+      "interpretations": [
+        {
+          "meaning": "Loaned tool",
+          "expected_answer": "Small pliers."
+        }
+      ]
+    },
+    "5": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q05",
+        "F03"
+      ],
+      "rationale": "The two helpers had the same expectation about payment.",
+      "interpretations": [
+        {
+          "meaning": "Inez",
+          "expected_answer": "No."
+        },
+        {
+          "meaning": "Pat",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "6": {
+      "role": "clear",
+      "context_sources": [
+        "F04"
+      ],
+      "rationale": "The question specifies a measure and weeknights.",
+      "interpretations": [
+        {
+          "meaning": "Usual weeknight sleep",
+          "expected_answer": "About six hours."
+        }
+      ]
+    },
+    "7": {
+      "role": "material",
+      "context_sources": [
+        "Q07",
+        "F05"
+      ],
+      "rationale": "There are two separate outages with different durations.",
+      "interpretations": [
+        {
+          "meaning": "Monday outage",
+          "expected_answer": "About ten minutes."
+        },
+        {
+          "meaning": "Thursday outage",
+          "expected_answer": "Most of the afternoon."
+        }
+      ]
+    },
+    "8": {
+      "role": "followup",
+      "context_sources": [
+        "Q07",
+        "Q08",
+        "F05"
+      ],
+      "rationale": "The clinician names one day.",
+      "interpretations": [
+        {
+          "meaning": "Thursday outage",
+          "expected_answer": "Most of the afternoon."
+        }
+      ],
+      "target_turn": 7
+    },
+    "9": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q08",
+        "F05"
+      ],
+      "rationale": "The preceding clinician question selects Thursday and the radio.",
+      "interpretations": [
+        {
+          "meaning": "Thursday’s radio program",
+          "expected_answer": "A music request show."
+        }
+      ]
+    },
+    "10": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "The location, period and experience are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Feeling watched at home",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "A single aid is recorded.",
+      "interpretations": [
+        {
+          "meaning": "Medication aid",
+          "expected_answer": "A weekly tablet organizer."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "The object and day identify the plan.",
+      "interpretations": [
+        {
+          "meaning": "Saturday plan",
+          "expected_answer": "Take it back to the repair café."
+        }
+      ]
+    }
+  },
+  "C07": {
+    "1": {
+      "role": "material",
+      "context_sources": [
+        "Q01",
+        "F01"
+      ],
+      "rationale": "Both devices make background noise. They run for different durations.",
+      "interpretations": [
+        {
+          "meaning": "Fan",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Speaker",
+          "expected_answer": "No, it stops after twenty minutes."
+        }
+      ]
+    },
+    "2": {
+      "role": "followup",
+      "context_sources": [
+        "Q01",
+        "Q02",
+        "F01"
+      ],
+      "rationale": "The clinician names the speaker.",
+      "interpretations": [
+        {
+          "meaning": "Speaker",
+          "expected_answer": "No, it has a twenty-minute timer."
+        }
+      ],
+      "target_turn": 1
+    },
+    "3": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q02",
+        "F01"
+      ],
+      "rationale": "The preceding clinician question selects the speaker.",
+      "interpretations": [
+        {
+          "meaning": "Speaker location",
+          "expected_answer": "On the windowsill beside the bed."
+        }
+      ]
+    },
+    "4": {
+      "role": "clear",
+      "context_sources": [
+        "F02"
+      ],
+      "rationale": "This asks for a usual count.",
+      "interpretations": [
+        {
+          "meaning": "Night waking",
+          "expected_answer": "Once."
+        }
+      ]
+    },
+    "5": {
+      "role": "clear",
+      "context_sources": [
+        "F03"
+      ],
+      "rationale": "The receiving task is specified.",
+      "interpretations": [
+        {
+          "meaning": "Warehouse task",
+          "expected_answer": "Checks the boxes against a packing slip."
+        }
+      ]
+    },
+    "6": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q06",
+        "F05"
+      ],
+      "rationale": "The same mode of transport was used for both visits.",
+      "interpretations": [
+        {
+          "meaning": "Optician",
+          "expected_answer": "Yes."
+        },
+        {
+          "meaning": "Care coordinator",
+          "expected_answer": "Yes."
+        }
+      ]
+    },
+    "7": {
+      "role": "clear",
+      "context_sources": [
+        "background"
+      ],
+      "rationale": "The usual number of shifts is stated in the background.",
+      "interpretations": [
+        {
+          "meaning": "Weekly shifts",
+          "expected_answer": "Three."
+        }
+      ]
+    },
+    "8": {
+      "role": "material",
+      "context_sources": [
+        "Q08",
+        "F04"
+      ],
+      "rationale": "Two completed appointments are active and attendance differed.",
+      "interpretations": [
+        {
+          "meaning": "Optician",
+          "expected_answer": "Yes, Taylor’s sister."
+        },
+        {
+          "meaning": "Care coordinator",
+          "expected_answer": "No, went alone."
+        }
+      ]
+    },
+    "9": {
+      "role": "followup",
+      "context_sources": [
+        "Q08",
+        "Q09",
+        "F04"
+      ],
+      "rationale": "The clinician identifies the care coordinator appointment.",
+      "interpretations": [
+        {
+          "meaning": "Care coordinator",
+          "expected_answer": "No."
+        }
+      ],
+      "target_turn": 8
+    },
+    "10": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "A specific support from the named provider is known.",
+      "interpretations": [
+        {
+          "meaning": "Reminder method",
+          "expected_answer": "A text reminder."
+        }
+      ]
+    },
+    "11": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "The leisure activity is explicit.",
+      "interpretations": [
+        {
+          "meaning": "Radio preference",
+          "expected_answer": "Baseball."
+        }
+      ]
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "The card gives a preference relative to work.",
+      "interpretations": [
+        {
+          "meaning": "Clinic scheduling preference",
+          "expected_answer": "A day off work."
+        }
+      ]
+    }
+  },
+  "C08": {
+    "1": {
+      "role": "clear",
+      "context_sources": [
+        "F01"
+      ],
+      "rationale": "The question asks about a defined work task.",
+      "interpretations": [
+        {
+          "meaning": "Incoming item processing",
+          "expected_answer": "Checks the number and makes a matching paper label."
+        }
+      ]
+    },
+    "2": {
+      "role": "same_answer",
+      "context_sources": [
+        "Q02",
+        "F02"
+      ],
+      "rationale": "Neither replacement carried a charge.",
+      "interpretations": [
+        {
+          "meaning": "Replacement badge",
+          "expected_answer": "No."
+        },
+        {
+          "meaning": "Replacement key",
+          "expected_answer": "No."
+        }
+      ]
+    },
+    "3": {
+      "role": "clear",
+      "context_sources": [
+        "F04"
+      ],
+      "rationale": "One usual medication timing is specified.",
+      "interpretations": [
+        {
+          "meaning": "Tablet timing",
+          "expected_answer": "With the evening meal."
+        }
+      ]
+    },
+    "4": {
+      "role": "material",
+      "context_sources": [
+        "Q04",
+        "F02"
+      ],
+      "rationale": "The two replaced objects had different return histories.",
+      "interpretations": [
+        {
+          "meaning": "Old badge",
+          "expected_answer": "Yes, it was handed back."
+        },
+        {
+          "meaning": "Old locker key",
+          "expected_answer": "No, it was lost."
+        }
+      ]
+    },
+    "5": {
+      "role": "followup",
+      "context_sources": [
+        "Q04",
+        "Q05",
+        "F02"
+      ],
+      "rationale": "The question explicitly names the badge.",
+      "interpretations": [
+        {
+          "meaning": "Old ID badge",
+          "expected_answer": "Yes."
+        }
+      ],
+      "target_turn": 4
+    },
+    "6": {
+      "role": "context_resolved",
+      "context_sources": [
+        "Q05",
+        "F03"
+      ],
+      "rationale": "The preceding clinician question singles out the replacement badge.",
+      "interpretations": [
+        {
+          "meaning": "New badge attachment",
+          "expected_answer": "A blue lanyard."
+        }
+      ]
+    },
+    "7": {
+      "role": "clear",
+      "context_sources": [
+        "F05"
+      ],
+      "rationale": "The plant and location have one known answer.",
+      "interpretations": [
+        {
+          "meaning": "Plant",
+          "expected_answer": "Mint."
+        }
+      ]
+    },
+    "8": {
+      "role": "clear",
+      "context_sources": [
+        "F06"
+      ],
+      "rationale": "The measure and current period are explicit.",
+      "interpretations": [
+        {
+          "meaning": "Current sleep duration",
+          "expected_answer": "Roughly eight hours."
+        }
+      ]
+    },
+    "9": {
+      "role": "clear",
+      "context_sources": [
+        "F07"
+      ],
+      "rationale": "The route and requested person are specific.",
+      "interpretations": [
+        {
+          "meaning": "Walking companion",
+          "expected_answer": "The friend who shares the flat."
+        }
+      ]
+    },
+    "10": {
+      "role": "material",
+      "context_sources": [
+        "Q10",
+        "F08"
+      ],
+      "rationale": "Each change has a different origin.",
+      "interpretations": [
+        {
+          "meaning": "Shorter shifts",
+          "expected_answer": "No, the supervisor suggested them."
+        },
+        {
+          "meaning": "Later start",
+          "expected_answer": "Yes, Cameron requested it."
+        }
+      ]
+    },
+    "11": {
+      "role": "followup",
+      "context_sources": [
+        "Q10",
+        "Q11",
+        "F08"
+      ],
+      "rationale": "The question selects shift length.",
+      "interpretations": [
+        {
+          "meaning": "Shorter shifts",
+          "expected_answer": "No, the supervisor suggested them."
+        }
+      ],
+      "target_turn": 10
+    },
+    "12": {
+      "role": "clear",
+      "context_sources": [
+        "F08"
+      ],
+      "rationale": "One ongoing preference is specified.",
+      "interpretations": [
+        {
+          "meaning": "Preference at next review",
+          "expected_answer": "Keep starting later."
+        }
+      ]
+    }
+  }
+}

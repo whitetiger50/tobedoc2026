@@ -1,0 +1,132 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "대체로 질문에 맞는 환자 반응이 유지되지만, P06은 경험 순간의 대처를 묻는 질문에 이전 직업 설명을 그대로 반복하여 답하지 않는다. 이 명확한 미대응은 한 턴에 국한되며, 나머지 생활·경험·진료 목표에 관한 대화는 유지된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "context_refs": ["turn:D06", "turn:P03", "fact:coping"]
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+      "context_refs": ["turn:D08", "fact:goal"]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "직업·동거·경험·수면에 관한 진술은 제공된 사실과 일치하며, 근거 없는 사실 보충은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요."
+        }
+      ],
+      "context_refs": ["fact:living", "fact:work", "fact:symptom", "fact:pattern", "fact:sleep"]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 경험이 생긴 순간의 대처라는 직접 질문에 답하지 않고, 무관한 직업 설명만 제시한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D06", "turn:P03", "fact:coping"]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 진술과의 자기모순은 없다. P06의 문제는 현재 질문 대상의 누락으로 질문대응 축에 반영하며, 별도의 연결 결함은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요."
+        }
+      ],
+      "context_refs": ["turn:P01", "turn:D05", "fact:pattern"]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현을 유지한다. 역할 설명이나 보고서식 대행, 별도로 확인되는 형식 반복 문제는 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요."
+        }
+      ],
+      "context_refs": ["turn:D01", "patient_profile.self_understanding", "communication.expression"]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D03", "turn:D06", "fact:work", "fact:coping"],
+      "function": "unclear",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "낮 시간의 일을 설명했던 내용이 순간적인 대처를 묻는 새 질문의 답을 대신한다. 반복 기능의 불명확함이 아니라, 대처에 대한 반응이 전혀 없다는 관계가 문제다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "다 큰 아들과 함께 살고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D02", "turn:D04", "fact:living"],
+      "function": "동거인 재확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 동거인을 명시적으로 다시 확인했으므로 동일한 답변은 현재 질문에 직접 대응한다. 새 질문 대상을 대체하거나 설명을 불필요하게 재시작하지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요. 다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "퇴근길 버스에 사람이 많으면 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        }
+      ],
+      "context_refs": ["turn:D05", "fact:pattern", "fact:symptom"],
+      "function": "경험 발생 상황 설명",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "경험이 생기는 상황을 묻는 질문에 맞춰 발생 조건과 해당 경험을 재진술한다. 질문의 새 대상을 누락하거나 대화를 정체시키지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "archive": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/share/poster-local-20261117/poster-local-20261117.zip",
+  "file_count": 96,
+  "archive_bytes": 314124,
+  "sha256": "97e5a76689304b6de6223822353f246ddf6d2fc438dde0aeef7f2ec5446df3a8",
+  "fresh_extracted_copy_reproduced_results_byte_identical": true,
+  "offline_checks": [
+    {
+      "command": [
+        "scripts/poster_local_study.py",
+        "prepare"
+      ],
+      "exit_code": 0,
+      "output": "Frozen 120 requests; no inference.\n"
+    },
+    {
+      "command": [
+        "scripts/analyze_poster_local_pilot.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"interaction_bounds\": [0, 0.25], \"explicit_minus_category_bounds\": [0, 0.25], \"B_by_condition\": {\"C0\": {\"no\": 2, \"uncertain\": 2}, \"C1\": {\"no\": 4}, \"C2\": {\"no\": 4}, \"C3\": {\"no\": 4}, \"C4\": {\"no\": 3, \"uncertain\": 1}, \"C5\": {\"no\": 4}}, \"quote_pairs_verified\": 24}\n"
+    },
+    {
+      "command": [
+        "scripts/audit_poster_pilot_facts.py"
+      ],
+      "exit_code": 0,
+      "output": "[{'condition': 'C0', 'matched_expressions': 11, 'total_target_expressions': 12}, {'condition': 'C1', 'matched_expressions': 11, 'total_target_expressions': 12}, {'condition': 'C2', 'matched_expressions': 11, 'total_target_expressions': 12}, {'condition': 'C3', 'matched_expressions': 10, 'total_target_expressions': 12}, {'condition': 'C4', 'matched_expressions': 11, 'total_target_expressions': 12}, {'condition': 'C5', 'matched_expressions': 10, 'total_target_expressions': 12}]\n"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_poster_local_pilot.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_exact_ordered_adjacent_evidence_required (test_poster_local_pilot.PilotAuditTests.test_exact_ordered_adjacent_evidence_required) ... ok\ntest_normal_instruction_change_is_subtracted (test_poster_local_pilot.PilotAuditTests.test_normal_instruction_change_is_subtracted) ... ok\ntest_unknowns_do_not_imply_no_effect (test_poster_local_pilot.PilotAuditTests.test_unknowns_do_not_imply_no_effect) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+    }
+  ],
+  "model_inference_calls_during_recheck": 0
+}

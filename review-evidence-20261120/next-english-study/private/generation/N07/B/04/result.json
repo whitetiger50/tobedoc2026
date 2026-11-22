@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "B",
+  "turn": 4,
+  "question": "Can you pick it up again easily?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7580-80c1-d7dd70645c48",
+  "raw": "The bike, usually, yes. Reading takes a bit longer—I have to find my place, then read back a few lines to get what it was about again. The paper helps me keep the line, though.",
+  "raw_sha256": "6ee8a628130b5de32bbaf43ffc1a53b79833da4142478c74d965f69e76ed8834",
+  "request_sha256": "3405857197355739ae3326a3d3ddd5e77bf9dab4747a2b6a9bd4eb03d4e3bddd",
+  "started_utc": "2026-11-20T21:00:10.985494+00:00",
+  "completed_utc": "2026-11-20T21:00:16.230971+00:00",
+  "usage": {
+    "input_tokens": 31760,
+    "cached_input_tokens": 17536,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 231,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "217b653f64221c8f435e0af3e3533be17d322393cb38bf239003f9abf300c551",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ef14d0fbfd45209923ac8afa3f6d413211c200a82e5f2a500c94bacdab1ea3d4"
+}

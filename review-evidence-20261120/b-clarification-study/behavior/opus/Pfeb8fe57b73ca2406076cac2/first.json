@@ -1,0 +1,97 @@
+{
+  "id": "Pfeb8fe57b73ca2406076cac2",
+  "reader": "opus",
+  "session": "a991af58-3133-4bb2-992e-0b4399badc51",
+  "attempt": "attempt-01",
+  "packet_sha256": "e8bf3da776b7c14deb3fc182585c2059a724b9e33549b75894501fc08e6b5c61",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "03bc40616278a01c8c69c5495b5469d87e748caf84cfc0da4e40ae8fe63d88e1",
+  "raw_sha256": "19c82ce973053f735e2c61eb3abdfd95ec54b7e7c43d498ff86487e9038b51e8",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "The question names both the book group and the visit with Mom, and Ren stays about one hour at the book group but about three hours with Mom, so the answer depends on which activity is meant.",
+        "alternatives": [
+          {
+            "meaning": "How long Ren usually stays at the Wednesday book group.",
+            "answer": "About an hour at the book group."
+          },
+          {
+            "meaning": "How long Ren usually stays when visiting Mom on Wednesdays.",
+            "answer": "About three hours with Mom, usually doing a crossword together."
+          },
+          {
+            "meaning": "How long Ren is usually out for both Wednesday activities combined.",
+            "answer": "About four hours in total: an hour at the book group and about three with Mom."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "The pronoun 'she' could mean Inez or Pat, since both were just named, but neither expected payment, so the reply is materially the same.",
+        "alternatives": [
+          {
+            "meaning": "Whether Sam's sister Inez expected to be paid for helping at the flat.",
+            "answer": "No, Inez didn't expect any payment."
+          },
+          {
+            "meaning": "Whether Pat from the repair café expected to be paid for helping and lending the pliers.",
+            "answer": "No, Pat didn't expect any payment."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did you go to the appointment by bus?",
+        "reason": "'The appointment' could mean the optician or the care coordinator visit, but Taylor took the bus to both, so the answer is the same either way.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor took the bus to the optician appointment.",
+            "answer": "Yes, Taylor went to the optician by bus."
+          },
+          {
+            "meaning": "Whether Taylor took the bus to the care coordinator appointment.",
+            "answer": "Yes, Taylor went to the care coordinator by bus."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "After both eye drops and daily tablets are mentioned, 'the medicine' could mean either or both, and the drops stay on the bedside table while the tablets are in the kitchen cabinet, so the factual answer differs.",
+        "alternatives": [
+          {
+            "meaning": "Whether the daily tablets for schizophrenia are kept in the kitchen.",
+            "answer": "Yes, the tablets are kept in the kitchen cabinet."
+          },
+          {
+            "meaning": "Whether the prescribed eye drops are kept in the kitchen.",
+            "answer": "No, the eye drops are kept on the bedside table."
+          },
+          {
+            "meaning": "Whether all of the listed medicines (drops and tablets) are kept in the kitchen.",
+            "answer": "Only partly: the tablets are in the kitchen cabinet, but the drops are on the bedside table."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:59.148843+00:00"
+}

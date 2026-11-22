@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 10,
+  "question": "What do you do when two things need your attention at the same time?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Well, sometimes I turn to the second thing and leave the first half done—that’s where I lose my place. If my housemate’s there, I’ll ask them to remind me what’s still waiting. It helps to finish one thing first, though I don’t always notice I’ve switched until I’m looking for something else. Like the bus card—the bibs were ready, but I’d stopped thinking about picking them up.”",
+  "raw_sha256": "b93c86c8fc90ee1aa942d27dedbf9221e876b65fb86e46d999ddeacd864dd043",
+  "request_sha256": "5ba07f9f953613ac35b68c4881caac3fc6b2409091fd8b2f4b250f99931c6841",
+  "started_utc": "2026-11-20T20:42:24.116227+00:00",
+  "completed_utc": "2026-11-20T20:42:30.030257+00:00",
+  "usage": {
+    "input_tokens": 81774,
+    "cached_input_tokens": 71296,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 914,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4dedc3db9bb0de05c59a0d7b823e6cbda762389a418237738ee88a089632819d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0fa1f7206f09f5725beaf7342537cf23f79750d3f878b2c931a5e967a7ff28bd"
+}

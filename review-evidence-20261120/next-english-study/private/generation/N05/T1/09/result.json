@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T1",
+  "turn": 9,
+  "question": "I was asking about medication. When does taking it fit into your day?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-c884-7b41-96a4-2b6ee2555cfd",
+  "raw": "I take it after my evening meal.",
+  "raw_sha256": "d2af13ea51d54301c965f5094728325744dbee4d223e7d0186a83282834fd8dc",
+  "request_sha256": "7baaae8b4372612bf2e27649b874acd5a2f2253fed036d201d7b4a0723c9958d",
+  "started_utc": "2026-11-20T21:02:42.730517+00:00",
+  "completed_utc": "2026-11-20T21:02:46.051900+00:00",
+  "usage": {
+    "input_tokens": 7390,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "798437734c366562e20606a949ba4a9f58ca02bd42977698ff1a1eb0cd20b06c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cf1f4a22dd6b66ae94c6d8c8ed45567144fac7367391eb9e428aa85daa50d9bc"
+}

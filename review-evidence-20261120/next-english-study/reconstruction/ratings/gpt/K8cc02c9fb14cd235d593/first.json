@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T21:19:33.491369+00:00",
+  "attempt": "attempt-01",
+  "id": "K8cc02c9fb14cd235d593",
+  "reader": "gpt",
+  "session": "01a1fad4-1573-7723-a97f-758728ad3949",
+  "packet_sha256": "5d27a52d9a8b4961271216b35dbcdf102f59319e326ba6590eec42852a84d5aa",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "6c9aa63f73f879284d4dfdc656884768160d035257cafb352bd5aefdb1e5468b",
+  "raw_sha256": "653bb453de5e76d8cb47ea460587faa02c71f2b54ddfe7002c88e756ca73bf99",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient prefers a shorter afternoon visit rather than staying through dinner, linking this preference to difficulty following conversation when tired.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "Afternoon would suit me best—a shorter visit with my sister, rather than staying through dinner.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "conversation is harder to follow when I’m tired.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient explicitly says they usually return to sleep after waking around dawn.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "Some mornings I wake once around dawn, earlier than I’d like, but I usually get back to sleep.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

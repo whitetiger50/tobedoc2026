@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 11,
+  "question": "How has taking your usual treatment gone in the last couple of weeks?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "I’ve been taking my tablets regularly, as usual. That’s partly why I wanted to bring up the voice—I’m concerned it’s come back even though I’ve kept taking them.",
+  "raw_sha256": "ba4a12f4b74e08df09db2f8500b8a23916f2d81e8e2a38c9b0481f048e4bb152",
+  "request_sha256": "805d4f093d824481322ef5745f361c01a93a3076f5fc1680eb290b1968cac48e",
+  "started_utc": "2026-11-20T20:42:40.983124+00:00",
+  "completed_utc": "2026-11-20T20:42:44.887197+00:00",
+  "usage": {
+    "input_tokens": 88462,
+    "cached_input_tokens": 77952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 538,
+    "reasoning_output_tokens": 21
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "94afce3dc4943a743d99214590148eff46f50964bd4096f257b8be53e05ccb7d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "06db226b33d5f20d94455c08804d80bf8820870243816c5320cfa49ab9718ffc"
+}

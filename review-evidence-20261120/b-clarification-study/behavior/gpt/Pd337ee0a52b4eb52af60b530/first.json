@@ -1,0 +1,89 @@
+{
+  "id": "Pd337ee0a52b4eb52af60b530",
+  "reader": "gpt",
+  "session": "01a1fc44-ca83-7161-bd4c-d45d9656fc07",
+  "attempt": "attempt-01",
+  "packet_sha256": "3dc23e10ac4d1ebdd07f0b85742a7ad40791731fb68185509708cea894cacc9f",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "8198f387505ad852fb4aeed888724851a93920b561fcecfdf0448f8291149276",
+  "raw_sha256": "226195bdfdff4f8f20c481abd4e280784065fb92e2a3eae5ff08444d5e1377c4",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did you call him back?",
+        "reason": "Both men remain live referents for “him,” and the earlier clarification request was not resolved, while their callback statuses differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ari called the brother back.",
+            "answer": "Ari called the brother back."
+          },
+          {
+            "meaning": "Whether Ari called the building manager back.",
+            "answer": "Ari has not called the building manager back."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "the appointment",
+        "reason": "Either appointment could be intended, but Taylor took the bus to both, so the replies are materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether Taylor went to the optician by bus.",
+            "answer": "Taylor took the bus to the optician."
+          },
+          {
+            "meaning": "Whether Taylor went to the care coordinator by bus.",
+            "answer": "Taylor took the bus to the care coordinator."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Did she come over to your flat?",
+        "reason": "Both Inez and Pat are live referents for “she,” but only Inez came to Sam’s flat.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez came to Sam’s flat.",
+            "answer": "Inez came to the flat to help last week."
+          },
+          {
+            "meaning": "Whether Pat came to Sam’s flat.",
+            "answer": "Pat helped at the café and did not come to the flat."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "Either letter could be intended by “it,” but both arrived by post, making the replies materially equivalent.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter arrived by post.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "Whether the employer’s letter arrived by post.",
+            "answer": "The employer’s letter arrived by post."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T04:02:27.956982+00:00"
+}

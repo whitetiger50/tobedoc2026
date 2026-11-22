@@ -1,0 +1,86 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 환자 말은 간결하고 자연스러우며 프로필과 맞다. 하지만 P02에서 환자가 아닌 설정 설명자 시점으로 3인칭 메타 문장을 말해 역할이 명백히 깨졌고, 이 때문에 대화의 사실감이 눈에 띄게 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 고정 사실(동거, 직업, 아침식사, 증상 패턴, 대처, 수면, 목표)과 일치하고, 무근거로 구체화한 내용이나 모순은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P02는 형식이 부적절하지만 '언니와 함께 산다'는 질문 대상에 직접 답한다. 형식 문제는 연속성과 표현 축에서 다루며, 나머지 턴도 각 질문에 맞게 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    },
+    "continuity": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P01에서 1인칭 환자로 말하다가 P02에서 '이 환자는 … 설정되어 있다'라는 외부 시점 메타 진술로 바뀌어 역할과 문맥이 명백히 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D02"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 환자 당사자의 표현이 아니라 설정 항목을 보고서식으로 대신 말한 역할 설명이다. 다른 턴은 자연스러운 일상 구어체다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 언니와 함께 사는 것으로 설정되어 있다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

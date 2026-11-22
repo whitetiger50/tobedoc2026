@@ -1,0 +1,46 @@
+{
+  "verified_input_pairs": 14,
+  "anchors_verified": 73,
+  "anchor_only_repairs_by_field": {
+    "TANGENTIALITY": 3,
+    "response": 1,
+    "POVERTY_OF_CONTENT": 2,
+    "UNCLEAR_REFERENCE": 1,
+    "DERAILMENT": 3
+  },
+  "under_10_words_quality_check_only": {
+    "DERAILMENT": {
+      "technical_missing": 1,
+      "absent": 3,
+      "present": 2
+    },
+    "POVERTY_OF_CONTENT": {
+      "present": 6
+    },
+    "TANGENTIALITY": {
+      "present": 4,
+      "absent": 2
+    },
+    "UNCLEAR_REFERENCE": {
+      "absent": 5,
+      "present": 1
+    }
+  },
+  "groups": {
+    "Q2": {
+      "n": 7,
+      "all_four_definite": 6,
+      "none_definite": 0,
+      "ambiguous_type_options": [],
+      "also_requested_clarification": 4
+    },
+    "Q3": {
+      "n": 7,
+      "all_four_definite": 5,
+      "none_definite": 0,
+      "ambiguous_type_options": [],
+      "also_requested_clarification": 5
+    }
+  },
+  "reader_model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+}

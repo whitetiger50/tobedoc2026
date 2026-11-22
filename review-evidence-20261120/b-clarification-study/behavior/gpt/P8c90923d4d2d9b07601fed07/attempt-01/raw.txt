@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "the appointment",
+    "reason": "Either appointment could be intended, but Taylor took the bus to both.",
+    "alternatives": [
+      {
+        "meaning": "The optician appointment.",
+        "answer": "Taylor travelled to the optician by bus."
+      },
+      {
+        "meaning": "The care coordinator appointment.",
+        "answer": "Taylor travelled to the care coordinator by bus."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "that day",
+    "reason": "The preceding question and answer establish Thursday as the current topic.",
+    "alternatives": [
+      {
+        "meaning": "What Sam was listening to when reception failed on Thursday.",
+        "answer": "Sam was listening to a music request show."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "after your shift",
+    "reason": "Early and late shifts remain possible targets with different transport arrangements, even though a direct conditional explanation could cover both.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home after an early shift.",
+        "answer": "Morgan takes the bus home."
+      },
+      {
+        "meaning": "How Morgan gets home after a late shift.",
+        "answer": "A coworker drops Morgan off."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "Either man could be intended, but both rang Ari’s mobile; the different callback histories do not change which phone they contacted.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari’s brother rang Ari’s mobile.",
+        "answer": "Ari’s brother rang Ari’s mobile."
+      },
+      {
+        "meaning": "Whether Mr. Bell rang Ari’s mobile.",
+        "answer": "Mr. Bell rang Ari’s mobile."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 질문에 맞게 간결하고 자연스러운 환자 시점으로 답했고, 페르소나의 증상과 대처, 목표가 일관됩니다. 다만 묻지 않았고 프로필에도 없는 '3층' 정보를 덧붙였고, P05에서 P01의 표현을 거의 그대로 반복해 다소 정형적인 느낌이 있습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요."
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "거주 형태에 대해 프로필에 없는 '3층'이라는 구체 사실을 새로 확정했으나, 핵심 사실과 모순되지 않는 경미한 이탈입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05의 반복은 발생 시점을 묻는 새 질문에 대한 답이라 연결상 문제로 보지 않았고, 자기모순은 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P05가 P01의 문구를 거의 그대로 되풀이해 국소적으로 정형적인 반복이 보입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05"
+      ]
+    }
+  }
+}

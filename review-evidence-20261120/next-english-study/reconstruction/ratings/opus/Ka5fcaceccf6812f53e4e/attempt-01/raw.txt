@@ -1,0 +1,44 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient says that on Wednesday, at the same shelter, they did not feel watched. This means the sense of being watched was absent.",
+    "citations": [
+      {
+        "turn": 11,
+        "role": "patient",
+        "quote": "on Wednesday I waited at the same place and didn’t feel watched",
+        "supports": "A"
+      },
+      {
+        "turn": 3,
+        "role": "patient",
+        "quote": "I felt fine waiting there on Wednesday",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says they wondered whether the people recognized them or were just looking for the bus. They also say they don't know what they were looking at, so they remain unsure.",
+    "citations": [
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "Afterward I wondered whether they recognized me, or were just looking for the bus.",
+        "supports": "B"
+      },
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "I don’t really know what they were looking at",
+        "supports": "B"
+      },
+      {
+        "turn": 5,
+        "role": "patient",
+        "quote": "I’m not sure it meant anything",
+        "supports": "B"
+      }
+    ]
+  }
+}

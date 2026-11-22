@@ -1,0 +1,109 @@
+{
+  "id": "Vd0f16747c770646534c2e7cb",
+  "reader": "gpt",
+  "session": "01a1fc4a-781a-74e2-967b-00918d8934ee",
+  "attempt": "attempt-01",
+  "packet_sha256": "5209bec490d9ebf31860aea20f56f09ff83a5b0a651fc8d9d45858c89e868abd",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "ac8934784fdcb5b2696ea8f373e7b21fc04a665e09aae70cd2047373805fbc78",
+  "provider_sha256": "2780cf231f5b8d6b82232914d6b58b85b1b2c10a05ecd4820cc587beeca985ec",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+        "reason": "The reply explicitly identifies the boarding stop for each form of transport.",
+        "A": {
+          "state": "supported",
+          "quote": "the number 8 bus at Orchard Road"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "the tram at Bell Square."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+        "reason": "The reply clearly gives the expected duration for each outage.",
+        "A": {
+          "state": "supported",
+          "quote": "On Monday it was about ten minutes."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "Thursday it was out for most of the afternoon"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The fan stays on all night. The speaker switches off after twenty minutes on a timer.",
+        "reason": "The reply affirms that the fan stays on all night and states that the speaker stops after twenty minutes.",
+        "A": {
+          "state": "supported",
+          "quote": "The fan stays on all night."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The speaker switches off after twenty minutes on a timer."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+        "reason": "The reply locates the tablets in the kitchen cabinet and the eye drops on the bedside table.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:33.132031+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 5,
+  "question": "Thinking about the help you got from Inez and from Pat, did she expect you to pay her?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-067c-7580-b077-8a964b7d3b7b",
+  "raw": "No, neither Inez nor Pat expected me to pay. They were just helping me out.",
+  "raw_sha256": "35103aebb99032c821e10a71cf0b8cfbaf73dde7aed254c5706ee2494cb35515",
+  "request_sha256": "2c482c9f2ca890867b374094e859f0d5136b64ee62b0a667a63eaede3fba84e6",
+  "started_utc": "2026-11-21T03:42:44.737513+00:00",
+  "completed_utc": "2026-11-21T03:42:50.874837+00:00",
+  "usage": {
+    "input_tokens": 6195,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 88,
+    "reasoning_output_tokens": 63
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4cb4cbea35be4dd3bab82ba4724e7f5106847b6853fca6a0c4875428cb896f32",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a34111d7664df0ed66f9e9ac57bf21871ee82d4f358d327ece2bb5aab8d3fce4"
+}

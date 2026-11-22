@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "T2",
+  "turn": 2,
+  "question": "Which shift do you usually work there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-8f8c-77a0-82c1-023a0f0adeca",
+  "raw": "I usually work the morning shift.",
+  "raw_sha256": "8b7cbc53b6f781e7babe4111e3de2fb134534719b8db29cd936c23fdee2fafa3",
+  "request_sha256": "eef5e236b479fc7c52790e38bbad15948db26601a58cf7ef1c47ede65ad46f33",
+  "started_utc": "2026-11-21T03:40:03.234010+00:00",
+  "completed_utc": "2026-11-21T03:40:11.690240+00:00",
+  "usage": {
+    "input_tokens": 6024,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "afd714c19ca7fdf7aee695a4977845945e17a90ddb85d50f657ae92c84f69c93",
+  "https_fallback": false,
+  "websocket_handshake_retries": 3,
+  "trace_sha256": "ec6fc801cbaa8e44ba5716a306b808939fc4a44b1ba91c3dac3ef27f4297a6e4"
+}

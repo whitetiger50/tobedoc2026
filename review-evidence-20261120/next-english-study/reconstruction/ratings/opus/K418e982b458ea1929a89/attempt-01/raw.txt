@@ -1,0 +1,40 @@
+```json
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient twice says the dry mouth is especially noticeable halfway through a kitchen shift, which is the middle of the shift. Nothing places it toward the end.",
+    "citations": [
+      {
+        "turn": 6,
+        "role": "patient",
+        "quote": "My mouth gets dry, especially halfway through a kitchen shift",
+        "supports": "A"
+      },
+      {
+        "turn": 7,
+        "role": "patient",
+        "quote": "The main thing I notice is a dry mouth, especially halfway through a kitchen shift.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient says they are happy keeping their current number of shifts and wouldn't want to add more. They never say they want to cut back.",
+    "citations": [
+      {
+        "turn": 1,
+        "role": "patient",
+        "quote": "I’m happy keeping the number of shifts I have now.",
+        "supports": "B"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "I’m happy with the number of shifts I do now.",
+        "supports": "B"
+      }
+    ]
+  }
+}
+```

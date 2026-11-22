@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "T1",
+  "turn": 8,
+  "question": "How certain do you generally feel about your first impression of a sound?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-699f-7fb2-9237-dfe24d65db47",
+  "raw": "“With the voice, it sounds quite distinct in the moment, but that doesn’t mean I’m certain where it comes from. I do wonder whether my mind is supplying it.”",
+  "raw_sha256": "4762a2ce74a24b67cf497623b26fb8d07c2f834daa2f5baf3f8dc9b57292d99c",
+  "request_sha256": "262976eeda077cff4422833835f1b65bb30e847345da4727d4d7a810f5abac78",
+  "started_utc": "2026-11-20T20:41:33.249651+00:00",
+  "completed_utc": "2026-11-20T20:41:37.702445+00:00",
+  "usage": {
+    "input_tokens": 7399,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1c025944f750b7ff60ec96ba26ad2123d86b8bb4e55428b168c7a8f69a40ce95",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "95d5fba5432d503ece45360f9f050747a5c89bc068b8dff78f33dea013c1f09f"
+}

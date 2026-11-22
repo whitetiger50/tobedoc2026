@@ -1,0 +1,87 @@
+{
+  "form_count": 12,
+  "complete": 12,
+  "incomplete": {},
+  "items": {
+    "DERAILMENT": {
+      "expected_present": 3,
+      "present_correct": 3,
+      "expected_absent": 8,
+      "absent_correct": 8,
+      "absent_called_present": 0,
+      "confusion_by_expected": {
+        "absent": {
+          "absent": 8
+        },
+        "present": {
+          "present": 3
+        },
+        "uncertain": {},
+        "not_assessable": {
+          "not_assessable": 1
+        }
+      },
+      "primary_gate": true
+    },
+    "POVERTY_OF_CONTENT": {
+      "expected_present": 3,
+      "present_correct": 3,
+      "expected_absent": 8,
+      "absent_correct": 8,
+      "absent_called_present": 0,
+      "confusion_by_expected": {
+        "absent": {
+          "absent": 8
+        },
+        "present": {
+          "present": 3
+        },
+        "uncertain": {},
+        "not_assessable": {
+          "absent": 1
+        }
+      },
+      "primary_gate": true
+    },
+    "TANGENTIALITY": {
+      "expected_present": 2,
+      "present_correct": 2,
+      "expected_absent": 9,
+      "absent_correct": 9,
+      "absent_called_present": 0,
+      "confusion_by_expected": {
+        "absent": {
+          "absent": 9
+        },
+        "present": {
+          "present": 2
+        },
+        "uncertain": {},
+        "not_assessable": {
+          "absent": 1
+        }
+      },
+      "primary_gate": null
+    },
+    "UNCLEAR_REFERENCE": {
+      "expected_present": 1,
+      "present_correct": 1,
+      "expected_absent": 11,
+      "absent_correct": 11,
+      "absent_called_present": 0,
+      "confusion_by_expected": {
+        "absent": {
+          "absent": 11
+        },
+        "present": {
+          "present": 1
+        },
+        "uncertain": {},
+        "not_assessable": {}
+      },
+      "primary_gate": null
+    }
+  },
+  "passed": true,
+  "meaning": "Authored challenge check only; clinical accuracy has not been established."
+}

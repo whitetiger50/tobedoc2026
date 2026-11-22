@@ -1,0 +1,26 @@
+{
+  "references": [
+    {
+      "id": "CheckList",
+      "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+      "authors": "Ribeiro et al.",
+      "year": 2020,
+      "url": "https://aclanthology.org/2020.acl-main.442/",
+      "pdf": "https://aclanthology.org/2020.acl-main.442.pdf",
+      "directly_checked": "ACL primary page andPDFsection2.2 definitions of invariance and directional expectation tests",
+      "used_for": "behavioral probe relationships under controlled perturbations,not presumed clinicalqualitygold",
+      "not_claimed": "This is not a replication of CheckList tasks,software,patientratings,orclinicalvalidation."
+    },
+    {
+      "id": "M12fixedcriteria",
+      "local": "development/rater-reliability-m12-v01/references.json",
+      "used_for": "Existing PatientSim psychiatric adaptation and author-defined four facets remain unchanged; references/support bounds preserved,not newly validated."
+    },
+    {
+      "id": "M12statistics",
+      "local": "development/rater-reliability-m12-v01/analysis_stats.py",
+      "used_for": "Exact same ordinal alpha/weightedkappa/ANOVAhelper; originalmethodreferences andintervalassumptionlimits inM12references."
+    }
+  ],
+  "scope": "M13 manipulations and intended ordinal levels are author-defined. No clinicalspecialistgold or severityscale validation."
+}

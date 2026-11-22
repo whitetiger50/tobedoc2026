@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 3,
+  "question": "How has it been going lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-fc7a-7411-ab27-7bdae908b07c",
+  "raw": "“Still hard to get started. But I replaced the battery cover on the kitchen timer last Saturday. My sister put it on the table for me. I felt good about getting that done.”",
+  "raw_sha256": "67583a44bfe147a425eceb67e9b65e6565dd4cc729f15a4bf8be34f572acf66c",
+  "request_sha256": "a2da7aa50c901ea1b72047abcea3e6479f0d5aae2f944553aa73939f9d6b0af3",
+  "started_utc": "2026-11-20T20:32:21.027749+00:00",
+  "completed_utc": "2026-11-20T20:32:25.676777+00:00",
+  "usage": {
+    "input_tokens": 6841,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b6c66f9a11753b63e374183689604c7912685b73c77833aa8e9e66411b24d9b4",
+  "trace_sha256": "052fc54f6b32fcb5bdce74266fdceb0ccf7435b6e378f567d6cff70b81435a4a"
+}

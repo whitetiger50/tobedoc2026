@@ -1,0 +1,69 @@
+{
+  "realism_score": 3,
+  "realism_reason": "환자는 프로필에 맞게 질문마다 직접 답하고, 확신하지 않는다는 태도도 자연스럽게 드러냅니다. 다만 같은 증상 문장과 대처 문장을 여러 번 그대로 되풀이해 다소 정형적이고 기계적인 느낌이 듭니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 동거인, 직업, 증상, 상황, 대처, 수면, 목표 사실 범위 안에 있으며 새 사실을 확정한 부분이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문의 대상에 직접 답하고 있으며, P05에 대처를 덧붙인 것도 관련된 설명입니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P05에서 이미 말한 대처를 P06에서 앞의 말을 언급하지 않고 거의 같은 문장으로 반복해 국소적인 불필요 반복이 있습니다. P04는 의사의 재확인 질문에 대한 답이므로 오류로 보지 않았습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 땐 버스 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "그럴 땐 창밖을 보면서 다른 데 신경을 쓰려고 해요."
+        }
+      ],
+      "context_refs": [
+        "turn:P05",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "증상을 설명하는 같은 구절이 P01, P05, P08에서 거의 그대로 반복되어 국소적인 정형 반복이 보입니다. 그 외에는 환자 시점의 일상적인 표현입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "fact:symptom",
+        "turn:P01",
+        "turn:D08"
+      ]
+    }
+  }
+}

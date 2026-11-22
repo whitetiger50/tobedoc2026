@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 4,
+  "question": "Is there a part of the day when following a conversation feels easier or harder?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-19b7-74d3-a904-d4f9c1c936e9",
+  "raw": "“Before lunch I usually find it easier to keep hold of the point. When I’m tired, I can start saying something and lose where I was going with it. That’s frustrating.”",
+  "raw_sha256": "72e8d8a93e36dbfb3f232c164c7f485e899ba294898fe90fbf2edee690623c19",
+  "request_sha256": "dec0d69fd907e1d1bde176b8e7dbf529d36a49c366987bcebbff123c3be2ff96",
+  "started_utc": "2026-11-20T20:32:28.520718+00:00",
+  "completed_utc": "2026-11-20T20:32:34.543747+00:00",
+  "usage": {
+    "input_tokens": 7039,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 115,
+    "reasoning_output_tokens": 71
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3cfda88e2aca75b7c74e2c15d4087976673cd8f1c29187a7777b423a0e5543b4",
+  "trace_sha256": "a63cf31ac9870dad5957828dcdba8b254b56204e06ac8cf1663a9ede4369cbd5"
+}

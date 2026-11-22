@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "T2",
+  "turn": 11,
+  "question": "What instrument do you play for fun?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc36-b3ce-7b11-9f61-87f844b04648",
+  "raw": "I play the mandolin, just for pleasure.",
+  "raw_sha256": "d8896d42b51c64f12142bc646b1e84baca003e8888af16d272874f76b97f2d6d",
+  "request_sha256": "5f0aa60be935c58889012dbd3a2c74d47be02015695743f88d8651626f37c937",
+  "started_utc": "2026-11-21T03:46:45.725916+00:00",
+  "completed_utc": "2026-11-21T03:46:50.192316+00:00",
+  "usage": {
+    "input_tokens": 6418,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7e6d20597cdc64163c562e145f7c8e63925cbdb53150961a6a06d9210de79619",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b95fbf2300a4c261ed23574f3f19e67e8c78aacbde4225ad5e4d244cba103927"
+}

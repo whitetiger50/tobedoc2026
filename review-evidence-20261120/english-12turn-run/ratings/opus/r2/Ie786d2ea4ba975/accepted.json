@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ie786d2ea4ba975",
+  "ended": "2026-11-20T20:48:10.891430+00:00",
+  "session": "563d8f24-651a-4a92-9971-e562ec5cb756",
+  "packet_sha256": "71362355e287ff1231add046d4494c81fa8ce3410852dd48d4b6244fd5f474a0",
+  "raw_sha256": "d1a449aa21243309e34a9e745ee2cff5e873c0c599bc38507a32fb7f8d84588c",
+  "provider_sha256": "7858d8b51b3540474c87373061dbf45945e46d0fdbc5cc2b0c7f9650f683abbb",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some responses sound plausible. In turn 8 the patient separates the literal remark from the felt personal meaning, and in turn 4 they handle the clarified question sensibly. But the dialogue has noticeable unrealistic elements. The patient discloses the sensitive worry and their privacy concern immediately in turn 2, which does not fit the persona's careful, private disclosure style. Several answers read like near-verbatim recitations of profile facts, notably turns 1, 5 and 11. Stock phrases recur almost word for word: 'gives me something to focus on' in turns 1, 9 and 10; 'not sure why it felt/feels personal' in turns 6 and 7; 'coworkers or neighbors' in turns 2, 11 and 12. The patient never talks spontaneously about the store, and there is little hesitation, hedging or natural texture. A few answers also carry stray quotation marks. The result is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I’d rather my coworkers or neighbors didn’t hear about it, though."
+    },
+    {
+      "turn": 11,
+      "quote": "I take my prescribed medication with breakfast, and I’ve been coming to the clinic regularly."
+    },
+    {
+      "turn": 10,
+      "quote": "Handling the paper gives me something to focus on"
+    },
+    {
+      "turn": 8,
+      "quote": "there isn’t anything that clearly points to me"
+    }
+  ]
+}

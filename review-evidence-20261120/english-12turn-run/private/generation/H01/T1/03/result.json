@@ -1,0 +1,27 @@
+{
+  "case": "H01",
+  "arm": "T1",
+  "turn": 3,
+  "question": "Does it happen more at one time than another?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-c867-7962-82e6-3ef37380712c",
+  "raw": "“It’s stronger on the bus home when it’s crowded. I notice it less when I’m stocking shelves in the quiet shop.”",
+  "raw_sha256": "1ea7c44a9b56790d511fece1c739e9e3fc2fdf54c194f410d7c040c8a70bb4e7",
+  "request_sha256": "a60577c1541f249ce2e4c3deacdf9d8601249b1a2fe0d69626383308d8ede878",
+  "started_utc": "2026-11-20T20:37:35.376733+00:00",
+  "completed_utc": "2026-11-20T20:37:39.476443+00:00",
+  "usage": {
+    "input_tokens": 7009,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4f9dd422ad5088f8f05704a09e5766d7ed525218f8321c0100b16a7d1ba811ea",
+  "trace_sha256": "3d931c85c0daf8af93a3440db9bcde5f9422c566128ef42ba129d20690edd31e"
+}

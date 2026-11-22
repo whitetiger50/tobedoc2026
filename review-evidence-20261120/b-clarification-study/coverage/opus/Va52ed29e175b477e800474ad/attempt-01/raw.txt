@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "For the number 8 bus, I get on at Orchard Road. For the tram, it’s Bell Square.",
+    "reason": "The reply clearly names the boarding stop for each transport option, and both match the case.",
+    "A": {
+      "state": "supported",
+      "quote": "For the number 8 bus, I get on at Orchard Road."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "For the tram, it’s Bell Square."
+    }
+  },
+  "v2": {
+    "quote": "Do you mean on Monday or on Thursday?",
+    "reason": "The reply only asks which outage is meant and gives no duration for either.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v3": {
+    "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+    "reason": "The reply says the commentary stops while music plays and the ringing continues, which matches both branches.",
+    "A": {
+      "state": "supported",
+      "quote": "The commentary stops while I’m playing quiet music through my headphones."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "the high ringing in both ears keeps going, even with the music on."
+    }
+  },
+  "v4": {
+    "quote": "About an hour at the book group, then around three hours with Mom.",
+    "reason": "The reply gives a case-consistent length of stay for both the book group and the visit with Mom.",
+    "A": {
+      "state": "supported",
+      "quote": "About an hour at the book group"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "around three hours with Mom."
+    }
+  }
+}
+```

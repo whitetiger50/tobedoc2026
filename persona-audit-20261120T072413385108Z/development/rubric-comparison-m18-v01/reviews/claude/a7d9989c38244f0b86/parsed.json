@@ -1,0 +1,170 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "D02~D07에서는 질문마다 직접 답한다. 거주(P02·P04), 일(P03), 경험이 생기는 때(P05), 대처(P06), 수면(P07) 모두 프로필 사실 범위 안에서 연결되고, D04의 재확인 요청에도 일관되게 답한다. 다만 D08은 '말씀하신 경험과 관련해서'라며 경험을 이미 전제한다. 그런데 P08은 증상 묘사로 시작해 대처를 묻고 싶다는 바람으로 끝나는데, 이는 P01과 같은 순서의 서술 틀이다. 이미 마친 증상 설명을 계기 없이 다시 시작하므로 마무리 턴의 환자 표현이 경미하게 정형화된다. 따라서 4의 조건을 충족하지 않는다. 질문 대상인 다음 진료 목표에는 답했으므로 국소 문제로 본다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살고 있어요.",
+      "context_refs": [
+        "turn:D04",
+        "turn:P02",
+        "fact:living"
+      ]
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요. 다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "fact:goal"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 일, 증상, 패턴, 대처, 수면, 목표가 프로필 사실과 일치하며 새 사건이나 시각을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": [
+        "fact:living",
+        "fact:work",
+        "fact:symptom",
+        "fact:pattern",
+        "fact:coping",
+        "fact:sleep",
+        "fact:goal"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 답변이 직전 질문의 직접 대상을 다룬다. P08도 다음 진료에서 하고 싶은 이야기라는 질문에 답한다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D02",
+        "turn:D03",
+        "turn:D05",
+        "turn:D06",
+        "turn:D07",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "자기모순이 없다. P04의 반복은 D04의 명시적 재확인 요청에 대한 답이다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08이 P01과 같은 '증상 묘사→대처를 묻고 싶다' 서술 틀을 다시 시작한다. D08이 경험을 이미 전제했으므로 증상 설명의 재개가 국소적으로 정형화되어 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "obs1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P08",
+      "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "fact:goal"
+      ],
+      "function": "목표 답변을 위한 대상 재지칭/요약",
+      "finding": "supported_issue",
+      "primary_facet": "naturalness",
+      "reason": "공통 부분은 증상 설명 후 대처 질문 희망으로 마무리하는 담화 행위이며, P01에서 이미 마쳤다. D08은 '말씀하신 경험'으로 대상을 전제했으므로 설명 블록의 재시작은 요청·전제와 어긋난다. 목표 진술 자체는 질문에 대한 답이다.",
+      "used_in_global": true
+    },
+    {
+      "id": "obs2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:D02"
+      ],
+      "function": "확인 질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "의사가 같은 내용을 명시적으로 재확인했으므로 같은 답이 적절하다. 수정 요청이 아니어서 정체에 해당하지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "obs3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데"
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ],
+      "function": "대처를 직접 묻는 질문에 대한 답",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "D06이 순간의 대응을 직접 물었다. 재진술이 새 대상을 대신하지 않고 그 대상 자체에 답한다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": true,
+    "observation_ids": [
+      "obs1"
+    ],
+    "reason": "P08의 증상 재진술은 마무리 턴의 대상 재지칭이나 요약으로 허용될 여지도 있다. 그렇게 읽으면 다른 문제가 없어 4가 된다. D08이 경험을 이미 전제했다는 점에서 P01 서술 틀의 재시작으로 읽으면 3이 된다."
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

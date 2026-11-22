@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 1,
+  "question": "What made you bring the letters in today?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16d9-7d62-80b6-5fdfc39085d2",
+  "raw": "I brought two letters because I was having trouble sorting out the wording. The housing office wants a reply by Friday, and I didn’t want to miss that. The one from work is just for information.",
+  "raw_sha256": "1ec69e40151126590ab3eb74659ee7a7157861a064e6616afe37b2dd32f56504",
+  "request_sha256": "5c7449338d96fa240aa7a4334bf9dbb9c4b04f2d8a97dbd8b350e79b310b8453",
+  "started_utc": "2026-11-21T03:39:32.267350+00:00",
+  "completed_utc": "2026-11-21T03:39:37.397009+00:00",
+  "usage": {
+    "input_tokens": 7829,
+    "cached_input_tokens": 6400,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "508ed8e850d6f0e43f9f255c4dc7f5d1e4aca6f7a22e5425db9c7e500bcce19b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "a8da601f9f86b4cad0bcc97f67b59e1433c5dde427e062dbe24819639418705a"
+}

@@ -1,0 +1,44 @@
+{
+  "realism_score": 4,
+  "realism_reason": "모든 환자 답변이 질문에 맞고 간결합니다. 협조적이고 조직적인 의사소통 설정과 자기 증상을 인식하는 페르소나에 맞는 자연스러운 일상 한국어입니다. 사실의 이탈이나 어색한 메타 표현은 보이지 않습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "목소리가 들리면 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 사실(동거, 직업, 아침식사, 증상 양상, 대처, 수면, 목표)과 일치합니다. 새 사건이나 구체적인 시각을 확정하지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 답변이 직전 질문의 직접 대상에 그대로 대응합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05가 P01의 표현 일부를 반복하지만 시점을 묻는 질문에 대한 직접 답이며 '아침에는 잘 안 들리는' 정보를 추가합니다. 모순이나 문맥 파괴는 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 간결한 일상 표현입니다. 보고서식 대행이나 역할 설명, 불필요한 격식은 확인되지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

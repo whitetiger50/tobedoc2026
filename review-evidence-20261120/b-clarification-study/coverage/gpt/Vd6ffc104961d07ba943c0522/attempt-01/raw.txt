@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "Which appointment do you mean?",
+    "reason": "The reply asks which appointment is meant without stating whether anyone accompanied the patient to either visit.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v2": {
+    "quote": "The commentary stops while the music is playing, even if it’s quiet.",
+    "reason": "The reply explicitly says music stops the commentary while the ringing continues.",
+    "A": {
+      "state": "supported",
+      "quote": "The commentary stops while the music is playing, even if it’s quiet."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "But the high ringing stays in both ears—I can still hear that through the music."
+    }
+  },
+  "v3": {
+    "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+    "reason": "The reply attributes the shorter shifts to the supervisor and the later-start request to the patient.",
+    "A": {
+      "state": "supported",
+      "quote": "My supervisor suggested the shorter shifts."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I asked for the later start."
+    }
+  },
+  "v4": {
+    "quote": "The housing one needs a reply by Friday.",
+    "reason": "The reply gives Friday as the housing deadline and states that the work letter requires no reply.",
+    "A": {
+      "state": "supported",
+      "quote": "The housing one needs a reply by Friday."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The one from work is just for information, so I don’t need to reply to that."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 1,
+  "id": "I15d04768cfb5a9",
+  "ended": "2026-11-20T20:36:22.962308+00:00",
+  "session": "01a1faac-8508-75b2-89ef-7ef977cc7909",
+  "packet_sha256": "acae06f75754c2bbf432631df4ab003bf90ad5efeec7fa4d18c51724acebf626",
+  "raw_sha256": "e7969cb389ac0c8162bf3eb8acedde0987e300ae41de4fcb5c57c4d9ae8877b1",
+  "provider_sha256": "765a7eedd9cfc16d4dc79b9a280105ee1e469fca48e6965bf78ce4b7de4a1fc4",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The content matches the profile, including organized recall, uncertainty about sounds, and confidentiality concerns. However, every answer uses an unnatural clinical-record wrapper, and repeated stock details make the conversation feel scripted rather than spontaneous.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Patient response recorded as follows. Subjective report:"
+    },
+    {
+      "turn": 12,
+      "quote": "I want you to know I’ve kept taking my tablet, and that’s why I wanted to tell you about the change."
+    }
+  ]
+}

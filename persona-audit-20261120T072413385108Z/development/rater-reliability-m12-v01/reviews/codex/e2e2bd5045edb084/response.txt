@@ -1,0 +1,35 @@
+{
+  "realism_score": 4,
+  "realism_reason": "각 질문에 간결하고 자연스럽게 답하며, 증상에 대한 이해와 약 정보의 불확실성도 설정에 부합해 충분히 실제적인 대화다.",
+  "realism_evidence": [],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "식사, 목소리 경험, 약에 대한 지식과 동거인 모두 프로필에 부합하며 무근거한 사실 추가가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문에 직접 대응하며, 약 이름과 용량을 모른다는 답도 설정에 맞는 지식의 한계 표현이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "동거인 재확인은 이전 문맥과 일치하며, D02가 미공개 목소리 경험을 먼저 전제한 것은 의사 발화이지 환자의 연속성 오류가 아니다.",
+      "evidence": [],
+      "context_refs": ["authored_context", "turn:D02", "turn:D04"]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결하고 조직적인 일상 구어체로 답하며, 환청이라는 용어 사용도 설정된 자기 이해에 자연스럽게 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

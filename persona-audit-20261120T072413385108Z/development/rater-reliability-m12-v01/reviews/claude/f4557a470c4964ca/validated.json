@@ -1,0 +1,67 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "방송 주제에서는 신호 같다는 믿음과, 편의점 문구와 근무 걱정으로 이어지는 연상이 설정대로 자연스럽게 드러납니다. 일상 질문에는 조직적으로 짧게 답합니다. 의사의 잘못된 전제와 인과 추정도 프로필 범위 안에서 차분히 정정해 전체적으로 설득력 있는 환자 화법입니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "우연한 안내일 수도 있다고는 하는데, 그래도 저한테 하는 말 같아요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 living, routine, belief, experience, today_activity 사실과 일치합니다. 오늘 기상 시각이나 근무 중단과 기상의 인과를 새로 확정하지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 답했습니다. D04와 D06의 잘못된 전제를 정정했고, D05와 D07에서는 확인되지 않은 부분을 구분해 제한했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥과 앞선 환자 말에 일관되게 연결됩니다. P08의 동일한 답은 D08의 재요청에 대한 짧은 재확인이라 오류로 보지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "전반적으로 환자 시점의 자연스러운 표현입니다. P05와 P07의 정정이 의사 질문의 틀을 다소 정밀하게 되받는 느낌이 있으나, 명시적 확인 요청에 대한 답이라 문제로 확정하지는 않았습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "야간 근무를 쉬어서 오후에 일어나게 됐다는 뜻으로 말씀드린 건 아니에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

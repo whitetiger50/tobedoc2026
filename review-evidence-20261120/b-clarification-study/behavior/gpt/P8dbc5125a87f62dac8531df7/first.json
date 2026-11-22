@@ -1,0 +1,89 @@
+{
+  "id": "P8dbc5125a87f62dac8531df7",
+  "reader": "gpt",
+  "session": "01a1fc3f-c5f0-71f3-a9f5-a610b6e79280",
+  "attempt": "attempt-01",
+  "packet_sha256": "599f44349d1f5a8cba5ce17b5d1639f72c13b61095d4008e02d4550f53bac34e",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "d2760f68db381689e9bad1a297ee8e6f9755e8b3afe87334cd8f14131e9b745b",
+  "raw_sha256": "784d2d4f28e92cc87d8ee19e2a9a286e2aa6dbbddf0c1b997d4ca78b9f2d5436",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Was that change something you asked for?",
+        "reason": "The singular reference follows two schedule changes that had different origins, so the answer depends on which change is meant.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron requested shorter shifts.",
+            "answer": "The supervisor suggested shorter shifts; Cameron did not request that change."
+          },
+          {
+            "meaning": "Whether Cameron requested the later start.",
+            "answer": "Cameron requested the later start."
+          },
+          {
+            "meaning": "Whether Cameron requested the combined schedule changes.",
+            "answer": "Cameron requested only the later start, while the supervisor suggested shorter shifts."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "still using the reminder",
+        "reason": "Both reminders are introduced without selecting one, and Morgan continues using the alarm but not the note.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan still uses the phone alarm.",
+            "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+          },
+          {
+            "meaning": "Whether Morgan still uses the note on the door.",
+            "answer": "Morgan took the note down last month and no longer uses it."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it",
+        "reason": "The immediately preceding exchange identifies the tablet and its after-supper routine, making this a clear question about daily medication timing.",
+        "alternatives": [
+          {
+            "meaning": "At what time in the daily routine Ren takes the prescribed tablet.",
+            "answer": "Ren takes the tablet after supper."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "The pronoun can refer to either named device, and their operating durations differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "The fan runs all night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "The speaker stops after twenty minutes because it uses a timer."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:59.227289+00:00"
+}

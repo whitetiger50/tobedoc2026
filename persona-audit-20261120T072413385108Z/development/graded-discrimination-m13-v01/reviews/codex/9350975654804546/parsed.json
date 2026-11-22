@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 일상적인 환자 표현이며 설정과 잘 맞지만, 마지막에는 다음 진료 전의 계획을 묻는 질문에 다음 진료에서 이야기할 내용을 답하는 경미한 어긋남이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자의 진술이 프로필의 사실과 주관적 경험 범위에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08은 다음 진료 전까지 해 보고 싶은 일 대신 다음 진료에서 이야기하고 싶은 내용을 답하여 시간 범위에 부분적으로 대응하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과 모순 없이 경험과 대처에 관한 설명이 이어진다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 한국어로 환자 자신의 경험을 말하며 보고서식 표현이나 역할 이탈은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

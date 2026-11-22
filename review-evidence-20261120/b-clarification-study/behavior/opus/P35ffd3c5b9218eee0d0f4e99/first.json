@@ -1,0 +1,85 @@
+{
+  "id": "P35ffd3c5b9218eee0d0f4e99",
+  "reader": "opus",
+  "session": "626334d5-3988-46b0-9ad7-3d2002fd3aad",
+  "attempt": "attempt-01",
+  "packet_sha256": "9f9cd70f633d44185c73dd02766b0ebfbea8ad7920f90b590cded919b4a48986",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "adf44fc5daa449042cf7aad8d160183f4fae7c9be6f744530db2695a51cc4bef",
+  "raw_sha256": "b84197bca8a94e517913b1bc659acf3063027a8a4c38a9bbcba2a838f18a8896",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "The question names both the commentary and the high ringing and then asks about 'the sound' in the singular, so either could be meant, and Ari's facts give opposite answers for the two.",
+        "alternatives": [
+          {
+            "meaning": "Whether the commentary voice stops when Ari plays music through headphones.",
+            "answer": "Yes, quiet music through headphones stops the commentary while the music is playing."
+          },
+          {
+            "meaning": "Whether the high-pitched ringing stops when Ari plays music through headphones.",
+            "answer": "No, the ringing is in both ears and carries on through the music."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "go with you to the appointment",
+        "reason": "The question first names two appointments, the optician and the care coordinator, then asks about 'the appointment' in the singular, and Taylor's sister went to one but not the other.",
+        "alternatives": [
+          {
+            "meaning": "Whether someone went with Taylor to the optician.",
+            "answer": "Yes, Taylor's sister went along to the optician."
+          },
+          {
+            "meaning": "Whether someone went with Taylor to the care coordinator.",
+            "answer": "No, Taylor went to the care coordinator alone."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long was it out for?",
+        "reason": "The question mentions two separate outages and then asks 'how long' as if there were one, and the two durations differ a lot (about ten minutes versus most of an afternoon).",
+        "alternatives": [
+          {
+            "meaning": "How long the radio was silent on Monday.",
+            "answer": "About ten minutes."
+          },
+          {
+            "meaning": "How long the radio was silent on Thursday.",
+            "answer": "Most of the afternoon, during the music request show."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The previous exchange settled that the phone alarm is the only reminder still in use, since the note was taken down, so 'it' clearly means the phone alarm and 'set it for' only makes sense for an alarm.",
+        "alternatives": [
+          {
+            "meaning": "The time Morgan sets the phone alarm that reminds Morgan to bring the staff pass.",
+            "answer": "7:10 in the morning."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:43.704596+00:00"
+}

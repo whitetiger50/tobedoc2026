@@ -1,0 +1,18 @@
+{
+  "instructions": "Read the interview question and the speaker's answer. Score the speaker's text on two separate scales.\nElaboration: 1 = the account adds at least one detail beyond naming the event or activity and is self-contained. 2 = some detail is given, but information important for understanding the event or activity is missing. 3 = the answer only identifies the event or activity and adds no further information. Use the contribution of the details to the account, not a count of details or words. For an everyday task, a route or procedure itself is appropriate content.\nMeaning clarity: 1 = the speaker's intended meaning can be followed. 2 = it is generally understandable, but some important connections or references are unclear. 3 = the central meaning is hard to follow because of such features as contradictions, unspecified referents, word substitutions or abrupt shifts.\nRate each distinct event or activity once. Steps of a single routine or details of the same event belong in one entry. A brief response that names an event or activity is eligible. Use status \"no_narrative\" with an empty events list if the speaker only asks for clarification or says they cannot remember. Do not treat a confusing narrative as missing. Otherwise set status to \"rated\". Give each event an integer from 1 to 3 on each scale, with a brief text-based reason for each score. Return only the completed JSON form.",
+  "dialogue": {
+    "question": "Can you tell me about a time when you felt proud?",
+    "answer": "One time I felt really proud was when a magazine accepted a poem I’d written. They mailed me a copy of the issue, and seeing the poem actually printed felt different from just knowing it had been accepted. My name was right there beneath the title. I kept looking at that part—my own name attached to something I’d made.\n\nI work as a cashier in a college cafeteria, so having something I’d written appear in a magazine felt like a different side of me getting noticed. Someone had read it and wanted other people to read it, too. That meant a lot. I don’t remember all the details of what was happening around me, but I remember looking at the page and thinking, “I really did this.”"
+  },
+  "form": {
+    "status": null,
+    "events": [
+      {
+        "elaboration": null,
+        "elaboration_reason": null,
+        "meaning_clarity": null,
+        "meaning_clarity_reason": null
+      }
+    ]
+  }
+}

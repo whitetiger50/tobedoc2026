@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-20T23:01:14.734311+00:00",
+  "attempt": "attempt-01",
+  "id": "Kafe8ddbba87bec8108df",
+  "reader": "opus",
+  "session": "f4181ab1-6671-471e-8158-7387eeda98e0",
+  "packet_sha256": "58db3fef5acd8e81c3a4275a09064a41ff16cd32859952503cfd16be4c1c6259",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "c819f8d0c98d78a836734ad06fd9a27a08ec8f2ff6e9e853893ff69c0c0f10ec",
+  "raw_sha256": "2137181bbe29432553dc2152e87d7180f92c89c33d41217709374e81db283a15",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says that once inside the shop they start sorting without much trouble, which supports finding it fairly easy to get going.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "Once I’m inside the shop, I get started sorting without much trouble.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "The patient denies feeling that other passengers talk about them on recent trips, which rules out A. But the patient never says that nearby conversations seemed to be about unrelated things, so B is not established either.",
+      "evidence": []
+    }
+  }
+}

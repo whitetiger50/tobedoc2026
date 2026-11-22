@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 11,
+  "question": "How do your appointments usually feel for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-e639-7313-b974-354defe17105",
+  "raw": "“They can feel like work if I’m rushed. I like having a little time to think before I answer.”",
+  "raw_sha256": "10c8c91c75ec42a25b547c2d08a511a7fc966ca71b6881c99a4f4ebf08c41580",
+  "request_sha256": "5cbd913219e3f363cabcf478ba62089926092a8d50ccb670f71776c0fefc455c",
+  "started_utc": "2026-11-20T20:33:20.877679+00:00",
+  "completed_utc": "2026-11-20T20:33:24.727446+00:00",
+  "usage": {
+    "input_tokens": 7319,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a5a75fe1fe3eca3a0a093cfce19f64e06690f0e0a9913de921e62cafe7fca744",
+  "trace_sha256": "7cc4ef8d0428339989d37a100d17b88dfe914d8df4e3f3bd080639f477e96794"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-18",
+  "new_generation_or_scoring": false,
+  "sources": [
+    {
+      "repository": "https://github.com/dek924/PatientSim",
+      "commit": "9c262e692bd94305d922654d05bd1741c4d97433",
+      "path": "src/prompts/eval/llm_eval_metrics_persona.json",
+      "url": "https://github.com/dek924/PatientSim/blob/9c262e692bd94305d922654d05bd1741c4d97433/src/prompts/eval/llm_eval_metrics_persona.json",
+      "sha256": "ef29b12666d8241b6559db144e8004b91dab21d1ede6d5c306e27a7a5086e995"
+    },
+    {
+      "repository": "https://github.com/dek924/PatientSim",
+      "commit": "9c262e692bd94305d922654d05bd1741c4d97433",
+      "path": "src/prompts/eval/eval_dialogue_user_w_persona.txt",
+      "url": "https://github.com/dek924/PatientSim/blob/9c262e692bd94305d922654d05bd1741c4d97433/src/prompts/eval/eval_dialogue_user_w_persona.txt",
+      "sha256": "fdd66eea838a7264ae912e762038aa9c6fb3bb4d6830091a08a2604a61610507"
+    },
+    {
+      "repository": "https://github.com/dek924/PatientSim",
+      "commit": "9c262e692bd94305d922654d05bd1741c4d97433",
+      "path": "src/eval/llm_eval.py",
+      "url": "https://github.com/dek924/PatientSim/blob/9c262e692bd94305d922654d05bd1741c4d97433/src/eval/llm_eval.py",
+      "sha256": "c13982c0fd175d6206712bba3f065d0349efffc8122b506b18b54de2ef27dbed"
+    }
+  ],
+  "primary_candidate": "PATIENTSIM original Realism 1–4, explicitly adapted context; not schizophrenia-validated",
+  "patienthub_reproducibility": "Paper specifies realism aspects and 1–5 scale; checked public default config does not contain experiment realism anchors.",
+  "purpose": "Original source references for proposed pilot, not a completed model/version lock",
+  "selected_judge_panel": [
+    "GPT-6.1 Sol",
+    "Claude Opus 5.5",
+    "Gemini 4 Argon"
+  ],
+  "model_reference_urls": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://platform.claude.com/docs/en/models/overview",
+    "https://aistudio.google.com/docs/models"
+  ]
+}

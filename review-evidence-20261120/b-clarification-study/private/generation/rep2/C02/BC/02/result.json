@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 2,
+  "question": "I see the book group and a visit with your mom on Wednesdays. How long do you usually stay?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff70-72a1-aa1c-b4e392a91074",
+  "raw": "About an hour at the book group, then around three hours with Mom. We usually do a crossword together.",
+  "raw_sha256": "125bbd57873690fab9c0b93bc2327e5e6b989968ecf25ebef7fdf83ad7d98193",
+  "request_sha256": "6e12855f0f62f860ab5810510bc11f44a713d21b4da30af7d93e0a847d95c0d8",
+  "started_utc": "2026-11-21T03:40:19.438663+00:00",
+  "completed_utc": "2026-11-21T03:40:24.539279+00:00",
+  "usage": {
+    "input_tokens": 15707,
+    "cached_input_tokens": 10112,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 74,
+    "reasoning_output_tokens": 12
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9c90db45aec5cb2d2c8a28acba58aeaf83c0e9d8ead0904c8fdf4d174cf5a3c6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b15a4de59801f0b0924c6460a2fc57f4c854e39a86d266450313a860773bded8"
+}

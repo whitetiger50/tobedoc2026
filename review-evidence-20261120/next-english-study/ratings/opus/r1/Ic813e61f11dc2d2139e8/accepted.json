@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ic813e61f11dc2d2139e8",
+  "ended": "2026-11-20T21:05:56.653112+00:00",
+  "session": "9f4b3d92-0630-4fbf-a7e5-18a307914ed9",
+  "packet_sha256": "6bc4786464cda4537b12cb83b263e6db1c4643ff236ae41e66871de6896abea0",
+  "raw_sha256": "2d02dfd36d7d6529523c85874c9e92e2f03951c45a2db1a222b2687b2de522c0",
+  "provider_sha256": "763a8cb3fed72207d7b74c6a10641d941cd89827412bdb5276ccf18190aafeec",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient's speech is somewhat natural but has clear unrealistic elements. Strengths: the patient asks a sensible clarifying question after an ambiguous prompt (turn 3), shows dry humor (turns 2 and 11), and keeps events in order. Weaknesses: the first answer to a broad workday question discloses almost every profile fact at once (opening schedule, the alarm, the coworker's swap, readiness for an extra shift, keeping Sunday free), which reads like a checklist rather than conversation. Later answers repeat the same facts in nearly identical wording (the alarm in turns 1, 6, 9 and 11; the Sunday softball caveat in turns 1, 9 and 12), which feels scripted. The alarm detail is also tacked onto the medication answer in turn 6 without a natural link. The patient discusses the pre-hospital experience openly at the first prompt (turn 10), which partly fits the profile's ease with treatment talk but does not show the expected privacy about the hospital stay. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "My coworker swapped opening days with me last week so I could make a morning appointment. I feel steady enough to take on an extra shift, though I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean the early waking, or getting up with the alarm?"
+    },
+    {
+      "turn": 6,
+      "quote": "Getting up with the morning alarm can still be hard some days."
+    },
+    {
+      "turn": 10,
+      "quote": "Before I went into hospital, store announcements sometimes seemed to be commenting on what I was buying."
+    },
+    {
+      "turn": 12,
+      "quote": "but I’d keep Sunday free for softball"
+    }
+  ]
+}

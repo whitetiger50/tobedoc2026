@@ -1,0 +1,543 @@
+{
+  "arms": {
+    "T0": {
+      "clarify_yield": {
+        "positive": 3,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "answer_then_check": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "unnecessary_clarify": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 80
+      },
+      "give_example": {
+        "positive": 8,
+        "uncertain": 0,
+        "opportunities": 8
+      },
+      "contradiction": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 96
+      },
+      "unanswered_repair": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 16
+      }
+    },
+    "B": {
+      "clarify_yield": {
+        "positive": 1,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "answer_then_check": {
+        "positive": 1,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "unnecessary_clarify": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 80
+      },
+      "give_example": {
+        "positive": 8,
+        "uncertain": 0,
+        "opportunities": 8
+      },
+      "contradiction": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 96
+      },
+      "unanswered_repair": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 16
+      }
+    },
+    "T1": {
+      "clarify_yield": {
+        "positive": 11,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "answer_then_check": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 16
+      },
+      "unnecessary_clarify": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 80
+      },
+      "give_example": {
+        "positive": 8,
+        "uncertain": 0,
+        "opportunities": 8
+      },
+      "contradiction": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 96
+      },
+      "unanswered_repair": {
+        "positive": 0,
+        "uncertain": 0,
+        "opportunities": 16
+      }
+    }
+  },
+  "by_case": {
+    "H04": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 1,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H05": {
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 2,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H06": {
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H03": {
+      "T1": {
+        "clarify_yield": 2,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H07": {
+      "T0": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 2,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H02": {
+      "T1": {
+        "clarify_yield": 2,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H08": {
+      "T0": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 1,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H01": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 1,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    }
+  },
+  "uncertainties": {
+    "H04": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H05": {
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H06": {
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H03": {
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H07": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H02": {
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H08": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    },
+    "H01": {
+      "T0": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "B": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      },
+      "T1": {
+        "clarify_yield": 0,
+        "answer_then_check": 0,
+        "unnecessary_clarify": 0,
+        "give_example": 0,
+        "contradiction": 0,
+        "unanswered_repair": 0
+      }
+    }
+  },
+  "contrast_harm": {
+    "T1_vs_B": {
+      "unnecessary_clarify": {
+        "increased_cases": [],
+        "cases_with_uncertainty": []
+      },
+      "contradiction": {
+        "increased_cases": [],
+        "cases_with_uncertainty": []
+      }
+    },
+    "T1_vs_T0": {
+      "unnecessary_clarify": {
+        "increased_cases": [],
+        "cases_with_uncertainty": []
+      },
+      "contradiction": {
+        "increased_cases": [],
+        "cases_with_uncertainty": []
+      }
+    }
+  },
+  "source": "separate blinded descriptive text audit; not a PATIENTSIM rating or an expert clinical reading"
+}

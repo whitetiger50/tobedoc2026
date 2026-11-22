@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ie3be6c75efb0e6",
+  "ended": "2026-11-20T20:44:07.001363+00:00",
+  "session": "db5b042f-dedc-4ca9-805a-a830fc5b518b",
+  "packet_sha256": "7809f317c470da432281010b428b1323fb7fdb1d522fdf95e6061cc30f561f11",
+  "raw_sha256": "a812a67f9bf5815dc45b1e320bfe096c62771eeb9d1fe162c8ae1b2a92561e2c",
+  "provider_sha256": "ada5332eb22f4dcf99952dae427d62e801e96fa0626801944b29092795c9a478",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. They talk easily about the store and paper folding. They are a little hesitant when raising the worry. They describe the sequence of events clearly, separate what was actually said from how it felt, and acknowledge that others may hear it differently. They also show the expected concern about housemates and coworkers. A few minor things reduce realism. The sensitive worry comes up quite readily in turn 2 with only slight hesitation. The answers are consistently tidy and well organized. Some phrasing is a little awkward, such as referring to 'my clinician' in the third person while apparently speaking to the clinician, and repeating the vague 'I'm still taking it' in turn 12 without a clear referent. These issues do not significantly undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "Um, there’s something about the bus rides home that’s been bothering me these last couple of weeks."
+    },
+    {
+      "turn": 6,
+      "quote": "They didn’t say my name or anything… I know they could’ve just been talking about where they were getting off."
+    },
+    {
+      "turn": 8,
+      "quote": "It just felt personal for a moment, which is the unsettling part."
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still taking it, but the rides home have been unsettling."
+    }
+  ]
+}

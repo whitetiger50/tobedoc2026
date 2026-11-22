@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad8-9e51-7010-a20e-24cbcaf20294",
+  "raw": "Cinderella lives with her stepmother and two stepsisters, who treat her badly and make her do the housework. When the prince holds a ball, they go without her, and she’s left at home.\n\nHer fairy godmother appears and helps her go, giving her a beautiful dress, glass slippers, and a carriage made from a pumpkin. But she warns Cinderella that the magic will end at midnight. At the ball, Cinderella dances with the prince, but when the clock starts striking twelve, she rushes away and loses one of her slippers.\n\nThe prince searches for her by having women try on the slipper. Her stepsisters can’t fit into it, but Cinderella can. He recognizes her, and they marry and live happily ever after.",
+  "raw_sha256": "c858f1781a7a25fc974e3f85652b7bc31c8ebc14d6ab00b1d42c874daeaedd42",
+  "request_sha256": "28e7c3eb8640ea73ad59542502b2bb7e74b66bf8dd6e7b6a9497769aa9651f8f",
+  "started_utc": "2026-11-20T21:24:22.632328+00:00",
+  "completed_utc": "2026-11-20T21:24:31.255176+00:00",
+  "usage": {
+    "input_tokens": 7023,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 154,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "15f7de6ea2a035b5993b1e97493dfe8339608c3efe4faeff9e61be73dafa958e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "10ef2c171697cd6375cfb5c2ad24b89dee8d15896c20241a176d86bd5f990739"
+}

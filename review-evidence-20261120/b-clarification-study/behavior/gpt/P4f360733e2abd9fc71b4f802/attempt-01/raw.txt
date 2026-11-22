@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it",
+    "reason": "The immediately preceding exchange identifies the tablet and resolves the earlier time-window ambiguity, so this question clearly asks its usual daily timing.",
+    "alternatives": [
+      {
+        "meaning": "The usual time of day Ren takes the prescribed tablet.",
+        "answer": "Ren takes the tablet after supper."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "the old one",
+    "reason": "Both replaced objects remain live referents, and the old badge was returned whereas the old locker key was not.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron handed back the old ID badge.",
+        "answer": "The cracked old badge was handed back."
+      },
+      {
+        "meaning": "Whether Cameron handed back the old locker key.",
+        "answer": "The old key was lost and could not be handed back."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "still using the reminder",
+    "reason": "The question names two reminders without selecting one, and continued use differs between them even though a direct answer could cover both.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan still uses the phone alarm to remember the pass.",
+        "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "Whether Morgan still uses the note on the door to remember the pass.",
+        "answer": "Morgan took the note down last month and no longer uses it."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "the medicine",
+    "reason": "The question explicitly reintroduces both eye drops and tablets without selecting either, and their storage locations differ.",
+    "alternatives": [
+      {
+        "meaning": "Whether the prescribed eye drops are kept in the kitchen.",
+        "answer": "The eye drops are kept on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "Whether the daily prescribed tablets are kept in the kitchen.",
+        "answer": "The tablets are kept in the kitchen cabinet."
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "attempt": "attempt-01",
+  "id": "I61f754031566f08636a4",
+  "reader": "opus",
+  "session": "db853469-2e62-45ed-8265-bb2c9b7c6171",
+  "raw_sha256": "d993106f7a4f20c8cb878004e4c69784e2986eed240d957e1eeae1503f919d6d",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "c6c9a4df3b3181b6b05e6feeaca75446173818ab5759a464f9f64cbd175781ff",
+  "provider_sha256": "45779d333c1915e35c5d3414ad1091af333c2a221614aeddadf8a0d494afb506",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "uncertain",
+        "5": "positive",
+        "6": "negative",
+        "7": "uncertain",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I label the leftovers every Thursday.",
+            "earlier_turn": 1,
+            "earlier_quote": "Every Thursday I label the leftovers",
+            "reason": "The stew episode already answers the request for an example. The closing sentence repeats the Thursday labelling routine from turn 1 almost word for word. It adds no new information and does not answer the example request, which asked for a specific occasion rather than a routine."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "4": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 4,
+            "quote": "Occasionally I miss a line at a noisy corner on my walk",
+            "earlier_turn": 3,
+            "earlier_quote": "just the occasional line at a noisy corner",
+            "reason": "Turn 4 asks how much the patient can follow. 'I can follow most of a mystery' answers that. The missed-line-and-rewind detail is now stated for the third time (turns 2, 3 and 4), and turn 3 had just covered missing lines. It may be a legitimate qualification of 'most' in response to a partial re-ask, but its function is weak."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "7": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "I usually bring a water bottle with me.",
+            "earlier_turn": 6,
+            "earlier_quote": "so I usually bring a water bottle",
+            "reason": "Restating the dry mouth answers the new question about afternoon comfort, so that part is legitimate. The water-bottle remedy, however, repeats turn 6 in nearly identical words, and the question did not ask about coping. It is borderline as supporting context."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "checked with the cook before putting it away",
+            "reason": "The request was for an example of a practical task done with other people. The patient describes a specific occasion: at the last kitchen shift, they noticed the stew had no date label and checked with the cook. This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:10:37.728718+00:00"
+}

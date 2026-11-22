@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Cameron is 26 and labels incoming items in a museum storeroom. Cameron lives with a friend and has recently changed hours at work.",
+    "history": "Cameron has regular follow-up for schizophrenia. Speech is usually brief even with familiar people. Cameron has kept working with a modified schedule.",
+    "organization": "Answers concrete questions in sequence.",
+    "spontaneity": "Rarely initiates a new topic.",
+    "guardedness": "Willing to discuss work and home routines.",
+    "expression": "Soft-spoken and unhurried.",
+    "self_understanding": "Has noticed that a later start makes mornings easier.",
+    "verbal_productivity": "Decreased",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "Checks the number on each incoming item and makes a matching paper label.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about work."
+      },
+      {
+        "kind": "background",
+        "content": "Received a replacement ID badge and a replacement locker key. The old badge cracked and was handed back. The old locker key was lost and could not be handed back. Neither replacement cost anything.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about new work items."
+      },
+      {
+        "kind": "background",
+        "content": "Clips the ID badge to a blue lanyard.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing use of the badge."
+      },
+      {
+        "kind": "treatment",
+        "content": "Takes the prescribed daily tablet with the evening meal.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about the tablet."
+      },
+      {
+        "kind": "background",
+        "content": "Grows mint on the kitchen windowsill.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing interests at home."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually gets roughly eight hours of sleep these days.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleep."
+      },
+      {
+        "kind": "background",
+        "content": "Walks to the museum with the friend who shares the flat.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about the work commute."
+      },
+      {
+        "kind": "background",
+        "content": "The work changes were shorter shifts and a later start. Cameron requested the later start. The supervisor suggested shorter shifts. Cameron would like to keep starting later if the schedule is reviewed.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing the schedule or preferences."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What do you do with an item when it first comes into the storeroom?",
+      "answer": "I check its number and make a matching paper label."
+    },
+    {
+      "question": "I see a replacement ID badge and locker key on your work checklist. Did you have to pay for the replacement?",
+      "answer": "No. Neither cost anything."
+    },
+    {
+      "question": "When do you take your tablet?",
+      "answer": "With my evening meal."
+    },
+    {
+      "question": "You had your badge and your locker key replaced. Did you hand the old one back?",
+      "answer": "Do you mean the badge or the key?"
+    },
+    {
+      "question": "Did you return the old ID badge when you got the replacement?",
+      "answer": "Yes. It had cracked."
+    },
+    {
+      "question": "What do you clip the new one to?",
+      "answer": "My blue lanyard."
+    },
+    {
+      "question": "What do you grow on the kitchen windowsill?",
+      "answer": "Mint."
+    },
+    {
+      "question": "How many hours of sleep do you usually get these days?",
+      "answer": "About eight hours."
+    },
+    {
+      "question": "Who do you usually walk to the museum with?",
+      "answer": "My friend. We share a flat."
+    },
+    {
+      "question": "Your week changed in two ways, shorter shifts and a later start. Was that change something you asked for?",
+      "answer": "Do you mean the shorter shifts or the later start?"
+    },
+    {
+      "question": "Were the shorter shifts your suggestion?",
+      "answer": "No, my supervisor suggested those."
+    },
+    {
+      "question": "If work reviews the schedule again, what would you most like to keep?",
+      "answer": "The later start. Mornings are easier."
+    }
+  ]
+}

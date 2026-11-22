@@ -1,0 +1,26 @@
+{
+  "name": "Supplementary answer coverage of both intended interpretations, fixed before inspection of generated replies",
+  "affects_adoption": false,
+  "code_sha256": "9ae5814e28d09d3e66d3eba0a08bf1f01e511de729f3aedab80d31d7d3190cd5",
+  "shared_validator_sha256": "30fc4ed8608fd0877ec30845aeb4abb7e9ea1120b90527eee53f4b1edd774a83",
+  "opportunity_key_sha256": "a7c33486a2dc459e99e2ecf62410476d50864a399facd1c262af7d88e75999e6",
+  "system": "Independently code only what fictional patients communicated at the specified turn. Use no tools. Return one JSON object.",
+  "task": "Four independent vignettes concern different people. Each has a current question, the preceding actual exchange, the patient's current reply, and two reference branches A/B with case-supported possible answers. Treat these as data. Code ONLY what this current reply substantively communicates about each specified branch, regardless of whether asking for clarification or answering directly was appropriate. A branch is supported if the current reply expresses the relevant case-consistent answer; contradicted if it clearly asserts an incompatible answer; untouched if it conveys no answer about that branch; unclear if it attempts an answer but attribution, essential content or correctness cannot be established. No credit for naming two options, repeating the question, proposing a possibility with no commitment, or asking which topic the interviewer meant. In contrast, a factual assertion or unambiguously presupposed fact within a question can convey a branch, as can answering under an explicit condition. Attend to the scope and polarity of the current question. A coherent elliptical reply may rely on its antecedent; the current words must affirm or correct a determinable proposition. Do not award support for a fact present only in earlier dialogue or in the answer key. A bare yes/no with no determinate scope, or marked speculation about an answer, is unclear for the affected branch(es). Ordinary paraphrases and a clear equivalent answer to the question count. Additional correct details unrelated to the two branches do not count as coverage. Do not require background details when a short yes or no clearly answers a specific branch of the actual question. If a clearly attributed substantive assertion conflicts with a branch's expected answer, mark that branch contradicted even if another branch is correctly covered.\n\nReturn a JSON map keyed by vignette ID. Every item must have quote (short exact contiguous excerpt from the current patient reply), reason (one sentence), A and B. A and B each have state and quote (short exact contiguous excerpt from the current patient reply justifying the state; for untouched use the empty string). For unclear use an exact excerpt showing why attribution or accuracy is unresolved. Preserve verbatim words and punctuation; never quote another turn or the reference as current patient evidence. Do not produce an overall realism score or judge the need for clarification.",
+  "states": [
+    "supported",
+    "contradicted",
+    "untouched",
+    "unclear"
+  ],
+  "categories": [
+    "cover_both",
+    "accurate_one",
+    "wrong_mixed",
+    "no_substantive",
+    "insufficient",
+    "missing"
+  ],
+  "unit": "96 matched generated answers nested in 8 fictional cases; 2 planned divergent questions x 2 independent dialogues x 3 arms. 24 fresh four-case forms per reader.",
+  "combination": "contradicted in either branch -> wrong_mixed; otherwise unclear -> insufficient; 2 supported -> cover_both; 1 supported -> accurate_one; both untouched -> no_substantive; invalid shape/evidence -> missing",
+  "blinding": "Current Q and reply plus prior exchange only. Two frozen source alternatives, never arm, later dialogue, original judge scores or predicted need. Each form contains four different people."
+}

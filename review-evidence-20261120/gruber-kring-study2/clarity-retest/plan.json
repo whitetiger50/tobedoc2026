@@ -1,0 +1,24 @@
+{
+  "triplets_in_expected_clarity_order": {
+    "compassion": ["H47", "H83", "H26"],
+    "embarrassment": ["H63", "H39", "H91"],
+    "directions": ["H72", "H14", "H58"]
+  },
+  "intended_gap_at_2": {
+    "H83": "It is clear one stranded woman got a taxi. Which of the two women was helped is unresolved.",
+    "H39": "The public mishaps and embarrassment are clear. Which mishap made the audience laugh depends on the friend's unreported order of noticing.",
+    "H14": "The destination and remaining route are clear. The listener must select one of two bridges, but cannot identify which."
+  },
+  "orders": {
+    "opus": [
+      ["H83","H63","H58","H47","H39","H72","H26","H14","H91"],
+      ["H72","H91","H47","H14","H26","H63","H58","H83","H39"]
+    ],
+    "gpt": [
+      ["H91","H14","H47","H63","H58","H83","H72","H39","H26"],
+      ["H83","H72","H39","H26","H63","H14","H47","H58","H91"]
+    ]
+  },
+  "decision": "For each reader and round separately, count exact 2s among the 3 prespecified middle variants and false 2s among the 6 anchors. A fully distinguished triplet requires observed 1,2,3. Across rounds report the number of triplets fully distinguished twice and the number of intended middle variants rated 2 twice. Report exact within-reader retest agreement over all 9 and all score transitions, separately for clarity and elaboration. No target grade for elaboration. Correctness refers to design expectations, not human consensus. Unrateable or missing inputs do not count as confirmed matches. Use first independent readings without a tie-break or rewrite.",
+  "retest": "Fresh, single-question sessions. Both rounds use byte-identical forms, questions and answers, submitted serially within each reader in the listed orders; no trial has the same position twice. The reader sees no item ID, target, prior examples, scores or round. This is an immediate independent repeat with a changed submission order; serial position cannot be seen by a context-isolated reader."
+}

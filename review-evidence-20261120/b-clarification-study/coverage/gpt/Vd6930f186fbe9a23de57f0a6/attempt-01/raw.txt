@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "My sister came to the optician. I went to the care coordinator alone.",
+    "reason": "The reply explicitly identifies the sister as accompanying the optician visit and states that the care coordinator visit was alone.",
+    "A": {
+      "state": "supported",
+      "quote": "My sister came to the optician."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I went to the care coordinator alone."
+    }
+  },
+  "v2": {
+    "quote": "The housing one needs a reply by Friday. The one from work doesn’t need a reply—it’s just for information.",
+    "reason": "The reply gives Friday as the housing deadline and explicitly says the work letter requires no reply.",
+    "A": {
+      "state": "supported",
+      "quote": "The housing one needs a reply by Friday."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The one from work doesn’t need a reply"
+    }
+  },
+  "v3": {
+    "quote": "Do you mean Inez or Pat?",
+    "reason": "The reply only requests clarification and conveys no answer about whether either person came to the flat.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v4": {
+    "quote": "I called my brother back, but not Mr. Bell yet.",
+    "reason": "Despite initially requesting clarification, the reply explicitly confirms calling the brother back and not yet calling Mr. Bell back.",
+    "A": {
+      "state": "supported",
+      "quote": "I called my brother back"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "but not Mr. Bell yet."
+    }
+  }
+}

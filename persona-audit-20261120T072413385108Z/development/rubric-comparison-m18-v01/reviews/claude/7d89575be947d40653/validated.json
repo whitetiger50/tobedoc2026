@@ -1,0 +1,77 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 프로필과 맞고, 저녁에 들리는 소리와 라디오로 대처하는 방법을 담담하고 자연스럽게 말한다. 하지만 P06에서 환자가 자기 반응을 3인칭으로 소개하는 메타 문장이 나와 환자 시점이 깨진다. 이 부분이 눈에 띄는 비현실적 요소이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "형과 동거, 반려동물용품점 일, 저녁에 들리는 소리, 라디오 대처, 수면, 다음 진료 목표가 모두 프로필 사실과 일치한다. 무근거로 새 사실을 확정한 부분은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 턴이 직전 의사 질문의 대상에 직접 답한다. P06도 메타 문장 뒤에 대응 방식을 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "내용상 자기모순은 없고 D04 재확인에 같은 답을 한 것도 자연스럽다. 다만 P06의 메타 서술이 환자 역할의 흐름을 국소적으로 끊는다. 역할 파괴의 정도를 0으로 볼지는 불확실해 1로 기록한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P05"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06에서 환자가 자신을 '이 환자'라고 칭하며 반응을 소개한다. 당사자 표현이 아니라 뚜렷한 역할 설명·대행이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

@@ -1,0 +1,694 @@
+{
+  "addendum_design_sha256": "d6ad7ca69e83769f11d9425e0bde03ba756a9917922c98d7d1e0d74a27e3a568",
+  "comparison_code_sha256": "2334f717fd94a4c9683733b35ce9540e68f400c0259fbdda99e215e66d8c16b0",
+  "groups": {
+    "clinical": {
+      "Q1": {
+        "anchored_interviews": 1,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 1,
+          "eligible_turns": 19,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 8,
+            "no_candidate_in_target": 46,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 3,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 26,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 1,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 0,
+          "person_opportunities_median_range": [
+            19,
+            19,
+            19
+          ],
+          "person_recurrence_counts_median_range": [
+            0,
+            0,
+            0
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "repeat_turns": 0,
+          "target_turns": 73
+        },
+        "missing_opening": 0,
+        "participants": 1,
+        "turns_5_12": {
+          "anchored_without_observable_window": 1,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 0,
+          "eligible_turns": 0,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 0,
+            "no_candidate_in_target": 8,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 1.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 0,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 0,
+          "participants_without_observable_window": 1,
+          "people_with_recurrence": 0,
+          "person_opportunities_median_range": [
+            0,
+            0,
+            0
+          ],
+          "person_recurrence_counts_median_range": [
+            0,
+            0,
+            0
+          ],
+          "person_recurrence_fraction_median_range_eligible": null,
+          "repeat_turns": 0,
+          "target_turns": 8
+        }
+      },
+      "Q2": {
+        "anchored_interviews": 7,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 1,
+          "eligible_people": 7,
+          "eligible_turns": 448,
+          "exclusion_counts": {
+            "elicitation_filter": 1,
+            "no_candidate_in_previous": 23,
+            "no_candidate_in_target": 232,
+            "role_or_transcription": 5
+          },
+          "median_usable_tokens_in_clean_target": 16.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 998,
+            "prior_answer_pairs_screened_as_reask": 7
+          },
+          "participants_eligible_without_recurrence": 2,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 5,
+          "person_opportunities_median_range": [
+            40,
+            33,
+            184
+          ],
+          "person_recurrence_counts_median_range": [
+            1,
+            0,
+            15
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.025,
+            0.0,
+            0.08152173913043478
+          ],
+          "repeat_turns": 20,
+          "target_turns": 709
+        },
+        "missing_opening": 0,
+        "participants": 7,
+        "turns_5_12": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 7,
+          "eligible_turns": 35,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 2,
+            "no_candidate_in_target": 19,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 22.5,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 75,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 7,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 0,
+          "person_opportunities_median_range": [
+            6,
+            2,
+            6
+          ],
+          "person_recurrence_counts_median_range": [
+            0,
+            0,
+            0
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "repeat_turns": 0,
+          "target_turns": 56
+        }
+      },
+      "Q3": {
+        "anchored_interviews": 7,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 7,
+          "eligible_turns": 272,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 22,
+            "no_candidate_in_target": 167,
+            "role_or_transcription": 9
+          },
+          "median_usable_tokens_in_clean_target": 17.5,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 608,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 3,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 4,
+          "person_opportunities_median_range": [
+            29,
+            4,
+            75
+          ],
+          "person_recurrence_counts_median_range": [
+            1,
+            0,
+            4
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.013333333333333334,
+            0.0,
+            0.07142857142857142
+          ],
+          "repeat_turns": 8,
+          "target_turns": 470
+        },
+        "missing_opening": 0,
+        "participants": 7,
+        "turns_5_12": {
+          "anchored_without_observable_window": 1,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 6,
+          "eligible_turns": 30,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 3,
+            "no_candidate_in_target": 19,
+            "role_or_transcription": 4
+          },
+          "median_usable_tokens_in_clean_target": 19.5,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 65,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 5,
+          "participants_without_observable_window": 1,
+          "people_with_recurrence": 1,
+          "person_opportunities_median_range": [
+            5,
+            0,
+            7
+          ],
+          "person_recurrence_counts_median_range": [
+            0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.16666666666666666
+          ],
+          "repeat_turns": 1,
+          "target_turns": 56
+        }
+      },
+      "all": {
+        "anchored_interviews": 15,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 1,
+          "eligible_people": 15,
+          "eligible_turns": 739,
+          "exclusion_counts": {
+            "elicitation_filter": 1,
+            "no_candidate_in_previous": 53,
+            "no_candidate_in_target": 445,
+            "role_or_transcription": 14
+          },
+          "median_usable_tokens_in_clean_target": 15,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 1632,
+            "prior_answer_pairs_screened_as_reask": 7
+          },
+          "participants_eligible_without_recurrence": 6,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 9,
+          "person_opportunities_median_range": [
+            39,
+            4,
+            184
+          ],
+          "person_recurrence_counts_median_range": [
+            1,
+            0,
+            15
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.016666666666666666,
+            0.0,
+            0.08152173913043478
+          ],
+          "repeat_turns": 28,
+          "target_turns": 1252
+        },
+        "missing_opening": 0,
+        "participants": 15,
+        "turns_5_12": {
+          "anchored_without_observable_window": 2,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 13,
+          "eligible_turns": 65,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 5,
+            "no_candidate_in_target": 46,
+            "role_or_transcription": 4
+          },
+          "median_usable_tokens_in_clean_target": 16.5,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 140,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 12,
+          "participants_without_observable_window": 2,
+          "people_with_recurrence": 1,
+          "person_opportunities_median_range": [
+            5,
+            0,
+            7
+          ],
+          "person_recurrence_counts_median_range": [
+            0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.16666666666666666
+          ],
+          "repeat_turns": 1,
+          "target_turns": 120
+        }
+      }
+    },
+    "comparison": {
+      "Q1": {
+        "anchored_interviews": 10,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 10,
+          "eligible_turns": 125,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 38,
+            "no_candidate_in_target": 276,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 2,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 217,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 7,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 3,
+          "person_opportunities_median_range": [
+            11.0,
+            8,
+            21
+          ],
+          "person_recurrence_counts_median_range": [
+            0.0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ],
+          "repeat_turns": 3,
+          "target_turns": 439
+        },
+        "missing_opening": 0,
+        "participants": 10,
+        "turns_5_12": {
+          "anchored_without_observable_window": 1,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 9,
+          "eligible_turns": 36,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 4,
+            "no_candidate_in_target": 40,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 7.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 67,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 8,
+          "participants_without_observable_window": 1,
+          "people_with_recurrence": 1,
+          "person_opportunities_median_range": [
+            3.5,
+            0,
+            7
+          ],
+          "person_recurrence_counts_median_range": [
+            0.0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.3333333333333333
+          ],
+          "repeat_turns": 1,
+          "target_turns": 80
+        }
+      },
+      "Q3": {
+        "anchored_interviews": 2,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 2,
+          "eligible_turns": 26,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 12,
+            "no_candidate_in_target": 60,
+            "role_or_transcription": 1
+          },
+          "median_usable_tokens_in_clean_target": 2,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 42,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 1,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 1,
+          "person_opportunities_median_range": [
+            13.0,
+            11,
+            15
+          ],
+          "person_recurrence_counts_median_range": [
+            0.5,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.03333333333333333,
+            0.0,
+            0.06666666666666667
+          ],
+          "repeat_turns": 1,
+          "target_turns": 99
+        },
+        "missing_opening": 0,
+        "participants": 2,
+        "turns_5_12": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 2,
+          "eligible_turns": 7,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 1,
+            "no_candidate_in_target": 8,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 12.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 13,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 2,
+          "participants_without_observable_window": 0,
+          "people_with_recurrence": 0,
+          "person_opportunities_median_range": [
+            3.5,
+            3,
+            4
+          ],
+          "person_recurrence_counts_median_range": [
+            0.0,
+            0,
+            0
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "repeat_turns": 0,
+          "target_turns": 16
+        }
+      },
+      "all": {
+        "anchored_interviews": 12,
+        "from_5_to_end": {
+          "anchored_without_observable_window": 0,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 12,
+          "eligible_turns": 151,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 50,
+            "no_candidate_in_target": 336,
+            "role_or_transcription": 1
+          },
+          "median_usable_tokens_in_clean_target": 2.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 259,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 8,
+          "participants_without_observable_window": 1,
+          "people_with_recurrence": 4,
+          "person_opportunities_median_range": [
+            11.5,
+            8,
+            21
+          ],
+          "person_recurrence_counts_median_range": [
+            0.0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ],
+          "repeat_turns": 4,
+          "target_turns": 538
+        },
+        "missing_opening": 1,
+        "participants": 13,
+        "turns_5_12": {
+          "anchored_without_observable_window": 1,
+          "current_turn_with_invalid_bounds": 0,
+          "eligible_people": 11,
+          "eligible_turns": 43,
+          "exclusion_counts": {
+            "elicitation_filter": 0,
+            "no_candidate_in_previous": 5,
+            "no_candidate_in_target": 48,
+            "role_or_transcription": 0
+          },
+          "median_usable_tokens_in_clean_target": 8.0,
+          "pair_diagnostics": {
+            "matching_pairs_fully_echoed_by_interviewer": 0,
+            "prior_answer_pair_candidates": 80,
+            "prior_answer_pairs_screened_as_reask": 0
+          },
+          "participants_eligible_without_recurrence": 10,
+          "participants_without_observable_window": 2,
+          "people_with_recurrence": 1,
+          "person_opportunities_median_range": [
+            3.5,
+            0,
+            7
+          ],
+          "person_recurrence_counts_median_range": [
+            0.0,
+            0,
+            1
+          ],
+          "person_recurrence_fraction_median_range_eligible": [
+            0.0,
+            0.0,
+            0.3333333333333333
+          ],
+          "repeat_turns": 1,
+          "target_turns": 96
+        }
+      }
+    }
+  },
+  "inventory": {
+    "clinical": {
+      "archival_no": 0,
+      "archival_yes": 16,
+      "interviewer_blocks_in_unanchored_documents": {},
+      "local_full_documents": 15,
+      "matched_records_all_archival_yes": 15,
+      "metadata_openings_in_full_documents": {
+        "closed": 14,
+        "open": 1
+      },
+      "metadata_rows": 16,
+      "no_usable_start": 0,
+      "speaker_only_tagged_documents": 15,
+      "timestamped_documents": 15
+    },
+    "comparison": {
+      "archival_no": 1,
+      "archival_yes": 14,
+      "interviewer_blocks_in_unanchored_documents": {
+        "interviewer_blocks": 38,
+        "missing_markers_no_spoken_word": 38
+      },
+      "local_full_documents": 13,
+      "matched_records_all_archival_yes": 13,
+      "metadata_openings_in_full_documents": {
+        "closed": 3,
+        "open": 10
+      },
+      "metadata_rows": 15,
+      "no_usable_start": 1,
+      "speaker_only_tagged_documents": 13,
+      "timestamped_documents": 13
+    }
+  },
+  "matched_opening_families": [
+    "Q1",
+    "Q3"
+  ],
+  "previous_clinical_Q2_Q3": {
+    "anchored_interviews": 14,
+    "from_5_to_end": {
+      "anchored_without_observable_window": 0,
+      "current_turn_with_invalid_bounds": 1,
+      "eligible_people": 14,
+      "eligible_turns": 720,
+      "exclusion_counts": {
+        "elicitation_filter": 1,
+        "no_candidate_in_previous": 45,
+        "no_candidate_in_target": 399,
+        "role_or_transcription": 14
+      },
+      "median_usable_tokens_in_clean_target": 16.0,
+      "pair_diagnostics": {
+        "matching_pairs_fully_echoed_by_interviewer": 0,
+        "prior_answer_pair_candidates": 1606,
+        "prior_answer_pairs_screened_as_reask": 7
+      },
+      "participants_eligible_without_recurrence": 5,
+      "participants_without_observable_window": 0,
+      "people_with_recurrence": 9,
+      "person_opportunities_median_range": [
+        39.5,
+        4,
+        184
+      ],
+      "person_recurrence_counts_median_range": [
+        1.0,
+        0,
+        15
+      ],
+      "person_recurrence_fraction_median_range_eligible": [
+        0.020833333333333336,
+        0.0,
+        0.08152173913043478
+      ],
+      "repeat_turns": 28,
+      "target_turns": 1179
+    },
+    "missing_opening": 0,
+    "participants": 14,
+    "turns_5_12": {
+      "anchored_without_observable_window": 1,
+      "current_turn_with_invalid_bounds": 0,
+      "eligible_people": 13,
+      "eligible_turns": 65,
+      "exclusion_counts": {
+        "elicitation_filter": 0,
+        "no_candidate_in_previous": 5,
+        "no_candidate_in_target": 38,
+        "role_or_transcription": 4
+      },
+      "median_usable_tokens_in_clean_target": 21.0,
+      "pair_diagnostics": {
+        "matching_pairs_fully_echoed_by_interviewer": 0,
+        "prior_answer_pair_candidates": 140,
+        "prior_answer_pairs_screened_as_reask": 0
+      },
+      "participants_eligible_without_recurrence": 12,
+      "participants_without_observable_window": 1,
+      "people_with_recurrence": 1,
+      "person_opportunities_median_range": [
+        5.5,
+        0,
+        7
+      ],
+      "person_recurrence_counts_median_range": [
+        0.0,
+        0,
+        1
+      ],
+      "person_recurrence_fraction_median_range_eligible": [
+        0.0,
+        0.0,
+        0.16666666666666666
+      ],
+      "repeat_turns": 1,
+      "target_turns": 112
+    }
+  },
+  "source_anchor_code_sha256": "ebc8ffdb466daf6334e74e5ad1eba9ab95389811efd2d8f53e8ab8802948310c"
+}

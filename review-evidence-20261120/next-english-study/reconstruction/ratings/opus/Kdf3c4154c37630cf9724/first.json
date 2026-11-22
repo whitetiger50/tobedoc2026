@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-20T23:01:02.224486+00:00",
+  "attempt": "attempt-01",
+  "id": "Kdf3c4154c37630cf9724",
+  "reader": "opus",
+  "session": "ab2e3ad1-1e8f-49bb-bf96-f97b26510610",
+  "packet_sha256": "3f6a8fbce45a95e3d0f29d46895038802534e681ba02818a66dbed40048e43bf",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "f6e397756ad58fe67531b4f15f1a35d65ecd04dcc1b305694c169ee51d064af0",
+  "raw_sha256": "01539820b02f1772ab651bbd4855a52f0bdf654a3d507ded8bcf6e5b9719bfc2",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says the slip of paper under the line helped them finish a passage last week. The word 'short' in both options is not in the patient's words, but it does not change which option is supported.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "I used a slip of paper under the line last week, and that helped me finish a passage.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says the bike shows where to start again and is usually easy to pick up. Reading 'takes a bit longer' because they must find their place and reread. The short 'usually, yes' answers the interviewer's question in turn 4 about picking a task up again easily.",
+      "evidence": [
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "With the bike, if I get distracted, the rubbing shows me where to start again.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "interviewer",
+          "quote": "Can you pick it up again easily?",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "The bike, usually, yes. Reading takes a bit longer",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

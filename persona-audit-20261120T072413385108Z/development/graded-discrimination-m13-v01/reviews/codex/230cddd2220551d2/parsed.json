@@ -1,0 +1,54 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 일상적인 환자 말투이며 경험과 생활을 자연스럽게 설명한다. 다만 마지막 답변이 질문에서 요청한 시점과 조금 어긋난다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "동거인 설명은 프로필과 일치하지만, 거주 층수는 근거 없이 추가한 구체적 사실이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "다음 진료 전까지 해 보고 싶은 일을 물었으나 다음 진료 때 이야기하고 싶은 내용을 답해 시간 범위에 부분적으로 대응하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과의 자기모순이나 공개 흐름의 단절은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 한국어로 자신의 경험을 설명하며 보고서식 표현이나 역할 이탈은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

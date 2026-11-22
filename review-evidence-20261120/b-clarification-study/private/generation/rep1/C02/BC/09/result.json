@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 9,
+  "question": "Since the first day on the lower dose, have you missed any tablets?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff86-7843-979c-90bcfdb803a1",
+  "raw": "No, I haven’t missed any since starting the lower dose. I take it after supper.",
+  "raw_sha256": "b710350dfe2a74a290f0d0f16994057884e2837f0ded884b2979f05bb74bacfc",
+  "request_sha256": "5ceb5ab2878f010ca4dad0010ee68b7a4ec1d559aa19e9678b4b8ae388d2f80c",
+  "started_utc": "2026-11-21T03:45:42.519985+00:00",
+  "completed_utc": "2026-11-21T03:45:47.781179+00:00",
+  "usage": {
+    "input_tokens": 72163,
+    "cached_input_tokens": 61056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 229,
+    "reasoning_output_tokens": 36
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "effbb1528e43cf9d11cc994f88676ac7261ee442f7a710c5fc0e0ce9b35a08a7",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f93a4ec28b97d7ef3f6d68d106bb349ca73d3f781f3947b5cc2c73f0760e5350"
+}

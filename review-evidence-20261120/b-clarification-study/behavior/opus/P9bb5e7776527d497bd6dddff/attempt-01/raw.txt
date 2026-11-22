@@ -1,0 +1,56 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Did you pay a fee to take the class?",
+    "reason": "The interviewer has just named two classes, and the singular 'the class' could mean either; the cooking class was free, but the swimming lesson was paid, so the answer depends on which one is meant.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether Jules paid a fee for the cooking class.",
+        "answer": "No, the cooking class was free."
+      },
+      {
+        "meaning": "Asking whether Jules paid a fee for the swimming lesson.",
+        "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The previous exchange already separated the fan from the speaker and settled on the bedside speaker, so 'it' clearly continues to refer to the speaker.",
+    "alternatives": [
+      {
+        "meaning": "Asking where the bedside speaker is set up.",
+        "answer": "It sits on the windowsill beside the bed."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "What do you clip the new one to?",
+    "reason": "The preceding clarification settled on the ID badge, and clipping fits a badge rather than a locker key, so 'the new one' means the replacement badge.",
+    "alternatives": [
+      {
+        "meaning": "Asking what Cameron clips the replacement ID badge to.",
+        "answer": "A blue lanyard."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "The interviewer has just named both the commentary and the ringing, and 'the sound' could mean either; music stops the commentary but not the ringing, so the answers differ.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether the commentary stops when Ari plays music through headphones.",
+        "answer": "Yes, quiet music through headphones stops the commentary while the music is playing."
+      },
+      {
+        "meaning": "Asking whether the high-pitched ringing stops when Ari plays music through headphones.",
+        "answer": "No, the ringing is in both ears and continues through the music."
+      }
+    ]
+  }
+}
+```

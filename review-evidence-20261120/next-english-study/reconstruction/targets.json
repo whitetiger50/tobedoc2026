@@ -1,0 +1,240 @@
+[
+  {
+    "case": "N01",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Recent change in sleep timing",
+        "gold": "The recent two-night change in sleep was waking earlier than usual.",
+        "foil": "The recent two-night change in sleep was waking later than usual.",
+        "source_field": "profile.facts[2].content",
+        "source_quote": "The main recent sleep change was waking earlier on two nights while the apartment upstairs was being painted.",
+        "opportunities": [
+          2,
+          4
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Perceived capacity for work",
+        "gold": "Adding one more shift would feel within the patient’s current capacity.",
+        "foil": "Adding one more shift would feel beyond the patient’s current capacity.",
+        "source_field": "profile.facts[6].content",
+        "source_quote": "Feels steady enough to take on one extra shift, though wants to keep Sunday free for the league.",
+        "opportunities": [
+          9,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N02",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Arm discomfort following treatment",
+        "gold": "By the next morning, the arm discomfort has usually settled.",
+        "foil": "By the next morning, the arm discomfort is usually still present.",
+        "source_field": "profile.facts[4].content",
+        "source_quote": "The arm can ache the evening after an injection and usually feels fine the next morning.",
+        "opportunities": [
+          7,
+          11
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Plan for getting outside independently",
+        "gold": "The patient’s idea is to pick a destination the evening before the trip.",
+        "foil": "The patient’s idea is to pick a destination just after starting the trip.",
+        "source_field": "profile.facts[6].content",
+        "source_quote": "Would like to make one trip outside each week by choice. Thinks choosing the destination the night before might help.",
+        "opportunities": [
+          2,
+          4,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N03",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Character of the recent voice",
+        "gold": "The voice at home last week commented on the patient’s pace.",
+        "foil": "The voice at home last week gave instructions about the patient’s pace.",
+        "source_field": "profile.facts[1].content",
+        "source_quote": "Two evenings last week, heard a voice say “too slow” while sorting sewing supplies at home. It did not give any directions.",
+        "opportunities": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Effect of background radio on a task",
+        "gold": "With the radio on, the sound can become easier to set aside while sorting thread.",
+        "foil": "With the radio on, the sound can become harder to set aside while sorting thread.",
+        "source_field": "profile.facts[3].content",
+        "source_quote": "Turning on the radio can make the sound less distracting. It is still possible to finish sorting thread.",
+        "opportunities": [
+          5,
+          7,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N04",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Sleep after early waking",
+        "gold": "On mornings when the patient wakes around dawn, they usually fall asleep again.",
+        "foil": "On mornings when the patient wakes around dawn, they usually stay awake afterward.",
+        "source_field": "profile.facts[1].content",
+        "source_quote": "Has started waking once around dawn on some mornings, then usually gets back to sleep.",
+        "opportunities": [
+          2,
+          4
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Family visits and energy",
+        "gold": "Given their current energy, the patient prefers an afternoon visit that ends before dinner.",
+        "foil": "Given their current energy, the patient prefers an afternoon visit that continues through dinner.",
+        "source_field": "profile.facts[6].content",
+        "source_quote": "Thinks a shorter afternoon visit fits current energy better than staying through dinner.",
+        "opportunities": [
+          5,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N05",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Other passengers’ conversations on recent trips",
+        "gold": "On recent bus rides, nearby conversations have seemed to be about things unrelated to the patient.",
+        "foil": "On recent bus rides, nearby conversations have seemed to be about the patient personally.",
+        "source_field": "profile.facts[4].content",
+        "source_quote": "Two years ago strangers chatting on buses seemed to be discussing the patient. Has not had that feeling on recent trips.",
+        "opportunities": [
+          10,
+          11
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "How sorting feels upon arrival at work",
+        "gold": "Once inside the shop, the patient finds it fairly easy to get going with sorting.",
+        "foil": "Once inside the shop, the patient finds it fairly hard to get going with sorting.",
+        "source_field": "profile.facts[1].content",
+        "source_quote": "Can lose nearly half an hour sitting with shoes on before leaving for a shift. Once inside the shop, sorting goes smoothly.",
+        "opportunities": [
+          3,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N06",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Physical comfort during a kitchen shift",
+        "gold": "Dry mouth is most noticeable around the middle of a kitchen shift.",
+        "foil": "Dry mouth is most noticeable toward the end of a kitchen shift.",
+        "source_field": "profile.facts[3].content",
+        "source_quote": "A dry mouth is most noticeable halfway through the kitchen shift. Usually brings a water bottle.",
+        "opportunities": [
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Preference for time spent helping at the kitchen",
+        "gold": "For the coming weeks, the patient would like to keep the current number of shifts.",
+        "foil": "For the coming weeks, the patient would like to reduce the current number of shifts.",
+        "source_field": "profile.facts[6].content",
+        "source_quote": "Wants to keep the current number of kitchen shifts because long afternoons leave little time for listening at home.",
+        "opportunities": [
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N07",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Resuming an interrupted activity",
+        "gold": "The patient finds a hands-on task easier to resume than a piece of reading.",
+        "foil": "The patient finds a piece of reading easier to resume than a hands-on task.",
+        "source_field": "profile.self_understanding",
+        "source_quote": "Notices that a physical task is easier to return to than a page of reading. Can describe the difference in everyday terms.",
+        "opportunities": [
+          3,
+          5
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Effect of marking the line while reading",
+        "gold": "With a slip of paper marking the line, the patient finished the short passage last week.",
+        "foil": "With a slip of paper marking the line, the patient left the short passage unfinished last week.",
+        "source_field": "profile.facts[5].content",
+        "source_quote": "Using a slip of paper below the current line helped finish a short passage for class last week.",
+        "opportunities": [
+          5,
+          6,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "case": "N08",
+    "targets": [
+      {
+        "domain": "experience_or_function",
+        "stem": "Experience while waiting for the bus on Wednesday",
+        "gold": "At the same shelter on Wednesday, the sense of being watched was absent.",
+        "foil": "At the same shelter on Wednesday, the sense of being watched was present.",
+        "source_field": "profile.facts[3].content",
+        "source_quote": "Waited at the same shelter on Wednesday without feeling watched. The Monday experience still comes to mind occasionally.",
+        "opportunities": [
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "domain": "appraisal_or_response",
+        "stem": "Interpretation of the looks at the shelter",
+        "gold": "The patient remains unsure whether the people at the shelter looked up because they recognized them.",
+        "foil": "The patient feels fairly sure that the people at the shelter looked up because they recognized them.",
+        "source_field": "profile.facts[2].content",
+        "source_quote": "Wondered if the people had recognized the patient, but also wondered if they were looking for the bus. Remains uncertain.",
+        "opportunities": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 12,
+        "quote": "When I was sorting my sewing supplies last week, it made the voice less distracting",
+        "earlier_turn": 3,
+        "earlier_quote": "Turning on the radio made it less distracting, and I was able to finish sorting the thread",
+        "reason": "The opening line, 'Putting the radio on helps,' answers the general question about what helps finish home tasks. The added sewing episode repeats the same proposition already given at turns 3, 5 and 7. It could be read as a supporting illustration, but it adds nothing new, so its function is unclear."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 2,
+        "quote": "Do you mean at work, or at home?",
+        "reason": "'What has stood out there?' is ambiguous because turn 1 covered both work and home. The patient asks which setting is meant and gives up the turn without describing any experience."
+      },
+      {
+        "turn": 8,
+        "quote": "Do you mean stop what I’m doing because of the voice?",
+        "reason": "'Do you ever have to stop?' is ambiguous. The patient checks one possible reading and gives up the turn without answering. The interviewer then clarifies that the question was about work."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 5,
+        "quote": "One evening last week, I was sorting my sewing supplies",
+        "reason": "The interviewer asked the patient to walk through one recent evening. The patient narrates a specific occasion in order: the sound, a tentative interpretation (a neighbor), then the action taken (turning on the radio) and the outcome (finishing the thread)."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

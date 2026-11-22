@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T0",
+  "turn": 9,
+  "question": "How does that go with other people?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-b238-73f2-8888-baa6bb99af25",
+  "raw": "“It helps when someone quietly points me back to the pile. I appreciate that. I don’t mind talking about a mix-up—I just don’t want people thinking I’m careless.”",
+  "raw_sha256": "1c6e151f1cbcb74479cf8aa020a959032c6242053b9057aca315fd2fd7edf616",
+  "request_sha256": "20665da765b80fecc7232557571d81510a4ccc41e74c62b22f3a7d66d1826369",
+  "started_utc": "2026-11-20T20:41:51.826068+00:00",
+  "completed_utc": "2026-11-20T20:41:56.031249+00:00",
+  "usage": {
+    "input_tokens": 7391,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "12c83c19bddeed6782e942e7093f9ed68b70886106727626af4c1c5eb0a62648",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "71e92569ead786b9c57adffd4a4bfc3f5e339cad1970dfb6ab2857172a400c38"
+}

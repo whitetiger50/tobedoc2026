@@ -1,0 +1,53 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "짧고 조직적인 답변, 민감한 내용의 전달에 대한 경계심, 잘못된 전제의 정정과 인과관계에 대한 불확실성 표현이 설정에 맞고 자연스럽다.",
+  "realism_evidence": [],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "프로필의 생활환경·내원 경위·주관적 경험에 부합하며, 특정 날짜나 수면 문제의 원인을 근거 없이 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답하며, 의사의 잘못된 전제는 정정하고 알 수 없는 인과관계는 명확히 제한한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥과 이번 대화의 진술이 일관되며, 거주 형태의 반복은 재질문에 따른 자연스러운 재확인이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "간결한 일상 표현과 필요한 설명이 환자 시점에서 자연스럽고, 정보 전달에 대한 걱정도 의사소통 설정에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

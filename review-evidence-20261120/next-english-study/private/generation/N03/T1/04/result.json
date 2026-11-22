@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 4,
+  "question": "Have you heard any sounds or voices lately that were hard to place?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-8f67-7442-a247-0318a955961a",
+  "raw": "Yes, that voice I mentioned—“too slow,” on two evenings last week. I couldn’t tell where it was coming from. It wasn’t telling me to do anything.",
+  "raw_sha256": "63fe597ba5bf940da77b59507dea2473fded04c37b76596d63c176e510429426",
+  "request_sha256": "675d5205c533aa60450409c13f96781e8deae8243373a09b8adaae88dcb1225a",
+  "started_utc": "2026-11-20T21:00:16.998559+00:00",
+  "completed_utc": "2026-11-20T21:00:21.281711+00:00",
+  "usage": {
+    "input_tokens": 7190,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2c30bf70a1b909f03a717dd2284d6c9fdde4aca1f85b5bde83cff9fce4df6de5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "38d78dd0f09f1fb13e4dc010aa4054c0a9561c8166b9df4cdbd91c378d0c32d4"
+}

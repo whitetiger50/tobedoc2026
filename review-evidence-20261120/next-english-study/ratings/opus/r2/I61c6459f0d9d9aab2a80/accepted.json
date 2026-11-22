@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I61c6459f0d9d9aab2a80",
+  "ended": "2026-11-20T21:06:39.644424+00:00",
+  "session": "57697938-bbf9-46bb-87c6-fca1764995af",
+  "packet_sha256": "e7aec196770775d70e07784e037dca7bc15f73bb6b72e5b3880fd18c29cad620",
+  "raw_sha256": "4d9964eaa9f0475c86ca974479f824c6ff7fa600e2fbdf7bde5eeea05daadbd0",
+  "provider_sha256": "8703e72c58e41fcdfe2831b58e9e1243d12c09edf59e77fab213c967eccf8d1a",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some features fit the persona. The patient has dry humor about the alarm, gives a brief factual reply about medication, sensibly asks for clarification at turn 3, and keeps events in order. However, the communication feels scripted in noticeable ways. The opening answer lists almost every work-related profile fact at once in response to a general question. The same phrasing about feeling steady enough for an extra shift and keeping Sunday free for softball repeats almost word for word across turns 1, 7, 8, 9 and 12, and it appears even when the question asks about something else, such as timing. The sleep answer at turn 4 largely restates turn 2. Although the profile says the patient is more private about the hospital stay, they readily volunteer the pre-hospital store-speaker experience in profile-like wording. Several answers also contain stray quotation marks. These elements make the dialogue only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "We switched opening days last week so I could make a morning appointment. I feel steady enough to take on an extra shift, but I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "turn": 8,
+      "quote": "I’d like to fit in one extra shift, but keep Sunday free for softball."
+    },
+    {
+      "turn": 12,
+      "quote": "I feel steady enough for that, but I’d keep Sunday free for softball."
+    },
+    {
+      "turn": 10,
+      "quote": "Before the hospital stay, announcements over a store speaker seemed to be commenting on what I was buying."
+    },
+    {
+      "turn": 11,
+      "quote": "the alarm and I still have our disagreements"
+    }
+  ]
+}

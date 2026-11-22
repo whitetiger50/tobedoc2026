@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 4,
+  "question": "What did Pat lend you at the café?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-c05c-7bf3-9ab1-c46f458ebada",
+  "raw": "A pair of small pliers, for straightening the minute hand on my kitchen clock.",
+  "raw_sha256": "01ebc44566322b12d2d2748235423c0499767bcac8d849b26c5ebf40d0f620c3",
+  "request_sha256": "7e304696aeba15f45c7d375380862cf6670e5966c36c0208fd611ae591bbdc2a",
+  "started_utc": "2026-11-21T03:41:21.252264+00:00",
+  "completed_utc": "2026-11-21T03:41:25.505748+00:00",
+  "usage": {
+    "input_tokens": 6142,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1b381be3a112d3cf41bd603be787a86d5a0032b8d2f584d1da9db80b076ea0de",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "176b89ce443354ae8fd2672dc8759d273385f51dd3b6948c5b6dc5f923290fe6"
+}

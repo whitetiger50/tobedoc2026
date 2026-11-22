@@ -1,0 +1,28 @@
+```json
+{
+  "score": 2,
+  "rationale": "The patient's speech is somewhat natural but has clear unrealistic elements. Strengths: the patient asks a sensible clarifying question after an ambiguous prompt (turn 3), shows dry humor (turns 2 and 11), and keeps events in order. Weaknesses: the first answer to a broad workday question discloses almost every profile fact at once (opening schedule, the alarm, the coworker's swap, readiness for an extra shift, keeping Sunday free), which reads like a checklist rather than conversation. Later answers repeat the same facts in nearly identical wording (the alarm in turns 1, 6, 9 and 11; the Sunday softball caveat in turns 1, 9 and 12), which feels scripted. The alarm detail is also tacked onto the medication answer in turn 6 without a natural link. The patient discusses the pre-hospital experience openly at the first prompt (turn 10), which partly fits the profile's ease with treatment talk but does not show the expected privacy about the hospital stay. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "My coworker swapped opening days with me last week so I could make a morning appointment. I feel steady enough to take on an extra shift, though I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean the early waking, or getting up with the alarm?"
+    },
+    {
+      "turn": 6,
+      "quote": "Getting up with the morning alarm can still be hard some days."
+    },
+    {
+      "turn": 10,
+      "quote": "Before I went into hospital, store announcements sometimes seemed to be commenting on what I was buying."
+    },
+    {
+      "turn": 12,
+      "quote": "but I’d keep Sunday free for softball"
+    }
+  ]
+}
+```

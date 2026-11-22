@@ -1,0 +1,64 @@
+{
+  "n_triplets": 120,
+  "n_answers": 360,
+  "n_frozen_readings": 720,
+  "by_arm": {
+    "developed": {
+      "E": 240,
+      "both_E": 120,
+      "at_least_one_E": 120,
+      "n": 120,
+      "opus_specific": 120,
+      "gpt_specific": 109
+    },
+    "base": {
+      "E": 239,
+      "both_E": 119,
+      "at_least_one_E": 120,
+      "n": 120,
+      "opus_specific": 120,
+      "gpt_specific": 111,
+      "P": 1
+    },
+    "short": {
+      "E": 235,
+      "both_E": 115,
+      "at_least_one_E": 120,
+      "n": 120,
+      "opus_specific": 120,
+      "gpt_specific": 108,
+      "P": 5
+    }
+  },
+  "all": {
+    "E": 714,
+    "both_E": 354,
+    "at_least_one_E": 360,
+    "n": 360,
+    "opus_specific": 360,
+    "gpt_specific": 328,
+    "P": 6
+  },
+  "length": {
+    "base_longer_than_short": 120,
+    "base_longer_than_developed_longer_than_short": 112,
+    "three_arm_lengths_at_least_80pct": 1
+  },
+  "median_paired_base_minus_short_words": 59.0,
+  "three_arm_length_matched_triplets": [
+    "GK10-morning"
+  ],
+  "largest_base_short_gap": "GK01-compassion",
+  "spotcheck_30": {
+    "E": 60
+  },
+  "source_hashes": {
+    "main/private/key.json": "0c55994d0163dbbf8f7ba08d8acbffdf5ad30d4a564b30fe86d76499adcb1e44",
+    "main/blind.json": "beaa8ddbc0adf016236fb4457145a1f5972954a2e10494195b9de665227b1af7",
+    "main/scores.json": "071777ee967b59b85617e8b4a6c46c640507342db2e1c05b37cfa2489385a904",
+    "cards/cards.json": "d48e6793c80023526b4fac3ef3ccd25256fcd022d712ee21e296575c943ba06a",
+    "DESIGN.ko.md": "d3610486033c7e4d6c7774b81acf3da824bc9d29b7fea86da01c42d569439e61",
+    "boundary/calibrate.py": "52ebaabb63b20b5b1d39e107d8cc6d4ea09bde3613ce6aa6d2af76745300167b"
+  },
+  "evidence_sha256": "4421040c078aa3cbc0348ca87db693e7bec2bb73a784456fcb1aa649eac6e8e2"
+}

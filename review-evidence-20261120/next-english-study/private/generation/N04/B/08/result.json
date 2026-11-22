@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "B",
+  "turn": 8,
+  "question": "Which part takes longer to get back into?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-78e1-80f5-0249e0d29ba3",
+  "raw": "The conversation, I’d say. Once I’ve lost the thread, it takes me a moment to work out what everyone’s talking about. With the plant, I could see what needed doing next.",
+  "raw_sha256": "c513352ecde009993fd763f2fe66291d0822d89aa55324cf9a81b4d5769d0488",
+  "request_sha256": "c9cf4656ab070f639f84c651f02bbe1b905b9c71174592b608e6ca9a249d1a04",
+  "started_utc": "2026-11-20T21:01:58.550527+00:00",
+  "completed_utc": "2026-11-20T21:02:03.968342+00:00",
+  "usage": {
+    "input_tokens": 64366,
+    "cached_input_tokens": 54528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 380,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "74a876f45221b3d35fa255e78c0f65cffd58bf9f70cf111c6b1ab1362a5e9280",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d15989bec5f03c753851a2d3b7a8acfcc4b54fbfb4b753e4b6435e6be46fcfad"
+}

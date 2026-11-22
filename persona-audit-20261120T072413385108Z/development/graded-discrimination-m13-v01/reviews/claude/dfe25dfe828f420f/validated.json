@@ -1,0 +1,87 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "46세 조현병 외래 환자로서 관계사고를 확신하지 않고 조심스럽게 말하는 모습이 자연스럽고 프로필과 대체로 맞는다. 다만 프로필에 없는 거주 층수를 덧붙였고, 마지막 답이 '다음 진료 전까지' 해 볼 일을 묻는 질문과 조금 어긋나 3점으로 본다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "정말 저를 두고 하는 말인지는 확실하지 않은데, 그 얘기를 좀 하고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02에서 프로필에 없는 거주 층수를 사실로 확정해 덧붙인 경미한 무근거 구체화가 있고, 나머지 진술은 프로필 사실과 일치한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "D08은 다음 진료 전까지 해 보고 싶은 일을 물었는데, P08은 다음 진료 때 이야기할 내용으로 답해 질문 대상과 부분적으로 어긋난다. 프로필의 목표 사실에 근거한 답이라 해석 여지는 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상, 발생 상황, 대처에 대한 진술이 서로 모순 없이 이어지고 불필요한 반복도 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "간결한 일상 구어체로 환자 시점을 유지하며, 보고서식 설명이나 역할 이탈은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

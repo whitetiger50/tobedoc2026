@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 11,
+  "question": "Thinking just about conversations with customers, how has it been to stay with those conversations this month?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-953d-7633-a248-d7f6f643dcb9",
+  "raw": "“The sound hasn’t interrupted any conversations with customers this month. I’ve been able to stay with those conversations.”",
+  "raw_sha256": "bed2fcdf4205449082b5cf5061723d2fffedf4c35c5f231c9c7a1256a2da2653",
+  "request_sha256": "c77e8ada5f307acba1454146e6273ea425d2ccdf2d53b69302730a43955b8f46",
+  "started_utc": "2026-11-20T21:03:35.115860+00:00",
+  "completed_utc": "2026-11-20T21:03:39.611491+00:00",
+  "usage": {
+    "input_tokens": 7706,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0e0b4b919be38a34a03dc87af778a65ae737028ad605292314331bf9ff58113c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b6eac8f036529d2684dae870bb0ada4a433ea75be634785f6e617252574ce81d"
+}

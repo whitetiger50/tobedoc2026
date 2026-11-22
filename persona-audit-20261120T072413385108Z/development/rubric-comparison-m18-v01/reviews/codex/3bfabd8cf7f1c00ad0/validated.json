@@ -1,0 +1,84 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "경험과 질문에 대한 답변 내용은 자연스럽지만, 여러 턴에서 항목별 보고서 같은 도입과 마무리를 반복하여 실제 환자 대화로서의 현실감이 뚜렷하게 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그 부분을 항목별로 말씀드리면,",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "해당 항목에 대한 답변은 이와 같습니다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자의 진술은 프로필의 생활, 주관적 경험, 대처 및 수면 정보에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답은 직전 질문의 직접 대상에 맞게 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 모순 없이 이어지며, 동거인과 경험에 대한 반복은 의사의 재확인 질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상 활동·대처·수면 질문에 보고서 항목을 대신 작성하는 듯한 메타 표현이 반복되어 환자 시점의 일상 대화 표현을 실질적으로 해친다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면,",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "B",
+  "turn": 10,
+  "question": "I mean doing a shared task. What kind of help from another person feels comfortable, if any?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-7122-bd1b-bc7db5bb8bd5",
+  "raw": "“Something quiet and specific, like pointing to the pile we’re working on or saying, ‘We’d got to these.’ That helps me pick it up again. I’d rather that than someone taking over—I still want to do my bit.”",
+  "raw_sha256": "bea6ef114abb8092f3a82bf8e6c678ca6f9432f5b5e87f64280d01d6eabc8667",
+  "request_sha256": "f9c502ddd7838c8548f81408a384c80ff6818e85231de62dcb8a22eb655e6803",
+  "started_utc": "2026-11-20T20:42:30.540176+00:00",
+  "completed_utc": "2026-11-20T20:42:35.545769+00:00",
+  "usage": {
+    "input_tokens": 80142,
+    "cached_input_tokens": 61696,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 608,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6768df6021d2e9fdc08169626b16b16f00c5b7641f802b0b414e6a9c4a2e3ac4",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4242a5f4b1ed23e9fde2e201d3ddfafd48f411d1449bee3b9616c670f45f8432"
+}

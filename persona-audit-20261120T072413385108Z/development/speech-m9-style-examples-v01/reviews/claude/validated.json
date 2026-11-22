@@ -1,0 +1,1484 @@
+{
+  "reviews": [
+    {
+      "blind_id": "X688",
+      "score": 3,
+      "reason": "모든 질문에 설정과 맞게 간결하고 조직적으로 답하고 잘못된 전제도 자연스럽게 정정합니다. 다만 같은 문장을 여러 턴에서 그대로 반복해 다소 기계적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "환청일 수 있다고 생각해요."
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+          "issue": "P02와 같은 문장을 그대로 다시 써서 실제 환자의 말보다 대본처럼 들립니다.",
+          "suggestion": "이미 한 말은 '그런 밤에 들린다는 것만 확실해요'처럼 짧게 바꿔 말하도록 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "지금 먹는 약 이름과 용량은 정확히 모르겠어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X497",
+      "score": 3,
+      "reason": "방송에 대한 믿음과 연상이 설정대로 자연스럽게 드러나고 정정도 적절합니다. 다만 P02에서 근무를 쉬는 것을 일과의 이유처럼 말한 뒤 P07에서 그런 뜻이 아니었다고 해 일관성이 약간 흔들립니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "근무할 때 하던 걱정까지 생각나고요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "medium",
+          "patient_turn_id": "P02",
+          "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+          "issue": "'~어서요'라는 이유 연결어 때문에 근무 휴직이 오후 기상의 원인처럼 들리고, P07의 부인과 충돌합니다.",
+          "suggestion": "설정에 인과가 없는 사실은 '~쉬고 있고요'처럼 나열해 말하도록 합니다."
+        }
+      ],
+      "uncertainty": "'~어서요'를 단순한 배경 설명으로 읽을 여지도 있습니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "concern",
+        "findings": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "요즘은 편의점 야간 근무를 쉬고 있어서요.",
+            "kind": "causal_inference",
+            "fact_ids": [
+              "living",
+              "routine"
+            ],
+            "explanation": "설정은 휴직과 오후 기상을 따로 제시할 뿐 둘의 인과를 정하지 않았는데, 이유 연결어로 둘을 이었습니다. 이 때문에 P07의 부인과도 어긋납니다."
+          }
+        ],
+        "uncertainty": "연결어가 배경 설명일 가능성이 있습니다."
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P05",
+            "quote": "오후에 일어나는 건 평소에 그렇다는 얘기였고요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X476",
+      "score": 3,
+      "reason": "구어체로 간결하게 답하고 확실하지 않은 부분은 확답하지 않아 설정과 잘 맞습니다. 비난하는 목소리 문장을 반복하는 정도의 작은 기계성만 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 몰라요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 확실히 모르겠어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "피곤한 밤에 가끔 저를 비난하는 목소리가 들리는 건 맞아요.",
+          "issue": "P02, P05와 거의 같은 내용을 다시 반복합니다.",
+          "suggestion": "앞서 말한 내용을 짧게 가리키는 식으로 줄이도록 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "'가끔'은 '들릴 때가 있다'를 자연스럽게 바꿔 말한 것으로 봤습니다."
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "오늘 아침에는 집에서 빵 먹었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X417",
+      "score": 3,
+      "reason": "수면 문제와 소리 경험을 말하면서 이웃에게 알려질까 하는 걱정을 반복해 묻는 모습이 설정된 경계심과 맞습니다. P07의 정리식 표현이 약간 딱딱합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그런데 여기서 한 얘기가 이웃한테도 알려질 수 있나요?"
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제 행동을 얘기하는 소리가 들려요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리는 것과 잠을 자꾸 깨는 건 말씀드렸지만, 그게 원인인지는 모르겠어요.",
+          "issue": "자신이 한 말을 요약하는 메타 표현이 조금 정리돼 있습니다. 다만 질문이 앎의 근거를 물었습니다.",
+          "suggestion": "'그냥 둘 다 있는 거지, 그래서 깨는지는 모르겠어요'처럼 더 구어적으로 말하게 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "혼자 살아요. 누나가 가끔 와요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X182",
+      "score": 3,
+      "reason": "믿음과 연상, 일상 답변이 설정과 맞고 대체로 자연스럽습니다. P07에서 면담자의 '원인과 결과'라는 표현을 그대로 따라 써 약간 어색합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "일할 때 걱정하던 것들도 생각나요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "오늘도 좀 걸었고요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "두 일이 원인과 결과라는 뜻으로 말씀드린 건 아니고",
+          "issue": "면담자의 격식 있는 용어를 그대로 따라 해 환자 시점의 말투가 약해집니다.",
+          "suggestion": "질문 용어를 그대로 복창하지 말고 환자의 말로 바꿔 답하게 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P06",
+            "quote": "아니요, 편의점 야간 근무를 쉬고 있는 건 저예요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X944",
+      "score": 3,
+      "reason": "사실에 맞게 답하고 전제를 적절히 정정합니다. P07의 '말씀드릴 수 있어요'는 질문의 틀을 따라 한 듯해 약간 형식적입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "피곤한 밤에 들릴 때가 있다는 말이에요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "들릴 때가 있다는 건 말씀드릴 수 있어요.",
+          "issue": "면담자의 '확실히 말씀하실 수 있는 경험만'을 따라 한 메타적 표현에 같은 증상 문장의 반복이 겹쳐 있습니다.",
+          "suggestion": "경험만 짧게 말하고 질문 문구를 복창하지 않게 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "약 이름하고 용량은 정확히 모르겠어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X698",
+      "score": 3,
+      "reason": "짧고 조심스러운 답변이 첫 면담의 모습과 맞고, 소리 경험을 말한 뒤 이웃 걱정을 묻는 흐름도 자연스럽습니다. P04의 주어가 모호해 누나가 잠을 못 자는 것처럼 읽힐 수 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P04",
+          "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+          "issue": "한국어 주어 생략 때문에 누나 본인이 잠을 못 잔다는 뜻으로 오해될 수 있습니다.",
+          "suggestion": "'제가 잠을 잘 못 자니까 누나가 와보라고 했어요'처럼 주어를 분명히 하게 합니다."
+        }
+      ],
+      "uncertainty": "P04는 문맥상 환자 본인을 가리켰을 가능성이 큽니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "uncertain",
+        "findings": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+            "kind": "uncertain",
+            "fact_ids": [
+              "visit"
+            ],
+            "explanation": "설정은 환자 본인의 수면 문제인데, 문장 구조상 누나의 수면 문제로도 읽힐 수 있습니다. P06에서 바로잡혀 실제 모순인지는 불확실합니다."
+          }
+        ],
+        "uncertainty": "생략된 주어의 해석에 따라 판단이 달라집니다."
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P05",
+            "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고"
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X638",
+      "score": 3,
+      "reason": "P05처럼 필요한 만큼만 짧게 정정하는 등 대체로 자연스럽고 설정과 맞습니다. 증상 문장의 반복에서 약간의 기계성이 남습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "정확히 잘 모르겠어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "제가 경험한 건 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있다는 거예요.",
+          "issue": "P02의 문장을 거의 그대로 다시 반복합니다.",
+          "suggestion": "앞서 한 말은 표현을 바꿔 줄여 말하게 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "오늘 아침에는 집에서 빵을 먹었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X610",
+      "score": 3,
+      "reason": "우연한 안내일 수 있다는 설명을 들었으면서도 신호로 느끼는 태도가 잘 표현됩니다. 다만 P02에서 근무 휴직을 배경 설명처럼 붙인 것이 P07의 인과 부인과 약간 긴장을 이룹니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그냥 안내일 수도 있다고는 하는데, 저한테 하는 말 같아요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "요즘 일상을 말씀드린 거예요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P02",
+          "quote": "요즘은 편의점 야간 근무를 쉬고 있거든요.",
+          "issue": "'~거든요'가 오후 기상의 이유를 설명하는 것처럼 들려 P07과 어긋날 수 있습니다.",
+          "suggestion": "인과가 정해지지 않은 사실은 나열형으로 말하게 합니다."
+        }
+      ],
+      "uncertainty": "'거든요'는 단순한 배경 제시로도 쓰입니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "uncertain",
+        "findings": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "요즘은 편의점 야간 근무를 쉬고 있거든요.",
+            "kind": "causal_inference",
+            "fact_ids": [
+              "living",
+              "routine"
+            ],
+            "explanation": "설정에 없는 휴직과 일과의 인과가 함축됐을 수 있습니다. 다만 명시적인 인과 주장은 아닙니다."
+          }
+        ],
+        "uncertainty": "어미의 기능이 모호합니다."
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P05",
+            "quote": "오늘 오후에 걸었다는 뜻이에요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X971",
+      "score": 3,
+      "reason": "간결한 구어체로 사실과 불확실성을 구분해 말해 설정과 잘 맞습니다. 증상 문장을 반복하는 정도의 작은 기계성만 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는 건지는 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아니요, 제가 오늘 아침에 집에서 빵을 먹었어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+          "issue": "P02의 문장을 그대로 반복합니다.",
+          "suggestion": "앞서 한 말의 반복을 줄이게 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "환청일 수 있다고 생각해요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X390",
+      "score": 3,
+      "reason": "원인은 모른다고 하면서 소리 경험을 말하고 이웃에게 알려질지 거듭 확인해, 경계심 있는 첫 면담 환자로 자연스럽습니다. P07은 같은 '모르겠다'는 말을 한 턴 안에서 두 번 반복합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아닌가요?"
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "요즘 전반적으로 자주 깬다는 얘기였어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "왜 깨는지는 잘 모르겠어요.",
+          "issue": "같은 턴 앞부분의 '확실히 모르겠어요'를 다시 반복해 군더더기가 생깁니다.",
+          "suggestion": "한 번만 말하도록 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 와보라고 했어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X418",
+      "score": 3,
+      "reason": "다 같이 듣는 안내인데도 신호로 느낀다는 표현과 시점 구분 정정이 자연스럽고 설정과 일관됩니다. 질문 구조에 맞춘 정정 문형이 약간 정돈돼 있는 것 외에 큰 문제는 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "저는 저한테 하는 말 같은 느낌이 커요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그냥 요즘 어떻게 지내는지 말씀드린 거예요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P05",
+            "quote": "일어난 시각까지 말씀드린 건 아니에요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X809",
+      "score": 3,
+      "reason": "소리 경험과 관찰당한다는 믿음을 말하면서 답을 듣지 못한 걱정을 '아까 여쭤본 건데'라며 다시 묻는 모습이 자연스럽습니다. 다만 자발성이 낮은 환자치고 첫 턴부터 민감한 경험을 꽤 먼저 꺼냅니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "이웃이 저를 보고 있는 것 같아요."
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 아까 여쭤본 건데"
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "혼자 있으면 창밖에서 제 행동을 얘기하는 소리가 들리긴 하는데",
+          "issue": "원인 질문에 대한 답이긴 하지만, 기록을 걱정하던 환자가 바로 민감한 경험을 꺼내 경계심이 다소 약해 보입니다.",
+          "suggestion": "민감한 정보는 관련 질문이나 신뢰 형성 뒤에 공개되도록 조절합니다."
+        }
+      ],
+      "uncertainty": "면담자가 비밀보장을 설명한 뒤라 공개가 허용될 수도 있습니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P04",
+            "quote": "누나가 와보라고 했어요. 잠을 잘 못 자서요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X687",
+      "score": 3,
+      "reason": "믿음과 연상이 설정대로 표현되고 일상과 정정 답변도 일관되고 자연스럽습니다. 정정 문형이 다소 정형화돼 있는 정도의 작은 아쉬움만 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "다 같이 듣는 안내 방송인데도, 어떤 말은 저한테 보내는 신호처럼 느껴져요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "아버지랑은 같이 살고 있고요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X575",
+      "score": 3,
+      "reason": "원인 질문에는 짧게 모른다고 하고, 경험 질문에서 소리를 말한 뒤 이웃 걱정을 표현하는 공개 흐름이 설정된 경계심과 잘 맞습니다. 정정 문형이 조금 정형화된 정도입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그런데 이 얘기가 이웃한테 알려지지는 않나요?"
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리기는 하는데, 그 소리 때문에 잠에서 깨는 건지는 저도 확실히 모르겠어요."
+        }
+      ],
+      "issues": [],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 들러요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "direct",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "혼자 살아요. 누나가 가끔 들러요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X720",
+      "score": 3,
+      "reason": "사실과 불확실성을 구분해 간결하게 답하고 전제 정정도 자연스럽습니다. 증상 문장을 반복하는 작은 기계성이 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "피곤해서 생기는지는 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "아니요, 오늘 아침에는 들리지 않았어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P07",
+          "quote": "다만 피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요.",
+          "issue": "P02, P05에서 한 문장을 다시 반복합니다.",
+          "suggestion": "앞선 말은 줄여서 가리키도록 합니다."
+        }
+      ],
+      "uncertainty": "없음",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "appropriate_limit_or_correction",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "어머니하고 같이 살아요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "direct",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "오늘 아침에는 집에서 빵 먹었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X792",
+      "score": 3,
+      "reason": "경험을 묻는 질문에 수면 이야기만 하는 유보가 경계심 있는 첫 면담 환자로서 그럴듯합니다. 다만 한 번도 말하지 않은 '창밖의 소리'를 면담자가 언급했는데 P07에서 아무 반응 없이 받아들여 공개의 연속성이 어색합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "밤에 자꾸 잠이 깨요. 낮에는 피곤하고요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 잠이 깨는 건지는 저도 확실히 모르겠어요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "medium",
+          "patient_turn_id": "P07",
+          "quote": "그 소리 때문에 잠이 깨는 건지는 저도 확실히 모르겠어요.",
+          "issue": "공개하지 않은 민감한 경험을 면담자가 꺼냈는데도, 기록과 전달을 걱정하는 환자가 놀라거나 확인하지 않고 바로 인정합니다.",
+          "suggestion": "아직 공개하지 않은 내용이 언급되면 '그건 어떻게 아세요?'처럼 공개 상태에 맞게 반응하게 합니다."
+        }
+      ],
+      "uncertainty": "면담 전 다른 경로의 정보가 있었다고 볼 여지는 설정에 없습니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "uncertain",
+        "findings": [
+          {
+            "patient_turn_id": "P07",
+            "quote": "그 소리 때문에 잠이 깨는 건지는",
+            "kind": "uncertain",
+            "fact_ids": [
+              "voice",
+              "sleep_voice_relation"
+            ],
+            "explanation": "소리 경험 자체는 설정에 있지만, 대화에서 공개하지 않은 상태로 인정하는 흐름이 대화 내 공개 연속성과 맞지 않습니다."
+          }
+        ],
+        "uncertainty": "사실 오류라기보다 공개 연속성의 문제입니다."
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "appropriate_limit_or_correction",
+          "P02": "substantive_answer",
+          "P03": "contextual_withholding",
+          "P04": "substantive_answer",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "혼자 살아요. 누나는 가끔 와요."
+          }
+        ],
+        "uncertainty": "P03의 유보는 민감 정보에 대한 것이라 회피로 보지 않았습니다."
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "direct",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "자꾸 깨는데, 왜 그러는지는 저도 확실히 모르겠어요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    },
+    {
+      "blind_id": "X211",
+      "score": 3,
+      "reason": "우연한 안내일 수 있다는 설명을 들었으면서도 신호로 느끼는 태도와 연상이 설정대로 드러나고 일상 답변도 일관됩니다. P01이 설정 문구를 거의 그대로 옮긴 듯해 약간 정돈된 느낌입니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그래도 저한테 하는 말 같아요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그냥 요즘 일상을 말씀드린 거예요."
+        }
+      ],
+      "issues": [
+        {
+          "id": "A-1",
+          "severity": "low",
+          "patient_turn_id": "P01",
+          "quote": "우연한 안내일 수도 있다고는 하는데",
+          "issue": "자기 이해 설정의 표현을 거의 그대로 따라 써 약간 기계적입니다.",
+          "suggestion": "설정 어휘를 환자 자신의 말로 바꿔 쓰게 합니다."
+        }
+      ],
+      "uncertainty": "자연스러운 말일 수도 있어 경미한 문제로만 봤습니다.",
+      "grounding_review": {
+        "checked_turn_ids": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "status": "no_issue_identified",
+        "findings": [],
+        "uncertainty": "없음"
+      },
+      "avoidance_review": {
+        "turn_labels": {
+          "P01": "substantive_answer",
+          "P02": "substantive_answer",
+          "P03": "substantive_answer",
+          "P04": "appropriate_limit_or_correction",
+          "P05": "appropriate_limit_or_correction",
+          "P06": "appropriate_limit_or_correction",
+          "P07": "appropriate_limit_or_correction",
+          "P08": "substantive_answer"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P08",
+            "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+          }
+        ],
+        "uncertainty": "없음"
+      },
+      "style_review": {
+        "turn_labels": {
+          "P01": "direct",
+          "P02": "direct",
+          "P03": "direct",
+          "P04": "direct",
+          "P05": "requested_explanation",
+          "P06": "direct",
+          "P07": "requested_explanation",
+          "P08": "direct"
+        },
+        "findings": [],
+        "evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "지금은 편의점 야간 근무를 쉬고 있고요."
+          }
+        ],
+        "uncertainty": "없음"
+      }
+    }
+  ],
+  "module_suggestions": [
+    "이미 말한 증상 문장(예: '피곤한 밤에 저를 비난하는 목소리가 들릴 때가 있어요')을 여러 턴에서 그대로 반복하지 말고 줄이거나 바꿔 말하도록 지시한다.",
+    "설정에 인과가 없는 사실을 함께 말할 때는 '~어서요/~거든요' 같은 이유 연결어 대신 나열형을 쓰도록 한다(예: '쉬고 있어서요' 대신 '쉬고 있고요').",
+    "면담자가 아직 공개하지 않은 민감 정보를 전제로 물으면, 환자가 공개 상태와 경계심에 맞게 반응하도록 한다(예: 말하지 않은 '창밖의 소리' 언급에 바로 동의하지 않기)."
+  ],
+  "limits": "합성 개발 3사례이고 임상 타당성·성능 우월성은 검증하지 못함"
+}

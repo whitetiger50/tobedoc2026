@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How does that usually get done?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-28fb-74c0-9df7-e80fedaf3317",
+  "raw": "Do you mean how the bird feeder gets filled?",
+  "raw_sha256": "6256551aa3ee1c0592011bef4579d8fa6bb43ebe5515085f53ac412446848b00",
+  "request_sha256": "76e0fb34fe5016172efe11c26aaf3afae3877b374498eb044f5eaf1ba9f4fa99",
+  "started_utc": "2026-11-20T20:40:11.157592+00:00",
+  "completed_utc": "2026-11-20T20:40:17.013945+00:00",
+  "usage": {
+    "input_tokens": 6959,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 100,
+    "reasoning_output_tokens": 84
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d9d74631a8260ec92a3c7324df0c6239ecefbc2e685fa5fb4f584c8bcaab967f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ebd13f947338bf77f02a44af78e831b15b5570a4787ce953a0092738f2bc7bbe"
+}

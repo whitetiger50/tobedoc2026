@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T0",
+  "turn": 11,
+  "question": "How has your usual medication routine been going?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-5ef3-7fa0-a066-05eb383c1829",
+  "raw": "I take my medication at night.",
+  "raw_sha256": "d991a6e4567108a7fa7afbda1b6c7fce0f9b5899ed5ff1fb4986fbdea0b05679",
+  "request_sha256": "f479741c276fcbd24ed8e49ff8eb160ac8911241febf5c50f6f7204482f4d57f",
+  "started_utc": "2026-11-20T20:42:36.038833+00:00",
+  "completed_utc": "2026-11-20T20:42:39.843690+00:00",
+  "usage": {
+    "input_tokens": 7238,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d5de8d0656a9b773289a00c633e0f29858cc197de4d8670fd979b159bd6d6cda",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e690dfba0eb082f6dfd24e7883a2d9995b71f7b0c7afaa2516c2286a6ce6a99c"
+}

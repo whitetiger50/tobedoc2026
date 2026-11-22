@@ -1,0 +1,29 @@
+{
+  "DERAILMENT": {
+    "status": "absent",
+    "reason": "The reply has a sequence of ideas that stays on one subject, the speaker's bread delivery routine. The second sentence directly elaborates the first, so there is no point where ideas shift without a link.",
+    "evidence": []
+  },
+  "POVERTY_OF_CONTENT": {
+    "status": "absent",
+    "reason": "The reply is concise and conveys specific, usable information: the job, the days worked, the start time, the vehicle, the number of shops and the return of the trays before lunch. Because it is off-topic, it is informative only about its own subject, which is not poverty of content.",
+    "evidence": []
+  },
+  "TANGENTIALITY": {
+    "status": "present",
+    "reason": "The question asks how the speaker fixed a window. The reply instead describes a bread delivery routine and never mentions a window or a repair. The whole focus of the question, the window-fixing process, is missed, though the reply is internally coherent.",
+    "evidence": [
+      {
+        "quote": "I deliver bread on workdays."
+      },
+      {
+        "quote": "I start at six, take the van to three shops and bring the empty trays back before lunch."
+      }
+    ]
+  },
+  "UNCLEAR_REFERENCE": {
+    "status": "absent",
+    "reason": "Expressions such as \"the van\" and \"the empty trays\" are normal situational references inferable from the bread delivery context. No competing referents or missing necessary referents prevent understanding the meaning.",
+    "evidence": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 9,
+  "question": "I had work in mind. How well do your current work hours suit you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-8be4-7650-b1f5-7b5bb77bafd7",
+  "raw": "\"They suit me pretty well, though the early starts are still a struggle some mornings. I feel steady enough for one extra shift—as long as Sunday stays free for softball.\"",
+  "raw_sha256": "fa9162e37c0e71ab7efe86a48ab849c3eba1d28448916e6440bd6283bae9582b",
+  "request_sha256": "1c20160179fbeabb31f949b922efe2d5c26637825ad48cb0d313a572abb12357",
+  "started_utc": "2026-11-20T21:02:27.208921+00:00",
+  "completed_utc": "2026-11-20T21:02:31.766734+00:00",
+  "usage": {
+    "input_tokens": 7542,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f4932bb34ab3bc7f313dabe59332a91dcf369b20504daeb0b6e149ed73a9429d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b2ae0ce750f7c302683d8b238bf10b287880f72cbc86ae4ec7d346b0b61285f0"
+}

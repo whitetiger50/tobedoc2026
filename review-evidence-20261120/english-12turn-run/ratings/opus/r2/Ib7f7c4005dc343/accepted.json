@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ib7f7c4005dc343",
+  "ended": "2026-11-20T20:46:14.593528+00:00",
+  "session": "fabbfa14-f006-40b2-b582-658794d57014",
+  "packet_sha256": "5a9ab00cd7cbf07b5a09369e1e42e885ef5d1c9409e9326ec359c7f766c2f35e",
+  "raw_sha256": "1374c23274dd0c64af2ebc2a24811dc6281aeb9396ee743ea52608be5d97b858",
+  "provider_sha256": "44542aa0cdef5d2de7bfcf185f760eb808088ae7a1dbb74914197db7e25d54e5",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient comes across as broadly in keeping with the persona. The tone is calm, cheerful and cooperative, and they mention mild irritation at the timetable change, attention to sleep, and trust in their partner. They also ask for clarification when a question is vague (turn 7), which is realistic. However, the answers read like a recitation of the profile. The same details recur almost word for word across turns: the class moving half an hour earlier, packing the apron the night before, the short walk after supper, and morning appointments. Turn 4 repeats turn 1. In turns 5 and 6, the request for morning clinic appointments is inserted where it doesn't fit the question. Turn 9 states their guardedness in near-template language rather than showing it naturally. There is little spontaneous elaboration or new practical detail, despite the persona's tendency to explain things that matter to them. The repetition and checklist quality make the dialogue only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "It was a bit annoying, but I packed my apron the night before and got there on time."
+    },
+    {
+      "turn": 5,
+      "quote": "I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    },
+    {
+      "turn": 7,
+      "quote": "Do you mean what keeping up with my usual routine tells me about how I’m doing?"
+    }
+  ]
+}

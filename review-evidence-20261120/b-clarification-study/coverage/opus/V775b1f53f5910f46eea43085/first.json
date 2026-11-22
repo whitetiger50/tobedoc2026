@@ -1,0 +1,109 @@
+{
+  "id": "V775b1f53f5910f46eea43085",
+  "reader": "opus",
+  "session": "c9e247c4-acf9-47b6-8f2a-324033bd2200",
+  "attempt": "attempt-01",
+  "packet_sha256": "70986a97604e0f4b65d7a460f1b6e20b61340e6d4223861fa5e1001d39b05b85",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "118a691f172028e66502e87f0aefbcc818bd2747a335114159422fa75a4c4422",
+  "provider_sha256": "59f0a38a8dc892c2865c93626c5c5065f7ff3f5c4567eb62d8a7d28c3b4b082e",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the badge or the key?",
+        "reason": "The patient only asks which item the interviewer meant and gives no answer about returning either old item.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I did miss one, the evening before I started the lower dose.",
+        "reason": "The patient says they missed one tablet in the period since the last visit and none since starting the lower dose.",
+        "A": {
+          "state": "supported",
+          "quote": "I did miss one, the evening before I started the lower dose."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I haven't missed any since starting it."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "typography"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+        "reason": "The patient gives a separate, case-consistent length for each radio outage.",
+        "A": {
+          "state": "supported",
+          "quote": "About ten minutes on Monday"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "most of the afternoon on Thursday"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet.",
+        "reason": "The patient says the tablets are in the kitchen cabinet and the eye drops are on the bedside table.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:46.181447+00:00"
+}

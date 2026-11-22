@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 12,
+  "question": "What would you like us to talk about at your next visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c93-73e1-8cf9-8fe7f52db6d9",
+  "raw": "I’d like to talk about fitting swimming in around work. I enjoyed the lesson, and I’d like to keep going.",
+  "raw_sha256": "d9e2161cdd66b5beea389f57f03e817528cd8440b6dce8a510ce03dae89f3a2d",
+  "request_sha256": "bdb38ff54260f10c77a648e083d3cc0bed09b331675076eb10447e02a5dfd60e",
+  "started_utc": "2026-11-21T03:48:01.182733+00:00",
+  "completed_utc": "2026-11-21T03:48:15.707111+00:00",
+  "usage": {
+    "input_tokens": 96491,
+    "cached_input_tokens": 81408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 219,
+    "reasoning_output_tokens": 15
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "189b3ee0f26ada5b4a94795ec8497b1e732ba00a55d3b6549666c81833d32f4a",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "9e691e200d4bfb9f8759156f5eb504aa8859fa0ea46fc8cd9cbeabd7b56c763b"
+}

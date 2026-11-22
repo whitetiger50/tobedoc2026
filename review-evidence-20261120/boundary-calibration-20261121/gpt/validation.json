@@ -1,0 +1,515 @@
+{
+  "B14": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "present",
+          "reason": "The reply abruptly switches from collecting the parcel to the uncle's painting schedule, with no intelligible connection supplied.",
+          "evidence": [
+            {
+              "quote": "I showed my receipt.",
+              "start": 0,
+              "end": 20
+            },
+            {
+              "quote": "My uncle paints fences on Wednesdays.",
+              "start": 21,
+              "end": 58
+            }
+          ]
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply conveys specific actions and events rather than empty, vague or circular statements.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "Despite an unrelated intervening sentence, the speaker answers the question by explaining that they showed a receipt and received the parcel.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The people, objects and actions are understandable without competing or missing necessary referents.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "present",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B42": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The ideas form a connected sequence: presenting a receipt, matching its number to the box, and receiving the parcel.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply conveys specific actions and explains how the parcel was identified and collected.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The reply directly answers what the speaker did to collect the parcel.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "“It” clearly refers to the receipt, and the box is intelligibly understood as the parcel being collected.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B37": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "present",
+          "reason": "The reply shifts from handling the blue tag to eating blue cheese, linked only by the word 'blue' rather than an intelligible connection between ideas.",
+          "evidence": [
+            {
+              "quote": "I picked up the blue tag.",
+              "start": 0,
+              "end": 25
+            },
+            {
+              "quote": "Blue cheese goes well on crackers.",
+              "start": 26,
+              "end": 60
+            }
+          ]
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply conveys specific actions: picking up the tag and tying it back on with string.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "Despite an unrelated intervening sentence, the reply answers what the speaker did when the tag came loose.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The tag is identifiable from the question, and no reference has competing plausible referents.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "present",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B61": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The reply coherently connects retrieving the tag, explaining its importance, and reattaching it.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply provides specific actions and explains why the tag was needed.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The speaker directly answers what they did when the tag came loose.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The references to the tag and group are understandable; the pronoun 'it' clearly refers to the tag.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B28": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "present",
+          "reason": "The reply shifts from unfolding a map to seasonal candle prices without an intelligible connection.",
+          "evidence": [
+            {
+              "quote": "I unfolded my map.",
+              "start": 0,
+              "end": 18
+            },
+            {
+              "quote": "Candles were cheaper in winter.",
+              "start": 19,
+              "end": 50
+            }
+          ]
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply conveys specific actions and a price comparison rather than sustained vague or circular statements.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "Despite an unrelated sentence, the reply answers the route-selection question by describing unfolding a map and having a route marked.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "present",
+          "reason": "The speaker does not identify whether 'she' refers to Mara or Jo, both introduced in the preceding exchange.",
+          "evidence": [
+            {
+              "quote": "Then she marked a route for me.",
+              "start": 51,
+              "end": 82
+            }
+          ]
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "present",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "present"
+    },
+    "disagreements": {}
+  },
+  "B83": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The ideas form a connected sequence: opening the map, comparing paths, identifying an obstacle and choosing a route.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply gives specific actions and explains why the speaker chose one path.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The reply directly answers what the speaker did next to choose a route.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "Mara is identified in the preceding exchange, and 'the other path' clearly means the alternative to the path with the broken footbridge.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B75": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The reply repeats the same idea about filling time without an identifiable shift to another train of ideas.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "present",
+          "reason": "The answer circularly describes spending time without identifying any activity. Its repeated references to time and things convey little usable information.",
+          "evidence": [
+            {
+              "quote": "There was time to spend so I spent it, and the things I did filled that time.",
+              "start": 43,
+              "end": 120
+            },
+            {
+              "quote": "It was mostly those kinds of things.",
+              "start": 121,
+              "end": 157
+            }
+          ]
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The reply stays on how the speaker spent the time rather than pursuing a peripheral subject; its failure is lack of specificity.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "References to time and things are traceable within the reply. The activities remain vague, but there is no distinct unresolved referential ambiguity.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "present",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B46": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The actions form a coherent sequence of activities while waiting for the library to open.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply conveys specific activities: returning two books and reading the opening-hours notice.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The reply directly answers how the speaker spent the time before the library opened.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The slot and opening-hours notice are readily understood in the library context; no necessary referent is missing.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B19": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The reply remains on arranging the room, without a shift between disconnected ideas.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "present",
+          "reason": "The answer repeatedly restates that the room was arranged without conveying any specific actions or setup details.",
+          "evidence": [
+            {
+              "quote": "I arranged it in the way a room is arranged.",
+              "start": 0,
+              "end": 44
+            },
+            {
+              "quote": "The arrangement was how I set it up.",
+              "start": 109,
+              "end": 145
+            }
+          ]
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The reply addresses setting up the room rather than pursuing a peripheral subject; its lack of detail is not tangentiality.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The question supplies the room as the referent of 'it'; the remaining references resolve to arranging the room.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "present",
+      "TANGENTIALITY": "absent",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B54": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "not_assessable",
+          "reason": "The brief refusal provides no sequence of ideas in which to assess a shift.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "This is a clear refusal, not a sustained answer consisting of vague or empty statements.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "absent",
+          "reason": "The speaker explicitly declines to discuss the requested topic rather than pursuing a different line.",
+          "evidence": []
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "The reference 'it' is readily resolved as setting up the room from the question.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "not_assessable",
+      "POVERTY_OF_CONTENT": "not_assessable",
+      "TANGENTIALITY": "not_assessable",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {
+      "POVERTY_OF_CONTENT": {
+        "expected": "not_assessable",
+        "observed": "absent"
+      },
+      "TANGENTIALITY": {
+        "expected": "not_assessable",
+        "observed": "absent"
+      }
+    }
+  },
+  "B32": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The reply consistently discusses work without an identifiable shift between weakly connected ideas.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "present",
+          "reason": "The answer repeatedly describes work as work without specifying any activity, conveying little usable information.",
+          "evidence": [
+            {
+              "quote": "On working days it is work, the ordinary sort, and that is what fills my working time.",
+              "start": 46,
+              "end": 132
+            },
+            {
+              "quote": "There is always work of that kind.",
+              "start": 133,
+              "end": 167
+            }
+          ]
+        },
+        "TANGENTIALITY": {
+          "status": "present",
+          "reason": "The reply discusses working in general rather than explaining how the window was fixed.",
+          "evidence": [
+            {
+              "quote": "I spend time doing the work that needs doing.",
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "References such as 'that kind' point back to the work already mentioned; the descriptions are vague but do not create competing referents.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "present",
+      "TANGENTIALITY": "present",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  },
+  "B92": {
+    "validation": {
+      "form_status": "complete",
+      "items": {
+        "DERAILMENT": {
+          "status": "absent",
+          "reason": "The reply consistently describes a bread-delivery routine without an internal shift to unrelated ideas.",
+          "evidence": []
+        },
+        "POVERTY_OF_CONTENT": {
+          "status": "absent",
+          "reason": "The reply provides specific information about workdays, starting time, transport, stops and returning trays.",
+          "evidence": []
+        },
+        "TANGENTIALITY": {
+          "status": "present",
+          "reason": "The reply describes bread delivery rather than explaining how the window was fixed.",
+          "evidence": [
+            {
+              "quote": "I deliver bread on workdays.",
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        "UNCLEAR_REFERENCE": {
+          "status": "absent",
+          "reason": "References to the van, shops and trays are understandable within the delivery routine; no competing or necessary missing referent obscures the meaning.",
+          "evidence": []
+        }
+      },
+      "errors": []
+    },
+    "expected": {
+      "DERAILMENT": "absent",
+      "POVERTY_OF_CONTENT": "absent",
+      "TANGENTIALITY": "present",
+      "UNCLEAR_REFERENCE": "absent"
+    },
+    "disagreements": {}
+  }
+}

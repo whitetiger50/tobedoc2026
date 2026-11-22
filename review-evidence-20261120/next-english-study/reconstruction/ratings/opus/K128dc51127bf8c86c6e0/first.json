@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T23:01:06.442459+00:00",
+  "attempt": "attempt-01",
+  "id": "K128dc51127bf8c86c6e0",
+  "reader": "opus",
+  "session": "4c0698be-f56a-4336-a5ec-6f8c0c4eb4c5",
+  "packet_sha256": "e204b0d1111dfc80191d74bc6c9a2a83d2c1ebfaedf2af50cd02a960306b638e",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "65017b56844fa0e2d920eeaf4415108ebd2af85763f700abc6fdf470c44458b1",
+  "raw_sha256": "6410b0a8ce3f29f19ecc7255125b198e6d5cac780fd6ba2d927d38eafd0e1c09",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says more than once that they feel steady enough or ready to take on one extra shift. No statement says an extra shift would be beyond them.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "I feel steady enough to take on an extra shift",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 7,
+          "role": "patient",
+          "quote": "I feel ready for one extra shift",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’d keep my three mornings and add one extra shift. I feel steady enough for that",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient describes the two-night change as waking earlier while the upstairs apartment was being painted. Nothing describes waking later.",
+      "evidence": [
+        {
+          "turn": 2,
+          "role": "patient",
+          "quote": "The main change was waking earlier on two nights while the upstairs apartment was being painted.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "The main change this month was waking earlier on two nights",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

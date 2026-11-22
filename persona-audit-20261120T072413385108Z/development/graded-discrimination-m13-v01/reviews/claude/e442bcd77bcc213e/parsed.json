@@ -1,0 +1,48 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 자연스러운 한국어 환자 말투이며 질문받은 만큼 답하는 낮은 자발성 설정과도 맞다. 다만 P02에서 언니와 함께 사는 설정과 반대로 혼자 산다고 단정해 페르소나 일치도가 일부 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필은 언니와 함께 산다고 명시하는데 P02는 혼자 살며 같이 사는 사람이 없다고 확정해 핵심 생활 사실을 명백히 반전했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 턴이 직전 질문의 대상인 불편, 동거인, 낮 활동, 아침 식사, 발생 시점, 대처, 수면, 다음 목표에 직접 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이번 대화 안의 환자 진술끼리 모순은 없고, P05의 P01 내용 재언급은 시점 질문에 대한 답으로 자연스럽다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 짧은 일상 표현이며 보고서식 나열이나 메타 표현 같은 문제는 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

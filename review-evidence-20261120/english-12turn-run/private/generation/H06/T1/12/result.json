@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T1",
+  "turn": 12,
+  "question": "Is there anything about your day-to-day life you'd like us to talk more about?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-e679-7cd1-9726-1834406cff97",
+  "raw": "“Yes, how to keep track when there are several little jobs at once. I enjoy doing the bibs for the walking group, and I want to keep doing my bit. Having my housemate read the jobs back helps, but I’d like to talk about what I can do myself as well. It’s not the washing—it’s getting the finished job out of the door!”",
+  "raw_sha256": "e12730dbf0a6f3a92ce2ed5efa718324f79ee729ddc0d5929c3734cdff4fdc39",
+  "request_sha256": "6627b4925dcfbbb8000518ef30e92a5b51eb67caa33eeca47ba89a613054ccc6",
+  "started_utc": "2026-11-20T20:43:10.753105+00:00",
+  "completed_utc": "2026-11-20T20:43:16.153210+00:00",
+  "usage": {
+    "input_tokens": 8073,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "761d6f3c68759b02f59a1073523d9e662903c73fc584ecddd5d2f46d89b2118c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "03abdf0a9a42855a8e94a93952f94ecede7c0d7ca6b53e59d1766a1946347d05"
+}

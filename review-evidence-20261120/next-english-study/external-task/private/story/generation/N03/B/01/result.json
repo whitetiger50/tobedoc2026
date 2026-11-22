@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "B",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-4d1d-72d0-a5d5-86b907814b2f",
+  "raw": "Sure. Cinderella was a young woman who lived with her stepmother and two stepsisters. They treated her badly and made her do most of the housework.\n\nOne day, they were invited to a ball at the palace. Her stepsisters went, but Cinderella was left behind. Then her fairy godmother appeared and gave her a beautiful dress, glass slippers, and a carriage made from a pumpkin. She warned Cinderella that the magic would end at midnight.\n\nAt the ball, Cinderella danced with the prince. When the clock started striking twelve, she hurried away and lost one of her glass slippers on the stairs.\n\nThe prince searched for the woman whose foot would fit the slipper. The stepsisters tried it, but it didn’t fit either of them. Then Cinderella tried it, and it fit perfectly. The prince recognized her, and they married.\n\nThat’s the version I remember, anyway.",
+  "raw_sha256": "66c4070f409aa26c96f2057a8ee7c6dc9b964c7ba4af315b6f2e4879d8a5fdb2",
+  "request_sha256": "6a6ba7ac253a1bbcf9369f034405b4b0e2d9e5c7c8ae31805f5218c1587385b7",
+  "started_utc": "2026-11-20T21:25:07.379725+00:00",
+  "completed_utc": "2026-11-20T21:25:15.457837+00:00",
+  "usage": {
+    "input_tokens": 7817,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 182,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8f8bbfd648917255b26265619c32314d64eb50084bb43352db2ab769af07f8d1",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "40cc921dfc43c68bc25c0f6cb7e2ed6c6e9613d715364eec7ff07b97bd7fba4d"
+}

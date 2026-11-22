@@ -1,0 +1,56 @@
+{
+  "realism_score": 3,
+  "realism_reason": "짧은 답변, 기록과 이웃에 대한 걱정, 잘못된 전제를 차분히 바로잡는 모습은 설정과 잘 맞습니다. 다만 P05와 P07의 정정 표현은 앞선 발화 내용을 정리해 주는 메타 설명처럼 들려 약간 정형적입니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주 형태, 방문 경위, 수면 문제, 소리 경험, 이웃 걱정, 수면과 소리의 관계 불확실성이 모두 프로필과 일치하고 새로 확정한 사실이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답했고 D05, D06, D07의 잘못된 전제는 적절히 정정하거나 불확실성을 밝혔습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이전 문맥의 기록 걱정과 이웃 걱정이 자연스럽게 이어지고, P08의 반복 답은 재질문에 대한 짧은 동일 답이라 문제가 아닙니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "정정 발화에서 '말씀드린 거예요'식 메타 설명이 반복되어 약간 정형적입니다. 다만 실제 환자도 이렇게 정정할 수 있어 해석에 불확실성이 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요."
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D07"
+      ]
+    }
+  }
+}

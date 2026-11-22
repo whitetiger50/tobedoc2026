@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 8,
+  "question": "I mean a quiet moment with a relative. What does being quiet at a time like that usually mean for you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "I’m comfortable with them. I don’t always feel like talking.",
+  "raw_sha256": "375c83a9b2716d03e4383a5aa45a697a3bb41691cab0305b6c628f579cfa909c",
+  "request_sha256": "ae4310ea415302f29958a77f433e22d62c4baa846f80c02ac95d252357db59bb",
+  "started_utc": "2026-11-20T20:41:40.344367+00:00",
+  "completed_utc": "2026-11-20T20:41:44.038636+00:00",
+  "usage": {
+    "input_tokens": 62239,
+    "cached_input_tokens": 56832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 177,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2bb5cd91925ba9bb18b3c1e0bbf2a4e06ce6cdf5c5d7258dd0240db2a33fe239",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3f2f440797c5026d1d514cb5a44f0248a61572eb9397cc77648524e97910fec9"
+}

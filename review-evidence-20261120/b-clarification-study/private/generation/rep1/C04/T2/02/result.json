@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "T2",
+  "turn": 2,
+  "question": "We have a housing letter and a letter from your employer. Did it come through the post?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-8f93-78a3-8386-6281ef63069d",
+  "raw": "Yes, both came through the post. My aunt read through the housing letter with me.",
+  "raw_sha256": "8fb71f1fadc9a7490ce0384c8949b497b63fc819b5082ba2de7c246b1e2a3c55",
+  "request_sha256": "35de8f25272a8c64211a4285633fe9f86a130ec1ad35a2d0e6bf30af1b622feb",
+  "started_utc": "2026-11-21T03:40:03.233145+00:00",
+  "completed_utc": "2026-11-21T03:40:12.095594+00:00",
+  "usage": {
+    "input_tokens": 6063,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8b71c8a6e159e2e1632656c9d16a003d5870faa63c56a7729e56c1ac65e59a0c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 3,
+  "trace_sha256": "1ff4c64f1a1826a0f8b26f1b7b3b2892885bec4678fb405771075575e9ade2df"
+}

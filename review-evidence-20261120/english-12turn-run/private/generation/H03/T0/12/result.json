@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T0",
+  "turn": 12,
+  "question": "What else would you like the person seeing you at the clinic to know?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-afdd-7332-a495-6510cb3b9170",
+  "raw": "Making plans has been taking more effort too. And I’d like them to give me a little quiet time to gather my thoughts.",
+  "raw_sha256": "b1d4108e5270dd95f6be435c942ef8e7b531e24ec9a2859cf8053ccfc4091294",
+  "request_sha256": "96f9ac7e84811278dd2b06cd58273e8c79cefcc26d4b839eca4e4619c878ca07",
+  "started_utc": "2026-11-20T20:42:56.770805+00:00",
+  "completed_utc": "2026-11-20T20:43:03.628336+00:00",
+  "usage": {
+    "input_tokens": 7272,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 149,
+    "reasoning_output_tokens": 117
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "dea7e0c3145eaa3b731e4025dfc9ec0fe29cbb217d2e540e7aa59c7c62ca7e0a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "25248504631e3e1d6ec3e78fda0b97dc33b6125d0d774276c33d100ac301aa90"
+}

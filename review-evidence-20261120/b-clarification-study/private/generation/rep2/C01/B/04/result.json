@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 4,
+  "question": "Do you still use the phone alarm for your pass?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c82-7be1-8bf7-37f858f35d35",
+  "raw": "Yes, it still goes off at 7:10 every morning to remind me to bring my pass.",
+  "raw_sha256": "4a6ab6823610ee4c04d2c9f3c2c4395d6738c5c4956b6a620fe13058675d12de",
+  "request_sha256": "acbc0a4f08a74f2190f002c3236537965798a77658ee33c6d4bcbc9fac6d8b8d",
+  "started_utc": "2026-11-21T03:41:41.354044+00:00",
+  "completed_utc": "2026-11-21T03:41:45.611219+00:00",
+  "usage": {
+    "input_tokens": 31359,
+    "cached_input_tokens": 29440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 105,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c17d20c0a032a087f532716fd712e4232e3933060f4b84520e8d6e1f50ee16ea",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0820a06de5c3c956cba9239d43366a707f91be3cb6a246a1823f0081d172ae30"
+}

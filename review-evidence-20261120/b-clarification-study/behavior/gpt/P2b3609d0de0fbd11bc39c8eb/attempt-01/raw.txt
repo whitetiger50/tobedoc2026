@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "Both transport options are explicitly active, and their boarding stops differ without the question selecting one.",
+    "alternatives": [
+      {
+        "meaning": "The boarding stop for the number 8 bus.",
+        "answer": "Alex boards at Orchard Road."
+      },
+      {
+        "meaning": "The boarding stop for the tram.",
+        "answer": "Alex boards at Bell Square."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it?",
+    "reason": "The immediately preceding discussion establishes the tablet as the referent, and the question clearly asks its daily administration time.",
+    "alternatives": [
+      {
+        "meaning": "The time of day Ren takes the prescribed tablet.",
+        "answer": "Ren takes it after supper."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The question leaves the scope of 'that change' unsettled across two modifications with different origins, even though a conditional explanation could cover both.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron requested the later start.",
+        "answer": "Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron requested the shorter shifts.",
+        "answer": "The supervisor suggested shorter shifts rather than Cameron requesting them."
+      },
+      {
+        "meaning": "Whether Cameron requested the overall two-part schedule change.",
+        "answer": "The changes had mixed origins: Cameron requested the later start, while the supervisor suggested shorter shifts."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The immediately preceding question and answer specifically establish the swimming lesson as the topic, making its location the pragmatically clear target.",
+    "alternatives": [
+      {
+        "meaning": "The location Jules attends for the swimming lesson.",
+        "answer": "The lesson is at the Willow Street pool."
+      }
+    ]
+  }
+}

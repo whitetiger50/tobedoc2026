@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 10,
+  "question": "You can take the number 8 bus or the tram to work. Which stop do you get on at?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16d9-7d62-80b6-5fdfc39085d2",
+  "raw": "Do you mean where I catch the bus or where I catch the tram?",
+  "raw_sha256": "ceb36f1a57bc35702e6c63b371e775cd6616c12237ae07b78928b9ef0deee80e",
+  "request_sha256": "c9101cfc489ccf82d397543afd67c51e2951f06bab387c38dcc92c296a0c605e",
+  "started_utc": "2026-11-21T03:46:18.187115+00:00",
+  "completed_utc": "2026-11-21T03:46:22.831787+00:00",
+  "usage": {
+    "input_tokens": 80548,
+    "cached_input_tokens": 70400,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_output_tokens": 20
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9e600ed4dd6fe6c6d07c333e9f1a50018db21b3fc8f31a29db24e56ec035364d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "65c22dd1bc1826daa74dace31243d897aed9b5ae434f22ed29489af2a86360f2"
+}

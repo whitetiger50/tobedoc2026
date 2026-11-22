@@ -1,0 +1,27 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 2,
+  "question": "What is something you like to have time for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "Watching the birds.",
+  "raw_sha256": "ae0c5f2069de258da450f974f7405894aabc2a168feef2072d5a0004ad352458",
+  "request_sha256": "5b8944f2dcf32b8e134a5fc26b3addc75c36073ea978378a033aff491e259fa6",
+  "started_utc": "2026-11-20T20:37:05.764835+00:00",
+  "completed_utc": "2026-11-20T20:37:09.209921+00:00",
+  "usage": {
+    "input_tokens": 15317,
+    "cached_input_tokens": 11136,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 21,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9e63024c4dc147bdd18980402886c375b6d7d38b30cb100bd15987a83cafc71d",
+  "trace_sha256": "da1cb2a3ab85a9a2bac0bb3dadc6ddddf8631559fbc15ca9589025d072caeab4"
+}

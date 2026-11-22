@@ -1,0 +1,59 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 9,
+        "quote": "I’m getting the hems and zippers finished",
+        "earlier_turn": 7,
+        "earlier_quote": "I’m getting the work done—the hems and zippers",
+        "reason": "The question asks how often tasks at the counter were interrupted. Saying the hems and zippers are getting finished repeats turn 7 and only loosely bears on frequency. The patient's new contribution, uncertainty about brief pauses, comes separately. It is ambiguous whether the restatement frames the answer or is surplus recital."
+      },
+      {
+        "turn": 12,
+        "quote": "it made the voice less distracting, and I finished sorting",
+        "earlier_turn": 3,
+        "earlier_quote": "I put the radio on, and it was less distracting, so I finished sorting the thread.",
+        "reason": "'Having the radio on helps' answers the new question. The added retelling of last week's thread-sorting episode repeats the turn 3 account, which also appeared at turn 5. It may serve as a supporting example, or it may be redundant recital. The radio-while-making-dough detail is new."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 2,
+        "quote": "Do you mean what’s stood out about the sound, or about things at work and home?",
+        "reason": "'What has stood out there?' is ambiguous after an answer covering work, home and the sound. The patient asks which meaning is intended and gives up the turn without describing any experience. This fits the profile's habit of clarifying to avoid giving the wrong impression."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 5,
+        "quote": "I was sorting thread and heard",
+        "reason": "Asked to walk through one recent evening, the patient describes a specific occasion, the more recent of the two evenings. The account moves in order through the sound, the neighbor interpretation and doubt, putting the radio on, finishing sorting, and taking medication. This matches the profile."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

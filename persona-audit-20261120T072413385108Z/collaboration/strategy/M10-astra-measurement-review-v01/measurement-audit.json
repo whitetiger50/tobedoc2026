@@ -1,0 +1,431 @@
+{
+  "kind": "existing_evidence_descriptive_measurement_audit_no_new_ratings",
+  "within_judge_fixed_text_M5": {
+    "codex": {
+      "original_dialogues": 6,
+      "underlying_profiles": 3,
+      "ratings": 18,
+      "all_three_equal_dialogues": 6,
+      "equal_pairs": 18,
+      "all_pairs": 18,
+      "mean_absolute_within_text_pair_difference": 0,
+      "max_within_text_pair_difference": 0,
+      "scores": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ],
+      "warning": "18pairs are dependent comparisons within6texts/3profiles, not18independent samples; not a calibrated uncertainty interval"
+    },
+    "claude": {
+      "original_dialogues": 6,
+      "underlying_profiles": 3,
+      "ratings": 18,
+      "all_three_equal_dialogues": 3,
+      "equal_pairs": 12,
+      "all_pairs": 18,
+      "mean_absolute_within_text_pair_difference": 0.3333333333333333,
+      "max_within_text_pair_difference": 1,
+      "scores": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          4,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          3
+        ]
+      ],
+      "warning": "18pairs are dependent comparisons within6texts/3profiles, not18independent samples; not a calibrated uncertainty interval"
+    }
+  },
+  "same_fixed_text_M5_round_contrasts": [
+    {
+      "round": 1,
+      "means": {
+        "v02": 4,
+        "v04": 4
+      },
+      "v04_minus_v02": 0
+    },
+    {
+      "round": 2,
+      "means": {
+        "v02": 4,
+        "v04": 3.8333333333333335
+      },
+      "v04_minus_v02": -0.16666666666666652
+    },
+    {
+      "round": 3,
+      "means": {
+        "v02": 3.8333333333333335,
+        "v04": 3.6666666666666665
+      },
+      "v04_minus_v02": -0.16666666666666696
+    }
+  ],
+  "between_judge_distribution_and_arithmetic_leverage_by_stage": [
+    {
+      "stage": 3,
+      "conditions": {
+        "v02": {
+          "dialogues": 3,
+          "score_counts": {
+            "codex": {
+              "4": 3
+            },
+            "claude": {
+              "3": 2,
+              "4": 1
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            0,
+            1
+          ],
+          "exact_between_judge_agreement": 1,
+          "one_integer_rating_point_effect_on_condition_mean": 0.16666666666666666
+        },
+        "v03": {
+          "dialogues": 3,
+          "score_counts": {
+            "codex": {
+              "4": 3
+            },
+            "claude": {
+              "3": 3
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 0,
+          "one_integer_rating_point_effect_on_condition_mean": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "stage": 4,
+      "conditions": {
+        "v02": {
+          "dialogues": 3,
+          "score_counts": {
+            "codex": {
+              "4": 3
+            },
+            "claude": {
+              "4": 2,
+              "3": 1
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            0,
+            1
+          ],
+          "exact_between_judge_agreement": 2,
+          "one_integer_rating_point_effect_on_condition_mean": 0.16666666666666666
+        },
+        "v04": {
+          "dialogues": 3,
+          "score_counts": {
+            "codex": {
+              "4": 3
+            },
+            "claude": {
+              "4": 1,
+              "3": 2
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 1,
+          "one_integer_rating_point_effect_on_condition_mean": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "stage": 6,
+      "conditions": {
+        "v02": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "4": 5,
+              "3": 4
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 5,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        },
+        "v04": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "4": 5,
+              "3": 4
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "exact_between_judge_agreement": 5,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        }
+      }
+    },
+    {
+      "stage": 7,
+      "conditions": {
+        "v02": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "4": 8,
+              "3": 1
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "exact_between_judge_agreement": 8,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        },
+        "v05": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "4": 6,
+              "3": 3
+            }
+          },
+          "GPT_minus_Claude_values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "exact_between_judge_agreement": 6,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        }
+      }
+    },
+    {
+      "stage": 8,
+      "conditions": {
+        "v02": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "3": 9
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 0,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        },
+        "v05": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "3": 9
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 0,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        }
+      }
+    },
+    {
+      "stage": 9,
+      "conditions": {
+        "examples": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 8,
+              "3": 1
+            },
+            "claude": {
+              "3": 9
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 1,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        },
+        "none": {
+          "dialogues": 9,
+          "score_counts": {
+            "codex": {
+              "4": 9
+            },
+            "claude": {
+              "3": 9
+            }
+          },
+          "GPT_minus_Claude_values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "exact_between_judge_agreement": 0,
+          "one_integer_rating_point_effect_on_condition_mean": 0.05555555555555555
+        }
+      }
+    }
+  ],
+  "warning": "Different stages use different generated texts and sometimes questions/reviewtasks/batches. Do not treat stage mean differences as repeated ratings of identical texts. Arithmetic leverage is not measurement error, detection threshold or clinical significance. Stable top scores can coexist with weak discrimination. No pvalues/CI/ICC/kappa calculated on these tiny/degenerate samples.",
+  "source_sha256": {
+    "development/speech-m3-v02-v03-compare-v01/scores.json": "31a7e03d9337eb0043acd213bc70d061412b4bcc1655ec3469d03090d5581370",
+    "development/speech-m4-v02-v04-compare-v01/scores.json": "3837a3df63eea1d460bdfd43b2e4841af43f8c0dda374f3e1d418a47ef72101e",
+    "development/speech-m6-generation-variability-v01/scores.json": "a95e85166a0499303990b696d2f3cf72a10b13379a69480bb6902e2522b30aa0",
+    "development/speech-m7-v02-v05-grounding-v01/scores.json": "abcaf1215a1a95229ceb8a9fa9500fef62886291ec4d412582781c569aa8d102",
+    "development/speech-m8-stress-grounding-v01/scores.json": "a71859b05e9d89535a954c4f2b2ec93167323b791d43ae3916c30fad8fea4ea5",
+    "development/speech-m9-style-examples-v01/scores.json": "77d240be2334577b23010aff0e9cb514377546bb3c9f0b977745c4c7347c448b",
+    "development/speech-m5-repeatability-v01/scores.json": "615bdc73e10c0a4b0a23a962d1ef3da88c42c93829a00668182635b091879933"
+  }
+}

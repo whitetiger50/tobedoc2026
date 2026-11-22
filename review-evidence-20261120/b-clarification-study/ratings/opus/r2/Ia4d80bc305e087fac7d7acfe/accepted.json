@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ia4d80bc305e087fac7d7acfe",
+  "ended": "2026-11-21T03:51:10.412386+00:00",
+  "session": "8b31b538-11a6-4dd7-b6fa-3cd3345dfa79",
+  "packet_sha256": "7530bd116f23ed38473358eb2f1e7548a716c54e285c6176a00263aefa8e9b99",
+  "raw_sha256": "825ca89ee11a668699cc2d2e4da027706ea7a1e2c84ef29ae0a2e8adacf9284d",
+  "provider_sha256": "efc2fcd92dd2fd69b1dd893232ff1f6121a6e731a2f00c7d61807c9cf93a29ff",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication mostly fits the persona: a quiet, cooperative outpatient with schizophrenia and decreased verbal productivity who waits for specific questions. Replies are brief, coherent, on-topic and in everyday words. Asking for clarification when a question is ambiguous (fan vs. speaker, which appointment) is natural and fits someone who answers carefully without volunteering extra detail. However, nearly every answer reads like a clean one-to-one retrieval of a profile fact, with no hesitations, hedges, filler or personal texture. Over the whole interview this makes the exchange feel slightly mechanical rather than fully authentic. These are minor issues and do not seriously undermine realism.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Do you mean the fan or the speaker?"
+    },
+    {
+      "turn": 5,
+      "quote": "Check them against the packing slip."
+    },
+    {
+      "turn": 8,
+      "quote": "Which one do you mean?"
+    },
+    {
+      "turn": 11,
+      "quote": "Baseball."
+    }
+  ]
+}

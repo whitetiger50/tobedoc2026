@@ -1,0 +1,139 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ia5ee52e3a25ba6cb2852",
+  "reader": "gpt",
+  "session": "01a1facb-d0d0-79f2-b7b5-de3227f7dd11",
+  "raw_sha256": "779d572080e73f3e9cf44d2c7657773ac537280533e3d0ca1e7183a5f5deb8cc",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "da587d2dd754f5661822445a11071a156cf3c8389c8a8c1855bb5a5c51d15464",
+  "provider_sha256": "704dd3dfad7979b2c7c707059b8ed341f1a2b9a0a153219f6be0b7fb90ae3e28",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "2": "positive",
+        "8": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean at work, or at home?",
+            "reason": "Asks which setting the ambiguous question concerns and yields without describing an experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        },
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean stop what I’m doing because of the voice?",
+            "reason": "Requests clarification of what stopping means and yields without answering that interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I turned on the radio, which made it less distracting, and finished sorting the thread.",
+            "reason": "Describes a particular evening last week, including hearing the voice, considering its source, and taking action to finish the task."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:10:40.841227+00:00"
+}

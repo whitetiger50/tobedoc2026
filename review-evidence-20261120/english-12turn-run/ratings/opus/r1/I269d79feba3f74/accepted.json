@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I269d79feba3f74",
+  "ended": "2026-11-20T20:36:08.465953+00:00",
+  "session": "2be9e212-4e02-4714-8afe-6977d3a20e05",
+  "packet_sha256": "1dc7d662d3b6b8bfb2f99eba79df1cd8bd3bafb9e4cc90540e677558e94e678e",
+  "raw_sha256": "d53bef0a07f6ae7fe260fc412166c366e93c33ece844438cded0eb5ba14cb30f",
+  "provider_sha256": "afab5310c4de1ace757c2eb3ad60ab34d42c272f2775739e04b80032728f541d",
+  "status": "valid",
+  "score": 2,
+  "rationale": "When the patient stays in role, their answers are mostly natural and fit the profile well. They give a sequenced, settled account, mention the concert with their partner, keep shifts and appointments on a shared wall calendar, describe the chair-stacking routine, and show mild irritation at last-minute changes. However, in 4 of 12 turns (3, 6, 9, 12) the patient breaks role and answers as though they were the interviewer. These turns also leave direct questions about sleep, socializing and closing concerns unanswered. Other unrealistic elements are the stray quotation marks around the answers in turns 10 and 11 and the heavy repetition of the appointment-scheduling theme across several turns. The dialogue is therefore only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "As your interviewer, I'd like you to tell me a bit more about that."
+    },
+    {
+      "turn": 12,
+      "quote": "As your interviewer, I'd like you to tell me a bit more about that."
+    },
+    {
+      "turn": 1,
+      "quote": "I swapped a late shift for an earlier one last week so my partner and I could go to a concert—that was a highlight."
+    },
+    {
+      "turn": 4,
+      "quote": "Last-minute changes to plans can irritate me—I like having the week laid out"
+    },
+    {
+      "turn": 10,
+      "quote": "I spend ten quiet minutes stacking the chairs before heading home."
+    }
+  ]
+}

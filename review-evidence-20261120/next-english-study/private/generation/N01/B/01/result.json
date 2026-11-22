@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 1,
+  "question": "What has an ordinary workday looked like for you lately?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7a43-b0bd-945ecb63c8a8",
+  "raw": "I open the print shop with a coworker three mornings a week. Getting up with the alarm can still be a bit of a struggle, but once I’m there, I get into the usual jobs. Last week we swapped opening days so I could make a morning appointment—that worked out pretty well.",
+  "raw_sha256": "656224b843d53c99e658a2e92e960db0410ed6d10de1c0280455ca4aafeb36c3",
+  "request_sha256": "342c1ca5d01db7f6f5f4f5fc0b1683bfd3f9095b4371fde040bd2caf11c055a9",
+  "started_utc": "2026-11-20T20:58:04.614323+00:00",
+  "completed_utc": "2026-11-20T20:58:09.548362+00:00",
+  "usage": {
+    "input_tokens": 7799,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 64,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a15d28b6c33f02a543f92eb2f68df8e88b09465a68433f5b72fb78a35a287387",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "46bf1f3fa3439fe03e66f4db4d018ea79e9dacf4484cdbe724ad512a94f9bd54"
+}

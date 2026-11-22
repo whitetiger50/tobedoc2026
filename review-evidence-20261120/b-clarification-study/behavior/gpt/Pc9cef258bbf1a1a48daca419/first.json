@@ -1,0 +1,81 @@
+{
+  "id": "Pc9cef258bbf1a1a48daca419",
+  "reader": "gpt",
+  "session": "01a1fc40-22d4-7053-ba65-b74371a1a13d",
+  "attempt": "attempt-01",
+  "packet_sha256": "e0cdfdb1de72fdf4bbf7e4d229b017174bd8e563663d7865d17843761f55482f",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "c77d5725e04a7bf91a1ac204bb6dd7cc5cd493e398215fddf739fc37f47da8f3",
+  "raw_sha256": "8f6f053a24f0a30186d70f20a20242d28b5bfa7ddd2d0558378a4aea45658b3a",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "did she expect you to pay her?",
+        "reason": "The question reintroduces both women without identifying which one 'she' means, but neither expected payment.",
+        "alternatives": [
+          {
+            "meaning": "Whether Inez expected payment for helping.",
+            "answer": "Inez did not expect payment."
+          },
+          {
+            "meaning": "Whether Pat expected payment for helping.",
+            "answer": "Pat did not expect payment."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "Mentioning both early and late shifts frames a general question about the travel routine across those shifts rather than requiring selection of one shift.",
+        "alternatives": [
+          {
+            "meaning": "How Morgan gets home after each type of shift.",
+            "answer": "Morgan takes the bus after early shifts and gets a lift from a coworker after late shifts."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement?",
+        "reason": "The singular 'replacement' could refer to either listed replacement, but both were free.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron paid for the replacement ID badge.",
+            "answer": "The replacement ID badge cost nothing."
+          },
+          {
+            "meaning": "Whether Cameron paid for the replacement locker key.",
+            "answer": "The replacement locker key cost nothing."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The immediately preceding exchange establishes the bedside speaker as the referent of 'it'.",
+        "alternatives": [
+          {
+            "meaning": "Where Taylor has the bedside speaker positioned.",
+            "answer": "The speaker sits on the windowsill beside the bed."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:57:22.488375+00:00"
+}

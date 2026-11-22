@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "B",
+  "turn": 6,
+  "question": "Once you arrive somewhere you know, how easy is it to start what you came to do?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e8c-7820-a518-c546dc1aff45",
+  "raw": "Once I’m in the shop, I get on with sorting pretty easily.",
+  "raw_sha256": "ea6c0957b109b6f14cd911551012a080a2526e77da2616a00c4c8c9aecde42a5",
+  "request_sha256": "f3c80d5e9a41b5912f0508582041b643ef4406f49e58e356c052b518de1727d6",
+  "started_utc": "2026-11-20T21:01:20.617485+00:00",
+  "completed_utc": "2026-11-20T21:01:25.082830+00:00",
+  "usage": {
+    "input_tokens": 47601,
+    "cached_input_tokens": 34432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 131,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5d97a57d89fe7b0394f948d51525a275d7eee523e1a9e533e6cc0c5b5fc4ea88",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "959391bcf63dbbcdb89dd8001ad55db830de5e3dd16888728333c3657c6beda7"
+}

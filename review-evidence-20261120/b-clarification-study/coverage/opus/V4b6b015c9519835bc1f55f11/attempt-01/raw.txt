@@ -1,0 +1,28 @@
+```json
+{
+  "v1": {
+    "quote": "Which one do you mean?",
+    "reason": "The patient only asks which appointment is meant and gives no answer about companions for either visit.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v2": {
+    "quote": "The cooking class was free. I paid for the swimming lesson",
+    "reason": "The patient says the cooking class was free and that they paid for the swimming lesson, which matches both branches.",
+    "A": {"state": "supported", "quote": "The cooking class was free."},
+    "B": {"state": "supported", "quote": "I paid for the swimming lesson"}
+  },
+  "v3": {
+    "quote": "I asked for the later start. My supervisor suggested the shorter shifts.",
+    "reason": "The patient says they asked for the later start and that the supervisor suggested the shorter shifts, which matches both branches.",
+    "A": {"state": "supported", "quote": "My supervisor suggested the shorter shifts."},
+    "B": {"state": "supported", "quote": "I asked for the later start."}
+  },
+  "v4": {
+    "quote": "Still using the phone alarm at 7:10 in the morning. I took the note off the door last month.",
+    "reason": "The patient says they still use the phone alarm and took the door note down last month, which matches both branches.",
+    "A": {"state": "supported", "quote": "Still using the phone alarm"},
+    "B": {"state": "supported", "quote": "I took the note off the door last month."}
+  }
+}
+```

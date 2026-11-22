@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "T2",
+  "turn": 7,
+  "question": "What do you use to make your collages?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-db18-7401-a7b9-064422874351",
+  "raw": "I use scraps from old maps to make them.",
+  "raw_sha256": "69ec1026c0e9acc7a82ca7810e5d5babe7050f58a9ffc5730d64e288a2f62344",
+  "request_sha256": "272273ebf0610e70e9ce120aec105f681773b9086f268f71acb33db385deb8c2",
+  "started_utc": "2026-11-21T03:43:39.180585+00:00",
+  "completed_utc": "2026-11-21T03:43:43.094813+00:00",
+  "usage": {
+    "input_tokens": 6260,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b61af273cca4d62f8d4ee0eb3c99a28814ea89d95d103d937b4daf3f1e8de40d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "033fadafba72ee5c99fed52d2945d7914e4bf108580baaa29c95f902deaf904b"
+}

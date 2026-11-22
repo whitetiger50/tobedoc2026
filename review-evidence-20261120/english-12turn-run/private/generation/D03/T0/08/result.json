@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 8,
+  "question": "How do you understand the feeling of wanting to do something but finding it hard to begin, if that's familiar?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-9117-7aa2-8e78-e378c972e70a",
+  "raw": "“I’m not sure why it happens. I want to do a repair, and I enjoy it once the pieces are out. But I rarely get as far as opening the tin myself. Having my sister sit nearby sometimes helps.”",
+  "raw_sha256": "f97bc5b323791e23e2bb4683f82a2970140ec1057c8b81c6477d8f2808fb94a5",
+  "request_sha256": "c3b1b45d8faaca30cb65f93136e618a2322306418ff031df9b604ca4ce4af4fb",
+  "started_utc": "2026-11-20T20:32:59.083449+00:00",
+  "completed_utc": "2026-11-20T20:33:04.342644+00:00",
+  "usage": {
+    "input_tokens": 7138,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "68c303cefd5d8143db6cc47f03e3c007956356aaa5394ff87e6acda7b7a3e3b7",
+  "trace_sha256": "077c4c6149f485fbe42144fd0e6f8d7578e4b8634f270446773e05d16015bede"
+}

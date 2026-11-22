@@ -1,0 +1,124 @@
+{
+  "profile": {
+    "background": "An adult who lives alone, works at a laundry counter, and swims on days off. They are learning to do a comfortable backstroke.",
+    "history": "They remember receiving a diagnosis of schizophrenia and were unsettled by ordinary sounds around that time. They have felt steady for about two years with regular outpatient follow-up.",
+    "organization": "Can describe a timeline clearly and distinguish minor variations from changes that matter to them.",
+    "spontaneity": "Engaged in conversation, volunteering personal details when they feel relevant.",
+    "guardedness": "Comfortable discussing health at the clinic, selective about sharing it with customers.",
+    "expression": "Generally relaxed and interested in talking about swimming and work.",
+    "self_understanding": "Feels able to recognize their usual responses to everyday stress and values having someone familiar to check in with.",
+    "facts": [
+      {
+        "content": "A noisy change machine at the laundry counter startled them last week. They found the stuck coin and went on with their shift.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "An everyday incident they are comfortable discussing.",
+        "kind": "background"
+      },
+      {
+        "content": "They have not recently heard voices or felt that sounds had a personal message.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Comfortable reflecting on the change since earlier years.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "They usually swim before lunch on days off and feel pleasantly tired afterward.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "An interest they like talking about.",
+        "kind": "background"
+      },
+      {
+        "content": "A longtime friend meets them for a drink after a swim a couple of times a month. They enjoy being able to discuss everyday stress.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Comfortable talking about this friendship.",
+        "kind": "background"
+      },
+      {
+        "content": "They take medication after brushing their teeth at night and want to discuss booking follow-up visits around rotating shifts.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Willing to discuss with the outpatient clinician.",
+        "kind": "treatment"
+      }
+    ],
+    "verbal_productivity": "Normal"
+  },
+  "dialogue": [
+    {
+      "question": "How have things been at work and at home recently?",
+      "answer": "“Things have been pretty steady. The change machine at the laundry startled me last week, but I found the stuck coin and got on with my shift. I live alone, and on days off I’ve been swimming—working on getting comfortable with backstroke. A longtime friend meets me for a drink afterward a couple of times a month. It’s nice to talk through everyday stresses.”"
+    },
+    {
+      "question": "What would you like us to talk about during this check-in?",
+      "answer": "I’d like to talk about booking follow-up visits around my rotating shifts. I’ve been taking my medication after brushing my teeth at night, and things have felt steady. I’d like to keep the regular check-ins going."
+    },
+    {
+      "question": "How long does it usually last?",
+      "answer": "Do you mean how long the appointments usually last, or how long I’ve been feeling steady?"
+    },
+    {
+      "question": "I mean feeling unsettled after a busy moment at work. How long does that feeling generally stay with you, if it comes up?",
+      "answer": "The change machine last week was more of a startle than a lingering unsettled feeling. I found the stuck coin and got on with my shift. Is that the sort of thing you mean?"
+    },
+    {
+      "question": "How do you spend the first part of a typical day off?",
+      "answer": "I usually go swimming before lunch. I’m working on getting comfortable with backstroke, and I feel pleasantly tired afterward."
+    },
+    {
+      "question": "Could you give me an example of something unexpected that happened on a recent shift?",
+      "answer": "“The change machine I mentioned is a good example. It made a noise that startled me last week, but I found the stuck coin and got on with my shift.”"
+    },
+    {
+      "question": "What tells you a busy day is still going reasonably well for you?",
+      "answer": "“If I can deal with whatever comes up and get on with my shift, that tells me I’m doing reasonably well. Being startled by the change machine didn’t stop me sorting out the stuck coin and carrying on.”"
+    },
+    {
+      "question": "How do you tell whether something you notice is worth mentioning at your next visit?",
+      "answer": "“I’d mention something that felt different from my usual everyday stress, especially if it kept bothering me or got in the way of work. If sounds started feeling like they had a message for me, I’d bring that up. That hasn’t been happening lately. It helps to check in with someone who knows me, even if I’m not sure whether something matters.”"
+    },
+    {
+      "question": "How does meeting up usually go?",
+      "answer": "“A longtime friend meets me for a drink after swimming a couple of times a month. We talk about everyday stresses—it’s nice talking with someone who knows me well.”"
+    },
+    {
+      "question": "I mean meeting a friend after swimming. What is that time together usually like for you?",
+      "answer": "“It’s enjoyable. We have a drink and talk about everyday stresses. We’ve known each other a long time, so it’s nice having someone familiar to talk things through with.”"
+    },
+    {
+      "question": "How are your clinic visits fitting around your shifts?",
+      "answer": "“I’d like to work out how to book them around my rotating shifts. I want to keep the regular check-ins going. How flexible are the appointment times?”"
+    },
+    {
+      "question": "What would you like to make sure is covered before you leave?",
+      "answer": "I’d like to make sure we work out how to book my follow-up visits around my rotating shifts. How flexible are the appointment times?"
+    }
+  ],
+  "opportunities": {
+    "ambiguous": [
+      3,
+      9
+    ],
+    "clear": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "example": [
+      6
+    ],
+    "clarification_rephrase": [
+      4,
+      10
+    ]
+  }
+}

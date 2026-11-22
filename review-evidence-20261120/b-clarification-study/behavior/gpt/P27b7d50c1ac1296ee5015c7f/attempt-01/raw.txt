@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "Both commentary and ringing are explicitly introduced, and music affects them differently.",
+    "alternatives": [
+      {
+        "meaning": "The sound refers to the commentary.",
+        "answer": "The commentary stops while music plays through Ari’s headphones."
+      },
+      {
+        "meaning": "The sound refers to the high-pitched ringing.",
+        "answer": "The ringing continues while music plays through Ari’s headphones."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement",
+    "reason": "The replacement could mean the badge or the locker key, but neither cost Cameron anything.",
+    "alternatives": [
+      {
+        "meaning": "The replacement refers to the ID badge.",
+        "answer": "Cameron did not have to pay for the replacement badge."
+      },
+      {
+        "meaning": "The replacement refers to the locker key.",
+        "answer": "Cameron did not have to pay for the replacement key."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The explicit follow-up about the swimming lesson makes swimming the active referent, with cooking mentioned only as a contrast.",
+    "alternatives": [
+      {
+        "meaning": "The interviewer asks where Jules goes for the swimming lesson.",
+        "answer": "Jules attended the swimming lesson at the Willow Street pool."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "take food with you for your shift",
+    "reason": "The question clearly asks about bringing food to work generally, without requiring a choice between early and late shifts.",
+    "alternatives": [
+      {
+        "meaning": "The interviewer asks whether Morgan brings food along for work shifts.",
+        "answer": "Morgan packs a sandwich for every shift, whether early or late."
+      }
+    ]
+  }
+}

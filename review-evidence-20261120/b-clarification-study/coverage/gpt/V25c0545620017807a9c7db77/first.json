@@ -1,0 +1,109 @@
+{
+  "id": "V25c0545620017807a9c7db77",
+  "reader": "gpt",
+  "session": "01a1fc4b-9f6d-72a3-b771-559522aa1b68",
+  "attempt": "attempt-01",
+  "packet_sha256": "8a31b61d2e0f69712b09d0e3e27f35743967e38d3247f1767e9009ec4072565a",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "bc05a818116cc25c4d20c80fa5144d586cd8483d6c7a0a115084f825dc6f2bad",
+  "provider_sha256": "e6313c0fa2d27ea6af0294b4da0c86523561656a1c4bda5975329bc5ff0816b5",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I still use the phone alarm at 7:10 in the morning. I took the note off the door last month.",
+        "reason": "The reply affirms continued phone-alarm use and confirms removal of the door note last month.",
+        "A": {
+          "state": "supported",
+          "quote": "I still use the phone alarm at 7:10 in the morning."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I took the note off the door last month."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The fan does. The speaker stops after twenty minutes.",
+        "reason": "The elliptical affirmation says the fan stays on all night, while the speaker stops after twenty minutes.",
+        "A": {
+          "state": "supported",
+          "quote": "The fan does."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The speaker stops after twenty minutes."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean where I catch the number 8 bus, or where I get on the tram?",
+        "reason": "The reply asks which transport mode is intended without identifying either boarding stop.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean my brother or Mr. Bell?",
+        "reason": "The reply asks which person is intended without saying whether either was called back.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:49.413096+00:00"
+}

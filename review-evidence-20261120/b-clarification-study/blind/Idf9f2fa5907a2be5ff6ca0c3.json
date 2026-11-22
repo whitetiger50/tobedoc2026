@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Jules is 31, works part time at a bakery, and has been trying out activities at a community center.",
+    "history": "Jules has had outpatient care for schizophrenia for three years. In conversation a detail can bring a related memory to mind before Jules gets back to the original point.",
+    "organization": "At times a related detail leads to a short detour. Usually returns to the topic.",
+    "spontaneity": "Enthusiastic about practical activities.",
+    "guardedness": "Friendly and open.",
+    "expression": "Plain-spoken, with occasional self-correction.",
+    "self_understanding": "Notices it is easier to keep track of things when doing them one at a time.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "At the bakery Jules stacks the cooling trays and wraps the loaves. Usually works the morning shift.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing work."
+      },
+      {
+        "kind": "background",
+        "content": "Went to a cooking class and a swimming lesson last week. Enjoyed making lentil soup at the cooking class.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing activities."
+      },
+      {
+        "kind": "background",
+        "content": "The cooking class was free. Paid for the swimming lesson. It was at the Willow Street pool.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing cost or the venue."
+      },
+      {
+        "kind": "background",
+        "content": "Both the cooking class and the swimming lesson finished by six in the evening.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing timing."
+      },
+      {
+        "kind": "treatment",
+        "content": "Uses prescribed eye drops for dry eyes and takes a daily prescribed tablet for schizophrenia. The drops stay on the bedside table. The tablets stay in the kitchen cabinet.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing medication or storage."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "The drops have helped the eyes feel less gritty after work.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing the eye drops."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually falls asleep around ten on work nights.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleep."
+      },
+      {
+        "kind": "background",
+        "content": "Would like to talk at the next appointment about making time for swimming around work.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about a future visit."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What part of the work do you handle at the bakery?",
+      "answer": "I stack the cooling trays and wrap the loaves. I usually work the morning shift."
+    },
+    {
+      "question": "Which shift do you usually work there?",
+      "answer": "Usually the morning shift."
+    },
+    {
+      "question": "What did you enjoy making in the cooking class?",
+      "answer": "The lentil soup! I enjoyed making that in the class last week."
+    },
+    {
+      "question": "I see you went to a cooking class and a swimming lesson. Were you done by six that evening?",
+      "answer": "Yes, both the cooking class and the swimming lesson were finished by six."
+    },
+    {
+      "question": "I’m filling in the costs for your two classes, cooking and swimming. Did you pay a fee to take the class?",
+      "answer": "Do you mean the cooking class or the swimming lesson?"
+    },
+    {
+      "question": "Did you have to pay for the swimming lesson?",
+      "answer": "Yes, I paid for the swimming lesson. The cooking class was free."
+    },
+    {
+      "question": "Where do you go for it?",
+      "answer": "The Willow Street pool."
+    },
+    {
+      "question": "How are your eyes feeling with the drops?",
+      "answer": "They’re feeling less gritty after work. The drops have helped with that."
+    },
+    {
+      "question": "There are eye drops and daily tablets on the pharmacy list. Is the medicine kept in the kitchen?",
+      "answer": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table."
+    },
+    {
+      "question": "Where do you keep the daily tablets?",
+      "answer": "In the kitchen cabinet."
+    },
+    {
+      "question": "Around what time do you fall asleep on work nights?",
+      "answer": "Usually around ten on work nights."
+    },
+    {
+      "question": "What would you like us to talk about at your next visit?",
+      "answer": "I’d like to talk about fitting swimming in around work. I enjoyed the lesson, and I’d like to keep going."
+    }
+  ]
+}

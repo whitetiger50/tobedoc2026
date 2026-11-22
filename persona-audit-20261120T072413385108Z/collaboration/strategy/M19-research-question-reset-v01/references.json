@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-11-19",
+  "method": "Official journal, PMC, PubMed, ACL and TalkBank web records checked; no patient corpus downloaded, no new LLM calls, not systematic review",
+  "sources": [
+    {
+      "id": "fradkin2023",
+      "title": "Theory-Driven Analysis of Natural Language Processing Measures of Thought Disorder Using Generative Language Modeling",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932972/",
+      "checked": "Abstract; Methods including clinical ratings; theoretical perturbation rationale and limitations",
+      "use": "Simulation-based hypothesis testing; generation parameters and selective metric response",
+      "limit": "GPT-2 perturbations and clinical evaluation not replicated by this project's prompt module"
+    },
+    {
+      "id": "dalal2024",
+      "title": "Speech based natural language profile before, during and after the onset of psychosis: A cluster analysis",
+      "year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38600593/",
+      "checked": "Indexed primary-study abstract via search; direct PMC page challenged by browser check",
+      "use": "147-person linguistic heterogeneity; majority of patients in typical linguistic cluster",
+      "limit": "Does not establish a single schizophrenia speech pattern or current model validity",
+      "online_year": 2024,
+      "issue_year": 2025
+    },
+    {
+      "id": "he2026",
+      "title": "Reduced linguistic coherence in psychosis defies semantic similarity accounts and relates to altered large-scale cortical hierarchy",
+      "year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12948966/",
+      "checked": "Abstract and data availability section",
+      "use": "Semantic similarity is not automatically coherence; patient transcript access is conditional",
+      "data_access": "Clinical transcripts/scores available upon reasonable request under research ethics stipulations; not acquired"
+    },
+    {
+      "id": "cokal2026",
+      "title": "Automated detection of referential features in schizophrenic speech using large language models",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S002839322600151X",
+      "checked": "Publisher abstract, highlights and data availability; PubMed record42176801",
+      "use": "LLM extraction compared with manual referential annotation; separates SZ with/without substantial FTD",
+      "data_access": "Not publicly available due to privacy/ethics; reasonable request route. Review-only link not accessed.",
+      "limit": "English tasks; does not validate Korean referent omission criteria or simulation"
+    },
+    {
+      "id": "nenchev2025",
+      "title": "Reverse Prompting: A Novel Computational Paradigm in Schizophrenia Based on Large Language Models",
+      "year": 2025,
+      "url": "https://aclanthology.org/2025.ranlp-1.92/",
+      "checked": "Official primary conference abstract and bibliographic record",
+      "use": "Question-response relationship can be studied through reverse inference",
+      "limit": "Its cosine proxy is not validated as our Korean clinical measure; no patient data acquired"
+    },
+    {
+      "id": "psychosisbank",
+      "title": "PsychosisBank official access notice",
+      "url": "https://talkbank.org/psychosis/",
+      "checked": "Official homepage access notice and corpus index",
+      "use": "Data feasibility constraints",
+      "data_access": "Members only; transcripts being verified; homepage currently says browsing but not yet analysis. No application or access attempt made."
+    },
+    {
+      "id": "topsy2026",
+      "title": "TOPSY: A picture description dataset to examine speech, language and communication in untreated first episode psychosis",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352340926003410",
+      "checked": "Publisher abstract; indexed primary PMC text describing access committee, transcript format, task and clinical data. Direct PMC browser challenge.",
+      "use": "Specific candidate dataset and task-anchored human reference route, not acquired",
+      "data_access": "Article describes approved researcher access through DISCOURSE/PsychosisBank; current homepage still says browse-only/not analysis. Actual current permission/version and LLM processing allowance remain unconfirmed.",
+      "limit": "Psychosis dataset; do not equate all participants to schizophrenia or treat audio/timing as measured by text-only system"
+    }
+  ]
+}

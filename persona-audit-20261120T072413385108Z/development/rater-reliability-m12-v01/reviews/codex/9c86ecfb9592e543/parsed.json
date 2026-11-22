@@ -1,0 +1,40 @@
+{
+  "realism_score": 4,
+  "realism_reason": "짧고 조직적인 답변, 이웃에게 전달될까 하는 경계심, 모르는 인과관계와 잘못된 전제를 바로잡는 표현이 설정에 맞고 자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "왜 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테도 알려질 수 있나요?"
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "프로필의 생활상·방문 경위·주관적 소리 경험과 일치하며, 수면과 소리의 인과를 근거 없이 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "질문의 직접 대상에 답하고, 시점·진료 대상·인과관계에 관한 잘못된 전제나 불확실성을 적절히 정정한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이전 문맥과 일관되며, 답을 받지 못한 전달 우려의 재질문과 재확인 질문에 대한 반복 답변도 자연스럽게 이어진다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점에서 간결하게 말하며, 필요한 설명과 경계심의 표현에 뚜렷한 부자연스러움이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 8,
+  "question": "How many hours of sleep do you usually get these days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e304-7901-b63a-7b6e806fe092",
+  "raw": "About eight hours.",
+  "raw_sha256": "70b2ff89c6fb0bbbf2aaee1b7b88220ac19e7d6a8307ba6c7d1ae41ab0ae5ee4",
+  "request_sha256": "c08b10b7f4dfa54eb614f75f16ed24ab80360adb10c1bf04feddbf07be83e16b",
+  "started_utc": "2026-11-21T03:44:50.997252+00:00",
+  "completed_utc": "2026-11-21T03:44:55.159330+00:00",
+  "usage": {
+    "input_tokens": 63154,
+    "cached_input_tokens": 47360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 83,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2560d3ab1c84e5c40e3ca2a7b4cc2865ff20f1f97c84afbae3e8b9bd8fc18662",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "21fa8ddeb49b7133f3b5c941491b58eac850e3cd45fde39d8098e65dc4a52de7"
+}

@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T21:19:13.862703+00:00",
+  "attempt": "attempt-01",
+  "id": "Kf6a89ebf5e5f5305fa54",
+  "reader": "gpt",
+  "session": "01a1fad3-ca44-7bd3-819a-74d863cd07cb",
+  "packet_sha256": "1d89f3ecbf03f524ec92974185b8dac68a0f88907a114e6fe5c6ef000e2f22ff",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "87f63c6b2e0d7a434f78d1fa62df96244ec3502af71ae54fb2931e6cd329f935",
+  "raw_sha256": "bca520b92468f94c8eeb1160aa5a0de620a04f093548d710ae0cbbb5cf6dae63",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient prefers an afternoon visit ending before dinner while they still have energy.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "An afternoon would suit me, perhaps going over for lunch.",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’d rather have a shorter visit with my sister and head home before dinner, while I’ve still got some energy.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says they usually return to sleep after waking around dawn.",
+      "evidence": [
+        {
+          "turn": 2,
+          "role": "patient",
+          "quote": "Some mornings I wake up around dawn, but I usually drift back off.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

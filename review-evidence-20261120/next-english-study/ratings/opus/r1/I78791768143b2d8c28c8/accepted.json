@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I78791768143b2d8c28c8",
+  "ended": "2026-11-20T21:05:34.275843+00:00",
+  "session": "4eb71b25-9a62-4060-8765-cbe1f49c1017",
+  "packet_sha256": "e88721375549b58641ad5f19bef076436eaa0bd4574a423d919081afb3495069",
+  "raw_sha256": "973a03a47f453d4b284258f4b94bc967ee135a2dc6a50f81c4fb09eed21ef157",
+  "provider_sha256": "c4ecd5b059f507725bb3d30d8ffe54710f6667e301a9312cf526439e2901d88d",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Speech is clear and measured, events are told in order, and the patient holds uncertainty about the Monday glances without losing the point. There is mild unease and self-consciousness about how the concern sounds, which matches the guardedness described. Talk about drawing and work flows freely. A few things slightly reduce realism. Answers are quite polished and closely echo the profile's wording. Turn 12 packs several treatment facts into one tidy sentence. The Monday episode is repeated in nearly the same phrasing across several turns. In turn 3 the patient brings up the Monday episode early without saying what happened, which is a little stilted. These are minor and do not seriously undercut the overall authenticity.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "Um, on Monday two people at the shelter looked up at the same time, and I felt singled out."
+    },
+    {
+      "turn": 5,
+      "quote": "I feel a bit awkward saying it, because I’m not sure it meant anything."
+    },
+    {
+      "turn": 7,
+      "quote": "I know they might just be looking past me, but in the moment it can still make me uncomfortable."
+    },
+    {
+      "turn": 12,
+      "quote": "I talk with the clinic counselor every other Friday about how the week has gone."
+    }
+  ]
+}

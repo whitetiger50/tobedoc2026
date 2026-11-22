@@ -1,0 +1,27 @@
+{
+  "case": "H05",
+  "arm": "T0",
+  "turn": 2,
+  "question": "What has been on your mind coming into the appointment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-83fa-7e43-a60d-4c0ae5def85c",
+  "raw": "The voice coming back has been on my mind. I’ve noticed it occasionally for about ten days, even though I’ve been taking my tablets regularly. I want to talk about it, but I’m worried my family might think it means I can’t help at the stall.",
+  "raw_sha256": "53f60c14be82e49c895441fca13c930b426f687f73e9a3bf9dc9803d65fa5d90",
+  "request_sha256": "961d477696738af02f7389093265612e6f952c97b7ad0a867e124ca40ece7fe2",
+  "started_utc": "2026-11-20T20:37:17.848263+00:00",
+  "completed_utc": "2026-11-20T20:37:22.201157+00:00",
+  "usage": {
+    "input_tokens": 6878,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7040c79f4d90500f941247f0e272537d485a4081cc62ed1b11a8fb1cc063e04e",
+  "trace_sha256": "b93b8142a7ae3e01dda5d0c8b8d34f012d694b03edf85af490d37d2f43f323ec"
+}

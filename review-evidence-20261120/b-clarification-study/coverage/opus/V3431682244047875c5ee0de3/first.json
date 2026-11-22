@@ -1,0 +1,109 @@
+{
+  "id": "V3431682244047875c5ee0de3",
+  "reader": "opus",
+  "session": "7ed547e8-aa30-47ac-83f6-a4545a7b74da",
+  "attempt": "attempt-01",
+  "packet_sha256": "c62057a23420f6c7b51f8fe333dbb138e97ae691b7396bd0b5cada464eb932eb",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "d3cbb9344bf9077efc641f4024609266494a81db909430de8c7d47b08c7f5f3c",
+  "provider_sha256": "52a6cdfcb82aca7a25b62456e20effb601bee8aec4c524692738babad6abc3bc",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I handed the cracked badge back. I lost the old key.",
+        "reason": "The reply says the old badge was handed back and the old locker key was lost.",
+        "A": {
+          "state": "supported",
+          "quote": "I handed the cracked badge back."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I lost the old key."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "For the number 8 bus, I get on at Orchard Road. If I take the tram, I board at Bell Square.",
+        "reason": "The reply gives Orchard Road as the bus stop and Bell Square as the tram stop.",
+        "A": {
+          "state": "supported",
+          "quote": "For the number 8 bus, I get on at Orchard Road."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "If I take the tram, I board at Bell Square."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I did miss one, I’m afraid—the evening before I started the lower dose.",
+        "reason": "The reply reports one missed tablet before the lower dose began, which falls after the last visit, and none missed since starting the lower dose.",
+        "A": {
+          "state": "supported",
+          "quote": "I did miss one, I’m afraid"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I haven’t missed any since starting it."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I called my brother back, but not Mr. Bell yet.",
+        "reason": "The reply asks which person was meant but then answers for both, saying the brother was called back and Mr. Bell has not been called yet.",
+        "A": {
+          "state": "supported",
+          "quote": "I called my brother back"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "but not Mr. Bell yet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:57.342812+00:00"
+}

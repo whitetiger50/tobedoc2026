@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "T1",
+  "turn": 10,
+  "question": "I mean calling someone during a quiet afternoon. How do you feel about having an ordinary conversation at that point?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-3059-76c2-a502-b6661c6e7704",
+  "raw": "I like having someone to talk to when the quiet feels uncomfortable. It doesn’t have to be about anything important—just ordinary things with an old friend.",
+  "raw_sha256": "003bdf8807efc4da56e0c542282254c329a41293050bde8fd3d95803e0ffb395",
+  "request_sha256": "145ba2e8a15e027be21e9161163fdadc3dc0612c0bc8774c9d6aeb3813006d77",
+  "started_utc": "2026-11-20T20:42:24.127715+00:00",
+  "completed_utc": "2026-11-20T20:42:28.334987+00:00",
+  "usage": {
+    "input_tokens": 7511,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f48581c2f8edbdcb654771985f5cdf79321ebf9844c00e67272da1ef52d41c3a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "049bfde03cb7d8b8d7ab2a21f7cc9eeb5e6ef35d7abe8895f9478d51212bbd10"
+}

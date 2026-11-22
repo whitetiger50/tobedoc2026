@@ -1,0 +1,53 @@
+{
+  "input_sha256": "4cf505e20aaf272b2c4b7e3159c5c30a960fc96e9a31dca7b119733109e88f38",
+  "ratings_sha256": "4825245336d0751cddfa43212cc0297bea6dff96994995e4be29df35931eaed0",
+  "cases": 140,
+  "distinct_successful_sessions": 562,
+  "verified": {
+    "opus": {
+      "sessions": 282,
+      "response_model_ids": 282,
+      "first_forms": 280,
+      "anchor_attempts": 2,
+      "anchor_success": 2,
+      "technical_missing": 4,
+      "unsuccessful_transport_attempts": 0
+    },
+    "gpt": {
+      "sessions": 280,
+      "response_model_ids": 0,
+      "first_forms": 280,
+      "anchor_attempts": 0,
+      "anchor_success": 0,
+      "technical_missing": 0,
+      "unsuccessful_transport_attempts": 0
+    }
+  },
+  "submitted_source_metadata_fields": 0,
+  "detected_tool_calls": 0,
+  "frozen_files": {
+    "tobedoc2026/docs/2026-11-20-english-clinical-profile/reader.py": "6dab74042607f0f35aa71902a4e0e0d41eeec19419b7f996ae2aeab5dd6513da",
+    "review-evidence-20261120/dais-first-reply-v1/read_local.py": "ebf9e96cfcd5fd3df2ffccf14b8abfdf3570101c3ef312bff2cb1e2b302fdb77",
+    "review-evidence-20261120/boundary-calibration-20261121/opus/run.py": "645c1c22637e5c339c9ec3d04f2147e69a9b376eb0129d568b77541470033d95",
+    "review-evidence-20261120/boundary-calibration-20261121/gpt/collect.py": "85495d420b49df8212097d1f1adda1c8d589173dbb9833396e5ad35ca772fb8c",
+    "review-evidence-20261120/short-replies-20261121/summarize.py": "a919ca965b5c912fe022bc501eff009434fbf232ea7831158a00dfda20bf232b"
+  },
+  "pipeline_sha256": "7052a3a4244a9c9f98ba0f0ad12dca25369764e9663a44bd42c8e82e9c5a61d1",
+  "models": {
+    "opus": {
+      "version": "2.1.329 (Claude Code)",
+      "account": {
+        "loggedIn": true,
+        "authMethod": "claude.ai",
+        "apiProvider": "firstParty",
+        "subscriptionType": "pro"
+      },
+      "requested": "claude-opus-5-5"
+    },
+    "gpt": {
+      "version": "codex-cli 0.171.0-alpha.13",
+      "requested": "gpt-6.1-sol",
+      "forced_login_method": "chatgpt"
+    }
+  }
+}

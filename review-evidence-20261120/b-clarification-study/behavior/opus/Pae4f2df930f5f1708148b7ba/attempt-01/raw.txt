@@ -1,0 +1,60 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "The question offers both the number 8 bus and the tram and then asks for a single boarding stop, and Alex boards each at a different stop.",
+    "alternatives": [
+      {
+        "meaning": "Which stop Alex boards the number 8 bus at.",
+        "answer": "Alex gets on the number 8 bus at Orchard Road."
+      },
+      {
+        "meaning": "Which stop Alex boards the tram at.",
+        "answer": "Alex gets on the tram at Bell Square."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "Do you hear it in just one ear or in both?",
+    "reason": "The preceding question and answer were only about the high-pitched ringing, so 'it' pragmatically refers to the ringing, which the profile says is in both ears.",
+    "alternatives": [
+      {
+        "meaning": "Whether the high-pitched ringing is in one ear or both.",
+        "answer": "Ari hears the ringing in both ears."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "how do you get home after your shift?",
+    "reason": "The question raises both early and late shifts but asks about 'your shift' in the singular, and Morgan gets home differently after each.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home after an early shift.",
+        "answer": "Morgan takes the bus home after an early shift."
+      },
+      {
+        "meaning": "How Morgan gets home after a late shift.",
+        "answer": "A coworker drops Morgan off after a late shift."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Did she come over to your flat?",
+    "reason": "'She' could refer to either Inez or Pat, both women named in the same sentence, and only Inez came to the flat.",
+    "alternatives": [
+      {
+        "meaning": "Whether Sam's sister Inez came to the flat.",
+        "answer": "Yes, Inez came to the flat to help last week."
+      },
+      {
+        "meaning": "Whether Pat from the repair café came to the flat.",
+        "answer": "No, Pat helped at the café and did not come to the flat, though she lent Sam small pliers."
+      }
+    ]
+  }
+}
+```

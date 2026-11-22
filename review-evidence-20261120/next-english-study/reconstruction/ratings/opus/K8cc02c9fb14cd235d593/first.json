@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T23:00:41.281240+00:00",
+  "attempt": "attempt-01",
+  "id": "K8cc02c9fb14cd235d593",
+  "reader": "opus",
+  "session": "c4515a4d-ac71-4539-9823-991de62a429b",
+  "packet_sha256": "44f522db18bf728da665063cc289f4c7b74a034501d24463ff885725160b1f84",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "2f9edcbeda932dce93781ca6789657eaacf6ddfd94cd411fda2dd4db0dbfe426",
+  "raw_sha256": "4a0ae9420469f02a438d2e895bd77b691d6943342131f0ec0354567651fa0ea7",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says a shorter afternoon visit, rather than staying through dinner, suits them best because conversation is harder to follow when tired.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "a shorter visit with my sister, rather than staying through dinner",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "conversation is harder to follow when",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 2,
+          "role": "patient",
+          "quote": "a shorter afternoon visit feels more manageable than staying through dinner",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says that after waking around dawn on some mornings, they usually get back to sleep.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "but I usually get back to sleep",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 2,
+          "role": "patient",
+          "quote": "but I usually get back to sleep",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

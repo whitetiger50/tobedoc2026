@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 5,
+  "question": "Have you felt singled out or especially noticed by anyone in a public place recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-0fa8-7102-92a3-8d611baafa7c",
+  "raw": "Yes, that moment at the bus shelter on Monday felt that way. When those two people looked up together, I felt singled out and moved to the other end. I’m still not sure whether they recognized me or were just looking for the bus.",
+  "raw_sha256": "a1015b8f5d914db5e3dc82a657ebd4ad08a77861e6952da197ebd6d147d54ec8",
+  "request_sha256": "f1763891018cc2a105346dddcfce790e7ec47310544d8b8c7bcf215f681c644a",
+  "started_utc": "2026-11-20T21:00:49.862728+00:00",
+  "completed_utc": "2026-11-20T21:00:54.289220+00:00",
+  "usage": {
+    "input_tokens": 7336,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b81e1877b7679164a47283a6699daf6be331bcc0cd53458f4556305931701810",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3ce55bc5be796fc5ef7a46cca286f2710110748d25bdd7cc9d0ab897aa7a1880"
+}

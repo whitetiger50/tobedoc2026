@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T1",
+  "turn": 3,
+  "question": "How do you find getting ready to go out and making the journey itself?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-2aa2-7f93-b88f-8ecee9dcb303",
+  "raw": "I can sit with my shoes on for nearly half an hour before leaving. I usually take the midday bus. It’s quieter.",
+  "raw_sha256": "1feb2116163d01f19001d899645837724ad363ba4736393296e0e5dccbf3c922",
+  "request_sha256": "5b076856982c9b81a2d069e7caf098eac2d2661bd3bbed381db1581aca0eeb32",
+  "started_utc": "2026-11-20T20:59:51.220681+00:00",
+  "completed_utc": "2026-11-20T20:59:55.032783+00:00",
+  "usage": {
+    "input_tokens": 7107,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "52df11583ea64a5e58acf66a1ac7cf815a05cd842dcc397a424808a70f14d14e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f6a4776b75dab883164dea89190e0b1e4f872eb5fdf963b9ddaadda6463e5841"
+}

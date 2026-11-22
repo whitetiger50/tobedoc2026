@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do things go once you're there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-3318-7bc2-9eae-260cac22d098",
+  "raw": "“I like having something practical to get on with. I can get sidetracked, though—that time with the string, I stopped to rinse a pot and never actually brought the string back. It’s frustrating when I’ve gone there to help and then lose track of what I’m doing.”",
+  "raw_sha256": "b43b70ab25fa7ef905cf7ebf3ad31366234d7e98285b0e154c1929e37dd9ee9c",
+  "request_sha256": "2e74fe0c6b2968d960ef7dca8e18a2e669108f154664e740ff789c8b5479c88a",
+  "started_utc": "2026-11-20T20:32:35.022805+00:00",
+  "completed_utc": "2026-11-20T20:32:41.981971+00:00",
+  "usage": {
+    "input_tokens": 7106,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 129,
+    "reasoning_output_tokens": 65
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "43d754fdc6f25b1b2dc2aa3916d969f080cc32bc4822168f007949a3fa68a4d3",
+  "trace_sha256": "afeefb46e1bee83a247dfdf040ae242b30ef2784f100f9be0f3c74523f36f795"
+}

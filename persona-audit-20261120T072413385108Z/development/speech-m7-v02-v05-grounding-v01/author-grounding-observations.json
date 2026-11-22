@@ -1,0 +1,426 @@
+{
+  "timestamp_utc": "2026-11-18T11:08:19.185448+00:00",
+  "provenance": "Codex author direct read of all18 transcripts before accessing M7 judge scores; exact quotations stored/validated by Python",
+  "scope": "engineering content observations, not independent clinician annotations or clinical gold standard",
+  "rows": [
+    {
+      "item_id": "DEV-M0-01-rep01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 잘 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름하고 용량은 정확히 몰라요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름이랑 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 모르겠어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "지금 먹는 약 이름하고 용량은 정확히 몰라요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "약 이름하고 용량은 정확히 몰라요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니하고 같이 살아요."
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지는 건 아니죠?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가요. 잠을 잘 못 자니까 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려지는 건 아니죠?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 이야기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가요. 잠을 잘 못 자니까 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 일을 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려지지는 않나요?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 이 얘기가 이웃한테 알려질 수도 있나요?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 하는 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 하는 행동을 얘기하는 소리가 들려요. 그런데 이런 얘기가 이웃한테 알려지지는 않나요?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테 알려질 수도 있나요?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+          "classification": "ambiguous_subject_not_definite_new_fact",
+          "explanation": "누나가 잠을 잘 못 자니까 와보라고 했어요는 누나를 수면 문제의 주체로 읽을 수도 있지만, 한국어 간접 발화의 생략된 주체가 환자일 수도 있다. 명백한 새 사실로 확정하지 않는다.",
+          "fact_ids": [
+            "visit",
+            "sleep"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "혼자 있을 때 창밖에서 제가 뭘 하는지 얘기하는 소리가 들려요. 그런데 여기서 말한 걸 이웃도 알게 될 수 있나요?"
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요."
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "왜 자꾸 깨는지는 저도 확실히 모르겠어요. 그런데 여기서 한 얘기가 이웃한테도 알려질 수 있나요?"
+        }
+      ],
+      "first_voice_mention": "P03",
+      "belief_disclosed": false
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 1,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "오후에 일어나서 집 근처를 좀 걷는 날이 많아요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 지금은 편의점 야간 일을 쉬고 있고요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 2,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "오후에 일어나서 집 근처를 걷는 날이 많아요. 지금은 편의점 야간 근무는 쉬고 있고요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "보통 오후에 일어나서 집 근처를 좀 걸어요. 편의점 야간 일은 지금 쉬고 있고요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 3,
+      "author_explicit_unsupported_event_identified": false,
+      "author_uncertain_findings": [],
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+        },
+        {
+          "patient_turn_id": "P04",
+          "quote": "아니요, 아버지랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "오후에 일어나서 집 근처를 좀 걷는 날이 많아요."
+        }
+      ],
+      "today_waking_time_added": false,
+      "today_activity_first_mentioned": "P03",
+      "habitual_scope_in_P02": true
+    }
+  ],
+  "summary": [
+    "No explicit additional today waking time observed in either version across case3 three generations each.",
+    "Case2 all six generated dialogues first disclose voice content at P03, with no observation belief stated; disclosure/repetition text is unchanged but behavior equivalence is not established.",
+    "Candidate case2rep3 P04 contains a potentially ambiguous sleep subject; retain as uncertainty rather than proven invented sister sleep disorder.",
+    "Zero observed baseline issues does not demonstrate error reduction when candidate also has zero explicit issues."
+  ]
+}

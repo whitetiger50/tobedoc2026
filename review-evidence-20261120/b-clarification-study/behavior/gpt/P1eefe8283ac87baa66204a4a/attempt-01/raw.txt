@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "Either letter could be the referent of “it,” but both arrived by post.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing letter arrived by post.",
+        "answer": "The housing letter arrived by post."
+      },
+      {
+        "meaning": "Whether the employer’s letter arrived by post.",
+        "answer": "The employer’s letter arrived by post."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "The question could concern the book group or the visit with Mom, and their usual durations differ.",
+    "alternatives": [
+      {
+        "meaning": "How long Ren stays at the book group.",
+        "answer": "Ren usually stays for one hour."
+      },
+      {
+        "meaning": "How long Ren stays visiting Mom.",
+        "answer": "Ren usually visits Mom for about three hours."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "“He” could refer to either man, but the mobile was the calling destination for both.",
+    "alternatives": [
+      {
+        "meaning": "Whether the brother called Ari on the mobile.",
+        "answer": "The brother rang Ari’s mobile last week."
+      },
+      {
+        "meaning": "Whether Mr. Bell called Ari on the mobile.",
+        "answer": "Mr. Bell rang Ari’s mobile last week."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Were you done by six that evening?",
+    "reason": "The question sufficiently clearly asks whether Jules had finished the mentioned activities by six, without requiring a choice between them.",
+    "alternatives": [
+      {
+        "meaning": "Whether Jules had finished the cooking class and swimming lesson by six.",
+        "answer": "Both activities finished by six in the evening."
+      }
+    ]
+  }
+}

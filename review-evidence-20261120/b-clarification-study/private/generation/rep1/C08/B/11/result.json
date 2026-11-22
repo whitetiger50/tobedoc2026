@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 11,
+  "question": "Were the shorter shifts your suggestion?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b399-77e2-a956-27aae93d43a4",
+  "raw": "No, my supervisor suggested them.",
+  "raw_sha256": "d6c91ee8194f7563a90225b4c1e9519188d7a169d9aaacf05d5ee322b4a0cea9",
+  "request_sha256": "e83ac8f8b7c3767b40fc9b7fbb54aa82eb8aac2f6868e8feff4d40341e86b9d0",
+  "started_utc": "2026-11-21T03:46:45.724366+00:00",
+  "completed_utc": "2026-11-21T03:46:50.191377+00:00",
+  "usage": {
+    "input_tokens": 87395,
+    "cached_input_tokens": 76160,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 126,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "95d00634f68ccaa7654ee06bf9e790a7080f2a58bbe35094598d6b9cdaa91f27",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bf858ff09789bb379fbac7dee3a09f45bf052791fdb93477a6f381f62e4aba11"
+}

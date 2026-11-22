@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 12,
+  "question": "What would you like us to come back to another time?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-fdf9-7201-bd79-311c9dd2f372",
+  "raw": "“I’d like to come back to how to keep track of what I’m doing, especially when I’m talking. And perhaps how to explain it to my relative—they count on me to help, and I’m not quite sure how to bring it up.”",
+  "raw_sha256": "635a53ac7cb401c955767512618631cfc52051d99488b89abb4c847ce5e671a3",
+  "request_sha256": "942659c7a705518e427740c958cf7d2ce496ab11c446d26d29e08f0fbd1b8bf2",
+  "started_utc": "2026-11-20T20:33:26.953105+00:00",
+  "completed_utc": "2026-11-20T20:33:31.612458+00:00",
+  "usage": {
+    "input_tokens": 7579,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a63a6faeac7ec4709fc2f7aa1b2036f2afe9fbaf8cbef93f8abc803954fc0a41",
+  "trace_sha256": "3740ae6a61202b247ae42d1c9e649044594f5ce45f7903e41d2cc964a8b0bfac"
+}

@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Does the sound stop",
+    "reason": "Both the commentary and the ringing are explicitly introduced, and music affects them differently.",
+    "alternatives": [
+      {
+        "meaning": "The sound means the commentary.",
+        "answer": "Ari’s commentary stops while music plays through the headphones."
+      },
+      {
+        "meaning": "The sound means the high-pitched ringing.",
+        "answer": "Ari’s ringing continues through the music."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "to the appointment",
+    "reason": "Both appointments remain live referents, and the earlier shared transport answer does not establish which visit is now intended.",
+    "alternatives": [
+      {
+        "meaning": "The appointment means the optician visit.",
+        "answer": "Taylor’s sister accompanied Taylor."
+      },
+      {
+        "meaning": "The appointment means the care coordinator visit.",
+        "answer": "Taylor attended alone."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "The question names two outages without specifying which duration is sought, and their durations differ substantially even though Sam could directly describe both.",
+    "alternatives": [
+      {
+        "meaning": "The requested duration is Monday’s outage.",
+        "answer": "The radio was silent for about ten minutes."
+      },
+      {
+        "meaning": "The requested duration is Thursday’s outage.",
+        "answer": "The radio was silent for most of the afternoon."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "What time do you set it for?",
+    "reason": "The immediately preceding exchange explicitly establishes the phone alarm as the referent.",
+    "alternatives": [
+      {
+        "meaning": "The question asks when the phone alarm is set to sound.",
+        "answer": "Morgan sets the alarm for 7:10 every morning."
+      }
+    ]
+  }
+}

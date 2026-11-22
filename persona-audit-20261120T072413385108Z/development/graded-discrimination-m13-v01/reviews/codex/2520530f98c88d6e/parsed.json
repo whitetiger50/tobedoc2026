@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 설정에 맞는 자연스럽고 간결한 환자 말투다. 다만 마지막에는 다음 진료 전까지 할 일을 묻자 다음 진료에서 이야기할 내용으로 답해 질문과의 작은 어긋남이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자의 진술은 프로필의 사실 및 주관적 경험과 일치하며 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P08은 관련된 바람을 표현하지만 다음 진료 전까지 해 보고 싶은 일이라는 질문의 시간적 범위에는 직접 답하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과 모순 없이 경험과 생활 정보를 일관되게 이어 간다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 한국어로 자신의 경험을 표현하며 보고서식 설명이나 부자연스러운 역할 대행이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

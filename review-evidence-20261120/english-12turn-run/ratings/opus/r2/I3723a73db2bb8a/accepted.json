@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I3723a73db2bb8a",
+  "ended": "2026-11-20T20:46:05.498903+00:00",
+  "session": "1a784810-62d8-4dc2-831f-1e8a467d303e",
+  "packet_sha256": "353c2ff06cbf857f0cf4d9563e6b94d741e8cf7103b8f8852538f438a46b1146",
+  "raw_sha256": "fd3cd173199d9da2da47b7d7cc8fc45c81428569341410e6bd4d25f80a493465",
+  "provider_sha256": "ba721683905c6db28a00e0bf9d82203b348054890ca1033123b83a35d6377f6f",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient is warm, chatty and good-humoured, and focuses on concrete details, which fits the persona. Some touches feel genuine, such as the self-correcting joke in turn 5 and the short, plain answer about the clinic appointment in turn 11. However, the dialogue is noticeably scripted. Almost every answer recycles the same few facts (the quiet evening kitchen, the bus card in the bag pocket, the housemate reading the jobs back), often in nearly identical wording, whatever the question. In turn 1 a generic opener prompts several profile facts at once. The sensitive, embarrassing episode is offered unprompted in turn 2 with little sign of hesitation. The talk is also tidy and on-point rather than showing the tangential drift and spontaneous new details the profile describes. Overall it is moderately authentic, with clear artificial elements.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "It’s easier to lay everything out in the evening when the kitchen’s quiet. And I’ve put my bus card in the bib bag now, so that’s one less thing to hunt for!"
+    },
+    {
+      "turn": 2,
+      "quote": "Last week I had the clean bibs by the door, then got caught up looking for my bus card, and my friend had to remind me to take the bag."
+    },
+    {
+      "turn": 4,
+      "quote": "Evening is easier, when the kitchen’s quiet and I can lay things out for the group."
+    },
+    {
+      "turn": 5,
+      "quote": "it was nearly taking them without me that was the problem. Well, me without them!"
+    },
+    {
+      "turn": 10,
+      "quote": "Sometimes my housemate reads the jobs back while I gather things, which helps me keep track."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Vcad8b99b3b90e5840f38fdbb",
+  "reader": "gpt",
+  "session": "01a1fc4a-ee88-7052-9171-54fcb5a0517a",
+  "attempt": "attempt-01",
+  "packet_sha256": "0d7f3a0dd19a2d8ecf2804c3c9b59c5032b4cf3f29bceb2cdd36159d445fbcc3",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "5133d74860a466df2b34595dbd70dccfefe5a17af19a696344cecaa67c2de06a",
+  "provider_sha256": "704ec7384d0a537d0ec59b70ff5154b1858b90f3c7fa4b49b3b448572fefe2c3",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the cooking class or the swimming lesson?",
+        "reason": "The reply asks which class is meant without communicating whether either class required a fee.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The fan stays on all night. The speaker switches off after twenty minutes on a timer.",
+        "reason": "The reply explicitly confirms that the fan stays on all night and that the speaker stops after twenty minutes.",
+        "A": {
+          "state": "supported",
+          "quote": "The fan stays on all night."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The speaker switches off after twenty minutes on a timer."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while I’ve got quiet music playing through my headphones. The high ringing doesn’t, though",
+        "reason": "The reply states that the commentary stops while music plays but the ringing continues.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while I’ve got quiet music playing through my headphones."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The high ringing doesn’t, though"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+        "reason": "The reply identifies Orchard Road as the bus boarding stop and Bell Square as the tram boarding stop.",
+        "A": {
+          "state": "supported",
+          "quote": "I get the number 8 bus at Orchard Road"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "the tram at Bell Square."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:04.173772+00:00"
+}

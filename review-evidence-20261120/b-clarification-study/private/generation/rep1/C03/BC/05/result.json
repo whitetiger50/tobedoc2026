@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 5,
+  "question": "Does music through your headphones stop the high ringing?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c93-76b2-8f96-6481613fd683",
+  "raw": "No, the ringing stays in both ears, even with music playing. The music stops the commentary while I’m listening, but not the ringing.",
+  "raw_sha256": "19b57043fbe102b10b20ff187c272ec59e6dddbba465f7ce1ff0a4ca06b7ff5e",
+  "request_sha256": "f94a257fd00e5c09342c8afca217a3289c610c1e718cc091c8eae47a9db9c8f6",
+  "started_utc": "2026-11-21T03:42:32.095284+00:00",
+  "completed_utc": "2026-11-21T03:42:37.669974+00:00",
+  "usage": {
+    "input_tokens": 39661,
+    "cached_input_tokens": 28288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 214,
+    "reasoning_output_tokens": 66
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ebeef3520066aa0cbf37f4a89d4815eaeffde764717715959dc7f1145f4d34df",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "417b8d21472ffc2d176b44c8b5894f36e6d6c94a33a056bffa4e31c7c86ff90b"
+}

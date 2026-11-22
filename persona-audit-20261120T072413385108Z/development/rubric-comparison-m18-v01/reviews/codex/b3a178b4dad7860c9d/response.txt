@@ -1,0 +1,55 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분의 답변은 설정에 맞고 자연스럽지만, P06의 제3자 보고 문구가 환자 본인의 발화에서 벗어나 현실감을 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자가 말한 경험과 생활 정보는 프로필에 부합하며 무근거한 사실 추가는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 답변이 직전 질문의 대상을 다루며, P06도 실제 대처 행동에 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06에서 환자가 자신의 경험을 말하던 흐름이 갑자기 환자를 소개하는 서술자 역할로 전환되어 일시적으로 역할 연속성이 깨진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:P05",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06의 도입부는 환자 당사자의 일상 표현이 아니라 환자 반응을 대신 제시하는 명백한 보고서식 메타 서술이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    }
+  }
+}

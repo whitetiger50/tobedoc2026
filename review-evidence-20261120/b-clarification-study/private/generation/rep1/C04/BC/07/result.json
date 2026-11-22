@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 7,
+  "question": "When it comes over the speakers, who does it seem to be meant for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e9-7061-9ce6-c2904598aa82",
+  "raw": "It feels like it’s meant for me, like I’m the one they’re telling to move. But I can see it might just be for everyone on the tram.",
+  "raw_sha256": "1f8e62ff18f107ce2a3c57bcfe3b4f548c9777e9733ba1769b4ee3bef3e1361f",
+  "request_sha256": "81b0f1784b6c00e3c061b8801480981b273e33d87adf39a2cdfd3721519ba8ab",
+  "started_utc": "2026-11-21T03:43:45.497510+00:00",
+  "completed_utc": "2026-11-21T03:43:52.190076+00:00",
+  "usage": {
+    "input_tokens": 55987,
+    "cached_input_tokens": 42496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 223,
+    "reasoning_output_tokens": 32
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "becb259667388763517e3305a7f24f0532d055c1c6d88d81171ff2f55825cdc2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "adf16765141a4f155fd34aa1fc2fd5458be9683b5203394151012403add64cd6"
+}

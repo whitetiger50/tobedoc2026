@@ -1,6 +1,16 @@
-# 투비닥터 후속 연구 전체 작업본
+# MindCraft · 조현병 모의 환자의 영어 면담 발화
 
-**2026-11-20 현재 연구** · [영어 발화기의 탈선·내용 빈곤 비교와 포스터 설계](docs/2026-11-20-english-clinical-profile/README.md) · [LLM·전문의 공통 영문 판독표](docs/2026-11-20-english-clinical-profile/RATING_FORM.md). 11월 27일 포스터는 LLM 판독, 이후 전문의 블라인드 검증을 계획한다. 새 실험은 설계 단계다. [기존 결과 검산](docs/2026-11-20-korean-writing/REASSESSMENT.md)과 [앞선 재지칭 지표 설계](docs/2026-11-20-english-speech/README.md)도 보존한다.
+**최종 발표 자료** · [학회 포스터 PDF](review-evidence-20261120/학회포스터/MindCraft_조현병_영어_모의면담_학회포스터_A0.pdf) · [팀 연구 요약 PDF](review-evidence-20261120/팀공유_영어_조현병_모의면담_최종연구요약.pdf) · [연구 경과와 판정 기록](review-evidence-20261120/handoff.md)
+
+- [중간보고서와 DAIS-C 주석 예측 파일럿](dais-c-pilot/README.md), [초기 합성 발화 228개](data/team-corpus-20261104/utterances.csv), [인계 전 연구 아카이브](archive/README.md)
+- [환자 14명의 첫 답과 초기 발화기 비교](review-evidence-20261120/dais-generator-20261121/RESULTS.ko.md), [Gruber–Kring 서사 과제](review-evidence-20261120/gruber-kring-study2/main/RESULTS.ko.md), [이유를 이어 물은 두 턴 비교](review-evidence-20261120/dais-two-turn-run/RESULTS.ko.md)
+- [영어 12턴 면담 첫 평가](review-evidence-20261120/english-12turn-run/REPORT.ko.md), [T2의 반복 감소와 외부 과제](review-evidence-20261120/next-english-study/REPORT.ko.md), [BC의 선택적 되묻기와 최종 채택 판정](review-evidence-20261120/b-clarification-study/REPORT.ko.md)
+- [공개 범위와 오프라인 검산](review-evidence-20261120/README.md)
+
+팀이 개발한 T2와 BC는 겨냥한 대화 행동을 바꿨다. 전체 면담의 사전 교체 기준을 충족한 후보가 없어 발표에는 PatientHub의 PSYCHE식 원형 B를 사용했다. 실제 환자와 직접 비교한 범위는 초기 발화기와 두 첫 질문이다. 최종 발화기의 환자 발화 재현도와 전문의 일치도는 미확인이다.
+
+## 이전 연구 기록
+
 
 이 저장소의 최상위 `data/`, `config/`, `scripts/`, `analysis/`, `share/`, `archive/`에 그동안의 연구 원문·생성 설명서·조건·코드·판정·결과·보고서가 들어 있습니다. [중간 회의 PDF](share/meeting-20261108/중간회의_연구보고서.pdf) · [원자료 228개](data/team-corpus-20261104/utterances.csv) · [연구 이력](archive/README.md)
 

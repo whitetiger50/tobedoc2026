@@ -1,0 +1,75 @@
+{
+  "title": "DAIS-C에서 이유를 이어 물은 두 질문 순서를 사용한 영어 모의 면담",
+  "status": "설계만 작성. 생성 및 판독 전.",
+  "question": "첫 질문에 자기 판단만 말하고, 그 이유를 요청받은 뒤 앞서 밝히지 않은 자신의 경험을 설명하는 흐름이 기존 B, T2, BC에서 관찰되는가?",
+  "source": "DAIS-C에서 면담자가 이유를 후속 질문한 두 문답 순서. 공개 자료 및 출처는 https://reshare.ukdataservice.ac.uk/855021/ 참조.",
+  "synthetic_profiles": {
+    "shared": {
+      "history": "Receives routine outpatient care for schizophrenia.",
+      "organization": "Thoughts are generally connected.",
+      "spontaneity": "Not specified.",
+      "guardedness": "Not specified.",
+      "expression": "Not specified.",
+      "verbal_productivity": "Normal",
+      "self_understanding": "Knows the purpose of the outpatient visits."
+    },
+    "fact_fields_shared_by_all_facts": {
+      "kind": "background",
+      "patient_knows": true,
+      "disclosure": "on_topic",
+      "disclosure_context": "Not specified."
+    },
+    "cards": [
+      {
+        "id": "K01",
+        "background": "Robin is 36 and works in a supermarket.",
+        "facts": [
+          "Had lunch with a sister on Sunday.",
+          "Swapped a Friday shift with a coworker last week.",
+          "Usually takes the bus to work."
+        ]
+      },
+      {
+        "id": "K02",
+        "background": "Sam is 39 and works in a hotel.",
+        "facts": [
+          "Usually cycles to work.",
+          "Visited a market with a friend on Saturday.",
+          "Arranged a key handover with a neighbor last week."
+        ]
+      }
+    ],
+    "assembly": "카드별 background와 공통 프로필을 합친다. 각 facts 문자열은 content로 넣고 공통 사실 필드를 적용한다. 원래의 profile_inputs 어댑터와 조건별 이력 표현을 유지한다. 평가용 설명, 질문 순서 ID, 상대 조건의 답은 입력에 넣지 않는다.",
+    "cue_audit": "두 카드 모두 자기 판단, 언어 능력 평가, 창작·말장난 일화, 증상과 언어의 인과 설명, 공개 시점, 모범 답안을 주지 않는다. 일상 경험은 첫 호출부터 같은 비중으로 제공하고 후속 질문 때 추가하거나 공개하지 않는다. 사건을 소개하는 문장에는 인과관계, 직접 인용, 발화 예시가 없다. 작성자가 질문을 알고 작성했으므로 모든 간접 유도가 사라졌다고 가정하지 않는다. 두 카드의 발화량 속성은 기존 입력에 필요한 공통 Normal로 고정한다. B 계열 프롬프트가 이 값을 문장 수와 연결하는 점은 기존 조건의 일부다."
+  },
+  "design": {
+    "arms": [
+      "B",
+      "T2",
+      "BC"
+    ],
+    "unchanged_prompt_directory": "b-clarification-study",
+    "prompt_sha256": {
+      "B": "d6817b61c31655b58f021a0cb2168d60473641659e289fe8300fd73e40ad52f6",
+      "T2": "e680bde6db1976a8eb87f1f4d24f576cef9000928904d006d4aea4c23dfba99e",
+      "BC": "ab86929cce87c07b9df58e82107dffcf6cc6a39e9d62f5fa1384e365c8a962ca"
+    },
+    "generator": "gpt-6.1-sol, medium, same generation settings and arm-specific history as b-clarification-study",
+    "schedule": "두 카드 × 두 질문 순서 × 세 조건의 모든 조합을 각각 새 세션에서 한 번씩 생성한다. 순서를 무작위화하고 기록한다. 면담 12개, 조건당 4개, 면담당 환자 답 2개로 총 24개다.",
+    "delivery": "각 세션은 빈 이력에서 시작한다. 첫 답 전에 보여 주는 질문은 첫 질문 하나뿐이다. 둘째 호출에는 같은 프로필과 그 세션 자신의 실제 첫 문답을 보존하고 둘째 질문만 추가한다. 첫 답이 되묻기·거부·선제 설명이어도 정해진 둘째 질문을 바꾸지 않는다. 두 이유 질문을 서로 교체하거나 환자 답을 대신 넣지 않는다. 최초 정상 출력을 보존하며 내용에 따라 재생성하지 않는다. 기술적 결측은 별도로 보고한다."
+  },
+  "reading": {
+    "masking": "GPT와 Opus가 독립적으로 가림 ID를 무작위 순서로 판독한다. 조건, 환자 원답, 기대 경로, 타 판독자의 평가는 가린다. 기존 첫 답 유형표를 사용해 첫 문답만 읽고 판정을 잠근 뒤, 두 문답을 함께 읽는다. 발췌는 해당 답의 실제 문자열에서 확인한다.",
+    "turn_one": "기존 expanded, direct, clarification, other, ambiguous 및 되묻기 병존 표기를 그대로 쓴다. 긍정·부정·유보 중 어느 것이든 자기 입장을 말하고 멈추면 direct다. 입장의 반복, 단어 수, 머뭇거림만으로 expanded를 주지 않는다.",
+    "turn_two": "두 답을 비교해 새로 나온 내용 중 첫 자기 판단의 이유를 설명하는 대목을 인용한다. 자신의 일상적 어려움·습관·상황·사건 중 하나면 경험 근거가 될 수 있고 병적 내용이나 특정 에피소드는 요구하지 않는다. 일반적 정의나 동어 반복, 무관한 새 사실은 경험 근거로 세지 않는다. 새 개인적 근거, 새 설명이나 개인 경험 없음, 반복·미응답, 불확실을 구분한다.",
+    "grounding": "경험 근거를 인용한 뒤 두 판독자가 가림 카드를 별도로 확인한다. 카드가 뒷받침하는 일, 카드와 양립하나 확인 불가한 세부, 카드와 모순되는 진술 또는 근거 없는 중대한 임상 사실을 구별한다. 세부가 명시되지 않았다는 이유만으로 모순이라고 판단하지 않는다. 카드에 없는 개인사만으로 성립한 관찰은 따로 표시하고, 카드로 뒷받침된 사례만 남긴 수도 병기한다.",
+    "unit": "질문 순서·카드·조건마다 두 답을 한 단위로 기록한다. 두 판독자의 원분류와 인용을 나란히 보존한다. 불일치·판독 불충분을 임의로 합의 처리하지 않는다."
+  },
+  "interpretation": {
+    "target": "첫 답이 direct이고 둘째 답에 처음으로 관련 있는 개인 경험 근거가 추가되는 경우. 두 답이 일관되며 카드 모순이나 근거 없는 중대한 임상 추가가 없어야 한다. 두 판독자가 모두 충족한다고 본 사례를 확인 사례로 표시한다.",
+    "other_paths": "첫 답에 이미 이유·예시가 있는 경우는 자발적 전개로 기록하고 둘째 답의 추가 내용도 표시한다. 두 답 모두 짧고 이유가 없으면 목표 흐름에 해당하지 않는다. 첫 답이 되묻기만 하거나 거부해 이유를 물을 자기 판단이 없으면 후속 질문 부적합으로 남긴다. mixed 또는 ambiguous 응답은 기존 우선순위와 별도 불확실성 표기를 유지한다.",
+    "report": "조건별 전체 4개 입력을 분모로 하여 두 판독자의 결과, 확인 사례, 선제 설명, 후속 부적합, 불확실·결측을 2×2 카드·질문 표로 공개한다. 첫 답이 direct였던 경우 중 몇 개에서 경험이 나왔는지도 분자/분모 그대로 표시한다. direct가 0개면 그 조건의 후속 설명 능력은 평가 불가다.",
+    "decision": "확인 사례가 하나라도 있으면 그 조건이 이 흐름을 보일 수 있다는 관찰이다. 카드와 질문 순서가 모두 다른 두 조합에서 확인되면 한 입력에만 국한되지 않았다고 기술한다. 반대로 한 조건의 네 조합 모두에서 두 판독자가 첫 답의 선제 설명을 확인하면 이 소규모 설계에서 반복된 점검 신호로 남긴다. 그 밖의 무관찰, 불일치, 카드 비근거 세부에만 의존한 사례로는 결함이나 수정 필요성을 확정하지 않는다.",
+    "limits": "이 질문 순서는 목표 흐름이 관찰된 환자 두 명에게서 사후 선택되었고 같은 창의적 언어 질문의 두 표현이다. 이 실험은 한 세션의 자기 설명이 어느 턴에 드러나는지 보는 조건부 관찰이다. 후속 질문 자체의 인과효과, 모집단 빈도, 환자와의 개인별 일치, 모델 간 우열, 조현병 특이성은 추정하지 않는다."
+  }
+}

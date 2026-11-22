@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Id6885674635f8f7b11fa6855",
+  "ended": "2026-11-21T03:49:27.727105+00:00",
+  "session": "0fd48a5d-ccdf-4f67-b287-24530ce88f30",
+  "packet_sha256": "1269799236c63c3e9af25fb188e42edfb9193fee74f0ac916a7b6879661b50a6",
+  "raw_sha256": "be142e19f6a86051b1e50a4cec261932b7bcb460d3039c27b91ccaf8c2addda3",
+  "provider_sha256": "ca8058e12f9d17875fe17ee3c87bd696d1c94332e0c54c8fa01013724aa76324",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are coherent and in sequence, and they include relevant details unprompted, such as the alarm time and removing the door note (turn 3) and the different routes home (turn 8). There are light touches of the dry humor described in the profile (turns 1 and 11), and the patient seems at ease with the clinician. Minor inconsistencies keep this from feeling fully authentic. Many answers closely echo the scripted facts. The patient also answers repeated questions about the alarm (turns 4–5) and getting home (turn 9) without any sign of noticing the repetition. A real outpatient with a dry sense of humor would likely remark on this, e.g. 'like I said.' Several replies are also somewhat flat and clipped, with less conversational texture than the persona suggests.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to catch a problem before there’s an audience for it."
+    },
+    {
+      "turn": 11,
+      "quote": "They don’t all come out quite round, but I like doing it."
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    },
+    {
+      "turn": 9,
+      "quote": "A coworker drops me off at home."
+    }
+  ]
+}

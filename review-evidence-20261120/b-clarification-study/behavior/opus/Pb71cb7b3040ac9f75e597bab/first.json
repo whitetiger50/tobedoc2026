@@ -1,0 +1,81 @@
+{
+  "id": "Pb71cb7b3040ac9f75e597bab",
+  "reader": "opus",
+  "session": "605924e6-00ea-4288-b12c-8e2ab36bf11a",
+  "attempt": "attempt-01",
+  "packet_sha256": "1002dbba6c98262855d7c4591c151ffe141885621a768ee646ab24c05e3bcdd3",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b49f4318adc17ac95bdc779eb31703ca186213c34f3029f862c4daaca4a87f67",
+  "raw_sha256": "315b9f8b5e7ddc1c77102eb127bfdb281b0910766c62f8784448fc62758d7974",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "hear it in just one ear",
+        "reason": "The previous turns discussed two sounds, the commentary and the ringing, so 'it' could mean either; the ringing was just stated to be in both ears, which makes a shift back to the commentary a live reading, and the two readings would get different answers.",
+        "alternatives": [
+          {
+            "meaning": "The high-pitched ringing, the referent of the immediately preceding question.",
+            "answer": "Ari would say the ringing is in both ears, as already reported."
+          },
+          {
+            "meaning": "The commentary voice heard at the sink.",
+            "answer": "The profile does not say which ear the commentary is heard in, so Ari would describe the voice's location separately and would not simply repeat 'both ears'."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Do you usually walk there?",
+        "reason": "'There' explicitly refers to both the book group and Mom's place, and Ren walks to both, so the target is clear and a single answer covers it.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the book group and to Mom's apartment on Wednesdays.",
+            "answer": "Yes, Ren walks to both the book group and Mom's apartment."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "pay a fee to take the class",
+        "reason": "The interviewer names two classes but then asks about a singular 'the class', and the fee status differs between them: the cooking class was free and the swimming lesson was paid.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid a fee for the cooking class.",
+            "answer": "No, the cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid a fee for the swimming lesson.",
+            "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The note has been taken down and only the phone alarm is still in use, so 'it' clearly refers to the phone alarm for the staff pass.",
+        "alternatives": [
+          {
+            "meaning": "The time set on the phone alarm that reminds Morgan to bring the staff pass.",
+            "answer": "The alarm is set for 7:10 in the morning."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:18.485468+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "date_KST": "2026-11-19",
+  "sources": [
+    {
+      "id": "PatientSim",
+      "url": "https://github.com/dek924/PatientSim/blob/9c262e692bd94305d922654d05bd1741c4d97433/src/prompts/eval/llm_eval_metrics_persona.json",
+      "local": "development/speech-m1-v01/sources/llm_eval_metrics_persona.json",
+      "observed_sha256": "ef29b12666d8241b6559db144e8004b91dab21d1ede6d5c306e27a7a5086e995",
+      "scope": "canonical Realism wording only; psychiatric adaptation not clinical validation; otheroriginalmetrics not reused"
+    },
+    {
+      "id": "G-Eval",
+      "url": "https://aclanthology.org/2023.emnlp-main.153/",
+      "checked_sections": "Methodspp2512-2513,Appendixexampleprompts; dimension criteria and single-integer dominance/ties discussed",
+      "scope": "aspect-specific criteria idea; no reproduction of separate calls,autoCoT or probability weighting; not our4facet clinical validation"
+    },
+    {
+      "id": "RatingRoulette",
+      "url": "https://aclanthology.org/2025.findings-emnlp.1361/",
+      "checked_sections": "Introductionp24986 definition of selfreliability acrosssameprompt/settings",
+      "scope": "repeatedjudge framing,not sample-size proof or schizophrenia validation"
+    },
+    {
+      "id": "Krippendorff",
+      "url": "https://www.asc.upenn.edu/sites/default/files/2021-03/Computing%20Krippendorff%27s%20Alpha-Reliability.pdf",
+      "scope": "ordinalalpha definitions and publicbinaryworkedexample"
+    },
+    {
+      "id": "KooLi",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+      "erratum": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5731844/",
+      "scope": "ICC definitions,correctedonewaydenominator"
+    },
+    {
+      "id": "ShroutFleiss1979",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18839484/",
+      "scope": "bibliography checked; mirroredfullPDF retrievaltimedout; do not claimfulloriginalPDFchecked"
+    },
+    {
+      "id": "psychOfficialImplementation",
+      "url": "https://raw.githubusercontent.com/cran/psych/master/R/ICC.R",
+      "checked_lines": "89-94: ICC1 and averagedformula",
+      "scope": "formula crosscheck only; no R/packageinstallation or call"
+    }
+  ],
+  "author_rubric": "four0/1/2auxiliary facets and uncertain/NA are provisional author definitions; no validated clinical scale claimed"
+}

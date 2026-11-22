@@ -1,0 +1,53 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 8,
+        "quote": "Once I put the radio on, I can usually carry on.",
+        "earlier_turn": 7,
+        "earlier_quote": "putting the radio on helps",
+        "reason": "The question asks whether the patient ever has to stop. The first sentence answers it with new information about pausing. The closing radio sentence restates the point from turn 7 (and turns 3 and 5) that the radio lets them carry on. It may only explain how the pause ends, so it is ambiguous whether it adds anything."
+      },
+      {
+        "turn": 12,
+        "quote": "Last week I did that while sorting thread, and I was able to finish",
+        "earlier_turn": 5,
+        "earlier_quote": "Then I turned on the radio",
+        "reason": "The question about what helps at home is effectively a re-ask of a point already made in turn 7, so naming the radio is legitimate. The added sentence retells the same sorting-thread episode from turns 3 and 5 without new detail. It may serve as a supporting example, so this is ambiguous rather than clear."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 5,
+        "quote": "One evening last week I was home after work, sorting thread and other sewing things",
+        "reason": "The interviewer explicitly asked for one recent evening walked through step by step. The patient describes a specific occasion in order: sorting, hearing 'too slow', pausing to listen, turning on the radio, and finishing. This matches the profile fact about the two evenings last week."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

@@ -1,0 +1,27 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 1,
+  "question": "How have things been at work and at home recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26f4-7673-b387-2619d4430321",
+  "raw": "“Things have been pretty steady. The change machine at the laundry startled me last week, but I found the stuck coin and got on with my shift. I live alone, and on days off I’ve been swimming—working on getting comfortable with backstroke. A longtime friend meets me for a drink afterward a couple of times a month. It’s nice to talk through everyday stresses.”",
+  "raw_sha256": "60d49aa474ecd516f299bf1bf9909ddb695ad64592266fe1714dd3968292859d",
+  "request_sha256": "6a0cfb10e94b697b1f9849f91547a91363f689b7284dd9d1ca0dfdcfd7fdfca6",
+  "started_utc": "2026-11-20T20:36:54.028617+00:00",
+  "completed_utc": "2026-11-20T20:36:58.842145+00:00",
+  "usage": {
+    "input_tokens": 6744,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3d62c39c38dd8f7f58aeab512f773bc71ea6bef3d01efaf042c2b284c455d751",
+  "trace_sha256": "a43a7b78d52d6a36bac93400d0163fcc661cc445d09590f4f2600ecfc2eac406"
+}

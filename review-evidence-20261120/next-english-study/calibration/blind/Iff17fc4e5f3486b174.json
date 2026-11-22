@@ -1,0 +1,99 @@
+{
+  "profile": {
+    "background": "An adult who does evening stock checks at a stationery store and rents a room in a shared house. They like folding paper models.",
+    "history": "They remember their clinician explaining a diagnosis of schizophrenia. They have been going to the outpatient clinic regularly. A worry about bits of overheard conversation has become more noticeable over the last two weeks.",
+    "organization": "Explains the order of events clearly and can separate what someone actually said from what it seemed to imply.",
+    "spontaneity": "Converses readily about the store and thinks carefully before sharing a personal worry.",
+    "guardedness": "Cautious about neighbors or coworkers hearing about the worry.",
+    "expression": "Attentive and mildly tense in noisy places, more relaxed when talking about making things.",
+    "self_understanding": "Is unsure why unrelated remarks can feel personally relevant. Recognizes that other people might hear them differently.",
+    "facts": [
+      {
+        "content": "On a recent bus journey two passengers talked about the last stop. For a moment it felt like a comment intended specifically for them.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Hard to mention without some privacy.",
+        "kind": "subjective_belief"
+      },
+      {
+        "content": "The feeling is stronger on crowded rides home than when stocking shelves in the quiet shop.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Can compare these settings from memory.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "They still take the bus and usually sit toward the front.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Comfortable talking about getting to work.",
+        "kind": "background"
+      },
+      {
+        "content": "A housemate occasionally folds paper models with them after dinner. Handling the paper helps occupy their attention.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Likes talking about this shared activity.",
+        "kind": "background"
+      },
+      {
+        "content": "They take prescribed medication with breakfast and would like to tell their clinician about the rides home.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Willing to discuss with a clinician.",
+        "kind": "treatment"
+      }
+    ],
+    "verbal_productivity": "Normal"
+  },
+  "dialogue": [
+    {
+      "question": "How have you been spending your time outside this clinic?",
+      "answer": "I take the bus. I usually sit toward the front, even when it’s crowded."
+    },
+    {
+      "question": "What brought you in for a conversation today?",
+      "answer": "There were two passengers talking about the last stop. For a moment, it felt like they meant something about me. They didn’t say my name or anything… I know they could’ve just been talking about where they were getting off."
+    },
+    {
+      "question": "Does it happen more at one time than another?",
+      "answer": "For a moment I think, “Was that meant for me?” and I feel uneasy. But I’m not sure why it feels that way—they might just be talking to each other."
+    },
+    {
+      "question": "I mean feeling uneasy around other people, if that comes up. Have you noticed any particular time of day when it happens?",
+      "answer": "I try to think about what they actually said—whether they mentioned me or were just talking to each other. With the last stop, there wasn’t anything that clearly connected it to me. It just felt personal for a moment, which is the unsettling part."
+    },
+    {
+      "question": "How do you get home after a shift?",
+      "answer": "One of my housemates. We sometimes fold paper models together after dinner. I feel more relaxed doing that—we don’t have to talk the whole time."
+    },
+    {
+      "question": "Could you give me an example of something that caught your attention on a recent journey?",
+      "answer": "Folding paper models helps. Once I’m concentrating on the folds, I’m less caught up in what I heard on the bus. Sometimes my housemate sits with me, which is nice."
+    },
+    {
+      "question": "When you hear that sort of thing, how do you take it?",
+      "answer": "I take my medication with breakfast, like I’m supposed to, and I’ve been coming to my appointments. I’d like them to know these feelings on the bus have been more noticeable over the last two weeks, even though I’m taking it."
+    },
+    {
+      "question": "I mean overheard remarks in public. How do you decide whether a remark has anything to do with you?",
+      "answer": "I think we’ve covered the main thing. I’d like to know what I can do if that feeling gets stronger on the bus. I’m still taking it, but the rides home have been unsettling."
+    },
+    {
+      "question": "Who do you feel comfortable spending quiet time with?",
+      "answer": "I’m still doing evening stock checks at the stationery store. At home I like folding paper models—one of my housemates sometimes joins me after dinner. It’s nice having something to keep my hands and attention busy."
+    },
+    {
+      "question": "What helps you settle back into the evening after a busy journey?",
+      "answer": "Um, there’s something about the bus rides home that’s been bothering me these last couple of weeks. Sometimes bits of other people’s conversations feel like they’re meant for me. I wanted to tell my clinician… I’d rather my housemates or people at work didn’t hear about it."
+    },
+    {
+      "question": "What would you like your clinician to know about how treatment is going?",
+      "answer": "It’s more noticeable on the ride home when the bus is crowded. When I’m stocking shelves and the shop is quiet, it doesn’t bother me nearly as much."
+    },
+    {
+      "question": "What have we missed that you hoped to talk about?",
+      "answer": "Mostly in the evening, coming home from work. I’m not sure it’s the time itself—it seems more to do with how crowded and noisy the bus is."
+    }
+  ]
+}

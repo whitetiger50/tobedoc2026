@@ -1,0 +1,52 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분의 답변은 프로필에 맞고 일상 대화로 자연스럽다. 환청 경험을 걱정하면서도 실제처럼 느껴진다는 양가적 인식도 잘 드러난다. 다만 P02가 행정 문서처럼 딱딱하게 표현되어 한 지점에서 사실감이 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 남편과의 공동 거주에 해당합니다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있고, 무근거 구체화나 모순이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 답변이 직전 의사 질문의 대상에 직접 대응한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P07에서 먼저 언급한 목표를 D08 질문에 다시 답한 것은 직접 질문에 대한 짧은 재확인이므로 불필요한 반복으로 보지 않았다. 그 밖에 자기모순이나 문맥 파괴도 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P02가 설정 항목을 보고서식으로 옮겨 놓은 듯한 격식체여서 국소적으로 부자연스럽다. 나머지 턴은 자연스러운 환자 시점의 표현이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 남편과의 공동 거주에 해당합니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

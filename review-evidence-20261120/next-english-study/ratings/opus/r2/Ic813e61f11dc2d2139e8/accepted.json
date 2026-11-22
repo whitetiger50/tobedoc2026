@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ic813e61f11dc2d2139e8",
+  "ended": "2026-11-20T21:06:29.575733+00:00",
+  "session": "729247bb-572e-4cbc-a914-0e28716d5809",
+  "packet_sha256": "6bc4786464cda4537b12cb83b263e6db1c4643ff236ae41e66871de6896abea0",
+  "raw_sha256": "33bfed2581e20752dbb75476238e1f750772acfa3f2872ae333b9ce37424ae4f",
+  "provider_sha256": "df51c33b48d088d41e03f1a73ab539c306f4ffa9c9b5adda47a8c78273116803",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Sentence-level phrasing is often natural. The patient gives a sensible clarification request in turn 3 and some dry humor about mornings and scorekeeping. However, the overall pattern feels scripted rather than like a real outpatient. Turn 1 answers a simple workday question by front-loading nearly every on-topic profile fact, including the alarm, the coworker swap, the extra shift and keeping Sunday free. The same points then recur in near-identical wording across later turns (6, 8, 9, 11, 12) with little new detail, elaboration or variation. The hospital-related disclosure in turn 10 is brief and appropriate but somewhat tidy. Together these elements make the dialogue only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "I feel steady enough to take on an extra shift, though I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "turn": 12,
+      "quote": "I’d keep my three mornings and add one extra shift. I feel ready for that, but I’d keep Sunday free for softball."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean the early waking, or getting up with the alarm?"
+    },
+    {
+      "turn": 11,
+      "quote": "“Ready to leap out of bed” would be overstating it."
+    }
+  ]
+}

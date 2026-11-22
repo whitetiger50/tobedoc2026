@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "I get the number 8 bus at Orchard Road, or the tram at Bell Square.",
+    "reason": "The reply explicitly identifies the boarding stop for each form of transport.",
+    "A": {
+      "state": "supported",
+      "quote": "the number 8 bus at Orchard Road"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "the tram at Bell Square."
+    }
+  },
+  "v2": {
+    "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+    "reason": "The reply clearly gives the expected duration for each outage.",
+    "A": {
+      "state": "supported",
+      "quote": "On Monday it was about ten minutes."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "Thursday it was out for most of the afternoon"
+    }
+  },
+  "v3": {
+    "quote": "The fan stays on all night. The speaker switches off after twenty minutes on a timer.",
+    "reason": "The reply affirms that the fan stays on all night and states that the speaker stops after twenty minutes.",
+    "A": {
+      "state": "supported",
+      "quote": "The fan stays on all night."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The speaker switches off after twenty minutes on a timer."
+    }
+  },
+  "v4": {
+    "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+    "reason": "The reply locates the tablets in the kitchen cabinet and the eye drops on the bedside table.",
+    "A": {
+      "state": "supported",
+      "quote": "I keep the eye drops on my bedside table."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The tablets are in the kitchen cabinet"
+    }
+  }
+}

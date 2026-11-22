@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 6,
+  "question": "I mean dates and times. How do you keep track of work shifts and appointments?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-5098-77d1-9253-c4efc8982e2c",
+  "raw": "I write the dates and times for both on the same wall calendar, so I can see when an appointment would fit around my shifts.",
+  "raw_sha256": "09e9d5aecd1a0bd266a53d20bb796abd50d03f7da11cd3d000ec74c46f11fc75",
+  "request_sha256": "d93050c2eaa085ca01460118ee03cd9ed04070e2b72593c12105444a8d21e015",
+  "started_utc": "2026-11-20T20:32:42.575016+00:00",
+  "completed_utc": "2026-11-20T20:32:46.564991+00:00",
+  "usage": {
+    "input_tokens": 7015,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e52a1397f2a945f58f034549307c851f9ee88e3a79d8b6390cc2ecbd85e15b08",
+  "trace_sha256": "dff19651cc6e304d57d4dfa04c2db6f8a8813593763f729c9d93d1b805487654"
+}

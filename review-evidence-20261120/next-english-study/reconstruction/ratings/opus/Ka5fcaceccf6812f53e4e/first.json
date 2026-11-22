@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T23:00:18.324899+00:00",
+  "attempt": "attempt-01",
+  "id": "Ka5fcaceccf6812f53e4e",
+  "reader": "opus",
+  "session": "ff7cc3bc-903c-46f6-adcb-95085aba1aab",
+  "packet_sha256": "453511134b51db45f154eb79a90712756990fe560ef34a1d59bd53c4aa55529f",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "368ff6f8ad19bda73369aebfe4478c428127126c53bfa3ab22af495bc6d2200a",
+  "raw_sha256": "84f93bfd4b1c2d64d5d74e98ae896aff647af7e3bb155a3460dc5b183d003089",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says that on Wednesday, at the same shelter, they did not feel watched. This means the sense of being watched was absent.",
+      "evidence": [
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "on Wednesday I waited at the same place and didn’t feel watched",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 3,
+          "role": "patient",
+          "quote": "I felt fine waiting there on Wednesday",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says they wondered whether the people recognized them or were just looking for the bus. They also say they don't know what they were looking at, so they remain unsure.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "Afterward I wondered whether they recognized me, or were just looking for the bus.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "I don’t really know what they were looking at",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "I’m not sure it meant anything",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

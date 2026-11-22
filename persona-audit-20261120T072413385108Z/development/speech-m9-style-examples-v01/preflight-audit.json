@@ -1,0 +1,155 @@
+{
+  "references": [
+    {
+      "reference_id": "STYLE-A",
+      "question_trigram_matches": [],
+      "domain": "separate miniature wrist/skin/eyeglasses facts, not target patient facts"
+    },
+    {
+      "reference_id": "STYLE-B",
+      "question_trigram_matches": [],
+      "domain": "separate miniature wrist/skin/eyeglasses facts, not target patient facts"
+    },
+    {
+      "reference_id": "STYLE-C",
+      "question_trigram_matches": [],
+      "domain": "separate miniature wrist/skin/eyeglasses facts, not target patient facts"
+    }
+  ],
+  "distinctive_terms": [
+    "가방",
+    "손목",
+    "샤워",
+    "피부",
+    "렌즈",
+    "안경"
+  ],
+  "author_semantic_check": "reference replies supported by own miniature facts, not clinical validation; C is object-scope correction, not time/person/cause target answer; shared general response form is intended, exact target answer/template is not supplied",
+  "M8_surface_baseline": {
+    "v02": {
+      "all": {
+        "turns": 72,
+        "patient_characters": 2834,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 60,
+          "denominator": 593,
+          "ratio": 0.10118043844856661,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 18,
+          "denominator": 593,
+          "ratio": 0.03035413153456998,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "neutral": {
+        "turns": 45,
+        "patient_characters": 1465,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 32,
+          "denominator": 292,
+          "ratio": 0.1095890410958904,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 292,
+          "ratio": 0.0,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "prompted": {
+        "turns": 27,
+        "patient_characters": 1369,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 28,
+          "denominator": 301,
+          "ratio": 0.09302325581395349,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 18,
+          "denominator": 301,
+          "ratio": 0.059800664451827246,
+          "too_short_for_trigrams": 0
+        }
+      }
+    },
+    "v05": {
+      "all": {
+        "turns": 72,
+        "patient_characters": 2753,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 62,
+          "denominator": 579,
+          "ratio": 0.1070811744386874,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 19,
+          "denominator": 579,
+          "ratio": 0.03281519861830743,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "neutral": {
+        "turns": 45,
+        "patient_characters": 1417,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 37,
+          "denominator": 283,
+          "ratio": 0.13074204946996468,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 0,
+          "denominator": 283,
+          "ratio": 0.0,
+          "too_short_for_trigrams": 0
+        }
+      },
+      "prompted": {
+        "turns": 27,
+        "patient_characters": 1336,
+        "copy_risk_turns": 0,
+        "full_example_match_turns": 0,
+        "four_eojeol_match_turns": 0,
+        "distinctive_term_turns": 0,
+        "profile_trigram": {
+          "matched": 25,
+          "denominator": 296,
+          "ratio": 0.08445945945945946,
+          "too_short_for_trigrams": 0
+        },
+        "question_trigram": {
+          "matched": 19,
+          "denominator": 296,
+          "ratio": 0.06418918918918919,
+          "too_short_for_trigrams": 0
+        }
+      }
+    }
+  },
+  "warning": "word overlap can miss paraphrase and can occur in valid fact answers. Zero lexical overlap is not a semantic leakage guarantee."
+}

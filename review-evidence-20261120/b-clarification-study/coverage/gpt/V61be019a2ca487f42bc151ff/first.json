@@ -1,0 +1,109 @@
+{
+  "id": "V61be019a2ca487f42bc151ff",
+  "reader": "gpt",
+  "session": "01a1fc4b-28a2-76c2-862b-984e2caaabbe",
+  "attempt": "attempt-01",
+  "packet_sha256": "64a22267c8dee9e31ca014335f0629e30a25d79b74f9ec4fee9229d6e5db6ec6",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "6f5e1689bead03f1de8b737144421f084e0b62e0b0669ff76a6166e7f36659c6",
+  "provider_sha256": "9677096dbaa38f47a33d29ae3d71d27086c27b9bdb1f4cb6703d7c3da5a187af",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "My sister came with me to the optician. I went to the care coordinator on my own.",
+        "reason": "The reply explicitly identifies sister accompaniment for the optician and going alone to the care coordinator.",
+        "A": {
+          "state": "supported",
+          "quote": "My sister came with me to the optician."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I went to the care coordinator on my own."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Which one do you mean—my brother or Mr. Bell?",
+        "reason": "The reply requests clarification without saying whether either person was called back.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift, I take the bus home. If it’s a late one, a coworker drops me off.",
+        "reason": "The reply explicitly gives bus travel after early shifts and a coworker lift after late shifts.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift, I take the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "If it’s a late one, a coworker drops me off."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the housing letter or the one from work?",
+        "reason": "The reply asks which letter is meant without communicating whether either requires a reply or has a deadline.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:09:20.055832+00:00"
+}

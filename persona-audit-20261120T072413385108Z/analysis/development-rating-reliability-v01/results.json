@@ -1,0 +1,508 @@
+{
+  "timestamp_utc": "2026-11-19T07:44:47.116038+00:00",
+  "kind": "existing_fixed_text_reliability_point_estimates_not_validation",
+  "source_sha256": {
+    "development/speech-m5-repeatability-v01/scores.json": "615bdc73e10c0a4b0a23a962d1ef3da88c42c93829a00668182635b091879933",
+    "development/speech-m8-stress-grounding-v01/scores.json": "a71859b05e9d89535a954c4f2b2ec93167323b791d43ae3916c30fad8fea4ea5"
+  },
+  "formula_sources": {
+    "ordinal_alpha": "https://www.asc.upenn.edu/sites/default/files/2021-03/Computing%20Krippendorff%27s%20Alpha-Reliability.pdf",
+    "ICC": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+    "ICC_erratum": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5731844/",
+    "weighted_kappa_reference": "https://www.statsmodels.org/stable/generated/statsmodels.stats.inter_rater.cohens_kappa.html"
+  },
+  "M5_originals_only": {
+    "item_ids": [
+      "DEV-M0-01-v02",
+      "DEV-M0-01-v04",
+      "DEV-M0-02-v02",
+      "DEV-M0-02-v04",
+      "DEV-M0-03-v02",
+      "DEV-M0-03-v04"
+    ],
+    "within_model": {
+      "codex": {
+        "dialogues": 6,
+        "repeats": 3,
+        "underlying_profiles": 3,
+        "pooled_within_text_variance": 0.0,
+        "pooled_within_text_SD": 0.0,
+        "exact_pair_agreement": 1.0,
+        "exact_pair_matches": 18,
+        "pair_count": 18,
+        "all_repeats_equal_dialogues": 6,
+        "mean_absolute_within_text_pair_difference": 0.0,
+        "ordinal_alpha": {
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0,
+          "pairable_ratings": 18,
+          "category_counts": {
+            "4": 18
+          }
+        },
+        "weighted_kappa_by_round_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "value": null,
+            "reason": "expected_disagreement_zero_constant_scores",
+            "weight": "linear",
+            "observed_disagreement": 0.0,
+            "expected_disagreement": 0.0
+          }
+        ],
+        "ICC_exploratory": {
+          "A1": null,
+          "Ak": null,
+          "C1": null,
+          "Ck": null,
+          "k": 3,
+          "n": 6,
+          "MS_rows": 0.0,
+          "MS_columns": 0.0,
+          "MS_residual": 0.0,
+          "undefined_forms": [
+            "A1",
+            "Ak",
+            "C1",
+            "Ck"
+          ],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "raw_matrix": [
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ]
+        ]
+      },
+      "claude": {
+        "dialogues": 6,
+        "repeats": 3,
+        "underlying_profiles": 3,
+        "pooled_within_text_variance": 0.16666666666666666,
+        "pooled_within_text_SD": 0.408248290463863,
+        "exact_pair_agreement": 0.6666666666666666,
+        "exact_pair_matches": 12,
+        "pair_count": 18,
+        "all_repeats_equal_dialogues": 3,
+        "mean_absolute_within_text_pair_difference": 0.3333333333333333,
+        "ordinal_alpha": {
+          "value": 0.08928571428571429,
+          "reason": null,
+          "observed_disagreement": 27.0,
+          "expected_disagreement": 29.647058823529413,
+          "pairable_ratings": 18,
+          "category_counts": {
+            "4": 14,
+            "3": 4
+          }
+        },
+        "weighted_kappa_by_round_pair": [
+          {
+            "rounds": [
+              1,
+              2
+            ],
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.16666666666666666,
+            "expected_disagreement": 0.16666666666666666
+          },
+          {
+            "rounds": [
+              1,
+              3
+            ],
+            "value": 0.0,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.5,
+            "expected_disagreement": 0.5
+          },
+          {
+            "rounds": [
+              2,
+              3
+            ],
+            "value": 0.3333333333333333,
+            "reason": null,
+            "weight": "linear",
+            "observed_disagreement": 0.3333333333333333,
+            "expected_disagreement": 0.5
+          }
+        ],
+        "ICC_exploratory": {
+          "A1": 0.16666666666666666,
+          "Ak": 0.375,
+          "C1": 0.21428571428571427,
+          "Ck": 0.45,
+          "k": 3,
+          "n": 6,
+          "MS_rows": 0.2222222222222222,
+          "MS_columns": 0.3888888888888889,
+          "MS_residual": 0.12222222222222222,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        },
+        "raw_matrix": [
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            4,
+            3,
+            3
+          ],
+          [
+            4,
+            4,
+            3
+          ],
+          [
+            4,
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    "two_model_arithmetic_mean_repeatability": {
+      "dialogues": 6,
+      "repeats": 3,
+      "underlying_profiles": 3,
+      "pooled_within_text_variance": 0.041666666666666664,
+      "pooled_within_text_SD": 0.2041241452319315,
+      "exact_pair_agreement": 0.6666666666666666,
+      "exact_pair_matches": 12,
+      "pair_count": 18,
+      "all_repeats_equal_dialogues": 3,
+      "mean_absolute_within_text_pair_difference": 0.16666666666666666,
+      "ordinal_alpha": {
+        "value": 0.08928571428571429,
+        "reason": null,
+        "observed_disagreement": 27.0,
+        "expected_disagreement": 29.647058823529413,
+        "pairable_ratings": 18,
+        "category_counts": {
+          "4": 14,
+          "7/2": 4
+        }
+      },
+      "weighted_kappa_by_round_pair": [
+        {
+          "rounds": [
+            1,
+            2
+          ],
+          "value": 0.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.08333333333333333,
+          "expected_disagreement": 0.08333333333333333
+        },
+        {
+          "rounds": [
+            1,
+            3
+          ],
+          "value": 0.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.25,
+          "expected_disagreement": 0.25
+        },
+        {
+          "rounds": [
+            2,
+            3
+          ],
+          "value": 0.3333333333333333,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.16666666666666666,
+          "expected_disagreement": 0.25
+        }
+      ],
+      "ICC_exploratory": {
+        "A1": 0.16666666666666666,
+        "Ak": 0.375,
+        "C1": 0.21428571428571427,
+        "Ck": 0.45,
+        "k": 3,
+        "n": 6,
+        "MS_rows": 0.05555555555555555,
+        "MS_columns": 0.09722222222222222,
+        "MS_residual": 0.030555555555555555,
+        "undefined_forms": [],
+        "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+      },
+      "raw_matrix": [
+        [
+          4.0,
+          4.0,
+          4.0
+        ],
+        [
+          4.0,
+          4.0,
+          4.0
+        ],
+        [
+          4.0,
+          4.0,
+          4.0
+        ],
+        [
+          4.0,
+          3.5,
+          3.5
+        ],
+        [
+          4.0,
+          4.0,
+          3.5
+        ],
+        [
+          4.0,
+          4.0,
+          3.5
+        ]
+      ]
+    },
+    "between_models_by_round": [
+      {
+        "round": 1,
+        "exact_agreement": 1.0,
+        "mean_GPT_minus_Claude": 0.0,
+        "linear_weighted_kappa": {
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "weight": "linear",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0
+        },
+        "ordinal_alpha": {
+          "value": null,
+          "reason": "expected_disagreement_zero_constant_scores",
+          "observed_disagreement": 0.0,
+          "expected_disagreement": 0.0,
+          "pairable_ratings": 12,
+          "category_counts": {
+            "4": 12
+          }
+        },
+        "ICC_exploratory": {
+          "A1": null,
+          "Ak": null,
+          "C1": null,
+          "Ck": null,
+          "k": 2,
+          "n": 6,
+          "MS_rows": 0.0,
+          "MS_columns": 0.0,
+          "MS_residual": 0.0,
+          "undefined_forms": [
+            "A1",
+            "Ak",
+            "C1",
+            "Ck"
+          ],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        }
+      },
+      {
+        "round": 2,
+        "exact_agreement": 0.8333333333333334,
+        "mean_GPT_minus_Claude": 0.16666666666666666,
+        "linear_weighted_kappa": {
+          "value": 0.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.16666666666666666,
+          "expected_disagreement": 0.16666666666666666
+        },
+        "ordinal_alpha": {
+          "value": 0.0,
+          "reason": null,
+          "observed_disagreement": 6.0,
+          "expected_disagreement": 6.0,
+          "pairable_ratings": 12,
+          "category_counts": {
+            "4": 11,
+            "3": 1
+          }
+        },
+        "ICC_exploratory": {
+          "A1": 0.0,
+          "Ak": 0.0,
+          "C1": 0.0,
+          "Ck": 0.0,
+          "k": 2,
+          "n": 6,
+          "MS_rows": 0.08333333333333333,
+          "MS_columns": 0.08333333333333333,
+          "MS_residual": 0.08333333333333333,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        }
+      },
+      {
+        "round": 3,
+        "exact_agreement": 0.5,
+        "mean_GPT_minus_Claude": 0.5,
+        "linear_weighted_kappa": {
+          "value": 0.0,
+          "reason": null,
+          "weight": "linear",
+          "observed_disagreement": 0.5,
+          "expected_disagreement": 0.5
+        },
+        "ordinal_alpha": {
+          "value": -0.2222222222222222,
+          "reason": null,
+          "observed_disagreement": 18.0,
+          "expected_disagreement": 14.727272727272727,
+          "pairable_ratings": 12,
+          "category_counts": {
+            "4": 9,
+            "3": 3
+          }
+        },
+        "ICC_exploratory": {
+          "A1": 0.0,
+          "Ak": 0.0,
+          "C1": 0.0,
+          "Ck": 0.0,
+          "k": 2,
+          "n": 6,
+          "MS_rows": 0.15,
+          "MS_columns": 0.75,
+          "MS_residual": 0.15,
+          "undefined_forms": [],
+          "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+        }
+      }
+    ]
+  },
+  "M8_fixed_panel_only": {
+    "dialogues": 18,
+    "profiles": 3,
+    "exact_agreement": 0.0,
+    "linear_weighted_kappa": {
+      "value": 0.0,
+      "reason": null,
+      "weight": "linear",
+      "observed_disagreement": 1.0,
+      "expected_disagreement": 1.0
+    },
+    "ordinal_alpha": {
+      "value": -0.9444444444444444,
+      "reason": null,
+      "observed_disagreement": 324.0,
+      "expected_disagreement": 166.62857142857143,
+      "pairable_ratings": 36,
+      "category_counts": {
+        "4": 18,
+        "3": 18
+      }
+    },
+    "ICC_exploratory": {
+      "A1": 0.0,
+      "Ak": 0.0,
+      "C1": null,
+      "Ck": null,
+      "k": 2,
+      "n": 18,
+      "MS_rows": 0.0,
+      "MS_columns": 9.0,
+      "MS_residual": 0.0,
+      "undefined_forms": [
+        "C1",
+        "Ck"
+      ],
+      "interpretation": "ANOVA two-way mixed fixed-column, absolute agreement(A)/consistency(C), single(1)/average(k); exploratory equal-interval score assumption; columns are observed repeat rounds or fixed panel models, not random clinical raters"
+    }
+  },
+  "checks": {
+    "public_author_binary_example_passed": true,
+    "perfect_varying_and_constant_degeneracy_passed": true,
+    "known_additive_bias_ICC_fixture_passed": true,
+    "weighted_kappa_constant_margin_fixtures_passed": true
+  },
+  "confidence_intervals": "not_reported:6reusedtexts from3profiles and constant margins; a point estimate can be computed but stable generalizable precision is not established. No naive independent18pair CI. Future analysis must handle profile clustering and item/rater/repeat structure.",
+  "limits": [
+    "Posthoc estimates on M5 original6texts,3profiles,ratings concentrated3/4; no population pass/fail claim.",
+    "Same9item packet included obvious family substitutions; no isolated-presentation generalization.",
+    "Kappa/alpha chance models differ; not interchangeable, constant or narrow-range margins strongly affect values.",
+    "ICC treats integer1-4scores as equally spaced; secondary sensitivity analysis rather than sole primary ordinal reliability metric.",
+    "Natural and manipulated controls must not be pooled to inflate between-item variation and reliability.",
+    "Repeated-rating reliability does not establish clinical validity or sensitivity to subtle changes.",
+    "No new utterances, model calls, ratings, external APIs, packages or final720 execution."
+  ]
+}

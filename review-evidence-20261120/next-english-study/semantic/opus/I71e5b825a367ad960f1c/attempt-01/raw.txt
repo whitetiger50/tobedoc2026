@@ -1,0 +1,52 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 10,
+        "quote": "I still prefer the quieter midday bus",
+        "earlier_turn": 3,
+        "earlier_quote": "I usually take the midday bus",
+        "reason": "Turn 3 already said the patient takes the quieter midday bus. The question here asks how the patient feels around other passengers, so a preference for a quieter bus may be relevant to that different aspect. It largely paraphrases the earlier statement, though, and adds little beyond the new disclosure in the same turn, so the code is ambiguous."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 8,
+        "quote": "Do you mean taking the tablet or the nurse’s call?",
+        "reason": "'When do you usually do that?' could refer to either routine named in turn 7. The patient asks which one is meant and gives up the turn without answering under either interpretation."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 2,
+        "quote": "On Friday I found an old railway atlas in a donation box",
+        "reason": "The interviewer asked for one thing handled on a recent afternoon. The patient describes a specific occasion and action, finding the atlas and setting it aside for the map shelf, which matches the profile fact."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

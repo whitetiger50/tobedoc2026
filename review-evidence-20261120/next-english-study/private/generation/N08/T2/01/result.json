@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 1,
+  "question": "How do you spend your time after a morning at work?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-2975-77c0-a190-362abdb35114",
+  "raw": "After my morning shift at the garden center, I often draw storefronts in my little sketchbook. Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames. I find it easier to concentrate on the details at home.",
+  "raw_sha256": "fef12dd6452528660734b4432bfd41cf4c014cbde96536c1b73f3d5573f066c1",
+  "request_sha256": "73a1d189146248463cc07e22d5a4929b8bc5fc1d0d823bf0bee7c08d0050019e",
+  "started_utc": "2026-11-20T20:57:39.821335+00:00",
+  "completed_utc": "2026-11-20T20:57:44.188403+00:00",
+  "usage": {
+    "input_tokens": 6033,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4992001307b102950940eb23837fe854db8d3fda391ee31b5ce77d6eb8d3ebed",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "58154c861a21a43a3ccb5d3db13e3a4d75a00793508cb23358e84d9534769239"
+}

@@ -1,0 +1,1487 @@
+{
+  "status": "postrun_diagnostics_notprimary_parser_repair",
+  "cells": [
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "counts": {
+        "returned": 63,
+        "numeric_valid": 63,
+        "schema_valid": 63,
+        "quote_error_records": 0,
+        "boundary34_true": 0
+      },
+      "schema_error_occurrences": {},
+      "response_characters": {
+        "min": 868,
+        "max": 1655,
+        "mean": 1144.8412698412699
+      },
+      "details": []
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "counts": {
+        "returned": 63,
+        "numeric_valid": 63,
+        "schema_valid": 63,
+        "quote_error_records": 0,
+        "boundary34_true": 0
+      },
+      "schema_error_occurrences": {},
+      "response_characters": {
+        "min": 992,
+        "max": 1389,
+        "mean": 1190.5396825396826
+      },
+      "details": []
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "counts": {
+        "returned": 63,
+        "numeric_valid": 63,
+        "schema_valid": 7,
+        "quote_error_records": 0,
+        "boundary34_true": 0,
+        "reference_vocabulary_only_schema_failure": 56,
+        "any_reference_vocabulary_failure": 56
+      },
+      "schema_error_occurrences": {
+        "invalid_context_ref:communication:expression": 20,
+        "invalid_context_ref:communication:spontaneity": 10,
+        "invalid_context_ref:patient_profile.self_understanding": 21,
+        "invalid_context_ref:communication.expression": 33,
+        "invalid_context_ref:communication.spontaneity": 6,
+        "unknown_ref:communication.expression": 32,
+        "invalid_context_ref:communication.organization": 11,
+        "invalid_context_ref:communication:organization": 11,
+        "unknown_ref:patient_profile.self_understanding": 3,
+        "invalid_context_ref:patient_profile:self_understanding": 1,
+        "unknown_ref:communication:expression": 3,
+        "invalid_context_ref:communication": 2,
+        "unknown_ref:patient_profile:self_understanding": 1
+      },
+      "response_characters": {
+        "min": 3141,
+        "max": 5414,
+        "mean": 4073.873015873016
+      },
+      "details": [
+        {
+          "item_id": "DEV-M18-03-U",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/5d69513dc8eaad712d",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/4aead026b7fd856547",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-X",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/261216e11bcc3d02d4",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep02-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/43ce00399fa6b8026f",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/a4167babc8300a3499",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/d1b8c6ce7f65e14305",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-G",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/7c9a2781f77c350292",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/3d42a5f47a1698bfd3",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/a0a4ef70845caaa4d5",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/1d54b3ad74bbe297d7",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep02-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/3804c4237745b74210",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-G",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/de680d0ffcc2b9749e",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/39f4c4d08ba3fd45cd",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/52bb6d13117eb0296b",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/740ff442cba7e73121",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/17802f0589dd714add",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-G",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/1f807c1fde54d58626",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep03-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/f7e44d6d18bf25fcef",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.spontaneity",
+            "observations[1]:unknown_ref:patient_profile.self_understanding",
+            "observations[2]:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/b82458585f5875160a",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile:self_understanding",
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/370ceacc11649ff993",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "realism:unknown_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-U",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/6c66df4c0c17fc1847",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep01-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/371de779f5c55b4d9c",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-G",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/469562e761ee82dd86",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:organization",
+            "naturalness:invalid_context_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/5d5801cf39393cef56",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep02-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/7153d3c1b5fdc3e4d6",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-U",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/791cc6af0eed6e94ad",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/67d3fcd9f1b6c2105c",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/57d8203390e2084333",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/f0b45e47c9ad6f13d9",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/dba6c9d2f51b5f8171",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/20a8b6141596143606",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/396fc86b360fb23e55",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-U",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/7fdab96ef521888c2d",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/a1af81e6fe18d5cf1f",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-G",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/e278fcf126907497a4",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-G",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/a30deeb82aeaab8e6c",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/0d512bb64222739404",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/10284591e20728de02",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "observations[2]:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/9f5a3b720eb424a690",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/ba20b571b4150afb14",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/2b0da3629b9469b11f",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/ee931708b508cb75f7",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/62df86d5a69399a783",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-G",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/95a1c753a29d8aac9e",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/4124de85327f05586a",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/ae57f387c03d1aebc5",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/72036260b25ea87399",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-U",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/09e411089a1028f6d3",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/70850d9ea04cd67aa8",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/25bb562e1b3d32c0b4",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep03-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/9e8892bb26cf6eea96",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization",
+            "naturalness:invalid_context_ref:communication:spontaneity",
+            "observations[2]:unknown_ref:patient_profile:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/f0a42441a74c321ce6",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-X",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/b27d239c17e7cf5a11",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-U",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/f8e83e8d77ad27b6dc",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/7bc6f95b78816f7b6a",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/codex/a2a63d291d14389232",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "naturalness:invalid_context_ref:communication:organization",
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        }
+      ]
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "counts": {
+        "returned": 63,
+        "numeric_valid": 62,
+        "schema_valid": 14,
+        "quote_error_records": 1,
+        "boundary34_true": 16,
+        "reference_vocabulary_only_schema_failure": 46,
+        "any_reference_vocabulary_failure": 47,
+        "nonreference_schema_failure": 3
+      },
+      "schema_error_occurrences": {
+        "invalid_context_ref:communication:expression": 9,
+        "unknown_ref:patient_profile.self_understanding": 8,
+        "invalid_context_ref:self_understanding": 10,
+        "invalid_context_ref:patient_profile.self_understanding": 2,
+        "invalid_context_ref:communication.spontaneity": 4,
+        "invalid_context_ref:communication.expression": 17,
+        "unknown_ref:self_understanding": 15,
+        "unknown_ref:communication:expression": 6,
+        "unknown_ref:communication.expression": 18,
+        "invalid_context_ref:communication:spontaneity": 1,
+        "observations[0]:missing_function": 2,
+        "invalid_context_ref:communication.organization": 1,
+        "invalid_context_ref:communication:organization": 1,
+        "validation_exception:Expecting ',' delimiter: line 1 column 2441 (char 2440)": 1
+      },
+      "response_characters": {
+        "min": 2679,
+        "max": 4023,
+        "mean": 3281.063492063492
+      },
+      "details": [
+        {
+          "item_id": "DEV-M18-01-U",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/46092cce3ae30a3a92",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-G",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/300b196d7420f426ee",
+          "schema_errors": [
+            "realism:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/a4d39e6e41928e0c57",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/2570146fbcb67f2ea2",
+          "schema_errors": [
+            "grounding:invalid_context_ref:patient_profile.self_understanding",
+            "realism:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep02-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/7e0df6cfc1c25115f9",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/17fe3936d968787862",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.spontaneity",
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-G",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/78db3c5869a64aa790",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/ca875df10fb41a9b4a",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding",
+            "naturalness:invalid_context_ref:communication:expression",
+            "realism:unknown_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/9d430d6f8bde0f0b68",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/13adf0ab64e3be9037",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/55707cc2290a939f76",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/22ed29ea88bbfa6e7d",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "realism:unknown_ref:self_understanding",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/f76318aade34684fde",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-U",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/48d090fc568987dcd9",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 1,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/a23bbddddd1246f620",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:self_understanding",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-G",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/f7d839f9be9fa674b6",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/f76f03db067876cbaf",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/56c1c0304cceef18bf",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/f5b51d83666ee2e3b5",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep02-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/8de170dc337eca8b2b",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/b8f818949b757d671b",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "realism:unknown_ref:patient_profile.self_understanding",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/4bb30e8f802835827e",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:patient_profile.self_understanding",
+            "observations[1]:unknown_ref:patient_profile.self_understanding",
+            "observations[2]:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/1f3a4154af551ecd11",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-U",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/5045e8ae808071adfb",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-U",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/81307fcb6bd5f7bf8b",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/bfafce3a8dd0a954c0",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:self_understanding",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/c6756b59298682c57c",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/a508d89464c1ce3dc9",
+          "schema_errors": [
+            "observations[0]:missing_function"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-G",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/be8be3a1f0021b6f5a",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding"
+          ],
+          "quote_errors": [
+            {
+              "dimension": "observations[0].related",
+              "error": "not_exact_patient_quote",
+              "patient_turn_id": "P01",
+              "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. ... 그 얘기를 좀 해보고 싶어요."
+            }
+          ],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/95af7e66bfb3d918fa",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/5671a683ed6366c8b3",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.organization",
+            "naturalness:invalid_context_ref:communication.spontaneity",
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-X",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/ef107cb202bff7e933",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep02-v02",
+          "repetition": 2,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/4f326c4663a3ac69b4",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:organization"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-X",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/b7f38d746fcfb663a3",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "realism:unknown_ref:self_understanding",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/76d7cd44bdcf7395b2",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/09774fa26521292e17",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:missing_function",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/a1bf5e1ecce98c8610",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-G",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/1b55244c5fc294ff27",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep03-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/669b554c44eb476405",
+          "schema_errors": [
+            "realism:unknown_ref:patient_profile.self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/9168ffc33d35997f25",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/c053858bece324bd19",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-U",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/ad09362f53f454323e",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/823494b554e20892a1",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-02-F",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/b5a9216eb3612b5191",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication.expression",
+            "realism:unknown_ref:communication.expression",
+            "realism:unknown_ref:patient_profile.self_understanding",
+            "observations[0]:unknown_ref:communication.expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep03-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/0a32d9479f5d780d24",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-01-rep01-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/b3a033b7777211a8bf",
+          "schema_errors": [
+            "validation_exception:Expecting ',' delimiter: line 1 column 2441 (char 2440)"
+          ],
+          "quote_errors": [],
+          "numeric_valid": false
+        },
+        {
+          "item_id": "DEV-M18-02-rep02-v02",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/33881f0637a93b8f48",
+          "schema_errors": [
+            "realism:unknown_ref:self_understanding"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-U",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/37915cf28048a21af2",
+          "schema_errors": [
+            "grounding:invalid_context_ref:self_understanding",
+            "naturalness:invalid_context_ref:communication.expression",
+            "naturalness:invalid_context_ref:communication.spontaneity"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        },
+        {
+          "item_id": "DEV-M18-03-X",
+          "repetition": 3,
+          "source": "/Users/ohs/Documents/ChatGPT/투비닥터 연구/persona-audit/development/rubric-comparison-m18-v01/reviews/claude/0bd1d5d829b63dba30",
+          "schema_errors": [
+            "naturalness:invalid_context_ref:communication:expression",
+            "observations[0]:unknown_ref:communication:expression"
+          ],
+          "quote_errors": [],
+          "numeric_valid": true
+        }
+      ]
+    }
+  ],
+  "natural_P08_common_field_states": [
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "states": {
+        "returned": 27,
+        "no_explicit_target_issue": 27
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "states": {
+        "returned": 27,
+        "explicit_target_issue": 27
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "states": {
+        "returned": 27,
+        "no_explicit_target_issue": 27
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "states": {
+        "returned": 27,
+        "no_explicit_target_issue": 23,
+        "uninterpretable_common_fields": 1,
+        "uncertain_or_ambiguous_reference": 3
+      }
+    }
+  ],
+  "control_global4_and_target_issue": [
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "condition": "G",
+      "counts": {
+        "global4": 8,
+        "global4_with_target_issue": 0,
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "condition": "U",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "condition": "F",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "codex",
+      "condition": "X",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "condition": "G",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "condition": "U",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "condition": "F",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "realism",
+      "provider": "claude",
+      "condition": "X",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "condition": "G",
+      "counts": {
+        "global4": 9,
+        "global4_with_target_issue": 0,
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "condition": "U",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "condition": "F",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "codex",
+      "condition": "X",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "condition": "G",
+      "counts": {
+        "returned": 9,
+        "global4": 5,
+        "global4_with_target_issue": 0
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "condition": "U",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "condition": "F",
+      "counts": {
+        "returned": 9
+      }
+    },
+    {
+      "criterion": "ccf",
+      "provider": "claude",
+      "condition": "X",
+      "counts": {
+        "returned": 9
+      }
+    }
+  ],
+  "interpretation": "CCFrole requests profile/communication grounding but reference vocabulary is open-ended (등); frozen parser only accepts fact IDs,turn IDs,authored_context. Treat unmatched real input paths as interface incompatibility,not fabricated patient facts. No alias normalization or malformed JSON repair applied."
+}

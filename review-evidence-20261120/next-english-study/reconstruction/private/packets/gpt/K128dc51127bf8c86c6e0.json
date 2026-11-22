@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What has an ordinary workday looked like for you lately?",
+      "patient": "I open the print shop with a coworker three mornings a week. Some days getting past the alarm is the first job. We switched opening days last week so I could make a morning appointment. I feel steady enough to take on an extra shift, but I’d like to keep Sunday free for the softball league."
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have sleep and concentration been over the past month?",
+      "patient": "The main change was waking earlier on two nights while the upstairs apartment was being painted. Getting up with the alarm is still a struggle some mornings—apparently waking early and getting up are different skills. Concentration’s been good; I can follow a whole softball game and keep track of the substitutions."
+    },
+    {
+      "turn": 3,
+      "interviewer": "Is that getting any better?",
+      "patient": "Do you mean waking early, or the struggle to get up with the alarm?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "Let me ask about sleep specifically. What change, if any, have you noticed this month?",
+      "patient": "The main change this month was waking earlier on two nights while the upstairs apartment was being painted. Getting up with the alarm is still hard some mornings, but that part isn’t new."
+    },
+    {
+      "turn": 5,
+      "interviewer": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+      "patient": "\"Softball’s a good example. I can follow the game from beginning to end and keep track of the substitutions while keeping score. It hasn’t taken any special effort to stay focused—the substitutions give me something to keep an eye on.\""
+    },
+    {
+      "turn": 6,
+      "interviewer": "Where does taking medication fit into your day, if you take any?",
+      "patient": "I take my tablet with supper. It’s been the same prescription for over a year now."
+    },
+    {
+      "turn": 7,
+      "interviewer": "How do your work hours and clinic visits fit into your week?",
+      "patient": "I open the print shop three mornings a week with a coworker. Last week we switched opening days so I could make a morning appointment. I feel ready for one extra shift, but I’d still like to keep Sunday free for softball."
+    },
+    {
+      "turn": 8,
+      "interviewer": "How is the timing working out?",
+      "patient": "\"Switching opening days let me get to the morning appointment. I’d like to fit in one extra shift, but keep Sunday free for softball.\""
+    },
+    {
+      "turn": 9,
+      "interviewer": "I had work in mind. How well do your current work hours suit you?",
+      "patient": "\"They suit me pretty well, though the early starts are still a struggle some mornings. I feel steady enough for one extra shift—as long as Sunday stays free for softball.\""
+    },
+    {
+      "turn": 10,
+      "interviewer": "Have you had any experiences recently, such as a sound seeming personally significant, that you wanted to discuss?",
+      "patient": "“Not recently. Before the hospital stay, announcements over a store speaker seemed to be commenting on what I was buying. It felt convincing at the time, but that hasn’t happened in the past year.”"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Going back to your mornings, how do you usually feel when you first get up?",
+      "patient": "Some mornings it’s still a struggle to get up when the alarm goes off. That part hasn’t changed—the alarm and I still have our disagreements."
+    },
+    {
+      "turn": 12,
+      "interviewer": "If you could choose your work hours for next month, what would you choose?",
+      "patient": "I’d keep my three mornings and add one extra shift. I feel steady enough for that, but I’d keep Sunday free for softball."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Perceived capacity for work",
+      "A": "Adding one more shift would feel within the patient’s current capacity.",
+      "B": "Adding one more shift would feel beyond the patient’s current capacity."
+    },
+    "item2": {
+      "question": "Recent change in sleep timing",
+      "A": "The recent two-night change in sleep was waking later than usual.",
+      "B": "The recent two-night change in sleep was waking earlier than usual."
+    }
+  }
+}

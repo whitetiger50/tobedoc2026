@@ -1,0 +1,73 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "Getting up with the morning alarm can still be hard some days",
+        "earlier_turn": 1,
+        "earlier_quote": "Getting up with the alarm is still the least appealing part on some days",
+        "reason": "The question asks where medication fits into the day. The tablet-with-supper and same-prescription content answers it. The difficulty with the morning alarm was already conveyed at turn 1. Here it is not linked to the medication or given any new purpose, so it is an unnecessary recital."
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 8,
+        "quote": "swapping opening days last week got me to the morning appointment without a problem",
+        "earlier_turn": 7,
+        "earlier_quote": "That worked out fine",
+        "reason": "The swap and its successful outcome were stated in the immediately preceding turn. The turn 8 question asks for an evaluation of timing, which partly justifies supporting evidence. Repeating the same outcome adds little beyond 'It's working out fine overall', so whether it is redundant is ambiguous."
+      },
+      {
+        "turn": 9,
+        "quote": "I feel ready to add one extra shift",
+        "earlier_turn": 1,
+        "earlier_quote": "I feel steady enough to take on an extra shift",
+        "reason": "The wish for an extra shift with Sunday kept free was already conveyed at turn 1. It is arguably relevant to how well the current hours suit the patient, but it is mostly a paraphrase of the earlier statement, so its new function is unclear."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 1,
+        "quote": "I feel steady enough to take on an extra shift",
+        "reason": "The question asks what an ordinary workday has looked like. The answer gives four separate profile facts in consecutive sentences: opening three mornings, difficulty with the alarm, the coworker's swap for an appointment, and wanting an extra shift with Sunday kept free for the league. The first three plausibly belong to the topic, and the profile supports recent changes surfacing spontaneously. The final shift to future work goals and weekend plans goes beyond the question, so whether this counts as a recital is borderline."
+      }
+    ]
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 3,
+        "quote": "Do you mean the early waking, or getting up with the alarm?",
+        "reason": "'Is that getting any better?' is ambiguous after a turn covering both sleep and concentration. The patient asks which referent is meant and gives up the turn without answering any interpretation."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [],
+    "uncertain": [
+      {
+        "turn": 5,
+        "quote": "Keeping score at softball is a good example",
+        "reason": "The example request asks what it took to keep attention on a recent fun activity. The patient names keeping score at softball and describes following a game and tracking substitutions in the past tense. However, no specific game or occasion is identified, so the answer sits between a concrete episode and a general description of the activity."
+      }
+    ]
+  }
+}
+```

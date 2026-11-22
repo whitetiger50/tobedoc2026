@@ -1,0 +1,41 @@
+{
+  "id": "schizophrenia-eval-v1",
+  "date": "2026-11-17",
+  "scope": "LLM-judged comparative evaluation of a text-based schizophrenia speech prompt module; expert validation deferred.",
+  "status": "Measurement definitions fixed before new comparison outputs; no new generation or paid API authorized by this file.",
+  "clinical_validation": false,
+  "primary_features": ["DER", "INC", "POV"],
+  "exploratory_features": ["TAN", "PER", "CLANG", "CIRC"],
+  "severity_scale": {"0": "Absent", "1": "Mild, occasional and mostly understandable", "2": "Repeated and interfering with following the answer", "3": "Dominates and substantially limits communication"},
+  "scale_status": "Research operational scale informed by TLC concepts, not a validated clinical TLC score. Classify across the interview, not by fixed occurrence counts from a 45-minute examination.",
+  "targets": "Before generation, assign each primary feature 0..3 or null=unspecified. Positive targets contribute to target realization; explicit zero targets contribute to unwanted expression. Unspecified features contribute to neither.",
+  "judge_stage_1": {
+    "input": "Opaque item ID, complete interviewer-patient transcript, fixed feature rubric",
+    "hidden": ["generation condition", "generating prompt", "target feature vector", "existing scores", "other judge outputs"],
+    "output": "Observed severity 0..3 or null=uncertain/unassessable; exact transcript evidence and concise reason for every feature",
+    "self_description": "Saying that one's thoughts are disorganized is not evidence that the speech itself is disorganized. Clinical terminology must not substitute for observed form."
+  },
+  "judge_stage_2": {
+    "input": "Opaque ID, transcript, fixed case facts and predeclared applicable fact/interaction checks; no condition or generating prompt",
+    "fact_status": ["correct", "contradicted", "omitted", "uncertain", "not_applicable"],
+    "interaction_status": ["pass", "fail", "uncertain", "not_applicable"],
+    "note": "Only required/elicited facts enter the preservation denominator. Reserved disclosure or intended speech poverty must be represented in case-specific requirements, not penalized as failure by a blanket completeness rule."
+  },
+  "metrics": [
+    {"id": "target_realization", "role": "primary", "direction": "higher", "definition": "Among positive primary-feature targets, proportion judged present (observed severity >=1). Report per feature and equal-feature macro mean. Unknown judgments give lower/upper bounds, not zero imputation."},
+    {"id": "unwanted_expression", "role": "guardrail", "direction": "lower", "definition": "Among explicit zero primary-feature targets, proportion judged present. Report per feature and equal-feature macro mean; retain unknown-value bounds."},
+    {"id": "fact_preservation", "role": "guardrail", "direction": "higher", "definition": "Correct predeclared applicable factual checks / all applicable factual checks. Omitted and contradicted are failures; uncertainty is bounded. Report contradiction rate and applicability coverage separately."},
+    {"id": "interaction_adherence", "role": "guardrail", "direction": "higher", "definition": "Passed predeclared applicable interaction checks / all applicable checks. Report uncertain-value bounds and each check separately. A generic requirement for coherent/relevant speech must not punish intended derailment or incoherence."},
+    {"id": "severity_error", "role": "secondary", "direction": "lower", "definition": "Absolute observed-target difference on 0..3 for positive targets. Report mean known error, known fraction and full-denominator bounds for unknown observations. This is engineering ordinal-level error, not clinical severity accuracy."}
+  ],
+  "aggregation": "Checks are first averaged within each case and feature/check type, then cases receive equal weight, then primary features receive equal weight. Repeated generations and turns are not independent patients. Report all cell counts and missing/applicability fractions. Do not reweight feature coverage differently across conditions.",
+  "comparisons": "Same generator/version/reasoning effort/settings, supplied clinical facts, target phenotype, interviewer questions and repetition plan. Main contrast: strong existing structured persona adapted to schizophrenia versus proposed module. Simple roleplay is a secondary baseline.",
+  "judge_lock": "Fix actual evaluator identifier/version, rubric hash, inference settings if available, context policy and primary run before scoring. Qwen is not automatically the evaluator. A different model family from the generator is preferred but does not establish statistical independence or clinical validity.",
+  "judge_repeat": "Repeat scoring on a prespecified 25% subset chosen before outputs. Keep the first fixed run as primary; report repeat disagreement rather than selecting the preferred score. If only limited controls are available, state that evaluator accuracy remains unvalidated.",
+  "missingness": "Missing, failed, or truncated generations retain their planned denominator and produce unknown observation slots. Report technical completion separately. Missing entire case-condition records must fail dataset validation, not disappear from summaries.",
+  "improvement_claim": "No weighted schizophrenia total score. Evaluate primary case-matched gains with uncertainty and inspect all guardrail tradeoffs. A higher target-realization rate alone is insufficient for an unqualified improvement claim. A clinical resemblance or data-augmentation claim needs later external validation.",
+  "sources": [
+    "https://proceedings.neurips.cc/paper_files/paper/2025/file/24945e3bdc7b3f4b2e64b9979a16f38e-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "https://aclanthology.org/2026.acl-long.1243.pdf"
+  ]
+}

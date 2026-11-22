@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 설정에 맞는 자연스러운 환자 표현이지만, 마지막 답변은 질문의 시간 범위를 조금 벗어난다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자의 진술은 프로필의 사실과 주관적 경험 범위에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "다음 진료 전까지 해 보고 싶은 일을 묻자 다음 진료에서 이야기할 내용만 제시하여 시간 범위에 부분적으로 대응하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과 모순되거나 공개 흐름을 해치는 연결 문제는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상 한국어로 자신의 경험을 말하며 역할 설명이나 보고서식 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

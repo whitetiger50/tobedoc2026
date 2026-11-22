@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T1",
+  "turn": 12,
+  "question": "What have we missed that you hoped to talk about?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-afed-78c2-a37c-eeacbae506df",
+  "raw": "“We’ve talked about the worry, but I’d still like to know who can hear about what I’ve told you. I don’t want it getting back to my coworkers or neighbors.”",
+  "raw_sha256": "c1b539c9faca81d666d1132e04a0465ae27ad5afd2c65676ba6591828bdb5184",
+  "request_sha256": "68d54d806dbc7dd0d3c3329eeb80ace70fa2bcf3304254d75fafeb0e25adb069",
+  "started_utc": "2026-11-20T20:42:56.776763+00:00",
+  "completed_utc": "2026-11-20T20:43:00.853455+00:00",
+  "usage": {
+    "input_tokens": 7605,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0d341227edb6ca096e5a580e7213c27523efc28cc63ec64890f458b91a87bdaa",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "67a39a510f98c56c8acb6c44fde42d08ccb1beee0fc6612c86b68ff349acb876"
+}

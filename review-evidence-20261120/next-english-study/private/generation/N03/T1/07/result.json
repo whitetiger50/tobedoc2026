@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 7,
+  "question": "How are you managing work tasks and the things you do in the evening?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-9b8e-7581-be02-a207b4986e30",
+  "raw": "I’m getting the work done—on Friday we finished all the tickets before closing. The voice hasn’t interrupted a conversation with a customer this month. At home it can be distracting, but putting the radio on helps, and I can still finish sorting my thread. I’m still enjoying making dough and listening to a radio show in the evenings.",
+  "raw_sha256": "ced47b3a980917d8e8464097cea5758086c5ae7e79ed03188fb91cc371b49c7b",
+  "request_sha256": "9a5a23babd7f7488a4f3ac71a7339aa1b3666f0f51a76f27048ffac9dd807a05",
+  "started_utc": "2026-11-20T21:01:25.669260+00:00",
+  "completed_utc": "2026-11-20T21:01:30.766108+00:00",
+  "usage": {
+    "input_tokens": 7448,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 73,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "df75c6c2a547ee23887299d494903a4a234c1d8b8b9a91186f847206949700e8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cde29ba3b428422235fc5edb0ca12265eb2decc3c9ed8889edb2a5428ae6c756"
+}

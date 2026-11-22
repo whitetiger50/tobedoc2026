@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 12,
+  "question": "What would you like to do with the clock on Saturday?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc37-daa6-74e0-a2bd-50639f776b02",
+  "raw": "I’d like to take it back to the repair café on Saturday.",
+  "raw_sha256": "480b8627f840e0a09af3ccec22404077e50e8fae04b8a7965b97b5eb815c307b",
+  "request_sha256": "d1ea8c79cc66a0a539672a9de9e52fb72d6c55c49667da0552ce61f33cb6b2f8",
+  "started_utc": "2026-11-21T03:48:01.186391+00:00",
+  "completed_utc": "2026-11-21T03:48:14.382697+00:00",
+  "usage": {
+    "input_tokens": 6487,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 18,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c019747548740176b32a17d812abafa64ccde78cd17d2edad767a6afa506d13b",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "12f859d51b4df33f1f37718466e5e9c01bd99bb2cd8a507d1d6a2deef400743d"
+}

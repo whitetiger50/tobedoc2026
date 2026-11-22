@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "B",
+  "turn": 3,
+  "question": "I meant at home. What has caught your attention there in the last week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f1b-7040-a85f-83a0a7fab294",
+  "raw": "Those two evenings were what stood out at home. I wondered if it was my neighbor through the wall, though I’m not sure. I put the radio on, which made it less distracting, and finished sorting the thread.",
+  "raw_sha256": "3fe5c5aab5eea20f9a6285f9285b20938173c07fc86160d486db5d5ca540f3d8",
+  "request_sha256": "6f1e40ebd50d76be9b4e715ffd855edb8c2aeb3eea96c8d2c96dc54ce9e8c736",
+  "started_utc": "2026-11-20T21:00:04.495821+00:00",
+  "completed_utc": "2026-11-20T21:00:09.048840+00:00",
+  "usage": {
+    "input_tokens": 23646,
+    "cached_input_tokens": 15232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 154,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ebe1f6ee9cb21420c782ec2ad93f2a81a30973ed1ed84c74c06999a0c5a59246",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bbb9d143f53a949658d35b1b9344c0bd39f837dbc101a845b6da938c00741165"
+}

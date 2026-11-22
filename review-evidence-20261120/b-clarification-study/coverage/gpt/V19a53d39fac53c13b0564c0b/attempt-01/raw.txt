@@ -1,0 +1,26 @@
+{
+  "v1": {
+    "quote": "Do you mean where I catch the bus or where I catch the tram?",
+    "reason": "The reply asks which transport mode is meant without identifying either boarding stop.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v2": {
+    "quote": "Do you mean the shorter shifts or the later start?",
+    "reason": "The reply asks which change is meant without saying whether either change was requested.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  },
+  "v3": {
+    "quote": "After an early shift I take the bus home. After a late one, a coworker gives me a lift.",
+    "reason": "The reply explicitly gives the expected transport home for both early and late shifts.",
+    "A": {"state": "supported", "quote": "After an early shift I take the bus home."},
+    "B": {"state": "supported", "quote": "After a late one, a coworker gives me a lift."}
+  },
+  "v4": {
+    "quote": "Which one do you mean—my brother or Mr. Bell?",
+    "reason": "The reply asks which person is meant without saying whether either person was called back.",
+    "A": {"state": "untouched", "quote": ""},
+    "B": {"state": "untouched", "quote": ""}
+  }
+}

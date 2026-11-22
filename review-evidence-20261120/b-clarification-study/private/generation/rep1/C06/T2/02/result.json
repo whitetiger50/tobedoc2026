@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "T2",
+  "turn": 2,
+  "question": "Your sister Inez and Pat from the repair café both helped last week. Did she come over to your flat?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-eb56-7fb3-b554-68ca37a310a5",
+  "raw": "Do you mean my sister Inez, or Pat from the café?",
+  "raw_sha256": "c71e89c048fce83e4c8c490e0ea8e05b3f06ee53e9d94fd13cabbcf2f159271b",
+  "request_sha256": "1d9fe3bfe474c09a35c38f7b3c2fc480d3512687d62bb05a2c919910cce3a655",
+  "started_utc": "2026-11-21T03:40:26.711864+00:00",
+  "completed_utc": "2026-11-21T03:40:32.223212+00:00",
+  "usage": {
+    "input_tokens": 6062,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 51,
+    "reasoning_output_tokens": 31
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c3f9b38a88371faa965c437e1e27aa14a52cf02de63773c76758d2a31dabae60",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "909cc70e96401c3d0b66f29ff59cee3ccad49930c68159e84d5431ee0731c701"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "T2",
+  "turn": 1,
+  "question": "What do you like about the new place?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e304-7302-a4ae-225ab3560900",
+  "raw": "The best thing is being able to walk over to see my family. Mom’s close by now, so it’s easier to spend time with her.",
+  "raw_sha256": "89d3eaeb056ab10dde5b418860be7d054e18dd4eaecfda67185228304ea9c3de",
+  "request_sha256": "81605306f75daf3b0cdb492f4ac0f864ab800adc63ad5ee56497235b202dae11",
+  "started_utc": "2026-11-21T03:39:19.030111+00:00",
+  "completed_utc": "2026-11-21T03:39:25.865607+00:00",
+  "usage": {
+    "input_tokens": 5972,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4a890f311aac5fb577922ac3bed147edbfa26338759f32cc12cb9d110d44e9e3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9d171cc16982a7319cee9768f4e4396199a88078366fa893ca8773b9bc7fa8ac"
+}

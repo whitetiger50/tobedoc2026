@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 6,
+  "question": "I mean putting food out for the birds. What part do you usually take in filling the feeder?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "I pour the seed in once the bag’s on the counter.",
+  "raw_sha256": "d184e98b357f353bf1afde11f7d415b898f230f19a8ee7ee7690d66c44e37cab",
+  "request_sha256": "ac9ad2ed2ca606c8bfe07252850bd71cf29a6a2ebda6162f281cc6695ad121d8",
+  "started_utc": "2026-11-20T20:40:45.202431+00:00",
+  "completed_utc": "2026-11-20T20:40:48.731366+00:00",
+  "usage": {
+    "input_tokens": 46396,
+    "cached_input_tokens": 41472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 139,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e3d2d16dea84a7c8f9f0823608ab687578955e427d20a04a31cfe251d6515d03",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5eae9527d02dbcacd7f50a7f808cb6a7daa246aeb3c490789ee5f6edfd070e89"
+}

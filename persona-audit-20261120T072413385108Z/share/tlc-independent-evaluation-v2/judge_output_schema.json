@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interview_id",
+    "observations"
+  ],
+  "properties": {
+    "interview_id": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "block_id",
+          "item",
+          "score",
+          "anchor_id",
+          "evidence",
+          "context_reason",
+          "alternative_explanation",
+          "unassessable_reason"
+        ],
+        "properties": {
+          "block_id": {
+            "enum": [
+              "B1",
+              "B2",
+              "B3",
+              "B4",
+              "B5",
+              "B6"
+            ]
+          },
+          "item": {
+            "enum": [
+              "DER",
+              "INC",
+              "POS"
+            ]
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "anchor_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "turn_id",
+                "quote"
+              ],
+              "properties": {
+                "turn_id": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "context_reason": {
+            "type": "string"
+          },
+          "alternative_explanation": {
+            "type": "string"
+          },
+          "unassessable_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

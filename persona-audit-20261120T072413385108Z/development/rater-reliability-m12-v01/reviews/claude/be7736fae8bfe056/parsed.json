@@ -1,0 +1,52 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적인 말투와 방송 신호에 대한 믿음 표현은 설정에 맞고 자연스럽다. 다만 P04에서 아버지와 함께 산다는 핵심 설정을 뒤집어 의사의 잘못된 전제를 그대로 받아들인 점이 페르소나 일치도를 일부 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같아서요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필은 아버지와 함께 산다고 명시하지만, P04는 혼자 산다고 확정해 핵심 거주 사실을 명백히 반전시켰다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아버지와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D04"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문의 대상(방송 느낌, 낮 일과, 오늘 활동, 거주 형태)에 직접 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발화나 이전 문맥에는 거주 형태 언급이 없어 대화 내 자기모순은 없다. D04가 미공개이면서 프로필과 다른 전제를 먼저 제시했으며, 이 오류는 grounding에서만 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 구어체로 믿음과 연상을 표현했고, 보고서식 대행이나 메타 표현은 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

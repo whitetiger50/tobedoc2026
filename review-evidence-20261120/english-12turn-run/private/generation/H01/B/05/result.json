@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 5,
+  "question": "How do you get home after a shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "I take the bus. I usually sit toward the front, even when it’s crowded.",
+  "raw_sha256": "7f7a94812342c945bb8aad620033798baf614938f9adcc31a958627bfa85a569",
+  "request_sha256": "50a47935ecdcc445943ba156c9edb8544314a3b66d66cea6e5fe47a6580ad668",
+  "started_utc": "2026-11-20T20:40:11.167979+00:00",
+  "completed_utc": "2026-11-20T20:40:14.464716+00:00",
+  "usage": {
+    "input_tokens": 38929,
+    "cached_input_tokens": 30208,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 208,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c18fc50e44f6fd97c692eef9186eb7fa60a090eb66c7eb90a054df10347d4430",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d4fef1b984d4c239cd98fc9ec78b85d866518b7f8de20323586f797a1b368ec8"
+}

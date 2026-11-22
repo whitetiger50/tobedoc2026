@@ -1,0 +1,104 @@
+{
+  "retrieval_date": "2026-11-18",
+  "sources": [
+    {
+      "id": "psyche-v1.html",
+      "url": "https://arxiv.org/html/2501.01594v1",
+      "final_url": "https://arxiv.org/html/2501.01594v1",
+      "timestamp_utc": "2026-11-18T05:30:24.364212+00:00",
+      "sha256": "b0d6a23dca4c25d7023702696e9949f31a769c9b4a04237f25303d3a4c691903",
+      "bytes": 463194,
+      "content_type": "text/html; charset=utf-8",
+      "status": "ok"
+    },
+    {
+      "id": "psyche-v1.pdf",
+      "url": "https://arxiv.org/pdf/2501.01594v1",
+      "final_url": "https://arxiv.org/pdf/2501.01594v1",
+      "timestamp_utc": "2026-11-18T05:30:25.679509+00:00",
+      "sha256": "97b934a40f95cb944d3ce626cc3ffd5dbb7da1dda44837609005a21e9708eadf",
+      "bytes": 8886877,
+      "content_type": "application/pdf",
+      "status": "ok"
+    },
+    {
+      "id": "roleplay-doh.pdf",
+      "url": "https://aclanthology.org/2024.emnlp-main.591.pdf",
+      "final_url": "https://aclanthology.org/2024.emnlp-main.591.pdf",
+      "timestamp_utc": "2026-11-18T05:30:51.902637+00:00",
+      "sha256": "3dfcae6a4597fa50ebe8fff89095aea6bf63a48ad7ecd0c63dc8067381059feb",
+      "bytes": 10422279,
+      "content_type": "application/pdf",
+      "status": "ok"
+    },
+    {
+      "id": "psychiatric-voice.html",
+      "url": "https://link.springer.com/article/10.1007/s40596-026-02422-9",
+      "final_url": "https://link.springer.com/article/10.1007/s40596-026-02422-9?error=cookies_not_supported&code=8ea4790e-aca0-40f7-9d66-4d3d5b344df7",
+      "timestamp_utc": "2026-11-18T05:30:27.089210+00:00",
+      "sha256": "4121a3a2526a1997cb63d47f3d7102309fa2686caf3219d23fd472eb96eb3059",
+      "bytes": 326577,
+      "content_type": "text/html; charset=utf-8",
+      "status": "ok"
+    },
+    {
+      "id": "psychiatric-voice-table1.html",
+      "url": "https://link.springer.com/article/10.1007/s40596-026-02422-9/tables/1",
+      "final_url": "https://link.springer.com/article/10.1007/s40596-026-02422-9/tables/1?error=cookies_not_supported&code=00c17a94-8683-470c-80b7-f63003142e3c",
+      "timestamp_utc": "2026-11-18T05:30:27.254117+00:00",
+      "sha256": "e4a14b7e8295f524b17ebf0238cc05eae1cb8cb4e1958a61b4e305f28f30fce9",
+      "bytes": 202538,
+      "content_type": "text/html; charset=utf-8",
+      "status": "ok"
+    },
+    {
+      "id": "jmir-schizophrenia.html",
+      "url": "https://mededu.jmir.org/2026/1/e78161/",
+      "final_url": "https://mededu.jmir.org/2026/1/e78161/",
+      "timestamp_utc": "2026-11-18T05:30:26.644920+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ok"
+    },
+    {
+      "id": "nimh-schizophrenia.html",
+      "url": "https://www.nimh.nih.gov/health/publications/schizophrenia",
+      "final_url": "https://www.nimh.nih.gov/health/publications/schizophrenia",
+      "timestamp_utc": "2026-11-18T05:30:32.097928+00:00",
+      "sha256": "57130371968def2fb3d61e2783327a0e27745cd20b5848ab718b80c43d2e387b",
+      "bytes": 66127,
+      "content_type": "text/html; charset=UTF-8",
+      "status": "ok"
+    },
+    {
+      "id": "psi_styles",
+      "url": "https://github.com/ruiyiw/patient-psi/blob/de72a768e5366d3e94f7d8c711c563fb4a5b4d26/app/api/data/patient-types.jsx",
+      "path": "evidence/snapshots/psi_styles.txt",
+      "sha256": "237057a7c64ae7fac5128a358690476347e0dda43a998339d83beb57a734bf02",
+      "status": "verified_existing_snapshot"
+    },
+    {
+      "id": "psi_formatter",
+      "url": "https://github.com/ruiyiw/patient-psi/blob/de72a768e5366d3e94f7d8c711c563fb4a5b4d26/app/api/getDataFromKV.ts",
+      "path": "evidence/snapshots/psi_formatter.txt",
+      "sha256": "7629ea45e9bfbd47f3dd9a755e8d5aab4b5abd52b936357ddb72c64f2da5cc69",
+      "status": "verified_existing_snapshot"
+    },
+    {
+      "id": "psi_runtime",
+      "url": "https://github.com/ruiyiw/patient-psi/blob/de72a768e5366d3e94f7d8c711c563fb4a5b4d26/lib/chat/actions.tsx",
+      "path": "evidence/snapshots/psi_runtime.txt",
+      "sha256": "e6472dc9e4e92079f6726ab59491e16bbdbcb4cd815c01792d87f0cbe55db194",
+      "status": "verified_existing_snapshot"
+    },
+    {
+      "id": "psi_paper",
+      "url": "https://aclanthology.org/2024.emnlp-main.711.pdf",
+      "path": "evidence/snapshots/psi_paper.txt",
+      "sha256": "d5d0cc7cc68784a20209ff3521dc8dff90a8cc92b7c3927848bdca69226e6ed8",
+      "status": "verified_existing_snapshot"
+    }
+  ],
+  "paid_api_calls": 0
+}

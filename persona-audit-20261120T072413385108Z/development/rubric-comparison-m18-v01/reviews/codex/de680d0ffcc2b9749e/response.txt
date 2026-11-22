@@ -1,0 +1,114 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 4,
+  "realism_reason": "경험의 발생 상황, 대처, 수면과 다음 진료의 목표에 각 질문에 맞게 답하며 설정된 사실과 환자 시점을 유지한다. 동거인 재진술은 명시적 재확인에 대한 답이고, 마지막 경험 재진술도 다음 진료의 상담 목표를 설명하는 요약으로 기능한다. 전체 의사소통 적합성을 낮추는 구체적인 문제는 확인되지 않았다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "context_refs": ["turn:D05", "fact:pattern"]
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "context_refs": ["turn:D08", "fact:goal"]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 배경, 경험의 양상, 대처와 수면에 관한 진술이 프로필과 일치하며 무근거 사실 추가가 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+        }
+      ],
+      "context_refs": ["turn:D07", "fact:sleep"]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상을 다룬다. 마지막 답변도 경험 요약에 이어 다음 진료에서 논의할 대처 방법을 명시한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": ["turn:D08", "fact:goal"]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 진술과 모순 없이 이어지며, 재확인 질문에는 기존 정보를 일관되게 답한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D04", "turn:P02", "fact:living"]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 조직적인 표현을 유지한다. 경험과 상담 목표의 재진술도 현재 질문에 연결되며 보고서식 역할 대행이나 부적절한 설명 재시작은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+        }
+      ],
+      "context_refs": ["turn:D06", "fact:coping", "communication:expression", "communication:organization"]
+    }
+  },
+  "observations": [
+    {
+      "id": "rep_confirmation",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D04", "turn:P02", "fact:living"],
+      "function": "명시적 재확인 요청에 대한 동일 정보 확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 동거인을 다시 물었으므로 같은 답변은 질문의 직접 대상에 부합한다. 새 대상을 대신하거나 대화를 정체시키는 반복이 아니다.",
+      "used_in_global": false
+    },
+    {
+      "id": "rep_goal_summary",
+      "kind": "both_repetition",
+      "patient_turn_id": "P08",
+      "quote": "저녁에 집에서 쉴 때 누가 옆에서 짧게 말하는 것 같은 소리가 가끔 들려요. 다음 진료에서는 그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "저녁에 집에서 쉬고 있으면 가끔 누가 옆에서 짧게 말하는 것 같은 소리가 들려서 신경이 쓰여요. 그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": ["turn:D08", "turn:P01", "fact:symptom", "fact:goal"],
+      "function": "경험 요약을 통한 다음 진료의 상담 목표 설명",
+      "finding": "supported_use",
+      "primary_facet": "naturalness",
+      "reason": "경험 설명 뒤 대처에 대한 상담 희망을 제시하는 순서가 다시 나타난다. 그러나 D08이 해당 경험과 관련한 다음 진료의 목표를 요청하므로 요약과 목표 재확인의 기능이 지지된다. 질문의 새 대상인 상담 목표도 명시하여 부적절한 설명 재시작으로 볼 근거가 없다.",
+      "used_in_global": true
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

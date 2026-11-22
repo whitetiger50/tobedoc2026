@@ -1,0 +1,83 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대체로 자연스럽고 설정에 맞지만, 거주 형태를 보고서처럼 표현한 대목과 마지막 질문의 시점에 부분적으로 어긋나는 답변이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "딸과 동거한다는 사실을 전체 거주 인원이 두 명이라는 미제공 정보로 구체화했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "성인 딸과의 2인 공동 거주",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "다음 진료 전까지 해 보고 싶은 일을 묻자 다음 진료에서 이야기하고 싶은 내용으로 답해 시간적 대상을 부분적으로 놓쳤다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료 때 안내 방송 때문에 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발언과 모순되거나 공개 흐름을 깨는 부분은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주 관계를 분류 항목처럼 말하는 국소적인 과도한 격식이 있으나 나머지는 일상적인 환자 표현이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 성인 딸과의 2인 공동 거주에 해당합니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

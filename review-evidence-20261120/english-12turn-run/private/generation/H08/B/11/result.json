@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 11,
+  "question": "How are your clinic visits fitting around your shifts?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "It can be a bit tricky because my shifts rotate. I’ve kept up with the visits, but I’d like to find appointment times that fit better so I’m not having to rearrange work.",
+  "raw_sha256": "2a96eaeaa322836e0c5efa58995990bed08ef90448cb0a439f35f67ee12070f1",
+  "request_sha256": "3f363a26efc2d7be00ca9a0b9b666318f380bc2e7c62afb90d5d8ff35bee39c5",
+  "started_utc": "2026-11-20T20:42:46.389046+00:00",
+  "completed_utc": "2026-11-20T20:42:50.900745+00:00",
+  "usage": {
+    "input_tokens": 88065,
+    "cached_input_tokens": 69760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 530,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "32463612afa3aff4706a6c81cf131fe16cb39a79161eb3b8a9bf44369a5d70ad",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "04e35786e661ab4ff1aa7243151ca25b722e83f4200e8271451f86a90e28806c"
+}

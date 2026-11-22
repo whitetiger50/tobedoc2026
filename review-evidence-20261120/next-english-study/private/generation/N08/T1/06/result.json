@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T1",
+  "turn": 6,
+  "question": "Could you describe a specific recent time in public that stands out to you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-6f7d-7023-b332-d76e09f37616",
+  "raw": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I’m still not sure.",
+  "raw_sha256": "33293f92bacc519718c7bf7776ecc4df8aa2313a3b8029024ba93d88660ec059",
+  "request_sha256": "355ec7cd27ff32b0c43afa385da8052c727ec09904a92751848beb6c11f23335",
+  "started_utc": "2026-11-20T21:01:14.386666+00:00",
+  "completed_utc": "2026-11-20T21:01:19.219174+00:00",
+  "usage": {
+    "input_tokens": 7419,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b92bd2986a5415bce752b049aa7ddc0b3eb4190d67d6862c3d3b52a777e3e1f8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "55d1859175620895c87ceff7af126ec1ef4414449fee2df3cbefedefd1b51424"
+}

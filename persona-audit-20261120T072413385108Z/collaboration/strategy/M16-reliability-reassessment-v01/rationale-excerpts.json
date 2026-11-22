@@ -1,0 +1,1317 @@
+{
+  "variable_items": [
+    {
+      "item_id": "DEV-M13-01-rep01-v02",
+      "case_id": "DEV-M13-01",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "34세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "남편과 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "동네 꽃집에서 시간제로 일한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침 집에서 주먹밥을 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "잠들기 전 조용할 때 누가 자신의 이름을 부르는 듯한 소리를 가끔 듣는 일이 걱정된다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "이 소리는 잠들기 전 가끔 경험하며 낮에는 거의 경험하지 않는다. 구체적인 발생 횟수와 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "그런 소리가 들리면 방의 불을 켜고 잠시 앉아 있는다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "잠드는 데 시간이 걸리는 날이 있지만 밤중에 자주 깨지는 않는다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료 전까지 잠드는 시간이 얼마나 걸리는지 적어 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "3년 전 조현병 진단을 들었다. 소리가 병의 증상일 수 있다고 생각하지만 실제 누군가 부른 것처럼 느껴질 때도 있다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "질문에 답하고 관련 경험을 필요한 만큼 덧붙일 수 있다.",
+          "guardedness": "낮은 편이며 관련 질문에 경험을 말할 수 있다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 간결하게 말할 수 있고 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요. 잠드는 데 시간이 걸리는 날도 있고요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "남편이랑 같이 살아요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "동네 꽃집에서 시간제로 일하고 있어요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 무엇을 드셨어요?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "오늘 아침에는 집에서 주먹밥 먹었어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "주로 잠들기 전, 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그럴 때는 어떻게 지내세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그런 소리가 들리면 방에 불을 켜고 잠깐 앉아 있어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 밤중에 자주 깨지는 않아요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "다음 진료 전까지 해 보고 싶은 일이 있나요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "잠드는 데 시간이 얼마나 걸리는지 적어 보고 싶어요."
+          }
+        ]
+      },
+      "three_actual_Claude_readings": [
+        {
+          "realism_score": 3,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 답이 질문에 맞고 프로필과 일치하며 일상적인 한국어로 간결하게 표현되었다. 다만 증상 관련 답변이 프로필 문장을 거의 그대로 옮긴 듯 평탄하게 반복되어, 실제 환자에게서 기대되는 망설임이나 감정의 결이 약간 부족하다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "주로 잠들기 전, 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요.",
+              "valid_quote": true
+            },
+            {
+              "patient_turn_id": "P07",
+              "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 밤중에 자주 깨지는 않아요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 진술이 프로필의 사실 범위 안에 있으며 새로운 사건, 시각, 횟수를 확정하지 않았다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 환자 턴이 직전 의사 질문의 직접 대상에 맞게 답하고 있다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05와 P07은 P01의 내용을 다시 말하지만 새 질문에 대한 답이며, 모순이나 문맥 파괴가 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "환자 시점의 일상적이고 간결한 표현이며, 역할 설명이나 보고서식 대행이 확인되지 않는다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 환자 응답이 질문에 맞게 짧고 자연스러운 일상 한국어로 이루어졌습니다. 경계심이 낮고 조직적으로 답한다는 의사소통 설정과도 일치합니다. 증상에 대한 걱정, 대처 방식, 수면 상태, 목표를 환자 시점에서 무리 없이 표현해 인위적인 느낌이 거의 없습니다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 진술이 프로필의 거주, 직업, 아침식사, 증상, 패턴, 대처, 수면, 목표 사실과 일치하며, 구체 횟수나 시각 같은 무근거 추가가 없습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 응답이 직전 의사 질문의 대상(불편, 동거인, 낮 활동, 아침식사, 발생 시기, 대처, 잠, 목표)에 직접 답하고 있습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P01에서 언급한 증상과 수면 문제를 P05와 P07에서 다시 묻는 질문에 일관되게 답했으며, 모순이나 불필요한 반복이 확인되지 않습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "보고서식 나열이나 역할 설명 없이 환자 시점의 간결한 구어체로 답해 설정에 맞습니다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "환자의 답은 질문마다 짧고 자연스러운 한국어 일상 구어로 이어집니다. 걱정되는 경험을 낮은 경계심으로 담담히 말하는데, 이는 설정된 의사소통 방식과 맞습니다. 프로필 밖의 사실을 덧붙이거나 어색한 메타 표현을 쓰는 부분은 확인되지 않았습니다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요.",
+              "valid_quote": true
+            },
+            {
+              "patient_turn_id": "P06",
+              "quote": "그런 소리가 들리면 방에 불을 켜고 잠깐 앉아 있어요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 환자 진술이 프로필 사실(증상, 동거, 직업, 아침식사, 패턴, 대처, 수면, 목표) 범위 안에 있고, 구체 횟수나 시각 같은 무근거 추가가 없습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 환자 답이 직전 의사 질문의 직접 대상(불편, 동거인, 낮 활동, 아침식사, 발생 시점, 대처, 수면, 목표)에 바로 대응합니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05와 P07이 P01의 내용을 일부 반복하지만, 해당 질문에 대한 재확인 답이어서 연결 문제로 보지 않았고 모순도 없습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "환자 시점의 간결한 일상 표현이며 보고서식 나열, 역할 설명, 면담자 대행이 없습니다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        }
+      ],
+      "three_GPT_scores": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "item_id": "DEV-M13-03-rep02-v02",
+      "case_id": "DEV-M13-03",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "27세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "언니와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "작은 문구점에서 재고를 정리하는 일을 시간제로 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침 집에서 요구르트와 바나나를 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "사람이 많은 곳에 다녀온 날 오후에 자신을 탓하는 낮은 목소리가 들리는 때가 있어 걱정된다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "사람이 많은 곳에 다녀온 날 오후에 가끔 들리며 아침에는 들리지 않는 편이다. 정확한 횟수와 시작 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "목소리가 들리면 조용한 방에 들어가 음악을 작게 틀어 놓는다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "대체로 잠은 잘 자며 일어날 때 피곤한 날이 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료 전까지 목소리가 들릴 때 어떻게 지냈는지 간단히 적어 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "1년 전 조현병 진단을 들었다. 목소리가 증상일 수 있다는 설명을 들었고 자신도 그럴 수 있다고 생각한다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "스스로 길게 말을 시작하지는 않지만 질문받으면 답할 수 있다.",
+          "guardedness": "관련 질문에는 경험을 말한다. 경계심이나 은폐를 별도로 강제하지 않는다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 간결하게 말할 수 있고 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "언니와 함께 살고 있어요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "작은 문구점에서 시간제로 일해요. 주로 재고를 정리하는 일을 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 무엇을 드셨어요?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "오늘 아침에는 집에서 요구르트랑 바나나를 먹었어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요. 아침에는 잘 안 들리는 편이에요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그럴 때는 어떻게 지내세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "목소리가 들리면 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "대체로 잠은 잘 자요. 그런데 일어날 때 피곤한 날이 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "다음 진료 전까지 해 보고 싶은 일이 있나요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "목소리가 들릴 때 제가 어떻게 지냈는지 간단히 적어 보고 싶어요."
+          }
+        ]
+      },
+      "three_actual_Claude_readings": [
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 환자 답변이 질문에 맞고 간결합니다. 협조적이고 조직적인 의사소통 설정과 자기 증상을 인식하는 페르소나에 맞는 자연스러운 일상 한국어입니다. 사실의 이탈이나 어색한 메타 표현은 보이지 않습니다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+              "valid_quote": true
+            },
+            {
+              "patient_turn_id": "P06",
+              "quote": "목소리가 들리면 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 진술이 프로필의 사실(동거, 직업, 아침식사, 증상 양상, 대처, 수면, 목표)과 일치합니다. 새 사건이나 구체적인 시각을 확정하지 않았습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 답변이 직전 질문의 직접 대상에 그대로 대응합니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05가 P01의 표현 일부를 반복하지만 시점을 묻는 질문에 대한 직접 답이며 '아침에는 잘 안 들리는' 정보를 추가합니다. 모순이나 문맥 파괴는 없습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "환자 시점의 간결한 일상 표현입니다. 보고서식 대행이나 역할 설명, 불필요한 격식은 확인되지 않았습니다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 3,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 답이 설정된 페르소나와 맞고 일상 한국어로 자연스럽다. 다만 증상 설명이 프로필 문장을 거의 그대로 옮긴 듯 정돈되어 있고, P01과 P05에서 같은 구절이 반복되어 약간 정형적인 느낌이 남는다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요. 아침에는 잘 안 들리는 편이에요.",
+              "valid_quote": true
+            },
+            {
+              "patient_turn_id": "P01",
+              "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 진술이 프로필 사실과 일치하며, 새 사건이나 구체 시각을 확정해 덧붙인 부분이 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 환자 응답이 직전 의사 질문의 대상에 직접 답한다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "앞선 환자 말과 모순되거나 맥락이 끊기는 부분이 확인되지 않는다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 1,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": true,
+              "uncertainty_valid": true,
+              "reason": "P05는 시기를 묻는 질문에 대한 정당한 재진술이지만, P01의 구절을 거의 동일하게 반복해 국소적으로 정형적인 표현이 된다. 질문에 맞춘 자연스러운 반복으로 볼 여지도 있어 불확실성을 표시했다.",
+              "evidence": [
+                {
+                  "patient_turn_id": "P05",
+                  "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요.",
+                  "valid_quote": true
+                },
+                {
+                  "patient_turn_id": "P01",
+                  "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요.",
+                  "valid_quote": true
+                }
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05",
+                "fact:pattern"
+              ]
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 환자 답변이 프로필 사실과 일치합니다. 질문받은 만큼 간결하고 조직적으로 답하는 의사소통 설정에도 맞습니다. 일상적인 한국어 표현으로 자연스럽게 말하고, 증상을 걱정하는 태도도 자기이해와 어긋나지 않습니다. P05에서 P01과 비슷한 구절이 다시 나오지만 직접 질문에 대한 재설명이어서 현실감을 해치지 않습니다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "거주, 일, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하고, 새 사건이나 구체적인 시각·횟수를 확정하지 않았습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 답변이 직전 의사 질문의 대상에 직접 답합니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05의 반복은 시기를 묻는 직접 질문에 대한 재설명이고, 아침 정보를 더해 앞선 말과 자연스럽게 이어지므로 불필요한 반복으로 보지 않습니다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "보고서식 나열이나 메타 표현 없이 환자 시점의 일상적인 말투로 답합니다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        }
+      ],
+      "three_GPT_scores": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "item_id": "DEV-M13-03-rep03-v02",
+      "case_id": "DEV-M13-03",
+      "payload": {
+        "patient_profile": {
+          "facts": [
+            {
+              "id": "demographic",
+              "kind": "background",
+              "content": "27세 여성이다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "living",
+              "kind": "background",
+              "content": "언니와 함께 산다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "work",
+              "kind": "background",
+              "content": "작은 문구점에서 재고를 정리하는 일을 시간제로 한다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "breakfast",
+              "kind": "background",
+              "content": "오늘 아침 집에서 요구르트와 바나나를 먹었다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "symptom",
+              "kind": "subjective_experience",
+              "content": "사람이 많은 곳에 다녀온 날 오후에 자신을 탓하는 낮은 목소리가 들리는 때가 있어 걱정된다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "pattern",
+              "kind": "subjective_experience",
+              "content": "사람이 많은 곳에 다녀온 날 오후에 가끔 들리며 아침에는 들리지 않는 편이다. 정확한 횟수와 시작 시각은 정하지 않았다.",
+              "patient_knows": true,
+              "disclosure": "sensitive"
+            },
+            {
+              "id": "coping",
+              "kind": "background",
+              "content": "목소리가 들리면 조용한 방에 들어가 음악을 작게 틀어 놓는다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "sleep",
+              "kind": "background",
+              "content": "대체로 잠은 잘 자며 일어날 때 피곤한 날이 있다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            },
+            {
+              "id": "goal",
+              "kind": "background",
+              "content": "다음 진료 전까지 목소리가 들릴 때 어떻게 지냈는지 간단히 적어 보고 싶다.",
+              "patient_knows": true,
+              "disclosure": "on_topic"
+            }
+          ],
+          "self_understanding": "1년 전 조현병 진단을 들었다. 목소리가 증상일 수 있다는 설명을 들었고 자신도 그럴 수 있다고 생각한다."
+        },
+        "communication": {
+          "organization": "일상과 경험 질문에 대체로 조직적으로 답한다. 병명만으로 탈선이나 비협조를 강제하지 않는다.",
+          "spontaneity": "스스로 길게 말을 시작하지는 않지만 질문받으면 답할 수 있다.",
+          "guardedness": "관련 질문에는 경험을 말한다. 경계심이나 은폐를 별도로 강제하지 않는다.",
+          "expression": "한국어 일상 대화의 환자 입장에서 답한다. 간결하게 말할 수 있고 고정 문장 수는 없다."
+        },
+        "prior_authored_context": [],
+        "dialogue": [
+          {
+            "turn_id": "D01",
+            "speaker": "clinician",
+            "text": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?"
+          },
+          {
+            "turn_id": "P01",
+            "speaker": "patient",
+            "text": "사람이 많은 곳에 다녀온 날에는 가끔 오후에 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요."
+          },
+          {
+            "turn_id": "D02",
+            "speaker": "clinician",
+            "text": "집에서는 누구와 함께 지내세요?"
+          },
+          {
+            "turn_id": "P02",
+            "speaker": "patient",
+            "text": "언니랑 같이 살아요."
+          },
+          {
+            "turn_id": "D03",
+            "speaker": "clinician",
+            "text": "요즘 낮 시간에는 주로 어떤 일을 하세요?"
+          },
+          {
+            "turn_id": "P03",
+            "speaker": "patient",
+            "text": "작은 문구점에서 시간제로 일해요. 주로 재고 정리를 해요."
+          },
+          {
+            "turn_id": "D04",
+            "speaker": "clinician",
+            "text": "오늘 아침에는 무엇을 드셨어요?"
+          },
+          {
+            "turn_id": "P04",
+            "speaker": "patient",
+            "text": "집에서 요구르트랑 바나나 먹었어요."
+          },
+          {
+            "turn_id": "D05",
+            "speaker": "clinician",
+            "text": "말씀하신 경험은 주로 어떤 때에 생기나요?"
+          },
+          {
+            "turn_id": "P05",
+            "speaker": "patient",
+            "text": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요. 아침에는 잘 안 들리는 편이고요."
+          },
+          {
+            "turn_id": "D06",
+            "speaker": "clinician",
+            "text": "그럴 때는 어떻게 지내세요?"
+          },
+          {
+            "turn_id": "P06",
+            "speaker": "patient",
+            "text": "그럴 때는 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요."
+          },
+          {
+            "turn_id": "D07",
+            "speaker": "clinician",
+            "text": "요즘 잠은 어떠세요?"
+          },
+          {
+            "turn_id": "P07",
+            "speaker": "patient",
+            "text": "대체로 잠은 잘 자요. 그런데 일어날 때 피곤한 날은 있어요."
+          },
+          {
+            "turn_id": "D08",
+            "speaker": "clinician",
+            "text": "다음 진료 전까지 해 보고 싶은 일이 있나요?"
+          },
+          {
+            "turn_id": "P08",
+            "speaker": "patient",
+            "text": "목소리가 들릴 때 제가 어떻게 지냈는지 간단히 적어 보고 싶어요."
+          }
+        ]
+      },
+      "three_actual_Claude_readings": [
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "프로필의 사실 범위 안에서 각 질문에 짧고 자연스럽게 답한다. 증상을 걱정하며 먼저 꺼내고, 일상 질문에는 간결하게 답하는 방식이 의사소통 설정(낮은 자발성, 조직적 응답)과 잘 맞는다. P05가 P01의 표현을 거의 그대로 반복하지만, D05가 같은 내용을 직접 물었으므로 자연스러운 재답변이다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "사람이 많은 곳에 다녀온 날에는 가끔 오후에 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 진술이 symptom, pattern, living, work, breakfast, coping, sleep, goal 사실과 일치하고, 횟수나 시작 시각 같은 무근거 구체화가 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "D01부터 D08까지 각 질문의 직접 대상에 맞게 답했다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05가 P01 내용을 반복하지만 D05의 직접 질문에 대한 답이고 '아침에는 잘 안 들리는' 정보를 더해 연결이 자연스럽다. 모순은 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "보고서식 나열이나 역할 설명 없이 환자 시점의 일상적 구어 표현으로 답했다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 4,
+          "realism_numeric_valid": true,
+          "realism_reason": "모든 환자 답변이 질문에 맞고 프로필 사실과 일치한다. 설정된 간결하고 조직적인 말투에 맞춰 자연스러운 일상 한국어로 답하며, 무근거로 새 사실을 확정하거나 역할을 벗어나는 표현이 없다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P05",
+              "quote": "아침에는 잘 안 들리는 편이고요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "증상, 시기, 대처, 수면, 생활 정보가 모두 프로필 사실과 일치하고, 횟수나 시작 시각 같은 무근거 구체화가 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 응답이 직전 의사 질문의 대상에 직접 답한다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05는 '어떤 때'라는 질문에 답하면서 P01 내용을 다시 말하고 아침 정보를 덧붙인 것이어서 불필요한 반복으로 보이지 않으며, 앞뒤 모순도 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "짧고 정돈된 환자 시점의 일상 표현이며, 보고서식 나열이나 메타 표현이 확인되지 않는다.",
+              "evidence": [],
+              "context_refs": []
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        },
+        {
+          "realism_score": 3,
+          "realism_numeric_valid": true,
+          "realism_reason": "전반적으로 간결하고 자연스러운 일상 답변이며 프로필과 잘 맞는다. 다만 증상 설명이 프로필 문구를 거의 그대로 옮긴 듯 정돈되어 있다. P05는 P01의 표현을 거의 동일하게 반복해 약간 정형적인 느낌이 있다.",
+          "realism_evidence": [
+            {
+              "patient_turn_id": "P01",
+              "quote": "사람이 많은 곳에 다녀온 날에는 가끔 오후에 저를 탓하는 낮은 목소리가 들려요.",
+              "valid_quote": true
+            },
+            {
+              "patient_turn_id": "P05",
+              "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요.",
+              "valid_quote": true
+            }
+          ],
+          "facets": {
+            "grounding": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "모든 환자 발화가 고정 사실(거주, 직업, 아침식사, 증상 양상, 대처, 수면, 목표)과 일치하며 무근거 구체화가 없다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "responsiveness": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답하고 있다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "continuity": {
+              "rating": 2,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "앞선 발화와 모순이 없다. P05의 반복은 시점을 묻는 질문에 대한 답이므로 연결 문제로 보지 않는다.",
+              "evidence": [],
+              "context_refs": []
+            },
+            "naturalness": {
+              "rating": 1,
+              "semantic_NA": false,
+              "numeric_valid": true,
+              "uncertain": false,
+              "uncertainty_valid": true,
+              "reason": "P05가 P01의 문장을 거의 그대로 되풀이해 국소적으로 정형적인 반복이 보인다.",
+              "evidence": [
+                {
+                  "patient_turn_id": "P05",
+                  "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요.",
+                  "valid_quote": true
+                }
+              ],
+              "context_refs": [
+                "turn:P01",
+                "turn:D05"
+              ]
+            }
+          },
+          "schema_errors": [],
+          "quote_errors": [],
+          "fully_schema_valid": true,
+          "all_provided_quotes_exact": true,
+          "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+        }
+      ],
+      "three_GPT_scores": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "stable_case02_wording_criticism": [
+    {
+      "item_id": "DEV-M13-02-rep01-v02",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "P01": "아파트 엘리베이터 안내 방송이 가끔 저를 빗대서 하는 말처럼 느껴져서 신경이 쓰여요. 정말 저를 두고 하는 건지는 확신이 없는데, 그 얘기를 좀 하고 싶어요.",
+      "D08": "다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "P08": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "existing_naturalness": [
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "다음 진료 목표를 말하면서 P01의 증상 표현을 거의 그대로 반복하여 국소적으로 정형적인 표현이 나타난다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "P08이 첫 호소의 표현과 프로필 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "P08이 P01과 프로필의 증상 문구를 거의 그대로 반복해 국소적으로 정형적인 표현이 된다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "fact:goal",
+            "fact:symptom"
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M13-02-rep02-v02",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "P01": "아파트 엘리베이터 안내 방송이 가끔 저를 빗대서 하는 말처럼 느껴져서 신경이 쓰여요. 정말 저를 두고 하는 말인지는 확신이 없는데, 그 얘기를 좀 하고 싶어요.",
+      "D08": "다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "P08": "다음에는 엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+      "existing_naturalness": [
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "P08이 P01의 긴 표현을 거의 그대로 반복해 정형적으로 들린다. 그 외 표현은 환자 시점에서 자연스럽다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "P08이 P01의 증상 서술을 프로필 문구에 가깝게 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "P08이 P01의 호소를 거의 같은 표현으로 되풀이해, 다음 진료 목표를 설정 문구처럼 읽는 듯한 국소적 정형 반복이 있습니다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 얘기를 좀 더 해 보고 싶어요",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:D08",
+            "turn:P01",
+            "fact:goal"
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "DEV-M13-02-rep03-v02",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "P01": "아파트 엘리베이터 안내 방송이 가끔 저를 빗대서 말하는 것처럼 느껴져서 신경이 쓰여요. 정말 저를 두고 하는 말인지는 확신이 안 드는데, 그 얘기를 좀 하고 싶어요.",
+      "D08": "다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "P08": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+      "existing_naturalness": [
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "대체로 일상적인 당사자 표현이지만, P08은 P01의 표현과 프로필 문구를 거의 그대로 되풀이하여 국소적으로 정형적인 느낌을 준다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "전반적으로 환자 시점의 일상어이다. 다만 P08이 P01의 호소 문구를 거의 그대로 반복해 국소적으로 정형적인 느낌을 준다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        },
+        {
+          "rating": 1,
+          "semantic_NA": false,
+          "numeric_valid": true,
+          "uncertain": false,
+          "uncertainty_valid": true,
+          "reason": "전반적으로 환자 시점의 자연스러운 말투다. 다만 P08이 P01과 goal 사실의 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+              "valid_quote": true
+            }
+          ],
+          "context_refs": [
+            "turn:P01",
+            "turn:D08",
+            "fact:goal"
+          ]
+        }
+      ]
+    }
+  ],
+  "new_numeric_judgments": 0,
+  "scope": "Actualpreviousrecords;notrescoreornewgroundtruth"
+}

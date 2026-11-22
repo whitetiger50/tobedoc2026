@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "Do you take food with you for your shift?",
+    "reason": "This is a clear habitual question about bringing food to work, without requiring a choice between early and late shifts.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan routinely brings food to work.",
+        "answer": "Morgan packs a sandwich for every shift, early or late."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "pay for the replacement",
+    "reason": "The singular replacement could refer to either the badge or the key, but neither cost anything.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron paid for the replacement ID badge.",
+        "answer": "The replacement ID badge was free."
+      },
+      {
+        "meaning": "Whether Cameron paid for the replacement locker key.",
+        "answer": "The replacement locker key was free."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "a deadline to reply to the letter",
+    "reason": "Both letters are explicitly foregrounded without selecting one, and their reply requirements differ even though Alex could explain both directly.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing letter has a reply deadline.",
+        "answer": "The housing office requires a reply by Friday."
+      },
+      {
+        "meaning": "Whether the employer's letter has a reply deadline.",
+        "answer": "The employer's letter is informational and requires no reply."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Do you hear it",
+    "reason": "The immediately preceding exchange specifically establishes the high ringing as the topic, making it the clear referent of 'it'.",
+    "alternatives": [
+      {
+        "meaning": "Whether the high-pitched ringing occurs in one ear or both.",
+        "answer": "The high-pitched ringing occurs in both ears."
+      }
+    ]
+  }
+}

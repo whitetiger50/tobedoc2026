@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "I still use the phone alarm at 7:10 in the morning. I took the note off the door last month.",
+    "reason": "The reply affirms continued phone-alarm use and confirms removal of the door note last month.",
+    "A": {
+      "state": "supported",
+      "quote": "I still use the phone alarm at 7:10 in the morning."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I took the note off the door last month."
+    }
+  },
+  "v2": {
+    "quote": "The fan does. The speaker stops after twenty minutes.",
+    "reason": "The elliptical affirmation says the fan stays on all night, while the speaker stops after twenty minutes.",
+    "A": {
+      "state": "supported",
+      "quote": "The fan does."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The speaker stops after twenty minutes."
+    }
+  },
+  "v3": {
+    "quote": "Do you mean where I catch the number 8 bus, or where I get on the tram?",
+    "reason": "The reply asks which transport mode is intended without identifying either boarding stop.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v4": {
+    "quote": "Do you mean my brother or Mr. Bell?",
+    "reason": "The reply asks which person is intended without saying whether either was called back.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  }
+}

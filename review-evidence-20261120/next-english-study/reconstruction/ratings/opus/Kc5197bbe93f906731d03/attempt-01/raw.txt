@@ -1,0 +1,19 @@
+{
+  "item1": {
+    "choice": "B",
+    "reason": "The patient says more than once, in their own words, that they feel ready or steady enough for one extra shift, which places it within their current capacity.",
+    "citations": [
+      {"turn": 1, "role": "patient", "quote": "I feel steady enough to take on an extra shift", "supports": "B"},
+      {"turn": 9, "role": "patient", "quote": "I feel ready to add one extra shift", "supports": "B"},
+      {"turn": 12, "role": "patient", "quote": "I’d keep my three mornings and add one extra shift. I feel ready for that", "supports": "B"}
+    ]
+  },
+  "item2": {
+    "choice": "A",
+    "reason": "The patient describes the two-night change as waking earlier while the upstairs apartment was being painted, and nothing they say mentions waking later.",
+    "citations": [
+      {"turn": 2, "role": "patient", "quote": "waking earlier on two nights while the upstairs apartment was being painted", "supports": "A"},
+      {"turn": 4, "role": "patient", "quote": "The only change I’ve noticed is waking earlier on those two nights", "supports": "A"}
+    ]
+  }
+}

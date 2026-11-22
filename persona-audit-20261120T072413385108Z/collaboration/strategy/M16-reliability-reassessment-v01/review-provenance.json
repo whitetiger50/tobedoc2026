@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-19T10:51:48.266681+00:00",
+  "Astra": {
+    "agent": "/root/astra_m16_reliability",
+    "requested_model": "gpt-6.2-astra",
+    "requested_effort": "high",
+    "actual_response_files": [
+      "astra-round01.md",
+      "astra-round02.md"
+    ],
+    "review_turns": 2,
+    "backend_model_snapshot_not_independently_verified": true
+  },
+  "Claude": {
+    "requested_model": "claude-opus-5-5",
+    "effort": "high",
+    "actual_official_subscription_CLI_responses": 2,
+    "dirs": [
+      "claude-round01",
+      "claude-round02"
+    ],
+    "not_numeric_rater_context": true
+  },
+  "initial_packet": "request.md",
+  "followup_packet": "round02-request.md",
+  "new_numeric_scores": 0,
+  "new_patient_outputs": 0,
+  "source_prompt_and_criteria_changed": false,
+  "after_followup_mapping_corrections": "mapping-interpretation-addendum.md",
+  "canvas_typescript_diagnostics": 0,
+  "canvas_open_status": "queued_not_visual_render_verified"
+}

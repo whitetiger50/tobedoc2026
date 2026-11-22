@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "I handed the cracked badge back. I lost the old key.",
+    "reason": "The reply confirms that the badge was returned and the old key was lost.",
+    "A": {
+      "state": "supported",
+      "quote": "I handed the cracked badge back."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I lost the old key."
+    }
+  },
+  "v2": {
+    "quote": "For the number 8 bus, I get on at Orchard Road. If I take the tram, I board at Bell Square.",
+    "reason": "The reply explicitly identifies the boarding stop for each transport option.",
+    "A": {
+      "state": "supported",
+      "quote": "For the number 8 bus, I get on at Orchard Road."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If I take the tram, I board at Bell Square."
+    }
+  },
+  "v3": {
+    "quote": "I did miss one, I’m afraid—the evening before I started the lower dose. I haven’t missed any since starting it.",
+    "reason": "The reply answers that one tablet was missed in the interval since the last visit, before the lower dose began, and none since starting it.",
+    "A": {
+      "state": "supported",
+      "quote": "I did miss one, I’m afraid—the evening before I started the lower dose."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven’t missed any since starting it."
+    }
+  },
+  "v4": {
+    "quote": "I called my brother back, but not Mr. Bell yet.",
+    "reason": "Despite the opening clarification question, the reply explicitly confirms calling the brother back but not the building manager.",
+    "A": {
+      "state": "supported",
+      "quote": "I called my brother back"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "but not Mr. Bell yet."
+    }
+  }
+}

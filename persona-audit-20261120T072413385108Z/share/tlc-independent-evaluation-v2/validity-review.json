@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "status": "withdrawn_as_primary_outcome_unvalidated_custom_rubric",
+  "supersedes": "Recommendation to use v2 item scores and target-distance as primary evidence of prompt simulation performance",
+  "why": [
+    "Modified scoring anchors, observation unit, aggregation and evaluator were not externally validated.",
+    "Equal costs between ordinal grades and target distance are research design choices, not established clinical fidelity metrics.",
+    "Agreement between an expert and an LLM using the same new rubric is rater agreement, not sufficient construct validation."
+  ],
+  "allowed_use": "Exploratory development checks and arithmetic demonstrations with explicit limits.",
+  "not_supported": "Clinical simulation superiority, equivalence to patients, or validity inherited from TLC.",
+  "new_model_calls": 0,
+  "methodology_source": "https://www.fda.gov/media/159500/download",
+  "source_scope": "General clinical outcome assessment measurement principles; no FDA regulatory requirement is imposed on this poster project.",
+  "before_file_sha256": {
+    "평가설계.md": "80d9e2534216ed8f3fe08054fed5eabac5abf943a4882b726211abbc895ce105",
+    "specification.json": "6e905214eb8041e890f0cc75756ed4e6c06d09aa42299ecadf6bdddff70d9355",
+    "TLC-independent-evaluation.canvas.tsx": "71cb164dcf4a064535e25545e621a4c592990bc93e32e40499521fdb53ec4a6e"
+  },
+  "after_file_sha256": {
+    "평가설계.md": "1214e3763d35cfb94c6ebd2e36c82f2602e552006518d2579033c650cec2c8e6",
+    "specification.json": "44076b6dac0cdb956620e9afada2b64d7e6da84d46cb24ecdc5ab24edcf4e8dd",
+    "TLC-independent-evaluation.canvas.tsx": "81a927bf1ce4db89caab12498fae45867bcfadaa8a69f08b1857c9f4b95c424a"
+  },
+  "previous_verification_scope": "Arithmetic only; historical hashes predate this validity review."
+}

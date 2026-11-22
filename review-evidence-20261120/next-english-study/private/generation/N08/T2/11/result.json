@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 11,
+  "question": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-a8e4-7732-8e47-478325700e75",
+  "raw": "It varies from day to day. On Wednesday I waited at the same shelter and felt fine, unlike Monday. That uncomfortable moment still comes to mind sometimes, but it doesn’t mean every journey feels that way.",
+  "raw_sha256": "377af6aaa93846b3535f2fe7677e86944f62609f412ee38ef1940b7df01622cd",
+  "request_sha256": "b85280d4ec6902dadf071f0e51961dc5bb826022a7813f0f4464bac857927908",
+  "started_utc": "2026-11-20T21:03:40.172012+00:00",
+  "completed_utc": "2026-11-20T21:03:43.969144+00:00",
+  "usage": {
+    "input_tokens": 6832,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 46,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6dbf445f132e24fa92516160940fd639d5795fb43273077f9279ea13190170b3",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "af93c096279715b07ba6cbf33702074b3752458e188fd498f19a309ec065c7ab"
+}

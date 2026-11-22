@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I920b589cb735f164f21f2e5d",
+  "ended": "2026-11-21T03:52:13.438508+00:00",
+  "session": "dabf25e4-e1e0-4404-bc87-b9580fdc83a7",
+  "packet_sha256": "ec2c274683aeba147e3cfa583b5c3ca2eee29919e543431b96b3be6603ba4106",
+  "raw_sha256": "edff030b6961d84745497d8d4770cb3377680fe121be6eb6bd6d55aa3cc8a5d3",
+  "provider_sha256": "bba5ed7a79e4839b70680d8d33f478feb93a7426fcd93c111d2e96cd3ac9bbb7",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are accurate and coherent, and turn 1 shows the dry humor the profile describes. Most later answers, though, closely restate the profile facts or echo the question's wording, with little conversational texture. The profile says Morgan is conversational, has a dry sense of humor and is comfortable adding relevant details, but after turn 1 there is no humor and almost no added detail. When the clinician asks about the alarm three times (turns 3–5) and the late-shift ride twice (turns 8–9), the patient just repeats the facts. A real outpatient who is at ease with their clinician would likely say something like 'like I said.' Turn 3 also has stray quotation marks around the answer, an artificial artifact. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to find out there’s no sound before there’s an audience."
+    },
+    {
+      "turn": 3,
+      "quote": "“I’m still using the phone alarm at 7:10 in the morning. I took the note off the door last month.”"
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    },
+    {
+      "turn": 9,
+      "quote": "A coworker drops me off after a late shift."
+    }
+  ]
+}

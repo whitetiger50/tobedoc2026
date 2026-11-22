@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T21:19:52.037963+00:00",
+  "attempt": "attempt-01",
+  "id": "Kc665a262bc3fefc168fc",
+  "reader": "gpt",
+  "session": "01a1fad4-5ec6-7fa1-bdcf-1ffe8358502e",
+  "packet_sha256": "b248abd45892c7e3b7ba97992877fd7a887b598629e7e2357982330364132b65",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "2f204cc3c93ab25bbae1eb297351dae201179a3c407eab4d1efaf9fe37f7a645",
+  "raw_sha256": "9c9859b05c9e9bac34ebb15a730647efe493c0505d28e8020f50d71bd4c46aee",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient explicitly feels able and ready to add one extra shift.",
+      "evidence": [
+        {
+          "turn": 9,
+          "role": "patient",
+          "quote": "I feel steady enough to take on one extra shift",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’d keep my three opening mornings and add one extra shift. I feel ready for that, as long as Sunday stays free for the league.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient identifies the two-night change as waking earlier, not later.",
+      "evidence": [
+        {
+          "turn": 4,
+          "role": "patient",
+          "quote": "Just waking earlier than usual on two nights while the apartment upstairs was being painted.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

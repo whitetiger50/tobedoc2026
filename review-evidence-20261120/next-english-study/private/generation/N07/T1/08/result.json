@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T1",
+  "turn": 8,
+  "question": "What gets in the way there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-34d1-7463-b708-b78a4b2e520c",
+  "raw": "Do you mean getting the reading done at home, or keeping up during class?",
+  "raw_sha256": "07d6a7ff1ba9ce17b29aa8295836c2d1c84efc063ce878f5de15defefbec4176",
+  "request_sha256": "6100dd96d84caf5dc9185cbf394529f05b570889a4a52abeca14ce61799e4a8a",
+  "started_utc": "2026-11-20T21:02:04.917343+00:00",
+  "completed_utc": "2026-11-20T21:02:11.668840+00:00",
+  "usage": {
+    "input_tokens": 7573,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 124,
+    "reasoning_output_tokens": 102
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "dae53da2a6e15d87dd1e32f015bc66629ec4a2938235a155101ca6b05734db84",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f7cc8446a989f17bf959f6b43b18801df862dcd193aaabf939a245cd1463f594"
+}

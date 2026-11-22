@@ -1,0 +1,47 @@
+{
+  "neither": {
+    "case": "H01",
+    "turn": 3,
+    "question": "Does it happen more at one time than another?",
+    "answers": {
+      "B": "It’s more noticeable on the ride home when the bus is crowded. When I’m stocking shelves and the shop is quiet, it doesn’t bother me nearly as much.",
+      "T0": "“It’s stronger on crowded bus rides home. I notice it less when I’m stocking shelves in the quiet shop.”",
+      "T1": "“It’s stronger on the bus home when it’s crowded. I notice it less when I’m stocking shelves in the quiet shop.”"
+    },
+    "yield": {
+      "B": false,
+      "T0": false,
+      "T1": false
+    }
+  },
+  "T1_only_vs_T0": {
+    "case": "H02",
+    "turn": 5,
+    "question": "How does it work once you get started?",
+    "answers": {
+      "B": "“Once I get going with a pile, it usually goes all right. I leave a blank bookmark where I’ve stopped—that was my idea. If someone asks me something, though, I might come back holding a book and have to work out what I was doing with it.”",
+      "T0": "“The bookmark shows me where I stopped, but getting back into the sorting still takes an effort when it’s busy. Sometimes another volunteer just points to the pile without making a fuss. I appreciate that—I don’t want a misplaced mystery becoming everyone’s business.”",
+      "T1": "Do you mean how I sort the books, or how I get back to what I was doing after someone interrupts?"
+    },
+    "yield": {
+      "B": false,
+      "T0": false,
+      "T1": true
+    }
+  },
+  "both": {
+    "case": "H03",
+    "turn": 3,
+    "question": "Has the timing changed much?",
+    "answers": {
+      "B": "Do you mean when I listen?",
+      "T0": "Do you mean the time the matches are on?",
+      "T1": "Do you mean what time the matches are on?"
+    },
+    "yield": {
+      "B": true,
+      "T0": true,
+      "T1": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "T0",
+  "turn": 9,
+  "question": "Who do you feel comfortable asking for help with a practical job?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-d1a4-7211-b7df-6e4aa4b6e02e",
+  "raw": "“My housemate—I’m comfortable asking them. Sometimes they read the day’s jobs back to me while I gather things, and that helps. I still like doing the jobs myself; it’s just useful to have someone help me keep track when there are several little things at once.”",
+  "raw_sha256": "a0aa375fd179490dc4be98706ef65812a3aa9f6282c7e6fc0a19d3b5aaa1d36d",
+  "request_sha256": "a1e2b01f9b063f612218fd991ce382be42e6067e2befa5c95f911399440228c6",
+  "started_utc": "2026-11-20T20:41:59.863392+00:00",
+  "completed_utc": "2026-11-20T20:42:04.257464+00:00",
+  "usage": {
+    "input_tokens": 7640,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "054a82e21cb3119681852999e9cc13503eaadd769331d84d90293822216ea939",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "f561fa83ddc57339e78278d51e3b36208d21665a678c8f3384a59c32c6ebf114"
+}

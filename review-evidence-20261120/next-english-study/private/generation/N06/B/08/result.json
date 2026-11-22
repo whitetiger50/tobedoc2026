@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "B",
+  "turn": 8,
+  "question": "Does that interfere with what you are doing?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-4f17-72e3-8f24-728a910b7ac4",
+  "raw": "Not much. I stop for a sip of water, then carry on with what I’m doing.",
+  "raw_sha256": "3b21d7482190f4a570d33bbb61b66d5365070bf461c08b11190ed9a8c9a6d382",
+  "request_sha256": "af20fa24aa79a26c207a014d97bbbaeaffeea52767f9e705ef3820ed2728dccf",
+  "started_utc": "2026-11-20T21:02:17.696506+00:00",
+  "completed_utc": "2026-11-20T21:02:21.600804+00:00",
+  "usage": {
+    "input_tokens": 64237,
+    "cached_input_tokens": 54784,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2e5900e3d31cfabc00f551d4e7a1ace1239c32d004b2f973aeb51b1a68f2765c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "16a65111c02d4efb71be50142c9f0822202180d9359e0cc2fd7e886233af02f5"
+}

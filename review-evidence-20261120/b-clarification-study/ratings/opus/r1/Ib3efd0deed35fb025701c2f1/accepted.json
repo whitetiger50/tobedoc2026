@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ib3efd0deed35fb025701c2f1",
+  "ended": "2026-11-21T03:49:38.333533+00:00",
+  "session": "21e10e0b-bb81-4c3d-9957-bc64e906ee85",
+  "packet_sha256": "5a944e82322405f5f299dca6fd103eb96ab6fcc7d44936e41db458e16d431e95",
+  "raw_sha256": "063e8358c64d4330585e0cda464d6b1c4eaafc7f713e8ddb06d3bc5bff78c8b0",
+  "provider_sha256": "7a251552fd0ae0d8ea74f3f6c1e8262def72113b4b12dcd168b9acb0bf3e6564",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication mostly fits the persona: soft-spoken, brief, concrete answers given in sequence, with no new topics raised, consistent with decreased verbal productivity and low spontaneity. Some details add realism. The patient asks a reasonable clarifying question when the badge/key question is ambiguous (turn 4), patiently restates who suggested the shorter shifts when asked again (turn 11), and links the preferred schedule to the insight that mornings are easier (turn 12). The main limitation is that every answer is uniformly polished and grammatically complete, with no hesitation, vagueness, or minor imprecision. This makes the exchange feel slightly scripted for an outpatient with schizophrenia and reduced speech output. These are minor issues that do not significantly undermine realism.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "Do you mean the badge or the locker key?"
+    },
+    {
+      "turn": 7,
+      "quote": "I grow mint."
+    },
+    {
+      "turn": 2,
+      "quote": "No. I didn’t have to pay for either of them."
+    },
+    {
+      "turn": 12,
+      "quote": "I’d most like to keep the later start. It makes mornings easier."
+    }
+  ]
+}

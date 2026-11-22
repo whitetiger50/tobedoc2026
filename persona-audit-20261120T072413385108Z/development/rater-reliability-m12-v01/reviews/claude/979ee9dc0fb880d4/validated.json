@@ -1,0 +1,78 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "환자 답변은 프로필 사실과 맞고, 의사의 잘못된 전제를 차분하게 바로잡는다. 다만 의사가 해석을 확인하는 질문에서 일어난 시각이나 인과관계를 구분하는 설명이 다소 정돈되고 메타적이다. 그래서 실제 환자의 말투보다 약간 작위적으로 느껴진다. 방송 주제의 답변(P01)은 설정된 믿음을 자연스럽게 드러내며, 연상 이탈이 없는 것은 설정상 허용된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "오늘은 오후에 집 근처를 걸었다는 뜻이지, 일어난 시각까지 말씀드린 건 아니에요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같은 느낌이 커요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 답변이 living, routine, belief, today_activity 사실 범위 안에 있다. 새 사실을 확정하거나 기존 사실과 모순되는 내용은 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답한다. D04, D05, D06, D07의 잘못되거나 과도한 전제는 정확히 정정하거나 범위를 제한하는 방식으로 대응한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥과 앞선 환자 말에 일관되게 이어진다. P08의 반복은 D08의 재질문에 대한 짧은 동일 답이므로 오류가 아니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P05와 P07은 의사의 메타적 확인 질문에 대한 답이라 설명 자체는 타당하다. 다만 '말씀드린 건 아니에요'처럼 자기 발화의 범위를 분석적으로 구분하는 표현이 다소 정형적이고 격식적이다. 질문 자체가 이런 구분을 요구했으므로 불확실성이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오후에 일어난다는 건 평소 얘기였어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "근무를 쉬어서 오후에 일어난다는 뜻은 아니었어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D07"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

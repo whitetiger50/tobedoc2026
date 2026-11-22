@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "B",
+  "turn": 4,
+  "question": "Is that still taking a while?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e8c-7820-a518-c546dc1aff45",
+  "raw": "Yes. Getting out the door still takes a while.",
+  "raw_sha256": "f0640653e75747b8259adc98aa6454441863e1461e4a889e5715129ec79f653d",
+  "request_sha256": "f606dc5d5b5104c91b3f9920655d2de7dedf8066d195432be1f2daa1724d3d47",
+  "started_utc": "2026-11-20T21:00:16.996545+00:00",
+  "completed_utc": "2026-11-20T21:00:20.698736+00:00",
+  "usage": {
+    "input_tokens": 31561,
+    "cached_input_tokens": 18816,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 95,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "958134fe66e89a8980d261d30c7b2c274bc67909996158e1b202c74e27a33599",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "11de47c161b6b9736d233f38d37a6e123ebe7c443373edc5ec1c08e1c45f0188"
+}

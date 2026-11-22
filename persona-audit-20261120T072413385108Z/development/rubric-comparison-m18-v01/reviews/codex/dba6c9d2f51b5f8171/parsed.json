@@ -1,0 +1,185 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "질문에 대한 직접적인 답변과 설정에 맞는 경험 설명은 유지된다. 다만 P03·P06·P07에서 일상적인 질문의 답을 항목별 보고로 도입하고 답변 완료를 선언하는 메타 표현이 반복되어, 환자 시점의 일상 대화와 국소적으로 부조화한다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "turn:P07",
+        "fact:coping",
+        "communication.expression"
+      ]
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "context_refs": [
+        "turn:D05",
+        "fact:pattern"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "직업, 동거인, 경험의 발생 상황, 대처와 수면 설명이 제공된 사실에 부합하며 새로운 사건을 확정하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "낮에 가게에서 일할 때는 거의 안 들리고요."
+        }
+      ],
+      "context_refs": [
+        "fact:pattern",
+        "fact:work",
+        "fact:living",
+        "fact:coping",
+        "fact:sleep"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상을 다룬다. 반복된 내용도 재확인, 발생 상황 설명, 대처 및 다음 진료 목표라는 질문에 대응한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요."
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 경험과 대처 설명이 일관되게 이어지며, 재진술 때문에 대화가 정체되거나 자기모순이 발생하지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:P06",
+        "turn:D08"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P03·P06·P07의 반복적인 항목별 보고 도입과 답변 완료 선언은 단일한 일상 경험 질문에 답하는 환자 표현으로서 불필요한 메타 형식을 이룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "turn:P07",
+        "communication.expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "form_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 부분을 항목별로 말씀드리면, 잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요. 해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression"
+      ],
+      "function": "질문별 답변 도입과 내용 설명 및 답변 완료 표시",
+      "finding": "supported_issue",
+      "primary_facet": "naturalness",
+      "reason": "각 질문에 내용을 설명하는 기능은 유지된다. 그러나 이미 설명한 뒤 '해당 항목에 대한 답변'의 완료를 선언하고 다음 질문에서도 같은 보고 절차를 재시작한다. 단일한 일상 경험을 묻는 문맥에서 자신의 발화를 항목별 답변으로 관리하는 메타 표현이 반복되어, 명시된 일상 환자 대화 방식과 국소적으로 어긋난다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "동거인 재확인에 대한 답변",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 같은 정보를 명시적으로 재확인했으므로 동일한 답변은 직접적인 대응이다. 새로운 질문 대상을 누락하거나 끝난 설명을 임의로 재시작하지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:coping",
+        "fact:goal"
+      ],
+      "function": "현재 대처를 재지칭하여 다음 진료의 상담 목표 설명",
+      "finding": "supported_use",
+      "primary_facet": "continuity",
+      "reason": "다음 진료에서 다룰 내용을 묻는 질문에 기존 대처와 추가 방법에 대한 요청을 연결한다. 반복이 현재 질문을 대신하거나 대화 연결을 끊지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "B",
+  "turn": 7,
+  "question": "How are you getting on with assignments at home and with time spent in class?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7580-80c1-d7dd70645c48",
+  "raw": "At home I get some done, but I still leave more reading than I mean to until the journey there. If there’s conversation around, I keep going over the same bit. Class has been easier lately… I like going, though I sometimes lose the thread when several people start talking.",
+  "raw_sha256": "db0cf96365e41f29cf8b743caaca2857c18bb9f65cbf37f95d8ff1c132fcdb72",
+  "request_sha256": "7be057dbad60b8b0ef2dac55ccc6ef0620805617f6558bac8eb58e32cd01b150",
+  "started_utc": "2026-11-20T21:01:25.667488+00:00",
+  "completed_utc": "2026-11-20T21:01:31.132853+00:00",
+  "usage": {
+    "input_tokens": 56368,
+    "cached_input_tokens": 41344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 404,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ff46495abb2606be17eb4f420c749dca9f6ffec63d66f4cf6730c2edd65f8e8b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "3247f025eaafe0f2e16722ef9785acd371d04fdb90459231a2d8f21a0616e127"
+}

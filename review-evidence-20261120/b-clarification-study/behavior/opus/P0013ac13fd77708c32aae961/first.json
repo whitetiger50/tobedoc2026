@@ -1,0 +1,77 @@
+{
+  "id": "P0013ac13fd77708c32aae961",
+  "reader": "opus",
+  "session": "82c201c9-94cc-445d-8162-660216866176",
+  "attempt": "attempt-01",
+  "packet_sha256": "04a57d25f2dafa990c337ebd820be8047b0431264cbe0b18da4d4f66e3f9804b",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "fafbde3d6798209dbcb46c5312c134b8f2bf3526bd041f009068cf01883d6cda",
+  "raw_sha256": "4e14641a8c62ca13369db9c1714e537ba125038dc09e310eeb4096fc13689f98",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "clip the new one to",
+        "reason": "The immediately preceding turn narrowed the topic to the ID badge, and a badge is the item that gets clipped, so 'the new one' clearly means the replacement badge.",
+        "alternatives": [
+          {
+            "meaning": "The replacement ID badge",
+            "answer": "Cameron clips the ID badge to a blue lanyard."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The preceding question singled out Thursday, so 'that day' refers to Thursday's outage.",
+        "alternatives": [
+          {
+            "meaning": "What was playing during Thursday's outage",
+            "answer": "Sam was listening to the music request show on Thursday."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Have you missed a tablet since then?",
+        "reason": "Two reference dates were marked, and 'since then' could mean either one; the single missed tablet fell between them, so the factual answer changes with the reading.",
+        "alternatives": [
+          {
+            "meaning": "Since the visit three weeks ago",
+            "answer": "Yes. Ren missed one tablet, the evening before the lower dose began."
+          },
+          {
+            "meaning": "Since starting the lower dose two weeks ago",
+            "answer": "No. Ren has not missed any tablets since starting the lower dose."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The preceding exchange established that only the phone alarm is still in use, so 'it' clearly means the phone alarm.",
+        "alternatives": [
+          {
+            "meaning": "The time set on the phone alarm for the staff pass",
+            "answer": "Morgan sets the phone alarm for 7:10 in the morning."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:57:31.765555+00:00"
+}

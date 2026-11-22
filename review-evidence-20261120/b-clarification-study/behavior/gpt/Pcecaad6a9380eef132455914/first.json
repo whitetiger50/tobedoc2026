@@ -1,0 +1,81 @@
+{
+  "id": "Pcecaad6a9380eef132455914",
+  "reader": "gpt",
+  "session": "01a1fc3e-016b-79c1-9fb8-e21175a256f9",
+  "attempt": "attempt-01",
+  "packet_sha256": "0cd2b2db7bb3b7ecf56c64b8ffdafbdec2e9f23f26924fc6cfc49f3eaf9e4c85",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b1ae4bc8f26edca6707ad3de222c67c761a554440ab042adc3ee885f3df69635",
+  "raw_sha256": "4d8b62cbdf8df77f6352ac6999f52f23e24d929494fe71eed55756bc586e4cf1",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "What time do you set it for?",
+        "reason": "The immediately preceding exchange establishes the phone alarm as the referent and its scheduled ringing time as the target.",
+        "alternatives": [
+          {
+            "meaning": "The time the staff-pass phone alarm is set to ring.",
+            "answer": "Morgan sets the alarm for 7:10 every morning."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did it come through the post?",
+        "reason": "Either letter remains a reasonable referent for 'it', but both arrived by post.",
+        "alternatives": [
+          {
+            "meaning": "Whether the housing letter arrived by post.",
+            "answer": "The housing letter arrived by post."
+          },
+          {
+            "meaning": "Whether the employer's letter arrived by post.",
+            "answer": "The employer's letter arrived by post."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when it went quiet that day",
+        "reason": "The immediately preceding exchange fixes Thursday as the day and the radio as what went quiet.",
+        "alternatives": [
+          {
+            "meaning": "What Sam was listening to when the radio went silent on Thursday.",
+            "answer": "Sam was listening to the music request show."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Do you usually walk there?",
+        "reason": "The question reintroduces both destinations, leaving either as a reasonable referent for 'there', but Ren walks to both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Ren usually walks to the book group.",
+            "answer": "Ren walks to the book group."
+          },
+          {
+            "meaning": "Whether Ren usually walks to Mom's apartment.",
+            "answer": "Ren walks to Mom's apartment."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:55:00.586342+00:00"
+}

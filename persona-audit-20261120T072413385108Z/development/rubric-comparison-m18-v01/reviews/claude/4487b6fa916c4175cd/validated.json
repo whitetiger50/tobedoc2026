@@ -1,0 +1,80 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "프로필에 맞는 사실을 담담하고 일관되게 말해 대체로 자연스럽다. 다만 첫 답(P01)과 마지막 답(P08)이 같은 문구를 거의 그대로 되풀이한다. 또 소리가 실제처럼 느껴지는 데 대한 주관적 반응이 드러나지 않아, 응답이 다소 평면적이고 정형적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그럴 때 라디오를 켜고 다른 소리에 집중해 보는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "지금은 라디오를 켜고 다른 소리에 집중해 보는데, 그 밖에도 도움이 되는 방법이 있는지요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 직업, 증상, 발생 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하며, 무근거로 새 사실을 확정한 부분은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 턴이 직전 의사 질문의 대상에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "재확인 질문(D04)에 같은 답을 짧게 한 것은 자연스럽다. P08의 내용 반복도 다음 진료 목표를 묻는 질문(D08)에 대한 답이므로, 연결상의 문제는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P08이 P01의 대처·목표 문구를 거의 그대로 되풀이해 국소적인 정형 반복이 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "어떻게 대처하면 좋을지 여쭤보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:goal",
+        "fact:coping"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "T1",
+  "turn": 12,
+  "question": "Is there anything about how you feel now that we haven't covered?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-e678-7501-8c39-da4f537bebbd",
+  "raw": "“No, I think we’ve covered it. I’m feeling well, and things feel much as usual.”",
+  "raw_sha256": "b0c3dbb52287be963483568ebd11d6e6ac7b55c4664ca6a403d4a2c92c92c615",
+  "request_sha256": "c75d2d7d1c30a45325bf960d7e330193235c840d8f957240b714a1f3cfe63049",
+  "started_utc": "2026-11-20T20:43:10.751000+00:00",
+  "completed_utc": "2026-11-20T20:43:14.523864+00:00",
+  "usage": {
+    "input_tokens": 7605,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3ed09ca8a03c7d4872e64f21c682480b487276f16728c20f78a4e7d5f3c7fabb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1c34eb514917ebddc45c308b9078226ab993df211f73fe47ee40cd8966e03b04"
+}

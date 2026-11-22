@@ -1,0 +1,109 @@
+{
+  "id": "V451bee3b54cb72e55f4240fb",
+  "reader": "opus",
+  "session": "d9c54ae7-1329-4da9-a9e6-fd90fea5929e",
+  "attempt": "attempt-01",
+  "packet_sha256": "1bcb3a6b1b3acc60e1425a7795b6d5a64f6798b6cc4effd5e37e23fdf4a520ac",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "40539ebf7cddccc4b419cce6ea0118693fad6b970f9c53512beb850a264842be",
+  "provider_sha256": "09274bed12b0117614390d06628a07abf3f44e3bd0ab9f5a425b7b0cb38cedfe",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "Yes, the housing letter needs a reply by Friday.",
+        "reason": "The reply says the housing letter needs a reply by Friday and the work letter needs no reply.",
+        "A": {
+          "state": "supported",
+          "quote": "the housing letter needs a reply by Friday"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I don’t need to reply to that"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "Still using the phone alarm at 7:10 in the morning.",
+        "reason": "The reply says the phone alarm is still in use and the door note was removed last month.",
+        "A": {
+          "state": "supported",
+          "quote": "Still using the phone alarm"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I took the note off the door last month."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The tablets are in the kitchen cabinet.",
+        "reason": "The reply puts the tablets in the kitchen cabinet and the eye drops on the bedside table, not in the kitchen.",
+        "A": {
+          "state": "supported",
+          "quote": "I keep the eye drops on my bedside table."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "The tablets are in the kitchen cabinet."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the fan or the speaker?",
+        "reason": "The reply only asks which item was meant and gives no answer about either one.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:30.258222+00:00"
+}

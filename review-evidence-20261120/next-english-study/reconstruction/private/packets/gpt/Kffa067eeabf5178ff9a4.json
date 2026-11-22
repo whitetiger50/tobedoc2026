@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "How do you spend your time after a morning at work?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "How do you feel on the way home and once you have settled in?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Does it stay with you long?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "I was asking about the journey. Are there things from the ride or the wait that you keep thinking about afterward?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "Have you felt singled out or especially noticed by anyone in a public place recently?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "Could you describe a specific recent time in public that stands out to you?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "When other people glance in your direction, what goes through your mind, if anything?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "How have getting around and spending time on your interests fitted into your week?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "How easy is it to focus then?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "I meant time spent on an interest. How is your concentration during that activity?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "How do your usual clinic contacts fit into your schedule?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Experience while waiting for the bus on Wednesday",
+      "A": "At the same shelter on Wednesday, the sense of being watched was present.",
+      "B": "At the same shelter on Wednesday, the sense of being watched was absent."
+    },
+    "item2": {
+      "question": "Interpretation of the looks at the shelter",
+      "A": "The patient remains unsure whether the people at the shelter looked up because they recognized them.",
+      "B": "The patient feels fairly sure that the people at the shelter looked up because they recognized them."
+    }
+  }
+}

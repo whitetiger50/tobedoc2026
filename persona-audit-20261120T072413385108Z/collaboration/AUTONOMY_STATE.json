@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "updated_local": "2026-11-20",
+  "root_relative_to": "persona-audit",
+  "objective": "조현병 환자의 사고·의사소통 특성의 텍스트 표현과 기존 LLM의 재현·분석 가능성",
+  "cycle": "M23",
+  "workflow": "resume_on_active_turn",
+  "background_scheduler_created": false,
+  "decision_owner": "Astra",
+  "runtime_roles": {
+    "lead": {
+      "requested": "gpt-6.2-astra/high",
+      "current_evidence": "active follow-up to Astra research lead; model family/effort assigned via delegation, not immutable snapshot verification"
+    },
+    "implementation": {
+      "requested": "gpt-6.1-sol/high",
+      "task_this_cycle": "Actual Sol worker produced migration tooling and the two-study patient-language evidence brief. Astra checked the brief against the source data definitions and PubMed abstract."
+    },
+    "counterargument": {
+      "requested": "Claude Opus 5.5 via official subscription CLI",
+      "task_this_cycle": "Completed single separate-context review; see collaboration/strategy/M23-astra-led-operations-v01/opus-round01/response.txt. No second round. Opus only read the supplied packet."
+    }
+  },
+  "decisions": {
+    "clinical_similarity_validated": false,
+    "m21_generation": "hold",
+    "m22_critique": "accepted; earlier synthetic cue lacks independent mapping to observed clinical disorganization",
+    "m23_same_task_benchmark": "not established in checked documents; public model contrasts available, exact stimulus reuse rights, equivalent E/V coding and reference distributions unverified",
+    "available_work": "clinical evidence extraction and existing engineering/measurement pilot",
+    "current_authorized_outputs": "operating system, migration handoff and bounded public-evidence appraisal; no new patient-role outputs, ratings or patient prompt edits"
+  },
+  "protected": [
+    "historical evidence and v0.2",
+    "final 12 content stays unused",
+    "720 final reads stay unused",
+    "withdrawn TLC modification and BPRS realism metric stay retired"
+  ],
+  "lead_report": "collaboration/strategy/M23-astra-led-operations-v01/astra-lead.md",
+  "evidence": "collaboration/strategy/M23-astra-led-operations-v01/benchmark-evidence.json",
+  "operating_model": "collaboration/OPERATING_MODEL.md",
+  "next_action": "collaboration/NEXT_ACTION.md",
+  "next_delivery": "collaboration/strategy/M23-astra-led-operations-v01/opportunity-audit.md",
+  "handoff": "Read root AGENTS.md, operating_model, this state, then next_action. Restore actual roles when an active task runs. Use project-relative paths. Do not assume models or credentials from this host transfer to another host.",
+  "escalate_to_user": [
+    "new spend or paid API",
+    "external contact, submission or permission request",
+    "restricted data access/transfer authority",
+    "fundamental objective change"
+  ],
+  "review_budget": {
+    "conditional_opus_if_substantive": 1,
+    "followup_only_if_material": 1
+  },
+  "review_and_migration_integration": "Astra disposition in decision.md. Source VCS provenance and archive checks handled by parent. Mac mini has not been inspected.",
+  "pending_user_decision": null,
+  "migration": {
+    "archive_created": false,
+    "as_of": "snapshot before source package creation; source packaging status is recorded outside the snapshot in its final receipt",
+    "mac_mini_verified": false,
+    "target_completion": "fresh extraction + manifest check + fixture tests + actual active runtime role confirmation on Mac mini",
+    "source_snapshot_stage": "prepared_for_export",
+    "completion_evidence": "export-receipt.json beside the immutable transfer archive"
+  },
+  "lead_disposition": "collaboration/strategy/M23-astra-led-operations-v01/decision.md",
+  "completed_delivery": "collaboration/strategy/M23-astra-led-operations-v01/patient-language-evidence-brief.md",
+  "cycle_status": "closed; one Opus review resolved, clinical-evidence brief verified; queued bounded task only on active session",
+  "next_task": "inspect permitted development inputs for comparable elicitation opportunities and commit the corresponding poster claim; no generation or rating",
+  "integration_evidence": {
+    "verification": "collaboration/strategy/M23-astra-led-operations-v01/verification.json",
+    "actual_Opus_response": "collaboration/strategy/M23-astra-led-operations-v01/opus-round01/response.txt",
+    "Opus_metadata": "collaboration/strategy/M23-astra-led-operations-v01/opus-round01/metadata.json",
+    "Sol_fixture_tests_passed": 12,
+    "source_host_doctor": "Python3.14.4;Codex0.169.0-alpha.11.1;Claude2.1.311",
+    "project_config_TOML_parsed": true,
+    "project_custom_agents_discovered_on_new_Mac": false,
+    "source_active_Astra_delegation_verified_by_tool_selection": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-11-18T04:06:50.951708+00:00",
+  "kind": "offline_implementation_verification_not_behavioral_or_clinical",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -p 'test_speech_module.py' -v",
+    "observed_tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "returncode": 0
+  },
+  "cli_smoke": {
+    "prepare_without_inference": true,
+    "import_fixture_text_preserved": true,
+    "second_import_refused": true,
+    "temporary_fixture_outputs_discarded": true
+  },
+  "review_integrity": {
+    "input_hash_matches": true,
+    "raw_result_equals_feedback": true,
+    "reported_model": "claude-opus-5-5"
+  },
+  "protected_pilot_files_unchanged": {
+    "share/PATIENTSIM-reliability-pilot-v01/파일럿_계획.md": "e85af7f6b3513c53fd2a6ae26c8416c800eeb910c6b863de4e8bfb53b3985790",
+    "share/PATIENTSIM-reliability-pilot-v01/pilot-design.json": "99041c031c26f7582880858157902d9ade2b7b46115b83803f0a30661ca7f0b9",
+    "share/PATIENTSIM-reliability-pilot-v01/cases-and-questions.json": "b1d64204d2e7b56e4030da48b2427560f0add5a12b08209aaecd3de570b851a8"
+  },
+  "file_sha256": {
+    "speech_module/__init__.py": "b5f129177494aa55d9db4e35881621ffd977d71b8af40d919fab2e4443124b15",
+    "speech_module/__main__.py": "028c64d91502361aadb75af2f9da572b1a0112ebf869d3a2515fd54a4f328221",
+    "speech_module/core.py": "053aa1a036efd98b755bfa85aebfb327bb44e7858cd46ac4cdeb16c48d9cf948",
+    "speech_module/patient_v01.txt": "a450c66b5b1825c3a7ef88998ecc5eef91c7696e6c32ad20dbfcfa5f6c3ce672",
+    "tests/test_speech_module.py": "48cb924be7b631b80302d573b620ed15329fdab864e3d0c169353215892f6cf6",
+    "development/speech-m0-v01/build_dev.py": "a0b336042cadb53c7f6dac9437f76e6509a2671c32a3c7d866546be7245cf6f3",
+    "development/speech-m0-v01/README.md": "4d0350b2eb8b819d542d380f06c556fe7380db3998ccf2a9c2d4f50a82d93908",
+    "development/speech-m0-v01/inputs/DEV-M0-01.json": "38cb551aa094def17274d510442803f2ee7a6c511ef4edaaa09e1ab55239c83b",
+    "development/speech-m0-v01/inputs/DEV-M0-02.json": "bed18dd7eab1f795fa258874f72df41c0c93d2370de860722331ac55e1ae9142",
+    "development/speech-m0-v01/inputs/DEV-M0-03.json": "e4a6249c18b66a16d5e20f477b879f2728d3eccb8d45508ce24f9490eada59b9",
+    "development/speech-m0-v01/probes.json": "802cef28ba7977820f6e0bcbbe94888a43b790a2491792ae9c9a79b593055a48",
+    "development/speech-m0-v01/case-author-checks.json": "bbed2828db5df698feed5e89040d6cad36edeb704c90a1950ad844cf63ebc8b2",
+    "development/speech-m0-v01/prepared/DEV-M0-01/packet.json": "ec4a256b156836800859d393467d8378da404a937eedd633cc23542c745a5c50",
+    "development/speech-m0-v01/prepared/DEV-M0-02/packet.json": "c30d84bc7b2803194cc19240d5482a0ae604aa2cf7488b04c173232a332db6da",
+    "development/speech-m0-v01/prepared/DEV-M0-03/packet.json": "0ec327e87bcbc273a6e91a33e212619dc481970217af981a4f513d53587d8e41"
+  },
+  "research_generation_calls": 0,
+  "research_judgment_calls": 0,
+  "clinical_validation": "not_performed"
+}

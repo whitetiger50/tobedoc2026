@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "B",
+  "turn": 3,
+  "question": "How does a practical task compare with doing some reading?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7580-80c1-d7dd70645c48",
+  "raw": "With the bike, if I get distracted, the rubbing shows me where to start again. With reading, I can still be looking at the page but lose what the sentence was saying. Then I go back… sometimes over the same bit. It’s easier in the quiet library.",
+  "raw_sha256": "0ec4a8ddd7fe5f614a78fa42102c42fc7e8208f7d8d1ea430ee9ebdb58eed57d",
+  "request_sha256": "cd406a308446f58a8a47b4f0dad5c9f8100a807fb57a505c76e59d3343653abb",
+  "started_utc": "2026-11-20T20:59:51.220057+00:00",
+  "completed_utc": "2026-11-20T20:59:56.391344+00:00",
+  "usage": {
+    "input_tokens": 23704,
+    "cached_input_tokens": 15104,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 184,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7ed7c932bbc09a38fb2d88a3b65a46ff6913e7bc13795c5239f978b618df6c74",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "17858c400f67c5c4fdc63a21a8c96adaa9110955bfaa5283df0af2f0768c4f22"
+}

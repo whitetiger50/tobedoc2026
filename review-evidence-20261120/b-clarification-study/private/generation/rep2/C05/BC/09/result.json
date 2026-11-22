@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 9,
+  "question": "There are eye drops and daily tablets on the pharmacy list. Is the medicine kept in the kitchen?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c93-73e1-8cf9-8fe7f52db6d9",
+  "raw": "The tablets are in the kitchen cabinet. I keep the eye drops on my bedside table.",
+  "raw_sha256": "d20a1970aa945db7e4e6ad0a210b94bf4b616811e272fa2db1ec533dd5294f80",
+  "request_sha256": "a04dff075d3799910986f03255da69f3f2eb5f9d9fafd728cbdaffcdc7207b58",
+  "started_utc": "2026-11-21T03:45:30.800832+00:00",
+  "completed_utc": "2026-11-21T03:45:35.236420+00:00",
+  "usage": {
+    "input_tokens": 71884,
+    "cached_input_tokens": 57216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 170,
+    "reasoning_output_tokens": 15
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0eff64dd2a4ed666ff2b2653049d9b2c921309bc336e6c1d7a3a52e37e4e1d07",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6b7610e914c542cb8a3a00f761edd909b259b23d7957fd946960d1ec4da88829"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "B",
+  "turn": 3,
+  "question": "Does it stay with you long?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-6e89-74d2-86bf-97aae7d0a843",
+  "raw": "Sometimes I think about it afterward, but it doesn’t stay with me all the time. Something at the bus shelter on Monday still comes to mind now and then, though I felt fine waiting there on Wednesday.",
+  "raw_sha256": "4c1310745a56d22bcb0210162f44c5bf0e789808d0165d9c1e5a7b8b4e17566c",
+  "request_sha256": "81c15415292c95183fad8c73fc0e888ac7a25699e2c5a1b02ed4e57a5365d763",
+  "started_utc": "2026-11-20T21:00:04.494007+00:00",
+  "completed_utc": "2026-11-20T21:00:10.564267+00:00",
+  "usage": {
+    "input_tokens": 23654,
+    "cached_input_tokens": 19200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 129,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9ce1de136ec209250aa69527b7a588a9407f6db124668fdb766e6bd20da69e29",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8c8720e0b53f219e2acfdcefdaed8c8555e520eba48b089aff5c6361888fb0c9"
+}

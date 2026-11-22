@@ -1,0 +1,131 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ic0859ccf087202ac5125",
+  "reader": "opus",
+  "session": "cf1a575f-b27a-4f46-852f-eceb01fe77aa",
+  "raw_sha256": "413f77ebd76bb4ebf9f934ed7decefef42024aa951dc1a0860a5dc574a371fc6",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "409cbf93b18aca0011292b739de7727083fc94154c638074de156b046fbe56c7",
+  "provider_sha256": "3a7737748b9a57f723d460f486d66ab80ef3a058cb9f21385ca3edeeb4e0097b",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "uncertain",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "9": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "It’s harder when I’m tired",
+            "earlier_turn": 7,
+            "earlier_quote": "Conversations can get away from me when I’m tired",
+            "reason": "The interviewer asked how it is to pick up what someone is saying after attention wanders. The patient answers this with new material: catching the next bit or asking for a repeat. The closing line repeats the tiredness link already given at turns 2, 3 and 7. It may be a relevant condition on re-engaging, but it adds little that is new, so it is ambiguous rather than clearly redundant."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "3": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "6": "positive"
+      },
+      "events": {
+        "6": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "we put it into a bigger pot and filled in around it with fresh soil",
+            "reason": "The interviewer explicitly asked for an example from the last time spent with someone. The patient describes a specific occasion with concrete actions: repotting the basil with the sister after lunch. This matches the profile fact about the last visit."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:08:48.723302+00:00"
+}

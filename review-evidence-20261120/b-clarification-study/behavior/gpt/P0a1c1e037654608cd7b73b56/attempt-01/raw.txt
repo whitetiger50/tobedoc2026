@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "for your shift",
+    "reason": "The question naturally asks about Morgan’s habitual food arrangements for work, without requiring a choice between early and late shifts.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan generally brings food to work shifts.",
+        "answer": "Morgan packs a sandwich for every shift, early or late."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "that change",
+    "reason": "Both schedule changes remain salient, but Cameron requested only the later start, so the referent substantively affects the answer.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron requested shorter shifts.",
+        "answer": "The supervisor suggested shorter shifts."
+      },
+      {
+        "meaning": "Whether Cameron requested the later start.",
+        "answer": "Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron requested the combined schedule change.",
+        "answer": "Cameron requested the later start but not the shorter shifts."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "the class",
+    "reason": "The question explicitly keeps both classes in scope but uses a singular reference, and their fees differed.",
+    "alternatives": [
+      {
+        "meaning": "Whether Jules paid for the cooking class.",
+        "answer": "The cooking class was free."
+      },
+      {
+        "meaning": "Whether Jules paid for the swimming lesson.",
+        "answer": "Jules paid for the swimming lesson."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "since then",
+    "reason": "Both the last visit and the lower-dose start are explicit possible time anchors, and the missed tablet falls between them.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+        "answer": "There was one missed tablet, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+        "answer": "No tablets have been missed since starting the lower dose."
+      }
+    ]
+  }
+}

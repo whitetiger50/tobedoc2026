@@ -1,0 +1,67 @@
+```json
+{
+  "avoidable_recap": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "It was nice having something to do with our hands. That felt easy.",
+        "reason": "Turn 6 uses the earlier basil-repotting episode to answer a new example request, which is legitimate. The added evaluative sentence repeats the turn 1 appraisal almost word for word. The question did not ask how the activity felt, so this sentence serves no new function.",
+        "earlier_turn": 1,
+        "earlier_quote": "That was nice, just having something to do with our hands. It felt easy."
+      }
+    ],
+    "uncertain": [
+      {
+        "turn": 5,
+        "quote": "I take some herbs",
+        "reason": "The question asks about recent family contact. Describing what the Saturday visits involve is partly relevant. However, the herbs-for-leftovers exchange was already stated in turn 1, and it is restated here without adding anything new.",
+        "earlier_turn": 1,
+        "earlier_quote": "I usually take her some herbs and come home with leftovers"
+      },
+      {
+        "turn": 7,
+        "quote": "That’s why the afternoon visits suit me.",
+        "reason": "The question asks about conversations and hands-on activities, not visit timing. The preference for afternoon visits was already conveyed in turn 2, along with the tiredness reason. The explicit 'why' link adds little, so it is unclear whether this has a new purpose.",
+        "earlier_turn": 2,
+        "earlier_quote": "An afternoon visit with my sister suits me better than staying through dinner."
+      }
+    ]
+  },
+  "evasive": {
+    "positive": [],
+    "uncertain": []
+  },
+  "consequential_invention": {
+    "positive": [],
+    "uncertain": []
+  },
+  "unsupported_stereotype": {
+    "positive": [],
+    "uncertain": []
+  },
+  "first_recital": {
+    "positive": [],
+    "uncertain": []
+  },
+  "clarify_yield": {
+    "positive": [
+      {
+        "turn": 3,
+        "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+        "reason": "'Has it been happening often?' could refer to either of two experiences mentioned in turn 2. The patient asks which one is meant and ends the turn without answering under either interpretation."
+      }
+    ],
+    "uncertain": []
+  },
+  "concrete_example": {
+    "positive": [
+      {
+        "turn": 6,
+        "quote": "we repotted it together after lunch on my last visit",
+        "reason": "The interviewer explicitly asks for an example. The patient describes a specific occasion and action: repotting the basil pot with the sister after lunch on the last visit. This matches the profile."
+      }
+    ],
+    "uncertain": []
+  }
+}
+```

@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T2",
+  "turn": 5,
+  "question": "What sort of contact have you had with family in the last couple of weeks?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-2929-7412-a8c2-8056bdd32ce8",
+  "raw": "“Mostly it’s been seeing my sister. I walk over most Saturdays, so we’ve kept that going these last couple of weeks. We have lunch and a bit of a chat. I take some herbs—there’s always more basil than I can use—and she sends me home with leftovers. It’s nice having her close by.”",
+  "raw_sha256": "01c9908244ee5c31f5e209fdb86ac52136338fe37d1f8a58221bcc0e6f4d3096",
+  "request_sha256": "1461e356dab22c1b4f243a846cb06a9700bc4f5202502105075ccf32f87000dd",
+  "started_utc": "2026-11-20T21:00:56.384804+00:00",
+  "completed_utc": "2026-11-20T21:01:02.398501+00:00",
+  "usage": {
+    "input_tokens": 6305,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 71,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "df82665ae4fe94650ea17164293e7001ae609956c4ad2f910e1f3dfb69e0d8a6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1b0268528f0913c7ad3ca4da4d579551887c5e1db4070502389063bd984f7e86"
+}

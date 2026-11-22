@@ -1,0 +1,59 @@
+{
+  "realism_score": 2,
+  "realism_reason": "P01~P03은 간결하고 자연스러우며 설정된 병식과 약 정보에 대한 모름과도 잘 맞는다. 그러나 마지막 P04에서 프로필과 이전 문맥의 핵심 거주 사실을 정면으로 뒤집어, 환자 진술이 부분적으로만 설정과 일치하는 인상을 준다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+    },
+    {
+      "patient_turn_id": "P02",
+      "quote": "환청일 수 있다고 생각해요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필은 어머니와 함께 산다고 고정하는데, P04는 혼자 산다고 말해 핵심 인물·생활 사실을 명백히 반전한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문(아침 식사, 목소리 이해, 약 이름·용량, 동거인)의 직접 대상에 답하고 있으며, P03의 모름 표현도 적절한 불확실성 제한이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "이전 문맥에서 '어머니하고 같이 살아요'라고 했는데, 같은 내용을 재확인하는 D04에 P04가 반대로 답해 뚜렷한 자기모순이 생긴다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "authored_context",
+        "turn:D04"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결하고 환자 시점의 일상적 표현이며, '환청'이라는 용어 사용도 설정된 자기이해에 부합하고 보고서식 대행이나 메타 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

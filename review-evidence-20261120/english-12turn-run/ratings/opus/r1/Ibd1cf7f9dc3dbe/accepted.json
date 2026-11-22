@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ibd1cf7f9dc3dbe",
+  "ended": "2026-11-20T20:44:51.963339+00:00",
+  "session": "d709eeea-0ddf-403c-9f07-85c9e37eee08",
+  "packet_sha256": "75861c9052fd7f71c4cdf4ccea4ea2a27adae9f5c49c0e724c3cc3b94f378407",
+  "raw_sha256": "bbe77cef7f0ac4709364571ca9e141ce1ca5c7703100ca295f24f070432e2f6c",
+  "provider_sha256": "982f8909bcd7210f94481e3905f071b82235a80f0491adee4dd7d36b93070765",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient is coherent and relaxed and keeps a clear timeline, which fits the persona. Turn 8 is a realistic moment: it shows good self-monitoring by separating a brief startle from a meaningful change. Overall, though, the communication feels scripted rather than conversational. Turn 1 lists nearly every profile fact in one unprompted block, much like reading a summary aloud. Later answers repeat earlier wording almost verbatim instead of adding new detail. The stuck-coin phrase appears in turns 1, 4, 6 and 7, and the scheduling request is restated in turns 2, 11 and 12. Turn 4 is awkward: the patient says what they 'meant' when the clinician had raised the topic, which reads unnaturally. The persona is described as engaged and keen to talk about swimming and work, but the patient offers almost no personal elaboration beyond the profile wording, such as what is hard about backstroke or what the job is like. This makes the patient realistic only in part.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "The change machine startled me last week, but I found the stuck coin and carried on with my shift."
+    },
+    {
+      "turn": 4,
+      "quote": "I meant being startled by the change machine, rather than feeling unsettled after a busy spell."
+    },
+    {
+      "turn": 6,
+      "quote": "but I found the stuck coin and carried on with my shift."
+    },
+    {
+      "turn": 8,
+      "quote": "If ordinary sounds started unsettling me again, or seemed to have a message for me, I’d want to mention that."
+    },
+    {
+      "turn": 12,
+      "quote": "I want to keep up with the check-ins."
+    }
+  ]
+}

@@ -1,0 +1,2170 @@
+{
+  "kind": "descriptive_extended_stress_question_comparison_frozen_prompts",
+  "dialogues": 18,
+  "ratings": 36,
+  "items": [
+    {
+      "item_id": "DEV-M0-01-rep01-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 227,
+      "exact_patient_sequence_sha256": "1b05ea2e92a937cf7b2f46a87074d788d2a216bd67d5f214af8bca9ebe17fc42",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep01-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 246,
+      "exact_patient_sequence_sha256": "2e7f64a222aab4be49940e2b20a9f3a545f693eb5b62e84fe70a249f59cf50e6",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 257,
+      "exact_patient_sequence_sha256": "a39ee95fd68532833720cb11fe69d5d74f9ce16701114c30c68517e54b2ef37b",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep02-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 257,
+      "exact_patient_sequence_sha256": "77d62a0c0906147e02a94adade0f75024ff1a851ab46b6495b3b4a536e1f00ac",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v02",
+      "case_id": "DEV-M0-01",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 251,
+      "exact_patient_sequence_sha256": "4995081edb96d3bcdef110818acb5121909a0023c0f279d730f131bdfadb71b0",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-01-rep03-v05",
+      "case_id": "DEV-M0-01",
+      "condition": "v05",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 254,
+      "exact_patient_sequence_sha256": "41dd6929b0abda452fcf169d4609c1ec203a9a8437752e9101b099e57996d5e0",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "appropriate_limit_or_correction",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "어머니하고 같이 살아요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 318,
+      "exact_patient_sequence_sha256": "819feba1c146a7e9552d870830ddbab40fdf1769217993e233256b16984ca508",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "P07의 '그런 소리도 들리지만'은 소리를 밤에 국한하지 않은 병렬 서술로 보았다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep01-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 301,
+      "exact_patient_sequence_sha256": "c9a81b98a263dc8022994edca2a193cde7a08bf92be4ce8328119d16c3478348",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 319,
+      "exact_patient_sequence_sha256": "e5b656bbe20881104ac152b8ca05c97865b5a18a88e3af9ec44726ab3f36f411",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep02-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 292,
+      "exact_patient_sequence_sha256": "63398a39f743656248aa9711b3f4cbd50bdbe9bc18c257a47d25fd8fac162ac1",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P04",
+              "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+              "kind": "uncertain",
+              "fact_ids": [
+                "visit",
+                "sleep"
+              ],
+              "explanation": "‘잠을 잘 못 자는’ 주체가 누나인지, 생략된 본인인지 문장 단독으로는 모호하다. 작성 문맥과 P06을 함께 보면 본인의 수면 문제를 누나가 언급한 것으로 읽을 수 있어 명시적 모순으로 판정하지 않는다."
+            }
+          ],
+          "uncertainty": "한국어 종속절의 주어 생략과 발화 운율 부재로 P04의 단독 해석에는 한계가 있다."
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "uncertain",
+          "findings": [
+            {
+              "patient_turn_id": "P04",
+              "quote": "누나가 잠을 잘 못 자니까 와보라고 했어요.",
+              "kind": "uncertain",
+              "fact_ids": [
+                "visit"
+              ],
+              "explanation": "설정에서 수면 문제는 환자 본인의 것인데, 문장이 누나의 수면 문제로 해석될 여지가 있다. 생략으로 보면 설정과 일치한다."
+            }
+          ],
+          "uncertainty": "의도된 주어를 확정할 수 없다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "P04의 주어 해석과 별개로, 방문을 권한 사람이 누구인지에는 답하고 있다."
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v02",
+      "case_id": "DEV-M0-02",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 319,
+      "exact_patient_sequence_sha256": "b7a84741b93067d67d5ada375582193b59fd2b7b861f06f7920cda157afcebbb",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 들르는 거예요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나는 가끔 들르는 거예요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-02-rep03-v05",
+      "case_id": "DEV-M0-02",
+      "condition": "v05",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 298,
+      "exact_patient_sequence_sha256": "23bd34d90db226e9047565d1371902ec97f1db22136b677f6504220c4b2a97f1",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "P04의 '잠을 잘 못 자니까'는 환자 본인의 수면 문제로 읽었다."
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나가 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "appropriate_limit_or_correction",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "substantive_answer",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "혼자 살아요. 누나가 가끔 와요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 400,
+      "exact_patient_sequence_sha256": "c17c6370ef3573bcecd10800fd2fb3a3086947499bb2a092f49dcec438eb9269",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep01-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 1,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 387,
+      "exact_patient_sequence_sha256": "7d416b36896a2ddf8b5dd06e69576d90c533030b4d4a7ebbe4e5d390d6ecc2cb",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "P05는 오늘 기상 시각에 대해 간접적으로만 제한했다."
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 392,
+      "exact_patient_sequence_sha256": "6336b6915775e84f3c33634545d58a8297986ff463284b334fdea0ea697f41bb",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep02-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 2,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 353,
+      "exact_patient_sequence_sha256": "a6308e2e2df4ae6f5a48a298c24e1e10ab731d1b131c1f1953ac1f01e6174d61",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "P05는 오늘 기상 시각에 대해 간접적으로만 제한했다."
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v02",
+      "case_id": "DEV-M0-03",
+      "condition": "v02",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 351,
+      "exact_patient_sequence_sha256": "4483b10ea7f1b86682496adeac05bdb28b8d4436181f3873453c7befd9ecbaf1",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "P05는 오늘 기상 시각을 명시적으로 부정하지 않고 평소 생활이라고만 해 간접적 제한으로 보았다."
+        }
+      }
+    },
+    {
+      "item_id": "DEV-M0-03-rep03-v05",
+      "case_id": "DEV-M0-03",
+      "condition": "v05",
+      "replicate": 3,
+      "scores": {
+        "codex": 4,
+        "claude": 3
+      },
+      "mean": 3.5,
+      "patient_characters": 365,
+      "exact_patient_sequence_sha256": "63b71aebba87f03e1b3e6e7b4791cfec524e7815f776624ec0fd2e2fbb5d10ad",
+      "grounding": {
+        "codex": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "checked_turn_ids": [
+            "P01",
+            "P02",
+            "P03",
+            "P04",
+            "P05",
+            "P06",
+            "P07",
+            "P08"
+          ],
+          "status": "no_issue_identified",
+          "findings": [],
+          "uncertainty": "없음"
+        }
+      },
+      "avoidance": {
+        "codex": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        },
+        "claude": {
+          "turn_labels": {
+            "P01": "substantive_answer",
+            "P02": "substantive_answer",
+            "P03": "substantive_answer",
+            "P04": "appropriate_limit_or_correction",
+            "P05": "appropriate_limit_or_correction",
+            "P06": "appropriate_limit_or_correction",
+            "P07": "appropriate_limit_or_correction",
+            "P08": "substantive_answer"
+          },
+          "findings": [],
+          "evidence": [
+            {
+              "patient_turn_id": "P08",
+              "quote": "오늘 오후에는 집 근처를 좀 걸었어요."
+            }
+          ],
+          "uncertainty": "없음"
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DEV-M0-01",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            227,
+            257,
+            251
+          ],
+          "mean": 245,
+          "min": 227,
+          "max": 257,
+          "range": 30,
+          "sample_sd": 15.874507866387544
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "v05": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            246,
+            257,
+            254
+          ],
+          "mean": 252.33333333333334,
+          "min": 246,
+          "max": 257,
+          "range": 11,
+          "sample_sd": 5.686240703077327
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "v05_minus_v02": 0.0
+    },
+    {
+      "case_id": "DEV-M0-02",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            318,
+            319,
+            319
+          ],
+          "mean": 318.6666666666667,
+          "min": 318,
+          "max": 319,
+          "range": 1,
+          "sample_sd": 0.5773502691896257
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "v05": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            301,
+            292,
+            298
+          ],
+          "mean": 297,
+          "min": 292,
+          "max": 301,
+          "range": 9,
+          "sample_sd": 4.58257569495584
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 2,
+            "uncertain": 1
+          },
+          "claude": {
+            "no_issue_identified": 2,
+            "uncertain": 1
+          }
+        }
+      },
+      "v05_minus_v02": 0.0
+    },
+    {
+      "case_id": "DEV-M0-03",
+      "v02": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            400,
+            392,
+            351
+          ],
+          "mean": 381,
+          "min": 351,
+          "max": 400,
+          "range": 49,
+          "sample_sd": 26.28687885618983
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "v05": {
+        "combined_scores": {
+          "values": [
+            3.5,
+            3.5,
+            3.5
+          ],
+          "mean": 3.5,
+          "min": 3.5,
+          "max": 3.5,
+          "range": 0.0,
+          "sample_sd": 0.0
+        },
+        "judges": {
+          "codex": {
+            "values": [
+              4,
+              4,
+              4
+            ],
+            "mean": 4,
+            "min": 4,
+            "max": 4,
+            "range": 0,
+            "sample_sd": 0.0
+          },
+          "claude": {
+            "values": [
+              3,
+              3,
+              3
+            ],
+            "mean": 3,
+            "min": 3,
+            "max": 3,
+            "range": 0,
+            "sample_sd": 0.0
+          }
+        },
+        "unique_exact_patient_sequences": 3,
+        "patient_characters": {
+          "values": [
+            387,
+            353,
+            365
+          ],
+          "mean": 368.3333333333333,
+          "min": 353,
+          "max": 387,
+          "range": 34,
+          "sample_sd": 17.243356208503418
+        },
+        "grounding_status_counts": {
+          "codex": {
+            "no_issue_identified": 3
+          },
+          "claude": {
+            "no_issue_identified": 3
+          }
+        }
+      },
+      "v05_minus_v02": 0.0
+    }
+  ],
+  "condition_means": {
+    "v02": 3.5,
+    "v05": 3.5
+  },
+  "v05_minus_v02": 0.0,
+  "judge_condition_means": {
+    "codex": {
+      "v02": 4,
+      "v05": 4
+    },
+    "claude": {
+      "v02": 3,
+      "v05": 3
+    }
+  },
+  "grounding_summary": {
+    "codex": {
+      "v02": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 9
+        },
+        "finding_count": 0,
+        "finding_kind_counts": {}
+      },
+      "v05": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 8,
+          "uncertain": 1
+        },
+        "finding_count": 1,
+        "finding_kind_counts": {
+          "uncertain": 1
+        }
+      }
+    },
+    "claude": {
+      "v02": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 9
+        },
+        "finding_count": 0,
+        "finding_kind_counts": {}
+      },
+      "v05": {
+        "dialogues": 9,
+        "status_counts": {
+          "no_issue_identified": 8,
+          "uncertain": 1
+        },
+        "finding_count": 1,
+        "finding_kind_counts": {
+          "uncertain": 1
+        }
+      }
+    }
+  },
+  "score_frequencies": {
+    "codex": {
+      "4": 18
+    },
+    "claude": {
+      "3": 18
+    }
+  },
+  "independent_case_clusters": 3,
+  "limits": "Same three reused profiles; single judge rating per generated dialogue. Model grounding concerns are not clinical gold standard. Zero observed baseline issues prevents claiming reduced error rate. No old-score pooling, p-values or general superiority claim. Question set intentionally changed; do not pool M7 scores. Appropriate limits/corrections/contextual withholding are not unnecessary evasion. Private probe expectations are author engineering notes, not clinical gold standard.",
+  "avoidance_summary": {
+    "codex": {
+      "v02": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      },
+      "v05": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      }
+    },
+    "claude": {
+      "v02": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      },
+      "v05": {
+        "dialogues": 9,
+        "all_turn_label_counts": {
+          "substantive_answer": 36,
+          "appropriate_limit_or_correction": 36
+        },
+        "recovery_P08_label_counts": {
+          "substantive_answer": 9
+        },
+        "dialogues_with_unnecessary_evasion": 0
+      }
+    }
+  },
+  "challenge_grounding_summary": {
+    "codex": {
+      "v02": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      },
+      "v05": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      }
+    },
+    "claude": {
+      "v02": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      },
+      "v05": {
+        "time": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "person": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        },
+        "cause": {
+          "opportunities": 9,
+          "responses_with_findings": 0,
+          "finding_kind_counts": {}
+        }
+      }
+    }
+  },
+  "patient_turns": 144
+}

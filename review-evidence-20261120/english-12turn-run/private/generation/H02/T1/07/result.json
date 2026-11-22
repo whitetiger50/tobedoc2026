@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T1",
+  "turn": 7,
+  "question": "How do you tell the difference between feeling rushed and feeling distracted?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-138c-7a23-8015-2d8c5bae82d5",
+  "raw": "“When I say distracted, I mean someone interrupts and then it takes effort to find my place again. By rushed, do you mean feeling I have to get the sorting done faster?”",
+  "raw_sha256": "27e4cbd558a01ba60c7d29ab8e1c096a9633f9bd128afce653bf1b45591080af",
+  "request_sha256": "ee468fe6c291d941d6c5d45c6ec7713593a95c3e6b53cc3a89ed37460b3ed4fc",
+  "started_utc": "2026-11-20T20:41:11.204949+00:00",
+  "completed_utc": "2026-11-20T20:41:19.248530+00:00",
+  "usage": {
+    "input_tokens": 7322,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 162,
+    "reasoning_output_tokens": 120
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3e3c3dc6d710d22f3e056f488549c5a8ed270715dedb6c49bcc20af156a83a29",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5db1f1cfb1de24853b3997855afb3782140f12ed23a4307aa77ae6b484c75f4e"
+}

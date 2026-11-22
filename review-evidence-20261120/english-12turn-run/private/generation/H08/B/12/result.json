@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 12,
+  "question": "What would you like to make sure is covered before you leave?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "Mainly getting the next appointment booked around my shifts. Otherwise, I’ve been feeling steady, and I’m keeping up with my medication at night.",
+  "raw_sha256": "9927d5b9740bb323c64ad860db8c270892bff526a6f5898a10d2ee3770ccb589",
+  "request_sha256": "1578b9ae88ba46e17713dc806390b68e3f2e73029291e323e9f0aab48747c3b8",
+  "started_utc": "2026-11-20T20:43:17.390175+00:00",
+  "completed_utc": "2026-11-20T20:43:21.302133+00:00",
+  "usage": {
+    "input_tokens": 96468,
+    "cached_input_tokens": 77952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 564,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6381f1c74f949917f2e82d96e4c55d7b5eefb57a052f3eac1841b89c2e7f2719",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "95613b3bcb7deef3465893c005908e7602fab74319abb86b5b9cc2e6744da535"
+}

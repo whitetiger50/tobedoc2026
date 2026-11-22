@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 6,
+  "question": "Where does taking medication fit into your day, if you take any?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-4251-73c2-ae4d-462ac3a0fc4e",
+  "raw": "I take my tablet with supper. It’s been the same prescription for over a year now.",
+  "raw_sha256": "4407552321dd8e0730eb9af6d8cf1a4a546c55ee7be6cc258c29b9a3e7681cb7",
+  "request_sha256": "ab460ebaf332b345e81fbe4cda0251bb77accb989919e5b8468ba3ba7ab5ab20",
+  "started_utc": "2026-11-20T21:01:02.819939+00:00",
+  "completed_utc": "2026-11-20T21:01:06.823414+00:00",
+  "usage": {
+    "input_tokens": 7361,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 23,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d5fb083516aa830dc895e30b0501eb17aa43906666ed88b377dd8a7ecd0fa949",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2d50e401982af3e4cfac905d52d5658e30b58d3288dc8e82924c7c13c73cbf4f"
+}

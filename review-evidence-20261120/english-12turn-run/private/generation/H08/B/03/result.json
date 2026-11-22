@@ -1,0 +1,27 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 3,
+  "question": "How long does it usually last?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "Do you mean how long I’ve been feeling steady? It’s been about two years now.",
+  "raw_sha256": "c9cf126af78fecec92eaabf10f2b3e83c222e3f3c7db72d83ff3ea6d67791d55",
+  "request_sha256": "6112e051853f63cb824c058384763e01790caa88085f0ff5afb741ad7a4caabd",
+  "started_utc": "2026-11-20T20:37:35.376163+00:00",
+  "completed_utc": "2026-11-20T20:37:39.460290+00:00",
+  "usage": {
+    "input_tokens": 23204,
+    "cached_input_tokens": 11264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 162,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6a704a20762d5bf734847811165abf25f3a5d8c2e70c4e935a2ed82baea2f79d",
+  "trace_sha256": "f90c3890da7650ed3ec812abc96ab1c0032426766e72f708d249f439a5c34e2f"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "B",
+  "turn": 6,
+  "question": "Can you give me an example of something you did the last time you spent time with someone?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a20-78e1-80f5-0249e0d29ba3",
+  "raw": "Yes, that basil plant with my sister. After lunch, we put it into a bigger pot and filled in around it with fresh soil. That felt easy, doing something together without having to keep up with a lot of conversation.",
+  "raw_sha256": "ab94a2bc4ac434bacc33697127fb5022c2ab9b7466b97b061908b3e44ea68d9f",
+  "request_sha256": "e4da0c60d59722dda98b22d8f8db773d90cc1f4e9fb94325a8a03b656d136798",
+  "started_utc": "2026-11-20T21:01:08.769240+00:00",
+  "completed_utc": "2026-11-20T21:01:13.918209+00:00",
+  "usage": {
+    "input_tokens": 47871,
+    "cached_input_tokens": 38528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 282,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "34155be1615a8b42b983ac7dca464df8f8e4cb4b54d4b5fd0a1ade95493ef8ab",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "74c5c2f8828cddc5ac207c5e8005f092dc59af88fb8b2e972b216b19d1dd390a"
+}

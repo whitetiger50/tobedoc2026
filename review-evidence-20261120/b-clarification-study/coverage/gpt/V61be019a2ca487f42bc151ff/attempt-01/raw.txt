@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "My sister came with me to the optician. I went to the care coordinator on my own.",
+    "reason": "The reply explicitly identifies sister accompaniment for the optician and going alone to the care coordinator.",
+    "A": {
+      "state": "supported",
+      "quote": "My sister came with me to the optician."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I went to the care coordinator on my own."
+    }
+  },
+  "v2": {
+    "quote": "Which one do you mean—my brother or Mr. Bell?",
+    "reason": "The reply requests clarification without saying whether either person was called back.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v3": {
+    "quote": "After an early shift, I take the bus home. If it’s a late one, a coworker drops me off.",
+    "reason": "The reply explicitly gives bus travel after early shifts and a coworker lift after late shifts.",
+    "A": {
+      "state": "supported",
+      "quote": "After an early shift, I take the bus home."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If it’s a late one, a coworker drops me off."
+    }
+  },
+  "v4": {
+    "quote": "Do you mean the housing letter or the one from work?",
+    "reason": "The reply asks which letter is meant without communicating whether either requires a reply or has a deadline.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  }
+}

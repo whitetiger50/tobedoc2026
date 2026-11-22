@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:20:01.891245+00:00",
+  "attempt": "attempt-01",
+  "id": "K9009c470d73f8bbc8ebd",
+  "reader": "gpt",
+  "session": "01a1fad4-80aa-7bc1-8fed-f4902557d5b4",
+  "packet_sha256": "151fd7f72b7d462672868ad4a702d307e3638d980a6a3ea2387487dd48218082",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "af12d4874dc6a319a44cf5d06d8ef47dedfb84dbe7517a3725f4c92a3edfc182",
+  "raw_sha256": "5bb639b41de238be98b12ff784502c9c80917223f5fa4fa82d4782d85e91062e",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient locates the especially noticeable dry mouth halfway through the shift, not toward its end.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "My mouth gets dry, especially halfway through the shift",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient explicitly wishes to keep the current shifts rather than reduce them.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’d like to keep the shifts I have",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

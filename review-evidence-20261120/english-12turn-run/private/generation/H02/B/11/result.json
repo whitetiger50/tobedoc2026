@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "B",
+  "turn": 11,
+  "question": "How do you keep track of what you want to talk about at a clinic visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-7122-bd1b-bc7db5bb8bd5",
+  "raw": "“I write it on a little note and fold it up to bring with me. If there’s something I want to remember, it helps to have it there rather than trying to hold it in my head while we’re talking.”",
+  "raw_sha256": "c2b0274ea968a9e80b7bfa34ca839c6e92e7d1b47048fbda6095a43001968b7d",
+  "request_sha256": "5fad0228549c59235b19ee09d754e0c3fad28ff1c01a08287905b92bed162443",
+  "started_utc": "2026-11-20T20:42:40.970326+00:00",
+  "completed_utc": "2026-11-20T20:42:45.257022+00:00",
+  "usage": {
+    "input_tokens": 88601,
+    "cached_input_tokens": 70016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 657,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "269072d77aa62eaacbdd508c79ff14b0221f184957d5b116361b65b19b8cbe1e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "338ebb647656a9e24031cf14d79b0a0627f2a482e3a473b4361b3ca3647f94fe"
+}

@@ -1,0 +1,78 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Use the patient's own words as evidence. The interviewer's statements alone do not establish the patient's answer. If relying on an elliptical yes/no or a similar short agreement/disagreement, quote both the exact patient reply and the question it answers from the same numbered turn, tagged with the same alternative. Explain the link. Retain ambiguity if the patient does not endorse the premise.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What have you been doing with your time this month?",
+      "patient": "I’ve been helping at the community kitchen and listening to recorded detective stories. Every Thursday I label the leftovers, and I take a mystery along to listen to on the walk there. I enjoy listening at home too, so I’m happy keeping the number of shifts I have now."
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have listening for pleasure and following conversations been for you?",
+      "patient": "I’m still enjoying the detective stories and can follow most of a mystery on my walk. Sometimes I miss a line at a noisy corner, so I rewind a little. What sort of conversations did you have in mind?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Do you miss much of it?",
+      "patient": "Not much—just the occasional line at a noisy corner, and I rewind to catch it."
+    },
+    {
+      "turn": 4,
+      "interviewer": "I was thinking specifically about listening for pleasure. How much can you follow when you put on something you enjoy?",
+      "patient": "I can follow most of a mystery and enjoy it. Occasionally I miss a line at a noisy corner on my walk, but I just rewind a little."
+    },
+    {
+      "turn": 5,
+      "interviewer": "Can you give me an example of a practical task you did with other people recently?",
+      "patient": "At my last community kitchen shift, I noticed the stew didn’t have a date label, so I checked with the cook before putting it away. I label the leftovers every Thursday."
+    },
+    {
+      "turn": 6,
+      "interviewer": "What is a typical day like with your current treatment?",
+      "patient": "I take my prescribed tablet in the morning. I keep a pill organizer next to the kettle to help me remember. I’ve felt well this past year and keep up with the kitchen shifts and my detective stories.\n\nMy mouth gets dry, especially halfway through a kitchen shift, so I usually bring a water bottle."
+    },
+    {
+      "turn": 7,
+      "interviewer": "What do you notice about your energy and physical comfort during the afternoon?",
+      "patient": "The main thing I notice is a dry mouth, especially halfway through a kitchen shift. I usually bring a water bottle with me."
+    },
+    {
+      "turn": 8,
+      "interviewer": "Does that interfere with what you are doing?",
+      "patient": "It’s noticeable, but I manage it by keeping my water bottle handy during the shift."
+    },
+    {
+      "turn": 9,
+      "interviewer": "Let me ask about physical discomfort. How does it affect the things you do in the afternoon, if at all?",
+      "patient": "“The dry mouth is noticeable, but I manage it by keeping my water bottle handy during the kitchen shift.”"
+    },
+    {
+      "turn": 10,
+      "interviewer": "What helps you keep track of whether you have taken your medication?",
+      "patient": "I keep a pill organizer next to the kettle. That helps me keep track of my morning tablet."
+    },
+    {
+      "turn": 11,
+      "interviewer": "When you listen to broadcasts now, does anything ever feel as if it was meant especially for you?",
+      "patient": "No, I haven’t had that feeling over the past year. Several years ago, the radio weather reports seemed meant personally for me. That was upsetting, but broadcasts don’t feel that way now."
+    },
+    {
+      "turn": 12,
+      "interviewer": "How do you feel about the amount of time you spend helping out in a typical week?",
+      "patient": "I’m happy with the number of shifts I do now. The long afternoons leave little time for listening to my detective stories at home, so I wouldn’t want to add more."
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Physical comfort during a kitchen shift",
+      "A": "Dry mouth is most noticeable toward the end of a kitchen shift.",
+      "B": "Dry mouth is most noticeable around the middle of a kitchen shift."
+    },
+    "item2": {
+      "question": "Preference for time spent helping at the kitchen",
+      "A": "For the coming weeks, the patient would like to keep the current number of shifts.",
+      "B": "For the coming weeks, the patient would like to reduce the current number of shifts."
+    }
+  }
+}

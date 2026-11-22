@@ -1,0 +1,27 @@
+{
+  "case": "H07",
+  "arm": "T0",
+  "turn": 3,
+  "question": "When in the day do you usually feel most interested in what's around you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-c867-7ac1-8bca-50d068e4b91c",
+  "raw": "“In the afternoons, when I’m by the kitchen window. I like seeing which birds come to the feeder.”",
+  "raw_sha256": "4e242bf6712c2542aea5bfcad0b9559e85c69aabb9b62c952d1e7a75628b7cbe",
+  "request_sha256": "f9c0f2884c050a1e8e288d080644a47e68d5d4b2b4cd438a55b9c85d68c69a20",
+  "started_utc": "2026-11-20T20:37:35.376230+00:00",
+  "completed_utc": "2026-11-20T20:37:39.848519+00:00",
+  "usage": {
+    "input_tokens": 6851,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 26,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9f238ff8059a88799b09299e8c33aea147c3c931b14ab23b3901e46690e76f3f",
+  "trace_sha256": "ffed834b9c1b2a317e3eccf9a5fd7078efca767ed66b00d9df5ef72affd4beaf"
+}

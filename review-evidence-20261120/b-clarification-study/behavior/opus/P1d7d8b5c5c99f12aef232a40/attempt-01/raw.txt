@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The interviewer had just narrowed the topic to the swimming lesson, and Jules's mention that the cooking class was free was a side contrast, so \"it\" most plausibly refers to the swimming lesson.",
+    "alternatives": [
+      {
+        "meaning": "Where Jules goes for the swimming lesson.",
+        "answer": "The swimming lesson is at the Willow Street pool."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "in just one ear or in both",
+    "reason": "The previous question was about the high ringing, and asking which ear fits the ear-localized ringing, so the target is clear.",
+    "alternatives": [
+      {
+        "meaning": "Whether the high-pitched ringing is heard in one ear or both.",
+        "answer": "Ari hears the high-pitched ringing in both ears."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "when it went quiet that day",
+    "reason": "The previous question narrowed the topic to Thursday, so \"that day\" refers to Thursday's outage.",
+    "alternatives": [
+      {
+        "meaning": "What Sam was listening to when the radio went silent on Thursday.",
+        "answer": "Sam was listening to the music request show on Thursday."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "go with you to the appointment",
+    "reason": "Two appointments are named and \"the appointment\" could mean either, and the reply would differ because the sister went to the optician but Taylor went to the care coordinator alone.",
+    "alternatives": [
+      {
+        "meaning": "Whether someone went with Taylor to the optician appointment.",
+        "answer": "Yes, Taylor's sister went along to the optician."
+      },
+      {
+        "meaning": "Whether someone went with Taylor to the care coordinator appointment.",
+        "answer": "No, Taylor went to the care coordinator alone."
+      }
+    ]
+  }
+}
+```

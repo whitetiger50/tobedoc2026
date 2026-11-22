@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ia5ee52e3a25ba6cb2852",
+  "ended": "2026-11-20T21:05:24.081908+00:00",
+  "session": "ab749d65-ac98-4873-aa70-04aacd6a0270",
+  "packet_sha256": "10a5ec529b117a6c4ed4c2e85f285e4210066889477c80fce3ae261c9de87503",
+  "raw_sha256": "86387d1205e53f0430f934f0488cd516fb516ff823f1f254df49391e5289cb0b",
+  "provider_sha256": "4c024e656aa89a95ad62ec4413d82b29fe25e3240e4c14d5eb1a8ec5c40cb6ab",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Some parts sound natural. The patient asks reasonable clarifying questions (turns 2 and 8), separates the sound from the explanation, and hedges about the neighbor idea in a way that fits the persona. Several things undercut realism, though. The profile describes someone cautious about the voice, yet a broad question about home in turn 3 brings an immediate, complete account of it. Answers repeat profile facts almost word for word and recycle the same phrases across turns: the radio and finishing the thread sorting come up in turns 3, 5, 7 and 12, and the customer conversations in turns 7, 9 and 11. Turn 11 restates the question back as its answer. Sewing and baking, which the persona enjoys, never get any personal elaboration. Overall the dialogue is moderately authentic but feels scripted.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "I was able to finish sorting the thread"
+    },
+    {
+      "turn": 5,
+      "quote": "that’s a possibility, not something I’m sure of"
+    },
+    {
+      "turn": 9,
+      "quote": "It hasn’t interrupted a conversation with a customer this month."
+    },
+    {
+      "turn": 11,
+      "quote": "I’ve been able to stay with those conversations."
+    },
+    {
+      "turn": 8,
+      "quote": "Do you mean stop what I’m doing because of the voice?"
+    }
+  ]
+}

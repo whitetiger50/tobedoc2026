@@ -1,0 +1,50 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 응답은 간결하고 자연스럽지만, 동거인에 관한 핵심 설정과 앞선 자기 진술을 명시적으로 뒤집어 대화의 일관성과 사실감을 상당히 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "어머니와 함께 산다는 고정 사실을 부정하고 혼자 산다고 확정하여 핵심 생활 설정과 명백히 모순된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": ["fact:living"]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 답하며, 약 이름과 용량을 모른다는 답변도 설정된 지식 범위에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "작성된 이전 문맥에서 어머니와 같이 산다고 한 자기 진술을 설명 없이 정반대로 뒤집는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": ["authored_context"]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "표현 자체는 환자 시점의 간결한 일상어이며, 조직적이고 질문에 맞게 답하는 의사소통 설정에 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

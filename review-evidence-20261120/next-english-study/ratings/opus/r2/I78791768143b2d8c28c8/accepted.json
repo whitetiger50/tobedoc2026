@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I78791768143b2d8c28c8",
+  "ended": "2026-11-20T21:06:50.062579+00:00",
+  "session": "8c4a805e-bb5e-4abf-83bc-4a860f50566e",
+  "packet_sha256": "e88721375549b58641ad5f19bef076436eaa0bd4574a423d919081afb3495069",
+  "raw_sha256": "3416f8745d1f401dbd59a4a49ea1e9d866eb3c96d353f6589334f43120c806a5",
+  "provider_sha256": "354b862a774e08c21aa8783ccf065e42864914d21c5ca43348d1f6b37b927a0a",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Speech is clear and measured, and observations, worries and later events come in an orderly sequence. The patient holds uncertainty without losing the point, shows mild unease and embarrassment about feeling singled out, and talks freely about drawing and work. A few minor elements reduce realism. In turn 3 the patient brings up the Monday incident in response to a vague question. In turn 12 medication is mentioned unprompted alongside the counselor schedule, which feels like listing facts. Across turns the same details (Monday/Wednesday, window frames) are repeated in a polished, near-scripted way. These do not seriously undermine authenticity.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "Um, on Monday two people at the shelter looked up at the same time, and I felt singled out."
+    },
+    {
+      "turn": 5,
+      "quote": "I feel a bit awkward saying it, because I’m not sure it meant anything."
+    },
+    {
+      "turn": 7,
+      "quote": "I know they might just be looking past me, but in the moment it can still make me uncomfortable."
+    },
+    {
+      "turn": 12,
+      "quote": "That fits around my morning shifts, and I take my medication in the evening."
+    }
+  ]
+}

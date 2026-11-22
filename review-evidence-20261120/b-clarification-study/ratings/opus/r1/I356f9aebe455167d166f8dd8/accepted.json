@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I356f9aebe455167d166f8dd8",
+  "ended": "2026-11-21T03:49:40.417127+00:00",
+  "session": "eeddc1ff-9a30-4f09-83c1-2dfae49141fd",
+  "packet_sha256": "1ac1a97f15ae3cd60b174ceded2907b741b87ecfc3d935af70dbb548660c041a",
+  "raw_sha256": "ecf430361f12fe57e69a18ced626fbf65660a4eff103699e7e0850d8f86be8fe",
+  "provider_sha256": "12c426a8731e15f289523117276c069fef5b80788a9906df275ac669b4a72c67",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers are coherent, consistent, and plausible for a stable outpatient with a manageable routine. Events are kept in sequence, as the profile describes. However, the persona's conversational style and dry humor show up only once, in turn 1. Most other replies restate the profile facts almost word for word and echo the clinician's phrasing ('on a work night', 'on my days off'), which sounds scripted. The clinician asked about the 7:10 alarm three times in a row (turns 3–5) and about late-shift transport twice (turns 8–9). Each time the patient repeated the information flatly, with no 'like I said', no wry remark, and no added detail. That fits poorly with someone described as conversational, dry-humored, at ease with the clinician, and comfortable filling in details. Overall the dialogue is moderately authentic, but its formulaic, fact-recital quality is noticeably unrealistic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Better to sort it out before there’s an audience to complain."
+    },
+    {
+      "turn": 5,
+      "quote": "7:10 in the morning."
+    },
+    {
+      "turn": 6,
+      "quote": "Usually about seven hours on a work night."
+    },
+    {
+      "turn": 9,
+      "quote": "A coworker drops me off after a late shift."
+    },
+    {
+      "turn": 11,
+      "quote": "I like making small clay bowls on my days off."
+    }
+  ]
+}

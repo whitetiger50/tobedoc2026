@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T2",
+  "turn": 5,
+  "question": "I mean the time before you leave home. How long does it usually take you to get going?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-fc9d-7cc2-8128-ec9f35be21dc",
+  "raw": "Nearly half an hour, even with my shoes already on.",
+  "raw_sha256": "3a0732aaeb2df9cc3a45ca4b02745b31c0435b795b9e0a69f5b8958010c7d3ed",
+  "request_sha256": "36dc168569118293ea3e0c92afecf5a2301bdab80e487528af46fab8c0577894",
+  "started_utc": "2026-11-20T21:00:44.990827+00:00",
+  "completed_utc": "2026-11-20T21:00:49.388899+00:00",
+  "usage": {
+    "input_tokens": 6247,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "be2e24a8549e8894b23f74a8ea71daefaf100c1c2856391569c012f7219afddb",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2cd37562fe5227c89c17b027673ff3cd26ba3cef62a320501c8e037a8c32e87f"
+}

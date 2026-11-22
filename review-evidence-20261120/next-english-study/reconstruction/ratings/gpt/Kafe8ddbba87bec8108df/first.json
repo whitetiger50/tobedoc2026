@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-20T21:20:26.174339+00:00",
+  "attempt": "attempt-01",
+  "id": "Kafe8ddbba87bec8108df",
+  "reader": "gpt",
+  "session": "01a1fad4-e33e-7fc2-b517-f642d859d163",
+  "packet_sha256": "d0d62ca6fad97b427e1fe955a7e2482c6d6e22a7e76a45569ffd073d34eb8a0b",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "bb8db067e15f82a5a190613adff93967e9e813e988004de0fd2336853d84e679",
+  "raw_sha256": "1f644e92c60265774175ba2266ff08de0bc2f7937d44a84eb0f91c3cf474987b",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient directly describes starting sorting upon arrival without much difficulty.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "Once I’m inside the shop, I get started sorting without much trouble.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "insufficient",
+      "choice": "insufficient",
+      "reason": "The patient denies recently feeling that passengers were talking about them, but does not establish that nearby conversations seemed to concern unrelated things.",
+      "evidence": []
+    }
+  }
+}

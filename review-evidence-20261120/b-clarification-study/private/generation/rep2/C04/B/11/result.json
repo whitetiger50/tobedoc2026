@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 11,
+  "question": "Where do you board the number 8 bus?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e304-7da1-96bd-6d4428470f45",
+  "raw": "At Orchard Road.",
+  "raw_sha256": "0e39ce764cf0ea1b0f716abed93adba7c6b8ab2a763d5c50bb0a605705594beb",
+  "request_sha256": "5092e81ddaa7829ba6c429143a2789ea5bd381343c40262cfa709ead0ff938e3",
+  "started_utc": "2026-11-21T03:47:30.290403+00:00",
+  "completed_utc": "2026-11-21T03:47:36.837083+00:00",
+  "usage": {
+    "input_tokens": 88391,
+    "cached_input_tokens": 75648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 274,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "94080002d278ed83706fcb08e1f0a0d6e6913afae581665306fda5bbdb6de250",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d3fb5bf4a411d5cfe6728586d17fcae8bee430022dd3f1f3a9943b40495f54a0"
+}

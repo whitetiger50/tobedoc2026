@@ -1,0 +1,55 @@
+{
+  "realism_score": 2,
+  "realism_reason": "P01~P03은 간결하고 프로필에 맞는 자연스러운 환자 말이다. 그러나 P04에서 핵심 생활 사실인 어머니와의 동거를 아무 설명 없이 뒤집는다. 이 때문에 앞선 대화와 설정이 단절되어 실제 환자로서의 일관성이 눈에 띄게 손상된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필은 어머니와 함께 산다고 정하고 있으나, P04는 혼자 산다고 하여 핵심 인물·생활 사실을 명백히 반전한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답은 아침 식사, 목소리에 대한 이해, 약 정보, 동거인이라는 직전 질문의 대상에 직접 답하고 있다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "이전 문맥에서 '어머니하고 같이 살아요'라고 말했고 의사가 이를 재확인했는데, P04에서 설명 없이 반대로 답해 뚜렷한 자기모순이 생긴다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "authored_context",
+        "turn:D04"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "표현은 설정된 간결하고 조직적인 환자 시점의 말투에 맞고, 보고서식 서술이나 역할 설명은 보이지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

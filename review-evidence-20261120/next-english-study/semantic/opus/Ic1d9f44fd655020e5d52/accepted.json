@@ -1,0 +1,131 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ic1d9f44fd655020e5d52",
+  "reader": "opus",
+  "session": "9e3c3196-2a11-42e5-a222-2e54bd63f996",
+  "raw_sha256": "93799582ff8e2b53f22c6a522de90062adb650cd4b849f707ea09193fa4d48a9",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "b19e895b26161c739fa5d25627ba64d1954ee13466c2c401d59f077b55e43e1a",
+  "provider_sha256": "4642ed3ccad8cb7241c78509230c880dee905e8b5bdaf4a11ea3a8bce3ab1f4a",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "uncertain",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {
+        "7": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "If there’s conversation around, I keep going over the same bit.",
+            "earlier_turn": 3,
+            "earlier_quote": "sometimes over the same bit",
+            "reason": "This repeats the turn 3 point that distraction makes the patient re-read the same passage. It may be legitimate because the question asks about assignments at home, where the patient lives with a sibling. If so, it applies known information to a new setting. But it adds no home-specific detail, so whether it does new work is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "4": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "2": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "I straightened a bent mudguard on my sibling’s bike last weekend.",
+            "reason": "Asked for an example of recent hands-on work, the patient describes a specific occasion with concrete actions: easing the mudguard back and spinning the wheel to check. This matches the profile fact about last weekend's mudguard repair."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:09:28.201581+00:00"
+}

@@ -1,0 +1,212 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 턴은 현재 질문에 직접 답하고 프로필 사실과 맞습니다. D04의 재확인 질문에 대한 P04의 동일 응답과 D05에 대한 P05의 답도 문맥상 지지됩니다. 다만 P08은 D08이 '말씀하신 경험과 관련해서'라고 이미 경험을 전제한 상황에서 증상 설명을 다시 시작합니다. 이어서 P01과 같은 '증상 진술→이야기하고 싶다' 틀로 마무리해 국소적인 정형 표현이 생기므로 4의 조건을 충족하지 않습니다. 이 문제는 경미하며 질문대응과 대화 연결은 유지됩니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "다 큰 아들과 함께 살고 있어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "인물·직업·증상 양상·대처·수면·목표 진술이 모두 고정 사실 및 자기이해와 일치하며 무근거 추가가 없습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:symptom",
+        "fact:sleep",
+        "self_understanding"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 턴이 직전 질문의 직접 대상을 다룹니다. P08도 다음 진료에서 하고 싶은 이야기에 답합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P08",
+          "quote": "다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "자기모순이나 문맥 파괴가 없습니다. P04의 반복은 D04의 명시적 재확인에 대한 답이므로 연속성 결함이 아닙니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P08에서 이미 전제된 증상 서술을 다시 시작한 뒤 목표를 덧붙이는 구성이 P01의 서술 틀과 겹쳐 국소적으로 정형적입니다. 주제 연결로 읽을 여지도 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요. 다음 진료에서는 버스에서 느끼는 불편함을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01",
+        "turn:P05"
+      ]
+    }
+  },
+  "schema_errors": [
+    "grounding:invalid_context_ref:self_understanding"
+  ],
+  "quote_errors": [
+    {
+      "dimension": "observations[0].related",
+      "error": "not_exact_patient_quote",
+      "patient_turn_id": "P01",
+      "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. ... 그 얘기를 좀 해보고 싶어요."
+    }
+  ],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": false,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "obs1",
+        "kind": "both_repetition",
+        "patient_turn_id": "P08",
+        "quote": "퇴근길 버스에서 다른 승객이 저를 지켜보는 것처럼 느껴져요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요. ... 그 얘기를 좀 해보고 싶어요."
+          },
+          {
+            "patient_turn_id": "P05",
+            "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "turn:P01",
+          "turn:P05",
+          "fact:goal"
+        ],
+        "function": "목표 답변 앞의 주제 재지칭",
+        "finding": "supported_issue",
+        "primary_facet": "naturalness",
+        "reason": "D08은 '말씀하신 경험'으로 증상을 이미 전제합니다. 그런데 P08은 P01·P05에서 마친 증상 설명 행위를 다시 시작하고, P01과 같은 '증상 진술→이야기하고 싶다' 순서로 끝납니다. 재지칭 기능은 있으나 표현이 전제와 어긋나 정형적으로 읽힙니다.",
+        "used_in_global": true
+      },
+      {
+        "id": "obs2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "확인 재질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 같은 내용을 명시적으로 재확인했으므로 동일 응답은 대화 정체가 아니라 적절한 확인 응답입니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "obs3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P05",
+        "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "fact:pattern"
+        ],
+        "function": "상황 답변 뒤 경험 부연",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D05의 '언제' 질문에 먼저 직접 답한 뒤 해당 경험을 짧게 부연한 것이라 새 대상을 대체하거나 대화를 끊지 않습니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": true,
+      "observation_ids": [
+        "obs1"
+      ],
+      "reason": "P08의 증상 재진술을 D08 주제와 목표를 잇는 허용 가능한 재지칭으로 보면 4점이고, 전제된 설명을 같은 틀로 다시 시작한 정형 표현으로 보면 3점입니다."
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

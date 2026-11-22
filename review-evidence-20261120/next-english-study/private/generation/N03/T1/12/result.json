@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 12,
+  "question": "When you sit down to a task at home, what helps you finish it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-fea9-70f0-8c84-1ba99f613c8d",
+  "raw": "Putting the radio on helps. When I was sorting my sewing supplies last week, it made the voice less distracting, and I was able to finish sorting the thread.",
+  "raw_sha256": "f0559bd7c961dbbf573e8d153e66e660b42269a9ff0b2717dceadf6b30924f48",
+  "request_sha256": "6cd613f32a351a62bd4eddab87bb004f2232ea38bd5d05f3aeac5a11fca5d93e",
+  "started_utc": "2026-11-20T21:04:02.112055+00:00",
+  "completed_utc": "2026-11-20T21:04:05.856450+00:00",
+  "usage": {
+    "input_tokens": 7763,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "432cbe68a73d89faf217ec756434cae1bb82805f32a86bc82c97033711a0e7a6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8e02b94ec617a20670e7be894647aaef0b2876ee5ffbcb3ed059d961839c6594"
+}

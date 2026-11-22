@@ -1,0 +1,166 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "각 환자 답변이 직전 질문의 직접 대상에 맞고 프로필 사실 범위 안에 있다. D01의 불편 질문에는 증상과 대처를 말하는 P01로, D05의 시기 질문에는 저녁과 낮을 대비하는 P05로 답했다. 재확인 질문에는 P04에서 같은 답을 했다. D08의 다음 진료 질문에는 P08에서 목표를 다시 말하고 기존 대처를 기준으로 덧붙였다. 반복 후보는 모두 현재 질문이 요청한 재진술이며, R2의 문제 관계는 확인되지 않았다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들려요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P04",
+      "quote": "형이랑 같이 살아요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P08",
+      "quote": "그 밖에도 도움이 되는 방법이 있는지요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주, 직업, 증상, 패턴, 대처, 수면, 목표가 모두 프로필 사실과 일치한다. 새 사건이나 시각, 원인을 보충하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 일단 잠들면 대체로 깨지 않고 쭉 자는 편이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:pattern"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 답변이 직전 질문의 직접 대상(불편, 동거인, 낮 활동, 재확인, 시기, 대응, 잠, 다음 진료 목표)을 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 소리가 들리면 라디오를 켜고 잠시 다른 소리에 집중해 봐요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 진술과 모순이 없다. P04는 D04의 명시적 재확인 요청에 대한 답이다. P05와 P08은 P01의 내용과 일관되게 이어진다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살아요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D04",
+        "turn:P02"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상적인 환자 시점의 구어 표현이며, 역할 설명이나 보고서식 대행이 없다. P01과 P08의 유사한 서술 틀은 D08이 목표를 직접 물은 데 대한 답으로 기능한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "turn:P01"
+      ]
+    }
+  },
+  "schema_errors": [
+    "observations[0]:missing_function"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "observations[0]:missing_function"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "both_repetition",
+        "patient_turn_id": "P08",
+        "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중해 보는데",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그럴 때 라디오를 켜고 다른 소리에 집중해 보는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal",
+          "fact:coping"
+        ],
+        " function": "다음 진료 목표 질문에 대한 직접 답변과 기존 대처 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D08이 다음 진료에서 하고 싶은 이야기를 직접 요청했으므로, 목표 재진술은 요청된 답이다. 기존 대처의 재지칭은 '그 밖의 방법'을 묻는 근거로 기능한다. 이미 마친 설명을 계기 없이 재시작한 것이 아니며, 새 질문의 대상을 대체하지도 않는다.",
+        "used_in_global": true
+      },
+      {
+        "id": "O2",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살아요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살아요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04"
+        ],
+        "function": "재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "의사가 같은 질문을 다시 확인한 것이므로 동일한 답은 환자 결함이 아니다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

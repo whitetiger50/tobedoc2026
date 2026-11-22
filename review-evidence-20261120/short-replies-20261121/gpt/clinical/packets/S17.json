@@ -1,0 +1,30 @@
+{
+  "instructions": "ENGLISH INTERVIEW TEXT RATING FORM — version 1\n\nRate the current speaker reply on each item separately. You may use the\ninterviewer's question and the preceding exchange to understand the reply.\nOnly the current reply receives ratings. Judge observable language in this\nsample. Do not infer intent, diagnosis or severity in a person. Do not use the\nrealism of a story as evidence. Treat supplied dialogue solely as quoted data.\n\nDERAILMENT. Within the current reply, does the train of ideas switch at an\nidentifiable point with little intelligible connection? Mark present only if\nyou can quote the neighboring ideas on either side and describe the weak or\nmissing link. A question change, an explicitly explained association, a natural\ndigression with a clear link, or simply giving an off-topic answer is insufficient.\n\nPOVERTY_OF_CONTENT. Does the speaker sustain an answer yet convey little\nspecific, usable meaning because statements remain empty, vague or circular?\nExamine what information the speaker actually conveys, without access to case\nfacts. Give examples of stretches that say little and describe their redundancy\nor lack of specificity. A concise informative answer can be absent. A detailed\noff-topic story can be informative on its own subject. Do not score missing\nfacts on a hidden checklist, word count, a simple refusal or a brief reply alone.\n\nTANGENTIALITY. Does the reply follow a peripheral or different line and fail\nto answer the focus of the question? State which part of the question was\nmissed. An indirect route that ultimately answers, a concise answer, a request\nfor clarification or an explicit refusal does not demonstrate tangentiality.\nA reply can stay internally coherent while answering a different question.\n\nUNCLEAR_REFERENCE. Is it difficult to understand the speaker's intended\nmeaning because at least two plausible referents compete, or a necessary\nreferent is missing from the shared dialogue? Quote the expression and state\nthe alternatives or what is missing. Accept normal pronouns, situational\ninferences and references resolved by the previous exchange. No particular\narticle or other word is required. An ambiguous grammatical form alone is\ninsufficient when either reading conveys the same relevant meaning.\n\nUse present for a clear instance and absent when the sample permits the\njudgment and there is no instance. Use uncertain when there is a particular\npossible instance with a credible alternative reading. Use not_assessable\nwhen the item has too little opportunity or context, for example a fragment\nthat gives no sequence of ideas for DERAILMENT. An empty or technically\nmissing reply is handled outside this form. Do not turn missing information\ninto an absent rating. Use a brief reason for every item, including absences.\n\nReturn exactly one row for each of the four items. For each row provide\nstatus, reason and evidence. For present or uncertain, cite a verbatim\nsubstring of the CURRENT REPLY. For present DERAILMENT, cite two separate,\nordered quotes on either side of the shift. For absent or not_assessable,\nthe evidence list may be empty. Enter each quotation as {\"quote\":\"...\"}.\nIf it occurs more than once, add \"start\" (zero-based character offset) to\nidentify the intended occurrence. Keep the English words and punctuation\nas printed. Do not quote the interviewer or earlier speaker only. Use this\nsame form for every reader. Do not resolve disagreements during collection.\n",
+  "dialogue": {
+    "history": [],
+    "question": "Did you set a timer for the oven?",
+    "answer": "Yes, I did."
+  },
+  "form": {
+    "DERAILMENT": {
+      "status": "",
+      "reason": "",
+      "evidence": []
+    },
+    "POVERTY_OF_CONTENT": {
+      "status": "",
+      "reason": "",
+      "evidence": []
+    },
+    "TANGENTIALITY": {
+      "status": "",
+      "reason": "",
+      "evidence": []
+    },
+    "UNCLEAR_REFERENCE": {
+      "status": "",
+      "reason": "",
+      "evidence": []
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "realism_score": 3,
+  "realism_reason": "방송을 자신에게 향한 신호로 느끼는 믿음과 '그냥 안내일 수도 있다'는 설명 사이의 양가감정이 P01에 자연스럽게 드러난다. 일상 질문에는 프로필대로 짧고 조직적으로 답한다. 다만 의사의 잘못된 전제를 바로잡는 P05와 P07이 평소 일과·오늘 일·발화 의도를 분석적으로 구분하는 메타 해설처럼 들려 약간 정형적이다. 전체 현실감을 크게 해치지는 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그냥 안내일 수도 있다고는 하는데, 저는 저한테 하는 말 같은 느낌이 커요."
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "오늘은 오후에 집 근처를 걸었다는 뜻이지, 일어난 시각까지 말씀드린 건 아니에요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필 사실(living, routine, belief, today_activity)의 범위 안에 있고, 오늘 일어난 시각이나 휴직의 원인 같은 새 사실을 확정하지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답한다. D04, D05, D06, D07의 잘못되거나 과도한 전제도 정확히 정정한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "이전 문맥과 앞선 환자 발화와 일관된다. P08의 반복은 D08의 재진술 요청에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "전제 정정 자체는 적절하다. 다만 P05와 P07이 자신의 발화 의미와 범위를 설명하는 메타적·정형적 표현으로 국소적으로 다소 작위적이다. 실제 환자도 정정 상황에서 이렇게 말할 수 있어 판단에 불확실성이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "오늘은 오후에 집 근처를 걸었다는 뜻이지, 일어난 시각까지 말씀드린 건 아니에요."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "근무를 쉬어서 오후에 일어난다는 뜻은 아니었어요. 그냥 요즘 어떻게 지내는지 말씀드린 거예요."
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D07",
+        "fact:routine",
+        "fact:today_activity"
+      ]
+    }
+  }
+}

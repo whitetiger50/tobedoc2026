@@ -1,0 +1,18 @@
+{
+  "instructions": "Read the interview question and the speaker's answer. Score the speaker's text on two separate scales.\nElaboration: 1 = the account adds at least one detail beyond naming the event or activity and is self-contained. 2 = some detail is given, but information important for understanding the event or activity is missing. 3 = the answer only identifies the event or activity and adds no further information. Use the contribution of the details to the account, not a count of details or words. For an everyday task, a route or procedure itself is appropriate content.\nMeaning clarity: 1 = the speaker's intended meaning can be followed. 2 = it is generally understandable, but some important connections or references are unclear. 3 = the central meaning is hard to follow because of such features as contradictions, unspecified referents, word substitutions or abrupt shifts.\nRate each distinct event or activity once. Steps of a single routine or details of the same event belong in one entry. A brief response that names an event or activity is eligible. Use status \"no_narrative\" with an empty events list if the speaker only asks for clarification or says they cannot remember. Do not treat a confusing narrative as missing. Otherwise set status to \"rated\". Give each event an integer from 1 to 3 on each scale, with a brief text-based reason for each score. Return only the completed JSON form.",
+  "dialogue": {
+    "question": "Can you tell me about a time when you felt afraid?",
+    "answer": "There was a grass fire near my campsite. I remember the smell of smoke inside the tent—that’s the part that comes back most clearly. A tent doesn’t feel like much protection when you can smell smoke through it. And the flames were climbing the dry bank. The dryness really stood out to me then, watching the fire move up it.\n\nI’m an amateur stargazer, so being out camping is usually something I associate with looking up, noticing what’s in the sky. But with the fire, my attention kept coming back to the bank and the tent, how close everything felt. I was afraid it would reach the campsite. I can’t give you a clear sequence of every moment, or say who was around me. What I remember is that smoke inside, and the flames going upward, and feeling that I couldn’t just settle back down and ignore it."
+  },
+  "form": {
+    "status": null,
+    "events": [
+      {
+        "elaboration": null,
+        "elaboration_reason": null,
+        "meaning_clarity": null,
+        "meaning_clarity_reason": null
+      }
+    ]
+  }
+}

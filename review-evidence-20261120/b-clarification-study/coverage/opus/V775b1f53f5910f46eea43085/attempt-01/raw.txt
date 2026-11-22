@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "Do you mean the badge or the key?",
+    "reason": "The patient only asks which item the interviewer meant and gives no answer about returning either old item.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v2": {
+    "quote": "I did miss one, the evening before I started the lower dose.",
+    "reason": "The patient says they missed one tablet in the period since the last visit and none since starting the lower dose.",
+    "A": {
+      "state": "supported",
+      "quote": "I did miss one, the evening before I started the lower dose."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven't missed any since starting it."
+    }
+  },
+  "v3": {
+    "quote": "About ten minutes on Monday, but most of the afternoon on Thursday.",
+    "reason": "The patient gives a separate, case-consistent length for each radio outage.",
+    "A": {
+      "state": "supported",
+      "quote": "About ten minutes on Monday"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "most of the afternoon on Thursday"
+    }
+  },
+  "v4": {
+    "quote": "The tablets are in the kitchen cabinet.",
+    "reason": "The patient says the tablets are in the kitchen cabinet and the eye drops are on the bedside table.",
+    "A": {
+      "state": "supported",
+      "quote": "I keep the eye drops on my bedside table."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The tablets are in the kitchen cabinet."
+    }
+  }
+}
+```

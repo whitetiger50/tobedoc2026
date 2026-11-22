@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I3027ca062183f08551a1",
+  "ended": "2026-11-20T21:06:50.214761+00:00",
+  "session": "dfb05e77-2b7b-4b80-84cc-e21d4d10988f",
+  "packet_sha256": "0d3e11edbbfcada4016fadd76cb21700ceb91af446b00e47b2497471193d4335",
+  "raw_sha256": "372a5d80d3f1009e6eb8c377f3c32790cc37f481f7fe12eaccd7bb210d063dfe",
+  "provider_sha256": "1d9f57af3eca240427edcd2e12c453cc7b470b9e157266916df839bcba5eb8a3",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are warm and matter-of-fact, with short paragraphs about routines and single sentences for simple factual questions. The patient uses the Thursday shift as a time marker and volunteers mundane practical details, such as the pill organizer by the kettle and the water bottle. The old radio episode is described briefly and called upsetting, as the profile specifies. Minor issues reduce realism without undermining it: (1) stray quotation marks wrap the answers in turns 2 and 8; (2) some phrasing closely copies the profile ('seemed meant personally for me', 'I've felt well this past year'); (3) answers to repeated questions are near-verbatim restatements (turns 3/4, 7/9); (4) turn 6 bundles several facts into one answer to a broad question.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "noticed the stew didn’t have a date label. I checked with the cook before putting it away."
+    },
+    {
+      "turn": 6,
+      "quote": "I keep the pill organizer next to the kettle, which helps me remember."
+    },
+    {
+      "turn": 11,
+      "quote": "Several years ago, the radio weather reports seemed meant personally for me, which was upsetting."
+    },
+    {
+      "turn": 9,
+      "quote": "If my mouth gets dry, I have a sip of water and carry on."
+    }
+  ]
+}

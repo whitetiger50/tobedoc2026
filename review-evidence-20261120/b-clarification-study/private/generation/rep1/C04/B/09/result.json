@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 9,
+  "question": "How many days a week do you usually travel to work?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e7-7e82-b309-06b6ea49db20",
+  "raw": "Usually three days a week.",
+  "raw_sha256": "7c698ab39a58beaac0f268ddf27f87d2e95ddb24b6ee50d32a0e2f51bfbdd43a",
+  "request_sha256": "7de115e850b6771d89c6bac7a7f7de3b413c9cf69de841223dc87a3608494d29",
+  "started_utc": "2026-11-21T03:45:36.264855+00:00",
+  "completed_utc": "2026-11-21T03:45:40.830014+00:00",
+  "usage": {
+    "input_tokens": 71905,
+    "cached_input_tokens": 59648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 229,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "162ddafc4e448ad62a39745f34efecb397ae5a2db880663a1f17666718dbab60",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1dc803d4aec62e0f91f6d1439100840b1ba7942017a92c224566a6354e22b218"
+}

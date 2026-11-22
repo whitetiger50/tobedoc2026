@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:19:02.027160+00:00",
+  "attempt": "attempt-01",
+  "id": "K05a47ad4a06986a14666",
+  "reader": "gpt",
+  "session": "01a1fad3-9e98-7903-8833-7257a92550dd",
+  "packet_sha256": "5f321d36e527b83ab004e7f5135f662a539ff97953d53abe36c6a00614bfd21d",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "b760fd1a9dedc0d40716fa73476d32c541b28d285b98651e1b6085a4d4560e30",
+  "raw_sha256": "592fb00a9a58960408ed40f661b30d5c463e97322423d2f21bc6f252e13b7b0f",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient explicitly says they did not feel watched at the same shelter on Wednesday.",
+      "evidence": [
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "on Wednesday I waited at the same shelter without feeling watched.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient remains unsure whether the people recognized them or were looking for the bus.",
+      "evidence": [
+        {
+          "turn": 5,
+          "role": "patient",
+          "quote": "I’m still not sure whether they recognized me or were just looking for the bus.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

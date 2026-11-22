@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I3027ca062183f08551a1",
+  "ended": "2026-11-20T21:05:22.638664+00:00",
+  "session": "a4487b5b-602d-4673-9dc0-923e37a2d37f",
+  "packet_sha256": "0d3e11edbbfcada4016fadd76cb21700ceb91af446b00e47b2497471193d4335",
+  "raw_sha256": "faf9bf5b2f5c1c613b41c569fecdff0822242c66498aa96ea5adc7fbcb7fa30e",
+  "provider_sha256": "01d195a7aeca10ad66dd554f5a5376b25b3591f4dafe2190c2bb803da39ca899",
+  "status": "valid",
+  "score": 3,
+  "rationale": "Overall the communication is mostly natural and fits the persona. The patient is warm and matter-of-fact, gives short paragraphs about routines and one-sentence answers to simple factual questions, and uses Thursday shifts as a time marker. They volunteer practical details such as the pill organizer by the kettle and the water bottle. The old episode is covered briefly and described as upsetting, which matches the guardedness profile. Several minor problems reduce realism without making the conversation feel artificial. Some phrasing closely echoes the profile and sounds stiff, for example 'prescribed tablet' and 'seemed meant personally for me'. Answers to repeated or rephrased questions (turns 3-4 and 7-9) are near-duplicates rather than varied the way a real person's would be. Stray quotation marks wrap two answers (turns 2 and 8).",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "I checked with the cook before putting it away."
+    },
+    {
+      "turn": 6,
+      "quote": "I take my prescribed tablet in the morning."
+    },
+    {
+      "turn": 11,
+      "quote": "the radio weather reports seemed meant personally for me, which was upsetting"
+    },
+    {
+      "turn": 9,
+      "quote": "If my mouth gets dry, I have a sip of water and carry on."
+    }
+  ]
+}

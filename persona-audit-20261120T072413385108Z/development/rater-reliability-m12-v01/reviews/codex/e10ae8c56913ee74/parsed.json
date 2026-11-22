@@ -1,0 +1,54 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 간결하고 자연스럽게 질문에 답하지만, 동거 여부를 이전 진술과 정반대로 말해 대화의 일관성이 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P04",
+      "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "어머니와 함께 산다는 고정 사실을 명시적으로 뒤집었다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 답하며, 약 이름과 용량에 대한 지식의 한계도 명확히 밝혔다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "작성된 이전 문맥에서 어머니와 함께 산다고 한 자신의 말과 설명 없이 정면으로 모순된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "어머니와는 함께 살지 않고 혼자 살아요."
+        }
+      ],
+      "context_refs": [
+        "authored_context"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 간결한 일상적 표현으로 답하며, 보고서식 설명이나 부자연스러운 메타 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

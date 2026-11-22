@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 4,
+  "question": "I mean keeping track of several jobs. Are there particular times when that feels easier or harder?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Evenings are easier, when the kitchen’s quiet. I can lay the bibs out and finish that before doing something else. It’s harder just before we leave, especially if I’m looking for something and someone’s talking to me—I go with that and lose where I’d got to. One of my housemates sometimes reads the jobs back to me while I gather things. That helps, actually, having a reminder rather than trying to hold the whole lot in my head.”",
+  "raw_sha256": "ec36b2ff7cf00915c8963fffe4c790e8f1141483eb933e9c18713dd8337a7120",
+  "request_sha256": "46c71a264800014fa80b0354ed23b784f473a5efde4b3bd0e679421c95dcd222",
+  "started_utc": "2026-11-20T20:39:32.068433+00:00",
+  "completed_utc": "2026-11-20T20:39:38.737089+00:00",
+  "usage": {
+    "input_tokens": 31343,
+    "cached_input_tokens": 22656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 384,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "0c83165a6ae1ec3ded31d0b2deb904b1e3a72a4a0b6ed7ba44ef4333bbefb6ab",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6954aa083b4896e59d016e15fd4475dddecfd18259919348249a60a21a9bbf14"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T1",
+  "turn": 9,
+  "question": "Who do you feel comfortable spending quiet time with?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-d194-75f0-98d1-1b4c541276cb",
+  "raw": "“One of my housemates. Sometimes we fold paper models together after dinner. I enjoy that—it gives me something to focus on.”",
+  "raw_sha256": "a7ba7052b44cb11282fb9ff545432b7211603be1c9a26d6f48eeb3ee338168d8",
+  "request_sha256": "b937604c7ca775f41dd00b283b959e591fd63090865c7fbf0537adbb0d46525a",
+  "started_utc": "2026-11-20T20:41:59.852708+00:00",
+  "completed_utc": "2026-11-20T20:42:03.939543+00:00",
+  "usage": {
+    "input_tokens": 7410,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c00b85d00f36d574537f3ae3988206480a39c808c38a26594baea7f18e80e9f9",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b4c64822cfd34620ba2de34e0aac4f801ec3c88af0308e18a4a45efb7a6b2191"
+}

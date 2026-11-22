@@ -1,0 +1,27 @@
+{
+  "DERAILMENT": {
+    "status": "present",
+    "reason": "The reply moves from unfolding a map, as part of choosing a route, to an unrelated claim that candles were cheaper in winter. It gives no link between the map and candle prices, then returns to the route without bridging the gap.",
+    "evidence": [
+      {"quote": "I unfolded my map."},
+      {"quote": "Candles were cheaper in winter."}
+    ]
+  },
+  "POVERTY_OF_CONTENT": {
+    "status": "absent",
+    "reason": "The sentences are short but concrete: a map was unfolded, a claim about candle prices is made, and someone marked a route. Nothing in the reply is empty, vague or circular.",
+    "evidence": []
+  },
+  "TANGENTIALITY": {
+    "status": "absent",
+    "reason": "The reply answers what was done to choose the route (unfolding the map, having a route marked). The candle sentence is a single intrusion, not a reply that follows a different line instead of answering.",
+    "evidence": []
+  },
+  "UNCLEAR_REFERENCE": {
+    "status": "uncertain",
+    "reason": "The prior answer names two companions, Mara and Jo. 'She' could refer to either, and who marked the route matters for the question. If Jo is understood as male, 'she' resolves to Mara, so a credible alternative reading exists.",
+    "evidence": [
+      {"quote": "Then she marked a route for me."}
+    ]
+  }
+}

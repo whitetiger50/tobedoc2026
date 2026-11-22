@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do you spend the first part of a typical day off?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-28fa-7890-9b36-220a1c511345",
+  "raw": "I usually go swimming before lunch. I’m working on getting comfortable with backstroke, and I feel pleasantly tired afterward.",
+  "raw_sha256": "32a9c7d4b93de0ad3600e7d62cfdd0dbaecfff65caf7c5ca9c5831ba1c27ce27",
+  "request_sha256": "2f9f45df7911868a41afcc97ecc33f9a60169e57ab5c1769fa1563a9d3e97bbc",
+  "started_utc": "2026-11-20T20:40:11.154133+00:00",
+  "completed_utc": "2026-11-20T20:40:15.070509+00:00",
+  "usage": {
+    "input_tokens": 7045,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5718def7b36870a9de86045e5f598e71ea56324f9f88d255baba7ab772b31a95",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1a4e6467eff27bc97fed2add8f1b3c0132067d4fa0fc003b37d386f2c1d0bf79"
+}

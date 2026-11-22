@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Ren is a 47-year-old shop bookkeeper who has recently moved to a smaller apartment near family.",
+    "history": "Ren has received outpatient care for schizophrenia for nine years. A dose reduction was agreed at a visit three weeks ago and took effect two weeks ago.",
+    "organization": "Thoughts are well connected.",
+    "spontaneity": "Readily chats about everyday activities.",
+    "guardedness": "Generally open, a little embarrassed by forgotten tablets.",
+    "expression": "Warm, matter-of-fact manner.",
+    "self_understanding": "Feels that both the treatment and spending time with other people help with staying well.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "The main advantage of the new apartment is being able to walk to family.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about the move."
+      },
+      {
+        "kind": "background",
+        "content": "On Wednesdays Ren stays at a book group for an hour and spends about three hours visiting Mom. They usually work on a crossword together.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing Wednesday activities."
+      },
+      {
+        "kind": "background",
+        "content": "Walks both to the book group and to Mom’s apartment.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing transport."
+      },
+      {
+        "kind": "treatment",
+        "content": "Since the visit three weeks ago there was one missed tablet, the evening before the lower dose began. No tablets have been missed since starting the lower dose two weeks ago. Takes the tablet after supper.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about medication adherence or timing."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Dry mouth was a nuisance on the old dose and is less bothersome on the lower dose.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing treatment effects."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually wakes at around six in the morning.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleeping or waking."
+      },
+      {
+        "kind": "background",
+        "content": "Plays the mandolin for pleasure.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about music or hobbies."
+      },
+      {
+        "kind": "background",
+        "content": "Wants to discuss keeping the after-supper medication routine while traveling.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked what to cover at the next appointment."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What do you like about the new place?",
+      "answer": "Being able to walk over to see my family is the best part. It’s smaller, but it’s nice having them close by."
+    },
+    {
+      "question": "I see the book group and a visit with your mom on Wednesdays. How long do you usually stay?",
+      "answer": "About an hour at the book group, then about three hours with Mom. We usually work on a crossword together."
+    },
+    {
+      "question": "How long do you spend at your mom’s place on a Wednesday?",
+      "answer": "About three hours. We usually do a crossword together."
+    },
+    {
+      "question": "What do you and your mom usually do together?",
+      "answer": "We usually work on a crossword together. It’s nice to sit and chat while we puzzle over the clues."
+    },
+    {
+      "question": "Back to the book group and your mom’s place for a moment. Do you usually walk there?",
+      "answer": "Yes, I walk to both—the book group and Mom’s place."
+    },
+    {
+      "question": "How is your dry mouth on the lower dose?",
+      "answer": "It’s less bothersome now. On the old dose it was a nuisance, so that’s been a welcome change."
+    },
+    {
+      "question": "About what time do you usually wake up?",
+      "answer": "Usually around six in the morning."
+    },
+    {
+      "question": "I’ve marked our last visit and the day you started the lower dose here. Have you missed a tablet since then?",
+      "answer": "I did miss one, the evening before I started the lower dose. A bit embarrassing, but I haven’t missed any since starting it two weeks ago."
+    },
+    {
+      "question": "Since the first day on the lower dose, have you missed any tablets?",
+      "answer": "No, I haven’t missed any since starting the lower dose."
+    },
+    {
+      "question": "And when in the day do you take it?",
+      "answer": "I take it after supper."
+    },
+    {
+      "question": "What instrument do you play for fun?",
+      "answer": "I play the mandolin, just for pleasure."
+    },
+    {
+      "question": "What would you like us to cover at our next appointment?",
+      "answer": "I’d like to talk about keeping up my after-supper tablet routine while I’m traveling."
+    }
+  ]
+}

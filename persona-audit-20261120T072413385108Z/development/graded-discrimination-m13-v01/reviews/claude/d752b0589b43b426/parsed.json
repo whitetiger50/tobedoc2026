@@ -1,0 +1,61 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 환자 턴은 프로필에 맞게 자연스럽고 간결하다. 그러나 P02에서 환자가 1인칭 대신 '설정되어 있다'는 3인칭 메타 설명으로 답해 역할이 뚜렷하게 깨졌다. 이 때문에 대화 전체의 진정성이 눈에 띄게 손상된다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술 내용이 프로필 사실(living, work, breakfast, symptom, pattern, coping, sleep, goal)과 자기이해에 부합한다. 무근거 구체화는 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답한다. P02도 표현은 부적절하지만 동거인 질문에는 답하고 있다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02에서 환자 1인칭 화자 역할이 3인칭 설정 설명으로 바뀌었다. 앞뒤 1인칭 발화와 단절되어 역할·문맥이 깨졌다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:P01",
+        "turn:P03"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P02는 환자 시점의 말이 아니다. 설정 항목을 보고서식으로 대행한 명확한 역할 설명이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "이 환자는 남편과 함께 사는 것으로 설정되어 있다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

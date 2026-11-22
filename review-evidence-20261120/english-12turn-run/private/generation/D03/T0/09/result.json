@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 9,
+  "question": "What suits you best at that point?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-a7dc-7fd2-b9a1-6c82102741a3",
+  "raw": "Quiet company, really. My sister sitting nearby sometimes helps me start. I like a bit of time, without being rushed.",
+  "raw_sha256": "0f70a3711dccd462860bcf5366db80957190c9adc3fca3573e60b857a1d57a2c",
+  "request_sha256": "abac43d1a43f2424e7adc4e0ca6ad005ae94015e9206370a45cbda4b760d7a25",
+  "started_utc": "2026-11-20T20:33:04.910475+00:00",
+  "completed_utc": "2026-11-20T20:33:08.875691+00:00",
+  "usage": {
+    "input_tokens": 7210,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 29,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "5010e92e5aae14ff97f56020c39f3bce52446d009ea4e12316481ba4a4825110",
+  "trace_sha256": "d65f45d329d87764c9255a4f4c3b0a2c90b3790a494e45055bcc0084538f2e0a"
+}

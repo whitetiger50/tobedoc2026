@@ -1,0 +1,68 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The singular 'that change' follows a mention of two changes with different origins, so the reply differs depending on whether it means the later start, the shorter shifts, or both together.",
+    "alternatives": [
+      {
+        "meaning": "The later start",
+        "answer": "Yes, Cameron requested the later start."
+      },
+      {
+        "meaning": "The shorter shifts",
+        "answer": "No, the supervisor suggested the shorter shifts."
+      },
+      {
+        "meaning": "The combined schedule change (both shorter shifts and later start)",
+        "answer": "Only partly: Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Were you done by six that evening?",
+    "reason": "The question could refer to the cooking class, the swimming lesson, or both, but both finished by six, so every reading gets the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether the cooking class finished by six",
+        "answer": "Yes, the cooking class finished by six in the evening."
+      },
+      {
+        "meaning": "Whether the swimming lesson finished by six",
+        "answer": "Yes, the swimming lesson finished by six in the evening."
+      },
+      {
+        "meaning": "Whether both activities were finished by six",
+        "answer": "Yes, both finished by six in the evening."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "'Him' could mean either the brother or Mr. Bell, both just named, and Ari called back only the brother, so the factual answer depends on the referent.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari called the brother back",
+        "answer": "Yes, Ari called the brother back."
+      },
+      {
+        "meaning": "Whether Ari called Mr. Bell, the building manager, back",
+        "answer": "No, Ari has not called Mr. Bell back yet."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The immediately preceding question and answer were only about the bedside speaker, so 'it' pragmatically refers to the speaker.",
+    "alternatives": [
+      {
+        "meaning": "Where the bedside speaker is set up",
+        "answer": "On the windowsill beside the bed."
+      }
+    ]
+  }
+}
+```

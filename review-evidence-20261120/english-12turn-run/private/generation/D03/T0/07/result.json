@@ -1,0 +1,27 @@
+{
+  "case": "D03",
+  "arm": "T0",
+  "turn": 7,
+  "question": "What makes a day feel worthwhile to you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-72f0-72e1-9685-f425625e216d",
+  "raw": "Getting a little job finished. Like that timer—it felt good to have fixed something. Quiet company with my sister is nice, too.",
+  "raw_sha256": "abd80fe291aa4903b9cd8278fc7a71d62ab944ddbe55d241e7b0ac035e73b12a",
+  "request_sha256": "2f60d75916662c7dcdf55b282d34fd8c437fefa076b72e16b028309e91c972de",
+  "started_utc": "2026-11-20T20:32:51.370260+00:00",
+  "completed_utc": "2026-11-20T20:32:55.170954+00:00",
+  "usage": {
+    "input_tokens": 7080,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ce95d3dae09e336a0fa2f23fc81bf59274761a0cdf58a3ff9f3e5cfd6537aa71",
+  "trace_sha256": "216bb3c140f9ebc437c25f1733909a6c124bc0b3b55133edc95124382b692c91"
+}

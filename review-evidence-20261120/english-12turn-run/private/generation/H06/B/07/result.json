@@ -1,0 +1,29 @@
+{
+  "case": "H06",
+  "arm": "B",
+  "turn": 7,
+  "question": "Does the order make a difference to you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-0ae5-7e91-96f2-6cabb3355b1c",
+  "raw": "“Yes, I think so. If I get the bibs into the bag and put it by the door before starting on something else, it’s easier. If I stop halfway to look for my bus card, then I can lose where I’d got to. The card’s in the bag pocket now, actually, so that’s one less thing to hunt for. I don’t think there’s one special order—it’s more finishing one bit before I get pulled onto the next.”",
+  "raw_sha256": "b0dc3228476ea6db7e4dd80b6f2dde6d9d67a545c8c8ffbc25ab6cc8066c560c",
+  "request_sha256": "dc9c06f62ef5cb048d56a76f28d42ee299bbd5b2c89fbcf7be73a202e231966f",
+  "started_utc": "2026-11-20T20:40:56.980156+00:00",
+  "completed_utc": "2026-11-20T20:41:03.023384+00:00",
+  "usage": {
+    "input_tokens": 56051,
+    "cached_input_tokens": 46464,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 653,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ac79bb18f9def417102df55f1660fb787e7a34dcd16e7135c8710c348d3cc6fa",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "4aaaa12923001017bd8c917a2145f53fe7134714e15f50c740ce44ce5ab72462"
+}

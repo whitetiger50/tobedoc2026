@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 7,
+  "question": "What do you make of the difference?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-72f0-7692-bc31-9cdedac0f1be",
+  "raw": "Do you mean whether having a job in mind before I get there helps me stay on track?",
+  "raw_sha256": "91d479bc3ff647f9529381978818621e4fed5989329ac8a697c8d23b89a31218",
+  "request_sha256": "88c55b3bdc54688d763ee07793c1ea367f7627b60e85182208c3a5abfa1bdb17",
+  "started_utc": "2026-11-20T20:32:51.370385+00:00",
+  "completed_utc": "2026-11-20T20:32:58.429611+00:00",
+  "usage": {
+    "input_tokens": 7240,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 142,
+    "reasoning_output_tokens": 117
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "281ad5b09cf499bfb5bc85b4b8b3a3203371d26b4a24440432c032dbdd80340b",
+  "trace_sha256": "40e3613a8d48cf220f91d534fdf3d4198a2f97f41f3df68c01eebf406a552e08"
+}

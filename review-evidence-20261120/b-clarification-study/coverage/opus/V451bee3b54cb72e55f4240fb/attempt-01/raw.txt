@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "Yes, the housing letter needs a reply by Friday.",
+    "reason": "The reply says the housing letter needs a reply by Friday and the work letter needs no reply.",
+    "A": {
+      "state": "supported",
+      "quote": "the housing letter needs a reply by Friday"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I don’t need to reply to that"
+    }
+  },
+  "v2": {
+    "quote": "Still using the phone alarm at 7:10 in the morning.",
+    "reason": "The reply says the phone alarm is still in use and the door note was removed last month.",
+    "A": {
+      "state": "supported",
+      "quote": "Still using the phone alarm"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I took the note off the door last month."
+    }
+  },
+  "v3": {
+    "quote": "The tablets are in the kitchen cabinet.",
+    "reason": "The reply puts the tablets in the kitchen cabinet and the eye drops on the bedside table, not in the kitchen.",
+    "A": {
+      "state": "supported",
+      "quote": "I keep the eye drops on my bedside table."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The tablets are in the kitchen cabinet."
+    }
+  },
+  "v4": {
+    "quote": "Do you mean the fan or the speaker?",
+    "reason": "The reply only asks which item was meant and gives no answer about either one.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  }
+}
+```

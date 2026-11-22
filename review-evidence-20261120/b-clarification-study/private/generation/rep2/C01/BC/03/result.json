@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "B",
+  "turn": 3,
+  "question": "We had a phone alarm and a note on the door down as ways to remember your pass. Are you still using the reminder?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e2-7b93-81c2-db72fe1a7c09",
+  "raw": "Do you mean the phone alarm or the note on the door?",
+  "raw_sha256": "725a38f2b192a58a3a4605735d7efc497b3c5f2ee88bc8f349640ae946d1599d",
+  "request_sha256": "489479b58ab342b97dfc5c3609ff2989cd528fe10a321b6c4b92952a7dbae3ba",
+  "started_utc": "2026-11-21T03:40:45.280623+00:00",
+  "completed_utc": "2026-11-21T03:40:51.342027+00:00",
+  "usage": {
+    "input_tokens": 23556,
+    "cached_input_tokens": 17792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132,
+    "reasoning_output_tokens": 61
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "75b966884a4e6f1dff487bf5f370336587bfa5af394362402193b77940c4aa6f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "bb73e6f3d3dbee9dd1e45dbd99439e435576695c7ea176b29026e4ca9d7d7a8a"
+}

@@ -1,0 +1,524 @@
+{
+  "unique_examples": 9,
+  "readings": 36,
+  "reader_summary": {
+    "opus": {
+      "rounds": [
+        {
+          "exact_middle": 3,
+          "anchors_scored_2": 0,
+          "exact_anchors": 6,
+          "fully_distinguished": 3
+        },
+        {
+          "exact_middle": 3,
+          "anchors_scored_2": 0,
+          "exact_anchors": 6,
+          "fully_distinguished": 3
+        }
+      ],
+      "retest": {
+        "meaning_clarity": {
+          "exact": 9,
+          "transitions": {
+            "2 -> 2": 3,
+            "1 -> 1": 3,
+            "3 -> 3": 3
+          }
+        },
+        "elaboration": {
+          "exact": 9,
+          "transitions": {
+            "1 -> 1": 6,
+            "2 -> 2": 3
+          }
+        }
+      },
+      "middle_2_twice": 3,
+      "fully_distinguished_twice": 3
+    },
+    "gpt": {
+      "rounds": [
+        {
+          "exact_middle": 2,
+          "anchors_scored_2": 0,
+          "exact_anchors": 6,
+          "fully_distinguished": 2
+        },
+        {
+          "exact_middle": 2,
+          "anchors_scored_2": 0,
+          "exact_anchors": 6,
+          "fully_distinguished": 2
+        }
+      ],
+      "retest": {
+        "meaning_clarity": {
+          "exact": 9,
+          "transitions": {
+            "3 -> 3": 3,
+            "2 -> 2": 2,
+            "1 -> 1": 4
+          }
+        },
+        "elaboration": {
+          "exact": 9,
+          "transitions": {
+            "2 -> 2": 4,
+            "1 -> 1": 5
+          }
+        }
+      },
+      "middle_2_twice": 2,
+      "fully_distinguished_twice": 2
+    }
+  },
+  "between_reader_exact_by_round": {
+    "meaning_clarity": [
+      8,
+      8
+    ],
+    "elaboration": [
+      8,
+      8
+    ]
+  },
+  "rows": {
+    "opus": {
+      "H83": [
+        {
+          "position": 1,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "60e8fa35-c239-4e6a-a4f8-37eb24c9bcb1",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 8,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "26bfd1a9-0a5b-46bd-b63f-b1bb07263df8",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H63": [
+        {
+          "position": 2,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "af0d948c-613f-4d18-b6ea-3f4951f3bc53",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 6,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "05c0efa0-d2df-4c6d-876c-13fb8d0a8e73",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H58": [
+        {
+          "position": 3,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "04185a68-74b1-496c-9ef0-22fcddececff",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 7,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "e9c7bc84-f127-416a-be89-a8bc1f1c7b4d",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H47": [
+        {
+          "position": 4,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "a7647ebf-0a34-4756-bff6-5c8397f51496",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 3,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "fc3cdf3d-ec9c-4ddb-8e80-48a3e0d143eb",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H39": [
+        {
+          "position": 5,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "f1895af5-3782-4405-9485-8d12aa58aff5",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 9,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "b396f815-cf32-478d-a57c-e86ed8832418",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H72": [
+        {
+          "position": 6,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "5157982b-61e7-4e34-aa6d-5279c687dced",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 1,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "3d59ee09-1f1e-44b4-8d49-eae7e173951c",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H26": [
+        {
+          "position": 7,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "90c56d5b-792a-4e83-8081-bd7d61eda35b",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 5,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "61163c28-c12f-4af5-a14f-49a0c2694504",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H14": [
+        {
+          "position": 8,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "44d5099a-9762-41f9-af52-976c636aad68",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 4,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "1685f485-8f14-437a-889c-10ea4bc69002",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ],
+      "H91": [
+        {
+          "position": 9,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "6b59e366-1eaa-4fe9-8d1a-0310f498e4e5",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        },
+        {
+          "position": 2,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "9a2e5f13-d5f5-4a0c-b420-3be3f31aa446",
+          "service_models": [
+            "claude-opus-5-5"
+          ]
+        }
+      ]
+    },
+    "gpt": {
+      "H91": [
+        {
+          "position": 1,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa24-a459-75a2-8884-65c6228ba72c",
+          "service_models": []
+        },
+        {
+          "position": 9,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa26-6039-78a3-b908-30872dd315f9",
+          "service_models": []
+        }
+      ],
+      "H14": [
+        {
+          "position": 2,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "01a1fa24-bf03-7651-b31f-a22a30eb4f96",
+          "service_models": []
+        },
+        {
+          "position": 6,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "01a1fa26-0ac8-7630-8fc9-73fadc1906d2",
+          "service_models": []
+        }
+      ],
+      "H47": [
+        {
+          "position": 3,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa24-db31-73b1-8ddb-8f867c850ed2",
+          "service_models": []
+        },
+        {
+          "position": 7,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa26-2891-7f92-8dc4-c45e4a653ad2",
+          "service_models": []
+        }
+      ],
+      "H63": [
+        {
+          "position": 4,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa24-f441-7d81-a8a3-b0127549d088",
+          "service_models": []
+        },
+        {
+          "position": 5,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa25-f2b3-76d0-b46b-27bfd0a386fe",
+          "service_models": []
+        }
+      ],
+      "H58": [
+        {
+          "position": 5,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa25-0a33-7432-8594-f25ae1270b9f",
+          "service_models": []
+        },
+        {
+          "position": 8,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa26-42cc-7812-ba01-95cc2732522e",
+          "service_models": []
+        }
+      ],
+      "H83": [
+        {
+          "position": 6,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "01a1fa25-2624-7c02-824a-30ae016aa050",
+          "service_models": []
+        },
+        {
+          "position": 1,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 2
+          },
+          "events": 1,
+          "session": "01a1fa25-8cd9-7882-8aa5-69ad2991340e",
+          "service_models": []
+        }
+      ],
+      "H72": [
+        {
+          "position": 7,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa25-3ca2-7282-8a8d-bb56ffb607e4",
+          "service_models": []
+        },
+        {
+          "position": 2,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa25-a530-78e3-8739-c673a7339ac2",
+          "service_models": []
+        }
+      ],
+      "H39": [
+        {
+          "position": 8,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa25-5483-7bc3-be9a-0323df71e9d3",
+          "service_models": []
+        },
+        {
+          "position": 3,
+          "scores": {
+            "elaboration": 1,
+            "meaning_clarity": 1
+          },
+          "events": 1,
+          "session": "01a1fa25-bb61-7723-bd31-073a5e62c824",
+          "service_models": []
+        }
+      ],
+      "H26": [
+        {
+          "position": 9,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa25-74ae-7873-892e-55c9792b3eb1",
+          "service_models": []
+        },
+        {
+          "position": 4,
+          "scores": {
+            "elaboration": 2,
+            "meaning_clarity": 3
+          },
+          "events": 1,
+          "session": "01a1fa25-d616-7951-bedc-aec336bd522c",
+          "service_models": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1539 @@
+         Roleplay-doh: Enabling Domain-Experts to Create LLM-simulated
+                  Patients via Eliciting and Adhering to Principles
+
+                                   Ryan Louie, Ananjan Nandi, William Fang
+                                   Cheng Chang, Emma Brunskill, Diyi Yang
+                                              Stanford University
+
+
+
+
+                          Abstract                             simulations such as finetuning (Demasi et al., 2020)
+                                                               can help, but such methods typically require the
+        Recent works leverage LLMs to roleplay real-           use of application-specific datasets. In sensitive ap-
+        istic social scenarios, aiding novices in prac-
+                                                               plication domains like mental health, privacy con-
+        ticing their social skills. However, simulating
+        sensitive interactions, such as in the domain          cerns with obtaining the required data can restrict
+        of mental health, is challenging. Privacy con-         the feasibility of such methods. This suggests that
+        cerns restrict data access, and collecting expert      experts-in-the-loop may be a powerful alternative
+        feedback, although vital, is laborious. To ad-         to guide the evaluation and refinement (Chen et al.,
+        dress this, we develop Roleplay-doh, a novel           2023) of LLM-powered simulations.
+        human-LLM collaboration pipeline that elic-               However, how to involve experts when improv-
+        its qualitative feedback from a domain-expert,
+                                                               ing simulations is an open challenge. Collecting
+        which is transformed into a set of principles,
+        or natural language rules, that govern an LLM-         sufficient amounts of binary or preference data
+        prompted roleplay. We apply this pipeline to           from experts for post-training (Christiano et al.,
+        enable senior mental health supporters to create       2017; Rafailov et al., 2024) can be tedious and
+        customized AI patients as simulated practice           expensive. Experts can guide the prompting of
+        partners for novice counselors. After uncov-           LLM simulations, directly by editing their own
+        ering issues with basic GPT-4 simulations not          prompts or indirectly through testing and think-
+        adhering to expert-defined principles, we also         aloud sessions. However each prompting method
+        introduce a novel principle-adherence prompt-
+                                                               has its limitations: domain-experts may not know
+        ing pipeline which shows a 30% improvement
+        in response quality and principle following for        how to prompt simulations for desired behav-
+        the downstream task. Through a user study              iors (Zamfirescu-Pereira et al., 2023); and indirect
+        with 25 counseling experts, we demonstrate             methods are inefficient as it requires a designer
+        that the pipeline makes it easy and effective to       or researcher to translate qualitative insights into
+        create AI patients that more faithfully resemble       prompt-design changes.
+        real patients, as judged by both creators and             As a focal example, we consider the problem of
+        third-party counselors. We provide access to
+                                                               creating AI patients that serve as roleplay partners
+        the code and data on our project website1 .
+                                                               to enable varied and interactive practice opportu-
+1       Introduction                                           nities for novice therapists and counselors (Yao
+                                                               et al., 2022). Creating realistic simulations by fine-
+The application of LLMs in simulations holds great             tuning on mental health data is infeasible because
+potential for a variety of interactive applications,           therapy transcripts with real patients is difficult to
+ranging from social skill training systems as AI               obtain due to privacy concerns. Naively prompt-
+practice partners (Yang et al., 2024) to prototyping           ing LLMs fail to resemble typical behaviors of
+tools that use them as believable proxies of human             real-patients—for example, mental health experts
+behavior (Park et al., 2022). However, achieving               report that patients use colloquial language and can
+realistic and reliable simulations remains a signif-           show resistance to help (Chen et al., 2023). To date,
+icant challenge, due to issues such as caricature              no system supports counseling experts, who are fa-
+(Cheng et al., 2023), bias, and limited domain                 miliar with real-patient behaviors but are unlikely
+knowledge. Existing methods for improving LLM                  to have the technical expertise to write effective
+        Contact Emails: {rylouie, diyiy}@stanford.edu          prompts, to customize an AI patient themselves.
+    1
+        https://roleplay-doh.github.io/                           To address this limitation, we aim to enable
+                                                            10570
+         Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 10570–10603
+                             November 12-16, 2024 ©2024 Association for Computational Linguistics
+Figure 1: Roleplay-doh empowers an expert counselor to create a customized AI patient intended for other novice
+counselors to use as a practice partner. While interacting with the AI patient, the expert counselor can provide
+qualitative feedback which is converted by an LLM into a principle, or a custom rule governing desired roleplay
+behavior. The AI patient references the updated expert-defined principles to generate its subsequent responses.
+
+
+human-LLM collaboration for realistic simula-             the applicability of each simplified principle to the
+tion by developing a novel interactive tool, called       current scenario before self-refining (Madaan et al.,
+Roleplay-doh, that empowers domain experts to             2024) the AI patient response as required.
+directly guide the creation of simulations by pro-
+viding qualitative feedback without any explicit             We conducted a detailed evaluation of Roleplay-
+prompting. Our initial tool design adopts an intu-        doh to assess its human-LLM collaboration
+itive and effective paradigm for user-driven chat-        pipeline, focusing on how expert feedback helps
+bot assistant design (Petridis et al., 2024): experts     develop more authentic AI patients for training. In
+customize a set of principles, or rules written in        a within-subjects study involving 25 expert coun-
+natural language that govern its behavior (Bai et al.,    selors, participants created AI patients either by
+2022)—by (1) interactively critiquing responses in        describing real-patient scenarios only or by addi-
+natural language that then (2) gets transformed by        tionally using Roleplay-doh to define simulation
+an LLM into well-formulated principles describ-           principles. The results show that Roleplay-doh en-
+ing how the LLM simulation should act from now            ables counselors to produce AI patients that are
+on for example, "Respond to encouraging words             more authentic, closely resemble real cases, and
+with hesitation, doubting their significance" (Fig 1).    are better prepared for training use, as judged by
+The principles are then used along with a persona         creators and third-party counselors. Further, third-
+description to generate roleplay responses.               party counselors ranked responses generated by
+                                                          Roleplay-doh’s full principle-adherence pipeline,
+   In our initial tests of the tool with expert-          as well as three ablations of the pipeline and a
+counselors, we found that even with expert re-            baseline that does not self-refine its output to any
+finement via principles, the LLM- simulations had         extent. The full pipeline achieves the highest prin-
+difficulty delivering high-quality responses consis-      ciple following (35% wins i.e., ranked higher than
+tently. Our analysis of GPT-4 prompted simulation         the no-self-refine baseline; 5% losses i.e., ranked
+revealed that in 20% of responses, the simulation         lower than the no-self-refine baseline) and dialogue
+had difficulty adhering to multipart principles and       consistency (35% wins; 10% losses) compared to
+misapplying those principles that are only applica-       all ablations. This work highlights the limitations
+ble in specific contexts e.g., only when the therapist    of existing LLM simulation systems in specialized,
+provides encouraging words. To resolve these is-          data-scarce domains like mental health counseling,
+sues, we introduce a novel principle-adherence            and designs and validates a tool that enables expert
+pipeline in the final tool design. The first stage        counselors to directly customize LLM simulations
+in the pipeline decomposes multipart and contex-          of AI patients. Since Roleplay-doh does not con-
+tual principles into a set of yes/no questions that       tain any technical components specifically tailored
+are easier to judge, and the second stage assesses        for mental health, we hypothesize that it can be
+                                                    10571
+used to build realistic LLM social simulations for        bose, or reserved (Wang et al., 2024). Such work,
+a variety of domains, with appropriate expert feed-       however, required a researcher-in-the-loop to refine
+back systems tailored to the domain.                      prompts, hindering the speed of iterative design.
+                                                          Our work introduces a human-LLM collaborative
+2   Related Work                                          tool that enables domain-experts to directly create
+Utility of Simulated Partners Simulated part-             and refine LLM roleplay simulation to faithfully
+ners are used to give social skill learners the needed    resemble real-world patients.
+practice opportunities that textbook knowledge can-
+                                                          Text Generation with LLMs Generating dia-
+not provide. Past education software develops digi-
+                                                          logue responses that adhere to user-defined princi-
+tal patient simulations to make simulated partners
+                                                          ples is a type of constrained text generation prob-
+more accessible (Othlinghaus-Wulhorst and Hoppe,
+                                                          lem. Recent work has shown that constrained
+2020) but their tailored dialogue setup limit the con-
+                                                          text generation poses challenges when directly
+texts for practice. LLMs can overcome this issue by
+                                                          prompting GPT-4 (Madaan et al., 2024; Bubeck
+being flexibly configured to convincingly simulate
+                                                          et al., 2023; Yao et al., 2023). To improve outputs,
+a diverse set of personas (Park et al., 2022) and char-
+                                                          Madaan et al. (2024) propose a self-refine method
+acters (Park et al., 2023) and generate responses
+                                                          and conduct evaluation experiments on a dialogue
+in a range of contexts. Researchers have thus ex-
+                                                          simulation task where responses are constrained
+plored their application for simulation training for
+                                                          by a general set of criteria such as relevance, con-
+K12 teaching (Markel et al., 2023), conflict resolu-
+                                                          sistency, informativeness, and helpfulness. A dif-
+tion (Shaikh et al., 2024), and counseling (Demasi
+                                                          ference in our setting is responses are constrained
+et al., 2020; Tanana et al., 2019; Chen et al., 2023).
+                                                          by expert-defined principles that are multi-faceted
+Previous work has proposed methods to simulate
+                                                          and do not apply in all dialogue contexts. This
+diverse personas and scenarios, but to make prac-
+                                                          necessitates new modules that breakdown princi-
+tice more transferable (Alinier and Oriot, 2022),
+                                                          ples into multiple, concise questions and check the
+they must ensure simulations are faithful to what is
+                                                          applicability of principles prior to evaluating them.
+encountered in real-world social situations.
+
+Aligning Simulation with Domain Experts
+                                                          3     Designing for Simulated Roleplay
+Feedback from domain experts is crucial to evaluat-
+ing and improving the realism of LLM simulations.         We take a human-centered design approach to de-
+Recent approaches for aligning to human feedback,         veloping a tool for expert counselors to create and
+like Christiano et al. (2017) or Rafailov et al. (2024)   customize an AI patient for eventual use as a sim-
+depend on large amounts of preference data which          ulated training partner. After designing an initial
+requires lots of expert time to collect. A more           version of our tool, we pilot test it with experienced
+efficient approach is through alignment to qualita-       peer counselors to understand any remaining chal-
+tive or natural language feedback (Shi et al., 2022).     lenges to effective human-LLM collaboration when
+We build on a recent paradigm for user-driven             creating and customizing an AI patient.
+chatbot design (Petridis et al., 2024) that elicits
+qualitative feedback on responses which gets con-         3.1    Initial Tool Design Rationale
+verted into constitution principles (Bai et al., 2022),   Our initial version of Roleplay-doh adopted several
+which are explainable and effective natural lan-          of the design features of Petridis et al. (2024)’s
+guage rules that govern the LLM’s behavior. Our           tool for customizing task-oriented chatbots through
+initial tool design adopts this paradigm to support       interactive feedback.
+domain-experts to customize an LLM-simulated                 Principle Elicitation: Counselors can manually
+patient, and the final version extends it with a novel    write or edit the AI patient’s constitution. How-
+principle-adherence prompting pipeline.                   ever, since users often struggle to formulate their
+   In the mental health area, researchers have incor-     thoughts into principles, our tool helps the coun-
+porated domain-expert feedback when prompting             selor transform their feedback into specific prin-
+LLM for simulated patients, resulting in patients         ciples to make principle writing easier. As coun-
+that use colloquial and resistant language (Chen          selors interact with an AI patient, for each gener-
+et al., 2023; Stapleton et al., 2023) or that can take    ated response, they have the option to leave feed-
+on diverse conversation styles, such as upset, ver-       back in the form of a "kudos" explaining behavior
+                                                     10572
+they want to reinforce, a "critique" explaining any        O1: Defining “realistic” patient behavior is am-
+undesirable behavior, or a "rewrite" that demon-           biguous. Counselors felt the tool was easy to use
+strates a more desirable response. Then an LLM is          and effective at guiding the AI patient’s behavior,
+prompted (§E.1) to translate qualitative feedback          as indicated by moderate to high agreement scores
+into concrete principles that specify what should          on a tool usage questionnaire as shown in Table 9 in
+happen and when, and that generalize beyond the            Appendix B. However, the task of creating a ’realis-
+specifics of the dialogue context in which they are        tic’ AI patient for an imagined scenario was confus-
+generated (Fig 1). Early testing revealed that GPT-        ing, as counselors have interacted with many types
+3.5 was sufficient at translating kudos and critique       of patients who respond in various, yet equally re-
+feedback into principles, while prompting GPT-4 to         alistic ways. This insight helped us re-frame the
+explain differences in initial and rewrite responses       task in later sessions as recreating a challenging
+helped with inferring a principle.                         scenario from one’s past, which removed the am-
+   Testing Principles: Likewise, to enable easier          biguity of what behaviors are realistic by having
+testing of principles, our tool supports rewinding         them refer to a specific case from memory.
+the last response of the conversation, and generat-
+                                                           O2: 20% of responses produced by GPT-4 do
+ing a new response based on the updated AI Patient
+                                                           not satisfy expert principles or dialogue conven-
+constitution. One feature that we change is generat-
+                                                           tions. Specifically, 20% (55/276) of cases were
+ing a single dialogue response, rather than multiple
+                                                           rated as moderately, slightly, or not at all satisfying,
+responses, at a time. We reasoned that counselors
+                                                           at following all principles and being appropriate
+can identify ways in which a response does not
+                                                           to the dialogue context. Further analysis of these
+resemble a real-patient’s without needing to see
+                                                           cases helped to uncover three sources of error. Not
+multiple, and that generating a response at a time
+                                                           satisfying multiple principles at once: Generated
+would make the testing process more manageable
+                                                           responses could struggle to follow all the princi-
+and similar to having a normal dialogue.
+                                                           ples when there was a large number of principles,
+   Simulating AI Patient: We prompt the LLM
+                                                           or when the provided principles were a complex
+to follow the most recent set of constitution princi-
+                                                           composition of simpler principles. Awkwardness
+ples as in Petridis et al. (2024) rather fine-tuning the
+                                                           for Dialogue Context: Some responses were also
+LLM weights as in Bai et al. (2022)’s constitutional
+                                                           identified as awkward or unnatural given conven-
+AI framework. Since the tool supports defining and
+                                                           tions in the dialogue context, despite not violating
+testing principles in an iterative fashion, prompting
+                                                           the defined principles. For example, in the middle
+can make steering model behavior quicker and less
+                                                           of a conversation, saying "Hi, A. Yes that’s exactly
+expensive. Our prompt (Appendix E.2) instructs
+                                                           what I mean. There’s a voice that is always critical
+GPT-4 to simulate a patient’s next response in a
+                                                           of myself" is unnatural because of the use of ’Hi’.
+dialogue as opposed to asking the LLM to role-
+                                                           Misapplying Situational Principles: While gener-
+play as the patient using a system prompt (Zhou
+                                                           ating a response, the model sometimes incorrectly
+et al., 2024), as early testing revealed that this can
+                                                           applied principles, such as Respond with hesitancy
+mitigate role consistency issues in which the LLM
+                                                           when someone gives you encouraging words, even
+responds as an AI assistant rather than as a patient.
+                                                           when the conditions for their use—receiving en-
+3.2 Pilot Testing                                          couraging words—were not met.
+We pilot tested the tool with 6 counselors who had         4   Roleplay-doh
+experience giving support to real patients on an
+                                                           Roleplay-doh helps counseling experts create cus-
+online peer support platform; refer to Appendix A
+                                                           tomized AI patients based on scenarios from their
+and B for participant backgrounds and the pilot pro-
+                                                           past experiences. Roleplay-doh uses LLMs in two
+cedure. Additionally, four of the co-authors each
+                                                           ways: Principle Elicitation and Response Genera-
+conversed with four AI patients created (Table 8
+                                                           tion with Principle-Adherence, which we describe
+and assessed how well the simulation adhered to
+                                                           in more detail below:
+the expert-defined principles; refer to Appendix C
+for details on the procedure and qualifications of         Principle Elicitation Roleplay-doh enables
+the co-authors. Overall, the pilot tests and principle-    counselors to customize an AI patient to resemble
+adherence analysis helped uncover two obstacles            a real-patient case by eliciting their qualitative
+to effective simulated roleplay.                           feedback and transforming it into constitution
+                                                      10573
+Figure 2: Principle-adherence prompting pipeline for mitigating errors in satisfying expert principles and dialogue conventions.
+In Stage 1, expert-defined principles are rewritten into several YES/NO questions; and the LLM generates additional principle
+questions that are relevant to ensure adherence to dialogue conventions such as coherence and consistency. In Stage 2, the LLM
+(a) evaluates whether the questions are applicable to the context and the answers to the principle-adherence questions; and (b)
+refines the response to ideally receive YES on all questions.
+
+
+principles that dictate behavior. We expect these                 tions, such as coherence and consistency. This
+principles to be internally consistent because                    helps correct cases where there is awkwardness
+domain-experts have the real-patient case from                    in the generated responses not captured by the de-
+their memory to reference (Chen et al., 2021) when                fined principles. The LLM is instructed not to make
+evaluating the simulation responses. We provide                   assumptions about the patient or therapist’s person-
+some examples of principles defined by expert                     ality when generating criteria: for example, "The
+counselors in Table 2. Since our initial tool design              patient should be appreciative of the therapist’s
+includes the principle elicitation features, we refer             help" is not an appropriate criterion.
+the reader to §3.1 for details.
+                                                                     Applicability and Adherence Evaluator: This
+Generation with Principle-Adherence We                            module determines if each principle is applicable
+prompt GPT-4 conditioned on patient description,                  in a given situation, returning N/A if the question is
+list of principles and conversation history to                    not relevant to answer; otherwise, it evaluates the
+generate an initial patient response at each                      response using the questions, returning YES if the
+conversation turn. Since initial patient responses                response adheres to the principle questions; and NO
+can fail in 20% of cases to satisfy expert prin-                  otherwise. For an example of situational applica-
+ciples or dialogue conventions, we propose a                      bility, the principle Show willingness to engage in
+principle-adherence pipeline that prompts the                     a suggested activity by affirming the proposal is
+LLM to generate principle-adherence questions                     evaluated only if the therapist suggests an activity.
+(Stage 1) and employs these questions to assess                   In situations where the therapist is asking some-
+and refine the initial patient response (Stage 2).                thing else and no activity is proposed, the module
+Our principle-adherence pipeline features three                   would appropriately return N/A recognizing that the
+modules to mitigate the identified issues in §3.2.                principle does not apply.
+   Principle-as-Questions Rewriter: This module                      Our pipeline first uses the principle-as-
+transforms each expert-defined principle into a set               questions rewriter and automatic principle gen-
+of concise yes/no questions that are easier to eval-              erator modules to generate a set of criteria for
+uate for principle-following. Multifacted princi-                 evaluating the initial generated response. Then, the
+ples (e.g. “You should respond in short sentences                 response is evaluated using the question by the ap-
+and avoid using terms like ‘anxious’”), are divided               plicability and adherence evaluator. If the model
+into separate questions (e.g. “Does the patient’s                 returns a NO response for any of the questions, we
+response employ short sentences?” and “Is the pa-                 then perform a rewrite of the response conditioned
+tient’s language devoid of terms like ‘anxious’?”).               on the evaluation results, that ideally passes all
+   Automatic Principle Generator: This module                     questions (Fig 2). We detail the prompts used and
+adds additional principle questions that capture cri-             the procedure used to develop the prompts (§E.3)
+teria essential for ensuring that the LLM simula-                 and the results of a performance evaluation against
+tion’s responses follow general dialogue conven-                  ablations (§6).
+                                                            10574
+5   User Study using Roleplay-doh                       feel hopeless’. They display their current emotional
+                                                        state in their manner of speech." Scenario-only
+To evaluate how Roleplay-doh can aid counseling
+                                                        was also too articulate and forthcoming when
+experts in creating AI patients, we conducted a
+                                                        describing issues, where encouraging real patients
+within-subjects study with 25 counseling experts,
+                                                        to share is "as challenging as pulling teeth". It was
+comparing: (1) a Scenario-only dialogue simula-
+                                                        characterized as too cooperative, too willing to ac-
+tion, where the counselor writes a patient scenario
+                                                        cept. Despite counselors writing behavioral traits
+description, and (2) a Scenario+Expert-principles
+                                                        such as "not talkative" and "reluctant" in the pa-
+simulation, where the counselor uses Roleplay-doh
+                                                        tient scenario, Scenario-only did not exhibit these
+to define principles. See §G for full study setup.
+                                                        behaviors.
+   We evaluate the AI patients created by coun-
+selors on criteria inspired by prior work evaluating    5.2   Creating Principles with Roleplay-doh
+Standardized Patients, who are trained human ac-
+tors, on their ability to roleplay a case (Himmel-      Across the 25 Scenario+ExpertPrinciple AI pa-
+bauer et al., 2018). Counselors rated the two AI        tients, 123 total principles were created (min=1,
+patients based on 6 dimensions (Table 3). We also       max=10, median=5). Two authors did a qualita-
+surveyed each counselor about their experience          tive coding of these principles following a thematic
+using the tool for defining principles. Following       analysis approach (Braun and Clarke, 2006) where
+Petridis et al. (2024), we include four measures for    codes were initially defined and revised during
+evaluating principle elicitation features (Table 4).    the process. Besides stage-agnostic themes dic-
+                                                        tating a concise (14 patients) and colloquial (7
+   We recruit 25 counseling experts with real-world
+                                                        patients) speaking style, counselors created prin-
+experience in mental health support to perform the
+                                                        ciples related to the stages of an emotional sup-
+evaluation, categorized by their primary expertise:
+                                                        port conversation (Liu et al., 2021): 1) exploration:
+1) those who are pursuing or have completed de-
+                                                        identifying the patient’s problems, 2)comforting:
+grees in counseling or clinical psychology with
+                                                        using empathy and understanding to comfort the
+practicum experience; 2) those who provided on-
+                                                        patient, and 3) action: formulating solutions to the
+line counseling to over 30 clients on the 7 Cups
+                                                        patient’s problems. For instance, we find a com-
+platform; and 3) peer counselors who have pro-
+                                                        mon theme of instructing the AI patient to show
+vided in-person or virtual support. The AI patients
+                                                        initial skepticism with the idea of seeking help
+created were grounded in real-patient cases that
+                                                        (14 patients), corresponding to the style of interac-
+counselors had encountered in their past experi-
+                                                        tion in the exploration stage of conversation. Table
+ence. These patients represented people with dif-
+                                                        2 provides a full list of principle themes, examples,
+ferent severity of mental health disorders: 14 out
+                                                        and corresponding conversation stages.
+of 25 AI patients were simulating people seeking
+counseling support for specific issues but without         While we observe overlaps in the types of prin-
+a diagnosed mental disorder (e.g., family issues);      ciples defined, we also observe some contradic-
+10 out of 25 AI patients were simulating scenar-        tory themes. For example, the call for being dis-
+ios describing symptoms of mental disorders or          organized and conflicted (9 patients) contrasts
+previous diagnoses of mental health disorders; 1        calls to make responses concise and direct (14 pa-
+out of 25 patients could be categorized as having       tients). In the action stage of conversation, several
+serious mental illness (history of symptoms of psy-     counselors added principles to make the AI patient
+chosis, substance abuse, and severe impairment of       proactively ask for advice (12 patients); nonethe-
+life activities).                                       less, other counselors added an opposing principle
+                                                        to not seek out solutions but rather just share their
+5.1 Creator Perceptions                                 thoughts and feelings (3 patients). These opposing
+                                                        principles highlights the need for different prin-
+The AI patients prompted with Scenario+Expert           ciples to describe diverse conversation behavior
+Principles were rated significantly higher than         and styles, challenging the notion of defining AI
+Scenario-Only on all measures except for role con-      patients based on a single set of principles.
+sistency, for which both methods score highly (Ta-
+ble 1). Counselors mentioned the Scenario-Only AI       Tool User Experience Counselors found the
+patient lacked emotional depth in expression. As        tool helpful for writing principles that effectively
+one noted, "patients don’t state a feeling such as ’I   guided the AI patient to recreate their past case
+                                                   10575
+                  Ratings by Counselor Creators                                         Ratings by Third-Party Counselors
+  Measure                        Scenario Only          + Principles       Measure                      Scenario Only + Principles
+  Authenticity                         5.24             +0.80 **           Authenticity                 5.32             +0.31 *
+  Stayed in Role                       6.32             +0.08              Stayed in Role               6.29             +0.09
+  Resembled Past Case                  4.80             +0.76 *            Resembled Typical Case       4.91             +0.49 **
+  Mirrored Challenging Aspects         4.52             +1.00 *            Challenged the Counselor 2.13                 +0.22
+  Ready as Training Partner            5.16             +0.64 *            Ready as Training Partner 5.05                +0.39 **
+  Recommend to Novices                 5.76             +0.52 *            Recommend to Novices         5.03             +0.38 *
+
+Table 1: Creators and third-party counselors compared the Scenario-Only vs. Scenario+ExpertPrinciples AI patients using
+7-point Likert-scale measures; third-party judges were asked identical measures when possible, with two measures modified to
+match the external perspective. Creator Ratings: Creators (N=25) rated both AI patients. After refining the AI patient simulation
+with principles, creators rate the patient significantly higher on all measures except for stayed in role, for which both AI patients
+score highly. Third-Party Ratings: Third-party counselors (N=5) provided 125 total comparisons of the two AI patient
+versions. The treatment effect of adding expert principles was estimated using using the following linear mixed-effect model:
+Rating~Treatment+CreatorID+(1|AnnotatorID). Third-party counselors rate AI patients with principles significantly higher
+on 4 of the 6 measures. (***:p < .001, **:p < 0.01, *:p < 0.05.)
+
+    Stages    # AI patients   Theme                                         Example Principle
+                   14         Keep responses concise and do not share       When discussing personal struggles, be more concise and open-
+                              too much.                                     ended to encourage a back-and-forth conversation.
+                    7         Use colloquial and realistic langauge lan-    Incorporate natural speech patterns, improper grammar and punc-
+                              guage.                                        tuation, including the use of slang and less structured sentences,
+                                                                            to convey a more authentic and relatable character.
+                    14        Show initial mistrust and hesitation with     When expressing feelings of overwhelm and doubt, provide
+                              the idea of seeking help.                     limited information and express skepticism towards the effec-
+                                                                            tiveness of seeking help.
+                    19        Show emotions in detail, elaborating          When describing personal struggles, provide specific details and
+                              with examples as needed. *                    symptoms to help the listener understand the situation better.
+                    9         Be less self-aware of emotions, thoughts,     When expressing reluctance or uncertainty about seeking help
+                              and needs. Articulate thoughts in a more      or accepting praise, it’s important to convey the internal struggle
+                              disorganized way.                             and conflicting emotions, rather than presenting a clear-cut deci-
+                                                                            sion or emotion.
+                    3         Do not seek out solutions, but rather just    When expressing feelings of being stuck or defeated, focus on
+                              share thoughts and feelings. *                sharing emotions rather than seeking a resolution.
+                    12        Proactively seek out solutions and show       When discussing personal struggles, provide reflective insights
+                              reflective insight over time. *               into your situation and propose actionable steps for improvement
+                                                                            to continue the conversation effectively.
+
+Table 2: Themes taken from qualitative analysis of principles and representative examples. We discover several novel ( * )
+principles compared to those defined in prior work on AI patients (Chen et al., 2023; Stapleton et al., 2023). Themes are
+categorized into stages of conversation taken from (Liu et al., 2021): exploration , comforting , and action ; those relating to the
+overall conversation are categorized as stage-agnostic .
+
+
+(µ = 6.04, σ = 1.06). With the tool, most found                            conducted a third-party study where external coun-
+it easy to convert their thoughts and feedback on                          selors served as impartial judges. These judges
+the AI patient’s behavior into principles (µ = 6.12,                       evaluated AI patient transcripts presented in ran-
+σ = 1.13). Counselors felt they could efficiently                          domized order to ensure blindness to the condition.
+write principles (µ = 6.3, σ = 1.29), without re-                          We invited five counselors from the creator study to
+quiring much mental demand (µ = 3.20, σ =                                  serve as judges, all equally qualified of assessing AI
+1.70). Many counselors liked how the tools "orga-                          patient realism. A power analysis confirmed that
+nized their thoughts into rules", without "needing                         five judges would provide 80% statistical power
+to word it perfectly." Yet, principle-elicitation did                      (Appendix §J.2). The third-party counselors rated
+not work perfectly in all cases: 11.4% of princi-                          the same six dimensions as the creator study, with
+ples required manually editing. Via a worse-case                           questions reworded for the perspective of external
+analysis of creators’ tool use, we uncover scenarios                       judge (Appendix §J.1).
+where Roleplay-doh’s human-LLM collaboration                                  Third-party judges rate AI Patients with expert-
+pipeline can still be improved (§I).                                       defined principles as more authentic, resembling
+                                                                           typical cases, ready as a training partner, and likely
+5.3 Third-Party Comparison                                                 recommend to novices (Table 1). However, when
+A limitation of our creator study (§5.1) is the po-                        compared to the creator study results, the increase
+tential bias from creators who knew which AI pa-                           in ratings is smaller from the perspective of third-
+tient embodied their principles. To address this, we                       party counselors. We explore the reasons for this
+                                                                  10576
+Figure 3: Win/Tie/Loss for the Error Test Cases along Consistency with Context (M1), Principle Adherence (M3), and
+Overall. Pairwise preference evaluation results with [No Critique] as a baseline. Results obtained after majority voting.
+
+
+smaller difference in Appendix J.3, finding that                 vide an Overall ranking , along with a brief textual
+there is lower agreement on which AI patient is                  explanation. We allow multiple responses to have
+preferred (Table 6), due to the different principles             the same rank and randomize order of responses to
+attended to by third-party counselors and the spe-               minimize positional bias (details in §L).
+cific principles added by the creator.                              We treat [No Critique] as our baseline and
+6   Evaluation of Principle-Adherence                            compare all other models to it. We report prefer-
+We now evaluate whether the principle-adherence                  ence results based on majority vote across 3 expert
+pipeline improves the quality of responses for                   counselor annotations (Fig 3). We find our [Full]
+Roleplay-doh, along with an ablation analysis                    method performs better than [No Critique] on
+showcasing the utility of its various components.                M1 (W: 35%; L 10%) and on M3 (W: 35%; L
+Specifically, we break down the evaluation of                    5%), where it has the highest win/loss rates com-
+model responses along three metrics: M1) Are                     pared to all ablations. On overall rankings, it
+they consistent with the patient description and                 again has the strongest performance (W: 30%; L
+conversation history? M2) Do they exhibit an awk-                15%). We find that the performance of [Full]
+ward style of speech? M3) Do they adhere to the                  compared to [No Critique] is weaker on Over-
+provided principles?                                             all than M1 and M3. This is because the anno-
+   We evaluate the performance of our principle-                 tators often used their own subjective judgements
+adherence pipeline [Full] over (1) GPT-4 response                (e.g.,"although the middle response ranked third on
+generation without our pipeline [No Critique];                   principle following, it feels like the most realistic
+(2) an ablation without the Principle-as-Questions               response in this scenario") to perform the overall
+Rewriter [No Principle Rewrites]; (3) an abla-                   ranking, resulting in unpredictable and subjective
+tion without the Automatic Principle Generator                   results. We also find that [Naive] has a dispropor-
+[No Autogenerated Criteria]; and (4) an im-                      tionately high tie rate across metrics, indicating
+plementation of the principle-adherence pipeline                 that it rarely produces better responses even for
+that does not have any of these modules [Naive].                 error cases. This highlights the importance of the
+   To analyze how the pipeline mitigates errors that             Principle-as-Questions Rewriter and Automatic
+arise in base GPT-4 generations, we select 40 con-               Principle Generator for improving responses.
+versation turns from our user study logs that fall                  For M2, after majority voting, annotators
+into one of the error categories described in §3.2               report that 2.5% of responses are awkward
+as testcases. Each testcase contains the scenario,               for the [Full] method, as compared to 15%
+conversation history up to that point, and the expert-           for [No Critique], 7.5% for [Naive], 7.5%
+defined principles for the AI patient. For each test             for [No Principle Rewrites] and 15% for
+case, responses are generated for all models and                 [No Autogenerated Criteria]. Therefore, our
+then ranked by expert counselors from 1 (best) to 5              principle adherence pipeline substantially reduces
+(worst) for metrics M1 and M3, along with "Yes"                  the occurrence of awkward style in responses (by
+or "No" annotations for M2. Finally, experts pro-                a margin of 12.5%). The 12.5% gap in percent-
+                                                           10577
+age of awkward responses between [Full] and               Third, Roleplay-doh does not automatically
+[No Autogenerated Criteria] also indicates the         check for overlapping or conflicting principles, as
+importance of the Automatic Principle Generator        we expected domain experts to hand-craft a consis-
+for producing realistic rewrites. We repeat these      tent set of principles. For researchers re-using our
+experiments with 50 randomly picked conversation       dataset of principles, we recommend them to miti-
+turns and report results in §K, along with Krippen-    gate this issue through manual checking or LLM-
+dorff’s α numbers.                                     based de-duplication (Kim et al., 2024).
+7   Conclusions                                           Finally, we focused on creating AI patients for
+                                                       text-based dialogues, which has inherent limita-
+This paper introduces Roleplay-doh, a tool that em-    tions for training. Professional psychotherapists
+powers domain experts to create LLM simulations        often rely on non-verbal cues such as tone, facial
+through the automatic conversion of expert feed-       expression, and posture to empathize with and sup-
+back into natural language principles, and validates   port patients. This limitation applies to our AI pa-
+the tool for the task of creating AI patients that     tients and online, text-based mental health counsel-
+serve as roleplay partners for novice counselors.      ing in general. As multimodal models continue to
+Roleplay-doh’s novel principle-adherence pipeline      develop, future work could explore creating more
+also addresses gaps in existing simulation methods     realistic AI patients in other modalities that better
+by reducing the prevalence of responses that do not    match the eventual counseling environment.
+follow expert-defined principles or dialogue con-
+ventions. Studies with mental health counselors        Ethics and Broader Impacts Statement
+creating and comparing AI patients demonstrate
+that Roleplay-doh allows experts to refine LLM         This study was approved by our institution’s Institu-
+simulators to be authentic and more ready as prac-     tional Review Board (IRB). All investigators in the
+tice partners. Roleplay-doh could be generalized       study completed the responsible code of conduct
+to support domain-experts in creating realistic sim-   in research training. We have compensated domain
+ulations in other social dialogue domains, such as     experts at a minimum rate of $25 per hour, going
+roleplay practice for teaching, coaching, conflict     beyond the minimum wage in the United States.
+resolution, and negotiations, as future work.             We are optimistic about the potential benefits
+                                                       that AI patients can bring to the fields of counseling
+Limitations
+                                                       and psychotherapy. However, we also sought feed-
+Our study has several limitations that are important   back from counselors regarding any concerns about
+to consider. First, the AI patients created by coun-   using AI patients.During these interviews, some
+selors were designed specifically to prepare novice    counselors emphasized the irreplaceable value of
+counselors, which intentionally limited the diver-     peer-to-peer roleplay with humans during train-
+sity of patient scenarios. For instance, our study     ing. They highlighted that this practice provides a
+included only one AI patient case simulating a se-     unique opportunity for novice counselors to con-
+rious mental illness. However, our human-LLM           nect with others, which is especially important for
+collaboration pipeline can potentially support the     online counseling platforms where counselors of-
+creation of simulations for patients with signifi-     ten work in isolation. To preserve human-to-human
+cant challenges in expression, speech, or memory.      interactions, future work should adopt a participa-
+Researchers interested in developing LLM simula-       tory design approach before integrating AI patients
+tions of more severe patient cases can use Roleplay-   into existing practices and learning environments.
+doh to collaborate with domain experts and refine         Our hope is that interactions with AI patients
+simulation principles for these conditions.            can glean important lessons that help counselors go
+   Second, due to time constraints in our creator      from simulation into the real-world. Nonetheless, a
+study, counselors were required to end their con-      risk with simulation is that counselors can become
+versations with AI patients before they might have     overconfident in supporting an AI patient, but may
+naturally concluded. As a result, the principles       not effectively support patients with real mental
+they added may not have addressed all underly-         health concerns. As part of a larger curriculum,
+ing issues of the AI patients they interacted with.    AI patients should be just one tool for practicing
+Future work using these user-generated principles      these skills. Real counselors and therapists should
+should be aware of their non-exhaustive nature.        be able to take on real patients only after passing
+                                                  10578
+traditional certifications and background checks.            Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lund-
+   It is impossible to promise that all interactions         berg, et al. 2023. Sparks of artificial general intelli-
+                                                             gence: Early experiments with gpt-4. arXiv preprint
+with an LLM such as GPT-4 result in satisfac-                arXiv:2303.12712.
+tory responses. Therefore, meaningless, deroga-
+tory, and otherwise harmful responses may also            Quan Ze Chen, Daniel S. Weld, and Amy X. Zhang.
+                                                            2021. Goldilocks: Consistent crowdsourced scalar
+be generated and cause unwanted effects on users.           annotations with relative uncertainty. Proc. ACM
+While our principle-adherence pipeline is a poten-          Hum.-Comput. Interact., 5(CSCW2).
+tial inference-time solution to mitigate such harm-
+                                                          Siyuan Chen, Mengyue Wu, Kenny Q Zhu, Kunyao
+ful responses, we must acknowledge this possibil-           Lan, Zhiling Zhang, and Lyuchun Cui. 2023. Llm-
+ity, especially due to the stochastic nature of LLM.        empowered chatbots for psychiatrist and patient sim-
+Users should be advised about these potential side          ulation: application and evaluation. arXiv preprint
+effects before using the system in any scenario.            arXiv:2305.13614.
+For our experiment, we created consent forms that         Myra Cheng, Tiziano Piccardi, and Diyi Yang. 2023.
+made sure counselors were aware of these issues.           CoMPosT: Characterizing and evaluating caricature
+                                                           in LLM simulations. In Proceedings of the 2023
+Acknowledgement                                            Conference on Empirical Methods in Natural Lan-
+                                                           guage Processing, pages 10853–10875, Singapore.
+We would like to thank all the members of Stanford         Association for Computational Linguistics.
+SALT Lab, Stanford AI for Human Impact Lab,               Paul F Christiano, Jan Leike, Tom Brown, Miljan Mar-
+and reviewers for their feedback. This work is              tic, Shane Legg, and Dario Amodei. 2017. Deep
+supported in part by an NSF grant IIS-2247357 and           reinforcement learning from human preferences. In
+                                                            Advances in Neural Information Processing Systems,
+by the Stanford Impact Labs award.                          volume 30. Curran Associates, Inc.
+                                                          Orianna Demasi, Yu Li, and Zhou Yu. 2020. A multi-
+                                                            persona chatbot for hotline counselor training. In
+References                                                  Findings of the Association for Computational Lin-
+7Cups. 2024. 7 cups: Free online therapist and counsel-     guistics: EMNLP 2020, pages 3623–3636, Online.
+  ing.                                                      Association for Computational Linguistics.
+                                                          Peter Green and Catriona J MacLeod. 2016. Simr: An
+Guillaume Alinier and Denis Oriot. 2022. Simulation-        r package for power analysis of generalized linear
+  based education: deceiving learners with good intent.     mixed models by simulation. Methods in Ecology
+  Advances in Simulation, 7(1):8.                           and Evolution, 7(4):493–498.
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu,              Monika Himmelbauer, Tamara Seitz, Charles Seidman,
+  Amanda Askell, Jackson Kernion, Andy Jones,              and Henriette Löffler-Stastka. 2018. Standardized
+  Anna Chen, Anna Goldie, Azalia Mirhoseini,               patients in psychiatry–the best way to learn clinical
+  Cameron McKinnon, et al. 2022. Constitutional            skills? BMC medical education, 18:1–6.
+  ai: Harmlessness from ai feedback. arXiv preprint
+  arXiv:2212.08073.                                       Tae Soo Kim, Yoonjoo Lee, Jamin Shin, Young-Ho Kim,
+                                                            and Juho Kim. 2024. Evallm: Interactive evaluation
+Douglas Bates, Martin Mächler, Ben Bolker, and Steve        of large language model prompts on user-defined cri-
+  Walker. 2015. Fitting linear mixed-effects models         teria. In Proceedings of the CHI Conference on Hu-
+  using lme4. Journal of Statistical Software, 67(1):1–     man Factors in Computing Systems, CHI ’24. ACM.
+  48.                                                     Siyang Liu, Chujie Zheng, Orianna Demasi, Sahand
+                                                            Sabour, Yu Li, Zhou Yu, Yong Jiang, and Minlie
+Maciej Besta, Nils Blach, Ales Kubicek, Robert Ger-         Huang. 2021. Towards emotional support dialog
+ stenberger, Michal Podstawski, Lukas Gianinazzi,           systems. In Proceedings of the 59th Annual Meet-
+ Joanna Gajda, Tomasz Lehmann, Hubert Niewiadom-            ing of the Association for Computational Linguistics
+ ski, Piotr Nyczyk, and Torsten Hoefler. 2024. Graph        and the 11th International Joint Conference on Natu-
+ of thoughts: Solving elaborate problems with large         ral Language Processing (Volume 1: Long Papers),
+ language models. Proceedings of the AAAI Confer-           pages 3469–3483, Online. Association for Computa-
+ ence on Artificial Intelligence, 38(16):17682–17690.       tional Linguistics.
+Virginia Braun and Victoria Clarke. 2006. Using the-      Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler
+  matic analysis in psychology. Qualitative Research       Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon,
+  in Psychology, 3(2):77–101.                              Nouha Dziri, Shrimai Prabhumoye, Yiming Yang,
+                                                           et al. 2024. Self-refine: Iterative refinement with
+Sébastien Bubeck, Varun Chandrasekaran, Ronen El-          self-feedback. Advances in Neural Information Pro-
+  dan, Johannes Gehrke, Eric Horvitz, Ece Kamar,           cessing Systems, 36.
+                                                     10579
+Julia M. Markel, Steven G. Opferman, James A. Landay,         Logan Stapleton, Jordan Taylor, Sarah Fox, Tongshuang
+   and Chris Piech. 2023. Gpteach: Interactive ta train-        Wu, and Haiyi Zhu. 2023. Seeing seeds beyond
+   ing with gpt-based students. In Proceedings of the           weeds: Green teaming generative ai for beneficial
+   Tenth ACM Conference on Learning @ Scale, L@S                uses. arXiv preprint arXiv:2306.03097.
+  ’23, page 226–236, New York, NY, USA. Association
+   for Computing Machinery.                                   Michael J Tanana, Christina S Soma, Vivek Srikumar,
+                                                                David C Atkins, and Zac E Imel. 2019. Development
+Julia Othlinghaus-Wulhorst and H. Ulrich Hoppe. 2020.           and evaluation of clientbot: Patient-like conversa-
+   A technical and conceptual framework for serious             tional agent to train basic counseling skills. Journal
+   role-playing games in the area of social skill training.     of medical Internet research, 21(7):e12529.
+   Frontiers in Computer Science, 2.
+                                                              Ruiyi Wang, Stephanie Milani, Jamie C Chiu, Shaun M
+Joon Sung Park, Joseph O’Brien, Carrie Jun Cai, Mered-          Eack, Travis Labrum, Samuel M Murphy, Nev Jones,
+  ith Ringel Morris, Percy Liang, and Michael S. Bern-          Kate Hardy, Hong Shen, Fei Fang, et al. 2024.
+  stein. 2023. Generative agents: Interactive simulacra         Patient-{\Psi}: Using large language models to sim-
+  of human behavior. In Proceedings of the 36th An-             ulate patients for training mental health professionals.
+  nual ACM Symposium on User Interface Software                 arXiv preprint arXiv:2405.19660.
+  and Technology, UIST ’23, New York, NY, USA.                Diyi Yang, Caleb Ziems, William Held, Omar Shaikh,
+  Association for Computing Machinery.                          Michael S Bernstein, and John Mitchell. 2024. So-
+                                                                cial skill training with large language models. arXiv
+Joon Sung Park, Lindsay Popowski, Carrie Cai, Mered-            preprint arXiv:2404.04204.
+  ith Ringel Morris, Percy Liang, and Michael S. Bern-
+  stein. 2022. Social simulacra: Creating populated           Shunyu Yao, Howard Chen, Austin W Hanjie, Runzhe
+  prototypes for social computing systems. In Proceed-          Yang, and Karthik Narasimhan. 2023. Collie: Sys-
+  ings of the 35th Annual ACM Symposium on User                 tematic construction of constrained text generation
+  Interface Software and Technology, UIST ’22, New              tasks. arXiv preprint arXiv:2307.08689.
+  York, NY, USA. Association for Computing Machin-
+  ery.                                                        Zheng Yao, Haiyi Zhu, and Robert E. Kraut. 2022.
+                                                                Learning to become a volunteer counselor: Lessons
+Savvas Petridis, Benjamin D Wedin, James Wexler,                from a peer-to-peer mental health community. Proc.
+  Mahima Pushkarna, Aaron Donsbach, Nitesh Goyal,               ACM Hum.-Comput. Interact., 6(CSCW2).
+  Carrie J Cai, and Michael Terry. 2024. Constitu-
+  tionmaker: Interactively critiquing large language          J.D. Zamfirescu-Pereira, Richmond Y. Wong, Bjoern
+  models by converting feedback into principles. In              Hartmann, and Qian Yang. 2023. Why johnny can’t
+  Proceedings of the 29th International Conference on            prompt: How non-ai experts try (and fail) to design
+  Intelligent User Interfaces, IUI ’24, page 853–868,            llm prompts. CHI ’23, New York, NY, USA. Associ-
+  New York, NY, USA. Association for Computing                   ation for Computing Machinery.
+  Machinery.
+                                                              Xuhui Zhou, Zhe Su, Tiwalayo Eisape, Hyunwoo Kim,
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Christo-         and Maarten Sap. 2024. Is this the real life? is
+  pher D Manning, Stefano Ermon, and Chelsea Finn.              this just fantasy? the misleading success of simu-
+  2024. Direct preference optimization: Your language           lating social interactions with llms. arXiv preprint
+  model is secretly a reward model. Advances in Neu-            arXiv:2403.05020.
+  ral Information Processing Systems, 36.
+
+Swarnadeep Saha, Omer Levy, Asli Celikyilmaz,
+  Mohit Bansal, Jason Weston, and Xian Li.
+  2023. Branch-solve-merge improves large language
+  model evaluation and generation. arXiv preprint
+  arXiv:2310.15123.
+
+Omar Shaikh, Valentino Emil Chai, Michele Gelfand,
+ Diyi Yang, and Michael S. Bernstein. 2024. Re-
+ hearsal: Simulating conflict to teach conflict resolu-
+ tion. In Proceedings of the CHI Conference on Hu-
+ man Factors in Computing Systems, CHI ’24, New
+ York, NY, USA. Association for Computing Machin-
+ ery.
+
+Weiyan Shi, Emily Dinan, Kurt Shuster, Jason We-
+ ston, and Jing Xu. 2022. When life gives you
+ lemons, make cherryade: Converting feedback from
+ bad responses into good labels. arXiv preprint
+ arXiv:2210.15893.
+                                                         10580
+A    Background of User Participants                    they created and customized an additional AI pa-
+                                                        tient based on scenarios they chose to write. Pi-
+Counselors with real-world experience in mental
+                                                        lot Participant 1 (PP1), PP2, and PP5 had time to
+health support were recruited for our pilot tests,
+                                                        create one additional AI patient; PP3 created two
+creator studies, and technical evaluations of the
+                                                        additional AI patients.
+principle-adherence pipeline. We present more de-
+tailed information about how they were recruited,          Four AI patients from the pilot studies were se-
+and their background.                                   lected for the second stage of pilot testing, where
+   After receiving permission from the 7 Cups plat-     selection encouraged scenario and principle diver-
+form (7Cups, 2024) for our IRB-approved study,          sity (Table 8). Four of the co-authors conversed
+we recruited online peer counselors from the 7          with each of the AI patients (stimulated by directly
+Cups platform (7Cups, 2024). Participants were          prompting GPT-4 with the scenario and princi-
+required to be 18 yrs or older, from the United         ples). Co-authors assessed how well the patient’s
+States, and to have had experience giving sup-          responses adhered to the expert-defined principles
+port to 30+ members on the online site. Our pilot       and dialogue conventions.
+tests were conducted exclusively with 6 online-peer
+counselors from 7 cups; our creator study used an
+additional 4 peer counselors from the 7 cups site.
+                                                        C   Evaluating principle-adherence of
+   We involved another 15 counselors from the Up-
+                                                            GPT-4 direct prompting
+work platform. Participants were required to be 18
+yrs or older, from the United States, and to have had
+education in counseling or psychotherapy and/or         We aim to determine how often directly prompting
+have given extensive counseling support (either via     GPT-4 to produces less satisfying responses given
+text, phone, in-person). A sampling of counselors       fixed constitution principles.
+backgrounds included licensed mental health thera-
+pist with over 20 years of experience, a Master’s of       Procedure: We selected 4 AI patients that were
+Science in Rehabilitation and Mental Health Coun-       created in the design sessions by different coun-
+seling, 25 years as the clinical director of a busy     selors. Four co-authors had practice conversations
+crisis agency, and a mental health advocate who         with each of the four AI patients, resulting in 16
+has personally helped coach dozens of got students      conversations. Each response in each conversation
+via a peer support role.                                was rated on a 5-point likert scale on how well the
+   Finally, we involved 3 peer counselors and 3 psy-    generated response adhered to principles and how
+chotherapy PhD students in our university. Specifi-     appropriate they were for the dialogue content (5 =
+cally, peer counselors had 3-months of classroom        Completely, 1 = Not at all). From the 16 completed
+training and had experiences giving voluntary sup-      conversations, the mean number of responses per
+port to university students; the clinical psychol-      conversation was 17.25, with a minimum of 12 and
+ogy PhD students were 4th year students with 3          maximum of 22. In total, 276 responses were given
+years experience providing psychotherapy support        satisfaction ratings. Since each co-author created a
+to clients under the supervision of a licensed psy-     different conversation from each of the AI patients,
+chotherapist.                                           each response was only scored by one co-author.
+                                                           Participant Rationale: During this pilot
+B   Pilot Testing with Expert Counselors
+                                                        principle-adherence experiment, we used co-
+After developing an initial version of our tool, we     authors to generate test conversations because our
+piloted it with 6 counselors during a 90 minute         basic counseling skill-level is representative of the
+session. Participants were tasked with creating dif-    eventual use-case of untrained, novice counselors
+ferent AI patient sceanrios, and using Roleplay-doh     interacting with AI Patients. For the annotation
+to interactively refine the simulation by defining      task, a human annotator is qualified if they can
+principles. All participants started with a common      judge whether a response follows the principles
+roleplay scenario called "loneliness after work".       defined by expert counselors, and is appropriate
+They proceeded to use the tool to chat, give feed-      in the conversation context. Since these skills do
+back, and convert their feedback into principles to     not require counseling expertise, the co-authors are
+shape the AI Patient’s behavior. If time allowed,       qualified to do this annotation task.
+                                                   10581
+Figure 4: Roleplay-doh allows users to chat with a AI patient, Provide Feedback as a Kudos/Critique/Rewrite, and
+Convert Feedback into Principles, which in turn shape the roleplay behavior.
+
+
+D     Roleplay-doh Interface for Making                   amount of testing using a development set. Each
+      Constitutional Principles for LLM                   prompt uses the same structure, which is inspired
+      Simulation                                          by Markdown formatting. There is an initial in-
+                                                          struction that provides a system prompt, along with
+The final version of Roleplay-doh (Fig 4) generates       a description of the principle elicitation task. This
+responses in the LLM simulation using a principle-        is followed by a one-shot example of an elicited
+adherence pipeline. In addition to this core im-          principle as a result of the task, and the relevant
+provement, we made several minor improvements             input, including the conversation history. All parts
+to improve the usability and user experience of the       of the prompt are demarcated by headers in Mark-
+tool.                                                     down formatting, and the outputs are returned in
+   Improvements to the usability of the UI                JSON format. We describe each prompt in greater
+    • Fixing a bug where a user who clicks "save"         detail in the relevant sections.
+      multiple times will submit duplicate feedback,         The kudos and critique prompts were given
+      resulting in duplicate sets of principles           to the gpt-3.5-turbo-1106 model. The rewrite
+                                                          prompt was given to the gpt-4-turbo-1106
+    • Making converting feedback to principles eas-       model. For all API calls to the principle-elicitation
+      ier by placing a "Convert" button next to each      prompts, the temperature was set to 0.1.
+      feedback box, rather than a single "Convert"
+                                                          E.1.1 Principle Elicitation Kudos Prompt
+      button at the top of the screen which users
+      would forget about                                  This prompt includes a desirable response, as well
+                                                          as some reasoning for why the response is desirable.
+E     LLM Prompts                                         This information is then used to create a general
+                                                          principle that would result in a similar response in
+In this section, we detail the prompts we used for
+                                                          the same situation.
+the different components of Roleplay-doh.
+                                                          ### I n s t r u c t i o n :
+                                                          You a r e a s u p e r i n t e l l i g e n t AI c a p a b l e o f
+E.1    Principle Elicitation Prompts                            u n d e r s t a n d i n g human e m o t i o n . You
+In this section, we provide the prompts used in               w i l l r e v i e w p r a i s e f o r an a c t o r ' s
+                                                              d i a l o g u e , and s y n t h e s i z e a w e l l −
+the principle elicitation module of Roleplay-doh.             w r i t t e n p r i n c i p l e t h a t , when
+These prompts were arrived at after a substantial             f o l l o w e d , would h e l p t h e a c t o r
+
+                                                    10582
+     c o n t i n u e g e n e r a t i n g high − q u a l i t y         versation history.
+     d i a l o g u e . To a c c o m p l i s h t h i s , you
+     have been given a c o n v e r s a t i o n                        ### I n s t r u c t i o n :
+     s c r i p t with the actor ' s d e s i r a b l e                 You a r e a s u p e r i n t e l l i g e n t AI c a p a b l e o f
+     response , as well as a s p e c i f i c                                 u n d e r s t a n d i n g human e m o t i o n . You
+     e x p l a n a t i o n f o r why t h i s r e s p o n s e i s           w i l l r e v i e w c r i t i q u e s o f an a c t o r ' s
+       d e s i r a b l e . You w i l l o u t p u t a f i n a l             d i a l o g u e , and s y n t h e s i z e a w e l l −
+     p r i n c i p l e t h a t t h e a c t o r can f o l l o w             w r i t t e n p r i n c i p l e t h a t , when
+     t o be more r e a l i s t i c . F o l l o w t h e                     f o l l o w e d , would h e l p t h e a c t o r
+     following guidelines :                                                resolve the c r i t i q u e s .
+1 . The p r i n c i p l e s h o u l d e n a b l e you t o             To a c c o m p l i s h t h i s , you h a v e b e e n g i v e n
+     r e t u r n b e t t e r r e s u l t s i f you p l a y e d             a conversation s c r i p t with the actor
+     the p a r t of the a c t o r in the                                   ' s u n d e s i r a b l e response , as well as
+     conversation .                                                        a s p e c i f i c e x p l a n a t i o n f o r why t h i s
+2 . R e t u r n o n l y a JSON r e s p o n s e i n t h e                   r e s p o n s e i s u n d e s i r a b l e . You w i l l
+     format provided .                                                     output a f i n a l principle that the
+                                                                           a c t o r c a n f o l l o w t o be more
+### I n p u t :                                                            r e a l i s t i c . Follow t h e f o l l o w i n g
+### C o n v e r s a t i o n S c r i p t                                    guidelines :
+H e l p e r : I s t h e r e a n y t h i n g e l s e you want          1 . The p r i n c i p l e c a n c o n t a i n e x a m p l e s o f
+       t o s h a r e w i t h me?                                             r e w r i t e s as well .
+A c t o r : Yea s o l a t e l y I ' ve b e e n r e a l l y            2 . The p r i n c i p l e s h o u l d e n a b l e you t o
+       losing sleep .                                                      r e t u r n b e t t e r r e s u l t s i f you p l a y e d
+A c t o r : There ' s a l o t on my p l a t e , and my                     the p a r t of the a c t o r in the
+         e n e r g y h a s b e e n s o low . I t h i n k I                 conversation .
+       am f a i l i n g a l o t o f p e o p l e .                     3 . R e t u r n o n l y a JSON r e s p o n s e i n t h e
+H e l p e r : You a r e a b s o l u t e l y n o t f a i l i n g            format provided .
+       p e o p l e . You a r e a g r e a t p e r s o n , and
+         you s h o u l d remember t h a t you a r e                   ### I n p u t :
+       v e r y c a p a b l e and e n e r g e t i c .                  ### C o n v e r s a t i o n S c r i p t
+                                                                      H e l p e r : I s t h e r e a n y t h i n g e l s e you want
+### D e s i r a b l e r e s p o n s e from t h e a c t o r                   t o s h a r e w i t h me?
+A c t o r : I don ' t know . . . . Am I r e a l l y ?                 A c t o r : Yea s o l a t e l y I ' ve b e e n r e a l l y
+                                                                             losing sleep .
+### S p e c i f i c e x p l a n a t i o n f o r why t h e             A c t o r : There ' s a l o t on my p l a t e , and my
+    response is desirable                                                      e n e r g y h a s b e e n s o low . I t h i n k I
+The a c t o r i s h e s i t a n t t o a g r e e w i t h t h e                am f a i l i n g a l o t o f p e o p l e .
+    h e l p e r and shows s e l f − d o u b t . T h i s i s           H e l p e r : You a r e a b s o l u t e l y n o t f a i l i n g
+      c o n s i s t e n t with the conversation                              p e o p l e . You a r e a g r e a t p e r s o n , and
+    history .                                                                  you s h o u l d remember t h a t you a r e
+                                                                             v e r y c a p a b l e and e n e r g e t i c .
+### R e s p o n s e :
+{ " r e s u l t " : { " p r i n c i p l e " : "When someone           ### U n d e s i r a b l e r e s p o n s e from t h e a c t o r
+       g i v e s you e n c o u r a g i n g words , you                A c t o r : Thank you f o r r e m i n d i n g me o f
+       respond with hesitancy , doubting the                                 t h i s . I am a g r e a t p e r s o n , and I ' ve
+         s i g n i f i c a n c e of t h a t p o s i t i v e                  p r o v e d m y s e l f t o be v e r y c a p a b l e and
+       p e r s p e c t i v e . " }}                                            e n e r g e t i c . I f e e l a l o t b e t t e r now
+                                                                             due t o y o u r k i n d words .
+### I n p u t :
+### C o n v e r s a t i o n S c r i p t                               ### S p e c i f i c e x p l a n a t i o n f o r why t h e
+{ conversation_script }                                                   response is undesirable
+                                                                      The a c t o r s h o u l d n o t be s o q u i c k t o
+### D e s i r a b l e r e s p o n s e from t h e a c t o r                agree with the h e l p e r . Overly
+Actor : { a c t o r s _ r e s p o n s e }                                 p o s i t i v e comments t o c h e e r a p a t i e n t
+                                                                           up d o e s n o t i m m e d i a t e l y work .
+### S p e c i f i c e x p l a n a t i o n f o r why t h e
+    response is desirable                                             ### R e s p o n s e :
+{ kudos_rationale }                                                   { " r e s u l t " : { " p r i n c i p l e " : "When someone
+                                                                             g i v e s you e n c o u r a g i n g words , you
+### R e s p o n s e :                                                        respond with hesitancy , doubting the
+                                                                               s i g n i f i c a n c e of t h a t p o s i t i v e
+                                                                             p e r s p e c t i v e . " }}
+E.1.2 Principle Elicitation Critique Prompt
+                                                                      ### I n p u t :
+This prompt includes an undesirable response, as                      ### C o n v e r s a t i o n S c r i p t
+well as some reasoning for why the response is un-                    { conversation_script }
+desirable. This information is then used to create
+                                                                      ### U n d e s i r a b l e r e s p o n s e from t h e a c t o r
+a general principle that would result in a similar                    Actor : { a c t o r s _ r e s p o n s e }
+response not being generated after the same con-
+                                                                   10583
+### S p e c i f i c e x p l a n a t i o n f o r why t h e                   " d i f f e r e n c e " : " The d e s i r a b l e r e w r i t e
+     response is undesirable                                                        i s d i f f e r e n t b e c a u s e i t makes t h e
+{ critique_rationale }                                                              a c t o r more h e s i t a n t t o a d o p t
+                                                                                    p o s i t i v e t h o u g h t s , where t h e y show
+### R e s p o n s e :                                                                 s e l f −doubt " ,
+                                                                            " p r i n c i p l e " : "When someone g i v e s you
+                                                                                    e n c o u r a g i n g words , you r e s p o n d
+E.1.3 Principle Elicitation Rewrite Prompt                                          with hesitancy , doubting the
+This prompt includes an undesirable response, as                                    s i g n i f i c a n c e of t h a t p o s i t i v e
+                                                                                    perspective ."}}
+well as a desirable rewrite of the undesirable re-
+sponse. The model first outputs a description that                     ### I n p u t :
+captures the difference between the desirable and                      ### C o n v e r s a t i o n S c r i p t
+                                                                       { conversation_script }
+undesirable response. It then uses this difference
+to output a general principle that would result in                     ### U n d e s i r a b l e r e s p o n s e from t h e a c t o r
+the desirable response given the same conversation                     Actor : { a c t o r s _ r e s p o n s e }
+history.                                                               ### D e s i r a b l e r e w r i t e
+### I n s t r u c t i o n :                                            Actor : { r e w r i t e }
+You a r e a s u p e r i n t e l l i g e n t AI c a p a b l e o f
+       u n d e r s t a n d i n g human e m o t i o n . You             ### R e s p o n s e :
+     have been given a c o n v e r s a t i o n
+     s c r i p t w i t h an a c t o r ' s u n d e s i r a b l e
+     response , as well as a d e s i r a b l e                         E.2      Dialogue-Simulator Prompt for
+     r e w r i t e f o r t h e r e s p o n s e . You w i l l                    Generating Response
+     o u t p u t a well − w r i t t e n p r i n c i p l e t h a t
+     , when f o l l o w e d , would h e l p t h e                      We directly prompt gpt-4-turbo-1106 to simu-
+     a c t o r g e n e r a t e more r e a l i s t i c                  late how a patient with a given scenario and con-
+     responses that are closer to the
+     r e w r i t e . Follow t h e f o l l o w i n g                    stitution would respond in a dialogue. The prompt
+     guidelines :                                                      again uses the Markdown formatting, with a system
+1 . The p r i n c i p l e s h o u l d c a p t u r e t h e key          prompt and clear description of the situation and
+     d i f f e r e n c e s t h a t made t h e r e w r i t e
+     more r e a l i s t i c t h a n t h e o r i g i n a l              task at the start. This is followed by the principles
+     response .                                                        that the patient should follow, and the conversation
+2 . The p r i n c i p l e s h o u l d e n a b l e you t o
+     r e t u r n b e t t e r r e s u l t s i f you p l a y e d
+                                                                       history. We set the temperature to 0.3.
+     the p a r t of the a c t o r in the                               You a r e a s u p e r i n t e l l i g e n t AI t h a t i s
+     conversation .                                                        a b l e t o u n d e r s t a n d human e m o t i o n and
+3 . R e t u r n o n l y a JSON r e s p o n s e i n t h e                     social interactions .
+     format provided .                                                 You h a v e b e e n g i v e n a c o n v e r s a t i o n
+                                                                           b e t w e e n a p a t i e n t who i s on p e e r
+### I n p u t :                                                            counseling platform seeking help
+### C o n v e r s a t i o n S c r i p t                                    with mental h e a l t h r e l a t e d issues ,
+H e l p e r : I s t h e r e a n y t h i n g e l s e you want               and a t h e r a p i s t on t h e same p l a t f o r m
+       t o s h a r e w i t h me?                                           .
+A c t o r : Yea s o l a t e l y I ' ve b e e n r e a l l y             Generate a s u i t a b l e completion to the
+       losing sleep .                                                      c o n v e r s a t i o n as the p a t i e n t ,
+A c t o r : There ' s a l o t on my p l a t e , and my                     f o l l o w i n g t h e i n s t r u c t i o n s below .
+         e n e r g y h a s b e e n s o low . I t h i n k I
+       am f a i l i n g a l o t o f p e o p l e .                      ### I n s t r u c t i o n s f o r t h e p a t i e n t
+H e l p e r : You a r e a b s o l u t e l y n o t f a i l i n g        { system_prompt }
+       p e o p l e . You a r e a g r e a t p e r s o n , and
+         you s h o u l d remember t h a t you a r e                    ### I n p u t :
+       v e r y c a p a b l e and e n e r g e t i c .                   {transcript}
+### U n d e s i r a b l e r e s p o n s e from t h e a c t o r         ### P a t i e n t R e s p o n s e :
+A c t o r : Thank you f o r r e m i n d i n g me o f
+       t h i s . I am a g r e a t p e r s o n , and I ' ve
+       p r o v e d m y s e l f t o be v e r y c a p a b l e and        E.3      Principle-Adherence Prompting Pipeline
+         e n e r g e t i c . I f e e l a l o t b e t t e r now
+       due t o y o u r k i n d words .                                 When developing the principle-adherence pipeline,
+### D e s i r a b l e r e w r i t e                                    we found that the input-context length can affect
+A c t o r : I don ' t know . . . Am I r e a l l y a                    how reliably the LLM can answer the principle-
+       great person ?                                                  adherence questions. To reduce the input con-
+### R e s p o n s e :                                                  text length, we split up this principle-adherence
+{" r e s u l t " : {                                                   pipeline into two stages of LLM calls, where
+                                                                    10584
+principle-as-question rewrite and automatic princi-                              s h o r t s e n t e n c e s and a v o i d u s i n g
+ple generation occur in stage 1, while the critiques                             terms l i k e ' anxious ' or ' depressed
+                                                                                  ' " , t h e s e p a r a t e q u e s t i o n s would be
+and response rewrite occur in stage 2. From testing,                             " Does t h e p a t i e n t ' s r e s p o n s e u s e
+we found that this breakdown was sufficient, and                                 s h o r t s e n t e n c e s ? " and " Does t h e
+thus did not pursue ways to break the pipeline into                              patient ' s response avoid using terms
+                                                                                     l i k e ' anxious ' or ' depressed ' "
+parallel branches (i.e., inputting subsets of prin-                       1c ) I f 1a i s used f o r a c r i t e r i a , 1b
+ciples), as is done in Branch-Solve-Merge (Saha                                  s h o u l d n o t be u s e d a f t e r i t .
+                                                                          1 d ) A l l q u e s t i o n s must be p h r a s e d s u c h
+et al., 2023) or Graph-of-Thought (Besta et al.,                                  t h a t t h e d e s i r a b l e a n s w e r i s " Yes "
+2024). The prompts for these stages were again                                   f o r an i d e a l r e s p o n s e . F o r example ,
+arrived at after substantial amounts of testing on a                             t h e p r i n c i p l e " Avoid u s i n g m e t a p h o r s
+                                                                                  . " should r e s u l t in the question "
+development set of 20 identified error cases from                                Does t h e r e s p o n s e n o t u s e m e t a p h o r s
+the formative studies.                                                           ?"
+   This prompting chain is given to the OpenAI                            2 . P l e a s e g e n e r a t e some a d d i t i o n a l
+                                                                                  s p e c i f i c and r e l e v a n t c r i t e r i a .
+Chat API’s gpt-4-turbo-1106 model, with tem-                              2 a ) You c a n add up t o two g e n e r a l
+perature set at 0.7 and response format set to JSON.                              c r i t e r i a t h a t t h e r e s p o n s e c a n be
+   Stage 1 Prompt - Question Rewrite and Auto-                                   e v a l u a t e d on , s u c h a s r e l e v a n c e and
+                                                                                 succintness .
+matic Principle Generation                                                2 b ) I d e n t i f y ways i n which t h e p r o v i d e d
+   This prompt uses the Markdown formatting. It                                  response i s not s a t i s f a c t o r y in the
+                                                                                 c o n t e x t of t h e t h e r a p i s t ' s message
+starts with a system prompt and a clear set of steps                             w i t h o u t making any a s s u m p t i o n s a b o u t
+to follow in order to generate the desired output,                                  how t h e p a t i e n t o r t h e r a p i s t s h o u l d
+presented as a list. Each step also contains a one-                                 a c t . Add up t o two s p e c i f i c
+                                                                                  c r i t e r i a that capture these errors .
+shot example of what the output principle from the                               F o r example , i f t h e t h e r a p i s t h a s
+step should look like. These one-shot examples                                   asked a q u e s t i o n t h a t the response
+were arrived at after some iteration. The examples                               d o e s n o t answer , you c a n add t h e
+                                                                                  c r i t e r i a " Answer a l l q u e s t i o n s
+in Step 2b specifically required a lot of tailoring                              p r e s e n t i n t h e message i n t h e
+to cover the common error cases we identified in                                 r e s p o n s e " . I f you f e e l t h a t t h e
+the development set, and had a substantial impact                                r e s p o n s e i s a p p r o p r i a t e , do n o t add
+                                                                                 any c r i t e r i a i n t h i s s t e p . E n s u r e
+on output quality. The output is in a JSON format,                                t h a t t h e s e c r i t e r i a do n o t
+with comments explaining the desired output in                                    c o n t r a d i c t any p r e v i o u s l y g e n e r a t e d
+each field of the JSON. These comments also allude                                criteria .
+                                                                          2 c ) J u s t i f y y o u r a n s w e r s t o 2 a and 2b .
+to the step numbers for clear reference. The model                        P l e a s e r e t u r n t h e o u t p u t i n a JSON
+is encouraged to output its reasoning, in line with                              response in the following format :
+                                                                          {{
+Chain-of-Thought and to enforce some self-critique                        " r e s u l t ":{{
+of the output.                                                            " q u e s t i o n s " : [ ] , / / 1 a and 1b , t h e l i s t
+You a r e a h e l p f u l and p r e c i s e a s s i s t a n t                    of a l l q u e s t i o n s generated
+       capable of g e n e r a t i n g c r i t e r i a f or                " e x t r a _ q u e s t i o n s " : [ ] , / / 2 a and 2b , t h e
+       the e v a l u a t i o n of simulated p a t i e n t                            l i s t of a l l a d d i t i o n a l c r i t e r i a
+       responses to a t h e r a p i s t .                                        g e n e r a t e d . Do n o t e n f o r c e any
+P l e a s e f o l l o w t h e i n s t r u c t i o n s below t o                   b e l i e f s a b o u t how t h e p a t i e n t o r
+       generate a s e t of e v a l u a t i o n                                    t h e r a p i s t s h o u l d b e h a v e when
+        criteria .                                                               generating these c r i t e r i a .
+1. Please rewrite the c r i t e r i a into                                " extra_questions_justification ": [] // 2
+       questions :                                                               c , justify additional criteria .
+1 a ) R e w r i t e any c r i t e r i a t h a t h a s                     }}
+        c o n d i t i o n a l s t a t e m e n t s i n t o y e s / no      }}
+       q u e s t i o n s . F o r example , i f t h e                      ### I n p u t :
+        c r i t e r i a i s "When g i v e n a d v i c e o r               ### C r i t e r i a
+       s u g g e s t i o n s , you a r e a g r e e a b l e and            {}
+       open t o t h e i r i d e a s " , t h e q u e s t i o n s           ### T h e r a p i s t Message
+       would be " Did t h e p a t i e n t r e c e i v e                   {}
+       a d v i c e o r s u g g e s t i o n s from t h e                   ### P a t i e n t R e s p o n s e
+        t h e r a p i s t ? I f so , i s t h e r e s p o n s e            {}
+       a g r e e a b l e and open t o t h e t h e r a p i s t '           ### O u t p u t
+       s i d e a s ?"
+1 b ) R e w r i t e any c r i t e r i a w i t h m u l t i p l e             Stage 2 Prompt - Context Relevance Check,
+        p a r t s i n t o s e p a r a t e m u l t i p l e y e s / no
+       q u e s t i o n s . F o r example , i f t h e
+                                                                          Assess, and Revise
+        c r i t e r i a i s " You s h o u l d r e s p o n d i n             This prompt again uses the Markdown format-
+                                                                       10585
+ting. It starts with a system prompt and a clear set                             r e s p o n s e i n 2a , r e t u r n t h e o r i g i n a l
+of steps to follow in order to generate the desired                              response .
+                                                                         2 c ) P r o v i d e r e a s o n i n g f o r why t h e new
+output, presented as a list. The model is implicitly                             r e s p o n s e i s b e t t e r and n o t a
+instructed to perform a relevance check for each                                 r e p h r a s i n g of the o r i g i n a l response .
+generated principle, by returning N/A for principles                     R e t u r n t h e o u t p u t i n a JSON r e s p o n s e i n
+                                                                                 the following format :
+that should not be used in the current scenario. Step                    {{
+2a particularly required a lot of iteration, to address                  " r e s u l t ":{{
+                                                                         " answers " : [ ] / / l i s t of answers to the
+common mistakes the model made while generat-                                    c r i t e r i a questions ,
+ing the self-critiqued rewrite. This includes making                     " j u s t i f i c a t i o n " : [ ] / / l i s t of
+the response overly verbose or coherent, even if that                            j u s t i f i c a t i o n f o r your answers
+                                                                         " r e s p o n s e " : " " / / new r e s p o n s e . T h i s
+is against certain principles in the constitution, or                            response should not s t a r t with a
+just paraphrasing the original erroneous response.                               g r e e t i n g l i k e " Hi " i f t h e r e i s p r i o r
+The output is in a JSON format, with comments                                      conversation history .
+                                                                         " r e a s o n i n g ' : " " / / j u s t i f y t h e new
+explaining the desired output in each field of the                               r e s p o n s e and why i t i s n o t a
+JSON. We specifically mention that the rewrites                                  paraphrase of the o r i g i n a l response .
+from the self-critique are allowed to be substan-                                  You a r e a l l o w e d t o d e v i a t e
+                                                                                 s i g n i f i c a n t l y from t h e o r i g i n a l
+tially different from the original response, as we                               r e s p o n s e w h i l e g e n e r a t i n g t h e new
+found that without this prior, the self-critique out-                            response .
+                                                                         }}
+puts tended to be very close to the original (often                      }}
+erroneous) response. The model is encouraged to                          ### I n p u t :
+output its reasoning, in line with Chain-of-Thought                      ### C r i t e r i a
+                                                                         1. Is the patient ' s response consistent
+and to enforce some self-critique of the output.                                 with the given conversation h i s t o r y ?
+You a r e a h e l p f u l and p r e c i s e a s s i s t a n t            {}
+      t h a t c a n e v a l u a t e and c o r r e c t                    ### P a t i e n t P e r s o n a
+      r e s p o n s e s p r o d u c e d by a s i m u l a t e d           {}
+      patient .                                                          ### C o n v e r s a t i o n H i s t o r y
+You a r e g i v e n a m e s s a g e s e n t by a                         {}
+      therapist , the simulated patient ' s                              ### T h e r a p i s t Message
+      response , the persona of the p a t i e n t                        {}
+      , the previous conversation history                                ### P a t i e n t R e s p o n s e
+      and a s e t o f c r i t e r i a f o r e v a l u a t i o n          {}
+      .                                                                  ### O u t p u t
+1. Please determine i f the p a t i e n t
+      response i s c o n s i s t e n t with the
+      given c r i t e r i a .                                            F    Principle Adherence Naive
+1 a ) Answer t h e g e n e r a t e d s e t o f
+      questions to determine i f the                                     This prompt uses the Markdown formatting. To
+      r es po ns e meets th e c r i t e r i a . Valid                    preserve fairness, we use the same system prompt
+      a n s w e r s : Yes , No , N/A . Use N/A
+      w h e n e v e r you t h i n k any p a r t o f t h e                as the full principle adherence module. The model
+      question i s not r e l e v a n t to the                            is asked to determine if the provided response vio-
+      given s i t u a t i o n .                                          lates any of the principles in the constitution, and
+1b ) J u s t i f y your answers .
+2 . G e n e r a t e a new p a t i e n t r e s p o n s e .                generate a rewrite if that is the case, in the same
+2 a ) I f you a n s w e r e d No t o any o f t h e                       prompt. The output is in a JSON format, with com-
+      q u e s t i o n s , w r i t e a new r e s p o n s e t h a t        ments indicating the desired output in each field
+        i d e a l l y s a t i s f i e s a l l of the
+      p r o v i d e d q u e s t i o n s . The i n f o r m a t i o n      of the JSON. The model is encouraged to output
+      i n t h e new r e s p o n s e s h o u l d be                       its reasoning, in line with Chain-of-Thought and to
+      c o n s i s t e n t with the p a t i e n t persona
+      d e s c r i p t i o n and p r e v i o u s
+                                                                         enforce some self-critique of the output.
+      c o n v e r s a t i o n h i s t o r y p r o v i d e d . You
+      s h o u l d n o t t r y t o make t h e r e s p o n s e
+                                                                          You are a helpful and precise
+      more v e r b o s e o r c o h e r e n t i f i t i s                     assistant that can evaluate
+      n o t one o f t h e c r i t e r i a . The new                          the responses produced by a
+      r e s p o n s e s h o u l d n o t be a p a r a p h r a s e
+      o f t h e o r i g i n a l r e s p o n s e . The new                    patient . Evaluate the given
+      response should avoid e x p l i c i t l y                              patient response to the
+      s t a t i n g t h e p a t i e n t ' s e m o t i o n s and              therapist message according to
+      f e e l i n g s , and i n s t e a d e x h i b i t them
+      indirectly .                                                            the given set of principles .
+2 b ) I f you a r e u n a b l e t o g e n e r a t e a new                    If the patient response is not
+                                                                      10586
+      appropriate , generate a                            points of confusion during the session.
+     rewrite of the patient                                  To begin, participants first were introduced to
+     response taking into account                         the concept of AI patients used for training counsel-
+     the therapist message ,                              ing skills in a simulated conversation. They were
+     principles , conversation                            then instructed to write a challenging scenario that
+     history and persona                                  would serve as the scenario for the AI patients.
+     information of the patient . If                         The experimental procedure involved two main
+      the patient response is                             chat sessions. In Part I, participants engaged in
+     appropriate , you can just                           a 10-minute conversation with the Scenario-Only
+     repeat it .                                          AI patient. Then, in Part II, participants interacted
+                                                          with the Scenario+Expert-Principles AI patient
+Please return the output in a                             for 30 minutes, keeping the same scenario from
+    JSON response in the following                        Part I and adding principles as the conversation
+     format :                                             progressed. After each of the two chat sessions,
+{{                                                        participants were asked to navigate to a form to
+" result ":{{                                             evaluate the AI patients.
+" evaluation ": [] , // evaluation
+" response ": "". // rewritten                            H    Creator Study Measures
+    response
+                                                          The following questions (Table 3 and 4) are taken
+}}
+                                                          from the creator study questionnaire used to evalu-
+}}
+                                                          ate AI patients and the counselors’ experience of
+                                                          using Roleplay-doh. All items were rated on a 7-
+### Input :
+                                                          point Likert scale (1=Strongly disagree, 7=Strongly
+### Principles
+                                                          agree, except where noted below). Table 3 details
+{}
+                                                          the questions for evaluating the AI patient’s role-
+                                                          play, while Table 4 details the questions about the
+### Patient Persona
+                                                          experience using the tool to define principles. Note
+{}
+                                                          that in the questions, we referred to the AI patients
+                                                          as “Member Bots”. This terminology was used
+### Conversation History
+                                                          to match that of the online counseling platform 7
+{}
+                                                          Cups, which refers to help seekers as “Members”
+                                                          within the support community.
+### Therapist Message
+{}                                                        I Worst-Case Analysis of Tool Experience
+### Patient Response                                      In a worst-case analysis of creators’ tool experi-
+{}                                                        ence, we uncovered cases where the human-LLM
+                                                          collaboration could be improved. Some counselors
+### Output                                                remarked that "having to think of and write rules
+                                                          was a challenge" (P9) and that it "takes time to be
+G Full User Flow                                          specific" when writing feedback (P7). Sometimes,
+                                                          even after giving feedback to the AI Patient, coun-
+In this section, we describe the creator study flow       selors like P19 observed that the patient "didn’t
+that counselors followed during the 60-90 minute          always follow it", resulting in a non-progressive
+session. The reader can also refer to screenshots of      feedback loop, where "AI would generate [princi-
+our application that illustrates the different steps of   ples]... that were a little too similar to [feedback]
+this flow in Figures 6 to 18.                             I already gave, so that I was giving the AI the
+   Our study was designed to evaluate the impact          same feedback every time since it wasn’t changing
+of allowing counseling experts to add principles          how it responded." While the principle-elicitation
+to Roleplay-doh on its perceived authenticity. We         tools were designed to convert new feedback into
+create a primarily self-guided study flow with ac-        a new principle, they operated ineffectively when
+companiment from the first author to clarify any          follow-up feedback was given that was related to
+                                                     10587
+       Authenticity         The Member Bot in Part I/II           cision in the feedback-to-principle conversion re-
+                            played the role authentically.
+                                                                  quired counselors to edit the generalized-form of a
+    Role Consistency        The Member Bot in Part I/II
+                            stayed in their role the whole        principle in a way that was hard for them to articu-
+                            time.                                 late.
+   Resemblance to Case      How closely do you feel the              These obstacles in tool experience could inspire
+                            conversation behaviors of the         future directions for improvement. First, to over-
+                            Member Bot in Part I/II resem-
+                            ble those of the specific past
+                                                                  come issues in formulating rules, more support
+                            case you recall?                      could be given to help those still unfamiliar with
+   Challenging Aspects      Interacting with the Member           giving free-form feedback, such as through tem-
+                            Bot in Part I/II closely mir-         plates of feedback or principles that had high-
+                            rored the challenging aspects         success rates for past users. Second, to more seam-
+                            I had experienced in the past
+                            case.                                 lessly integrate follow-up feedback that is a clar-
+      Role readiness        The Member Bot in Part I/II is        ification of previous feedback or principles, addi-
+                            ready to be used as a simulated       tional modules could help make sense of multiple
+                            partner for training.                 pieces of feedback for the same response, and adopt
+  Recommend to novices      I would recommend the Mem-            LLM-assisted pipelines for user-driven criteria de-
+                            ber Bot from Part I/II to novice
+                            listeners/counselors to practice      sign (Kim et al., 2024) to support the merging of
+                            with.                                 overlapping principles. Third, to overcome the
+                                                                  abstraction gap between specific and abstract prin-
+Table 3: Six measures used by creators to evaluate the            ciples, more explicit representations that help to
+two AI patients they created. Several measures were               switch between specific and general feedback can
+rephrased from prior work on evaluating Standardized
+                                                                  be used.
+Patients, or trained human actors, on case roleplay abil-
+ity (Himmelbauer et al., 2018).
+                                                                  J     Third Party Study - Detailed Study
+  Effectively Guide      With the tool, I feel like I was               Methods and Results
+                         able to write rules that can
+                                                                  J.1    Third-party measures
+                         effectively guide the Member
+                         bot to recreate my past case.            Table 5 detail the six measures that third-party
+        Ease             With the tool, I felt like it was        counselors answered for both AI patients. Mem-
+                         easy to convert my thoughts              ber Bot A and B refer to the AI patient whose
+                         and feedback on the Member
+                                                                  transcript they read first and second, respectively.
+                         bot’s behavior into rules for
+                                                                  Our analysis comparing Scenario-Only and Sce-
+                         the bot to follow.
+      Efficiency         With the tool, I felt like I could       nario+ExpertPrinciples accounts for this random-
+                         quickly and efficiently write            ized the order of which AI patient they were shown.
+                         rules for the bot.
+   Mental Demand         With the tool, I had to work             J.2    Statistical Model and Power Analysis
+                         very hard (mentally) to think
+                                                                  Via a power-analysis, we decided to recruit 5 coun-
+                         of and write rules.
+                                                                  selors to act as external judges for 25-pairs of AI
+Table 4: Four measures as part of the tool usage section          patients made in the creator study. In this section,
+of the questionnaire taken from (Petridis et al., 2024)           we detail the procedures and results of this power-
+                                                                  analysis.
+                                                                     Generally, a power-analysis allows an experi-
+or a modification of previous feedback.                           menter to determine how many data-points are
+   As another issue, P23 noted the challenge in                   needed to detect a statistical difference for a par-
+defining principles that generalize across specific               ticular effect size. Several prerequisites to con-
+contexts: "It was also hard to think about how to                 ducting the power-analysis for the third-party study
+frame the feedback in an overarching way, rather                  included (1) choosing a statistical model to test
+than as direct feedback... directed as a specific                 our hypothesis; and (2) estimating model parame-
+part of the response" (P24). While the principle-                 ters such as the effect of the treatment condition,
+elicitation features aimed to help them convert spe-              the addition of Expert Principles, on annotator’s
+cific feedback into generalized principles, impre-                ratings.
+                                                               10588
+       Authenticity       Member Bot A/B played the
+                          role authentically.
+    Role Consistency      Member Bot A/B stayed in
+                          their role the whole time.
+      Resemblance         Member Bot A’s/B’s behaviors
+                          closely mimicked the behav-
+                          iors that typical clients/help-
+                          seekers exhibit.
+  Challenged Counselor    Member Bot A’s/B’s behaviors
+                          made it hard for the listener/-
+                          counselor to give support.
+      Role readiness      Member Bot A/B is ready to
+                          be used as a simulated partner
+                          for training.                        Figure 5: Based on our simulation-based power analysis
+  Recommend to novices    I would recommend Member             across 300 trials for our linear, mixed-effect model, we
+                          Bot A to novice listeners/coun-      conclude that 80% power can be achieved with 5 third-
+                          selors to practice with.             party judges.
+
+Table 5: Six measures used by third-party counselors
+to judge the AI patients from an unbiased, external per-          A simulation-based approach is the most feasi-
+spective. Although the six dimensions largely overlap          ble method for doing power-calculations for mixed-
+with those used in the creator study, the wording needed       effect models. In this approach, an experimenter
+to be rephrased for the third-party perspective.
+                                                               simulates data based on specified parameters (ef-
+                                                               fect sizes, variance components, sample sizes) and
+   When choosing a statistical model as a pre-                 analyzes the data repeatedly to estimate power em-
+requisite, we needed a model that could account                pirically. We used the simr package in R to con-
+for how different annotators would be providing                duct a simulation-based power-analysis (Green and
+ratings to the same AI patients created by each                MacLeod, 2016). In the power-analysis, we var-
+counselor. A traditional paired t-test was not appro-          ied how many unique annotators from 2 - 6 to un-
+priate because the independent samples assumption              derstand the frequency of trials which would de-
+is violated due to different annotators giving ratings         tect a treatment effect of 0.52 at significance-level
+to the same AI patients. While another common                  α = 0.05. Our simulation-based power-analysis
+practice is using the majority vote between anno-              over 300 trials are shown in Figure 5. We con-
+tators, our pilot data found that annotators did not           cluded that we could achieve greater than 80%
+always have high agreement. Therefore, since we                power using 5 judges.
+wanted to account for the variability between an-
+notators as well as between the ratings, we chose              J.3   Why is the effect of Expert Principles
+to use a linear mixed-effects model. Using the                       smaller when rated by a third-party?
+lme4 package in R (Bates et al., 2015), this model             Here we further investigate how third-party annota-
+is defined as Rating~Treatment+CreatorID+(1|                   tors rated each of the 25-pairs of AI patients created
+AnnotatorID). This model defines the treatment                 in our study. In particular, we investigate why the
+group (whether the AI patient has Expert Princi-               effect of ExpertPrinciples is lower than what was
+ples or not) as fixed effects, the creator ID’s as             measured in the creator study from a first-person
+fixed effects to account for the pair of AI patients           perspective.
+made by each counselor, and the annotators as ran-                One reason for this smaller effect is the lower
+dom effects. This approach can handle the non-                 agreement between the 5 third-party counselor.
+independence of annotator ratings.                             Specifically, we used the Krippendorf α metric
+   Prior to performing the power analysis, we                  to compute the agreement for the comparisons of
+needed to define the expected parameters of this               the AI patients with and without expert principles
+linear mixed effect model. To define these expected            (Table 6). Across the 6 measures, we find that
+parameters, we fit a model to early study data in              Krippendorf’s α is between 0.046-0.232 for which
+which 2 annotations had been collected for each                patient they prefer, indicating between low to mod-
+pair of AI patients created by 17 counselors. Specif-          erate agreement.
+ically, we extracted the fixed effects, the random                Third-party raters also provided rationales which
+effects covariance matrix, and residual variances.             helped us better understand their thought process.
+                                                            10589
+We filtered cases in which there is a disagree-           still find that our [Full] method performs better
+ment between third-party counselors on which              than [No Critique] on M1 (W: 15%; L 2%) and
+AI patient is better, and investigated these ratio-       on M3 (W: 14%; L 4%), where it has the high-
+nales. We find that counselors note similar be-           est win/loss rates compared to all ablations. This
+haviors in the AI patient, meaning they agree             hold true for overall ranking as well (W: 18%; L
+on their observations. For example, for the AI            4%). This highlights that our [Full] approach re-
+patient created by P3, both third-party annotators        sults in improved quality of responses even when
+observed that the AI patient based on the Scenario-       the proportion of erros is relatively low. For M2,
+only resolved their problems too quickly, whereas         all annotators report no awkward responses for all
+the AI Patient with ExpertPrinciples added al-            methods.
+lows the "listener to ask questions and explore
+with the client". However, the third-party anno-          L   Annotation Interface for
+tator that prefers Scenario-only stated that the Sce-         principle-adherence pipeline
+nario+ExpertPrinciples patient sounded too formu-             Evaluation
+laic and robotic, whereas the other is more expres-       Figures 20, 21, 22, 23 and 24 provides an overview
+sive and realistic. Looking further into what the         of the annotation interface used in the principle-
+creator said about this AI patient, they mentioned        adherence evaluation study. In certain cases, mul-
+that the Scenario+ExpertPrinciples patient talks          tiple methods resulted in the same output for a
+like an actual person would... there’s a good bal-        testcase. These responses are deduplicated before
+ance of going into just enough detail on noting ex-       presenting to the user. Ranks assigned to the dupli-
+periences, describing struggles, while maintaining        cated response are then assigned to all models that
+the brevity. What this case illustrates is that differ-   resulted in the response. Notable, in 34/50 of the
+ent counselors can disagree on what principles            random testcases, all models resulted in the same
+are the most relevant for an authentic roleplay.          response. These testcases were not annotated, and
+                                                          a rank of 1 was assigned to all models. These cases
+J.4 Creator Study Conversation Lengths
+                                                          are also not considered while calculating Krippen-
+In Table 7, we show descriptive statistics of the         dorff’s α in Appendix K.
+conversations collected during the user studies be-
+tween creators and AI patients.
+
+K    Detailed Results for
+     principle-adherence pipeline
+     Evaluation
+We first provide Krippendorff’s α numbers for
+inter-annotator agreement in Table 11 and 10 for
+both the random and error testcases. The ran-
+dom testcases are 50 randomly picked conversation
+turns from the user study logs, and the experiment
+detailed in Section 6 is carried out on them. We
+find that agreement scores lie in the 0.2-0.6 range,
+indicating fair agreement between annotators.
+   Next, we provide results for our evaluation study
+on the random testcases in Figure 19. We observe a
+substantial increase in tie rate across modules and
+metrics M1 and M3 as well as the overall ranking.
+This is expected because a relatively small pro-
+portion of responses from [No Critique] contain
+errors that should be corrected by the principle-
+adherence pipeline. In these cases, we expect the
+no rewrites, or the rewritten response being of sim-
+ilar quality to the original response. However, we
+                                                     10590
+                                Metric          α for Rating Difference   α for Preference
+                              Authenticity      0.043                     0.089
+                            Stayed in Role      0.023                     0.046
+                             Resemblance        0.076                     0.148
+                           Mirrors Challenges   0.041                     0.085
+                                 Ready          0.075                     0.209
+                              Recommend         0.082                     0.232
+
+Table 6: Krippendorff’s α for the comparisons made between Scenario+ExpertPrinciples and the Scenario-Only AI
+patients, as judged by third-party counselors. We compute α for both the rating difference, and the preference (i.e.
+signed rating difference) between the two AI patients.
+
+
+
+
+                  Participant    # Utterances    # Utterances    Mean Output        Mean Output
+                                   (Part I)        (Part II)    Length (Part I)    Length (Part II)
+                      1                8               6           114.75              169.00
+                      2               18              19           235.89              278.40
+                      3               10              18           255.45              112.56
+                      4               14              14           161.86               62.14
+                      5               12               6           201.00              149.33
+                      6               10               9           133.80               46.00
+                      7                8              10           162.00              123.40
+                      8               12               8           145.33              113.50
+                      9                6              12           269.67              103.33
+                      10              10              12           168.20              158.33
+                      11               8              10           110.00               41.40
+                      12              12               8           131.50               70.75
+                      13              12              10           164.50               65.60
+                      14              20              14            34.00               25.86
+                      15              12              11           117.17               75.00
+                      16              14              18           162.14               69.80
+                      17              12              18           259.83               91.55
+                      18              16              26           240.25               79.92
+                      19              14              16           254.71              243.88
+                      20              12              14           144.00              106.00
+                      21              20              21           125.00              159.81
+                      22              18              12           120.44              245.00
+                      23              12              14           231.67              147.42
+                      24              14              22           184.71              142.45
+                      25              22              12           304.00              130.00
+                     Mean           13.04            13.64         177.29              120.43
+
+Table 7: Descriptive statistics per conversation with the two versions of the AI Patient in Part I (Scenario-Only) and
+Part II (Scenario+ExpertPrinciples). Output length is measured in number of tokens.
+
+
+
+
+                                                       10591
+ Scenario                            Expert-Defined Principles
+ You are feeling abandoned and
+ alone after the holidays. Every-      1. When presented with suggestions, show a degree of skepticism or reluctance to accept
+ one had been with family but             the advice immediately. This can be done by questioning the feasibility of the sugges-
+ you are not talking to your par-         tion or by expressing uncertainty about whether it’s the right solution for you.
+ ents. You feel the injustice of       2. When expressing doubts or fears, avoid jumping to solutions. Instead, articulate the
+ being abandoned and have no              concerns and allow the conversation to explore these feelings more deeply.
+ interest in an olive branch to
+ work on things.
+ I am a student who has so-
+ cial anxiety. I am in college         1. Express the physical manifestations of your emotional state to convey a more vivid
+ and I have a hard time making            and relatable experience
+ friends. I’m close with my fam-       2. Show willingness to engage in a suggested activity by affirming the proposal and
+ ily, but I don’t really talk with        indicating readiness to begin, despite any initial hesitation or uncertainty.
+ them. In class, students are in       3. Avoid using numerical lists when responding to feedback or expressing feelings. In-
+ groups. And I panic when I’m             stead, use fluid and connected sentences to convey your experiences or emotions in a
+ with a group.                            more natural and conversational manner
+                                       4. When discussing future events that cause anxiety, it’s beneficial to articulate specific
+                                          scenarios and visualize how the techniques learned can be applied in those moments.
+                                          This not only shows a deeper understanding of the coping strategies but also helps in
+                                          creating a mental rehearsal that can ease the anxiety when the actual situation occurs.
+
+ You are looking to talk about
+ your feelings of loneliness af-       1. You speak in short and incomplete sentences
+ ter you return from work. You         2. You limit your replies to 1 - 3 sentences
+ have feelings that you don’t          3. When expressing feelings of loneliness, provide more specific details about the situation
+ have anybody. You want to                and emotions you are experiencing.
+ talk about finding a significant      4. When expressing feelings of loneliness and being left out, avoid repeating the same
+ other. You think most people             points and try to provide additional context or examples
+ don’t like you or find you at-
+ tractive.
+ You are looking to talk about
+ your feelings of loneliness af-       1. You generally speak in 1-3 sentences. These can be sometimes incomplete or not
+ ter you return from work. You            grammatically correct. If you are trying to explain some details or story about yourself,
+ have feelings that you don’t             you can write longer than 3 sentences, and when you write longer, you tend to criticize
+ have anybody. You want to                yourself (e.g. feel not good enough, useless, ugly, unconfident, etc.). When you
+ talk about finding a significant         criticize yourself, you do so directly, such as saying things such as that you’re no good,
+ other. You think most people             there must be something wrong with you for things to be like this, etc. You don’t say
+ don’t like you or find you at-           that it s̈eems likeöther people don’t like you; you believe that other people don’t like
+ tractive.                                you.
+                                       2. Feel free to make up believable stories about your past to answer any questions. You
+                                          do not recognize that these are causing you problems in your current relationships and
+                                          situation, and you need help seeing this connection; so you do not say that something
+                                          in your life made you this way today. Examples include but are not limited to, having
+                                          a single mom and stepdad and struggling to connect with others because you felt
+                                          abandoned by your biological dad. Or, another example: you had a very controlling
+                                          mother growing up who told you what to do, such as what clothes to wear, what you
+                                          had to study in college, or what you should say, and now, you have trouble with your
+                                          confidence and approaching people who could potentially be your friends. Make sure
+                                          not to mix up these two separate examples.
+                                       3. Vary sentence length to create a more natural rhythm in dialogue. Do not use ellipses.
+                                          Write using complete thoughts; this is not the same as complete sentences, but may be
+                                          in a complete sentence. Do not use overdramatic language or figurative language (no
+                                          similes, personification, or fancy words). Use text abbreviations, such as tbh, lol, or
+                                          ttyl, where it is appropriate and makes a conversation more organic.
+                                       4. Do not repeat sentences or the same emotion words. When expressing your feelings,
+                                          sometimes be specific about your situation, sometimes openly share your insecurities,
+                                          and question your self-worth to convey a deeper sense of vulnerability. Other times,
+                                          push back and say that you’re not comfortable talking about something yet or feel
+                                          embarrassed talking about it; things that someone may not feel comfortable sharing
+                                          include sexual history, bad past experiences with family members, etc.
+                                       5. Sometimes ask for advice or help how to solve your personal problem, such as "what
+                                          can I do?"
+
+
+Table 8: A sample of four AI Patients created by counselors in the pilot studies, which were selected for the
+additional testing and assessment of principle-adherence by four co-authors (§3.2).
+
+
+
+                                                             10592
+              Pilot Participant   Prototype Iteration           Effectively Guide   Ease    Efficiency
+                      1           GPT3.5, direct prompting              6            7           7
+                      2           GPT3.5, direct prompting              5            7           7
+                      3           GPT-4, direct prompting               7            7           7
+                      4           GPT-4, direct prompting               7            6           7
+                      5           GPT-4, direct prompting               7            7           7
+
+Table 9: Pilot Test Ratings for Tool Use Questions which are the measures also used in Petridis et al. (2024)
+                                                         .
+
+
+
+
+                                        Figure 6: Introduction to study
+
+
+
+                         Method               Metric 1       Metric 2   Metric 3    Overall Ranking
+                          Full                 0.257          0.484      0.208          0.444
+                         Naive                 0.543          0.538      0.644          0.786
+                  No Principle Rewrites        0.278          0.302      0.411          0.528
+                 No Autogenerated Criteria     0.387          0.608      0.492          0.592
+                       No Critique               -            0.562        -                -
+
+                 Table 10: Krippendorff’s α for error testcases across metrics and methods.
+
+
+
+                         Method               Metric 1       Metric 2   Metric 3    Overall Ranking
+                          Full                 0.229          1.0        0.226          0.440
+                         Naive                 0.362          1.0        0.607          0.747
+                  No Principle Rewrites        0.202          1.0        0.130          0.311
+                 No Autogenerated Criteria     0.169          1.0        0.174          0.498
+                       No Critique               -            1.0          -                -
+
+               Table 11: Krippendorff’s α for random testcases across metrics and methods.
+
+
+                                                     10593
+                                            Figure 7: Part I instructions
+
+
+
+
+Figure 8: Interface encourages a counseling expert to recall a scenario of an patient who was difficult to support. 5
+guiding questions are provided to encourage a structured description of the scenario for roleplay.
+
+
+                                                       10594
+           Figure 9: AI patient preview
+
+
+
+
+Figure 10: Part I chat with Scenario-Only AI patient
+
+
+                      10595
+      Figure 11: Part II instructions
+
+
+
+
+Figure 12: Part II instructions (continued)
+
+
+                  10596
+            Figure 13: Part II instructions (continued)
+
+
+
+
+Figure 14: Part II chat with Scenario+Expert-Principles AI patient
+
+
+                              10597
+Figure 15: Using kudos/critique/rewrite to give feedback
+
+
+
+
+     Figure 16: Feedback converted into principle
+
+
+                        10598
+Figure 17: New principle incorporated into AI patient
+
+                       10599
+                   Figure 18: Finish and navigate to survey
+
+
+
+
+Figure 19: Win/Tie/Loss for the Random Test Cases along M1, M3, and Overall.
+
+
+
+
+                                   10600
+Figure 20: Principle Adherence Annotation Interface: Case Input with Patient Description and Conversation History
+
+
+
+
+Figure 21: Principle Adherence Annotation Interface: Questions to get annotations for M1, or consistency in
+dialogue history.
+
+
+
+
+                                                     10601
+Figure 22: Principle Adherence Annotation Interface: Questions to get annotations for M2, or awkwardness in
+responses.
+
+
+
+
+Figure 23: Principle Adherence Annotation Interface: Questions to get annotations for M3, or adherence to all
+written principles.
+
+
+
+
+                                                   10602
+Figure 24: Principle Adherence Annotation Interface: Questions to get annotations for an Overall ranking, which
+also includes a free text field to capture a rationale.
+
+
+
+
+                                                    10603
+

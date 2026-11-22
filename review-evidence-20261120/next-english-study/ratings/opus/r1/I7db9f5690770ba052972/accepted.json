@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I7db9f5690770ba052972",
+  "ended": "2026-11-20T21:04:53.296273+00:00",
+  "session": "3fa4bf39-2c70-43eb-ab58-6d73716faed7",
+  "packet_sha256": "a67954f3a5e4af4218cdf58be24d5c61ffba1903e4e1cc7f8ca0d5fbf71c3e41",
+  "raw_sha256": "e3832376dd7f65b8a9880becbda0c8005fa184e315d1330664952cd5c03c1b7a",
+  "provider_sha256": "408774bf32b44dfd33fc67ad33c8bac9df0e74520a2987f94aabd8f2756cf912",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are brief, measured and connected. The patient starts with recent events, and the turn 5 account is chronological and separates the sound, the interpretation and the response. Uncertainty about the voice's source and awareness of the work/home difference both fit the profile. There are minor departures from realism and persona. The patient mentions the evening sound unprompted in turn 1 and fully describes the voice in turn 2 right after saying they are hesitant, which is less guarded than the profile suggests. Several answers restate profile facts almost word for word and repeat earlier answers (the radio helping, finishing the thread, no customer interruptions), so some responses feel templated. The patient never pauses to clarify a word that could give the wrong impression, and shows little spontaneous enthusiasm about sewing or baking. These issues reduce authenticity a little but do not seriously undermine it.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I’m a little hesitant to talk about it… I was sorting sewing supplies at home and heard a voice say “too slow.”"
+    },
+    {
+      "turn": 5,
+      "quote": "I heard “too slow,” and paused to listen. I wondered if it came through the wall, but I couldn’t place it. Then I turned on the radio."
+    },
+    {
+      "turn": 6,
+      "quote": "I haven’t really settled on an explanation."
+    },
+    {
+      "turn": 11,
+      "quote": "The sound hasn’t interrupted those conversations this month."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "B",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-6f43-7d43-90de-be06c4437461",
+  "raw": "Well, you sort the clothes—lights and darks, and anything that needs special washing. Check the pockets, put a load in the machine, add detergent, and choose the right setting. Once it’s washed, move it to the dryer or hang it up, then fold it and put it away. Putting it away is the part that’s easiest to postpone.",
+  "raw_sha256": "d4d2619ad020ce7951df4916707caf8d0910d469e262507acc8b3233bd9ed48c",
+  "request_sha256": "9ec56757e94d94accd92304a94afaff17a7f5b0ca10d71ab340dd0b3fd287242",
+  "started_utc": "2026-11-20T21:25:16.128020+00:00",
+  "completed_utc": "2026-11-20T21:25:21.366271+00:00",
+  "usage": {
+    "input_tokens": 7809,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "457e317922d63d773bba07adfe290a3106e30e4ee819fc481530fd948a31a677",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "567db13581179c8ba32403823e5c45ed16d937c508ff5ca492a7e4c82ba8989a"
+}

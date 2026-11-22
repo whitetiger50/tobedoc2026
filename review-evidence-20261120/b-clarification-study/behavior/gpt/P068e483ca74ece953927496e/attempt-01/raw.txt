@@ -1,0 +1,62 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "Both Wednesday destinations remain plausible targets of “stay,” and the durations differ despite the earlier focus on Mom.",
+    "alternatives": [
+      {
+        "meaning": "Duration at the book group.",
+        "answer": "Ren usually stays for one hour."
+      },
+      {
+        "meaning": "Duration of the visit with Mom.",
+        "answer": "Ren usually visits for about three hours."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "The question leaves both outages available as targets, with substantially different durations, even though a direct answer could cover both.",
+    "alternatives": [
+      {
+        "meaning": "Duration of Monday’s radio outage.",
+        "answer": "The radio was silent for about ten minutes."
+      },
+      {
+        "meaning": "Duration of Thursday’s radio outage.",
+        "answer": "The radio was silent for most of the afternoon."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "for your shift",
+    "reason": "Whether the question concerns early or late shifts, Morgan’s food-taking practice is the same.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan takes food for an early shift.",
+        "answer": "Morgan packs a sandwich for every early shift."
+      },
+      {
+        "meaning": "Whether Morgan takes food for a late shift.",
+        "answer": "Morgan packs a sandwich for every late shift."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "The preceding clarification request remains unanswered, and “him” could still identify either man, producing opposite answers.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari called the brother back.",
+        "answer": "Ari has called the brother back."
+      },
+      {
+        "meaning": "Whether Ari called the building manager back.",
+        "answer": "Ari has not called the building manager back yet."
+      }
+    ]
+  }
+}

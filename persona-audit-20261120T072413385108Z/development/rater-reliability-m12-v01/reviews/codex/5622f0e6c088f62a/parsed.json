@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "짧고 조직적인 답변과 정보 전달에 대한 경계심은 자연스럽지만, 거주 형태가 고정 프로필과 명백히 달라 인물 설정의 일관성이 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "혼자 살며 누나가 가끔 방문한다는 사실을 누나와 동거하며 혼자 살지 않는다는 진술로 명백히 뒤집었다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 답하며, 밤의 경험을 설명하면서 정보 전달에 대한 관련 우려도 표현한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "작성된 이전 문맥과 이번 대화의 환자 발언 사이에 자기모순이나 공개 흐름의 단절은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상적 표현과 민감한 경험을 말하면서 보이는 경계심이 의사소통 설정에 자연스럽게 부합한다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

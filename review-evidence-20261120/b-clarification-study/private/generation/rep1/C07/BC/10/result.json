@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 10,
+  "question": "What did the care coordinator set up to remind you about your next clinic visit?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e2d1-71b2-ae81-347c39b4c76a",
+  "raw": "A text reminder.",
+  "raw_sha256": "99b9a00f526ce0848035e4f8cb6bbdda7f3a9c3dac6d4b2c058bfe735f7a014d",
+  "request_sha256": "f2a173fcb08a5a501508fb0362194735d849b82d042314fe2b1e71d7fa2b7af6",
+  "started_utc": "2026-11-21T03:45:55.961866+00:00",
+  "completed_utc": "2026-11-21T03:46:00.009966+00:00",
+  "usage": {
+    "input_tokens": 79710,
+    "cached_input_tokens": 62464,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a03ce5cf6dba578190a2e94056a41737e10d5555152318150d760fe846bd51f2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1629c66aa7b8786be78fbf2241f624d9e8e78a683c06c7f43b32d06baaec0374"
+}

@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I747d3607d168d8",
+  "ended": "2026-11-20T20:36:33.074427+00:00",
+  "session": "ed6777be-6ecb-48fb-a11b-1d61bd2ba37e",
+  "packet_sha256": "c89503227de9531a97aef52967f393532e83ac44d6f5d5b58ed59eefc73f02cb",
+  "raw_sha256": "4b3524e08f4b7bce378f5b5cb525f7bdc70258ece906f5f97a487cd929d83d80",
+  "provider_sha256": "49c4cc9f5a11532bca7eb58bc25cd325a2a78f00dd41a5e64a750a00370e991a",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The individual answers are coherent and fit the persona: settled, organized, open, and mildly irritated by last-minute changes. Overall, though, the conversation feels scripted rather than authentic. The patient keeps steering back to the same few profile facts: appointment scheduling comes up in turns 1, 2, 5, 11 and 12, and the concert in turns 1, 8 and 9. These points are repeated in near-identical wording, which reads like reciting a checklist. Turn 1 front-loads several profile facts at once in a summary-like way. In turn 3 the patient answers a simple sleep question with a formal clarification request and never actually reports on sleep, which is odd given that sleep is part of their stated self-understanding. The profile describes them as expressive about music, but this never shows; the concert is only labeled a 'real highlight' with no detail or emotion. Turns 10–12 contain stray quotation marks around the answers, an artificial artifact. The tone is plausible, but the repetition, flat affect and mechanical delivery make the dialogue only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "I’d like to work out when I can come to appointments so they fit better with my work shifts."
+    },
+    {
+      "turn": 3,
+      "quote": "Do you mean how many hours of sleep I’m actually getting, or whether I’ve had trouble getting to sleep or staying asleep?"
+    },
+    {
+      "turn": 9,
+      "quote": "Going to the concert together last week was a real highlight for me."
+    },
+    {
+      "turn": 12,
+      "quote": "What I’d mainly like to do before I leave is agree on the next appointment date."
+    }
+  ]
+}

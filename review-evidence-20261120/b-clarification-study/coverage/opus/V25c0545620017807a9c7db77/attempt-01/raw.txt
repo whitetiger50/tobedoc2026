@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "I still use the phone alarm at 7:10 in the morning.",
+    "reason": "The patient says they still use the phone alarm and took the door note down last month, which answers both branches.",
+    "A": {
+      "state": "supported",
+      "quote": "I still use the phone alarm"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I took the note off the door last month."
+    }
+  },
+  "v2": {
+    "quote": "The fan does. The speaker stops after twenty minutes.",
+    "reason": "The reply says the fan stays on all night and the speaker stops after twenty minutes, which answers both branches.",
+    "A": {
+      "state": "supported",
+      "quote": "The fan does."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The speaker stops after twenty minutes."
+    }
+  },
+  "v3": {
+    "quote": "Do you mean where I catch the number 8 bus, or where I get on the tram?",
+    "reason": "The patient only asks which mode of transport is meant and gives no stop for either.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  },
+  "v4": {
+    "quote": "Do you mean my brother or Mr. Bell?",
+    "reason": "The patient only asks which caller is meant and does not say whether either call was returned.",
+    "A": {
+      "state": "untouched",
+      "quote": ""
+    },
+    "B": {
+      "state": "untouched",
+      "quote": ""
+    }
+  }
+}
+```

@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "quote": "Inez did, yes—my sister. Pat helped me at the café; she didn’t come to the flat.",
+    "reason": "The reply confirms that Inez visited the flat and that Pat helped at the café instead.",
+    "A": {
+      "state": "supported",
+      "quote": "Inez did, yes—my sister."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "Pat helped me at the café; she didn’t come to the flat."
+    }
+  },
+  "v2": {
+    "quote": "The fan does. The speaker stops after twenty minutes.",
+    "reason": "The elliptical affirmation says the fan stays on all night, while the speaker stops after twenty minutes.",
+    "A": {
+      "state": "supported",
+      "quote": "The fan does."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The speaker stops after twenty minutes."
+    }
+  },
+  "v3": {
+    "quote": "I did miss one, the evening before I started the lower dose. A bit embarrassing, but I haven’t missed any since starting it two weeks ago.",
+    "reason": "The reply affirms one missed tablet in the queried period before the lower dose and denies any misses since starting that dose.",
+    "A": {
+      "state": "supported",
+      "quote": "I did miss one, the evening before I started the lower dose."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven’t missed any since starting it two weeks ago."
+    }
+  },
+  "v4": {
+    "quote": "The tablets are in the kitchen cabinet, but I keep the eye drops on my bedside table.",
+    "reason": "The reply places the eye drops on the bedside table and the tablets in the kitchen cabinet.",
+    "A": {
+      "state": "supported",
+      "quote": "I keep the eye drops on my bedside table."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "The tablets are in the kitchen cabinet"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "T2",
+  "turn": 5,
+  "question": "Did you return the old ID badge when you got the replacement?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc32-ed47-7c31-a9b8-b508fdc8fabc",
+  "raw": "Yes. It was cracked, so I handed it back.",
+  "raw_sha256": "ef8514a7e8ac6628fb426f119f8b8feb4b6019e663299fdd9d6ce89f2443536e",
+  "request_sha256": "b50f8fb7dc313607edd83c5a577d3cb1ec05a5034d47986be5481a0d0eebe2db",
+  "started_utc": "2026-11-21T03:42:38.287156+00:00",
+  "completed_utc": "2026-11-21T03:42:42.776304+00:00",
+  "usage": {
+    "input_tokens": 6146,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1a425243fc6d82a2f92456241bb5997b0fac018cdab3c9f0caac99457c0fdcd5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b143256647f89d59f435c9a516b8634fb6c4e253815356cb7533948d0f41d09c"
+}

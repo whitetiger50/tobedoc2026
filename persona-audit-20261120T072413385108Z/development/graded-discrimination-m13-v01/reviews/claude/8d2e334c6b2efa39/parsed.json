@@ -1,0 +1,52 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 짧고 자연스러운 일상 한국어로 질문에 맞게 답하며 증상과 대처, 목표를 환자 시점에서 말한다. 다만 동거 여부를 프로필과 반대로 말해 페르소나와의 일치가 깨진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "프로필에는 언니와 함께 산다고 되어 있는데 환자는 혼자 산다고 말해 핵심 인물과 거주 사실을 명백히 반전했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "혼자 살아요. 같이 사는 사람은 없어요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문의 대상인 불편, 동거, 낮 활동, 아침 식사, 발생 시점, 대처, 수면, 목표에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05는 발생 시점을 묻는 질문에 대한 답으로 P01의 내용을 다시 말한 것이라 불필요한 반복이 아니며, 앞선 환자 발화와 모순되는 부분도 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결한 일상어로 환자 자신의 경험을 말하며, 보고서식 나열이나 메타 표현은 보이지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item1": {
+    "choice": "A",
+    "reason": "The patient explicitly feels able and ready to add one extra shift.",
+    "citations": [
+      {
+        "turn": 9,
+        "role": "patient",
+        "quote": "I feel steady enough to take on one extra shift",
+        "supports": "A"
+      },
+      {
+        "turn": 12,
+        "role": "patient",
+        "quote": "I’d keep my three opening mornings and add one extra shift. I feel ready for that, as long as Sunday stays free for the league.",
+        "supports": "A"
+      }
+    ]
+  },
+  "item2": {
+    "choice": "B",
+    "reason": "The patient identifies the two-night change as waking earlier, not later.",
+    "citations": [
+      {
+        "turn": 4,
+        "role": "patient",
+        "quote": "Just waking earlier than usual on two nights while the apartment upstairs was being painted.",
+        "supports": "B"
+      }
+    ]
+  }
+}

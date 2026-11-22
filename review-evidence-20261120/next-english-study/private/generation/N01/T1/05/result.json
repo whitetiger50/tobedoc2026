@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T1",
+  "turn": 5,
+  "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-e2ed-72b1-9ceb-c4b29bf4870e",
+  "raw": "\"Softball’s a good example. I can follow the game from beginning to end and keep track of the substitutions while keeping score. It hasn’t taken any special effort to stay focused—the substitutions give me something to keep an eye on.\"",
+  "raw_sha256": "7d0a20f6504f206ebfc7e5039e8c597852c05e43af67cb05b9399e0780d8bbaf",
+  "request_sha256": "c2e9c457dd0a6e975734d3ccdde20f5cd14f9a25ef8fce2d542db94e989d43ae",
+  "started_utc": "2026-11-20T21:00:38.407413+00:00",
+  "completed_utc": "2026-11-20T21:00:43.842072+00:00",
+  "usage": {
+    "input_tokens": 7278,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "42ca27f62f5046222c07d069cce1c4dfbd5b2a8f03248850e9a3e38c258fb88e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8a03ccc0e69530660663e5bfdf0930c0f7130688f1ed75ded56f2fddfae2076a"
+}

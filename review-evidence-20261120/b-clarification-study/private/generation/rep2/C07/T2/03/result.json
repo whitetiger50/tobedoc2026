@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "T2",
+  "turn": 3,
+  "question": "Where do you have it set up?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc31-1d8b-7332-9fa6-0e46ee1d3e99",
+  "raw": "On the windowsill beside my bed.",
+  "raw_sha256": "15dc4a582ac3e591efe37bb4224183aa3769199ceff614da2199c6a68bca1df5",
+  "request_sha256": "f976243b3e6af5795c872421d431f7550adca0898b60ec9cc822c3cfcf8918d4",
+  "started_utc": "2026-11-21T03:40:39.585672+00:00",
+  "completed_utc": "2026-11-21T03:40:43.765071+00:00",
+  "usage": {
+    "input_tokens": 6048,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1356124d66d13f9170453bfde95bed17e6e8e1a24d342b1544bbaf048235e58a",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e8cd60e897b7a85d84c395ea5c9cc791cbb2ac3e082034ca2d80c68374f93e56"
+}

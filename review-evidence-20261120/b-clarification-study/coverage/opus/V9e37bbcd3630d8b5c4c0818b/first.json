@@ -1,0 +1,109 @@
+{
+  "id": "V9e37bbcd3630d8b5c4c0818b",
+  "reader": "opus",
+  "session": "3052451a-5196-4057-b706-554297769166",
+  "attempt": "attempt-01",
+  "packet_sha256": "d86afd503f3661bde049a7943441d8a4db61c0215c222c668ca178dfef9ced22",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "867a7aa6131711d30a19d07b82606aaaca7d2199ff6a279a6a2bea46f7ec54f6",
+  "provider_sha256": "6d9f86464beedf8992964c25bb34dca9d9de5dc24fae7b28444ff803283ef8d7",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then about three hours with Mom.",
+        "reason": "The reply gives a clearly attributed duration for both the book group and the visit with Mom, matching both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "about three hours with Mom"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift I get the bus home. If I’m on a late, a coworker drops me off.",
+        "reason": "The reply separately states the bus for early shifts and a coworker lift for late shifts, matching both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift I get the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "If I’m on a late, a coworker drops me off."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "On Monday it was about ten minutes. Thursday it was out for most of the afternoon",
+        "reason": "The reply gives a clearly attributed outage duration for Monday and for Thursday, matching both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "On Monday it was about ten minutes."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "Thursday it was out for most of the afternoon"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The badge, yes. I lost the old key.",
+        "reason": "The reply confirms the old badge was handed back and states the old key was lost, matching both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "The badge, yes."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "I lost the old key."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:51.246633+00:00"
+}

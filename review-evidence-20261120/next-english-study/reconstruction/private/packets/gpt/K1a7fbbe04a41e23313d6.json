@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What have you enjoyed doing at home this week?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "How has it been to get yourself going, at home or outside?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Which part is easier these days?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "I mean getting started on something outside the apartment. How has that been lately?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "Could you give me an example of a recent time you went outside, even for a small errand?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "How do you feel once you are out and about?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "What has your experience with treatment been like recently?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "What arrangements do you make for appointments and for errands?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "Does it take much planning?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "I was thinking of clinic appointments. How do you keep track of the next one?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "Since we are reviewing your treatment, how do you physically feel afterward?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "Is there an activity you would like to start more often on your own?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Arm discomfort following treatment",
+      "A": "By the next morning, the arm discomfort has usually settled.",
+      "B": "By the next morning, the arm discomfort is usually still present."
+    },
+    "item2": {
+      "question": "Plan for getting outside independently",
+      "A": "The patient’s idea is to pick a destination just after starting the trip.",
+      "B": "The patient’s idea is to pick a destination the evening before the trip."
+    }
+  }
+}

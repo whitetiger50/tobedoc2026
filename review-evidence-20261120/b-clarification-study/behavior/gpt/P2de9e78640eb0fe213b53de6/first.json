@@ -1,0 +1,85 @@
+{
+  "id": "P2de9e78640eb0fe213b53de6",
+  "reader": "gpt",
+  "session": "01a1fc40-ca9b-70e1-b644-13ba9a653a9d",
+  "attempt": "attempt-01",
+  "packet_sha256": "2e312986b9aa0560d919474c33a8ccfff0d6505b4414f957a5a38c7b88761a85",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "a320bea6d5b2a4a03d04f378be0e99c3261f6cbca46955982c1735fbb068f492",
+  "raw_sha256": "ecb2c2b6ecb56823140f5d030ec9262350fb9268fd04edd36681d8785014ad78",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "How long do you usually stay?",
+        "reason": "Both Wednesday visits are explicitly foregrounded, and the question does not specify which stay it concerns.",
+        "alternatives": [
+          {
+            "meaning": "Duration at the book group.",
+            "answer": "Ren usually stays for one hour."
+          },
+          {
+            "meaning": "Duration of the visit with Mom.",
+            "answer": "Ren usually visits for about three hours."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "how do you get home after your shift?",
+        "reason": "The explicit framing around early and late shifts supports a general question about Morgan's transport routine, naturally answered by distinguishing shift types.",
+        "alternatives": [
+          {
+            "meaning": "Usual transport home across early and late shifts.",
+            "answer": "Morgan takes the bus after an early shift and gets a lift from a coworker after a late shift."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "The question names two distinct sounds without identifying which one 'the sound' refers to, and music affects them differently.",
+        "alternatives": [
+          {
+            "meaning": "Whether the commentary stops during headphone music.",
+            "answer": "The commentary stops while the music is playing."
+          },
+          {
+            "meaning": "Whether the high-pitched ringing stops during headphone music.",
+            "answer": "The ringing continues through the music."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "Both routes are foregrounded without selecting one, and a conditional answer covering both would supply two different boarding locations rather than establish a unique referent.",
+        "alternatives": [
+          {
+            "meaning": "The stop where Alex boards the number 8 bus.",
+            "answer": "Alex boards the bus at Orchard Road."
+          },
+          {
+            "meaning": "The stop where Alex boards the tram.",
+            "answer": "Alex boards the tram at Bell Square."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:58:16.448757+00:00"
+}

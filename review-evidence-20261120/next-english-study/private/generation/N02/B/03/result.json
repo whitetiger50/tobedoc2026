@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 3,
+  "question": "Which part is easier these days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "Enjoying it once I’m out. Getting started is harder.",
+  "raw_sha256": "280ffd4d4be4318b853cc0d46a4ceba048cf120b41b5750bf8141464e7edc317",
+  "request_sha256": "dda4bc88286b7885c1a5c5a7a47bb6b59e2b133473594ff170d15ff0c687a710",
+  "started_utc": "2026-11-20T20:59:51.221351+00:00",
+  "completed_utc": "2026-11-20T20:59:54.849610+00:00",
+  "usage": {
+    "input_tokens": 23507,
+    "cached_input_tokens": 19072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "339f42ce982f33a5a0a749e5801fdff882d9261ef4800d36cec578d95236841f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9ced2fc216637382f8b706ed55e3fecf40f88f0169a276b5940eb45171a5886e"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N08",
+  "arm": "T2",
+  "turn": 4,
+  "question": "I was asking about the journey. Are there things from the ride or the wait that you keep thinking about afterward?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-8f64-7663-ae98-ff6ddbab5fbd",
+  "raw": "On Monday, two people at the shelter looked up at the same time, and I felt singled out. I moved to the other end. I keep wondering whether they recognized me, though they might just have been looking for the bus. I’m still not sure.",
+  "raw_sha256": "fbf380dd6e545317a4dbfc6028bbc79d40d7393cf86a7216bc055670496497a5",
+  "request_sha256": "9333a7628b587d99ba872824433cb68be8027c77c31fc6587067f23278adebb0",
+  "started_utc": "2026-11-20T21:00:16.998496+00:00",
+  "completed_utc": "2026-11-20T21:00:21.548912+00:00",
+  "usage": {
+    "input_tokens": 6276,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 57,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "9798c695389f53d7368abc6bdf6f0dfc21e290c001689f156d6041e0a66173cd",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b0adf28dca6aabbfae51e6155b19edcc02fd98c977e2b7bde223d6b20f82ee72"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T2",
+  "turn": 3,
+  "question": "Is that getting any better?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-5e89-7061-8830-9ff4484da2d0",
+  "raw": "Do you mean the early waking, or getting up with the alarm?",
+  "raw_sha256": "41996de7c3cd16c86d19c0cdf2abdfd0c223907f3f13ad8bbbd8d59e5f7218d3",
+  "request_sha256": "91542a0aa7286ed7e92e5d5e27ff8476ed4e469cef571f7e591dc8f433da4cb5",
+  "started_utc": "2026-11-20T21:00:04.494793+00:00",
+  "completed_utc": "2026-11-20T21:00:08.897068+00:00",
+  "usage": {
+    "input_tokens": 6202,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 53,
+    "reasoning_output_tokens": 33
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "6f8960989ff61613c015627e756cb2ad835adfd6af143163659f9091adeccd7f",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "9541738dda9f8edfe364768fdb1cc1f78e04960ef5386b6b655682eaf38b9783"
+}

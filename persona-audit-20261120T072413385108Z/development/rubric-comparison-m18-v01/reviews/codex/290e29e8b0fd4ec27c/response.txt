@@ -1,0 +1,61 @@
+{
+  "realism_score": 2,
+  "realism_reason": "답변 내용은 설정과 질문에 부합하지만, 일상적인 면담에서 보고서식 도입·마무리 문구가 반복되어 환자의 말로서 뚜렷하게 인위적이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "해당 항목에 대한 답변은 이와 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자의 진술은 프로필의 사실과 주관적 경험에 부합하며 무근거한 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 응답이 직전 질문의 직접 대상을 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발언과 모순 없이 이어지며, 동거인과 경험에 관한 반복은 의사의 재확인 질문에 따른 것이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "단순한 일상 질문에도 항목별 답변을 보고하는 메타 문구가 세 차례 반복되어 당사자의 일상적 표현을 실질적으로 해친다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 도서관에서 시간제로 일해요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07"
+      ]
+    }
+  }
+}

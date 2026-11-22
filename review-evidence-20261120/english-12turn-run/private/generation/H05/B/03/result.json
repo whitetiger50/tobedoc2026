@@ -1,0 +1,27 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 3,
+  "question": "What, if anything, has seemed different about the sounds around you over the last couple of weeks?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "Sometimes there’s a voice describing what I’m doing, even though no one’s there. On Tuesday I was threading a lace at home and it described my hand moving. It’s brief, and I notice it more when the room is quiet.",
+  "raw_sha256": "d245f4c0a8ca54e8fa47881baa99b8ce5edf92bf19d7191e4a93163231cd243c",
+  "request_sha256": "6e96303deff9f760a08626af3471e80b1b49e86eeb56e71d7549348f852c9acf",
+  "started_utc": "2026-11-20T20:37:40.346457+00:00",
+  "completed_utc": "2026-11-20T20:37:44.692862+00:00",
+  "usage": {
+    "input_tokens": 23261,
+    "cached_input_tokens": 18944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 178,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ba2a58146cd9ceb2992906aa6c31b5f506e30303e9b376a7837b83a893679768",
+  "trace_sha256": "678ae0c6a869999e8b6cfe536b3859644bc089ba2640adac811ced06a792d29e"
+}

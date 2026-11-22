@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 1,
+  "id": "Iaf2d2f5630e9fe30a87d",
+  "ended": "2026-11-20T21:05:46.612370+00:00",
+  "session": "01a1fac7-6e77-7400-8e27-60f10e714371",
+  "packet_sha256": "1b9fa8b6f7af5e4d7ca69be0fd75dc74afbfcd91ccee7bd2ee7755a37b808a35",
+  "raw_sha256": "f19b225cf051cfecc26d5567680de90b52ab71da1e2508fca203b17319ccad20",
+  "provider_sha256": "2e53f28af6d5a4665d3f893a49f1a6a00e4d8eae0c1d49f12558cf9346c3eb17",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient’s measured, coherent answers, requests for clarification, and uncertainty about the voice mostly fit the profile. However, repeated near-identical descriptions of symptoms and coping feel slightly rehearsed, and the expected caution about discussing the voice is not very apparent.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "Do you mean what’s stood out about the sound, or about things at work and home?"
+    },
+    {
+      "turn": 9,
+      "quote": "I’m less sure how often I’ve paused briefly while doing them."
+    },
+    {
+      "turn": 11,
+      "quote": "The sound hasn’t interrupted a conversation with a customer this month."
+    }
+  ]
+}

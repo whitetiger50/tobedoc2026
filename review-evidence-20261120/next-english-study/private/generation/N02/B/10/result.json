@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "B",
+  "turn": 10,
+  "question": "I was thinking of clinic appointments. How do you keep track of the next one?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-296b-79c2-8656-ad43647e6663",
+  "raw": "I write it on the paper calendar.",
+  "raw_sha256": "30fa98417f458e5e1ae0c4589d96ba4697410c07bcf36ddd0852227d91d43192",
+  "request_sha256": "8732e877214aad2da022d0ad4ac61fbfb83d0f4ff2f9ac5890a27e13f522f963",
+  "started_utc": "2026-11-20T21:03:12.393202+00:00",
+  "completed_utc": "2026-11-20T21:03:15.674777+00:00",
+  "usage": {
+    "input_tokens": 79705,
+    "cached_input_tokens": 69632,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 189,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "20b607b601d7894c87142487dd07123c7634925ec3d653907b8648f4089f257e",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7a1e5089a3b6466c58fb1fa25c8a1598680da37c27362f0fc07d7e8aaf412c77"
+}

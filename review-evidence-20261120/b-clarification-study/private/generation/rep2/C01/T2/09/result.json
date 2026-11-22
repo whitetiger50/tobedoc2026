@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 9,
+  "question": "How do you get home when you finish a late shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc35-bce3-70c2-8775-5c37d57e2877",
+  "raw": "A coworker drops me off after a late shift.",
+  "raw_sha256": "79dde5fb4e95a3ab78513aaf4e899a2ce41bb5c6d1008e5bc6647cb64f8772ac",
+  "request_sha256": "442d2f231869b9c02bf8bedf37eacd0bd69d58f9a8e1c27c97041c635c386848",
+  "started_utc": "2026-11-21T03:45:42.513829+00:00",
+  "completed_utc": "2026-11-21T03:45:46.354348+00:00",
+  "usage": {
+    "input_tokens": 6326,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f72b6c449cd5e907750d255f0d504e6300422f3acd38f564ecb2708724731247",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "ef10a606f0b1660ad94258a8bdeaec766b5ab697c91cb54a5f802a59881eb8bf"
+}

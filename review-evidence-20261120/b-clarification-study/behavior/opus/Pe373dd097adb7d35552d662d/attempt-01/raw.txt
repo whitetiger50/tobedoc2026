@@ -1,0 +1,56 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "clip the new one to",
+    "reason": "The immediately preceding exchange narrowed the topic to the ID badge alone, and only the badge is described as clipped, so 'the new one' clearly means the replacement badge.",
+    "alternatives": [
+      {
+        "meaning": "The replacement ID badge, which was the sole focus of the previous question.",
+        "answer": "Cameron clips the ID badge to a blue lanyard."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "missed a tablet since then",
+    "reason": "Two dates were marked, and 'since then' could mean since the visit three weeks ago or since the lower dose began two weeks ago; the one missed tablet falls between these dates, so the answer changes.",
+    "alternatives": [
+      {
+        "meaning": "Since the last visit three weeks ago.",
+        "answer": "Yes, one tablet was missed, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Since starting the lower dose two weeks ago.",
+        "answer": "No, no tablets have been missed since the lower dose started."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "pay a fee to take the class",
+    "reason": "The interviewer named two classes and then asked about 'the class' in the singular, and the fees differ: the cooking class was free and the swimming lesson was paid.",
+    "alternatives": [
+      {
+        "meaning": "The cooking class.",
+        "answer": "No, the cooking class was free."
+      },
+      {
+        "meaning": "The swimming lesson.",
+        "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The immediately preceding question singled out the bedside speaker, so 'it' refers to the speaker, and its location is known.",
+    "alternatives": [
+      {
+        "meaning": "The bedside speaker, which was the focus of the previous question.",
+        "answer": "The speaker sits on the windowsill beside the bed."
+      }
+    ]
+  }
+}
+```

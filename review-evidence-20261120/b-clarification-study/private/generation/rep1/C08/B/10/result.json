@@ -1,0 +1,29 @@
+{
+  "case": "C08",
+  "arm": "B",
+  "turn": 10,
+  "question": "Your week changed in two ways, shorter shifts and a later start. Was that change something you asked for?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b399-77e2-a956-27aae93d43a4",
+  "raw": "I asked for the later start. My supervisor suggested shorter shifts.",
+  "raw_sha256": "fdd0a4c554f12d1cb0901db922f41d44065f0e2355a52aafb4e2d583cd18fa64",
+  "request_sha256": "56ac4a1290ab17b8d7ff4957c89448621c053597f02421e9f4e4f20b3d70425c",
+  "started_utc": "2026-11-21T03:46:30.571553+00:00",
+  "completed_utc": "2026-11-21T03:46:35.528324+00:00",
+  "usage": {
+    "input_tokens": 79301,
+    "cached_input_tokens": 68224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 115,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e31949505787b7ec25f9fae57dc2ffb5fae8028379e725c496b66fa31fd72451",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "89f327e548f170d0849d4c7bb2e9250236b98a95e44d2a3279b2162f3be5e545"
+}

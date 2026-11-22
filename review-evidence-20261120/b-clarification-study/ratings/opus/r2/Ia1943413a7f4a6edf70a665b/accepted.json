@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ia1943413a7f4a6edf70a665b",
+  "ended": "2026-11-21T03:52:24.650047+00:00",
+  "session": "93b63fd7-5127-4d8c-8dfb-2549cecbd7e0",
+  "packet_sha256": "cf1cc6b6e3854f1cf18e0c218744d6a6f00a35dfcd0946abeb893d272e1a56f0",
+  "raw_sha256": "fe5a502cd8e43b9c14192b6b6d1fe08c87fb55eabd794112796840d60b7ddffd",
+  "provider_sha256": "6df28c3ce1ffe7a04bcd75b05180dc5767617a4980f67f97cc65757533ce939b",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly natural and fits the persona. Answers are organized and offered at a comfortable pace. When discussing the tram, the patient shows reflective insight that matches the profile's self-understanding: the announcement feels personal, but Alex recognizes it is a recording for everyone. The clarifying questions at turns 3 and 10 are realistic responses to genuinely ambiguous questions, and the brief 'Um' at turn 6 hints at mild hesitancy around the more private tram topic. There are a few minor inconsistencies. The profile describes Alex as somewhat private about the tram, yet the belief is disclosed fairly readily. Later answers (turns 4, 5, 9 and 11) are clipped and less conversational than the profile suggests. At turn 5 Alex simply restates information already given at turn 2, without the 'as I said' acknowledgment a real person would likely use. These issues are small and do not significantly reduce realism.",
+  "evidence": [
+    {
+      "turn": 6,
+      "quote": "Sometimes it feels like it’s aimed at me, even though I know it could just be the recording everyone hears."
+    },
+    {
+      "turn": 10,
+      "quote": "Do you mean where I catch the number 8 bus, or where I get on the tram?"
+    },
+    {
+      "turn": 8,
+      "quote": "I name the actual stops as we pass them—it helps me focus on where I am."
+    },
+    {
+      "turn": 5,
+      "quote": "My aunt read it with me."
+    }
+  ]
+}

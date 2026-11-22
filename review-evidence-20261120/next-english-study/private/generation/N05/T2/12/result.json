@@ -1,0 +1,29 @@
+{
+  "case": "N05",
+  "arm": "T2",
+  "turn": 12,
+  "question": "Is there anything about the start of a workday that you would like to change?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac6-273d-7373-bccf-146fe6e85a53",
+  "raw": "I’d like to leave ten minutes earlier, so I could look at the map display before my shift.",
+  "raw_sha256": "02a0aba86c292d1f42531b29cd808643968e615bfc41f395b83a495d8b1c9ac8",
+  "request_sha256": "febe7a98bca2c21c5d8487d98b04efbac025a9c4417c79beb83d4cf444985828",
+  "started_utc": "2026-11-20T21:04:12.515827+00:00",
+  "completed_utc": "2026-11-20T21:04:15.848240+00:00",
+  "usage": {
+    "input_tokens": 6571,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "20c2966aefefcd679a004daf8f531af835cb474bce8ddfc89e9b2f90f16dbe4d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2aa14bd8714baff89de02bd46d7a2807c7e9b0a97c89bb313fb1db4b8b261625"
+}

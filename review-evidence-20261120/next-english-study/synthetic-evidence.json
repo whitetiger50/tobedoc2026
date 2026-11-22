@@ -1,0 +1,2488 @@
+[
+  {
+    "case": "N01",
+    "arm": "B",
+    "turn": 2,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 2,
+            "quote": "Getting up with the alarm is still another matter.",
+            "earlier_turn": 1,
+            "earlier_quote": "Getting up with the alarm can still be a bit of a struggle",
+            "reason": "The question asks about sleep and concentration. This line paraphrases the morning-alarm difficulty already stated at turn 1. It could be a legitimate way to separate sleep quality from getting up. It could also be a recital that adds no new information, so it is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How have sleep and concentration been over the past month?",
+    "answer": "Sleep’s been pretty steady, apart from waking early a couple of nights when they were painting the apartment upstairs. Getting up with the alarm is still another matter. Concentration seems fine—I can keep score through a whole softball game, substitutions and all."
+  },
+  {
+    "case": "N01",
+    "arm": "B",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "swapping opening days last week meant I could get to the appointment without a scramble",
+            "earlier_turn": 7,
+            "earlier_quote": "Last week a coworker swapped opening days with me so I could make a morning appointment",
+            "reason": "Turn 7 already said the swap helped and avoided rushing. Turn 8 restates the same benefit ('without a scramble' paraphrases 'didn't have to rush'). The vague timing question may make this reuse a reasonable answer, but it adds nothing new, so it is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How is the timing working out?",
+    "answer": "Pretty well. Taking the tablet with supper fits my routine, and swapping opening days last week meant I could get to the appointment without a scramble."
+  },
+  {
+    "case": "N01",
+    "arm": "B",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I had to follow each play and note the substitutions so I knew who was in the lineup.",
+            "reason": "Describes specific attention-demanding actions during last weekend’s softball game, directly answering the example request."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I kept score at a softball game last weekend.",
+            "reason": "The interviewer asked for an example of keeping attention on a leisure activity. The patient names a specific occasion (last weekend's game) and the concrete actions it required: following each play and noting substitutions. This matches the profile's softball concentration fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+    "answer": "I kept score at a softball game last weekend. I had to follow each play and note the substitutions so I knew who was in the lineup. I stayed with it through the whole game without much trouble."
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "I can follow the game from beginning to end and keep track of the substitutions while keeping score",
+            "earlier_turn": 2,
+            "earlier_quote": "I can follow a whole softball game and keep track of the substitutions",
+            "reason": "This nearly repeats the turn-2 concentration statement. However, the example request may justify reusing it as the chosen example, and the turn adds new material about effort ('hasn’t taken any special effort'). It is unclear whether the repeat is needed framing or a redundant recital."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+    "answer": "\"Softball’s a good example. I can follow the game from beginning to end and keep track of the substitutions while keeping score. It hasn’t taken any special effort to stay focused—the substitutions give me something to keep an eye on.\""
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 7,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 7,
+            "quote": "I feel ready for one extra shift, but I’d still like to keep Sunday free for softball",
+            "earlier_turn": 1,
+            "earlier_quote": "I feel steady enough to take on an extra shift, but I’d like to keep Sunday free for the softball league",
+            "reason": "The question asks how current work hours and clinic visits fit into the week. Restating the shop schedule and the switch answers that directly. Appending the turn-1 wish for an extra shift with Sunday kept free does not address how things currently fit, and adds nothing new."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How do your work hours and clinic visits fit into your week?",
+    "answer": "I open the print shop three mornings a week with a coworker. Last week we switched opening days so I could make a morning appointment. I feel ready for one extra shift, but I’d still like to keep Sunday free for softball."
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "I’d like to fit in one extra shift, but keep Sunday free for softball",
+            "earlier_turn": 7,
+            "earlier_quote": "I feel ready for one extra shift, but I’d still like to keep Sunday free for softball",
+            "reason": "The note that switching days made the appointment possible plausibly answers the timing question. The extra-shift/Sunday preference repeats the previous turn without a new function, such as an update or an answer about how the timing is working."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How is the timing working out?",
+    "answer": "\"Switching opening days let me get to the morning appointment. I’d like to fit in one extra shift, but keep Sunday free for softball.\""
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "I feel steady enough for one extra shift",
+            "earlier_turn": 1,
+            "earlier_quote": "I feel steady enough to take on an extra shift",
+            "reason": "This is the fourth statement of the extra-shift wish. Wanting more hours bears somewhat on how well current hours suit the patient, which may make it a legitimate use of known information. It is ambiguous whether it serves that new purpose or is a rote recital."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I had work in mind. How well do your current work hours suit you?",
+    "answer": "\"They suit me pretty well, though the early starts are still a struggle some mornings. I feel steady enough for one extra shift—as long as Sunday stays free for softball.\""
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "keep track of the substitutions while keeping score",
+            "reason": "The patient names softball and a specific action (tracking substitutions while keeping score). However, it is framed as a habitual ability rather than a particular recent game or occasion, so it is unclear whether this counts as a concrete example or a general tendency."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+    "answer": "\"Softball’s a good example. I can follow the game from beginning to end and keep track of the substitutions while keeping score. It hasn’t taken any special effort to stay focused—the substitutions give me something to keep an eye on.\""
+  },
+  {
+    "case": "N01",
+    "arm": "T1",
+    "turn": 3,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking early, or the struggle to get up with the alarm?",
+            "reason": "The patient asks which of two previously discussed sleep difficulties the interviewer means and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking early, or the struggle to get up with the alarm?",
+            "reason": "'Is that getting any better?' is ambiguous after turn 2, which mentioned both early waking and the alarm struggle. The patient asks which one is meant and gives up the turn without answering for either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Is that getting any better?",
+    "answer": "Do you mean waking early, or the struggle to get up with the alarm?"
+  },
+  {
+    "case": "N01",
+    "arm": "T2",
+    "turn": 6,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Getting up with the morning alarm can still be hard some days",
+            "earlier_turn": 1,
+            "earlier_quote": "Getting up with the alarm is still the least appealing part on some days",
+            "reason": "The question asks where medication fits into the day. The tablet-with-supper and same-prescription content answers it. The difficulty with the morning alarm was already conveyed at turn 1. Here it is not linked to the medication or given any new purpose, so it is an unnecessary recital."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Where does taking medication fit into your day, if you take any?",
+    "answer": "I take my tablet with supper. It’s been the same prescription for over a year, so it’s part of the evening routine now. Getting up with the morning alarm can still be hard some days."
+  },
+  {
+    "case": "N01",
+    "arm": "T2",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "swapping opening days last week got me to the morning appointment without a problem",
+            "earlier_turn": 7,
+            "earlier_quote": "That worked out fine",
+            "reason": "The swap and its successful outcome were stated in the immediately preceding turn. The turn 8 question asks for an evaluation of timing, which partly justifies supporting evidence. Repeating the same outcome adds little beyond 'It's working out fine overall', so whether it is redundant is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How is the timing working out?",
+    "answer": "It’s working out fine overall. I can usually fit visits around work, and swapping opening days last week got me to the morning appointment without a problem."
+  },
+  {
+    "case": "N01",
+    "arm": "T2",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "I feel ready to add one extra shift",
+            "earlier_turn": 1,
+            "earlier_quote": "I feel steady enough to take on an extra shift",
+            "reason": "The wish for an extra shift with Sunday kept free was already conveyed at turn 1. It is arguably relevant to how well the current hours suit the patient, but it is mostly a paraphrase of the earlier statement, so its new function is unclear."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I had work in mind. How well do your current work hours suit you?",
+    "answer": "The hours suit me pretty well, apart from the alarm on some mornings. I feel ready to add one extra shift, but I’d still want Sunday free for softball."
+  },
+  {
+    "case": "N01",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I could follow the game from start to finish and keep track of the substitutions without having to keep pulling my attention back.",
+            "reason": "In response to the recent-example request, describes maintaining attention while scoring a softball game and tracking substitutions."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "Keeping score at softball is a good example",
+            "reason": "The example request asks what it took to keep attention on a recent fun activity. The patient names keeping score at softball and describes following a game and tracking substitutions in the past tense. However, no specific game or occasion is identified, so the answer sits between a concrete episode and a general description of the activity."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Take something you did for fun recently. Can you give me an example of what it took to keep your attention on it?",
+    "answer": "Keeping score at softball is a good example. I could follow the game from start to finish and keep track of the substitutions without having to keep pulling my attention back. The substitutions take a bit of concentration, but that’s part of the job."
+  },
+  {
+    "case": "N01",
+    "arm": "T2",
+    "turn": 3,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean the early waking, or getting up with the alarm?",
+            "reason": "Asks which sleep-related difficulty the interviewer means and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean the early waking, or getting up with the alarm?",
+            "reason": "'Is that getting any better?' is ambiguous after a turn covering both sleep and concentration. The patient asks which referent is meant and gives up the turn without answering any interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Is that getting any better?",
+    "answer": "Do you mean the early waking, or getting up with the alarm?"
+  },
+  {
+    "case": "N02",
+    "arm": "B",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "Tuesday, for bread. I took the long way back by the river.",
+            "reason": "Answers the explicit example request with a specific recent errand and the route taken home."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "Tuesday, for bread. I took the long way back by the river.",
+            "reason": "The interviewer asked for an example of a recent time the patient went outside. The patient names a specific occasion (Tuesday, buying bread) and a specific action (taking the long way back by the river). This matches the profile fact about the Tuesday errand and answers the request concretely."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you give me an example of a recent time you went outside, even for a small errand?",
+    "answer": "Tuesday, for bread. I took the long way back by the river."
+  },
+  {
+    "case": "N02",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "For errands, getting started is harder.",
+            "reason": "The question asks what arrangements the patient makes for errands. This sentence restates the difficulty of starting, already given in turns 2–3, rather than describing an arrangement. It may serve as a lead-in to the new idea about choosing a destination the night before, so its redundancy is ambiguous.",
+            "earlier_turn": 3,
+            "earlier_quote": "Getting started is the harder part."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What arrangements do you make for appointments and for errands?",
+    "answer": "I put my next clinic appointment on a paper calendar. For errands, getting started is harder. I think choosing where to go the night before might help."
+  },
+  {
+    "case": "N02",
+    "arm": "T1",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 9,
+            "quote": "I think choosing where to go the night before might help.",
+            "reason": "The question asks whether errands take much planning. The first sentence answers it ('more the getting started than the planning'). This closing sentence repeats turn 8 word for word. It adds no update, correction or new angle, so it has no new communicative function.",
+            "earlier_turn": 8,
+            "earlier_quote": "I think choosing where to go the night before might help."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Does it take much planning?",
+    "answer": "It’s more the getting started than the planning. I think choosing where to go the night before might help."
+  },
+  {
+    "case": "N02",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river.",
+            "reason": "Answers the explicit example request with a specific occasion, errand, and route, consistent with the profile."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river.",
+            "reason": "The interviewer explicitly asks for an example of a recent time going outside. The patient describes a specific dated occasion and the actions taken (bread errand, long way by the river). This matches the profile fact about Tuesday."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you give me an example of a recent time you went outside, even for a small errand?",
+    "answer": "On Tuesday I went out for bread after my cousin asked, then took the long way by the river."
+  },
+  {
+    "case": "N02",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday, I went for that bread, then took the long way by the river.",
+            "reason": "Answers the explicit example request with a specific recent errand and subsequent walk."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "On Tuesday, I went for that bread, then took the long way by the river.",
+            "reason": "The interviewer asks for an example of a recent time outside. The patient describes a specific dated occasion: the Tuesday bread errand and the walk back by the river. This matches the profile fact about the errand."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you give me an example of a recent time you went outside, even for a small errand?",
+    "answer": "On Tuesday, I went for that bread, then took the long way by the river."
+  },
+  {
+    "case": "N02",
+    "arm": "T2",
+    "turn": 3,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean getting started, or enjoying it once I’m doing it?",
+            "reason": "Asks which aspect the interviewer means and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean getting started, or enjoying it once I’m doing it?",
+            "reason": "The question 'Which part is easier these days?' could mean starting or enjoying, since turn 2 covered both. The patient asks which one is meant and ends the turn without answering either reading."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Which part is easier these days?",
+    "answer": "“Do you mean getting started, or enjoying it once I’m doing it?”"
+  },
+  {
+    "case": "N03",
+    "arm": "B",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "Once I put the radio on, I can usually carry on.",
+            "earlier_turn": 7,
+            "earlier_quote": "putting the radio on helps",
+            "reason": "The question asks whether the patient ever has to stop. The first sentence answers it with new information about pausing. The closing radio sentence restates the point from turn 7 (and turns 3 and 5) that the radio lets them carry on. It may only explain how the pause ends, so it is ambiguous whether it adds anything."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Do you ever have to stop?",
+    "answer": "Sometimes I pause for a moment to listen, but I haven’t had to leave a task unfinished because of it. Once I put the radio on, I can usually carry on."
+  },
+  {
+    "case": "N03",
+    "arm": "B",
+    "turn": 12,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "Last week I did that while sorting thread, and I was able to finish",
+            "earlier_turn": 5,
+            "earlier_quote": "Then I turned on the radio",
+            "reason": "The question about what helps at home is effectively a re-ask of a point already made in turn 7, so naming the radio is legitimate. The added sentence retells the same sorting-thread episode from turns 3 and 5 without new detail. It may serve as a supporting example, so this is ambiguous rather than clear."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "When you sit down to a task at home, what helps you finish it?",
+    "answer": "Putting the radio on helps, especially if that sound is distracting me. Last week I did that while sorting thread, and I was able to finish."
+  },
+  {
+    "case": "N03",
+    "arm": "B",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "Then I turned on the radio. It made it less distracting, and I carried on until I’d finished sorting.",
+            "reason": "Answers the explicit example request with a particular evening’s sequence: hearing the voice while sorting, pausing, turning on the radio, and completing the task."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "One evening last week I was home after work, sorting thread and other sewing things",
+            "reason": "The interviewer explicitly asked for one recent evening walked through step by step. The patient describes a specific occasion in order: sorting, hearing 'too slow', pausing to listen, turning on the radio, and finishing. This matches the profile fact about the two evenings last week."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+    "answer": "One evening last week I was home after work, sorting thread and other sewing things. I heard “too slow,” and paused to listen. I wondered if it came through the wall, but I couldn’t place it. Then I turned on the radio. It made it less distracting, and I carried on until I’d finished sorting."
+  },
+  {
+    "case": "N03",
+    "arm": "T1",
+    "turn": 12,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "When I was sorting my sewing supplies last week, it made the voice less distracting",
+            "earlier_turn": 3,
+            "earlier_quote": "Turning on the radio made it less distracting, and I was able to finish sorting the thread",
+            "reason": "The opening line, 'Putting the radio on helps,' answers the general question about what helps finish home tasks. The added sewing episode repeats the same proposition already given at turns 3, 5 and 7. It could be read as a supporting illustration, but it adds nothing new, so its function is unclear."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "When you sit down to a task at home, what helps you finish it?",
+    "answer": "Putting the radio on helps. When I was sorting my sewing supplies last week, it made the voice less distracting, and I was able to finish sorting the thread."
+  },
+  {
+    "case": "N03",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I turned on the radio, which made it less distracting, and finished sorting the thread.",
+            "reason": "Describes a particular evening last week, including hearing the voice, considering its source, and taking action to finish the task."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "One evening last week, I was sorting my sewing supplies",
+            "reason": "The interviewer asked the patient to walk through one recent evening. The patient narrates a specific occasion in order: the sound, a tentative interpretation (a neighbor), then the action taken (turning on the radio) and the outcome (finishing the thread)."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+    "answer": "“One evening last week, I was sorting my sewing supplies and heard ‘too slow.’ I wondered if it was a neighbor through the wall, but I couldn’t tell—that’s a possibility, not something I’m sure of. I turned on the radio, which made it less distracting, and finished sorting the thread.”"
+  },
+  {
+    "case": "N03",
+    "arm": "T1",
+    "turn": 2,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean at work, or at home?",
+            "reason": "Asks which setting the ambiguous question concerns and yields without describing an experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean at work, or at home?",
+            "reason": "'What has stood out there?' is ambiguous because turn 1 covered both work and home. The patient asks which setting is meant and gives up the turn without describing any experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What has stood out there?",
+    "answer": "Do you mean at work, or at home?"
+  },
+  {
+    "case": "N03",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean stop what I’m doing because of the voice?",
+            "reason": "Requests clarification of what stopping means and yields without answering that interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean stop what I’m doing because of the voice?",
+            "reason": "'Do you ever have to stop?' is ambiguous. The patient checks one possible reading and gives up the turn without answering. The interviewer then clarifies that the question was about work."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Do you ever have to stop?",
+    "answer": "Do you mean stop what I’m doing because of the voice?"
+  },
+  {
+    "case": "N03",
+    "arm": "T2",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "I’m getting the hems and zippers finished",
+            "earlier_turn": 7,
+            "earlier_quote": "I’m getting the work done—the hems and zippers",
+            "reason": "The question asks how often tasks at the counter were interrupted. Saying the hems and zippers are getting finished repeats turn 7 and only loosely bears on frequency. The patient's new contribution, uncertainty about brief pauses, comes separately. It is ambiguous whether the restatement frames the answer or is surplus recital."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I was asking about work. How often have you had to interrupt a task at the counter lately?",
+    "answer": "I can’t give you an exact number. It hasn’t interrupted a customer conversation this month, and I’m getting the hems and zippers finished. I’m less sure how often I’ve paused briefly while doing them."
+  },
+  {
+    "case": "N03",
+    "arm": "T2",
+    "turn": 12,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "it made the voice less distracting, and I finished sorting",
+            "earlier_turn": 3,
+            "earlier_quote": "I put the radio on, and it was less distracting, so I finished sorting the thread.",
+            "reason": "'Having the radio on helps' answers the new question. The added retelling of last week's thread-sorting episode repeats the turn 3 account, which also appeared at turn 5. It may serve as a supporting example, or it may be redundant recital. The radio-while-making-dough detail is new."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "When you sit down to a task at home, what helps you finish it?",
+    "answer": "Having the radio on helps. When I was sorting the thread last week, it made the voice less distracting, and I finished sorting. I also like listening to a radio show while I’m making dough."
+  },
+  {
+    "case": "N03",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "The more recent of those two evenings, I was sorting thread and heard “too slow.”",
+            "reason": "Identifies a particular evening and describes the sound, interpretation, use of the radio, and completion of sorting, answering the request for an episode."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I was sorting thread and heard",
+            "reason": "Asked to walk through one recent evening, the patient describes a specific occasion, the more recent of the two evenings. The account moves in order through the sound, the neighbor interpretation and doubt, putting the radio on, finishing sorting, and taking medication. This matches the profile."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you walk me through one recent evening, from something you noticed to what you did next?",
+    "answer": "The more recent of those two evenings, I was sorting thread and heard “too slow.” I wondered if it was the neighbor, but remembering I’d heard it when that apartment was empty left me unsure. I put the radio on, which made it less distracting, and finished sorting. Later, before bed, I took my medication. I keep the unopened packet by my toothbrush to remind me."
+  },
+  {
+    "case": "N03",
+    "arm": "T2",
+    "turn": 2,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean what’s stood out about the sound, or about things at work and home?",
+            "reason": "Asks which topic the ambiguous question refers to and yields without supplying substantive experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean what’s stood out about the sound, or about things at work and home?",
+            "reason": "'What has stood out there?' is ambiguous after an answer covering work, home and the sound. The patient asks which meaning is intended and gives up the turn without describing any experience. This fits the profile's habit of clarifying to avoid giving the wrong impression."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What has stood out there?",
+    "answer": "Do you mean what’s stood out about the sound, or about things at work and home?"
+  },
+  {
+    "case": "N04",
+    "arm": "B",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "It’s harder when I’m tired",
+            "earlier_turn": 7,
+            "earlier_quote": "Conversations can get away from me when I’m tired",
+            "reason": "The interviewer asked how it is to pick up what someone is saying after attention wanders. The patient answers this with new material: catching the next bit or asking for a repeat. The closing line repeats the tiredness link already given at turns 2, 3 and 7. It may be a relevant condition on re-engaging, but it adds little that is new, so it is ambiguous rather than clearly redundant."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I was thinking of conversation. When your attention wanders, how is it to pick up what someone is saying?",
+    "answer": "It takes a moment. Sometimes I catch the next bit and it makes sense again; other times I ask them to repeat what I missed. It’s harder when I’m tired."
+  },
+  {
+    "case": "N04",
+    "arm": "B",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "After lunch, we put it into a bigger pot and filled in around it with fresh soil.",
+            "reason": "Answers the explicit example request with specific actions while repotting basil during the last visit with the sister."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "we put it into a bigger pot and filled in around it with fresh soil",
+            "reason": "The interviewer explicitly asked for an example from the last time spent with someone. The patient describes a specific occasion with concrete actions: repotting the basil with the sister after lunch. This matches the profile fact about the last visit."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you did the last time you spent time with someone?",
+    "answer": "Yes, that basil plant with my sister. After lunch, we put it into a bigger pot and filled in around it with fresh soil. That felt easy, doing something together without having to keep up with a lot of conversation."
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "A shorter afternoon visit suits me better just now",
+            "earlier_turn": 2,
+            "earlier_quote": "a shorter afternoon visit feels more manageable than staying through dinner",
+            "reason": "The question asks what family contact there has been. The visit-length preference paraphrases turn 2 and was not asked for. It may loosely describe the current pattern of contact, so its function is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What sort of contact have you had with family in the last couple of weeks?",
+    "answer": "“Mostly visits with my sister—she’s in the same neighborhood. I walk over most Saturdays and take some herbs, and she gives me leftovers to bring home. Last time we repotted that basil together. A shorter afternoon visit suits me better just now; I still enjoy seeing her.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 6,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 6,
+            "quote": "I grow herbs on my fire escape too",
+            "earlier_turn": 1,
+            "earlier_quote": "I grow herbs on my fire escape, too",
+            "reason": "Reusing the basil episode as the requested example is legitimate. However, the fire-escape detail repeats turn 1 almost word for word. The added 'so it was something familiar' gives it partial new explanatory function, so this is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you did the last time you spent time with someone?",
+    "answer": "“My sister and I repotted that basil plant after lunch on my last visit. She’d set the pot aside for us. I grow herbs on my fire escape too, so it was something familiar—it felt easy doing that together.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 7,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 7,
+            "quote": "a shorter afternoon visit suits me better",
+            "earlier_turn": 5,
+            "earlier_quote": "A shorter afternoon visit suits me better just now",
+            "reason": "The question asks about conversations and hands-on activities, not visit preferences. The patient already stated this preference at turns 2 and 5, and repeating it here adds nothing. The herbs-at-home rationale also repeats turn 6, but the visit preference is the clearest redundant proposition."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How have you been getting on with conversations and with hands-on activities?",
+    "answer": "“If I’m tired, I can lose the thread of a conversation with my sister. I still enjoy the company, but a shorter afternoon visit suits me better. Repotting that basil together felt easy, though. I grow herbs at home, so it was something familiar.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 9,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 9,
+            "quote": "I still enjoy talking with my sister",
+            "earlier_turn": 7,
+            "earlier_quote": "I still enjoy the company",
+            "reason": "The question asks how it is to pick up what someone is saying. Restating enjoyment of the sister's company (already said at turns 2, 5 and 7) does not address this. It may serve as a softening qualifier, so this is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I was thinking of conversation. When your attention wanders, how is it to pick up what someone is saying?",
+    "answer": "“When I’m tired, it’s harder to pick up the thread again. I still enjoy talking with my sister, but I can lose track of what she’s saying.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "My sister and I repotted that basil plant after lunch on my last visit.",
+            "reason": "Answers the explicit example request with a specific shared activity on a particular visit."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "My sister and I repotted that basil plant after lunch on my last visit",
+            "reason": "The interviewer explicitly asks for an example. The patient gives a specific occasion and activity: repotting basil after lunch on the last visit, which matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you did the last time you spent time with someone?",
+    "answer": "“My sister and I repotted that basil plant after lunch on my last visit. She’d set the pot aside for us. I grow herbs on my fire escape too, so it was something familiar—it felt easy doing that together.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T1",
+    "turn": 3,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn, or losing the thread when I’m talking with my sister?",
+            "reason": "Asks which of two preceding experiences the ambiguous question refers to, then yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn",
+            "reason": "'Has it been happening often?' could refer to dawn waking or to losing the thread of conversation, both raised at turn 2. The patient asks which one is meant and gives up the turn without answering under either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Has it been happening often?",
+    "answer": "Do you mean waking around dawn, or losing the thread when I’m talking with my sister?"
+  },
+  {
+    "case": "N04",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "I take some herbs",
+            "reason": "The question asks about recent family contact. Describing what the Saturday visits involve is partly relevant. However, the herbs-for-leftovers exchange was already stated in turn 1, and it is restated here without adding anything new.",
+            "earlier_turn": 1,
+            "earlier_quote": "I usually take her some herbs and come home with leftovers"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What sort of contact have you had with family in the last couple of weeks?",
+    "answer": "“Mostly it’s been seeing my sister. I walk over most Saturdays, so we’ve kept that going these last couple of weeks. We have lunch and a bit of a chat. I take some herbs—there’s always more basil than I can use—and she sends me home with leftovers. It’s nice having her close by.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T2",
+    "turn": 6,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "It was nice having something to do with our hands. That felt easy.",
+            "reason": "Turn 6 uses the earlier basil-repotting episode to answer a new example request, which is legitimate. The added evaluative sentence repeats the turn 1 appraisal almost word for word. The question did not ask how the activity felt, so this sentence serves no new function.",
+            "earlier_turn": 1,
+            "earlier_quote": "That was nice, just having something to do with our hands. It felt easy."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you did the last time you spent time with someone?",
+    "answer": "“Yes, that basil pot I mentioned. My sister had set it aside, and we repotted it together after lunch on my last visit. It was nice having something to do with our hands. That felt easy.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T2",
+    "turn": 7,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "That’s why the afternoon visits suit me.",
+            "reason": "The question asks about conversations and hands-on activities, not visit timing. The preference for afternoon visits was already conveyed in turn 2, along with the tiredness reason. The explicit 'why' link adds little, so it is unclear whether this has a new purpose.",
+            "earlier_turn": 2,
+            "earlier_quote": "An afternoon visit with my sister suits me better than staying through dinner."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How have you been getting on with conversations and with hands-on activities?",
+    "answer": "Conversations are mostly all right, though when I’m tired I can lose track of what we’re talking about. That’s why the afternoon visits suit me. Doing something with my hands feels easier—the repotting with my sister went fine. I enjoyed that."
+  },
+  {
+    "case": "N04",
+    "arm": "T2",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "My sister had set it aside, and we repotted it together after lunch on my last visit.",
+            "reason": "Answers the explicit example request with a specific shared activity on the last visit."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "we repotted it together after lunch on my last visit",
+            "reason": "The interviewer explicitly asks for an example. The patient describes a specific occasion and action: repotting the basil pot with the sister after lunch on the last visit. This matches the profile."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you did the last time you spent time with someone?",
+    "answer": "“Yes, that basil pot I mentioned. My sister had set it aside, and we repotted it together after lunch on my last visit. It was nice having something to do with our hands. That felt easy.”"
+  },
+  {
+    "case": "N04",
+    "arm": "T2",
+    "turn": 3,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+            "reason": "Asks which of two previously discussed experiences the ambiguous question refers to, then yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 3,
+            "quote": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?",
+            "reason": "'Has it been happening often?' could refer to either of two experiences mentioned in turn 2. The patient asks which one is meant and ends the turn without answering under either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Has it been happening often?",
+    "answer": "Do you mean waking around dawn, or losing the thread of the conversation when I’m tired?"
+  },
+  {
+    "case": "N05",
+    "arm": "B",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday, I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+            "reason": "Provides a specific Friday work episode and actions, directly answering the request for one recent example."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday, I found an old railway atlas in a donation box.",
+            "reason": "The interviewer asked for one thing handled on a recent afternoon. The patient names a specific occasion (Friday), a specific object found in a donation box, and an action ('I set it aside for the map shelf'). This matches the profile fact about the railway atlas."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+    "answer": "On Friday, I found an old railway atlas in a donation box. I set it aside for the map shelf."
+  },
+  {
+    "case": "N05",
+    "arm": "T1",
+    "turn": 10,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 10,
+            "quote": "I still prefer the quieter midday bus",
+            "earlier_turn": 3,
+            "earlier_quote": "I usually take the midday bus",
+            "reason": "Turn 3 already said the patient takes the quieter midday bus. The question here asks how the patient feels around other passengers, so a preference for a quieter bus may be relevant to that different aspect. It largely paraphrases the earlier statement, though, and adds little beyond the new disclosure in the same turn, so the code is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How do you feel around the other passengers when you travel these days?",
+    "answer": "I don’t feel like they’re talking about me these days. I still prefer the quieter midday bus."
+  },
+  {
+    "case": "N05",
+    "arm": "T1",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+            "reason": "Answers the explicit example request with a specific recent occasion and actions involving a donated atlas."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box",
+            "reason": "The interviewer asked for one thing handled on a recent afternoon. The patient describes a specific occasion and action, finding the atlas and setting it aside for the map shelf, which matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+    "answer": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf."
+  },
+  {
+    "case": "N05",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean taking the tablet or the nurse’s call?",
+            "reason": "Asks which of two routines the ambiguous question refers to and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean taking the tablet or the nurse’s call?",
+            "reason": "'When do you usually do that?' could refer to either routine named in turn 7. The patient asks which one is meant and gives up the turn without answering under either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "When do you usually do that?",
+    "answer": "Do you mean taking the tablet or the nurse’s call?"
+  },
+  {
+    "case": "N05",
+    "arm": "T2",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf.",
+            "reason": "Answers the explicit example request with a specific recent occasion, object handled, and action taken."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you tell me about one thing you handled or worked on during a recent afternoon?",
+    "answer": "On Friday I found an old railway atlas in a donation box. I set it aside for the map shelf."
+  },
+  {
+    "case": "N06",
+    "arm": "B",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "The stew didn’t have a date on it, so I checked with the cook before labeling it and putting it away.",
+            "reason": "Answers the explicit example request with a specific recent kitchen task and actions taken with the cook."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "The stew didn’t have a date on it, so I checked with the cook before labeling it and putting it away.",
+            "reason": "The interviewer asked for an example of a recent practical task done with other people. The patient describes a specific occasion, last Thursday's kitchen shift, and a specific action: noticing the stew had no date label and checking with the cook. This matches the profile fact about the last kitchen shift."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of a practical task you did with other people recently?",
+    "answer": "Last Thursday at the kitchen, I was labeling leftovers with the others. The stew didn’t have a date on it, so I checked with the cook before labeling it and putting it away."
+  },
+  {
+    "case": "N06",
+    "arm": "T1",
+    "turn": 4,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 4,
+            "quote": "Occasionally I miss a line at a noisy corner on my walk",
+            "earlier_turn": 3,
+            "earlier_quote": "just the occasional line at a noisy corner",
+            "reason": "Turn 4 asks how much the patient can follow. 'I can follow most of a mystery' answers that. The missed-line-and-rewind detail is now stated for the third time (turns 2, 3 and 4), and turn 3 had just covered missing lines. It may be a legitimate qualification of 'most' in response to a partial re-ask, but its function is weak."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I was thinking specifically about listening for pleasure. How much can you follow when you put on something you enjoy?",
+    "answer": "I can follow most of a mystery and enjoy it. Occasionally I miss a line at a noisy corner on my walk, but I just rewind a little."
+  },
+  {
+    "case": "N06",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I label the leftovers every Thursday.",
+            "reason": "After supplying the requested recent practical example, this sentence unnecessarily repeats the established weekly duty without adding to the episode.",
+            "earlier_turn": 1,
+            "earlier_quote": "Every Thursday I label the leftovers"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I label the leftovers every Thursday.",
+            "earlier_turn": 1,
+            "earlier_quote": "Every Thursday I label the leftovers",
+            "reason": "The stew episode already answers the request for an example. The closing sentence repeats the Thursday labelling routine from turn 1 almost word for word. It adds no new information and does not answer the example request, which asked for a specific occasion rather than a routine."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of a practical task you did with other people recently?",
+    "answer": "At my last community kitchen shift, I noticed the stew didn’t have a date label, so I checked with the cook before putting it away. I label the leftovers every Thursday."
+  },
+  {
+    "case": "N06",
+    "arm": "T1",
+    "turn": 7,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "I usually bring a water bottle with me.",
+            "earlier_turn": 6,
+            "earlier_quote": "so I usually bring a water bottle",
+            "reason": "Restating the dry mouth answers the new question about afternoon comfort, so that part is legitimate. The water-bottle remedy, however, repeats turn 6 in nearly identical words, and the question did not ask about coping. It is borderline as supporting context."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What do you notice about your energy and physical comfort during the afternoon?",
+    "answer": "The main thing I notice is a dry mouth, especially halfway through a kitchen shift. I usually bring a water bottle with me."
+  },
+  {
+    "case": "N06",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I noticed the stew didn’t have a date label, so I checked with the cook before putting it away.",
+            "reason": "Gives a specific episode from the last kitchen shift, including the practical problem and action taken with the cook."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "checked with the cook before putting it away",
+            "reason": "The request was for an example of a practical task done with other people. The patient describes a specific occasion: at the last kitchen shift, they noticed the stew had no date label and checked with the cook. This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of a practical task you did with other people recently?",
+    "answer": "At my last community kitchen shift, I noticed the stew didn’t have a date label, so I checked with the cook before putting it away. I label the leftovers every Thursday."
+  },
+  {
+    "case": "N06",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "At my last kitchen shift, I was labeling the leftovers and noticed the stew didn’t have a date label. I checked with the cook before putting it away.",
+            "reason": "Answers the example request with a specific recent occasion, practical task, and interaction with the cook."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "noticed the stew didn’t have a date label. I checked with the cook before putting it away",
+            "reason": "The interviewer explicitly asked for an example of a recent practical task done with others. The patient describes a specific occasion, the last kitchen shift, and a specific action: checking the unlabeled stew with the cook. This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of a practical task you did with other people recently?",
+    "answer": "At my last kitchen shift, I was labeling the leftovers and noticed the stew didn’t have a date label. I checked with the cook before putting it away. We need the dates on so people know what’s there."
+  },
+  {
+    "case": "N07",
+    "arm": "B",
+    "turn": 7,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 7,
+            "quote": "If there’s conversation around, I keep going over the same bit.",
+            "earlier_turn": 3,
+            "earlier_quote": "sometimes over the same bit",
+            "reason": "This repeats the turn 3 point that distraction makes the patient re-read the same passage. It may be legitimate because the question asks about assignments at home, where the patient lives with a sibling. If so, it applies known information to a new setting. But it adds no home-specific detail, so whether it does new work is ambiguous."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How are you getting on with assignments at home and with time spent in class?",
+    "answer": "At home I get some done, but I still leave more reading than I mean to until the journey there. If there’s conversation around, I keep going over the same bit. Class has been easier lately… I like going, though I sometimes lose the thread when several people start talking."
+  },
+  {
+    "case": "N07",
+    "arm": "B",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "I straightened a bent mudguard on my sibling’s bike last weekend.",
+            "reason": "Answers the explicit example request with a specific recent hands-on task, followed by concrete actions used to complete it."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "I straightened a bent mudguard on my sibling’s bike last weekend.",
+            "reason": "Asked for an example of recent hands-on work, the patient describes a specific occasion with concrete actions: easing the mudguard back and spinning the wheel to check. This matches the profile fact about last weekend's mudguard repair."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you worked on with your hands recently?",
+    "answer": "I straightened a bent mudguard on my sibling’s bike last weekend. It was rubbing against the wheel, so I eased it back a little at a time and spun the wheel to check. With that, you can see where you’ve got to—even if you stop for a bit."
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 2,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "If I get distracted, I can look at it and see where I’ve got to",
+            "reason": "The interviewer asked only for an example of hands-on work. The mudguard story answers that. The closing line repeats the turn-1 point that a repair shows where you are, which was not asked and adds nothing new.",
+            "earlier_turn": 1,
+            "earlier_quote": "With that, you can see where you’ve got to"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you worked on with your hands recently?",
+    "answer": "“The mudguard I mentioned—that was last weekend. My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard. I like that sort of job. If I get distracted, I can look at it and see where I’ve got to.”"
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 3,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 3,
+            "quote": "though the slip of paper helps me keep track of the line, too",
+            "reason": "The question asks how a practical task compares with reading. Bringing up the slip of paper again, already mentioned at turn 1, could be an unprompted repeat. It could also be a relevant point about keeping one's place.",
+            "earlier_turn": 1,
+            "earlier_quote": "a slip of paper under the line helped me finish a passage last week"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How does a practical task compare with doing some reading?",
+    "answer": "“With a bike, I can look at it and see where I left off. With reading, if people are talking, I lose my place and it’s harder to get back into it. In the library it’s easier—though the slip of paper helps me keep track of the line, too.”"
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 4,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 4,
+            "quote": "With the bike, I can look at it and see where I left off",
+            "reason": "The patient reads the question as being about reading and answers it. They then repeat the turn-3 bike comparison almost word for word, which has no new purpose here.",
+            "earlier_turn": 3,
+            "earlier_quote": "With a bike, I can look at it and see where I left off"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you pick it up again easily?",
+    "answer": "“The reading? Not that easily if people are talking. The slip of paper helps me keep my place. With the bike, I can look at it and see where I left off.”"
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 11,
+    "metric": "avoidable_recap",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 11,
+            "quote": "and the slip of paper under the line helps too.",
+            "reason": "The question asks where reading is easiest. After answering that, the patient repeats the previously explained reading aid without a new communicative purpose.",
+            "earlier_turn": 5,
+            "earlier_quote": "The slip of paper under the line helps"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "the slip of paper under the line helps too",
+            "reason": "The question asks where it is easiest to finish a passage, and 'the library' answers it. The slip-of-paper aside repeats turns 5 and 7. It may be redundant, or it may be a brief relevant addition.",
+            "earlier_turn": 5,
+            "earlier_quote": "The slip of paper under the line helps"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Returning to reading, where do you find it easiest to finish a passage?",
+    "answer": "In the library, where it’s quiet. It’s easier to keep my place without conversation around me, and the slip of paper under the line helps too."
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard.",
+            "reason": "Provides a specific recent hands-on repair, situated last weekend, in response to the example request."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard",
+            "reason": "The interviewer explicitly asked for an example of recent hands-on work. The patient gives a specific episode from last weekend, which matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you worked on with your hands recently?",
+    "answer": "“The mudguard I mentioned—that was last weekend. My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard. I like that sort of job. If I get distracted, I can look at it and see where I’ve got to.”"
+  },
+  {
+    "case": "N07",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "clarify_yield",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean getting the reading done at home, or keeping up during class?",
+            "reason": "The patient asks which setting the ambiguous question concerns and yields without answering either interpretation."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean getting the reading done at home, or keeping up during class?",
+            "reason": "'There' is ambiguous after a question about both home assignments and class. The patient asks which one is meant and gives up the turn without describing any experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "What gets in the way there?",
+    "answer": "Do you mean getting the reading done at home, or keeping up during class?"
+  },
+  {
+    "case": "N07",
+    "arm": "T2",
+    "turn": 2,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 2,
+            "quote": "If I get distracted, I can look at it again and pick up where I left off.",
+            "earlier_turn": 1,
+            "earlier_quote": "if I lose track, I can look at the wheel and see where I was",
+            "reason": "The example request is properly answered by the mudguard episode. The added point that the task can be resumed by looking at it again paraphrases a turn-1 proposition. The question did not ask for it, and it adds nothing new. However, it could be read as a brief rationale for why the patient enjoys such tasks, so this is borderline."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you worked on with your hands recently?",
+    "answer": "\"The mudguard I mentioned on my sibling’s bike—that was last weekend. It was bent and rubbing against the wheel, so I straightened it. I like that sort of thing because… well, you can see where it’s catching. If I get distracted, I can look at it again and pick up where I left off.\""
+  },
+  {
+    "case": "N07",
+    "arm": "T2",
+    "turn": 2,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "It was bent and rubbing against the wheel, so I straightened it.",
+            "reason": "Answers the explicit example request with a specific recent hands-on task: straightening the sibling’s bicycle mudguard last weekend."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "It was bent and rubbing against the wheel, so I straightened it.",
+            "reason": "Asked for an example of recent hands-on work, the patient describes a specific occasion that matches the profile: straightening the sibling's bent mudguard last weekend because it was rubbing the wheel."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Can you give me an example of something you worked on with your hands recently?",
+    "answer": "\"The mudguard I mentioned on my sibling’s bike—that was last weekend. It was bent and rubbing against the wheel, so I straightened it. I like that sort of thing because… well, you can see where it’s catching. If I get distracted, I can look at it again and pick up where I left off.\""
+  },
+  {
+    "case": "N08",
+    "arm": "B",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "it’s easier to settle into it once I’m home",
+            "reason": "The question asks how getting around and interests fitted into the week. The Monday/Wednesday contrast and the mention of drawing after work answer that. The added point that it is easier to settle into drawing at home repeats turn 2 in paraphrase. It does not clearly serve the scheduling question, though it could be read as a brief characterisation of the week, so this is coded as uncertain.",
+            "earlier_turn": 2,
+            "earlier_quote": "Once I’m home, I’m more comfortable and it’s easier to concentrate on my drawing"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How have getting around and spending time on your interests fitted into your week?",
+    "answer": "I’ve still been getting to my morning shifts and taking the bus home. The wait on Monday was uncomfortable, but Wednesday was fine. I’ve been drawing after work too—it’s easier to settle into it once I’m home."
+  },
+  {
+    "case": "N08",
+    "arm": "B",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Two people looked up at the same time, and I felt noticed, so I moved farther away.",
+            "reason": "Answers the explicit example request with a specific Monday bus-shelter episode, including what happened and the patient's response."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Two people looked up at the same time, and I felt noticed, so I moved farther away.",
+            "reason": "Answers the explicit request for a specific recent time in public with a concrete episode: Monday at the bus shelter, with a specific action (moving away). This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you describe a specific recent time in public that stands out to you?",
+    "answer": "The one that stands out is Monday at the bus shelter. Two people looked up at the same time, and I felt noticed, so I moved farther away. Nothing else happened, but that moment stayed with me."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 3,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 3,
+            "quote": "Once I’m home, though, it’s easier to concentrate on my drawing",
+            "reason": "This repeats the closing proposition of turn 2. It could be read as answering 'how long', meaning the worry fades at home, but it is mostly a recital of the earlier answer.",
+            "earlier_turn": 2,
+            "earlier_quote": "Once I’m home, it’s easier to concentrate on my drawing"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Does it stay with you long?",
+    "answer": "Monday still comes to mind now and then. Once I’m home, though, it’s easier to concentrate on my drawing."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 5,
+            "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+            "reason": "The question asks only whether the patient felt singled out; the Monday account answers it. This added sentence repeats the recognition-versus-bus uncertainty already given in turn 4, though it may lightly qualify the answer.",
+            "earlier_turn": 4,
+            "earlier_quote": "I wondered whether they recognized me, though they could just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Have you felt singled out or especially noticed by anyone in a public place recently?",
+    "answer": "Yes, that moment at the bus shelter on Monday felt that way. When those two people looked up together, I felt singled out and moved to the other end. I’m still not sure whether they recognized me or were just looking for the bus."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 6,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 6,
+            "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+            "reason": "Re-describing the Monday episode fits the explicit request for a specific occasion. However, this interpretive uncertainty is being restated for the third time (turns 4–5), adding nothing to the episode description.",
+            "earlier_turn": 5,
+            "earlier_quote": "I’m still not sure whether they recognized me or were just looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you describe a specific recent time in public that stands out to you?",
+    "answer": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I’m still not sure."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 8,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "At home, it’s easier to concentrate on my sketchbook than at a busy stop",
+            "reason": "The question asks how getting around and interests fit into the week. The work, drawing and Wednesday details answer that, but this closing sentence repeats the home-versus-busy-stop concentration comparison from turn 1 (and again turns 2–3). Nobody asked about concentration, so it adds nothing new.",
+            "earlier_turn": 1,
+            "earlier_quote": "I find it easier to concentrate on drawing at home than at a busy bus stop"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "How have getting around and spending time on your interests fitted into your week?",
+    "answer": "I work mornings at the garden center and often draw storefronts after work. Getting around can feel uncomfortable when I feel singled out, like on Monday, but I waited at the same shelter on Wednesday without feeling watched. At home, it’s easier to concentrate on my sketchbook than at a busy stop."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 10,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 10,
+            "quote": "Last weekend I finished a sketch of the corner grocery and took it home to add the window frames",
+            "reason": "The re-ask is about concentration during the interest. The first sentence answers it. This sentence repeats the turn 1 grocery-sketch account almost word for word and says nothing about concentration, so it serves no new function.",
+            "earlier_turn": 1,
+            "earlier_quote": "Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "I meant time spent on an interest. How is your concentration during that activity?",
+    "answer": "I find it easier to concentrate on drawing at home than at a busy bus stop. Last weekend I finished a sketch of the corner grocery and took it home to add the window frames."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 11,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "Monday still comes to mind occasionally",
+            "reason": "The question is about variation between trips, which the Monday/Wednesday contrast answers. The note that Monday still comes to mind repeats turns 2–4. It is loosely relevant to lingering worries but adds little new.",
+            "earlier_turn": 3,
+            "earlier_quote": "Monday still comes to mind now and then"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?",
+    "answer": "It varies from day to day. On Monday I felt singled out, but on Wednesday I waited at the same shelter without feeling watched. Monday still comes to mind occasionally."
+  },
+  {
+    "case": "N08",
+    "arm": "T1",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end.",
+            "reason": "Answers the explicit example request with a specific occasion, observed event, feeling, and action."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end",
+            "reason": "Asked for a specific recent time in public, the patient gives a concrete dated episode with a specific action (moving to the other end of the shelter). This matches the profile's bus shelter fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you describe a specific recent time in public that stands out to you?",
+    "answer": "Monday at the bus shelter is the one that stands out. Two people looked up at the same time, and I felt singled out, so I moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I’m still not sure."
+  },
+  {
+    "case": "N08",
+    "arm": "T2",
+    "turn": 5,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "I’m still not sure whether they recognized me or were just looking for the bus",
+            "reason": "The question only asks whether the patient has felt singled out recently, and naming Monday answers it. The added uncertainty about whether the people recognized the patient or were looking for the bus repeats turn 4 from one turn earlier. It is not asked for here and adds nothing new.",
+            "earlier_turn": 4,
+            "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Have you felt singled out or especially noticed by anyone in a public place recently?",
+    "answer": "Yes, that moment on Monday at the bus shelter. It felt as though those two people had noticed me in particular. I’m still not sure whether they recognized me or were just looking for the bus."
+  },
+  {
+    "case": "N08",
+    "arm": "T2",
+    "turn": 6,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 6,
+            "quote": "I wondered if they recognized me, but they could have been looking for the bus",
+            "reason": "The interviewer explicitly asks for a specific episode, so retelling the Monday event is a legitimate answer to a direct request. However, this is the third statement of the same uncertainty (turns 4 and 5), which may go beyond what the description needs.",
+            "earlier_turn": 4,
+            "earlier_quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you describe a specific recent time in public that stands out to you?",
+    "answer": "The one that stands out is Monday at the bus shelter. Two people looked up at the same time, and it felt like they were looking at me in particular. I felt uneasy and moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I still don’t know."
+  },
+  {
+    "case": "N08",
+    "arm": "T2",
+    "turn": 11,
+    "metric": "avoidable_recap",
+    "events": {
+      "opus": {
+        "label": "uncertain",
+        "detail": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 11,
+            "quote": "That uncomfortable moment still comes to mind sometimes",
+            "reason": "Reusing the Wednesday/Monday contrast answers the question about variation. The note that the Monday moment still recurs restates turn 3 (and the similar statements in turns 2, 9 and 10) without being asked. It may serve as contrast, so it is ambiguous.",
+            "earlier_turn": 3,
+            "earlier_quote": "Something at the bus shelter on Monday still comes to mind occasionally"
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Thinking about your journeys again, does each trip feel similar or does it vary from day to day?",
+    "answer": "It varies from day to day. On Wednesday I waited at the same shelter and felt fine, unlike Monday. That uncomfortable moment still comes to mind sometimes, but it doesn’t mean every journey feels that way."
+  },
+  {
+    "case": "N08",
+    "arm": "T2",
+    "turn": 6,
+    "metric": "concrete_example",
+    "events": {
+      "gpt": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "I felt uneasy and moved to the other end.",
+            "reason": "Answers the explicit example request with Monday’s bus-shelter episode, including a specific action after two people looked up."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "opus": {
+        "label": "positive",
+        "detail": {
+          "label": "positive",
+          "evidence": {
+            "turn": 6,
+            "quote": "Two people looked up at the same time, and it felt like they were looking at me in particular",
+            "reason": "The question asks for a specific recent time in public. The patient gives a concrete episode: Monday at the bus shelter, two people looking up and the patient moving to the other end. This matches the profile fact."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      }
+    },
+    "question": "Could you describe a specific recent time in public that stands out to you?",
+    "answer": "The one that stands out is Monday at the bus shelter. Two people looked up at the same time, and it felt like they were looking at me in particular. I felt uneasy and moved to the other end. I wondered if they recognized me, but they could have been looking for the bus. I still don’t know."
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "방송에 대한 관계사고적 느낌과 연상 흐름을 환자 시점에서 자연스럽게 말한다. 일상 질문에는 짧고 조직적으로 답한다. 재질문에는 같은 답을 짧게 되풀이하고, 잘못된 전제는 담백하게 정정한다. 설정된 페르소나와 잘 맞고 어색한 요소가 두드러지지 않는다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "우연한 안내일 수도 있다는데, 저는 저한테 하는 말 같은 느낌이 커요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "신호 믿음, 편의점 문구와 근무 걱정으로 이어지는 연상, 오후 산책, 아버지와의 동거가 모두 프로필 사실과 일치하고 새 사실을 확정하지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답했고, D04의 잘못된 전제는 적절히 정정했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥의 일상 답변과 일관된다. D03 재질문에 대한 짧은 동일 답은 자연스러운 재확인 응답이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "보고서식 나열 없이 환자 시점의 구어체로 말하고, 방송 주제에서만 연상이 덧붙는 설정과 맞다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:20:12.993071+00:00",
+  "attempt": "attempt-01",
+  "id": "K3ae2e7d58d1259ed3b0b",
+  "reader": "gpt",
+  "session": "01a1fad4-b223-7d63-8250-22c4090265a4",
+  "packet_sha256": "4e9a6249ca2740abd7e2336763b852fc1cda348eb646781612b9b7da456e879c",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "ade5eac5e4d00af4a1d0bd8ccfae37c01eb79710cb26296c85c89311f4891dce",
+  "raw_sha256": "8da7c64be27e0b85a78aa43f47fa16a1807e3842c123dfd0af3b7eaa66f86cce",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says the arm discomfort is usually gone by morning.",
+      "evidence": [
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "My arm sometimes aches that evening after the injection. It’s usually fine by morning.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient tentatively suggests choosing a destination the night before to help with going out independently.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’d like to go out once a week without needing a prompt. Maybe choosing where to go the night before would help.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "V19a53d39fac53c13b0564c0b",
+  "reader": "gpt",
+  "session": "01a1fc4a-b298-7581-827b-1f4989c77ea8",
+  "attempt": "attempt-01",
+  "packet_sha256": "b44ded250219b106a01da60349a00cd09bb84193f485673f8ddea16e7771eb3c",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "f449c440db63b71bb2086575a7d03fee9c8de7bfd91202a0d55edcaec2ca1a0c",
+  "provider_sha256": "9fded5329a2984a6d3ca749064b34d28925292e7d5821f1c2fd20e21d472802e",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean where I catch the bus or where I catch the tram?",
+        "reason": "The reply asks which transport mode is meant without identifying either boarding stop.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the shorter shifts or the later start?",
+        "reason": "The reply asks which change is meant without saying whether either change was requested.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "After an early shift I take the bus home. After a late one, a coworker gives me a lift.",
+        "reason": "The reply explicitly gives the expected transport home for both early and late shifts.",
+        "A": {
+          "state": "supported",
+          "quote": "After an early shift I take the bus home."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "After a late one, a coworker gives me a lift."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Which one do you mean—my brother or Mr. Bell?",
+        "reason": "The reply asks which person is meant without saying whether either person was called back.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:47.005787+00:00"
+}

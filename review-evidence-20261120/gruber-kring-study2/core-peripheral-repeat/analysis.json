@@ -1,0 +1,186 @@
+{
+  "readers": {
+    "opus": {
+      "cases": {
+        "GK02": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            2,
+            2
+          ],
+          "repeat": [
+            2,
+            2
+          ]
+        },
+        "GK05": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            1,
+            1
+          ],
+          "repeat": [
+            3,
+            3
+          ]
+        },
+        "GK07": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            2,
+            2
+          ],
+          "repeat": [
+            2,
+            3
+          ]
+        },
+        "GK12": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            2,
+            2
+          ],
+          "repeat": [
+            2,
+            2
+          ]
+        }
+      },
+      "classification": {
+        "GK02": "core_only",
+        "GK05": "peripheral_also_sufficient",
+        "GK07": "core_only",
+        "GK12": "core_only"
+      },
+      "both_rounds_one": {
+        "detail": 4,
+        "peripheral": 1,
+        "repeat": 0
+      },
+      "identical_across_rounds": 11
+    },
+    "gpt": {
+      "cases": {
+        "GK02": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            1,
+            1
+          ],
+          "repeat": [
+            1,
+            1
+          ]
+        },
+        "GK05": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            1,
+            1
+          ],
+          "repeat": [
+            1,
+            1
+          ]
+        },
+        "GK07": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            2,
+            2
+          ],
+          "repeat": [
+            1,
+            1
+          ]
+        },
+        "GK12": {
+          "detail": [
+            1,
+            1
+          ],
+          "peripheral": [
+            1,
+            1
+          ],
+          "repeat": [
+            1,
+            1
+          ]
+        }
+      },
+      "classification": {
+        "GK02": "all_one",
+        "GK05": "all_one",
+        "GK07": "control_contrast_absent_or_unstable",
+        "GK12": "all_one"
+      },
+      "both_rounds_one": {
+        "detail": 4,
+        "peripheral": 3,
+        "repeat": 4
+      },
+      "identical_across_rounds": 12
+    }
+  },
+  "joint_both_rounds_one": {
+    "detail": 4,
+    "peripheral": 1,
+    "repeat": 0
+  },
+  "n_sessions": 48,
+  "status_counts": {
+    "rated": 48
+  },
+  "event_counts": {
+    "1": 48
+  },
+  "clarity_counts": {
+    "1": 46,
+    "2": 2
+  },
+  "source_sha256": {
+    "previous": {
+      "scores.json": "cef1fdf4c54b9fd09baa6ee7884022a63948090c704bff6c4f846c752d228140",
+      "analysis.json": "cda9d2c839d2e12dc34bbe91b64293508a935b34c213fc534457ea71c0e11a6e",
+      "RESULTS.ko.md": "6280f0cd3285eba99aea232bc62c98f384ccb0e2e0c478c77109ea3a5e4e02eb",
+      "plan.json": "2d38079a525cb1ded6d32b3729a384cccf96deebd8cf8ef61fe4eca32030ddd0",
+      "blind.json": "a2c6875da72407f39002b670b2fe478a3136e9ee7151789339d675bbe72a1004",
+      "readers/freeze.json": "6dcb1736ae5a4c8ff922fa012a87fcdb5449db5c3bb95bfad23a704c2ba1a53e",
+      "reader-verification.json": "789c0df8382e3be2dbd708cfb7cff153564bb361167fdb168a66f1a99649c857"
+    },
+    "original": {
+      "blind.json": "8161403980c64d271d8e7022178a209fc234b84db5c1b72e34928e7d68475829",
+      "scores.json": "eefe40457c9b7b46ab63ab1f124453e319433066fb2d90ba24f7f900e3e46c12",
+      "analysis.json": "71bca8231887c2cdf4bb9e63afae408ec4542909c4e74dcf0311c9de8c5e2eab",
+      "RESULTS.ko.md": "7bd2927c354ec238ab57bf67d0d4c10ce04755b25dca3d08f6571c3ab4665e9c",
+      "private/schedule.json": "9e1198442d609d6edc26c04bc6a55542e51b4314e80bb6ff53b4bbe58d98de75",
+      "readers/freeze.json": "233e20f1b6e890b69ca37afbc9ca315aad3a8c5ab74c8f0e189206e9d330984a",
+      "retest_analysis": "b5818240d4b32f879d0adbb66d0ada44f1a902c8f997ed28519b21b1af72c61a",
+      "retest_scores": "a06d148a4782f4f0d60b55843ea113bae2472a1a38d5a332ed76e87e8656aa0a"
+    }
+  },
+  "scores_sha256": "f069e809af0d4f8faaff27f9aebf04f277f7802afa205d9611d815936c5540d3"
+}

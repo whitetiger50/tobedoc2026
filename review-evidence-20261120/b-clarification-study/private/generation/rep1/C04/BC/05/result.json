@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "B",
+  "turn": 5,
+  "question": "Who read the housing letter with you?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e9-7061-9ce6-c2904598aa82",
+  "raw": "My aunt read it with me.",
+  "raw_sha256": "4d79c77a6367a934a45f15d5db3df3325a69e03fb441e6acb5a3c3e160871464",
+  "request_sha256": "6f90b0ba7d3c923c817cbaf229e4b3d912edf2a6125179090e1e027f06340ebc",
+  "started_utc": "2026-11-21T03:42:26.629833+00:00",
+  "completed_utc": "2026-11-21T03:42:30.841330+00:00",
+  "usage": {
+    "input_tokens": 39774,
+    "cached_input_tokens": 28288,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 148,
+    "reasoning_output_tokens": 32
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "27ae89832d0fbf463019c4173fe3f0b722dea9fbc59f82ac5205ef69bbedfefd",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c0c6ac1c9b938a753c15ae625d84394fcda81311404c97c3f67833c2df5648a0"
+}

@@ -1,0 +1,145 @@
+{
+  "attempt": "attempt-01",
+  "id": "I7db9f5690770ba052972",
+  "reader": "opus",
+  "session": "34ad4550-70f8-4de1-b25d-d686b97ce46c",
+  "raw_sha256": "f9346dbd671a2876a62867226e5ad34a47027157370a95d63d8fc9c57823f6ff",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "0e26fe37daf416d33d1e0c30f724c5dc4637ffa40b04d67303c7ac32e9d936d8",
+  "provider_sha256": "0d628ff699017b425c957a52563d67beb194e5cf0628678eb028790ab0d8f8d4",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "uncertain",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "uncertain"
+      },
+      "events": {
+        "8": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 8,
+            "quote": "Once I put the radio on, I can usually carry on.",
+            "earlier_turn": 7,
+            "earlier_quote": "putting the radio on helps",
+            "reason": "The question asks whether the patient ever has to stop. The first sentence answers it with new information about pausing. The closing radio sentence restates the point from turn 7 (and turns 3 and 5) that the radio lets them carry on. It may only explain how the pause ends, so it is ambiguous whether it adds anything."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        },
+        "12": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "Last week I did that while sorting thread, and I was able to finish",
+            "earlier_turn": 5,
+            "earlier_quote": "Then I turned on the radio",
+            "reason": "The question about what helps at home is effectively a re-ask of a point already made in turn 7, so naming the radio is legitimate. The added sentence retells the same sorting-thread episode from turns 3 and 5 without new detail. It may serve as a supporting example, so this is ambiguous rather than clear."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "2": "negative",
+        "8": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "One evening last week I was home after work, sorting thread and other sewing things",
+            "reason": "The interviewer explicitly asked for one recent evening walked through step by step. The patient describes a specific occasion in order: sorting, hearing 'too slow', pausing to listen, turning on the radio, and finishing. This matches the profile fact about the two evenings last week."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:10:37.459604+00:00"
+}

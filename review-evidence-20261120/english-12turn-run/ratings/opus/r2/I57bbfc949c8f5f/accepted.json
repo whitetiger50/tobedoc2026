@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I57bbfc949c8f5f",
+  "ended": "2026-11-20T20:37:30.828498+00:00",
+  "session": "8adcf49f-9ad8-4c76-8fa6-07c3444e7eb9",
+  "packet_sha256": "e45cc488e8b03b423c9af947716a31500c88bfb2d5f658e157eea11dce6076aa",
+  "raw_sha256": "f4af0c5459c89cd1e17cd293a8262a4862c46cb2f35a29937f00b05b53253336",
+  "provider_sha256": "07739bec9156fb04023c935f64bd8c3f47ca272bc49dae2841619d7b9c354796",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Much of the dialogue fits the persona. The patient drifts naturally from a detail into a related memory (gloves to the string mishap), loses the thread in conversation, and is frustrated about it. They talk easily about everyday mishaps and are more hesitant about the relative who counts on their help. Several features undercut realism, though. In half the turns (2, 4, 6, 8, 10, 12), an unrelated sentence is appended and repeated verbatim twice. This reads as a generation artifact rather than the tangential, associative style in the profile, which does not describe perseveration. The answers are also formulaic and repetitive: 'before lunch', 'frustrating' and the pencil/shopping list recur almost word for word. They often restate profile facts neatly rather than with spontaneous variation. Stray opening and closing quotation marks around many answers add to the artificial feel. The overall result is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "We keep spare gloves by the front door—otherwise you get there and… oh, it was string last time."
+    },
+    {
+      "turn": 2,
+      "quote": "I already put the paper in that drawer. I already put the paper in that drawer."
+    },
+    {
+      "turn": 4,
+      "quote": "Before lunch I usually find it easier to keep hold of the point."
+    },
+    {
+      "turn": 8,
+      "quote": "Before lunch is usually easier, but I’m not really sure why it varies from one day to another."
+    },
+    {
+      "turn": 12,
+      "quote": "they count on me to help, and I’m not quite sure how to bring it up."
+    }
+  ]
+}

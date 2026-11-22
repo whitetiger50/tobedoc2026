@@ -1,0 +1,27 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 1,
+  "question": "How have you been spending your time outside this clinic?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "I’m still doing evening stock checks at the stationery store. At home I like folding paper models—one of my housemates sometimes joins me after dinner. It’s nice having something to keep my hands and attention busy.",
+  "raw_sha256": "e75f5ca3591f8244f4d87157d8a5f3daf397f89bc7621cd8b24d2b8bebfd306e",
+  "request_sha256": "ffc6ee8b172dc92a4ccab139c880afbb957b4c708e96e7711da4e8b3c8aa0dbc",
+  "started_utc": "2026-11-20T20:36:54.023072+00:00",
+  "completed_utc": "2026-11-20T20:36:59.091718+00:00",
+  "usage": {
+    "input_tokens": 7650,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 48,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a6bcf890b70584c3abfe78ef82c92952a9aad9152a7fde75b699cc5f266bd55e",
+  "trace_sha256": "68f18be4c99b5b56c3ecd3634fbdb928061cceb47c7b47f742531c13e6e84f1c"
+}

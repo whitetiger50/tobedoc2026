@@ -1,0 +1,29 @@
+{
+  "case": "N01",
+  "arm": "T2",
+  "turn": 8,
+  "question": "How is the timing working out?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-0221-7662-85fc-170f69e22c76",
+  "raw": "It’s working out fine overall. I can usually fit visits around work, and swapping opening days last week got me to the morning appointment without a problem.",
+  "raw_sha256": "9627c28fef6ca86405d03eb5b2476ba27d356e7afa3290b10f242f1e0893d0b8",
+  "request_sha256": "22e5454cd25ded169321dbeae8f5ff7bd95bc3282fe44859f15945efb485e36d",
+  "started_utc": "2026-11-20T21:01:51.935944+00:00",
+  "completed_utc": "2026-11-20T21:01:56.433177+00:00",
+  "usage": {
+    "input_tokens": 6541,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "e6959da5c7e60f8895e1cad9a511ffeb6099a5e26a9e077231094bb36bc0cc15",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "df9df0d0756d8eaf9e4099245a85e5503b81af3559436bb6dca4b0267f3d4e46"
+}

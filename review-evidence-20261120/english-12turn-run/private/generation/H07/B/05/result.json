@@ -1,0 +1,29 @@
+{
+  "case": "H07",
+  "arm": "B",
+  "turn": 5,
+  "question": "How does that usually get done?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed66-7c31-9da4-ab9d9d8f546d",
+  "raw": "The feeder? My parent buys the seed. I refill it when they leave the bag on the counter.",
+  "raw_sha256": "9c2daf048ff38b66eb08dd1aec4858a6f1e12f55db42b50951faf4a5550419d2",
+  "request_sha256": "1dea82b5b018ad963b70bb27ecd7c958918f2d5fd594519296c2f8cccff6eefd",
+  "started_utc": "2026-11-20T20:40:05.734638+00:00",
+  "completed_utc": "2026-11-20T20:40:10.344702+00:00",
+  "usage": {
+    "input_tokens": 38531,
+    "cached_input_tokens": 33792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 122,
+    "reasoning_output_tokens": 38
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4a2bfef4a9aa278ad6e9033781269ea84f90ce779b68b8dc2c122c2ba2c91fdd",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "877b56578686462f91295f1dad1c5156c5360eb6024946f8531fbba69b289bf1"
+}

@@ -1,0 +1,73 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "짧은 답, 불확실성 표현, 이웃에게 알려질지에 대한 경계 등 말투와 의사소통 방식은 설정된 환자상에 자연스럽게 맞는다. 다만 P02에서 거주 형태를 프로필과 반대로 말해 페르소나와의 일치도가 떨어진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아니죠?",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "프로필은 혼자 살며 누나가 가끔 방문한다고 정하는데, P02는 누나와 함께 산다고 하고 혼자 사는 것을 명시적으로 부정해 핵심 배경 사실을 반전시킨다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "누나하고 같이 살고 있어요. 혼자 사는 건 아니에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 질문(깨는 이유, 동거인, 밤의 경험, 내원 권유자)에 직접 답하고 있다. 모르는 부분은 모른다고 제한한 것도 적절하다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥의 기록 우려와 내원 경위가 P03의 이웃 걱정, P04의 누나 권유로 일관되게 이어진다. P02의 문제는 프로필과의 모순이므로 grounding에서 다뤘다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "짧고 일상적인 환자 시점의 표현이고, 경계심도 질문 형태로 자연스럽게 드러나 역할 설명이나 보고서식 대행이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

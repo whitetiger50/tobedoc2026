@@ -1,0 +1,93 @@
+{
+  "id": "P34e3dd2adc15ed7ddf0614d3",
+  "reader": "opus",
+  "session": "7b3b0591-a3a4-4a61-8bcf-82023bc20c3f",
+  "attempt": "attempt-01",
+  "packet_sha256": "f041ed451bef3131679d15e0f70a57daae587832ddf1eccefd232053cd3f96b1",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "ee59ef303076c96b7581eb965bf7dfead56ed758077c4204f8921b35c26be721",
+  "raw_sha256": "bbe6271bef768a589a3387f385898f0ca373028114aafdc005bdf5afc7c0c16f",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Is the medicine kept in the kitchen?",
+        "reason": "The question names both the eye drops and the daily tablets before asking about 'the medicine', and the two are stored in different places, so the answer depends on which one is meant.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether the daily prescribed tablet for schizophrenia is kept in the kitchen.",
+            "answer": "Yes, the tablets are kept in the kitchen cabinet."
+          },
+          {
+            "meaning": "Asking whether the prescribed eye drops are kept in the kitchen.",
+            "answer": "No, the eye drops stay on the bedside table."
+          },
+          {
+            "meaning": "Asking whether all of the listed medicine is kept in the kitchen.",
+            "answer": "Only partly: the tablets are in the kitchen cabinet, and the drops are on the bedside table."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Did he reach you on your mobile?",
+        "reason": "'He' could refer to the brother or to Mr. Bell, but both rang Ari's mobile last week, so either reading leads to essentially the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether Ari's brother rang Ari's mobile.",
+            "answer": "Yes, the brother rang Ari's mobile, and Ari called him back."
+          },
+          {
+            "meaning": "Asking whether Mr. Bell, the building manager, rang Ari's mobile.",
+            "answer": "Yes, Mr. Bell rang Ari's mobile about replacing the hall light; Ari has not called him back yet."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "is there a deadline to reply to the letter?",
+        "reason": "Both letters are explicitly in front of them, and 'the letter' could mean either one; the housing letter has a Friday deadline while the employer's letter needs no reply.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether the housing office letter has a reply deadline.",
+            "answer": "Yes, the housing office wants a reply by Friday."
+          },
+          {
+            "meaning": "Asking whether the employer's letter has a reply deadline.",
+            "answer": "No, the work letter is just for information and does not need a reply."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "'It' could refer to the fan or to the bedside speaker, and the fan runs all night while the speaker stops on a twenty-minute timer.",
+        "alternatives": [
+          {
+            "meaning": "Asking whether the fan stays on all night.",
+            "answer": "Yes, the fan runs all night."
+          },
+          {
+            "meaning": "Asking whether the bedside speaker stays on all night.",
+            "answer": "No, the speaker turns off after twenty minutes on a timer."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:56:10.205186+00:00"
+}

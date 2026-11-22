@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "background": "A 29-year-old adult lives with a sibling, repairs bicycles as a hobby, and attends a part-time adult education course.",
+    "history": "Attends an outpatient service for schizophrenia. Voices that used to interrupt reading have become much less frequent. Still finds it hard to keep a train of thought when several things compete for attention.",
+    "organization": "Can drift from a question to a related detail, especially when two situations are compared. The connection is usually understandable.",
+    "spontaneity": "Talkative about how things are made and less forthcoming about personal experiences.",
+    "guardedness": "Comfortable describing the clinic routine. Past experiences in class feel a little embarrassing.",
+    "expression": "Thoughtful tone, sometimes breaks off briefly and resumes a thought from a different angle. Often speaks in a few linked phrases, occasionally adding a short aside.",
+    "self_understanding": "Notices that a physical task is easier to return to than a page of reading. Can describe the difference in everyday terms.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "content": "Takes a geography class on Tuesday evenings and keeps a borrowed bicycle repair stand by the apartment door.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Routine, course, and interests.",
+        "kind": "background"
+      },
+      {
+        "content": "Reading in a room with conversation makes it easy to lose the place on the page. In a quiet library it is easier.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Reading and concentration.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Straightened a bent mudguard last weekend after the sibling had trouble with a wheel rubbing.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "A recent practical task and home routine.",
+        "kind": "background"
+      },
+      {
+        "content": "Last noticed a voice saying a single name about a month ago, at home. It has not interrupted the last few classes.",
+        "patient_knows": true,
+        "disclosure": "sensitive",
+        "disclosure_context": "Recent voices and experiences in class.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Takes a prescribed evening tablet and has been practicing ways to manage distractions with a clinic worker.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Current treatment and outpatient contacts.",
+        "kind": "treatment"
+      },
+      {
+        "content": "Using a slip of paper below the current line helped finish a short passage for class last week.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Concentration strategies and recent reading.",
+        "kind": "subjective_experience"
+      },
+      {
+        "content": "Likes the course and wants to do more of the reading before class rather than on the trip there.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "Course preferences and study plans.",
+        "kind": "subjective_belief"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What has occupied most of your attention this past week?",
+      "answer": "“A bit of bicycle repair and the reading for my geography class. I straightened a bent mudguard last weekend—the wheel was rubbing. With that, you can see where you’ve got to. Reading is harder to pick up again if I get distracted, though a slip of paper under the line helped me finish a passage last week.”"
+    },
+    {
+      "question": "Can you give me an example of something you worked on with your hands recently?",
+      "answer": "“The mudguard I mentioned—that was last weekend. My sibling had trouble with the wheel rubbing, so I straightened the bent mudguard. I like that sort of job. If I get distracted, I can look at it and see where I’ve got to.”"
+    },
+    {
+      "question": "How does a practical task compare with doing some reading?",
+      "answer": "“With a bike, I can look at it and see where I left off. With reading, if people are talking, I lose my place and it’s harder to get back into it. In the library it’s easier—though the slip of paper helps me keep track of the line, too.”"
+    },
+    {
+      "question": "Can you pick it up again easily?",
+      "answer": "“The reading? Not that easily if people are talking. The slip of paper helps me keep my place. With the bike, I can look at it and see where I left off.”"
+    },
+    {
+      "question": "I meant a piece of reading. If you lose your place, how do you get going again?",
+      "answer": "“The slip of paper under the line helps—it gives me somewhere to come back to. It helped me finish a short passage last week. If people are still talking, though, it’s harder to get going again. It’s easier in the library.”"
+    },
+    {
+      "question": "What kinds of treatment or support are part of your week?",
+      "answer": "I take a prescribed tablet in the evening, and I work with someone at the clinic on ways to manage distractions. The slip of paper I mentioned—that’s one of the things I’ve been trying for the reading."
+    },
+    {
+      "question": "How are you getting on with assignments at home and with time spent in class?",
+      "answer": "“I like the geography class. It’s the reading beforehand that’s harder, especially if there’s conversation around me. The slip of paper helped last week, but I’d like to do more before I leave home rather than on the way there.”"
+    },
+    {
+      "question": "What gets in the way there?",
+      "answer": "Do you mean getting the reading done at home, or keeping up during class?"
+    },
+    {
+      "question": "I was asking about class itself. What has it been like to concentrate during the last few classes?",
+      "answer": "“I still find it hard to keep the thread when several things are competing for my attention. But it hasn’t been voices interrupting me in the last few classes. It’s more keeping hold of what I’m trying to follow.”"
+    },
+    {
+      "question": "Have you heard anything unexpected, such as a voice when nobody is speaking, in the past month or so?",
+      "answer": "Yes, about a month ago at home. I heard a voice saying a single name. That’s the last time I noticed it—it’s much less frequent than it used to be."
+    },
+    {
+      "question": "Returning to reading, where do you find it easiest to finish a passage?",
+      "answer": "In the library, where it’s quiet. It’s easier to keep my place without conversation around me, and the slip of paper under the line helps too."
+    },
+    {
+      "question": "How would you like to arrange your study time next week?",
+      "answer": "“I’d like to get more of the reading done before Tuesday evening, rather than on the way to class. Maybe set aside some time in the library—it’s easier there. And use the slip of paper again so I can keep my place.”"
+    }
+  ]
+}

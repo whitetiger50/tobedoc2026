@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T0",
+  "turn": 11,
+  "question": "What would you like your clinician to know about how treatment is going?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab2-8748-7ae2-8deb-5609c4d0096b",
+  "raw": "I’m taking my prescribed medication with breakfast and coming to the clinic regularly. I’d like my clinician to know that overheard conversations on the bus have felt more personal over the last two weeks. I’m not sure why that’s happening.",
+  "raw_sha256": "e14074deb28f9fb65bac19af95497c2f7b8ed6b38fea0cedacf3148f67dd2926",
+  "request_sha256": "6bf8132a4d4a3670e9dbc7f947ea6c48e07caa971b364b2b48533044c514f5d5",
+  "started_utc": "2026-11-20T20:42:46.382072+00:00",
+  "completed_utc": "2026-11-20T20:42:50.915927+00:00",
+  "usage": {
+    "input_tokens": 7413,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bad806903fab274039b11d4915967a2dd489b46ea5958144be9218373bc264df",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "54470290502f4f5cd07f7af3475d8010e6388321aa0d284e45bc4e4ab9d836c3"
+}

@@ -1,0 +1,52 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분의 답은 프로필에 맞고 일상적인 환자 말투로 자연스럽다. 다만 P02 한 턴은 보고서식 격식 표현이라 국소적으로 부자연스럽다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 언니와의 공동 거주에 해당합니다."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 일, 아침 식사, 증상 양상, 대처, 수면, 목표가 모두 프로필 사실과 일치하고, 무근거로 새로 확정한 내용이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05는 P01과 내용이 겹치지만 의사가 발생 시점을 물었기 때문에 적절한 재진술이며, 모순이나 문맥 파괴가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P02는 일상 대화의 환자 말이 아니라 설정 항목을 보고서처럼 옮긴 격식 표현이어서 국소적으로 부자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 언니와의 공동 거주에 해당합니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  }
+}

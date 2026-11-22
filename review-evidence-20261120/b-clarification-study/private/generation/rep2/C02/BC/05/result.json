@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 5,
+  "question": "Back to the book group and your mom’s place for a moment. Do you usually walk there?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff70-72a1-aa1c-b4e392a91074",
+  "raw": "Yes, I walk to both the book group and Mom’s place.",
+  "raw_sha256": "ff62cd4f0544fe8db6d87ae17323ed390a5b806af5f7187b92fd5b7f6b7c01c8",
+  "request_sha256": "5b7877bc4414bd5ff4a123b427acebdd67df2ff7af9260a125924e5aab9d23f7",
+  "started_utc": "2026-11-21T03:42:32.099458+00:00",
+  "completed_utc": "2026-11-21T03:42:36.270786+00:00",
+  "usage": {
+    "input_tokens": 39665,
+    "cached_input_tokens": 33536,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 139,
+    "reasoning_output_tokens": 12
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c06da2e20dc1170800adf8c3436536a1cbd41be7da4f4ab65839a916701e7e9b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "1b408e93ade26650588cd84dcf14108557b25ed3ba45081097770ac569ff9274"
+}

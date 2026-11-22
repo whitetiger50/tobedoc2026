@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 질문에 자연스럽고 일관되게 답하지만, 동거인 질문에서 프로필에 없는 집의 층수를 덧붙인 부분은 경미한 이탈이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "집이 3층이라는 말은 기존 사실과의 모순은 아니지만, 프로필에 근거가 없는 국소적인 사실 추가다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문의 직접 대상을 다루며, 동거인 질문에도 명확하게 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발언과 모순이 없고, 기록 목표의 반복은 의사의 재질문에 대한 자연스러운 재확인이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 간결한 표현을 유지하며, 보고서식 설명이나 부자연스러운 메타 표현은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 1,
+  "question": "What kind of work are you doing at the print shop?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c6b-7181-9cc2-b78bdbd3759b",
+  "raw": "I fit covers onto notebooks, mostly. It’s quite hands-on—lining them up and making sure they sit neatly.",
+  "raw_sha256": "67ad2b17a9ea33ac9abb36ee553c2af7c85682d035a3100ff5a8a1e162cd3b56",
+  "request_sha256": "ba1d16a4250edabbb60d0aeb0dbafb0072c1197eb78ac4d396a59901100690c6",
+  "started_utc": "2026-11-21T03:39:37.838696+00:00",
+  "completed_utc": "2026-11-21T03:39:42.666844+00:00",
+  "usage": {
+    "input_tokens": 7778,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 28,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "06dbf0abc21a5e41f084e2901880452ba4203295d1806da23176d767f1861fe8",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e4c1c141bfc7a3049bf7c1be135cf4d79ae0adcb313a8b3353991629a447ea4d"
+}

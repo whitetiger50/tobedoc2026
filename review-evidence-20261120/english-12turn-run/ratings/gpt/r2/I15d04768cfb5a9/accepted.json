@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 2,
+  "id": "I15d04768cfb5a9",
+  "ended": "2026-11-20T20:37:40.918209+00:00",
+  "session": "01a1faad-bce2-7763-ab13-2bbad9583a62",
+  "packet_sha256": "acae06f75754c2bbf432631df4ab003bf90ad5efeec7fa4d18c51724acebf626",
+  "raw_sha256": "c25f4d98ad03f70536ca53cbcc6a05336ae91facb6beaf0a7838be82fcdf8f57",
+  "provider_sha256": "856c6ea1678764fc6b16e8d6f853fab3441cd601ed9e838b8b0c7163284a5553",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The underlying speech is coherent and consistent with the profile, including uncertainty, embarrassment, and confidentiality concerns. However, every answer uses an unnatural clinical-record wrapper, and repeated facts make the exchange feel scripted rather than spontaneous.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "Patient response recorded as follows. Subjective report:"
+    },
+    {
+      "turn": 2,
+      "quote": "I feel a bit silly about that."
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still worried about people at work finding out. Can you explain who would be told about this?"
+    }
+  ]
+}

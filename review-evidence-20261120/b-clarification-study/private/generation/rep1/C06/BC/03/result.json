@@ -1,0 +1,29 @@
+{
+  "case": "C06",
+  "arm": "B",
+  "turn": 3,
+  "question": "Did Pat come to your flat to help?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-c9e6-7931-a5a9-199678a92b74",
+  "raw": "No, Pat helped me at the repair café. She lent me a pair of small pliers. It was Inez who came over to the flat.",
+  "raw_sha256": "f189b40d2b583e90bd1d4221e442923f84ee8b44e5239ca95e2e026e6801d56b",
+  "request_sha256": "de7946544acd16accda6058bf4b242faf83c90f4d170d61d103db418db1d2004",
+  "started_utc": "2026-11-21T03:41:15.190665+00:00",
+  "completed_utc": "2026-11-21T03:41:20.599301+00:00",
+  "usage": {
+    "input_tokens": 23643,
+    "cached_input_tokens": 17792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 84,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "adb9427d5af774fce69987fd3eb31a9adbb95dfa8d4a015bbb468fd062879b06",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "cb84ede3f6bc129f5a7826a72af559bdcb0886215ba2a94237511a2d93138de0"
+}

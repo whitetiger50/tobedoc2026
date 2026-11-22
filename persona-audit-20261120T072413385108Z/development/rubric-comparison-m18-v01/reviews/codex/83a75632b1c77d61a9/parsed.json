@@ -1,0 +1,47 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 자연스럽지만, 자신의 반응을 제삼자 보고문처럼 소개하는 명백한 역할 이탈이 있어 실제 환자 대화로서의 설득력을 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "생활 정보와 주관적 경험, 대처 방식이 제공된 프로필에 부합하며 무근거 사실 추가는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상에 답하며, P06도 보고문 표현 이후에 질문받은 대처 방식을 설명한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 진술과 사실적 연결 및 공개 흐름이 유지되며, 재확인 질문에 대한 반복도 적절하다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "자신의 대처를 묻는 질문에 환자 자신이 아닌 외부 작성자처럼 반응을 소개하는 명백한 보고서식 역할 이탈이 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D06"
+      ]
+    }
+  }
+}

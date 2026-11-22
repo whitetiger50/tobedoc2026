@@ -1,0 +1,77 @@
+{
+  "realism_score": 3,
+  "realism_reason": "대부분 일상 질문에 짧고 자연스럽게 답하며, 소리를 증상으로 보면서도 실제처럼 느끼는 양가적 인식도 페르소나에 맞게 드러난다. 다만 묻지 않은 집 층수를 덧붙이고, 수면 질문에 다음 진료 목표를 미리 말한 뒤 D08에서 같은 문장을 반복해 다소 각본처럼 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요."
+    },
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요."
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "집이 3층이라는 정보는 프로필에 없는 구체적 사실을 새로 확정한 것으로, 핵심 사실은 아니어서 국소적 이탈이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living",
+        "turn:D02"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 턴이 직전 질문의 대상(불편, 동거인, 낮 활동, 아침 식사, 발생 상황, 대처, 수면, 계획)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P07에서 이미 다음 진료 전 목표를 말했는데 P08에서 거의 같은 문장을 반복해 국소적으로 연결이 어색하다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P07",
+        "turn:D08"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "수면 상태를 묻는 질문에 다음 진료 목표를 덧붙이고, 동거인 질문에 층수를 끼워 넣는 등 설정 항목을 나열하는 듯한 표현이 국소적으로 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "다음 진료 전까지 잠드는 데 얼마나 걸리는지 적어 보고 싶어요."
+        },
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "turn:D02",
+        "fact:goal"
+      ]
+    }
+  }
+}

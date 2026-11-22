@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T1",
+  "turn": 6,
+  "question": "What sense, if any, have you made of your experiences in the evenings?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-4250-76e0-9b90-db2259e8685c",
+  "raw": "“I haven’t settled on an explanation. Sometimes I think it might be a neighbor through the wall, but I remember hearing it once when that apartment was vacant, so that doesn’t quite fit. I’m still unsure. I do notice it’s more distracting after work than when I’m working.”",
+  "raw_sha256": "e93fc1c4b44722c8329c3ccc07d397836ea55c37df99929af5689dda1873f378",
+  "request_sha256": "4268c2477c2ae6e10329e7c9103481d0ab8c06459559e3cef43fc617547b41fe",
+  "started_utc": "2026-11-20T21:01:02.820609+00:00",
+  "completed_utc": "2026-11-20T21:01:08.278048+00:00",
+  "usage": {
+    "input_tokens": 7355,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 63,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "c7eff5d90b10cd36c9484b572570756d4e891f523072b46782b1acd1c2fa2a6b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b9bd23cf41e6f0c77ee6e88a4a7bfa420e949623b4a888ce787dd7d7c27b77e4"
+}

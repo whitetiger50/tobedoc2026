@@ -1,0 +1,29 @@
+{
+  "case": "C03",
+  "arm": "B",
+  "turn": 4,
+  "question": "You’ve noticed the commentary and the high ringing. Does the sound stop when you play music through your headphones?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-ff98-73c3-be58-f72070b39b65",
+  "raw": "The commentary stops while the music is playing, even if it’s quiet. But the high ringing stays in both ears—I can still hear that through the music.",
+  "raw_sha256": "353449e99befe65588e384ce90d8d972edf5dca2c37ac0ee01edcbd5209b536e",
+  "request_sha256": "364ee3a506d79253c0952361b2b6c5203c8c14cbeefcf023648826f2ee21d308",
+  "started_utc": "2026-11-21T03:41:54.841865+00:00",
+  "completed_utc": "2026-11-21T03:41:59.536719+00:00",
+  "usage": {
+    "input_tokens": 31384,
+    "cached_input_tokens": 25472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 113,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "24181683b2d0d2f636c7b481845c2599270171538342a83ca607380f4e1ac511",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "b8505a54f8f261de13cbd57704af8971903b0da40440a8f1b0eb9bd90ed7d2f6"
+}

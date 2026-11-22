@@ -1,0 +1,5204 @@
+{
+  "design": {
+    "people": 14,
+    "people_per_question": 7,
+    "repetitions_per_input_model": 3,
+    "questions": [
+      "Q2",
+      "Q3"
+    ],
+    "types": [
+      "expanded",
+      "direct",
+      "clarification",
+      "other"
+    ],
+    "clinical_statuses": [
+      "present",
+      "absent",
+      "uncertain",
+      "not_assessable",
+      "technical_missing"
+    ],
+    "distance": "TV = 0.5 * sum(abs(model probability - patient probability))",
+    "question_weights": [
+      "1/2",
+      "1/2"
+    ],
+    "difference_direction": "first named minus second named",
+    "assignment_range": "attainable extrema; both distances in a paired difference share patient assignments",
+    "missing_types": "ambiguous allocated to alternatives; technical_missing to all four categories",
+    "leave_one_out": "omit one patient and all 9 corresponding model replies; average Q2 and Q3 equally",
+    "length": "within-question TV conditional on word bin, weighted by question-specific patient bin frequency"
+  },
+  "readers": {
+    "opus": {
+      "questions": {
+        "Q2": {
+          "distance": {
+            "developed": {
+              "lo": 0.9523809523809523,
+              "hi": 0.9523809523809523,
+              "exact": [
+                "20/21",
+                "20/21"
+              ]
+            },
+            "base": {
+              "lo": 1.0,
+              "hi": 1.0,
+              "exact": [
+                "1",
+                "1"
+              ]
+            },
+            "short": {
+              "lo": 1.0,
+              "hi": 1.0,
+              "exact": [
+                "1",
+                "1"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.047619047619047616,
+              "hi": -0.047619047619047616,
+              "exact": [
+                "-1/21",
+                "-1/21"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.047619047619047616,
+              "hi": -0.047619047619047616,
+              "exact": [
+                "-1/21",
+                "-1/21"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          },
+          "distribution": {
+            "patient": {
+              "N": 7,
+              "observed_counts": {
+                "expanded": 0,
+                "direct": 2,
+                "clarification": 5,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  0,
+                  0
+                ],
+                "direct": [
+                  2,
+                  2
+                ],
+                "clarification": [
+                  5,
+                  5
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.2857142857142857,
+                  "hi": 0.2857142857142857,
+                  "exact": [
+                    "2/7",
+                    "2/7"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.7142857142857143,
+                  "hi": 0.7142857142857143,
+                  "exact": [
+                    "5/7",
+                    "5/7"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "developed": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 20,
+                "direct": 0,
+                "clarification": 1,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  20,
+                  20
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  1,
+                  1
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.9523809523809523,
+                  "hi": 0.9523809523809523,
+                  "exact": [
+                    "20/21",
+                    "20/21"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.047619047619047616,
+                  "hi": 0.047619047619047616,
+                  "exact": [
+                    "1/21",
+                    "1/21"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "base": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "short": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            }
+          },
+          "signed_model_minus_patient": {
+            "developed": {
+              "expanded": {
+                "lo": 0.9523809523809523,
+                "hi": 0.9523809523809523,
+                "exact": [
+                  "20/21",
+                  "20/21"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.6666666666666666,
+                "hi": -0.6666666666666666,
+                "exact": [
+                  "-2/3",
+                  "-2/3"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            },
+            "base": {
+              "expanded": {
+                "lo": 1.0,
+                "hi": 1.0,
+                "exact": [
+                  "1",
+                  "1"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.7142857142857143,
+                "hi": -0.7142857142857143,
+                "exact": [
+                  "-5/7",
+                  "-5/7"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            },
+            "short": {
+              "expanded": {
+                "lo": 1.0,
+                "hi": 1.0,
+                "exact": [
+                  "1",
+                  "1"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.7142857142857143,
+                "hi": -0.7142857142857143,
+                "exact": [
+                  "-5/7",
+                  "-5/7"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            }
+          }
+        },
+        "Q3": {
+          "distance": {
+            "developed": {
+              "lo": 0.3333333333333333,
+              "hi": 0.38095238095238093,
+              "exact": [
+                "1/3",
+                "8/21"
+              ]
+            },
+            "base": {
+              "lo": 0.42857142857142855,
+              "hi": 0.42857142857142855,
+              "exact": [
+                "3/7",
+                "3/7"
+              ]
+            },
+            "short": {
+              "lo": 0.3333333333333333,
+              "hi": 0.38095238095238093,
+              "exact": [
+                "1/3",
+                "8/21"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.09523809523809523,
+              "hi": -0.047619047619047616,
+              "exact": [
+                "-2/21",
+                "-1/21"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "-1/21",
+                "1/21"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.09523809523809523,
+              "exact": [
+                "1/21",
+                "2/21"
+              ]
+            }
+          },
+          "distribution": {
+            "patient": {
+              "N": 7,
+              "observed_counts": {
+                "expanded": 4,
+                "direct": 1,
+                "clarification": 1,
+                "other": 1,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  4,
+                  4
+                ],
+                "direct": [
+                  1,
+                  1
+                ],
+                "clarification": [
+                  1,
+                  1
+                ],
+                "other": [
+                  1,
+                  1
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.5714285714285714,
+                  "hi": 0.5714285714285714,
+                  "exact": [
+                    "4/7",
+                    "4/7"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                },
+                "other": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                }
+              }
+            },
+            "developed": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 19,
+                "direct": 1,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 1,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  19,
+                  20
+                ],
+                "direct": [
+                  1,
+                  2
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.9047619047619048,
+                  "hi": 0.9523809523809523,
+                  "exact": [
+                    "19/21",
+                    "20/21"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.047619047619047616,
+                  "hi": 0.09523809523809523,
+                  "exact": [
+                    "1/21",
+                    "2/21"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "base": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "short": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 19,
+                "direct": 1,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 1,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  19,
+                  20
+                ],
+                "direct": [
+                  1,
+                  2
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.9047619047619048,
+                  "hi": 0.9523809523809523,
+                  "exact": [
+                    "19/21",
+                    "20/21"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.047619047619047616,
+                  "hi": 0.09523809523809523,
+                  "exact": [
+                    "1/21",
+                    "2/21"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            }
+          },
+          "signed_model_minus_patient": {
+            "developed": {
+              "expanded": {
+                "lo": 0.3333333333333333,
+                "hi": 0.38095238095238093,
+                "exact": [
+                  "1/3",
+                  "8/21"
+                ]
+              },
+              "direct": {
+                "lo": -0.09523809523809523,
+                "hi": -0.047619047619047616,
+                "exact": [
+                  "-2/21",
+                  "-1/21"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            },
+            "base": {
+              "expanded": {
+                "lo": 0.42857142857142855,
+                "hi": 0.42857142857142855,
+                "exact": [
+                  "3/7",
+                  "3/7"
+                ]
+              },
+              "direct": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            },
+            "short": {
+              "expanded": {
+                "lo": 0.3333333333333333,
+                "hi": 0.38095238095238093,
+                "exact": [
+                  "1/3",
+                  "8/21"
+                ]
+              },
+              "direct": {
+                "lo": -0.09523809523809523,
+                "hi": -0.047619047619047616,
+                "exact": [
+                  "-2/21",
+                  "-1/21"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "overall": {
+        "distance": {
+          "developed": {
+            "lo": 0.6428571428571429,
+            "hi": 0.6666666666666666,
+            "exact": [
+              "9/14",
+              "2/3"
+            ]
+          },
+          "base": {
+            "lo": 0.7142857142857143,
+            "hi": 0.7142857142857143,
+            "exact": [
+              "5/7",
+              "5/7"
+            ]
+          },
+          "short": {
+            "lo": 0.6666666666666666,
+            "hi": 0.6904761904761905,
+            "exact": [
+              "2/3",
+              "29/42"
+            ]
+          }
+        },
+        "paired_difference": {
+          "developed_minus_base": {
+            "lo": -0.07142857142857142,
+            "hi": -0.047619047619047616,
+            "exact": [
+              "-1/14",
+              "-1/21"
+            ]
+          },
+          "developed_minus_short": {
+            "lo": -0.047619047619047616,
+            "hi": 0.0,
+            "exact": [
+              "-1/21",
+              "0"
+            ]
+          },
+          "base_minus_short": {
+            "lo": 0.023809523809523808,
+            "hi": 0.047619047619047616,
+            "exact": [
+              "1/42",
+              "1/21"
+            ]
+          }
+        },
+        "signed_model_minus_patient": {
+          "developed": {
+            "expanded": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "9/14",
+                "2/3"
+              ]
+            },
+            "direct": {
+              "lo": -0.19047619047619047,
+              "hi": -0.16666666666666666,
+              "exact": [
+                "-4/21",
+                "-1/6"
+              ]
+            },
+            "clarification": {
+              "lo": -0.40476190476190477,
+              "hi": -0.40476190476190477,
+              "exact": [
+                "-17/42",
+                "-17/42"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          },
+          "base": {
+            "expanded": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "direct": {
+              "lo": -0.21428571428571427,
+              "hi": -0.21428571428571427,
+              "exact": [
+                "-3/14",
+                "-3/14"
+              ]
+            },
+            "clarification": {
+              "lo": -0.42857142857142855,
+              "hi": -0.42857142857142855,
+              "exact": [
+                "-3/7",
+                "-3/7"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          },
+          "short": {
+            "expanded": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            },
+            "direct": {
+              "lo": -0.19047619047619047,
+              "hi": -0.16666666666666666,
+              "exact": [
+                "-4/21",
+                "-1/6"
+              ]
+            },
+            "clarification": {
+              "lo": -0.42857142857142855,
+              "hi": -0.42857142857142855,
+              "exact": [
+                "-3/7",
+                "-3/7"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          }
+        }
+      },
+      "leave_one_out": [
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 1,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 2,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 3,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 4,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 5,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 6,
+          "distance": {
+            "developed": {
+              "lo": 0.6388888888888888,
+              "hi": 0.6626984126984127,
+              "exact": [
+                "23/36",
+                "167/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07539682539682539,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-19/252",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": -0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "-1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 7,
+          "distance": {
+            "developed": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "2/3",
+                "29/42"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.047619047619047616,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/21",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.023809523809523808,
+              "hi": 0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "1/42"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.023809523809523808,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/42",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 1,
+          "distance": {
+            "developed": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6428571428571429,
+              "exact": [
+                "9/14",
+                "9/14"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 2,
+          "distance": {
+            "developed": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6428571428571429,
+              "exact": [
+                "9/14",
+                "9/14"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 3,
+          "distance": {
+            "developed": {
+              "lo": 0.5873015873015873,
+              "hi": 0.6150793650793651,
+              "exact": [
+                "37/63",
+                "155/252"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6111111111111112,
+              "hi": 0.6388888888888888,
+              "exact": [
+                "11/18",
+                "23/36"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07936507936507936,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-5/63",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": 0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.027777777777777776,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/36",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 4,
+          "distance": {
+            "developed": {
+              "lo": 0.6706349206349206,
+              "hi": 0.6984126984126984,
+              "exact": [
+                "169/252",
+                "44/63"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.7222222222222222,
+              "exact": [
+                "25/36",
+                "13/18"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07936507936507936,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-5/63",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": 0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.027777777777777776,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/36",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 5,
+          "distance": {
+            "developed": {
+              "lo": 0.6706349206349206,
+              "hi": 0.6984126984126984,
+              "exact": [
+                "169/252",
+                "44/63"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.7222222222222222,
+              "exact": [
+                "25/36",
+                "13/18"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07936507936507936,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-5/63",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": 0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.027777777777777776,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/36",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 6,
+          "distance": {
+            "developed": {
+              "lo": 0.6706349206349206,
+              "hi": 0.6984126984126984,
+              "exact": [
+                "169/252",
+                "44/63"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.7222222222222222,
+              "exact": [
+                "25/36",
+                "13/18"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07936507936507936,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-5/63",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": 0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.027777777777777776,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/36",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 7,
+          "distance": {
+            "developed": {
+              "lo": 0.6706349206349206,
+              "hi": 0.6984126984126984,
+              "exact": [
+                "169/252",
+                "44/63"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.7222222222222222,
+              "exact": [
+                "25/36",
+                "13/18"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.07936507936507936,
+              "hi": -0.051587301587301584,
+              "exact": [
+                "-5/63",
+                "-13/252"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.051587301587301584,
+              "hi": 0.003968253968253968,
+              "exact": [
+                "-13/252",
+                "1/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.027777777777777776,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/36",
+                "1/18"
+              ]
+            }
+          }
+        }
+      ],
+      "length": {
+        "questions": {
+          "Q2": {
+            "known_strata": {
+              "<10": {
+                "N": {
+                  "patient": 5,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "5/7"
+              },
+              "10–29": {
+                "N": {
+                  "patient": 1,
+                  "developed": 1,
+                  "base": 0
+                },
+                "known_patient_weight": "1/7"
+              },
+              "≥30": {
+                "N": {
+                  "patient": 1,
+                  "developed": 20,
+                  "base": 21
+                },
+                "known_patient_weight": "1/7",
+                "known_length_comparison": {
+                  "distance": {
+                    "developed": {
+                      "lo": 1.0,
+                      "hi": 1.0,
+                      "exact": [
+                        "1",
+                        "1"
+                      ]
+                    },
+                    "base": {
+                      "lo": 1.0,
+                      "hi": 1.0,
+                      "exact": [
+                        "1",
+                        "1"
+                      ]
+                    }
+                  },
+                  "paired_difference": {
+                    "developed_minus_base": {
+                      "lo": 0.0,
+                      "hi": 0.0,
+                      "exact": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "unknown_words_N": {
+              "patient": 0,
+              "developed": 0,
+              "base": 0
+            },
+            "observed_support_gaps": [
+              {
+                "stratum": "<10",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              },
+              {
+                "stratum": "10–29",
+                "absent_arms": [
+                  "base"
+                ]
+              }
+            ],
+            "coverage_complete": false,
+            "standardized": null
+          },
+          "Q3": {
+            "known_strata": {
+              "<10": {
+                "N": {
+                  "patient": 1,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "1/7"
+              },
+              "10–29": {
+                "N": {
+                  "patient": 2,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "2/7"
+              },
+              "≥30": {
+                "N": {
+                  "patient": 4,
+                  "developed": 21,
+                  "base": 21
+                },
+                "known_patient_weight": "4/7",
+                "known_length_comparison": {
+                  "distance": {
+                    "developed": {
+                      "lo": 0.25,
+                      "hi": 0.25,
+                      "exact": [
+                        "1/4",
+                        "1/4"
+                      ]
+                    },
+                    "base": {
+                      "lo": 0.25,
+                      "hi": 0.25,
+                      "exact": [
+                        "1/4",
+                        "1/4"
+                      ]
+                    }
+                  },
+                  "paired_difference": {
+                    "developed_minus_base": {
+                      "lo": 0.0,
+                      "hi": 0.0,
+                      "exact": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "unknown_words_N": {
+              "patient": 0,
+              "developed": 0,
+              "base": 0
+            },
+            "observed_support_gaps": [
+              {
+                "stratum": "<10",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              },
+              {
+                "stratum": "10–29",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              }
+            ],
+            "coverage_complete": false,
+            "standardized": null
+          }
+        },
+        "overall": null
+      },
+      "clinical": {
+        "Q2": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 0,
+                "uncertain": 0,
+                "not_assessable": 7,
+                "technical_missing": 0
+              },
+              "definite_N": 0,
+              "present_among_definite": null
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 2,
+                "uncertain": 0,
+                "not_assessable": 5,
+                "technical_missing": 0
+              },
+              "definite_N": 2,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 6,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 7,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.0
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 18,
+                "uncertain": 3,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 18,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 17,
+                "uncertain": 3,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 17,
+              "present_among_definite": 0.0
+            }
+          }
+        },
+        "Q3": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 4,
+                "uncertain": 0,
+                "not_assessable": 2,
+                "technical_missing": 0
+              },
+              "definite_N": 5,
+              "present_among_definite": 0.2
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 6,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.14285714285714285
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 4,
+                "uncertain": 2,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 5,
+              "present_among_definite": 0.2
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 18,
+                "uncertain": 3,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 18,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 18,
+                "uncertain": 3,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 18,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 17,
+                "uncertain": 4,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 17,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            }
+          }
+        },
+        "both": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 4,
+                "uncertain": 0,
+                "not_assessable": 9,
+                "technical_missing": 0
+              },
+              "definite_N": 5,
+              "present_among_definite": 0.2
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 14,
+              "n": {
+                "present": 0,
+                "absent": 8,
+                "uncertain": 0,
+                "not_assessable": 6,
+                "technical_missing": 0
+              },
+              "definite_N": 8,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 12,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 13,
+              "present_among_definite": 0.07692307692307693
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 11,
+                "uncertain": 2,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 12,
+              "present_among_definite": 0.08333333333333333
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 41,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 41,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 36,
+                "uncertain": 6,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 36,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 41,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 41,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 38,
+                "uncertain": 3,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 38,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 41,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 41,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 37,
+                "uncertain": 4,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 37,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 37,
+                "uncertain": 4,
+                "not_assessable": 0,
+                "technical_missing": 1
+              },
+              "definite_N": 37,
+              "present_among_definite": 0.0
+            }
+          }
+        }
+      },
+      "decision": {
+        "strict_overall": {
+          "developed_minus_base": "satisfied",
+          "developed_minus_short": "assignment_dependent"
+        },
+        "nonworse_each_question": {
+          "Q2": {
+            "developed_minus_base": "satisfied",
+            "developed_minus_short": "satisfied"
+          },
+          "Q3": {
+            "developed_minus_base": "satisfied",
+            "developed_minus_short": "assignment_dependent"
+          }
+        },
+        "strict_leave_one_out_counts": {
+          "developed_minus_base": {
+            "satisfied": 14,
+            "failed": 0,
+            "assignment_dependent": 0
+          },
+          "developed_minus_short": {
+            "satisfied": 8,
+            "failed": 0,
+            "assignment_dependent": 6
+          }
+        },
+        "prelength_criteria_satisfied": false,
+        "length_developed_below_base": "unverified_coverage",
+        "all_frozen_criteria_satisfied": false,
+        "overall_pairwise_ranks": {
+          "developed_minus_base": "<",
+          "developed_minus_short": "assignment_dependent",
+          "base_minus_short": ">"
+        }
+      }
+    },
+    "gpt": {
+      "questions": {
+        "Q2": {
+          "distance": {
+            "developed": {
+              "lo": 0.9523809523809523,
+              "hi": 0.9523809523809523,
+              "exact": [
+                "20/21",
+                "20/21"
+              ]
+            },
+            "base": {
+              "lo": 1.0,
+              "hi": 1.0,
+              "exact": [
+                "1",
+                "1"
+              ]
+            },
+            "short": {
+              "lo": 1.0,
+              "hi": 1.0,
+              "exact": [
+                "1",
+                "1"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.047619047619047616,
+              "hi": -0.047619047619047616,
+              "exact": [
+                "-1/21",
+                "-1/21"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.047619047619047616,
+              "hi": -0.047619047619047616,
+              "exact": [
+                "-1/21",
+                "-1/21"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          },
+          "distribution": {
+            "patient": {
+              "N": 7,
+              "observed_counts": {
+                "expanded": 0,
+                "direct": 2,
+                "clarification": 5,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  0,
+                  0
+                ],
+                "direct": [
+                  2,
+                  2
+                ],
+                "clarification": [
+                  5,
+                  5
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.2857142857142857,
+                  "hi": 0.2857142857142857,
+                  "exact": [
+                    "2/7",
+                    "2/7"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.7142857142857143,
+                  "hi": 0.7142857142857143,
+                  "exact": [
+                    "5/7",
+                    "5/7"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "developed": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 20,
+                "direct": 0,
+                "clarification": 1,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  20,
+                  20
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  1,
+                  1
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.9523809523809523,
+                  "hi": 0.9523809523809523,
+                  "exact": [
+                    "20/21",
+                    "20/21"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.047619047619047616,
+                  "hi": 0.047619047619047616,
+                  "exact": [
+                    "1/21",
+                    "1/21"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "base": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "short": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            }
+          },
+          "signed_model_minus_patient": {
+            "developed": {
+              "expanded": {
+                "lo": 0.9523809523809523,
+                "hi": 0.9523809523809523,
+                "exact": [
+                  "20/21",
+                  "20/21"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.6666666666666666,
+                "hi": -0.6666666666666666,
+                "exact": [
+                  "-2/3",
+                  "-2/3"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            },
+            "base": {
+              "expanded": {
+                "lo": 1.0,
+                "hi": 1.0,
+                "exact": [
+                  "1",
+                  "1"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.7142857142857143,
+                "hi": -0.7142857142857143,
+                "exact": [
+                  "-5/7",
+                  "-5/7"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            },
+            "short": {
+              "expanded": {
+                "lo": 1.0,
+                "hi": 1.0,
+                "exact": [
+                  "1",
+                  "1"
+                ]
+              },
+              "direct": {
+                "lo": -0.2857142857142857,
+                "hi": -0.2857142857142857,
+                "exact": [
+                  "-2/7",
+                  "-2/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.7142857142857143,
+                "hi": -0.7142857142857143,
+                "exact": [
+                  "-5/7",
+                  "-5/7"
+                ]
+              },
+              "other": {
+                "lo": 0.0,
+                "hi": 0.0,
+                "exact": [
+                  "0",
+                  "0"
+                ]
+              }
+            }
+          }
+        },
+        "Q3": {
+          "distance": {
+            "developed": {
+              "lo": 0.42857142857142855,
+              "hi": 0.42857142857142855,
+              "exact": [
+                "3/7",
+                "3/7"
+              ]
+            },
+            "base": {
+              "lo": 0.42857142857142855,
+              "hi": 0.42857142857142855,
+              "exact": [
+                "3/7",
+                "3/7"
+              ]
+            },
+            "short": {
+              "lo": 0.3333333333333333,
+              "hi": 0.3333333333333333,
+              "exact": [
+                "1/3",
+                "1/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.09523809523809523,
+              "hi": 0.09523809523809523,
+              "exact": [
+                "2/21",
+                "2/21"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.09523809523809523,
+              "hi": 0.09523809523809523,
+              "exact": [
+                "2/21",
+                "2/21"
+              ]
+            }
+          },
+          "distribution": {
+            "patient": {
+              "N": 7,
+              "observed_counts": {
+                "expanded": 4,
+                "direct": 1,
+                "clarification": 1,
+                "other": 1,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  4,
+                  4
+                ],
+                "direct": [
+                  1,
+                  1
+                ],
+                "clarification": [
+                  1,
+                  1
+                ],
+                "other": [
+                  1,
+                  1
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.5714285714285714,
+                  "hi": 0.5714285714285714,
+                  "exact": [
+                    "4/7",
+                    "4/7"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                },
+                "other": {
+                  "lo": 0.14285714285714285,
+                  "hi": 0.14285714285714285,
+                  "exact": [
+                    "1/7",
+                    "1/7"
+                  ]
+                }
+              }
+            },
+            "developed": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "base": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 21,
+                "direct": 0,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  21,
+                  21
+                ],
+                "direct": [
+                  0,
+                  0
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 1.0,
+                  "hi": 1.0,
+                  "exact": [
+                    "1",
+                    "1"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            },
+            "short": {
+              "N": 21,
+              "observed_counts": {
+                "expanded": 19,
+                "direct": 2,
+                "clarification": 0,
+                "other": 0,
+                "ambiguous": 0,
+                "technical_missing": 0
+              },
+              "possible_counts": {
+                "expanded": [
+                  19,
+                  19
+                ],
+                "direct": [
+                  2,
+                  2
+                ],
+                "clarification": [
+                  0,
+                  0
+                ],
+                "other": [
+                  0,
+                  0
+                ]
+              },
+              "possible_proportions": {
+                "expanded": {
+                  "lo": 0.9047619047619048,
+                  "hi": 0.9047619047619048,
+                  "exact": [
+                    "19/21",
+                    "19/21"
+                  ]
+                },
+                "direct": {
+                  "lo": 0.09523809523809523,
+                  "hi": 0.09523809523809523,
+                  "exact": [
+                    "2/21",
+                    "2/21"
+                  ]
+                },
+                "clarification": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                },
+                "other": {
+                  "lo": 0.0,
+                  "hi": 0.0,
+                  "exact": [
+                    "0",
+                    "0"
+                  ]
+                }
+              }
+            }
+          },
+          "signed_model_minus_patient": {
+            "developed": {
+              "expanded": {
+                "lo": 0.42857142857142855,
+                "hi": 0.42857142857142855,
+                "exact": [
+                  "3/7",
+                  "3/7"
+                ]
+              },
+              "direct": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            },
+            "base": {
+              "expanded": {
+                "lo": 0.42857142857142855,
+                "hi": 0.42857142857142855,
+                "exact": [
+                  "3/7",
+                  "3/7"
+                ]
+              },
+              "direct": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            },
+            "short": {
+              "expanded": {
+                "lo": 0.3333333333333333,
+                "hi": 0.3333333333333333,
+                "exact": [
+                  "1/3",
+                  "1/3"
+                ]
+              },
+              "direct": {
+                "lo": -0.047619047619047616,
+                "hi": -0.047619047619047616,
+                "exact": [
+                  "-1/21",
+                  "-1/21"
+                ]
+              },
+              "clarification": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              },
+              "other": {
+                "lo": -0.14285714285714285,
+                "hi": -0.14285714285714285,
+                "exact": [
+                  "-1/7",
+                  "-1/7"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "overall": {
+        "distance": {
+          "developed": {
+            "lo": 0.6904761904761905,
+            "hi": 0.6904761904761905,
+            "exact": [
+              "29/42",
+              "29/42"
+            ]
+          },
+          "base": {
+            "lo": 0.7142857142857143,
+            "hi": 0.7142857142857143,
+            "exact": [
+              "5/7",
+              "5/7"
+            ]
+          },
+          "short": {
+            "lo": 0.6666666666666666,
+            "hi": 0.6666666666666666,
+            "exact": [
+              "2/3",
+              "2/3"
+            ]
+          }
+        },
+        "paired_difference": {
+          "developed_minus_base": {
+            "lo": -0.023809523809523808,
+            "hi": -0.023809523809523808,
+            "exact": [
+              "-1/42",
+              "-1/42"
+            ]
+          },
+          "developed_minus_short": {
+            "lo": 0.023809523809523808,
+            "hi": 0.023809523809523808,
+            "exact": [
+              "1/42",
+              "1/42"
+            ]
+          },
+          "base_minus_short": {
+            "lo": 0.047619047619047616,
+            "hi": 0.047619047619047616,
+            "exact": [
+              "1/21",
+              "1/21"
+            ]
+          }
+        },
+        "signed_model_minus_patient": {
+          "developed": {
+            "expanded": {
+              "lo": 0.6904761904761905,
+              "hi": 0.6904761904761905,
+              "exact": [
+                "29/42",
+                "29/42"
+              ]
+            },
+            "direct": {
+              "lo": -0.21428571428571427,
+              "hi": -0.21428571428571427,
+              "exact": [
+                "-3/14",
+                "-3/14"
+              ]
+            },
+            "clarification": {
+              "lo": -0.40476190476190477,
+              "hi": -0.40476190476190477,
+              "exact": [
+                "-17/42",
+                "-17/42"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          },
+          "base": {
+            "expanded": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "direct": {
+              "lo": -0.21428571428571427,
+              "hi": -0.21428571428571427,
+              "exact": [
+                "-3/14",
+                "-3/14"
+              ]
+            },
+            "clarification": {
+              "lo": -0.42857142857142855,
+              "hi": -0.42857142857142855,
+              "exact": [
+                "-3/7",
+                "-3/7"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          },
+          "short": {
+            "expanded": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "direct": {
+              "lo": -0.16666666666666666,
+              "hi": -0.16666666666666666,
+              "exact": [
+                "-1/6",
+                "-1/6"
+              ]
+            },
+            "clarification": {
+              "lo": -0.42857142857142855,
+              "hi": -0.42857142857142855,
+              "exact": [
+                "-3/7",
+                "-3/7"
+              ]
+            },
+            "other": {
+              "lo": -0.07142857142857142,
+              "hi": -0.07142857142857142,
+              "exact": [
+                "-1/14",
+                "-1/14"
+              ]
+            }
+          }
+        }
+      },
+      "leave_one_out": [
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 1,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 2,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 3,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 4,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 5,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 6,
+          "distance": {
+            "developed": {
+              "lo": 0.6865079365079365,
+              "hi": 0.6865079365079365,
+              "exact": [
+                "173/252",
+                "173/252"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.027777777777777776,
+              "hi": -0.027777777777777776,
+              "exact": [
+                "-1/36",
+                "-1/36"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.01984126984126984,
+              "hi": 0.01984126984126984,
+              "exact": [
+                "5/252",
+                "5/252"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q2",
+          "omission_index_in_question": 7,
+          "distance": {
+            "developed": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "base": {
+              "lo": 0.7142857142857143,
+              "hi": 0.7142857142857143,
+              "exact": [
+                "5/7",
+                "5/7"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.047619047619047616,
+              "hi": 0.047619047619047616,
+              "exact": [
+                "1/21",
+                "1/21"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 1,
+          "distance": {
+            "developed": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6428571428571429,
+              "exact": [
+                "9/14",
+                "9/14"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 2,
+          "distance": {
+            "developed": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6428571428571429,
+              "exact": [
+                "9/14",
+                "9/14"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.0,
+              "hi": 0.0,
+              "exact": [
+                "0",
+                "0"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 3,
+          "distance": {
+            "developed": {
+              "lo": 0.6428571428571429,
+              "hi": 0.6428571428571429,
+              "exact": [
+                "9/14",
+                "9/14"
+              ]
+            },
+            "base": {
+              "lo": 0.6666666666666666,
+              "hi": 0.6666666666666666,
+              "exact": [
+                "2/3",
+                "2/3"
+              ]
+            },
+            "short": {
+              "lo": 0.6111111111111112,
+              "hi": 0.6111111111111112,
+              "exact": [
+                "11/18",
+                "11/18"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.031746031746031744,
+              "hi": 0.031746031746031744,
+              "exact": [
+                "2/63",
+                "2/63"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.05555555555555555,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/18",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 4,
+          "distance": {
+            "developed": {
+              "lo": 0.7261904761904762,
+              "hi": 0.7261904761904762,
+              "exact": [
+                "61/84",
+                "61/84"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.6944444444444444,
+              "exact": [
+                "25/36",
+                "25/36"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.031746031746031744,
+              "hi": 0.031746031746031744,
+              "exact": [
+                "2/63",
+                "2/63"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.05555555555555555,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/18",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 5,
+          "distance": {
+            "developed": {
+              "lo": 0.7261904761904762,
+              "hi": 0.7261904761904762,
+              "exact": [
+                "61/84",
+                "61/84"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.6944444444444444,
+              "exact": [
+                "25/36",
+                "25/36"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.031746031746031744,
+              "hi": 0.031746031746031744,
+              "exact": [
+                "2/63",
+                "2/63"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.05555555555555555,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/18",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 6,
+          "distance": {
+            "developed": {
+              "lo": 0.7261904761904762,
+              "hi": 0.7261904761904762,
+              "exact": [
+                "61/84",
+                "61/84"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.6944444444444444,
+              "exact": [
+                "25/36",
+                "25/36"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.031746031746031744,
+              "hi": 0.031746031746031744,
+              "exact": [
+                "2/63",
+                "2/63"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.05555555555555555,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/18",
+                "1/18"
+              ]
+            }
+          }
+        },
+        {
+          "omitted_question": "Q3",
+          "omission_index_in_question": 7,
+          "distance": {
+            "developed": {
+              "lo": 0.7261904761904762,
+              "hi": 0.7261904761904762,
+              "exact": [
+                "61/84",
+                "61/84"
+              ]
+            },
+            "base": {
+              "lo": 0.75,
+              "hi": 0.75,
+              "exact": [
+                "3/4",
+                "3/4"
+              ]
+            },
+            "short": {
+              "lo": 0.6944444444444444,
+              "hi": 0.6944444444444444,
+              "exact": [
+                "25/36",
+                "25/36"
+              ]
+            }
+          },
+          "paired_difference": {
+            "developed_minus_base": {
+              "lo": -0.023809523809523808,
+              "hi": -0.023809523809523808,
+              "exact": [
+                "-1/42",
+                "-1/42"
+              ]
+            },
+            "developed_minus_short": {
+              "lo": 0.031746031746031744,
+              "hi": 0.031746031746031744,
+              "exact": [
+                "2/63",
+                "2/63"
+              ]
+            },
+            "base_minus_short": {
+              "lo": 0.05555555555555555,
+              "hi": 0.05555555555555555,
+              "exact": [
+                "1/18",
+                "1/18"
+              ]
+            }
+          }
+        }
+      ],
+      "length": {
+        "questions": {
+          "Q2": {
+            "known_strata": {
+              "<10": {
+                "N": {
+                  "patient": 5,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "5/7"
+              },
+              "10–29": {
+                "N": {
+                  "patient": 1,
+                  "developed": 1,
+                  "base": 0
+                },
+                "known_patient_weight": "1/7"
+              },
+              "≥30": {
+                "N": {
+                  "patient": 1,
+                  "developed": 20,
+                  "base": 21
+                },
+                "known_patient_weight": "1/7",
+                "known_length_comparison": {
+                  "distance": {
+                    "developed": {
+                      "lo": 1.0,
+                      "hi": 1.0,
+                      "exact": [
+                        "1",
+                        "1"
+                      ]
+                    },
+                    "base": {
+                      "lo": 1.0,
+                      "hi": 1.0,
+                      "exact": [
+                        "1",
+                        "1"
+                      ]
+                    }
+                  },
+                  "paired_difference": {
+                    "developed_minus_base": {
+                      "lo": 0.0,
+                      "hi": 0.0,
+                      "exact": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "unknown_words_N": {
+              "patient": 0,
+              "developed": 0,
+              "base": 0
+            },
+            "observed_support_gaps": [
+              {
+                "stratum": "<10",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              },
+              {
+                "stratum": "10–29",
+                "absent_arms": [
+                  "base"
+                ]
+              }
+            ],
+            "coverage_complete": false,
+            "standardized": null
+          },
+          "Q3": {
+            "known_strata": {
+              "<10": {
+                "N": {
+                  "patient": 1,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "1/7"
+              },
+              "10–29": {
+                "N": {
+                  "patient": 2,
+                  "developed": 0,
+                  "base": 0
+                },
+                "known_patient_weight": "2/7"
+              },
+              "≥30": {
+                "N": {
+                  "patient": 4,
+                  "developed": 21,
+                  "base": 21
+                },
+                "known_patient_weight": "4/7",
+                "known_length_comparison": {
+                  "distance": {
+                    "developed": {
+                      "lo": 0.25,
+                      "hi": 0.25,
+                      "exact": [
+                        "1/4",
+                        "1/4"
+                      ]
+                    },
+                    "base": {
+                      "lo": 0.25,
+                      "hi": 0.25,
+                      "exact": [
+                        "1/4",
+                        "1/4"
+                      ]
+                    }
+                  },
+                  "paired_difference": {
+                    "developed_minus_base": {
+                      "lo": 0.0,
+                      "hi": 0.0,
+                      "exact": [
+                        "0",
+                        "0"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "unknown_words_N": {
+              "patient": 0,
+              "developed": 0,
+              "base": 0
+            },
+            "observed_support_gaps": [
+              {
+                "stratum": "<10",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              },
+              {
+                "stratum": "10–29",
+                "absent_arms": [
+                  "developed",
+                  "base"
+                ]
+              }
+            ],
+            "coverage_complete": false,
+            "standardized": null
+          }
+        },
+        "overall": null
+      },
+      "clinical": {
+        "Q2": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 2,
+                "uncertain": 0,
+                "not_assessable": 5,
+                "technical_missing": 0
+              },
+              "definite_N": 2,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 6,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 7,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 7,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.0
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 20,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 20,
+              "present_among_definite": 0.0
+            }
+          }
+        },
+        "Q3": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 4,
+                "uncertain": 0,
+                "not_assessable": 2,
+                "technical_missing": 0
+              },
+              "definite_N": 5,
+              "present_among_definite": 0.2
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 7,
+              "n": {
+                "present": 0,
+                "absent": 7,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.14285714285714285
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 7,
+              "n": {
+                "present": 1,
+                "absent": 5,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 6,
+              "present_among_definite": 0.16666666666666666
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 21,
+              "n": {
+                "present": 0,
+                "absent": 21,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 21,
+              "present_among_definite": 0.0
+            }
+          }
+        },
+        "both": {
+          "patient": {
+            "DERAILMENT": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 6,
+                "uncertain": 0,
+                "not_assessable": 7,
+                "technical_missing": 0
+              },
+              "definite_N": 7,
+              "present_among_definite": 0.14285714285714285
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 14,
+              "n": {
+                "present": 0,
+                "absent": 13,
+                "uncertain": 0,
+                "not_assessable": 1,
+                "technical_missing": 0
+              },
+              "definite_N": 13,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 13,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 14,
+              "present_among_definite": 0.07142857142857142
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 14,
+              "n": {
+                "present": 1,
+                "absent": 12,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 13,
+              "present_among_definite": 0.07692307692307693
+            }
+          },
+          "developed": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            }
+          },
+          "base": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            }
+          },
+          "short": {
+            "DERAILMENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "POVERTY_OF_CONTENT": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "TANGENTIALITY": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 42,
+                "uncertain": 0,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 42,
+              "present_among_definite": 0.0
+            },
+            "UNCLEAR_REFERENCE": {
+              "N": 42,
+              "n": {
+                "present": 0,
+                "absent": 41,
+                "uncertain": 1,
+                "not_assessable": 0,
+                "technical_missing": 0
+              },
+              "definite_N": 41,
+              "present_among_definite": 0.0
+            }
+          }
+        }
+      },
+      "decision": {
+        "strict_overall": {
+          "developed_minus_base": "satisfied",
+          "developed_minus_short": "failed"
+        },
+        "nonworse_each_question": {
+          "Q2": {
+            "developed_minus_base": "satisfied",
+            "developed_minus_short": "satisfied"
+          },
+          "Q3": {
+            "developed_minus_base": "satisfied",
+            "developed_minus_short": "failed"
+          }
+        },
+        "strict_leave_one_out_counts": {
+          "developed_minus_base": {
+            "satisfied": 13,
+            "failed": 1,
+            "assignment_dependent": 0
+          },
+          "developed_minus_short": {
+            "satisfied": 2,
+            "failed": 12,
+            "assignment_dependent": 0
+          }
+        },
+        "prelength_criteria_satisfied": false,
+        "length_developed_below_base": "unverified_coverage",
+        "all_frozen_criteria_satisfied": false,
+        "overall_pairwise_ranks": {
+          "developed_minus_base": "<",
+          "developed_minus_short": ">",
+          "base_minus_short": ">"
+        }
+      }
+    }
+  },
+  "joint_decision": {
+    "overall_rank_agreement": "different",
+    "common_frozen_criteria_satisfied": false
+  }
+}

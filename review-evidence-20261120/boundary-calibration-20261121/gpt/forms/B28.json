@@ -1,0 +1,27 @@
+{
+  "DERAILMENT": {
+    "status": "present",
+    "reason": "The reply shifts from unfolding a map to seasonal candle prices without an intelligible connection.",
+    "evidence": [
+      {"quote": "I unfolded my map."},
+      {"quote": "Candles were cheaper in winter."}
+    ]
+  },
+  "POVERTY_OF_CONTENT": {
+    "status": "absent",
+    "reason": "The reply conveys specific actions and a price comparison rather than sustained vague or circular statements.",
+    "evidence": []
+  },
+  "TANGENTIALITY": {
+    "status": "absent",
+    "reason": "Despite an unrelated sentence, the reply answers the route-selection question by describing unfolding a map and having a route marked.",
+    "evidence": []
+  },
+  "UNCLEAR_REFERENCE": {
+    "status": "present",
+    "reason": "The speaker does not identify whether 'she' refers to Mara or Jo, both introduced in the preceding exchange.",
+    "evidence": [
+      {"quote": "Then she marked a route for me."}
+    ]
+  }
+}

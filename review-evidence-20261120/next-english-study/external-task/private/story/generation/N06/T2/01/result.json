@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 1,
+  "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fad9-2940-73f2-91ee-1fba1a2eba04",
+  "raw": "Cinderella is a young woman whose father dies, and she’s left living with her stepmother and two stepsisters. They treat her badly and make her do all the housework.\n\nOne day, there’s an invitation to a ball at the palace. The stepsisters get dressed up and go, but Cinderella is left behind. Then her fairy godmother appears. She turns a pumpkin into a coach, gives Cinderella a beautiful dress and glass slippers, and sends her to the ball. But she warns her that the magic will end at midnight.\n\nThe prince dances with Cinderella and falls in love with her. When the clock starts striking twelve, she rushes away and loses one of her glass slippers on the stairs.\n\nThe prince has people take the slipper around to find the woman it fits. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it on, and it fits perfectly. The prince knows she’s the woman from the ball, and they marry and live happily ever after.",
+  "raw_sha256": "7572abd7752069baff8c9839f92af5787405380b189d0dbbf7c7448252f4c807",
+  "request_sha256": "6a990eedfb34b802970a8608010d74635817ee389f49efe675e4efef4c573b73",
+  "started_utc": "2026-11-20T21:24:58.191508+00:00",
+  "completed_utc": "2026-11-20T21:25:06.828474+00:00",
+  "usage": {
+    "input_tokens": 6023,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 208,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f8c8f3aee183d53fdce2f48cd765ede29dfab61eef3b4228572f6bf975c6bf02",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5ec158d141b00fffc43192031b99cba9c257f2faf9e5d43d117cd83fcc3bce8e"
+}

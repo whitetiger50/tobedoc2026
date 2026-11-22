@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "background": "Morgan is 34 and works in the projection booth at a neighborhood cinema. Morgan has early and late shifts.",
+    "history": "Morgan was diagnosed with schizophrenia six years ago and has had regular outpatient follow-up for the last two years. The current routine is manageable.",
+    "organization": "Keeps events in sequence.",
+    "spontaneity": "Comfortable filling in a relevant detail.",
+    "guardedness": "At ease with the usual clinician.",
+    "expression": "Conversational, with a dry sense of humor.",
+    "self_understanding": "Remembers feeling overwhelmed during the last episode and values having a routine.",
+    "verbal_productivity": "Normal",
+    "facts": [
+      {
+        "kind": "background",
+        "content": "Sets up screenings and checks the sound before customers come in. Packs a sandwich for every shift, early or late.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When work or food comes up."
+      },
+      {
+        "kind": "treatment",
+        "content": "Takes the prescribed tablet every evening after brushing teeth.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing the medication routine."
+      },
+      {
+        "kind": "background",
+        "content": "A phone alarm and a note on the door were reminders to bring a staff pass. Still uses the phone alarm at 7:10 in the morning. Took the note down last month.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing reminders or preparing for work."
+      },
+      {
+        "kind": "background",
+        "content": "After an early shift Morgan takes the bus home. After a late shift a coworker drops Morgan off.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing getting home from work."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Usually sleeps about seven hours on a work night.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about sleep."
+      },
+      {
+        "kind": "subjective_experience",
+        "content": "Has not heard a voice that others could not hear in the last month.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When discussing recent symptoms."
+      },
+      {
+        "kind": "background",
+        "content": "Makes small clay bowls on days off.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When asked about interests."
+      },
+      {
+        "kind": "background",
+        "content": "Tuesday mornings are easiest for a clinic appointment.",
+        "patient_knows": true,
+        "disclosure": "on_topic",
+        "disclosure_context": "When planning a visit."
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "question": "What do you do before the first screening starts?",
+      "answer": "I set up the screenings and check the sound before the customers come in. Better to sort it out before there’s an audience to complain."
+    },
+    {
+      "question": "When do you usually take your tablet?",
+      "answer": "Every evening after I’ve brushed my teeth. It’s part of the routine now."
+    },
+    {
+      "question": "We had a phone alarm and a note on the door down as ways to remember your pass. Are you still using the reminder?",
+      "answer": "I still use the phone alarm at 7:10 in the morning. I took the note off the door last month."
+    },
+    {
+      "question": "Do you still use the phone alarm for your pass?",
+      "answer": "Yes, still at 7:10 every morning."
+    },
+    {
+      "question": "What time do you set it for?",
+      "answer": "7:10 in the morning."
+    },
+    {
+      "question": "How much sleep do you get on a work night?",
+      "answer": "Usually about seven hours on a work night."
+    },
+    {
+      "question": "I see early and late shifts on your rota. Do you take food with you for your shift?",
+      "answer": "Yes, I pack a sandwich for every shift, early or late."
+    },
+    {
+      "question": "Thinking of the early and late shifts on that rota, how do you get home after your shift?",
+      "answer": "After an early shift I get the bus home. If I’m on a late, a coworker drops me off."
+    },
+    {
+      "question": "How do you get home when you finish a late shift?",
+      "answer": "A coworker drops me off after a late shift."
+    },
+    {
+      "question": "In the last month, have you heard a voice other people could not hear?",
+      "answer": "No, I haven’t heard any voices like that in the last month."
+    },
+    {
+      "question": "What do you like making on your days off?",
+      "answer": "I like making small clay bowls on my days off."
+    },
+    {
+      "question": "When would it be easiest to come back here for a visit?",
+      "answer": "Tuesday mornings are easiest for me."
+    }
+  ]
+}

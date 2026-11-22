@@ -1,0 +1,50 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long do you usually stay?",
+    "reason": "Both Wednesday activities remain live referents for staying, and their durations differ.",
+    "alternatives": [
+      {
+        "meaning": "Time spent at the book group.",
+        "answer": "Ren usually stays for one hour."
+      },
+      {
+        "meaning": "Time spent visiting Mom.",
+        "answer": "Ren usually spends about three hours visiting Mom."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The immediately preceding question explicitly identifies the bedside speaker, resolving the referent of 'it'.",
+    "alternatives": [
+      {
+        "meaning": "The location of the bedside speaker.",
+        "answer": "The speaker sits on the windowsill beside the bed."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "who does it seem to be meant for?",
+    "reason": "Following Alex's explicit distinction between knowledge and feeling, 'seem' sufficiently identifies the announcement's felt personal target.",
+    "alternatives": [
+      {
+        "meaning": "Who the announcement feels directed at when Alex hears it on a crowded tram.",
+        "answer": "It can feel directed personally at Alex, despite Alex knowing the announcement is for everyone."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "when it went quiet that day",
+    "reason": "The immediately preceding exchange fixes Thursday as the day and identifies what Sam was listening to.",
+    "alternatives": [
+      {
+        "meaning": "The programme playing before Thursday's radio outage.",
+        "answer": "Sam was listening to the music request show."
+      }
+    ]
+  }
+}

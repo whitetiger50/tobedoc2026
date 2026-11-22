@@ -1,0 +1,109 @@
+{
+  "id": "Vddd194dfc12aabf9f2ac89d5",
+  "reader": "gpt",
+  "session": "01a1fc4a-781a-70e0-a40c-3f821c243d73",
+  "attempt": "attempt-01",
+  "packet_sha256": "b1d45d8ad8314ee9f9f6f8d51596db5ccba8fcfdd0af36087a51d2d54e93e73b",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "23fb2a17c3cd99c64f18066553cf984fcd870293a5824667d736191f6669d5ec",
+  "provider_sha256": "5b841c5fab5c083fbdcbaaa46eb39a223decb16380321616680241553c757c52",
+  "items": {
+    "v1": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean my sister Inez, or Pat from the café?",
+        "reason": "The reply asks who was meant without stating whether either person came over.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean since our last visit, or since I started the lower dose?",
+        "reason": "The reply asks which period was meant without stating whether any tablets were missed during either period.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the shorter shifts or the later start?",
+        "reason": "The reply asks which change was meant without stating whether either change was requested.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v4": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while I’m playing quiet music through my headphones.",
+        "reason": "The reply explicitly states that commentary stops while music plays but ringing continues.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while I’m playing quiet music through my headphones."
+        },
+        "B": {
+          "state": "supported",
+          "quote": "But the high ringing in both ears keeps going, even with the music on."
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    }
+  },
+  "ended": "2026-11-21T04:08:35.474053+00:00"
+}

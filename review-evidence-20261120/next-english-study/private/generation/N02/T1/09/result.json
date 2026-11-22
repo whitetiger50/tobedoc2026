@@ -1,0 +1,29 @@
+{
+  "case": "N02",
+  "arm": "T1",
+  "turn": 9,
+  "question": "Does it take much planning?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac4-e66f-7cf0-9ed9-88d460ade4b3",
+  "raw": "It’s more the getting started than the planning. I think choosing where to go the night before might help.",
+  "raw_sha256": "83e083f6ee6324acb13e76bf17ba4d32593a63e6bcee31057cd5161c62db8bec",
+  "request_sha256": "273568c378ed9bfa16f1922e0dfd9c14794e0cfb312ce0ac9e1bd11e59374471",
+  "started_utc": "2026-11-20T21:02:50.384663+00:00",
+  "completed_utc": "2026-11-20T21:02:58.338923+00:00",
+  "usage": {
+    "input_tokens": 7376,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 130,
+    "reasoning_output_tokens": 102
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "ebebb9284068243a7d39e2de2e934a43275b6a8f2c6f284efcbaf260fc824c09",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "5669236c7e1708deea3bec2c7e2a175254e77f28de677620402edef70297b075"
+}

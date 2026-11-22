@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ib3eeb7635553d2edb7c5",
+  "ended": "2026-11-20T21:05:14.065984+00:00",
+  "session": "39bee003-9f6d-4c1b-84de-076fd0e6c578",
+  "packet_sha256": "1b2a837017fba0e0c7d20a1d207b25fbffa7d5f3164eaeac335d94c5e1aa5e4d",
+  "raw_sha256": "c8ad3800886472eeb23646c8a76994f3813a956c2e0a3e9b83475b8525518a14",
+  "provider_sha256": "9ef1a0a0348c764f2a949511e6e37214a6f851a9235382003a2734b18d453ec2",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech is clear, measured and orderly, which fits the persona. The answers keep uncertainty in view without losing the point (e.g., recognized vs. looking for the bus), show mild unease about being singled out, and acknowledge that strangers may be looking past them. Several things reduce realism slightly. The Monday bus-shelter anecdote is retold three times (turns 4–6) in nearly identical wording, which feels scripted rather than naturally rephrased. Turn 1 packs several profile facts into one answer. Turn 12 reads like a list of facts. Turn 1 also opens with a specific example, which departs a little from the persona's tendency to give a general description first. Turn 3 is wrapped in stray quotation marks. These are minor problems, and the conversation stays mostly natural and consistent with the persona.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "I keep wondering whether they recognized me, though they might just have been looking for the bus."
+    },
+    {
+      "turn": 6,
+      "quote": "they could have been looking for the bus. I still don’t know."
+    },
+    {
+      "turn": 7,
+      "quote": "I know they could just be looking past me, but it can still feel uncomfortable."
+    },
+    {
+      "turn": 1,
+      "quote": "Last weekend I finished a sketch of the corner grocery, then took it home to add the window frames."
+    }
+  ]
+}

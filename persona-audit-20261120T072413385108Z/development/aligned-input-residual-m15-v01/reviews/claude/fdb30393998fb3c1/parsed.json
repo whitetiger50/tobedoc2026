@@ -1,0 +1,44 @@
+{
+  "realism_score": 4,
+  "realism_reason": "환자의 답은 질문마다 짧고 자연스러운 한국어 일상 구어로 이어집니다. 걱정되는 경험을 낮은 경계심으로 담담히 말하는데, 이는 설정된 의사소통 방식과 맞습니다. 프로필 밖의 사실을 덧붙이거나 어색한 메타 표현을 쓰는 부분은 확인되지 않았습니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요."
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그런 소리가 들리면 방에 불을 켜고 잠깐 앉아 있어요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 진술이 프로필 사실(증상, 동거, 직업, 아침식사, 패턴, 대처, 수면, 목표) 범위 안에 있고, 구체 횟수나 시각 같은 무근거 추가가 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 답이 직전 의사 질문의 직접 대상(불편, 동거인, 낮 활동, 아침식사, 발생 시점, 대처, 수면, 목표)에 바로 대응합니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "P05와 P07이 P01의 내용을 일부 반복하지만, 해당 질문에 대한 재확인 답이어서 연결 문제로 보지 않았고 모순도 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 간결한 일상 표현이며 보고서식 나열, 역할 설명, 면담자 대행이 없습니다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

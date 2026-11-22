@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 5,
+  "question": "Can you give me an example of a practical task you did with other people recently?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-2938-7c52-bbe3-8e7a4559b9a3",
+  "raw": "At my last kitchen shift, I was labeling the leftovers and noticed the stew didn’t have a date label. I checked with the cook before putting it away. We need the dates on so people know what’s there.",
+  "raw_sha256": "5f10726785f8e4cc945355acebe679cd2e4bf0c8ee7d7422fcca3861f30f0d36",
+  "request_sha256": "8b82b6c3f479bfdbdc897e23b674910b8e8e69b147ed15c4e0e77e22085b88e9",
+  "started_utc": "2026-11-20T21:00:56.385356+00:00",
+  "completed_utc": "2026-11-20T21:01:00.700152+00:00",
+  "usage": {
+    "input_tokens": 6294,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 48,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "166fe85084696330e23b07d77f91596a9291f6d76c63325bfd8295b89e794619",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "36ab123348388b17f71fd18b7abae5fd7fa587c349ecd62ae1370f681410ee02"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "B",
+  "turn": 3,
+  "question": "How long do you spend at your mom’s place on a Wednesday?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c6e-70f3-84e2-536c894d15df",
+  "raw": "Usually about three hours. We get caught up and work on a crossword together.",
+  "raw_sha256": "6c52398205f0f514defef9081b7b6037460026c79322e2a9411b8dfd0f6f804c",
+  "request_sha256": "d00dd1cb0363e240eee472a973b13be00dc0fad74f1d9fffbe80db71a13bb353",
+  "started_utc": "2026-11-21T03:41:06.299459+00:00",
+  "completed_utc": "2026-11-21T03:41:14.658605+00:00",
+  "usage": {
+    "input_tokens": 23515,
+    "cached_input_tokens": 12544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 82,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "40a3d903be727f9a7aa2516baa29d57dc7c81a2ee3f3575739894afaedd87fd9",
+  "https_fallback": false,
+  "websocket_handshake_retries": 1,
+  "trace_sha256": "0f84ff951e55fe65ded14a3750ae14da9ca8688eca9e61b57386d4b9c0077a47"
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "B",
+  "turn": 9,
+  "question": "Who, if anyone, do you like to compare notes with about how you're doing?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-ed51-74c3-b381-9b11efcc7681",
+  "raw": "My partner, mostly. They notice if I’ve been going to bed later and might mention it over breakfast. I’m comfortable talking things through with them, and with you here. I tend to keep it private at pottery.",
+  "raw_sha256": "a6b483c99526bea616153189eb8bd89da8b5d1d33dc38d7b7c9c70907032417d",
+  "request_sha256": "d20dde20295d381887c21ed34403cb767ef6f2cd1819f6e9476fa1e648b9f83d",
+  "started_utc": "2026-11-20T20:41:46.463477+00:00",
+  "completed_utc": "2026-11-20T20:41:51.347739+00:00",
+  "usage": {
+    "input_tokens": 70970,
+    "cached_input_tokens": 57600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "b8ac78af1a71305ad779a50c037e677f793afd58f6a09bd959fed7c1176b4802",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "215739ea17130bcb41a8e2bd66fd10ea9467ec47c2ee5889982d4f8a342f35cb"
+}

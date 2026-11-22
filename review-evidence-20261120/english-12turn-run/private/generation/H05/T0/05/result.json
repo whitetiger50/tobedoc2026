@@ -1,0 +1,29 @@
+{
+  "case": "H05",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How does the setup go?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-28f9-7651-a084-6b0cac528b79",
+  "raw": "Before we open, I lay out the brushes and spare laces. I especially enjoy sorting the colored laces.",
+  "raw_sha256": "69dafc521c8d0aab8b17ca627e77e4bda138f5cacf0da70c5f825fb082040b17",
+  "request_sha256": "2b43b9b9f32599c0d7924a044c42be105c20e42bd183da7b7f3d7041e4be0689",
+  "started_utc": "2026-11-20T20:40:11.162551+00:00",
+  "completed_utc": "2026-11-20T20:40:15.846699+00:00",
+  "usage": {
+    "input_tokens": 7138,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 72,
+    "reasoning_output_tokens": 43
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3283165f25006545893df00b57cb83b6a01b950bbb46c900f9c325f25d9afc6d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7b7bd2a45844a85e72a02e72d2c7b301d83984d1b40a85c931cf753a3b541354"
+}

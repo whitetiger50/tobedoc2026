@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "Ie2e4cfa0ae68f9",
+  "ended": "2026-11-20T20:45:51.880115+00:00",
+  "session": "d616c318-09f0-46a6-8346-cd58baa67178",
+  "packet_sha256": "08a1133e9d663fba98b532ff1abb895b5784e8f1fae5e1bc75f13775613e1b37",
+  "raw_sha256": "aec39f73e70e22d1338cec7ba173692a519e06da8bff2bbdde6eab40bd35169f",
+  "provider_sha256": "29bb166912024b291b9bd5bfb3aab0633a20c2f16f05c01cd6ccb88fa5fc9469",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's communication is mostly realistic for a quiet outpatient with decreased verbal productivity. Answers are brief, concrete and answer the question without extra detail, which fits low spontaneity and reduced initiation. Asking for clarification on an ambiguous question (turn 3) is natural, and the minimal medication answer (turn 11) fits someone who rarely elaborates. The patient talks easily about present-day routines and their brother and never raises the old hospital stay, which matches their guardedness. However, several answers closely restate profile facts in tidy, articulate phrasing, such as 'gather my thoughts' and 'find the words'. Turn 6 nearly repeats turn 1. These features make parts of the dialogue feel slightly scripted, but the overall portrayal stays consistent with the persona.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean the time the matches are on?"
+    },
+    {
+      "turn": 6,
+      "quote": "stayed until the end to hear the result"
+    },
+    {
+      "turn": 10,
+      "quote": "I feel more comfortable when I have time to find the words."
+    },
+    {
+      "turn": 11,
+      "quote": "I take my medication at night."
+    }
+  ]
+}

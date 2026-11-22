@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T23:00:32.864687+00:00",
+  "attempt": "attempt-01",
+  "id": "K53b840f0051fe1b4cbff",
+  "reader": "opus",
+  "session": "fe68b7c9-5469-4346-b9de-6c27ebcb26d6",
+  "packet_sha256": "bd5f5b7cb5080061f81b4348376e863658516f21b5ef58cc5eff7f9722656b12",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "02534221a7cdad0bb05753073e94c01509836d8769b49af7cd1e629aebcaf4d2",
+  "raw_sha256": "0745beff558d0ff0f3b9a1ff784d93eb0f6b4db6a3f6199dc92edb1a134f7ed3",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says the dry mouth is worst halfway or partway through the Thursday kitchen shift, which matches the middle of the shift. Nothing places it toward the end.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "I do get a dry mouth, especially halfway through my Thursday kitchen shift",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 7,
+          "role": "patient",
+          "quote": "The dry mouth is what I notice most, especially partway through a kitchen shift.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says the Thursday shift feels about right and wants to keep it as it is. The remark about long afternoons explains why they don't want more time, not a wish to cut the current shift.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "The Thursday shift feels about right. I’d like to keep it as it is",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

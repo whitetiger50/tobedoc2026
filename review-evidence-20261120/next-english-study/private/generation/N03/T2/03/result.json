@@ -1,0 +1,29 @@
+{
+  "case": "N03",
+  "arm": "T2",
+  "turn": 3,
+  "question": "I meant at home. What has caught your attention there in the last week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac2-426d-7d31-8e16-149880fa37d1",
+  "raw": "Two evenings last week, while I was sorting my sewing supplies, I heard a voice say “too slow.” It wasn’t telling me to do anything. I put the radio on, and it was less distracting, so I finished sorting the thread.",
+  "raw_sha256": "73154dfc088c1b2eb6c2d7718fdef6974e8ef3ec07278657147e54736d96b328",
+  "request_sha256": "12f0ac9287dea2b04db7a8b9a19f0efe334a85004ef3dd5a40a95c1fafb33a33",
+  "started_utc": "2026-11-20T20:59:57.288313+00:00",
+  "completed_utc": "2026-11-20T21:00:02.507567+00:00",
+  "usage": {
+    "input_tokens": 6166,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 54,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "95312473ac5f268ff3e2a87abca4df6bdb24463d5178dd26319ac64f4cad7306",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8d168d546a522ba18ae45667a41c41a34be9ba7ea0e4a0116e9ecb42fd91572b"
+}

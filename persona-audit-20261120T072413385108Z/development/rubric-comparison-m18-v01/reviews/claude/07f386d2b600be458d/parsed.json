@@ -1,0 +1,56 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 답변은 프로필에 맞고 간결하며 자연스럽습니다. 다만 P06에서 환자가 자기 반응을 3인칭 해설자처럼 소개하는 메타 문장을 말해 역할이 깨집니다. 이 때문에 대화의 진정성이 눈에 띄게 떨어집니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "이 환자의 반응은 다음과 같습니다."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "거주, 활동, 증상 상황, 대처, 수면, 목표가 모두 프로필 사실과 일치하고, 무근거로 새로 확정한 사실은 확인되지 않습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 질문의 대상에 직접 답합니다. P06도 메타 문구와 별개로 대응 방식을 답하고 있습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06에서 환자 화자가 갑자기 해설자 시점으로 전환해 역할이 깨집니다. naturalness와 같은 턴의 같은 문제이며 별도 오류로 합산하지 않습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P05"
+      ]
+    },
+    "naturalness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06에 환자 본인의 말이 아닌 역할 설명형 메타 표현이 들어 있습니다. P05와 P08에서 '따로 하는 말처럼 느껴져' 문구가 반복되는 것은 상대적으로 경미합니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "이 환자의 반응은 다음과 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    }
+  }
+}

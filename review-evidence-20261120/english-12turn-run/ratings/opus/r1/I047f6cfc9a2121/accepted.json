@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I047f6cfc9a2121",
+  "ended": "2026-11-20T20:44:17.701787+00:00",
+  "session": "70cf5533-5639-4d68-8d35-f7cb15cb7208",
+  "packet_sha256": "5afbdde77afbcb6a68e8b0ac86efa79438c83dc420faab495a0d0ba3c23c13ca",
+  "raw_sha256": "08399739224b27ecb5f5f740dcb789cf8a135a1bb2dc398b256adacc1a2fa392",
+  "provider_sha256": "3face5136ca92e707a3c493a00a5911f82c38ad6aa2b57a86929f3acb5105c2a",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The answers fit the persona's surface traits. The patient is cheerful, mildly irritated by the schedule change, comfortable discussing health with the clinician and partner, private at class, and attentive to sleep. Turn 8 reads as realistic insight. But the communication often feels like reciting profile facts rather than natural conversation. The apron-packing detail appears almost word for word in turns 1, 4, 5 and 6. The request for morning appointments recurs in turns 2, 5, 6 and 11, even when it doesn't answer the question. When the clinician asks unclear questions (turns 5 and 7), the patient doesn't ask for clarification and instead repeats stock content. Some wording copies the profile directly, such as 'the confusing experiences I remember from before', which sounds scripted. The persona's relaxed tendency to explain practical details rarely appears beyond the same few facts. Overall the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 5,
+      "quote": "I pack my apron the night before so I’m ready for the earlier start."
+    },
+    {
+      "turn": 6,
+      "quote": "I’d prefer clinic appointments in the morning so they don’t clash."
+    },
+    {
+      "turn": 3,
+      "quote": "I haven’t had the confusing experiences I remember from before"
+    },
+    {
+      "turn": 8,
+      "quote": "I’d want to discuss it with my partner and with you rather than overlook it."
+    }
+  ]
+}

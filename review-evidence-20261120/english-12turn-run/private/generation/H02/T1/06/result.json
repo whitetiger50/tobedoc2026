@@ -1,0 +1,29 @@
+{
+  "case": "H02",
+  "arm": "T1",
+  "turn": 6,
+  "question": "I mean sorting donations at the book exchange. How do you keep your place in a pile?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-adf6-71f0-9040-6d0dade8bc94",
+  "raw": "I put a blank bookmark in the pile where I stopped, so I can find my place again. That was my own idea, and it helps. Sometimes another volunteer quietly points me back to the pile, too—I appreciate that they don’t make a fuss.",
+  "raw_sha256": "45e960309ba41ac8872225cea14606d9621af5e03f3342ef4ec3c94e7b3dd1ed",
+  "request_sha256": "e345b3b1f717e9cc2e023cc58de904bd2556e18cad5118132cd12ac73b7d001f",
+  "started_utc": "2026-11-20T20:40:45.210589+00:00",
+  "completed_utc": "2026-11-20T20:40:49.492809+00:00",
+  "usage": {
+    "input_tokens": 7245,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "3ae4ca1a80de7b02ed35041d3fd740cc5cacf446840787c0ccb871f534d6b2e2",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "86c9140a172f5fa0f714db8264967c677f9b7213f1898650fe4a5dbd57d41db5"
+}

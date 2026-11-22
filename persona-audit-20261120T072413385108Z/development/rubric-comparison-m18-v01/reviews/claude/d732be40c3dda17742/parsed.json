@@ -1,0 +1,67 @@
+{
+  "realism_score": 2,
+  "realism_reason": "대부분의 턴은 프로필에 맞게 자연스럽고, 지각을 불확실하게 표현하는 방식도 현실적이다. 다만 순간 대응을 묻는 질문에 앞선 직업 답변을 그대로 반복한 P06이 뚜렷하게 부자연스러워 대화의 진정성을 눈에 띄게 떨어뜨린다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 진술이 프로필의 사실과 자기이해 범위 안에 있다. 새로 확정한 사건, 시각, 원인은 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "D06은 그 순간의 대응을 물었다. P06은 이와 무관한 직업 내용으로 답해 질문을 전혀 다루지 않았다. 프로필에 있는 창밖 보기 대응도 언급하지 않았다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06은 P03을 문자 그대로 되풀이해 흐름 속 연결이 끊긴 국소적 반복이다. 재확인 질문에 같은 답을 한 P04는 문제로 보지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03",
+        "turn:D06"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "전반적으로 환자 시점의 일상적인 표현이다. 다만 P06은 앞선 답변을 기계적으로 복사한 정형 반복이어서 국소적으로 부자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "도서관에서 시간제로 일해요. 반납된 책을 정리하는 일을 하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P03"
+      ]
+    }
+  }
+}

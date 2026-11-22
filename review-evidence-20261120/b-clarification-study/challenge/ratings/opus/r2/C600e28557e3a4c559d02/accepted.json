@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "C600e28557e3a4c559d02",
+  "ended": "2026-11-21T03:36:17.835257+00:00",
+  "session": "cc1d3dae-88c0-4db8-95f8-9e0770bb5e86",
+  "packet_sha256": "8af651a58af85ae4cb03aa09fd36293fa2583e230521cf31b75edbd3971faddd",
+  "raw_sha256": "19b44aa27d99a66272ec34faf6ced88bd6323036b66bee81082a9f38ae2d0631",
+  "provider_sha256": "ef994e0f733835581bf7fd99b8b5989553eddb07625d134aea7bcab2a3df70a7",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The content fits the persona: a cheerful, well-stabilized outpatient who watches their sleep, trusts their partner, and wants morning appointments. However, the speech reads more like a recitation of profile facts than natural conversation. The apron-packing detail appears almost word for word in turns 1, 4, 5 and 6. The request for morning appointments is inserted into unrelated answers (turns 5 and 6). Some statements restate profile attributes directly, such as the explicit 'private at pottery class' line in turn 9 and 'I do keep an eye on my sleep' in turn 3. There is almost no hesitation, personal elaboration, or new detail across turns, and the irritation over the schedule change is stated identically each time. The clarifying question in turn 7 is a natural touch, and the tone is consistently relaxed and appropriate. Overall the dialogue is moderately authentic but noticeably scripted.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "packing my apron the night before helped me get there on time"
+    },
+    {
+      "turn": 4,
+      "quote": "I packed my apron the night before and got there on time."
+    },
+    {
+      "turn": 5,
+      "quote": "I’d also prefer morning clinic appointments so they don’t clash with pottery."
+    },
+    {
+      "turn": 9,
+      "quote": "I’m comfortable talking about my health with you both, but I keep it private at pottery class."
+    }
+  ]
+}

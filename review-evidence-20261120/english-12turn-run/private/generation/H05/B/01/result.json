@@ -1,0 +1,27 @@
+{
+  "case": "H05",
+  "arm": "B",
+  "turn": 1,
+  "question": "What would you like me to know about the way you spend your days?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e8-7873-98e6-45e79832c5c6",
+  "raw": "I help at our family’s shoe-repair stall a few mornings a week. I lay out the brushes and spare laces before we open—I quite like sorting the colored laces. Otherwise I’m mostly at my apartment. If an afternoon gets too quiet, I sometimes ring an old friend for a chat.",
+  "raw_sha256": "83ea5b9448f576cc62ea3624b339f568c650d8e8a971764f58944e365fbbbcce",
+  "request_sha256": "19b5cbdce4ad3bb9395456184c7217206ecff1109f5db9c9344d633c9b6d89f8",
+  "started_utc": "2026-11-20T20:36:54.019583+00:00",
+  "completed_utc": "2026-11-20T20:36:58.578326+00:00",
+  "usage": {
+    "input_tokens": 7670,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "94ff514daba6f926e34ac8856ee816c319d3aaf44c8a14005b65ba1c3ada38b3",
+  "trace_sha256": "d36a9da58bee9c2f4674fc4179cf230b7d6c255f335d2d821665ca66c3aad189"
+}

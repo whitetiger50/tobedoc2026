@@ -1,0 +1,89 @@
+{
+  "id": "P1bdba5b0d7fa24be9279ab7d",
+  "reader": "opus",
+  "session": "9cac576e-c69c-4600-8c40-bd67ff4aa79c",
+  "attempt": "attempt-01",
+  "packet_sha256": "6ced5263d12513477685c8dcf02277cb90853f5908abb61cd4edc85d0bf418f7",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "e80ef7f3d91da5d73558c4cab0ab657f14155399041ff9f846ef000ad360123d",
+  "raw_sha256": "91a4b765e42967e1f0ede2b88547359cbef0a9a3aa83652909b48eae6b189303",
+  "items": {
+    "v1": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "Were you done by six that evening?",
+        "reason": "'That evening' could mean the cooking class or the swimming lesson, but both finished by six, so either reading gets the same reply.",
+        "alternatives": [
+          {
+            "meaning": "Whether the cooking class was finished by six in the evening.",
+            "answer": "Yes, the cooking class finished by six."
+          },
+          {
+            "meaning": "Whether the swimming lesson was finished by six in the evening.",
+            "answer": "Yes, the swimming lesson finished by six."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does it stay on all night?",
+        "reason": "'It' could mean the fan or the bedside speaker, and the fan runs all night while the speaker stops on a twenty-minute timer, so the factual answer differs.",
+        "alternatives": [
+          {
+            "meaning": "Whether the fan stays on all night.",
+            "answer": "Yes, the fan runs all night."
+          },
+          {
+            "meaning": "Whether the bedside speaker stays on all night.",
+            "answer": "No, the speaker stops after twenty minutes on a timer."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Are you still using the reminder?",
+        "reason": "'The reminder' could mean the phone alarm or the note on the door, and Morgan still uses the alarm but took the note down last month.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan still uses the phone alarm to remember the pass.",
+            "answer": "Yes, the phone alarm still goes off at 7:10 in the morning."
+          },
+          {
+            "meaning": "Whether Morgan still uses the note on the door to remember the pass.",
+            "answer": "No, Morgan took the note down last month."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Which stop do you get on at?",
+        "reason": "The question names both the number 8 bus and the tram, and Alex boards them at different stops (Orchard Road and Bell Square), so the answer depends on which mode is meant.",
+        "alternatives": [
+          {
+            "meaning": "The stop where Alex boards the number 8 bus.",
+            "answer": "Alex gets on the number 8 bus at Orchard Road."
+          },
+          {
+            "meaning": "The stop where Alex boards the tram.",
+            "answer": "Alex gets on the tram at Bell Square."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:52:34.342225+00:00"
+}

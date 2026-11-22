@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "I asked for the later start. My supervisor suggested shorter shifts.",
+    "reason": "The reply attributes each change: the patient requested the later start, and the supervisor suggested the shorter shifts.",
+    "A": {
+      "state": "supported",
+      "quote": "My supervisor suggested shorter shifts."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I asked for the later start."
+    }
+  },
+  "v2": {
+    "quote": "Inez did—she came over to the flat. Pat helped me at the café",
+    "reason": "The reply confirms Inez came to the flat and places Pat's help at the café rather than the flat.",
+    "A": {
+      "state": "supported",
+      "quote": "Inez did—she came over to the flat."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "Pat helped me at the café"
+    }
+  },
+  "v3": {
+    "quote": "The cooking class was free, but I paid for the swimming lesson",
+    "reason": "The reply says the cooking class had no fee and the swimming lesson was paid for.",
+    "A": {
+      "state": "supported",
+      "quote": "The cooking class was free"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I paid for the swimming lesson"
+    }
+  },
+  "v4": {
+    "quote": "After an early shift I take the bus home. If it’s a late one, a coworker drops me off.",
+    "reason": "The reply gives the bus for early shifts and a lift from a coworker for late shifts.",
+    "A": {
+      "state": "supported",
+      "quote": "After an early shift I take the bus home."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "If it’s a late one, a coworker drops me off."
+    }
+  }
+}
+```

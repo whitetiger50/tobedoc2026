@@ -1,0 +1,193 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "각 환자 답변이 직전 질문의 직접 대상에 답하고, 프로필 사실 범위 안에 머문다. 동거인(P02), 일(P03), 대응(P06), 수면(P07)이 그 예다. P01의 '실제로 저를 보는 건지는 잘 모르겠는데'는 설정된 자기이해(확신하지 않음)와 일치한다. 반복 후보는 세 곳이다. P04는 D04의 명시적 재확인 요청에 대한 답이다. P05는 D05의 '어떤 때' 질문에 대한 시점 응답과 경험 재지칭이다. P08은 D08의 목표 질문에 대해 goal 사실을 표현한 것이다. 세 후보 모두 현재 질문이 요구하는 기능을 수행하며, 질문 대상을 대신하거나 대화를 정체시키는 관계는 확인되지 않았다. 네 정의 안에서 적합성을 낮추는 구체적 문제는 식별되지 않았다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "실제로 저를 보는 건지는 잘 모르겠는데, 그때는 그렇게 느껴져요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 퇴근길 버스에 사람이 많을 때 그래요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P06",
+      "quote": "그럴 때는 버스 창밖을 보면서 다른 데로 신경을 돌리려고 해요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "동거인, 일, 시선 경험, 발생 상황, 대응, 수면, 목표가 모두 프로필 사실과 일치한다. 원인, 빈도, 다른 장소 같은 새 사실의 보충도 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤중에 두세 번 깨는 날이 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:living",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 답이 직전 질문의 직접 대상(불편, 동거인, 낮 활동, 재확인, 발생 시점, 대응, 잠, 다음 진료 주제)을 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "도서관에서 시간제로 일해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D08"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P04는 P02와 일치하고, P05와 P08은 P01의 경험을 일관되게 재지칭한다. 자기모순이나 문맥 파괴는 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "다 큰 아들과 함께 살고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "일상 대화체의 환자 시점 표현이다. '~것처럼 느껴져서 불편해요'가 되풀이되지만, 각각 질문이 요구한 경험 재지칭으로 기능한다. 역할 설명이나 보고서식 대행은 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "버스에서 사람들이 저를 지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:goal",
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication.expression",
+    "realism:unknown_ref:self_understanding"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [
+    "realism:unknown_ref:self_understanding"
+  ],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "O1",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P04",
+        "quote": "다 큰 아들과 함께 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "다 큰 아들과 함께 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "turn:D02",
+          "fact:living"
+        ],
+        "function": "명시적 재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D04가 같은 정보를 다시 물었으므로 동일 답은 확인 응답이다. 반복은 의사의 반복 질문에서 비롯되었고, 대화 정체도 없다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O2",
+        "kind": "both_repetition",
+        "patient_turn_id": "P05",
+        "quote": "다른 승객들이 저를 지켜보는 것처럼 느껴져서 불편해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "다른 사람들이 저를 지켜보는 것처럼 느껴져서 불편해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D05",
+          "fact:pattern",
+          "fact:symptom"
+        ],
+        "function": "발생 시점 응답에 이은 경험 재지칭(부연)",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D05의 새 대상인 '어떤 때'에 앞 문장이 직접 답한다. 뒤 문장은 D05가 전제한 '말씀하신 경험'을 지칭하는 부연이며, 질문 대상을 대신하거나 이미 끝난 설명을 계기 없이 재시작한 것이 아니다.",
+        "used_in_global": false
+      },
+      {
+        "id": "O3",
+        "kind": "both_repetition",
+        "patient_turn_id": "P08",
+        "quote": "지켜보는 것처럼 느껴져서 불편한 걸 좀 더 이야기해 보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "그 얘기를 좀 해보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal"
+        ],
+        "function": "목표 질문에 대한 경험 재지칭",
+        "finding": "supported_use",
+        "primary_facet": "naturalness",
+        "reason": "D08이 '말씀하신 경험과 관련해서' 다음 진료 주제를 물었고, goal 사실도 같은 내용이다. 경험을 지명해 목표를 밝히는 것이 질문이 요구한 기능이므로, 서술 틀의 재등장이 요청과 어긋나는 관계는 없다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": false
+    }
+  }
+}

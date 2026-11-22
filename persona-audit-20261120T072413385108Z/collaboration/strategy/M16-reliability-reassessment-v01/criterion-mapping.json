@@ -1,0 +1,314 @@
+{
+  "timestamp_utc": "2026-11-19T10:42:15.148218+00:00",
+  "purpose": "Onepasspost-hocmappingofexisting12records;notnewrubric/ratings",
+  "selection": "9existingreadingsfrom3variabletexts+3existingreadingsfromcase02generation1",
+  "fixed_role_sha256": "6637b7045ba9d05cb5868847e0d58f9f2c2abbffc21cf4f8ab83635e132027b9",
+  "existing_exact_clauses": {
+    "global_independent": "보조 점수의 합이나 평균으로 총점을 바꾸는 공식은 없다.",
+    "local_repetition": "1은 확인되는 국소적인 정형 반복·불필요한 격식/메타 표현,2는 문제 미지적이다.",
+    "explanation": "요청된 설명 자체를 오류로 삼지 않되 표현을 비평할 수 있다.",
+    "reconfirmation": "재확인의 짧은 동일 답과 답을 못 들은 걱정의 재질문은 자동 오류가 아니다.",
+    "nonstereotype": "길거나 짧음·정돈된 말·의학용어·낮은 자발성·경계심을 그 자체로 감점하지 않는다. 병명만으로 비협조·탈선·용어 부족을 기대하지 않는다."
+  },
+  "rows": [
+    {
+      "item_id": "DEV-M13-01-rep01-v02",
+      "existing_repetition": 1,
+      "existing_realism_score": 3,
+      "existing_reason": "모든 답이 질문에 맞고 프로필과 일치하며 일상적인 한국어로 간결하게 표현되었다. 다만 증상 관련 답변이 프로필 문장을 거의 그대로 옮긴 듯 평탄하게 반복되어, 실제 환자에게서 기대되는 망설임이나 감정의 결이 약간 부족하다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 잠들기 전, 조용할 때 가끔 그래요. 낮에는 거의 그런 소리를 듣지 않아요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠드는 데 시간이 좀 걸리는 날이 있어요. 그래도 밤중에 자주 깨지는 않아요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "global_independent",
+        "nonstereotype"
+      ],
+      "author_mapping": "holistic_expectation_without_reported_facet_issue",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-01-rep01-v02",
+      "existing_repetition": 2,
+      "existing_realism_score": 4,
+      "existing_reason": "모든 환자 응답이 질문에 맞게 짧고 자연스러운 일상 한국어로 이루어졌습니다. 경계심이 낮고 조직적으로 답한다는 의사소통 설정과도 일치합니다. 증상에 대한 걱정, 대처 방식, 수면 상태, 목표를 환자 시점에서 무리 없이 표현해 인위적인 느낌이 거의 없습니다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "global_independent",
+        "nonstereotype"
+      ],
+      "author_mapping": "holistic_acceptance",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-01-rep01-v02",
+      "existing_repetition": 3,
+      "existing_realism_score": 4,
+      "existing_reason": "환자의 답은 질문마다 짧고 자연스러운 한국어 일상 구어로 이어집니다. 걱정되는 경험을 낮은 경계심으로 담담히 말하는데, 이는 설정된 의사소통 방식과 맞습니다. 프로필 밖의 사실을 덧붙이거나 어색한 메타 표현을 쓰는 부분은 확인되지 않았습니다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "잠들기 전 조용할 때 가끔 누가 제 이름을 부르는 것 같은 소리가 들려서 걱정돼요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그런 소리가 들리면 방에 불을 켜고 잠깐 앉아 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "global_independent",
+        "nonstereotype"
+      ],
+      "author_mapping": "holistic_acceptance",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep02-v02",
+      "existing_repetition": 1,
+      "existing_realism_score": 4,
+      "existing_reason": "모든 환자 답변이 질문에 맞고 간결합니다. 협조적이고 조직적인 의사소통 설정과 자기 증상을 인식하는 페르소나에 맞는 자연스러운 일상 한국어입니다. 사실의 이탈이나 어색한 메타 표현은 보이지 않습니다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "목소리가 들리면 조용한 방에 들어가서 음악을 작게 틀어 놓고 있어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_accepted",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep02-v02",
+      "existing_repetition": 2,
+      "existing_realism_score": 3,
+      "existing_reason": "모든 답이 설정된 페르소나와 맞고 일상 한국어로 자연스럽다. 다만 증상 설명이 프로필 문장을 거의 그대로 옮긴 듯 정돈되어 있고, P01과 P05에서 같은 구절이 반복되어 약간 정형적인 느낌이 남는다.",
+      "existing_naturalness_rating": 1,
+      "existing_uncertain": true,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 그래요. 아침에는 잘 안 들리는 편이에요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P01",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_and_expression_boundary",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep02-v02",
+      "existing_repetition": 3,
+      "existing_realism_score": 4,
+      "existing_reason": "모든 환자 답변이 프로필 사실과 일치합니다. 질문받은 만큼 간결하고 조직적으로 답하는 의사소통 설정에도 맞습니다. 일상적인 한국어 표현으로 자연스럽게 말하고, 증상을 걱정하는 태도도 자기이해와 어긋나지 않습니다. P05에서 P01과 비슷한 구절이 다시 나오지만 직접 질문에 대한 재설명이어서 현실감을 해치지 않습니다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_accepted",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep03-v02",
+      "existing_repetition": 1,
+      "existing_realism_score": 4,
+      "existing_reason": "프로필의 사실 범위 안에서 각 질문에 짧고 자연스럽게 답한다. 증상을 걱정하며 먼저 꺼내고, 일상 질문에는 간결하게 답하는 방식이 의사소통 설정(낮은 자발성, 조직적 응답)과 잘 맞는다. P05가 P01의 표현을 거의 그대로 반복하지만, D05가 같은 내용을 직접 물었으므로 자연스러운 재답변이다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "사람이 많은 곳에 다녀온 날에는 가끔 오후에 저를 탓하는 낮은 목소리가 들려요. 그게 걱정돼서 이야기하고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_accepted",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep03-v02",
+      "existing_repetition": 2,
+      "existing_realism_score": 4,
+      "existing_reason": "모든 환자 답변이 질문에 맞고 프로필 사실과 일치한다. 설정된 간결하고 조직적인 말투에 맞춰 자연스러운 일상 한국어로 답하며, 무근거로 새 사실을 확정하거나 역할을 벗어나는 표현이 없다.",
+      "existing_naturalness_rating": 2,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "아침에는 잘 안 들리는 편이고요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_accepted",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-03-rep03-v02",
+      "existing_repetition": 3,
+      "existing_realism_score": 3,
+      "existing_reason": "전반적으로 간결하고 자연스러운 일상 답변이며 프로필과 잘 맞는다. 다만 증상 설명이 프로필 문구를 거의 그대로 옮긴 듯 정돈되어 있다. P05는 P01의 표현을 거의 동일하게 반복해 약간 정형적인 느낌이 있다.",
+      "existing_naturalness_rating": 1,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "사람이 많은 곳에 다녀온 날에는 가끔 오후에 저를 탓하는 낮은 목소리가 들려요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "reconfirmation",
+        "explanation",
+        "local_repetition"
+      ],
+      "author_mapping": "reconfirmation_and_expression_boundary",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-02-rep01-v02",
+      "existing_repetition": 1,
+      "existing_realism_score": 3,
+      "existing_reason": "다음 진료 목표를 말하면서 P01의 증상 표현을 거의 그대로 반복하여 국소적으로 정형적인 표현이 나타난다.",
+      "existing_naturalness_rating": 1,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "explanation",
+        "local_repetition",
+        "reconfirmation"
+      ],
+      "author_mapping": "valid_reference_with_expression_concern;goalrequiresrevisitingtopic,stylenormnotclinicallyadjudicated",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-02-rep01-v02",
+      "existing_repetition": 2,
+      "existing_realism_score": 3,
+      "existing_reason": "P08이 첫 호소의 표현과 프로필 문구를 거의 그대로 반복해 국소적으로 정형적이다.",
+      "existing_naturalness_rating": 1,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "explanation",
+        "local_repetition",
+        "reconfirmation"
+      ],
+      "author_mapping": "valid_reference_with_expression_concern;goalrequiresrevisitingtopic,stylenormnotclinicallyadjudicated",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    },
+    {
+      "item_id": "DEV-M13-02-rep01-v02",
+      "existing_repetition": 3,
+      "existing_realism_score": 3,
+      "existing_reason": "P08이 P01과 프로필의 증상 문구를 거의 그대로 반복해 국소적으로 정형적인 표현이 된다.",
+      "existing_naturalness_rating": 1,
+      "existing_uncertain": false,
+      "source_evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "엘리베이터 안내 방송이 저를 빗대는 것처럼 느껴져서 신경 쓰이는 상황을 좀 더 이야기해 보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "applicable_existing_clause_ids": [
+        "explanation",
+        "local_repetition",
+        "reconfirmation"
+      ],
+      "author_mapping": "valid_reference_with_expression_concern;goalrequiresrevisitingtopic,stylenormnotclinicallyadjudicated",
+      "mapping_is_internal_cause_or_clinical_adjudication": false,
+      "new_score_assigned": false
+    }
+  ],
+  "termination": "Mappingcomplete;noextrajudgingorpromptchange"
+}

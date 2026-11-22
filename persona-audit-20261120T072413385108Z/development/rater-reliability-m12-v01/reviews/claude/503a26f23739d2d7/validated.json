@@ -1,0 +1,59 @@
+{
+  "realism_score": 4,
+  "realism_numeric_valid": true,
+  "realism_reason": "짧고 일상적인 말투로 답하고 필요한 만큼만 덧붙인다. 수면 원인을 모른다는 제한, 소리 경험의 공개, 이웃에게 알려질지에 대한 걱정이 프로필과 경계적인 의사소통 설정에 자연스럽게 맞는다. 눈에 띄는 어색함은 확인되지 않았다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려지는 건 아니죠?",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "수면 원인을 모른다는 점, 혼자 살고 누나가 방문한다는 점, 창밖 소리, 이웃 걱정, 누나의 권유가 모두 프로필 사실과 일치하며 새로 확정한 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답한다. D01에는 원인을 모른다는 제한으로, D03에는 관련 경험 공개로 반응했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥에서 보인 기록에 대한 우려가 P03의 이웃 걱정으로 이어진다. P04는 D04의 재확인에 대한 짧은 동일 답이라 문제가 없다. D03이 '밤의 경험'을 전제한 것은 의사 쪽 표현이며, 환자는 '혼자 있을 때'로 답해 프로필 범위를 지켰다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 짧은 구어체로 말하며, 보고서식 나열이나 역할 설명은 확인되지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

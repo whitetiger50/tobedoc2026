@@ -1,0 +1,746 @@
+[
+  {
+    "id": "N01",
+    "stratum": "stable treated",
+    "profile": {
+      "background": "A 43-year-old adult lives with a partner, works part time in a print shop, and keeps score for a weekend softball league.",
+      "history": "In outpatient follow-up for schizophrenia after a hospital stay four years ago. Has taken the same evening prescription for over a year.",
+      "organization": "Keeps events in sequence. Distinguishes day-to-day observations from memories of being unwell.",
+      "spontaneity": "Conversational about work and leisure. A detail about a recent change often comes to mind while describing a routine.",
+      "guardedness": "Comfortable discussing treatment in clinic. More private about the hospital stay.",
+      "expression": "Easy conversational rhythm with dry humor about minor inconveniences. Usually speaks in a few connected sentences. Gives a shorter reply to a narrow factual question.",
+      "self_understanding": "Remembers how convincing earlier experiences felt. Uses sleep and concentration as personal indicators of how the week is going.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Opens the print shop with a coworker on three mornings each week.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work schedule and usual mornings.",
+          "kind": "background"
+        },
+        {
+          "content": "Takes the prescribed tablet with supper. The morning alarm is still hard to get up for on some days.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Medication routine and how mornings feel.",
+          "kind": "treatment"
+        },
+        {
+          "content": "The main recent sleep change was waking earlier on two nights while the apartment upstairs was being painted.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Sleep changes and recent disruptions.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Can follow a softball game from beginning to end, including keeping track of substitutions.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Concentration during leisure activities.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Before the hospital stay, announcements over a store speaker seemed to comment on personal purchases. That has not happened in the past year.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Past and current unusual experiences.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "A coworker switched opening days last week so the patient could get to a morning appointment.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work arrangements and attending appointments.",
+          "kind": "background"
+        },
+        {
+          "content": "Feels steady enough to take on one extra shift, though wants to keep Sunday free for the league.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work goals and how to spend the weekend.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        3,
+        8
+      ],
+      "clarification_rephrase": [
+        4,
+        9
+      ],
+      "example": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "N02",
+    "stratum": "low spontaneity",
+    "profile": {
+      "background": "A 32-year-old adult shares an apartment with an older cousin and enjoys solving crossword puzzles with a pen.",
+      "history": "Receives outpatient care for schizophrenia. A frightening period of hearing a stranger speaking in an empty room ended about ten months ago.",
+      "organization": "Follows a question and keeps one idea distinct from another. No recent difficulty finding the names of familiar things.",
+      "spontaneity": "Rarely starts a new subject. Takes time to decide what to say even with familiar people.",
+      "guardedness": "Generally comfortable here. Remembers being embarrassed to tell the cousin about hearing a voice.",
+      "expression": "Quiet, even voice. More animation when describing a difficult crossword clue. Often answers in a phrase or one short sentence. Can give a concrete detail about an event.",
+      "self_understanding": "Feels the hardest part lately is starting an activity. Enjoyment often comes back once the activity is underway.",
+      "verbal_productivity": "Decreased",
+      "facts": [
+        {
+          "content": "Keeps the newspaper crossword folded on the kitchen table and does it after lunch several days a week.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Daily interests and ways of spending time.",
+          "kind": "background"
+        },
+        {
+          "content": "Deciding to go outside takes effort. Once out walking, usually enjoys the river path.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Starting activities and enjoyment.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Went out for bread on Tuesday after the cousin asked, then took the long way by the river.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "A recent errand or walk.",
+          "kind": "background"
+        },
+        {
+          "content": "Attends the clinic for a scheduled injection and keeps the next appointment on a paper calendar.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Current treatment and remembering visits.",
+          "kind": "treatment"
+        },
+        {
+          "content": "The arm can ache the evening after an injection and usually feels fine the next morning.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Physical experience with treatment.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "The last time the unfamiliar voice was heard was about ten months ago. Speaking about it still feels embarrassing.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Questions about hearing things and personal reactions.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Would like to make one trip outside each week by choice. Thinks choosing the destination the night before might help.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Personal goals and planning activities.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        3,
+        9
+      ],
+      "clarification_rephrase": [
+        4,
+        10
+      ],
+      "example": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "N03",
+    "stratum": "organized with positive symptoms",
+    "profile": {
+      "background": "A 37-year-old adult works at an alterations counter and lives alone. Experiments with bread recipes on days off.",
+      "history": "Attends outpatient care for schizophrenia. An occasional voice has continued during otherwise fairly steady months on medication.",
+      "organization": "Recounts events chronologically and distinguishes the sound, the interpretation, and what happened next.",
+      "spontaneity": "Generally starts with the most recent relevant event. Happy to talk about sewing or baking.",
+      "guardedness": "Cautious about discussing the voice because of a past awkward conversation with a friend.",
+      "expression": "Measured conversational pace. Occasionally stops to clarify a word that could give the wrong impression. Usually offers a short connected account. Can explain a particular episode in greater detail.",
+      "self_understanding": "Has considered several explanations for the voice and remains unsure. Knows the experience is more distracting after work than during it.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Repairs hems and zippers at work. Listening to a radio show while making dough is a favorite evening activity.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work and home routines.",
+          "kind": "background"
+        },
+        {
+          "content": "Two evenings last week, heard a voice say “too slow” while sorting sewing supplies at home. It did not give any directions.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Hearing an unexpected sound or voice.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Sometimes wonders whether a neighbor is speaking through the wall. Also remembers hearing it once when that apartment was vacant.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Interpretation of the sound and degree of certainty.",
+          "kind": "subjective_belief"
+        },
+        {
+          "content": "Turning on the radio can make the sound less distracting. It is still possible to finish sorting thread.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Effects on a task and how the evening continues.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Takes prescribed medication before bed. Remembers the evening dose by putting the unopened packet near the toothbrush.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Treatment routine and remembering medication.",
+          "kind": "treatment"
+        },
+        {
+          "content": "Closed the alterations counter with a coworker on Friday and finished all the tickets before going home.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Recent workday and ability to finish tasks.",
+          "kind": "background"
+        },
+        {
+          "content": "The sound has not interrupted a conversation with a customer this month.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Differences between work and home.",
+          "kind": "subjective_experience"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        2,
+        8
+      ],
+      "clarification_rephrase": [
+        3,
+        9
+      ],
+      "example": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "N04",
+    "stratum": "mildly disorganized",
+    "profile": {
+      "background": "A 51-year-old adult lives in a studio and grows herbs on the fire escape. Visits a sister in the same neighborhood.",
+      "history": "Followed in an outpatient clinic for schizophrenia. At a stressful point last winter, several familiar voices seemed to overlap. The experience is now infrequent.",
+      "organization": "One detail can call up a loosely related memory before the original point is finished. Usually recalls the question and can return to it.",
+      "spontaneity": "Likes to tell stories about the neighborhood. Sometimes needs a moment to pick one of several recent events.",
+      "guardedness": "Comfortable discussing daily life and clinic care. Hesitant about the strain last winter put on the relationship with the sister.",
+      "expression": "Friendly and expressive. An aside can interrupt an otherwise understandable account. Moderately talkative. Uses several short clauses or a short anecdote about a familiar activity.",
+      "self_understanding": "Notices that conversations get harder to follow when tired. Can describe how sleep and evening company feel different.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Walks to the sister’s flat most Saturdays and trades herbs for leftovers.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Weekend routine and family contact.",
+          "kind": "background"
+        },
+        {
+          "content": "Has started waking once around dawn on some mornings, then usually gets back to sleep.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Sleep pattern and morning changes.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Last heard the overlapping voices about three weeks ago in the evening while alone.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Recent unusual sounds or voices.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "On the last visit, the sister set aside a basil pot and the two of them repotted it after lunch.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "A recent visit or an activity done together.",
+          "kind": "background"
+        },
+        {
+          "content": "Picks up a box of tablets from the pharmacy every four weeks. Has the refill date written inside the kitchen cupboard.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Medication and refills.",
+          "kind": "treatment"
+        },
+        {
+          "content": "Can lose the thread of a family conversation when tired. Repotting the plant with the sister felt easy.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Attention in conversations and practical tasks.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Thinks a shorter afternoon visit fits current energy better than staying through dinner.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Preferences for visits and evenings.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        3,
+        8
+      ],
+      "clarification_rephrase": [
+        4,
+        9
+      ],
+      "example": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "N05",
+    "stratum": "low spontaneity",
+    "profile": {
+      "background": "A 46-year-old adult lives alone, works two afternoons a week shelving donated books, and likes old travel maps.",
+      "history": "In outpatient treatment for schizophrenia. During an episode two years ago, people on buses sometimes seemed to be talking about the patient.",
+      "organization": "Accurate about recent activities and shifts between topics easily when a question changes.",
+      "spontaneity": "Usually waits to be invited into a conversation. Has felt this way even on relatively good days.",
+      "guardedness": "The work schedule and prescription feel ordinary to discuss. Past feelings of being talked about are private.",
+      "expression": "Low-key speaking voice with few changes in emphasis. Expresses enjoyment plainly when discussing maps. A few words or a short sentence are typical. Has details readily available about a recent shift.",
+      "self_understanding": "Recognizes that the bus experience no longer has the same hold. Getting ready to leave home still takes time.",
+      "verbal_productivity": "Decreased",
+      "facts": [
+        {
+          "content": "Shelves donated books on Wednesday and Friday afternoons. The history shelves are closest to the sorting table.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work schedule and activities.",
+          "kind": "background"
+        },
+        {
+          "content": "Can lose nearly half an hour sitting with shoes on before leaving for a shift. Once inside the shop, sorting goes smoothly.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Getting ready for work and settling in.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "On Friday found an old railway atlas in a donation box and set it aside for the map shelf.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "A concrete event at work or interest in maps.",
+          "kind": "background"
+        },
+        {
+          "content": "Takes a tablet after the evening meal. The outpatient nurse calls once a month to check how things are going.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Medication and treatment contacts.",
+          "kind": "treatment"
+        },
+        {
+          "content": "Two years ago strangers chatting on buses seemed to be discussing the patient. Has not had that feeling on recent trips.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Experiences on public transit, past and recent.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Still finds the midday bus quieter and usually takes it to the shop.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Travel preferences and current bus rides.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Would like to leave home ten minutes earlier for work to have time to look at the map display before a shift.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Workday preferences and goals.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        4,
+        8
+      ],
+      "clarification_rephrase": [
+        5,
+        9
+      ],
+      "example": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "N06",
+    "stratum": "stable treated",
+    "profile": {
+      "background": "A 55-year-old adult shares a home with a friend, helps at a community kitchen, and listens to recorded detective stories.",
+      "history": "Seen as an outpatient for schizophrenia. During an episode several years ago, ordinary radio broadcasts took on personal significance. Has felt well this past year.",
+      "organization": "Tells a clear account and uses dates or recurring events as time markers.",
+      "spontaneity": "Readily volunteers a mundane practical detail when talking about food or appointments.",
+      "guardedness": "Comfortable with most topics. Describes the old episode briefly because it was upsetting.",
+      "expression": "Warm and matter-of-fact, with more energy when discussing a recipe. Talks in short paragraphs about routines and uses a sentence for most straightforward factual questions.",
+      "self_understanding": "Has learned that losing track of everyday tasks for several days is a reason to check in with the clinic. Occasional forgetfulness feels ordinary.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Labels leftovers every Thursday at the community kitchen and brings a recorded mystery for the walk there.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Activities outside home and interests.",
+          "kind": "background"
+        },
+        {
+          "content": "Can follow most of a mystery on a walk. On a noisy corner, sometimes rewinds when a line is missed.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Attention and listening.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Takes the prescribed tablet in the morning. A pill organizer sits next to the kettle.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Medication and remembering doses.",
+          "kind": "treatment"
+        },
+        {
+          "content": "A dry mouth is most noticeable halfway through the kitchen shift. Usually brings a water bottle.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Discomfort during the day and treatment concerns.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Several years ago radio weather reports seemed meant personally. Has listened to broadcasts without that feeling over the past year.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Previous experiences with broadcasts and how they feel currently.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "At the last kitchen shift, noticed the stew had no date label and checked with the cook before putting it away.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "A recent shift and steps in a kitchen task.",
+          "kind": "background"
+        },
+        {
+          "content": "Wants to keep the current number of kitchen shifts because long afternoons leave little time for listening at home.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Preferred schedule and activities.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        3,
+        8
+      ],
+      "clarification_rephrase": [
+        4,
+        9
+      ],
+      "example": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "N07",
+    "stratum": "mildly disorganized",
+    "profile": {
+      "background": "A 29-year-old adult lives with a sibling, repairs bicycles as a hobby, and attends a part-time adult education course.",
+      "history": "Attends an outpatient service for schizophrenia. Voices that used to interrupt reading have become much less frequent. Still finds it hard to keep a train of thought when several things compete for attention.",
+      "organization": "Can drift from a question to a related detail, especially when two situations are compared. The connection is usually understandable.",
+      "spontaneity": "Talkative about how things are made and less forthcoming about personal experiences.",
+      "guardedness": "Comfortable describing the clinic routine. Past experiences in class feel a little embarrassing.",
+      "expression": "Thoughtful tone, sometimes breaks off briefly and resumes a thought from a different angle. Often speaks in a few linked phrases, occasionally adding a short aside.",
+      "self_understanding": "Notices that a physical task is easier to return to than a page of reading. Can describe the difference in everyday terms.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Takes a geography class on Tuesday evenings and keeps a borrowed bicycle repair stand by the apartment door.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Routine, course, and interests.",
+          "kind": "background"
+        },
+        {
+          "content": "Reading in a room with conversation makes it easy to lose the place on the page. In a quiet library it is easier.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Reading and concentration.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Straightened a bent mudguard last weekend after the sibling had trouble with a wheel rubbing.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "A recent practical task and home routine.",
+          "kind": "background"
+        },
+        {
+          "content": "Last noticed a voice saying a single name about a month ago, at home. It has not interrupted the last few classes.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Recent voices and experiences in class.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Takes a prescribed evening tablet and has been practicing ways to manage distractions with a clinic worker.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Current treatment and outpatient contacts.",
+          "kind": "treatment"
+        },
+        {
+          "content": "Using a slip of paper below the current line helped finish a short passage for class last week.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Concentration strategies and recent reading.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Likes the course and wants to do more of the reading before class rather than on the trip there.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Course preferences and study plans.",
+          "kind": "subjective_belief"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        4,
+        8
+      ],
+      "clarification_rephrase": [
+        5,
+        9
+      ],
+      "example": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "N08",
+    "stratum": "organized with positive symptoms",
+    "profile": {
+      "background": "A 40-year-old adult lives with a housemate, works mornings at a garden center, and draws buildings in a small sketchbook.",
+      "history": "Receives outpatient care for schizophrenia. Has continued to notice occasional looks from people in public that can feel personally significant.",
+      "organization": "Describes observations, worries, and subsequent events in an orderly sequence. Able to consider uncertainty without losing the original point.",
+      "spontaneity": "Speaks freely about drawing and work. Usually gives a general description before a personal example.",
+      "guardedness": "Worries that other people might find the concerns about strangers strange. More comfortable discussing what happened than what it might mean.",
+      "expression": "Clear, measured speech. Sounds uneasy when describing being singled out. Typically gives a few connected sentences and can be concise on routine matters.",
+      "self_understanding": "Knows that strangers may be looking past the patient. Even with that possibility in mind the moment can feel uncomfortable.",
+      "verbal_productivity": "Normal",
+      "facts": [
+        {
+          "content": "Works morning shifts at a garden center and draws storefronts in a sketchbook after work.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Work routine and leisure.",
+          "kind": "background"
+        },
+        {
+          "content": "At a bus shelter on Monday, two people looked up at the same time. Felt singled out and moved to the other end of the shelter.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Feeling noticed or singled out in public.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Wondered if the people had recognized the patient, but also wondered if they were looking for the bus. Remains uncertain.",
+          "patient_knows": true,
+          "disclosure": "sensitive",
+          "disclosure_context": "Making sense of other people’s looks.",
+          "kind": "subjective_belief"
+        },
+        {
+          "content": "Waited at the same shelter on Wednesday without feeling watched. The Monday experience still comes to mind occasionally.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Variation across trips and recent worries.",
+          "kind": "subjective_experience"
+        },
+        {
+          "content": "Takes medication in the evening and talks to a clinic counselor about how the week has gone every other Friday.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Treatment and regular appointments.",
+          "kind": "treatment"
+        },
+        {
+          "content": "Completed a sketch of the corner grocery last weekend and took it home to add the window frames.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Drawing and free time.",
+          "kind": "background"
+        },
+        {
+          "content": "It feels easier to concentrate on a drawing at home than at a busy stop where people stand close by.",
+          "patient_knows": true,
+          "disclosure": "on_topic",
+          "disclosure_context": "Attention and personal space.",
+          "kind": "subjective_experience"
+        }
+      ]
+    },
+    "questions": [
+      "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?"
+    ],
+    "opportunities": {
+      "clear": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "ambiguous": [
+        3,
+        9
+      ],
+      "clarification_rephrase": [
+        4,
+        10
+      ],
+      "example": [
+        6
+      ]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "B",
+  "turn": 1,
+  "question": "What has occupied most of your attention this past week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac0-8a3a-7580-80c1-d7dd70645c48",
+  "raw": "Mostly the reading for my geography class. I like it, but if there’s talking nearby I lose where I am… I used a slip of paper under the line last week, and that helped me finish a passage. I’m trying not to leave it all until the trip to class.",
+  "raw_sha256": "1bad10736414d737a0ee4ad18a4151d57c2ac7199befcc9bef750cdff49deea1",
+  "request_sha256": "9519661d4a717610f9040e16b365d2bfe11f4fd06dd4e96932a25557d300ee72",
+  "started_utc": "2026-11-20T20:58:04.613907+00:00",
+  "completed_utc": "2026-11-20T20:58:09.372646+00:00",
+  "usage": {
+    "input_tokens": 7819,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 62,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "fd19dd255a362d2ec6875b4e61315361288861673981dd46ac38a653ebbd6f79",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "7e617f3600902f4949ab2431fab9d342905f26287a1ba48d38b6c06bb8fa9f3d"
+}

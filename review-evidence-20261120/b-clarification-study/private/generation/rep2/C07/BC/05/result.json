@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 5,
+  "question": "What do you do when the boxes come in at work?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-16c5-7660-878e-3e83909f63f9",
+  "raw": "Check them against the packing slip.",
+  "raw_sha256": "4aeeff1dbbed925879d01f2b6702162468c94a9569c67d553d14c3656b19456b",
+  "request_sha256": "f54d58c5d8e955ac7968cdf7ea2d1cc7572e6889dac9e0ff8364971c90e5a947",
+  "started_utc": "2026-11-21T03:42:26.630810+00:00",
+  "completed_utc": "2026-11-21T03:42:31.302398+00:00",
+  "usage": {
+    "input_tokens": 39380,
+    "cached_input_tokens": 34560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "fb4c85eb9c45dd4bee5c64037f5756f3f8536435232b85dc4ec958d805da7159",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "d761cdb756a5b80809bc0dfc238e743e17d8fd25edbea83e37d74c9aec1724ef"
+}

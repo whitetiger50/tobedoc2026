@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Did he reach you on your mobile?",
+    "reason": "Both the brother and Mr. Bell were just named, so \"he\" could mean either man, but each rang Ari's mobile last week, so the reply about reaching Ari on the mobile is the same for both.",
+    "alternatives": [
+      {
+        "meaning": "\"He\" refers to Ari's brother: did the brother contact Ari on the mobile?",
+        "answer": "Yes, the brother rang Ari's mobile last week (and Ari called him back)."
+      },
+      {
+        "meaning": "\"He\" refers to Mr. Bell, the building manager: did he contact Ari on the mobile?",
+        "answer": "Yes, Mr. Bell rang Ari's mobile last week (about replacing the hall light; Ari hasn't called back yet)."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Did you go to the appointment by bus?",
+    "reason": "\"The appointment\" could mean either the optician or the care coordinator visit just mentioned, but Taylor took the bus to both, so the answer is the same.",
+    "alternatives": [
+      {
+        "meaning": "Asking about travel to the optician appointment.",
+        "answer": "Yes, Taylor took the bus to the optician."
+      },
+      {
+        "meaning": "Asking about travel to the care coordinator appointment.",
+        "answer": "Yes, Taylor took the bus to the care coordinator."
+      }
+    ]
+  },
+  "v3": {
+    "need": "same_answer",
+    "question_quote": "Do you take food with you for your shift?",
+    "reason": "After early and late shifts are mentioned, \"your shift\" could mean either type, but Morgan packs a sandwich for every shift, so the reply is the same.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether Morgan brings food for the early shift.",
+        "answer": "Yes, Morgan packs a sandwich for early shifts."
+      },
+      {
+        "meaning": "Asking whether Morgan brings food for the late shift.",
+        "answer": "Yes, Morgan packs a sandwich for late shifts too."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The previous exchange was only about the swimming lesson, and the cooking class was already settled as free, so \"it\" clearly means the swimming lesson.",
+    "alternatives": [
+      {
+        "meaning": "Asking where Jules goes for the swimming lesson.",
+        "answer": "The swimming lesson was at the Willow Street pool."
+      }
+    ]
+  }
+}

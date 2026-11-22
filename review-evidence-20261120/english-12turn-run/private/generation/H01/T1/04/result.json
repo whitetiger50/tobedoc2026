@@ -1,0 +1,29 @@
+{
+  "case": "H01",
+  "arm": "T1",
+  "turn": 4,
+  "question": "I mean feeling uneasy around other people, if that comes up. Have you noticed any particular time of day when it happens?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faaf-de5a-7eb2-9184-ad3240da29ac",
+  "raw": "I notice it on the bus home after my evening shift, especially when it’s crowded. I’m not sure it’s the time of day itself—I feel less uneasy in the quiet shop.",
+  "raw_sha256": "647b95def7cba9727171314d8a84009ec4f5781c4e79732964ef372689cb3b44",
+  "request_sha256": "5413e370b652ef35f9869835426c11007af6e8e52f537c7c7221ce92ace32bc1",
+  "started_utc": "2026-11-20T20:39:52.049961+00:00",
+  "completed_utc": "2026-11-20T20:39:58.838127+00:00",
+  "usage": {
+    "input_tokens": 7076,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 157,
+    "reasoning_output_tokens": 113
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "7828f084d3e0f2513b89b06c271adfe0592ac314ab9a0409241666e511a12279",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "efb54f0a2d2b56eb9ff837ff1c9678fc9620b077b7bd65003def3dec225905f2"
+}

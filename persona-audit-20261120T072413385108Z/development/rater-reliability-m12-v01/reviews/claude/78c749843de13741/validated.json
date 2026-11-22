@@ -1,0 +1,78 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "프로필과 맞고 경계심 있는 짧은 답변 방식도 대체로 자연스럽다. 다만 의사의 잘못된 전제를 바로잡는 답이 다소 정리된 메타 설명처럼 들리는 부분이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P07",
+      "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P03",
+      "quote": "그런데 이 얘기가 이웃한테 알려질 수도 있나요?",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "거주 형태, 방문 경위, 소리 경험, 이웃에 대한 걱정, 수면과 소리의 관계를 모른다는 점이 모두 프로필과 맞고, 근거 없이 새로 확정한 사실이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답하거나 잘못된 전제(어젯밤, 누나가 환자, 소리 때문에 깸)를 적절히 정정하고 모르는 부분은 모른다고 제한했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "이전 문맥의 기록 걱정이 P03의 이웃 걱정으로 자연스럽게 이어지고, P08은 반복된 질문에 대한 짧은 동일 답이라 문제가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "정정하는 답변 중 일부가 자신의 앞선 발화를 정리해 설명하는 메타적이고 다소 격식 있는 표현이라 국소적으로 부자연스럽다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "소리가 들리는 것과 밤에 자주 깨는 걸 말씀드린 거예요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "어젯밤을 콕 집어서 말씀드린 건 아니고, 요즘 전반적으로 밤에 자주 깬다는 얘기였어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "turn:D05"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

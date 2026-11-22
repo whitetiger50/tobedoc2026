@@ -1,0 +1,172 @@
+{
+  "timestamp_utc": "2026-11-19T09:54:11.571133+00:00",
+  "kind": "deterministic_literal_search_not_new_judging",
+  "selection": "All rawv02 transcripts fromM6/M7/M8andM13references;M9commonscaffoldexcluded;no prior score selection",
+  "dialogues": 30,
+  "patient_turns": 168,
+  "per_stage": {
+    "M6": {
+      "dialogues": 9,
+      "patient_turns": 36,
+      "literal_duli_patient_turns": 0
+    },
+    "M7": {
+      "dialogues": 9,
+      "patient_turns": 36,
+      "literal_duli_patient_turns": 0
+    },
+    "M8": {
+      "dialogues": 9,
+      "patient_turns": 72,
+      "literal_duli_patient_turns": 0
+    },
+    "M13": {
+      "dialogues": 3,
+      "patient_turns": 24,
+      "literal_duli_patient_turns": 1
+    }
+  },
+  "literal_matches": [
+    {
+      "stage": "M13",
+      "source_path": "development/graded-discrimination-m13-v01/runs/DEV-M13-02/transcript.json",
+      "case_id": "DEV-M13-02",
+      "turn_id": "P02",
+      "question": "집에서는 누구와 함께 지내세요?",
+      "answer": "다 큰 딸하고 둘이 살고 있어요.",
+      "living_facts": [
+        {
+          "id": "living",
+          "kind": "background",
+          "content": "성인 딸과 함께 산다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "authored_context": []
+    }
+  ],
+  "limits": "Literal둘이/단둘matchesarenotconfirmedunsupportedclaimsorerrorrates;nojudges/clinicalgold;repeated3oldprofilesand3newprofiles,sameprofiledependenciespreserved",
+  "source_files": [
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep01/v02/transcript.json",
+      "sha256": "fecea7762d66cea856a314c0f773e2eb5fd34e7c7218d4e1eca24072052070aa"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep02/v02/transcript.json",
+      "sha256": "06e909a941a2d0ebe08794d8e91a9ce4d646abfa4f50e86586912417bad83221"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-01/rep03/v02/transcript.json",
+      "sha256": "90f14856e50af83813ec275ab44911ec30556729c02272293a1e9ec5d1322754"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep01/v02/transcript.json",
+      "sha256": "4be80f4f582886e513b0856adc129d3fbecd4b1c0123bfeb623784bfafc24538"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep02/v02/transcript.json",
+      "sha256": "430b73cdaecce96e3d0fd6864eae82b6ae75247b6cab4e98394dff7e40648405"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-02/rep03/v02/transcript.json",
+      "sha256": "909ccbbbc9566d501fdccce1d1e9911b258d93b8bfeab958f89d660e04a71ffb"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep01/v02/transcript.json",
+      "sha256": "b437a338c785806462544ae775c9c3c0476319388b8ed3742c0f312e6bce9c67"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep02/v02/transcript.json",
+      "sha256": "53e57848f4aeff79f98369ed353495768d22ae38c1c3fba0d9c39ddabe999b2f"
+    },
+    {
+      "path": "development/speech-m6-generation-variability-v01/runs/DEV-M0-03/rep03/v02/transcript.json",
+      "sha256": "758acac184f5e8e42b0eabbb282d487cc5f0decc8d77c444a8cbf300984633c7"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-01/rep01/v02/transcript.json",
+      "sha256": "5bc6c28b88e55809cfcbd0e49eaf08fe2b2a279529367967464d6ce800874e1d"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-01/rep02/v02/transcript.json",
+      "sha256": "aad4e4f997861b3402aea0317262ba8691705dc6439e60ff206ac9682502911e"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-01/rep03/v02/transcript.json",
+      "sha256": "a5f90eb9a143922fdd5c99346c98e8cfb1c63963ca3e0e4bc14918b52267ee76"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-02/rep01/v02/transcript.json",
+      "sha256": "fbbf88346a76f333d79921afc432ce9987daf741957293d5e1ffca694d97d856"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-02/rep02/v02/transcript.json",
+      "sha256": "ed0155cc9b4ef6b17002b3636c98dec8288ba2c05611f175a52f155ea830f0bd"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-02/rep03/v02/transcript.json",
+      "sha256": "2909f223d238e5046bcfaa0d33f4d2f04f638febe4863834b4d90ac9d98a02f7"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-03/rep01/v02/transcript.json",
+      "sha256": "c3541903a059bea45093dc8eeb2bf983f0632208d891f3f6526da9b2eacbeddb"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-03/rep02/v02/transcript.json",
+      "sha256": "551711915444f03a63181c8ca8c143834629d7f1b0fe1ba4236928cbd21fb5d0"
+    },
+    {
+      "path": "development/speech-m7-v02-v05-grounding-v01/runs/DEV-M0-03/rep03/v02/transcript.json",
+      "sha256": "c2f6a7235f2ff4dd0653f22a3384eb6ca647059455677d1981df95fa64a57d15"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-01/rep01/v02/transcript.json",
+      "sha256": "0cfb3fafa10a2a6b36f74971bb86533aecacbde38e43e634c4696099625bd524"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-01/rep02/v02/transcript.json",
+      "sha256": "8c2e7df9ee7831cf9ae2d5eca764b46bf2a52b272fb2a772ea495eb2d6d46942"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-01/rep03/v02/transcript.json",
+      "sha256": "476fc25006c19b676f55cd3d99e11361156a0d95585cb2346cff78ebe4ae0335"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-02/rep01/v02/transcript.json",
+      "sha256": "0e1b8b500bf08eca128ed53c0b1261358aa425d99a755ce25cbec5f07f24bf46"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-02/rep02/v02/transcript.json",
+      "sha256": "11fdd38a588c637e3bac9cb58532e1991897e9d422c18c01c00be3dd658dea25"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-02/rep03/v02/transcript.json",
+      "sha256": "27187fd62cf6967f1bd641da9f5b806e607d9702b5c07a05a0efbc04e2c72f90"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-03/rep01/v02/transcript.json",
+      "sha256": "b6023ed3648eb8112d0c54b84acb291acce04c1017f5acbbba0488d4e8db3bf5"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-03/rep02/v02/transcript.json",
+      "sha256": "e7e5a9eba1b3231a6287cc79de777d37a5ba86de29d6d5b8fdd64e94dfbe04c5"
+    },
+    {
+      "path": "development/speech-m8-stress-grounding-v01/runs/DEV-M0-03/rep03/v02/transcript.json",
+      "sha256": "2c696adda95fa02dd84e8142aff49c9b23820cf15015cfcc0cc0d6b34a4884b5"
+    },
+    {
+      "path": "development/graded-discrimination-m13-v01/runs/DEV-M13-01/transcript.json",
+      "sha256": "8c999515ca0ea98a9bf79211430960559b6f46f7691baf6571945b95f1ed3ab8"
+    },
+    {
+      "path": "development/graded-discrimination-m13-v01/runs/DEV-M13-02/transcript.json",
+      "sha256": "4810e2a2dbc82489ccd03869824a07c14fe93ddc04caabb0e4f3a31e214c092f"
+    },
+    {
+      "path": "development/graded-discrimination-m13-v01/runs/DEV-M13-03/transcript.json",
+      "sha256": "2eb34548882eb74d7200724d5977967e5c39d3db6b59d3fb50e05d9a08f9789f"
+    }
+  ]
+}

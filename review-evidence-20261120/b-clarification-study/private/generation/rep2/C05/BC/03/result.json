@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 3,
+  "question": "What did you enjoy making in the cooking class?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc30-2c93-73e1-8cf9-8fe7f52db6d9",
+  "raw": "The lentil soup! I enjoyed making that in the class last week.",
+  "raw_sha256": "47bbac3a9b2afba27f45a7dcb39aa8886371aff70fe42ce7d5bbc3ad0e6755c0",
+  "request_sha256": "75fd48874ecd20f889df35f8a9ab73b1af1673748a1937f09f41e5ae5c188104",
+  "started_utc": "2026-11-21T03:41:06.298350+00:00",
+  "completed_utc": "2026-11-21T03:41:12.988948+00:00",
+  "usage": {
+    "input_tokens": 23596,
+    "cached_input_tokens": 17792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 50,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d48ad6c8d167721d7fa8490f788f06d72376eaa2a4b92b96b055401fc2ea2bcc",
+  "https_fallback": false,
+  "websocket_handshake_retries": 2,
+  "trace_sha256": "1b0aef7a2b753f8570a3a596c9e2f1e951a590933d632fe96a38c5872b4882ad"
+}

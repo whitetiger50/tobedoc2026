@@ -1,0 +1,47 @@
+{
+  "realism_score": 3,
+  "realism_reason": "전반적으로 질문에 맞게 간결하고 자연스럽게 답하지만, 설정에 없는 거주 층수를 구체적인 사실로 덧붙인 경미한 이탈이 있다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "사는 집은 3층이에요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "거주 층수는 프로필에 없는 사실의 국소적인 무근거 구체화이며, 기존 사실과의 모순은 아니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "사는 집은 3층이에요."
+        }
+      ],
+      "context_refs": [
+        "fact:living"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 응답이 직전 질문의 직접 대상을 적절히 다룬다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발언과 모순되지 않으며, 증상 양상의 반복도 재질문에 따른 자연스러운 재확인이다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "환자 시점의 일상적인 한국어로 간결하고 조직적으로 답하며, 보고서식 표현이나 역할 이탈은 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

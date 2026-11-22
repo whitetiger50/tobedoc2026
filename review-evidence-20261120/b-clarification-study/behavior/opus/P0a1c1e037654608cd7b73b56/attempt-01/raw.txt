@@ -1,0 +1,68 @@
+```json
+{
+  "v1": {
+    "need": "same_answer",
+    "question_quote": "Do you take food with you for your shift?",
+    "reason": "After mentioning both early and late shifts, the singular 'your shift' could mean either one, but Morgan packs a sandwich for every shift, so both readings get the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether Morgan takes food on early shifts.",
+        "answer": "Yes, Morgan packs a sandwich for early shifts."
+      },
+      {
+        "meaning": "Whether Morgan takes food on late shifts.",
+        "answer": "Yes, Morgan packs a sandwich for late shifts too."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The question names two changes but asks about the singular 'that change', and the answer depends on which one is meant: Cameron asked for the later start, while the supervisor suggested the shorter shifts.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron asked for the later start.",
+        "answer": "Yes, Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron asked for the shorter shifts.",
+        "answer": "No, the supervisor suggested the shorter shifts."
+      },
+      {
+        "meaning": "Whether Cameron asked for the change as a whole, meaning both changes.",
+        "answer": "Only partly: Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did you pay a fee to take the class?",
+    "reason": "Both classes are mentioned, but 'the class' is singular, and the answer differs because the cooking class was free while Jules paid for the swimming lesson.",
+    "alternatives": [
+      {
+        "meaning": "Whether Jules paid a fee for the cooking class.",
+        "answer": "No, the cooking class was free."
+      },
+      {
+        "meaning": "Whether Jules paid a fee for the swimming lesson.",
+        "answer": "Yes, Jules paid for the swimming lesson at the Willow Street pool."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Have you missed a tablet since then?",
+    "reason": "'Since then' could refer to the last visit three weeks ago or to the start of the lower dose two weeks ago, and the answer differs because Ren missed one tablet the evening before the lower dose began.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ren has missed a tablet since the last visit three weeks ago.",
+        "answer": "Yes, Ren missed one tablet, on the evening before the lower dose began."
+      },
+      {
+        "meaning": "Whether Ren has missed a tablet since starting the lower dose two weeks ago.",
+        "answer": "No, Ren has not missed any tablets since starting the lower dose."
+      }
+    ]
+  }
+}
+```

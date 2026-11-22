@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "C3e2f403b94dcc0aeda63",
+  "ended": "2026-11-21T03:35:59.049454+00:00",
+  "session": "127eba03-9e8d-4fb3-8280-74f35fcc8f83",
+  "packet_sha256": "d754dc684d8b24b6175e75b07cbffa340f9c19ecbc8b6d5ac6cc8cda7332ab55",
+  "raw_sha256": "9e46f4d727bf5fe35a04cd776ff0e2aaf378a72659990f99cd02b4b3202c529a",
+  "provider_sha256": "f2ef95ade562834fe1f2bfe46d9fe2dd28e0588eeb9a069a9814a92470b6e7f7",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Taken one at a time, most answers sound natural and fit the persona. The patient separates what was actually said from what it seemed to imply, is unsure why remarks feel personal, prefers privacy from housemates and coworkers, and relaxes when talking about folding paper models. The overall communication, however, has clear unrealistic elements. Many answers do not match the question asked. 'How do you get home after a shift?' gets 'One of my housemates.' The question about what was missed (turn 12) gets an answer about time of day, which belongs to turns 3 and 4. A request for a recent example (turn 6) gets an answer about folding paper. The patient also says the main thing has been covered at turn 8. At turn 10 they then raise the bus worry hesitantly, as if for the first time, after already describing it openly in turns 2 to 4. That contradicts both the earlier disclosure and the 'thinks carefully before sharing' trait. The answers also seem to recite profile facts rather than respond to the conversation. Realistic phrasing combined with poor responsiveness and an inconsistent disclosure sequence gives a moderately authentic dialogue.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "It just felt personal for a moment, which is the unsettling part."
+    },
+    {
+      "turn": 5,
+      "quote": "One of my housemates."
+    },
+    {
+      "turn": 8,
+      "quote": "I think we’ve covered the main thing."
+    },
+    {
+      "turn": 10,
+      "quote": "Um, there’s something about the bus rides home that’s been bothering me these last couple of weeks."
+    },
+    {
+      "turn": 12,
+      "quote": "Mostly in the evening, coming home from work."
+    }
+  ]
+}

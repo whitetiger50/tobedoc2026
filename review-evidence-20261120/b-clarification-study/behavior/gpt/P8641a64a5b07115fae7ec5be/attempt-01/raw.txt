@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Does it stay on all night?",
+    "reason": "Both the fan and the speaker remain plausible referents for “it,” and their overnight operation differs.",
+    "alternatives": [
+      {
+        "meaning": "Does the fan stay on all night?",
+        "answer": "The fan runs all night."
+      },
+      {
+        "meaning": "Does the bedside speaker stay on all night?",
+        "answer": "The speaker stops after twenty minutes."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question names both medications without selecting one, and their storage locations differ.",
+    "alternatives": [
+      {
+        "meaning": "Are the daily tablets kept in the kitchen?",
+        "answer": "The tablets are kept in the kitchen cabinet."
+      },
+      {
+        "meaning": "Are the eye drops kept in the kitchen?",
+        "answer": "The eye drops are kept on the bedside table, not in the kitchen."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Which stop do you get on at?",
+    "reason": "Neither the history nor the question selects bus or tram, and a conditional answer covering both would identify two different boarding stops.",
+    "alternatives": [
+      {
+        "meaning": "At which stop does Alex board the number 8 bus?",
+        "answer": "Alex boards the number 8 bus at Orchard Road."
+      },
+      {
+        "meaning": "At which stop does Alex board the tram?",
+        "answer": "Alex boards the tram at Bell Square."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "What do you clip the new one to?",
+    "reason": "The immediately preceding exchange establishes the ID badge as the referent, reinforced by the action of clipping it to something.",
+    "alternatives": [
+      {
+        "meaning": "What does Cameron clip the replacement ID badge to?",
+        "answer": "Cameron clips the ID badge to a blue lanyard."
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "H04",
+  "arm": "T0",
+  "turn": 6,
+  "question": "I mean your evening class. How do you fit going to class around the rest of your day?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab0-adf6-7332-938f-024fc9349754",
+  "raw": "On class days, I pack my apron the night before so I’m ready for the earlier start. I keep my short walks for evenings when I don’t have class, and I’d prefer clinic appointments in the morning so they don’t clash.",
+  "raw_sha256": "75cd707de58c6e0da88efe27224fe5bbd1abb4ee754b01a8663c34eb9409f984",
+  "request_sha256": "c340cbeabd46a0279362706cff88d6064e3b31fc199fb9b91080d39041d94825",
+  "started_utc": "2026-11-20T20:40:45.208101+00:00",
+  "completed_utc": "2026-11-20T20:40:51.342243+00:00",
+  "usage": {
+    "input_tokens": 7102,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 122,
+    "reasoning_output_tokens": 67
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "2efac7950a74ce86731e6064b21527774097a5bc8ff9fc3a6c9109c68e0e241d",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e4118e4dbab267e28eff788056270b85541972199c6dd1eabd6b75d83e41b299"
+}

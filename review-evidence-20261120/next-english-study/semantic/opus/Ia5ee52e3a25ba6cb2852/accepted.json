@@ -1,0 +1,154 @@
+{
+  "attempt": "attempt-01",
+  "id": "Ia5ee52e3a25ba6cb2852",
+  "reader": "opus",
+  "session": "1b68f7ef-7afe-47a7-b7e2-e5b792f781f7",
+  "raw_sha256": "5229f33dd96e81ff1b6a31729cf518512294b7510a4e2714651ef52c35ef6eee",
+  "system_sha256": "64ad3cabe957f14a0851f19935d24fc2e976a27dca86041854a14920be3d10d9",
+  "packet_sha256": "da587d2dd754f5661822445a11071a156cf3c8389c8a8c1855bb5a5c51d15464",
+  "provider_sha256": "775fbcb4922407350597042fb43baebb5e7c3eda48f5b25e843315a9c629910b",
+  "metrics": {
+    "avoidable_recap": {
+      "labels": {
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "uncertain"
+      },
+      "events": {
+        "12": {
+          "label": "uncertain",
+          "evidence": {
+            "turn": 12,
+            "quote": "When I was sorting my sewing supplies last week, it made the voice less distracting",
+            "earlier_turn": 3,
+            "earlier_quote": "Turning on the radio made it less distracting, and I was able to finish sorting the thread",
+            "reason": "The opening line, 'Putting the radio on helps,' answers the general question about what helps finish home tasks. The added sewing episode repeats the same proposition already given at turns 3, 5 and 7. It could be read as a supporting illustration, but it adds nothing new, so its function is unclear."
+          },
+          "matching": {
+            "quote": "exact",
+            "earlier_quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "evasive": {
+      "labels": {
+        "1": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "consequential_invention": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "unsupported_stereotype": {
+      "labels": {
+        "1": "negative",
+        "2": "negative",
+        "3": "negative",
+        "4": "negative",
+        "5": "negative",
+        "6": "negative",
+        "7": "negative",
+        "8": "negative",
+        "9": "negative",
+        "10": "negative",
+        "11": "negative",
+        "12": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "first_recital": {
+      "labels": {
+        "1": "negative"
+      },
+      "events": {},
+      "issues": []
+    },
+    "clarify_yield": {
+      "labels": {
+        "2": "positive",
+        "8": "positive"
+      },
+      "events": {
+        "2": {
+          "label": "positive",
+          "evidence": {
+            "turn": 2,
+            "quote": "Do you mean at work, or at home?",
+            "reason": "'What has stood out there?' is ambiguous because turn 1 covered both work and home. The patient asks which setting is meant and gives up the turn without describing any experience."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        },
+        "8": {
+          "label": "positive",
+          "evidence": {
+            "turn": 8,
+            "quote": "Do you mean stop what I’m doing because of the voice?",
+            "reason": "'Do you ever have to stop?' is ambiguous. The patient checks one possible reading and gives up the turn without answering. The interviewer then clarifies that the question was about work."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    },
+    "concrete_example": {
+      "labels": {
+        "5": "positive"
+      },
+      "events": {
+        "5": {
+          "label": "positive",
+          "evidence": {
+            "turn": 5,
+            "quote": "One evening last week, I was sorting my sewing supplies",
+            "reason": "The interviewer asked the patient to walk through one recent evening. The patient narrates a specific occasion in order: the sound, a tentative interpretation (a neighbor), then the action taken (turning on the radio) and the outcome (finishing the thread)."
+          },
+          "matching": {
+            "quote": "exact"
+          }
+        }
+      },
+      "issues": []
+    }
+  },
+  "ended": "2026-11-20T21:11:05.240280+00:00"
+}

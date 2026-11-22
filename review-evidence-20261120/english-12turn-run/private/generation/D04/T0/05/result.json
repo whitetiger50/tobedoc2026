@@ -1,0 +1,27 @@
+{
+  "case": "D04",
+  "arm": "T0",
+  "turn": 5,
+  "question": "How do you keep track of it all?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-331b-7a81-86fa-40d656b2a6ad",
+  "raw": "I put my shifts and appointments on the same wall calendar so I can see the week laid out. Agreeing on appointment dates in advance helps me plan around work.",
+  "raw_sha256": "d1b990ffd4bb1f21fdd8940737875e2b4585b6ff81354fd01c0f5fb71639793f",
+  "request_sha256": "6c3d3624d790a353f3d84d9811886ffae4f1e1725cfbf1e5827217fc49104ba5",
+  "started_utc": "2026-11-20T20:32:35.023886+00:00",
+  "completed_utc": "2026-11-20T20:32:39.142178+00:00",
+  "usage": {
+    "input_tokens": 6950,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "18cddc6c5ac380473b4349f285848eb2d8a7a0ed98349af2752278da328c3c74",
+  "trace_sha256": "0158e22a1f2e888518b098ed263c750e17ae298ab88ee8087cc8b3c8c1cffdb6"
+}

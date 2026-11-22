@@ -1,0 +1,4227 @@
+{
+  "decision": {
+    "by_reader": {
+      "opus": {
+        "full_at_least_33": true,
+        "core_at_least_33": false,
+        "net_at_least_9": true,
+        "p_at_most_005": true,
+        "worst_net_at_least_9": true,
+        "worst_p_at_most_005": true
+      },
+      "gpt": {
+        "full_at_least_33": true,
+        "core_at_least_33": true,
+        "net_at_least_9": false,
+        "p_at_most_005": false,
+        "worst_net_at_least_9": false,
+        "worst_p_at_most_005": false
+      }
+    },
+    "common_positive_arms": [
+      "base",
+      "short"
+    ],
+    "worst_common_positive_arms": [
+      "base",
+      "short"
+    ],
+    "card_contribution": false,
+    "full_concentration_reproduced": true,
+    "concentration_persists": false
+  },
+  "readers": {
+    "opus": {
+      "groups": {
+        "all": {
+          "planned": 36,
+          "complete": 36,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 36,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 36
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 36
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 36
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 27,
+                "above_one": 9,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.75,
+              "one_fraction_rated": 0.75,
+              "events_per_rated_answer": {
+                "1": 36
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 27,
+                  "2": 4,
+                  "3": 5
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.3888888888888888,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 27,
+                  "2": 4,
+                  "3": 5
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 27,
+              "above_one": 9,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 9,
+          "c": 0,
+          "signed": 9,
+          "delta": 0.25,
+          "complete_delta": 0.25,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 1,
+            "GK03": 0,
+            "GK04": 1,
+            "GK05": 1,
+            "GK06": 1,
+            "GK07": 1,
+            "GK08": 3,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 1
+          },
+          "worst_missing": {
+            "net": 9,
+            "delta": 0.25,
+            "arm_net": {
+              "base": 1,
+              "developed": 2,
+              "short": 6
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 1,
+              "GK03": 0,
+              "GK04": 1,
+              "GK05": 1,
+              "GK06": 1,
+              "GK07": 1,
+              "GK08": 3,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 1
+            },
+            "randomization": {
+              "count_ge": 32,
+              "allocations": 4096,
+              "one_sided_p": 0.0078125
+            }
+          },
+          "randomization": {
+            "count_ge": 32,
+            "allocations": 4096,
+            "one_sided_p": 0.0078125
+          }
+        },
+        "developed": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 10,
+                "above_one": 2,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.8333333333333334,
+              "one_fraction_rated": 0.8333333333333334,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 10,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.3333333333333333,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 10,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 10,
+              "above_one": 2,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 2,
+          "c": 0,
+          "signed": 2,
+          "delta": 0.16666666666666666,
+          "complete_delta": 0.16666666666666666,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 0,
+            "GK05": 1,
+            "GK06": 0,
+            "GK07": 0,
+            "GK08": 1,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 2,
+            "delta": 0.16666666666666666,
+            "arm_net": {
+              "developed": 2
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 0,
+              "GK05": 1,
+              "GK06": 0,
+              "GK07": 0,
+              "GK08": 1,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            }
+          }
+        },
+        "base": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 11,
+                "above_one": 1,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.9166666666666666,
+              "one_fraction_rated": 0.9166666666666666,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 11,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.1666666666666667,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 11,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 11,
+              "above_one": 1,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 1,
+          "c": 0,
+          "signed": 1,
+          "delta": 0.08333333333333333,
+          "complete_delta": 0.08333333333333333,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 0,
+            "GK05": 0,
+            "GK06": 0,
+            "GK07": 0,
+            "GK08": 1,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 1,
+            "delta": 0.08333333333333333,
+            "arm_net": {
+              "base": 1
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 0,
+              "GK05": 0,
+              "GK06": 0,
+              "GK07": 0,
+              "GK08": 1,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            }
+          }
+        },
+        "short": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 6,
+                "above_one": 6,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.5,
+              "one_fraction_rated": 0.5,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 6,
+                  "2": 4,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.6666666666666667,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 6,
+                  "2": 4,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 6,
+              "above_one": 6,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 6,
+          "c": 0,
+          "signed": 6,
+          "delta": 0.5,
+          "complete_delta": 0.5,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 1,
+            "GK03": 0,
+            "GK04": 1,
+            "GK05": 0,
+            "GK06": 1,
+            "GK07": 1,
+            "GK08": 1,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 1
+          },
+          "worst_missing": {
+            "net": 6,
+            "delta": 0.5,
+            "arm_net": {
+              "short": 6
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 1,
+              "GK03": 0,
+              "GK04": 1,
+              "GK05": 0,
+              "GK06": 1,
+              "GK07": 1,
+              "GK08": 1,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 1
+            }
+          }
+        }
+      },
+      "without_GK04": {
+        "planned": 33,
+        "complete": 33,
+        "b": 8,
+        "c": 0,
+        "signed": 8,
+        "delta": 0.24242424242424243
+      }
+    },
+    "gpt": {
+      "groups": {
+        "all": {
+          "planned": 36,
+          "complete": 36,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 36,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 36
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 36
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 36
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 33,
+                "above_one": 3,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.9166666666666666,
+              "one_fraction_rated": 0.9166666666666666,
+              "events_per_rated_answer": {
+                "1": 36
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 33,
+                  "2": 1,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.1388888888888888,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 33,
+                  "2": 1,
+                  "3": 2
+                },
+                "meaning_clarity": {
+                  "1": 36
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 33,
+              "above_one": 3,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 3,
+          "c": 0,
+          "signed": 3,
+          "delta": 0.08333333333333333,
+          "complete_delta": 0.08333333333333333,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 1,
+            "GK05": 0,
+            "GK06": 1,
+            "GK07": 0,
+            "GK08": 1,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 3,
+            "delta": 0.08333333333333333,
+            "arm_net": {
+              "base": 1,
+              "developed": 0,
+              "short": 2
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 1,
+              "GK05": 0,
+              "GK06": 1,
+              "GK07": 0,
+              "GK08": 1,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            },
+            "randomization": {
+              "count_ge": 512,
+              "allocations": 4096,
+              "one_sided_p": 0.125
+            }
+          },
+          "randomization": {
+            "count_ge": 512,
+            "allocations": 4096,
+            "one_sided_p": 0.125
+          }
+        },
+        "developed": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 12,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 0,
+          "c": 0,
+          "signed": 0,
+          "delta": 0.0,
+          "complete_delta": 0.0,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 0,
+            "GK05": 0,
+            "GK06": 0,
+            "GK07": 0,
+            "GK08": 0,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 0,
+            "delta": 0.0,
+            "arm_net": {
+              "developed": 0
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 0,
+              "GK05": 0,
+              "GK06": 0,
+              "GK07": 0,
+              "GK08": 0,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            }
+          }
+        },
+        "base": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 11,
+                "above_one": 1,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.9166666666666666,
+              "one_fraction_rated": 0.9166666666666666,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 11,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.1666666666666667,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 11,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 11,
+              "above_one": 1,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 1,
+          "c": 0,
+          "signed": 1,
+          "delta": 0.08333333333333333,
+          "complete_delta": 0.08333333333333333,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 0,
+            "GK05": 0,
+            "GK06": 0,
+            "GK07": 0,
+            "GK08": 1,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 1,
+            "delta": 0.08333333333333333,
+            "arm_net": {
+              "base": 1
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 0,
+              "GK05": 0,
+              "GK06": 0,
+              "GK07": 0,
+              "GK08": 1,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            }
+          }
+        },
+        "short": {
+          "planned": 12,
+          "complete": 12,
+          "marginal": {
+            "full": {
+              "elaboration_states": {
+                "one": 12,
+                "above_one": 0,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 1.0,
+              "one_fraction_rated": 1.0,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 12
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            },
+            "core": {
+              "elaboration_states": {
+                "one": 10,
+                "above_one": 2,
+                "no_narrative": 0,
+                "technical_missing": 0
+              },
+              "one_fraction_planned": 0.8333333333333334,
+              "one_fraction_rated": 0.8333333333333334,
+              "events_per_rated_answer": {
+                "1": 12
+              },
+              "question_score_distribution": {
+                "elaboration": {
+                  "1": 10,
+                  "2": 1,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              },
+              "question_score_mean": {
+                "elaboration": 1.25,
+                "meaning_clarity": 1
+              },
+              "event_score_distribution": {
+                "elaboration": {
+                  "1": 10,
+                  "2": 1,
+                  "3": 1
+                },
+                "meaning_clarity": {
+                  "1": 12
+                }
+              }
+            }
+          },
+          "full_rows_core_columns": {
+            "one": {
+              "one": 10,
+              "above_one": 2,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "above_one": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "no_narrative": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            },
+            "technical_missing": {
+              "one": 0,
+              "above_one": 0,
+              "no_narrative": 0,
+              "technical_missing": 0
+            }
+          },
+          "b": 2,
+          "c": 0,
+          "signed": 2,
+          "delta": 0.16666666666666666,
+          "complete_delta": 0.16666666666666666,
+          "card_net": {
+            "GK01": 0,
+            "GK02": 0,
+            "GK03": 0,
+            "GK04": 1,
+            "GK05": 0,
+            "GK06": 1,
+            "GK07": 0,
+            "GK08": 0,
+            "GK09": 0,
+            "GK10": 0,
+            "GK11": 0,
+            "GK12": 0
+          },
+          "worst_missing": {
+            "net": 2,
+            "delta": 0.16666666666666666,
+            "arm_net": {
+              "short": 2
+            },
+            "card_net": {
+              "GK01": 0,
+              "GK02": 0,
+              "GK03": 0,
+              "GK04": 1,
+              "GK05": 0,
+              "GK06": 1,
+              "GK07": 0,
+              "GK08": 0,
+              "GK09": 0,
+              "GK10": 0,
+              "GK11": 0,
+              "GK12": 0
+            }
+          }
+        }
+      },
+      "without_GK04": {
+        "planned": 33,
+        "complete": 33,
+        "b": 2,
+        "c": 0,
+        "signed": 2,
+        "delta": 0.06060606060606061
+      }
+    }
+  },
+  "words": {
+    "all": {
+      "full": {
+        "n": 36,
+        "mean": 61.583333333333336,
+        "median": 52.0,
+        "min": 23,
+        "max": 133
+      },
+      "core": {
+        "n": 36,
+        "mean": 49.361111111111114,
+        "median": 37.5,
+        "min": 12,
+        "max": 131
+      },
+      "paired_core_minus_full": {
+        "n": 36,
+        "mean": -12.222222222222221,
+        "median": -10.0,
+        "min": -43,
+        "max": 21
+      }
+    },
+    "developed": {
+      "full": {
+        "n": 12,
+        "mean": 61.75,
+        "median": 55.5,
+        "min": 25,
+        "max": 108
+      },
+      "core": {
+        "n": 12,
+        "mean": 42.666666666666664,
+        "median": 47.5,
+        "min": 12,
+        "max": 73
+      },
+      "paired_core_minus_full": {
+        "n": 12,
+        "mean": -19.083333333333332,
+        "median": -21.5,
+        "min": -42,
+        "max": 15
+      }
+    },
+    "base": {
+      "full": {
+        "n": 12,
+        "mean": 88.83333333333333,
+        "median": 95.0,
+        "min": 33,
+        "max": 133
+      },
+      "core": {
+        "n": 12,
+        "mean": 78.16666666666667,
+        "median": 84.0,
+        "min": 12,
+        "max": 131
+      },
+      "paired_core_minus_full": {
+        "n": 12,
+        "mean": -10.666666666666666,
+        "median": -11.0,
+        "min": -43,
+        "max": 21
+      }
+    },
+    "short": {
+      "full": {
+        "n": 12,
+        "mean": 34.166666666666664,
+        "median": 35.5,
+        "min": 23,
+        "max": 43
+      },
+      "core": {
+        "n": 12,
+        "mean": 27.25,
+        "median": 28.0,
+        "min": 14,
+        "max": 36
+      },
+      "paired_core_minus_full": {
+        "n": 12,
+        "mean": -6.916666666666667,
+        "median": -8.5,
+        "min": -15,
+        "max": 2
+      }
+    }
+  },
+  "agreement": {
+    "all": {
+      "full": {
+        "total": 36,
+        "both_rated": 36,
+        "status_same": 36,
+        "floor_state_same": 36,
+        "event_count_same_among_rated": 36,
+        "question_score_same_among_rated": {
+          "elaboration": 36,
+          "meaning_clarity": 36
+        }
+      },
+      "core": {
+        "total": 36,
+        "both_rated": 36,
+        "status_same": 36,
+        "floor_state_same": 30,
+        "event_count_same_among_rated": 36,
+        "question_score_same_among_rated": {
+          "elaboration": 30,
+          "meaning_clarity": 36
+        }
+      },
+      "both_versions": {
+        "total": 72,
+        "both_rated": 72,
+        "status_same": 72,
+        "floor_state_same": 66,
+        "event_count_same_among_rated": 72,
+        "question_score_same_among_rated": {
+          "elaboration": 66,
+          "meaning_clarity": 72
+        }
+      }
+    },
+    "developed": {
+      "full": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 12,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 12,
+          "meaning_clarity": 12
+        }
+      },
+      "core": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 10,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 10,
+          "meaning_clarity": 12
+        }
+      },
+      "both_versions": {
+        "total": 24,
+        "both_rated": 24,
+        "status_same": 24,
+        "floor_state_same": 22,
+        "event_count_same_among_rated": 24,
+        "question_score_same_among_rated": {
+          "elaboration": 22,
+          "meaning_clarity": 24
+        }
+      }
+    },
+    "base": {
+      "full": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 12,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 12,
+          "meaning_clarity": 12
+        }
+      },
+      "core": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 12,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 12,
+          "meaning_clarity": 12
+        }
+      },
+      "both_versions": {
+        "total": 24,
+        "both_rated": 24,
+        "status_same": 24,
+        "floor_state_same": 24,
+        "event_count_same_among_rated": 24,
+        "question_score_same_among_rated": {
+          "elaboration": 24,
+          "meaning_clarity": 24
+        }
+      }
+    },
+    "short": {
+      "full": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 12,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 12,
+          "meaning_clarity": 12
+        }
+      },
+      "core": {
+        "total": 12,
+        "both_rated": 12,
+        "status_same": 12,
+        "floor_state_same": 8,
+        "event_count_same_among_rated": 12,
+        "question_score_same_among_rated": {
+          "elaboration": 8,
+          "meaning_clarity": 12
+        }
+      },
+      "both_versions": {
+        "total": 24,
+        "both_rated": 24,
+        "status_same": 24,
+        "floor_state_same": 20,
+        "event_count_same_among_rated": 24,
+        "question_score_same_among_rated": {
+          "elaboration": 20,
+          "meaning_clarity": 24
+        }
+      }
+    }
+  },
+  "pairs": [
+    {
+      "case": "GK01",
+      "topic": "happy",
+      "arm": "base",
+      "core": {
+        "uid": "Uff0b6b732411f82bd9f9c955",
+        "words": 126,
+        "scores": {
+          "opus": {
+            "uid": "Uff0b6b732411f82bd9f9c955",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (first strawberry crop on the balcony), the speaker adds self-contained details: repeatedly going out to look, the moment actual strawberries appeared, the contrast with tracking supplies at work, the novelty of growing fruit on a balcony, and the feeling of 'I actually did it.'",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The mention of the aquarium shop job is explicitly tied back to the event ('But these were something I'd grown myself'), so the shift is connected rather than abrupt, and the referents are clear."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uff0b6b732411f82bd9f9c955",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker describes growing a first crop of balcony strawberries, repeatedly checking them, and feeling pleased at successfully growing fruit at home.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account clearly connects seeing the strawberries with happiness and pride in having grown them."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U6ddc7cac899cdb95a8b8e939",
+        "words": 133,
+        "scores": {
+          "opus": {
+            "uid": "U6ddc7cac899cdb95a8b8e939",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the first balcony strawberry harvest, the speaker adds that there were six ripe berries in one bowl, that two were saved for a neighbor, and why the moment mattered (they grew on their own balcony, having enough to share). The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The mention of working as a supply clerk is clearly tied back to the point that these were not just a quantity but their first strawberries. There are no contradictions or unclear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U6ddc7cac899cdb95a8b8e939",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes six strawberries grown on the balcony, saving two for a neighbor, and the pleasure of growing and sharing a first harvest.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects feeling happy with the first harvest and explains why these strawberries felt special."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK01",
+      "topic": "happy",
+      "arm": "developed",
+      "core": {
+        "uid": "Ucfd051e2cb2f95bfb2cfc13f",
+        "words": 68,
+        "scores": {
+          "opus": {
+            "uid": "Ucfd051e2cb2f95bfb2cfc13f",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the first crop of balcony strawberries, the speaker explains that they grew the plants on their own balcony, got fruit from them, and felt happy because these were their first. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents ('them', 'those', 'my first ones') clearly mean the strawberries, and the reflection on why it mattered connects logically without contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ucfd051e2cb2f95bfb2cfc13f",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker describes their first balcony strawberry crop and explains that growing and obtaining their own fruit made them happy.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and the connection between personal achievement and happiness are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "Uaa5696a23d42b8a79f768e6b",
+        "words": 108,
+        "scores": {
+          "opus": {
+            "uid": "Uaa5696a23d42b8a79f768e6b",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming the first balcony strawberry crop. It gives the six ripe berries in one bowl, the speaker's pride in having grown them, and saving two for a neighbor. Together these make a self-contained picture of the event and why it was happy.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. References are clear (the berries, the bowl, the neighbor), there are no contradictions or abrupt shifts, and the repetition about it being the first crop adds emphasis without causing confusion."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uaa5696a23d42b8a79f768e6b",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes the first balcony strawberry crop, six ripe berries in a bowl, saving two for a neighbor, and the pleasure of growing and sharing them.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects feeling happy with growing their first strawberries and having enough to share."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK01",
+      "topic": "happy",
+      "arm": "short",
+      "core": {
+        "uid": "U19aebd4ad9bb25d466ae0015",
+        "words": 36,
+        "scores": {
+          "opus": {
+            "uid": "U19aebd4ad9bb25d466ae0015",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the first crop of balcony strawberries, the speaker adds the thought 'I actually grew those' and explains the effect, that having something growing made the balcony feel different. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The event, the speaker's reaction and why it mattered are stated plainly and consistently, with clear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U19aebd4ad9bb25d466ae0015",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker describes looking at their first balcony strawberries, feeling proud of growing them, and how they changed the feel of the balcony.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and the speaker's reasons for feeling happy are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "Uf84d75b1150e49d410967c9f",
+        "words": 39,
+        "scores": {
+          "opus": {
+            "uid": "Uf84d75b1150e49d410967c9f",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (getting first strawberries from the balcony), the speaker adds details that make the account self-contained: six ripe ones in a bowl, the pleasure of seeing them together, and saving two to share with a neighbor.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; references (strawberries, bowl, neighbor) are clear and the sharing motive is explicitly stated."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uf84d75b1150e49d410967c9f",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing six ripe balcony strawberries in a bowl and saving two for a neighbor.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects feeling happy with harvesting the strawberries and wanting to share them."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK02",
+      "topic": "afraid",
+      "arm": "base",
+      "core": {
+        "uid": "Uf7ed89375677375305114d90",
+        "words": 39,
+        "scores": {
+          "opus": {
+            "uid": "Uf7ed89375677375305114d90",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the event. They describe a dog charging across a driveway, say it felt sudden, and explain the fear: the dog might bite and they didn't know what it would do. The account explains the fearful moment without needing more context.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. References are clear ('the dog'), with no contradictions, word substitutions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uf7ed89375677375305114d90",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes a dog charging across a driveway and explains the speaker's fear that it might bite.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The situation and the reason for feeling afraid are clear and consistent."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U229a58c82e4115499148c62a",
+        "words": 60,
+        "scores": {
+          "opus": {
+            "uid": "U229a58c82e4115499148c62a",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (a dog charging), the speaker adds the low gate, the snapped tether dragging behind the dog, the specific fear of it getting past the gate, and the suddenness. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. The referents (the dog, the gate, the tether) are clear, and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U229a58c82e4115499148c62a",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing the charging dog, its snapped tether, the low gate, and the fear that it would get past the barrier.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and the reason for feeling afraid are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK02",
+      "topic": "afraid",
+      "arm": "developed",
+      "core": {
+        "uid": "U98e7fd6d46aa7f939207cbaf",
+        "words": 26,
+        "scores": {
+          "opus": {
+            "uid": "U98e7fd6d46aa7f939207cbaf",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming a frightening dog encounter, the speaker adds that the dog was charging across a driveway and coming straight at them. They also say this is what made it frightening. The fear-inducing moment is self-contained, even though no outcome is given.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent, with clear referents ('a dog', 'me', 'it') and no contradictions or abrupt shifts. The intended meaning is easy to follow."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U98e7fd6d46aa7f939207cbaf",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes a dog charging straight toward the speaker across a driveway, providing a self-contained frightening event.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and why the speaker felt afraid are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U817ebe329e63e796e18bece2",
+        "words": 53,
+        "scores": {
+          "opus": {
+            "uid": "U817ebe329e63e796e18bece2",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (a dog charging), the speaker adds details that contribute to understanding: the low gate between them, the snapped tether dragging behind the dog, and the uncertainty about whether the gate would hold. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; referents (the dog, the gate, the tether) are clear and the reason for fear is explicitly connected to the dog coming straight at them and uncertainty about the gate."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U817ebe329e63e796e18bece2",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes the charging dog, its snapped tether, and uncertainty about whether the low gate would stop it, explaining the fear.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The situation and the reason for feeling afraid are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK02",
+      "topic": "afraid",
+      "arm": "short",
+      "core": {
+        "uid": "Ub827f3c2e64df3d0c518094a",
+        "words": 23,
+        "scores": {
+          "opus": {
+            "uid": "Ub827f3c2e64df3d0c518094a",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 2,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 2,
+                "elaboration_reason": "The speaker gives some detail beyond naming the event: a dog charged toward them across a driveway, and it happened quickly. Important information is missing, including the setting, when it happened, and the outcome. The speaker acknowledges this with 'That's mostly what I remember.'",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. A dog charged at the speaker, it frightened them, and it happened fast. There are no contradictions, unclear referents or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ub827f3c2e64df3d0c518094a",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes a dog charging toward the speaker across a driveway and how quickly it happened, providing a self-contained frightening event.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "It is clear that the charging dog frightened the speaker."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U191de83f0789c641aaaf7a65",
+        "words": 34,
+        "scores": {
+          "opus": {
+            "uid": "U191de83f0789c641aaaf7a65",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (a dog charging), the speaker adds the setting (across a driveway), a low gate between them, the dog's broken tether dragging behind it, and the speed and fear involved. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. A dog with a broken tether charged toward the speaker across a driveway with a low gate between them, and the speaker felt scared. There are no contradictions, unclear referents or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U191de83f0789c641aaaf7a65",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing a dog charging across a driveway, a low gate between them, and its broken tether dragging behind it.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and the reason for the speaker's fear are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK03",
+      "topic": "proud",
+      "arm": "base",
+      "full": {
+        "uid": "U2a51c6944b4d43002bfbadd5",
+        "words": 111,
+        "scores": {
+          "opus": {
+            "uid": "U2a51c6944b4d43002bfbadd5",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming the event: it gives the setting (by the dunes), what the speaker did (added a longer tail cut from an old sheet to a homemade kite), how long it flew (ten minutes), and why it mattered (persistence paid off). It is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The narrative is coherent and easy to follow, with clear references, a logical sequence, and no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U2a51c6944b4d43002bfbadd5",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing the homemade kite, the longer tail, its ten-minute flight above the dunes, and why this achievement inspired pride.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and connections between modifying the kite, getting it to fly, and feeling proud are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Ue32bcd7963fa99409183ed69",
+        "words": 85,
+        "scores": {
+          "opus": {
+            "uid": "Ue32bcd7963fa99409183ed69",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (homemade kite staying in the air), the speaker adds that they made it themselves, their initial uncertainty about whether it would stay up, the shift to enjoying it as it kept flying, and the specific source of pride ('I made that'). The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account follows a clear sequence from making the kite, to doubting it would stay up, to enjoying its flight and feeling pride. References are clear, with no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ue32bcd7963fa99409183ed69",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The self-contained account explains that the homemade kite stayed airborne, turning initial uncertainty into enjoyment and pride in having made it.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and the connection between the kite's successful flight and the speaker's pride are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK03",
+      "topic": "proud",
+      "arm": "developed",
+      "full": {
+        "uid": "Uaaa8a542dd0f099e3c5620ed",
+        "words": 75,
+        "scores": {
+          "opus": {
+            "uid": "Uaaa8a542dd0f099e3c5620ed",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Goes beyond naming the event: describes the modification (a longer tail cut from an old sheet), the setting (above the dunes), the duration (ten minutes), and the speaker's feelings on watching it fly; the account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The narrative is coherent and easy to follow, with clear referents ('it', 'that thing' = the kite) and no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uaaa8a542dd0f099e3c5620ed",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing the homemade kite, its longer tail cut from an old sheet, and its ten-minute flight above the dunes as a source of pride.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and reason for feeling proud are clear: the speaker's handmade kite successfully stayed in the air."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U3773ce188923b7868a924b2d",
+        "words": 56,
+        "scores": {
+          "opus": {
+            "uid": "U3773ce188923b7868a924b2d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming the event. It says the kite was homemade, that it 'finally' stayed aloft, and that what mattered was watching it keep flying rather than just getting it airborne. It also conveys the feeling of 'I made that myself, and it actually works.' The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. There is one clear event, the references are consistent, and the explanation of why it was meaningful is coherent."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3773ce188923b7868a924b2d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker describes a homemade kite staying aloft and explains feeling proud because something they made worked and kept flying.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and its connection to the speaker's pride are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK03",
+      "topic": "proud",
+      "arm": "short",
+      "full": {
+        "uid": "U1697422c0e21f93a8248500d",
+        "words": 41,
+        "scores": {
+          "opus": {
+            "uid": "U1697422c0e21f93a8248500d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (homemade kite flying above the dunes), the speaker adds what changed (a longer tail cut from an old sheet), how long it flew (about ten minutes), and why it mattered (seeing it finally work), making the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow: references are clear ('it' consistently refers to the kite), and the link between the modification, the successful flight, and the feeling of pride is explicit."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U1697422c0e21f93a8248500d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains that the homemade kite flew above the dunes for about ten minutes after the speaker added a longer tail made from an old sheet.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and reason for feeling proud are clear: the modified kite finally stayed airborne."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Ubebcebeffa9eb8484e802958",
+        "words": 28,
+        "scores": {
+          "opus": {
+            "uid": "Ubebcebeffa9eb8484e802958",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (the kite staying up), the speaker adds that the kite was homemade, that they had been trying repeatedly to get it to fly, and how it felt to see it stay in the air. This explains why the moment was a source of pride, and the account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. 'It' clearly refers to the homemade kite, and there are no contradictions, word substitutions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ubebcebeffa9eb8484e802958",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker describes a homemade kite staying airborne after attempts to make it fly and explains how that success felt.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between successfully flying the kite and feeling proud is clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK04",
+      "topic": "directions",
+      "arm": "base",
+      "core": {
+        "uid": "Ucc0b6817c852c8d7dbb558c1",
+        "words": 83,
+        "scores": {
+          "opus": {
+            "uid": "Ucc0b6817c852c8d7dbb558c1",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the destination (weekly tennis practice at 48 Court Lane), the speaker describes a self-contained procedure for giving directions: give the address first, go through the route turn by turn, use landmarks rather than bare turns, and check that the street names are right. This answers the question of how they would give directions.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. It has a clear destination, a logical order of steps and a clear reason for checking street names. There are no contradictions, unclear referents or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ucc0b6817c852c8d7dbb558c1",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Describes a directions-giving procedure: provide the tennis venue’s address, explain the route turn by turn, include landmarks, and check street names.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The destination, sequence, and reasons for giving accurate, landmark-based directions are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U0a92b7283b0fd0ccbe87a20a",
+        "words": 62,
+        "scores": {
+          "opus": {
+            "uid": "U0a92b7283b0fd0ccbe87a20a",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Gives a self-contained route to the weekly tennis practice: head north on Laurel Street, continue to the gas station landmark, turn left onto Court Lane, and find number 48. That is enough to follow the procedure.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The steps follow a clear order with specific street names, a landmark, a turn direction, and a destination address. There are no contradictions, unclear references, or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U0a92b7283b0fd0ccbe87a20a",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Provides a self-contained route to tennis practice, including streets, a turn landmark, and the destination address.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The route and sequence of directions are clear, including where to turn and which address to find."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK04",
+      "topic": "directions",
+      "arm": "developed",
+      "core": {
+        "uid": "Ubca06f0481e9e3c9838d40bd",
+        "words": 55,
+        "scores": {
+          "opus": {
+            "uid": "Ubca06f0481e9e3c9838d40bd",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the activity. They name the destination (weekly tennis practice at 48 Court Lane) and describe how they would give the directions: the address first, then the route one turn at a time, using landmarks instead of a long list of street names. That method answers the question on its own, even though the actual turns are not listed.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The answer is easy to follow. The destination is clearly identified, the steps come in a logical order, and there are no contradictions, unclear references or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ubca06f0481e9e3c9838d40bd",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Describes a self-contained procedure: give the tennis venue’s address, explain the route turn by turn, and use landmarks to identify turns.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The destination and sequence for giving directions are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U21f37f156f9b1ce686828566",
+        "words": 40,
+        "scores": {
+          "opus": {
+            "uid": "U21f37f156f9b1ce686828566",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Gives a self-contained route to the weekly tennis practice: head north on Laurel Street, turn left at the gas station onto Court Lane, and find number 48. For an everyday task, these route steps are appropriate detail.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The directions are sequential and consistent. The destination and landmarks are clearly named, so the intended meaning is easy to follow."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U21f37f156f9b1ce686828566",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Gives a self-contained route with a travel direction, a landmark, a turn, and the destination address.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The route and destination are clearly stated, and the directions follow a logical sequence."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK04",
+      "topic": "directions",
+      "arm": "short",
+      "core": {
+        "uid": "Uda05e42f6ef838e379c61fb1",
+        "words": 26,
+        "scores": {
+          "opus": {
+            "uid": "Uda05e42f6ef838e379c61fb1",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 2,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 2,
+                "elaboration_reason": "The speaker names the destination (tennis practice at 48 Court Lane) and how often they go (every week). They say they would give the turns in order with landmarks, but they never state the actual route, turns or landmarks. The procedure that matters most for understanding the directions is missing.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The answer is coherent and easy to follow. The destination is clearly identified, and the general approach (turns in order plus landmarks) is stated without contradictions or unclear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uda05e42f6ef838e379c61fb1",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 2,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 2,
+                "elaboration_reason": "The speaker names the destination and describes using ordered turns and landmarks, but gives no actual route from home.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The destination and intended approach to giving directions are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "Ud149e0bd5a1aa702b5fc96f6",
+        "words": 24,
+        "scores": {
+          "opus": {
+            "uid": "Ud149e0bd5a1aa702b5fc96f6",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Gives a self-contained route: north on Laurel Street, left onto Court Lane at the gas station, ending at the destination address 48 Court Lane, which is identified as weekly tennis practice.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "Steps follow in a clear order, the landmark and the street names are specific, and the destination is clearly identified. The meaning is easy to follow."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ud149e0bd5a1aa702b5fc96f6",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Provides a self-contained route with a direction, turn, landmark, and destination address for weekly tennis practice.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The route and destination are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK05",
+      "topic": "morning",
+      "arm": "base",
+      "full": {
+        "uid": "U5e9b707dcbc0cc482f3c8e88",
+        "words": 106,
+        "scores": {
+          "opus": {
+            "uid": "U5e9b707dcbc0cc482f3c8e88",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming coffee grinding. The speaker describes the procedure: getting the beans out of a blue tin and turning the handle of a grinder clamped to the kitchen counter. They also say it takes a little time and that they like having something to do with their hands. The routine is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning can be followed. There is a brief associative shift from the blue tin to colors, then to the lighting store where the speaker works as a cashier. The speaker signals this tangent and returns to the coffee ('But before I get onto thinking about work, there's the coffee'), so the main thread stays clear."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U5e9b707dcbc0cc482f3c8e88",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The coffee-grinding routine is self-contained, describing the bean tin, counter-mounted grinder, turning the handle, and enjoyment of the task.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The routine is easy to follow; the brief association from the blue tin to the workplace is explicit, and the speaker clearly returns to grinding coffee."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Ue07d0874ff58720423229da9",
+        "words": 99,
+        "scores": {
+          "opus": {
+            "uid": "Ue07d0874ff58720423229da9",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the activity. They describe grinding coffee by hand, turning the handle, feeling the beans break down, the smell, and why they like it as a simple waking-up task. The account stands on its own as a morning routine.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The shift to thinking about work as a lighting-store cashier is clearly linked, since they start thinking about it while waking up. The speaker also notices and points out the digression ('I've wandered over to work now'), so there are no unclear references or contradictions."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ue07d0874ff58720423229da9",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The morning coffee-grinding routine is self-contained, with details about turning the handle, feeling the beans break down, and enjoying the simple task while waking up.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The routine is easy to follow. The brief shift to thoughts about work is explicitly acknowledged and does not obscure the intended meaning."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK05",
+      "topic": "morning",
+      "arm": "developed",
+      "full": {
+        "uid": "Ua08a1effbf9017e85995a560",
+        "words": 50,
+        "scores": {
+          "opus": {
+            "uid": "Ua08a1effbf9017e85995a560",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the activity of grinding coffee each morning, the speaker adds details about the beans kept in a blue tin, the grinder clamped to the kitchen counter, and the procedure of standing at the counter turning it by hand, making the routine self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; referents (blue tin, grinder, counter) are clearly introduced and the sequence is logically connected."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ua08a1effbf9017e85995a560",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The routine is self-contained, describing where the beans are stored and how the speaker grinds them at the kitchen counter.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The morning coffee-grinding routine and the references to the tin, counter, and grinder are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U8c7d0a8fb737be755d447d89",
+        "words": 15,
+        "scores": {
+          "opus": {
+            "uid": "U8c7d0a8fb737be755d447d89",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker names the activity of grinding coffee by hand. 'By hand' only specifies which activity it is, and the second sentence restates that it is routine. No steps, context, or other details about the activity are added.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "Both sentences are clear and consistent, and the meaning is easy to follow."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U8c7d0a8fb737be755d447d89",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker specifies grinding coffee by hand, adding a method detail to a self-contained everyday activity.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The activity and its place in the morning routine are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK05",
+      "topic": "morning",
+      "arm": "short",
+      "full": {
+        "uid": "Uc1773ecafce07dcaa33a4fb6",
+        "words": 39,
+        "scores": {
+          "opus": {
+            "uid": "Uc1773ecafce07dcaa33a4fb6",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming hand-grinding coffee, the speaker adds that the grinder is clamped to the kitchen counter, the beans are kept in a blue tin, and the activity prompts thoughts about the day ahead, such as work at the lighting store. The account of the routine is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. 'That' clearly refers to grinding coffee, and the move to thinking about the workday is explicitly linked as a consequence of the activity. There are no contradictions or unclear referents."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uc1773ecafce07dcaa33a4fb6",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The coffee-grinding routine is self-contained, with details about the grinder, bean storage, and thoughts about the day ahead.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The routine and its connection to thinking about the coming workday are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U924be451f59032cafeac06e3",
+        "words": 31,
+        "scores": {
+          "opus": {
+            "uid": "U924be451f59032cafeac06e3",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the activity (grinding coffee), the speaker says it is done by hand, that they think about the day and sometimes work while doing it, and adds context about their job as a cashier at a lighting store. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The mention of being a cashier connects logically to thinking about work, so it is not an abrupt shift, and there are no unclear referents or contradictions."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U924be451f59032cafeac06e3",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The morning routine is developed with hand-grinding coffee and thinking about the day or work while doing so.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The activity and accompanying thoughts are clear, and the cashier job explains the reference to work."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK06",
+      "topic": "meal",
+      "arm": "base",
+      "core": {
+        "uid": "Ub548d748718cb146a35e3bcc",
+        "words": 12,
+        "scores": {
+          "opus": {
+            "uid": "Ub548d748718cb146a35e3bcc",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal as lunch today, the speaker says what they ate (lentil soup). That answers the question and the account stands on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The two sentences are clear and consistent, with no unclear references or shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ub548d748718cb146a35e3bcc",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker identifies lunch today and adds what they ate: lentil soup.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meal, timing, and food are clearly stated."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U3a81c94628e60e2ed3a82b20",
+        "words": 55,
+        "scores": {
+          "opus": {
+            "uid": "U3a81c94628e60e2ed3a82b20",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal (lunch today), the speaker adds what was eaten (lentil soup with warm flatbread folded beside the bowl) and the context (a short break between classes with little time to linger), giving a self-contained account.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow, with clear references, no contradictions, and a logical closing summary of the most memorable details."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3a81c94628e60e2ed3a82b20",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account specifies lentil soup and warm flatbread for lunch today and explains that the meal occurred during a short break between classes.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "What the speaker ate and the circumstances of the meal are clear and coherent."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK06",
+      "topic": "meal",
+      "arm": "developed",
+      "core": {
+        "uid": "Udab9329e85530c847a8bda04",
+        "words": 12,
+        "scores": {
+          "opus": {
+            "uid": "Udab9329e85530c847a8bda04",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal as 'lunch today,' the speaker says what they ate ('lentil soup'). For a simple everyday meal, this detail makes the account self-contained, and nothing important for understanding it is missing.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The two sentences are coherent and the referents are clear. The meal is clearly lunch today, and the food is clearly lentil soup."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Udab9329e85530c847a8bda04",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Identifies lunch today and adds what was eaten: lentil soup, giving a self-contained account.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meal, timing, and food are clearly stated."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U5084cdcda6a2a2fdb75e264c",
+        "words": 36,
+        "scores": {
+          "opus": {
+            "uid": "U5084cdcda6a2a2fdb75e264c",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the meal. They say what they ate (lentil soup with warm flatbread), when (lunch today), and the setting (a short break between classes). The account stands on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. The references are clear, nothing contradicts, and the closing remark about fitting lunch into the break fits the earlier context."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U5084cdcda6a2a2fdb75e264c",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing lentil soup with warm flatbread eaten during a short break between classes.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meal and its timing before returning to class are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK06",
+      "topic": "meal",
+      "arm": "short",
+      "core": {
+        "uid": "Uf54db604fcdb8cb59f155ed6",
+        "words": 14,
+        "scores": {
+          "opus": {
+            "uid": "Uf54db604fcdb8cb59f155ed6",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker only identifies the meal (lentil soup at lunch today) and adds nothing about setting, preparation, company or experience, noting 'That's mostly what I remember about it.'",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The statement is clear and coherent, with no unclear references, contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uf54db604fcdb8cb59f155ed6",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "Only identifies the meal as lentil soup for lunch today, without further description.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "It is clear what the speaker ate and when."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U298bdc0868e436fe0b36aa8b",
+        "words": 23,
+        "scores": {
+          "opus": {
+            "uid": "U298bdc0868e436fe0b36aa8b",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal (lentil soup for lunch), the speaker adds the accompanying warm flatbread and the context of eating during a short break between classes, making the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow, with clear references (lunch today, the bowl, between classes) and no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U298bdc0868e436fe0b36aa8b",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The meal is described with its food, accompaniment, and timing during a break between classes.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "What the speaker ate and when they ate it are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK07",
+      "topic": "embarrassed",
+      "arm": "base",
+      "core": {
+        "uid": "U3d8e6ad3392d5b1465cc311d",
+        "words": 131,
+        "scores": {
+          "opus": {
+            "uid": "U3d8e6ad3392d5b1465cc311d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (joining the wrong dance class), the speaker describes following along, watching others' feet, assuming they were just slow, realizing the mistake, and the dilemma about leaving; the account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence from joining the class, to struggling, to realizing the error and feeling embarrassed is coherent with clear references and no contradictions."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3d8e6ad3392d5b1465cc311d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains joining the wrong dance class, trying to follow the movements, and feeling embarrassed upon realizing the mistake.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The sequence and reason for the embarrassment are clear, including the hesitation to leave and concern about being noticed."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U337b1bbfc29f896a4a549d8e",
+        "words": 116,
+        "scores": {
+          "opus": {
+            "uid": "U337b1bbfc29f896a4a549d8e",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (walking into the wrong class at a dance studio), the speaker adds details that make the account self-contained: tap shoes in a drawstring bag, couples practicing a waltz, the realization that everyone was in pairs, and her thoughts about whether she'd been noticed and whether leaving would draw more attention.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is easy to follow. The mention of looking after a swimming pool is a brief aside, but she explicitly ties it back as a contrast ('This was the opposite—I was the thing that didn't belong'), so the connection is clear."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U337b1bbfc29f896a4a549d8e",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing entering the wrong dance class, recognizing the mistake from the waltzing couples and tap shoes, and feeling embarrassed about leaving.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The mistake and resulting embarrassment are clear, and the comparison with feeling comfortable at work supports the sense of being out of place."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK07",
+      "topic": "embarrassed",
+      "arm": "developed",
+      "core": {
+        "uid": "U9e75f28873f002fbdbba77de",
+        "words": 73,
+        "scores": {
+          "opus": {
+            "uid": "U9e75f28873f002fbdbba77de",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (joining the wrong dance class), the speaker says they went in believing it was the right place, then realized it wasn't. They also describe feeling out of place and wondering whether others noticed ('Do I look as confused as I feel?'). The account can be understood on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The mention of the swimming pool where they work is a brief side remark, but it is clearly framed as a contrast ('I'm on more familiar ground there'), so it does not obscure the main point."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U9e75f28873f002fbdbba77de",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains entering the wrong dance class believing it was correct, then feeling out of place and wondering whether others noticed the confusion.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The mistake and resulting embarrassment are clear, and the comparison with the familiar workplace is understandable."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U626daca5f214ef53f517411d",
+        "words": 68,
+        "scores": {
+          "opus": {
+            "uid": "U626daca5f214ef53f517411d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (joining the wrong dance class), the speaker adds details that make the account self-contained: couples practicing a waltz, carrying tap shoes in a drawstring bag, the contrast between the dance styles, and why it was embarrassing.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow: the speaker mistakenly entered a waltz class while carrying tap shoes and felt embarrassed. References are clear and there are no contradictions or abrupt shifts; the repetition reinforces rather than obscures."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U626daca5f214ef53f517411d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained: the speaker joined the wrong dance class, carrying tap shoes while couples practiced a waltz, and felt embarrassed.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The contrast between the speaker's tap shoes and the waltz class clearly explains being in the wrong place and feeling embarrassed."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK07",
+      "topic": "embarrassed",
+      "arm": "short",
+      "core": {
+        "uid": "U3b4bf49b47bd2906444065cd",
+        "words": 34,
+        "scores": {
+          "opus": {
+            "uid": "U3b4bf49b47bd2906444065cd",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 2,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 2,
+                "elaboration_reason": "The speaker gives the setting (a dance studio) and says the embarrassment came when they realized it was the wrong class. The remark about working as a swimming pool caretaker is background and adds little to the event itself. Important details are missing, such as how they realized the mistake and what happened next.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The speaker joined the wrong dance class and felt embarrassed on realizing it. The job remark is explicitly linked to the event as a 'change of scene,' so it is not a confusing shift."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3b4bf49b47bd2906444065cd",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains that the speaker joined the wrong class at a dance studio and felt embarrassed upon realizing the mistake.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The mistake and its connection to the speaker's embarrassment are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U277ccc25b91c9fd1f531e75d",
+        "words": 43,
+        "scores": {
+          "opus": {
+            "uid": "U277ccc25b91c9fd1f531e75d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (walking into the wrong dance class), the speaker adds contextual details—couples practicing a waltz, holding tap shoes in a drawstring bag—and their feeling of awkwardness, making the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; the setting, the mismatch (tap shoes vs. waltz class), and the resulting embarrassment are clearly connected."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U277ccc25b91c9fd1f531e75d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account includes couples practicing a waltz, the speaker carrying tap shoes, and the realization that they had entered the wrong class.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The situation and why the speaker felt embarrassed are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK08",
+      "topic": "meal",
+      "arm": "base",
+      "core": {
+        "uid": "U8801cc1864e58e4db149326e",
+        "words": 30,
+        "scores": {
+          "opus": {
+            "uid": "U8801cc1864e58e4db149326e",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker only identifies the meal and its timing ('beef tacos for lunch today'). They explicitly add no further information about the setting, activity or experience.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The statement is direct and coherent, with no unclear referents, contradictions or abrupt shifts. The intended meaning is easy to follow."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U8801cc1864e58e4db149326e",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker identifies the meal as beef tacos for lunch today but adds no further information about it.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "What the speaker ate and when are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U3e74457f51c11eac748b444c",
+        "words": 33,
+        "scores": {
+          "opus": {
+            "uid": "U3e74457f51c11eac748b444c",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal (beef tacos for lunch today), the speaker adds the source (a food truck), the serving container (a paper tray), and a topping detail (thin radish slices over the beef), giving a self-contained account.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent with clear referents ('They' = the tacos) and no contradictions or abrupt shifts; the closing remark simply signals the limit of recall."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3e74457f51c11eac748b444c",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The meal is self-contained, specifying beef tacos for lunch today from a food truck, served in a paper tray with sliced radish.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The description of what the speaker ate and how it was served is clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK08",
+      "topic": "meal",
+      "arm": "developed",
+      "core": {
+        "uid": "U7ba907ca27f4d54b7bd9899c",
+        "words": 13,
+        "scores": {
+          "opus": {
+            "uid": "U7ba907ca27f4d54b7bd9899c",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker only identifies the meal as 'beef tacos for lunch today.' The second sentence repeats this. There are no further details, such as where they ate, who they were with, how the meal was prepared or what it was like.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The speaker clearly states what they ate and when, with no contradictions or unclear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U7ba907ca27f4d54b7bd9899c",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker specifies what they ate—beef tacos—and when, at lunch today.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly identifies lunch today as their most recent meal."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "Uc3742f50ac8865015158c6c2",
+        "words": 25,
+        "scores": {
+          "opus": {
+            "uid": "Uc3742f50ac8865015158c6c2",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the meal. They give the time (lunch today), the source (a food truck), the serving (a paper tray) and a topping (thin slices of radish over the beef), so the account stands on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. 'They' clearly refers to the tacos, and there are no contradictions, unclear references or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uc3742f50ac8865015158c6c2",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing beef tacos for lunch today, served from a food truck in a paper tray with sliced radish.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meal and its details are clearly described, with no unclear references or connections."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK08",
+      "topic": "meal",
+      "arm": "short",
+      "core": {
+        "uid": "Uebe8adb4585ef6add6169fc8",
+        "words": 14,
+        "scores": {
+          "opus": {
+            "uid": "Uebe8adb4585ef6add6169fc8",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 3,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 3,
+                "elaboration_reason": "The speaker says only what the meal was and when it was eaten ('beef tacos for lunch today'). They add nothing about where, who with, how it was prepared or what it was like, and they confirm 'that's mostly what I remember about it.'",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The statement is short and easy to follow. It has no unclear referents, contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uebe8adb4585ef6add6169fc8",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The meal account is self-contained, specifying beef tacos and lunch today.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "What the speaker ate and when are clear."
+              }
+            ]
+          }
+        }
+      },
+      "full": {
+        "uid": "U72aceb0ca27d7ae10e09775d",
+        "words": 29,
+        "scores": {
+          "opus": {
+            "uid": "U72aceb0ca27d7ae10e09775d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the meal (beef tacos for lunch today), the speaker adds when it was eaten, where it came from (a food truck), how it was served (a paper tray), and a topping detail (thin slices of radish over the beef). The account stands on its own even though the speaker says this is mostly what they remember.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. It has clear referents, no contradictions, no word substitutions and no abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U72aceb0ca27d7ae10e09775d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The meal is self-contained, with details about the food truck, paper tray, and radish topping.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly describes eating beef tacos for lunch today."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK09",
+      "topic": "disgusted",
+      "arm": "base",
+      "full": {
+        "uid": "Ucb49922fa6fc9c235de0783a",
+        "words": 130,
+        "scores": {
+          "opus": {
+            "uid": "Ucb49922fa6fc9c235de0783a",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming the event: it describes the gray suds pooling around the sandals, the clump of hair across the drain, water not draining, the feeling that sandals were a poor barrier, and the dilemma of getting out without stepping further in. The account is self-contained; not remembering who else was there does not leave out information important for understanding the event.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The narrative is coherent and easy to follow, with clear references (the puddle, the hair, the drain, the sandals) and logical progression from noticing the puddle to identifying the hair as the source of disgust to the attempt to leave."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ucb49922fa6fc9c235de0783a",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing the public shower, gray water around the speaker’s sandals, hair blocking the drain, and concern about stepping into the puddle.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The setting, source of disgust, and speaker’s reactions are clear and connected throughout."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U99b32f19f895d547fff175b6",
+        "words": 106,
+        "scores": {
+          "opus": {
+            "uid": "U99b32f19f895d547fff175b6",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the event (a foul puddle in a public shower). They explain why it disgusted them: it was in a place meant for getting clean, the contents were unknown, and stepping in it felt horrible. They also describe how they kept watching the floor and wondering where the water came from and how far it had spread. The account makes sense on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The puddle is clearly the referent throughout, and the account moves logically from noticing the puddle to the feeling that the whole shower was dirty. There are no contradictions, abrupt shifts or unclear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U99b32f19f895d547fff175b6",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes a foul puddle in a public shower, why it was disgusting, and how noticing it led to concerns about contamination throughout the shower.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects the puddle, the expectation of cleanliness, and the resulting disgust and concern."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK09",
+      "topic": "disgusted",
+      "arm": "developed",
+      "full": {
+        "uid": "Ucf8c8017061f2deedd0a4a96",
+        "words": 94,
+        "scores": {
+          "opus": {
+            "uid": "Ucf8c8017061f2deedd0a4a96",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the public shower, the speaker describes the clump of hair across the drain, gray suds pooling around their sandals, and their worry about what was in the water. These details make the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account moves in a clear order: the hair caught their eye, then they noticed the water around their feet, then they felt disgusted. All references are clear and there are no contradictions."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ucf8c8017061f2deedd0a4a96",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes hair and gray suds around a public shower drain and explains how the water surrounding the speaker’s sandals prompted disgust.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The setting, observations, and connection between possible contamination and the speaker’s disgust are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U645904021cb71c17a045eff1",
+        "words": 53,
+        "scores": {
+          "opus": {
+            "uid": "U645904021cb71c17a045eff1",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the foul puddle in a public shower, the speaker gives their reaction (recoiling at the thought of stepping in it barefoot). They also explain why it was disgusting: a place meant for getting clean held something that suggests the opposite. The account stands on its own.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents (the puddle, the shower) are clear, and the contrast between cleanliness and the dirty puddle is stated coherently, with no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U645904021cb71c17a045eff1",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes a foul puddle in a public shower, the speaker's recoil at imagining stepping in it barefoot, and why it felt disgusting.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The puddle, the speaker's reaction, and the contrast with the shower's purpose of getting clean are clearly connected."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK09",
+      "topic": "disgusted",
+      "arm": "short",
+      "full": {
+        "uid": "U68c00bd400fee17c58d42016",
+        "words": 37,
+        "scores": {
+          "opus": {
+            "uid": "U68c00bd400fee17c58d42016",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (being in a public shower), the speaker adds specific details—gray suds pooling around sandals, a clump of hair across the drain, a foul puddle—and their reaction of wanting to move their feet away, making the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; the setting, the disgusting elements, and the speaker's response are clearly connected with no unclear referents or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U68c00bd400fee17c58d42016",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account is self-contained, describing the public shower, gray suds, hair across the drain, and the desire to move away.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The setting, source of disgust, and speaker's reaction are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U2cb2d6a107ceabd5e42f98ad",
+        "words": 24,
+        "scores": {
+          "opus": {
+            "uid": "U2cb2d6a107ceabd5e42f98ad",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the foul puddle in a public shower, the speaker adds how they reacted: they kept looking at it and tried to avoid stepping in it. This makes the brief account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referent ('it' = the puddle) is clear, and there are no contradictions, word substitutions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U2cb2d6a107ceabd5e42f98ad",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account identifies a foul puddle in a public shower and describes looking at it while trying to avoid stepping in it.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The source of disgust and the speaker's reaction are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK10",
+      "topic": "compassion",
+      "arm": "base",
+      "full": {
+        "uid": "Ufad4476648ceb0f53b818545",
+        "words": 84,
+        "scores": {
+          "opus": {
+            "uid": "Ufad4476648ceb0f53b818545",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event, the speaker gives the setting (supper), who was involved (a homesick exchange student), a concrete detail (the family photograph beside his plate), their reflection, and the action taken (lending the phone to call home); the account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow, with clear referents ('he' = the exchange student) and a logical sequence from observation to feeling to action."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ufad4476648ceb0f53b818545",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes supper with a homesick exchange student, the family photograph that prompted compassion, and lending him a phone to call home.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between seeing the photograph, feeling compassion, and helping him contact his family is clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U56b8d7aa60664068ca9aacc1",
+        "words": 62,
+        "scores": {
+          "opus": {
+            "uid": "U56b8d7aa60664068ca9aacc1",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming a supper with an exchange student, the speaker says the student was homesick, reflects on how hard it was to be far from home, and describes wanting to make them feel less alone. These details give a self-contained account of the compassion asked about, even though the speaker doesn't recall more about the supper.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents (the exchange student, the supper) are clear, there are no contradictions or abrupt shifts, and the note about not remembering the supper fits with the focus on the feeling."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U56b8d7aa60664068ca9aacc1",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account identifies supper with a homesick exchange student and explains the speaker's compassion and wish to offer comfort, making it self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between the student's homesickness and the speaker's desire to help them feel less alone is clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK10",
+      "topic": "compassion",
+      "arm": "developed",
+      "full": {
+        "uid": "Udaa9d478e9908bb92d6b8381",
+        "words": 58,
+        "scores": {
+          "opus": {
+            "uid": "Udaa9d478e9908bb92d6b8381",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event, the speaker gives the setting (supper), the person (a homesick exchange student), a concrete detail (family photograph beside his plate), their action (lending the phone so he could call home), and their motivation. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. References are clear ('he' and 'them' refer to the student and his family), and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Udaa9d478e9908bb92d6b8381",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The self-contained account describes supper with a homesick exchange student, his family photograph, and lending him a phone to call home.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The student's homesickness, the speaker's compassion, and the action taken to help are clearly connected."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U452004333f6b918464d0c976",
+        "words": 58,
+        "scores": {
+          "opus": {
+            "uid": "U452004333f6b918464d0c976",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the supper, the speaker says the exchange student was homesick. They also describe their own empathic thoughts about being far from home and their wish for the student to feel less alone. This makes the compassion episode self-contained, even though the speaker notes they don't recall the supper's other details.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. The referents (the exchange student, the supper) are clear, and the speaker moves logically from the situation to their feelings, with no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U452004333f6b918464d0c976",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes supper with a homesick exchange student and explains the speaker's compassion and wish to help them feel less alone.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The situation and the connection between the student's homesickness and the speaker's feelings are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK10",
+      "topic": "compassion",
+      "arm": "short",
+      "full": {
+        "uid": "U3455a271198cf7716798cbe4",
+        "words": 37,
+        "scores": {
+          "opus": {
+            "uid": "U3455a271198cf7716798cbe4",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (supper with a homesick exchange student), the speaker adds details: the family photograph beside his plate, the reason for the compassion (being so far away), and the action taken (lending the phone to call home). The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent with clear referents ('he' and 'him' consistently refer to the exchange student) and a logical sequence from situation to feeling to action. There are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U3455a271198cf7716798cbe4",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes supper with a homesick exchange student, his family photograph, and lending him a phone to call home.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The student's homesickness, the speaker's compassion, and the resulting offer of help are clearly connected."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U93b21b715bf7fc1f4ef62af1",
+        "words": 34,
+        "scores": {
+          "opus": {
+            "uid": "U93b21b715bf7fc1f4ef62af1",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event, the speaker gives the setting (at supper), the person (an exchange student), the reason for compassion (homesick, far from home) and their own feeling (felt sorry, imagined loneliness). The account is brief but self-contained, even though the speaker notes not remembering many details.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. 'Them' clearly refers to the exchange student, the statements are consistent, and there are no abrupt shifts or unclear references."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U93b21b715bf7fc1f4ef62af1",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account identifies a homesick exchange student at supper and explains that their distance from home and likely loneliness prompted compassion.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The situation and the reason for feeling compassion are clear and easy to follow."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK11",
+      "topic": "sad",
+      "arm": "base",
+      "full": {
+        "uid": "Ud7a4c1df929377d930f66e5a",
+        "words": 106,
+        "scores": {
+          "opus": {
+            "uid": "Ud7a4c1df929377d930f66e5a",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (father missing the school play), the speaker explains the cause (train delayed by snow), a specific detail (a program saved for him), and their feelings (disappointment despite knowing it wasn't his fault). The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow. References (father, play, program) are clear, the causal and emotional links are explicit, and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ud7a4c1df929377d930f66e5a",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains why the father missed the play and how the saved program reminded the speaker of his absence, making the sadness self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between the train delay, the father's absence, and the speaker's disappointment is clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Uc10204cc038dc4ee235d2791",
+        "words": 110,
+        "scores": {
+          "opus": {
+            "uid": "Uc10204cc038dc4ee235d2791",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account goes beyond naming the event (father missing the school play). It describes looking forward to him attending, scanning the audience during the play, having trouble concentrating while waiting for him, and why it hurt: wanting to share something important with him. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents (father, school play) are clear, the sequence is coherent, and there are no contradictions, word substitutions or abrupt shifts. The speaker explicitly declines to guess why he missed it, which does not obscure the meaning."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uc10204cc038dc4ee235d2791",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains the father's absence from the school play, the speaker's search for him in the audience, and why his absence caused sadness.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and the connections between anticipation, the father's absence, and the speaker's disappointment are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK11",
+      "topic": "sad",
+      "arm": "developed",
+      "full": {
+        "uid": "U515ca87c67963d8f9e10cb4d",
+        "words": 83,
+        "scores": {
+          "opus": {
+            "uid": "U515ca87c67963d8f9e10cb4d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (father missing the school play), the speaker explains why he missed it (train delayed by snow), adds the saved program they wanted to give him, and describes their mixed feelings of knowing it wasn't his fault yet still being disappointed. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow: the referents (father, play, program, train delay) are clear, the causal links are explicit, and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U515ca87c67963d8f9e10cb4d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains why the father missed the play, the program saved for him, and the speaker’s disappointment, making the event self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects the father’s absence to sadness despite understanding that the snow delay was not his fault."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U32f1465b32a55d80c8ea6691",
+        "words": 41,
+        "scores": {
+          "opus": {
+            "uid": "U32f1465b32a55d80c8ea6691",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (father missing the school play), the speaker explains why it was sad: the play mattered to them, and they wanted him there to see them and share it. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents (my father, my school play) are clear, and the causal link between his absence and the hurt is stated directly."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U32f1465b32a55d80c8ea6691",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker explains that their father missed a school play and why his absence hurt: the play mattered to them and they wanted to share it with him.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and the connection between the father's absence and the speaker's sadness are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK11",
+      "topic": "sad",
+      "arm": "short",
+      "full": {
+        "uid": "Ua2333946a340846aaa3b953e",
+        "words": 30,
+        "scores": {
+          "opus": {
+            "uid": "Ua2333946a340846aaa3b953e",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (dad missed the school play), the speaker adds the cause (his train was delayed by snow) and personal context (saved a program for him, really wanted him there); the account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow: clear referents (dad, school play, train), logical sequence, and no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Ua2333946a340846aaa3b953e",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account explains why the dad missed the play and adds that the speaker saved him a program and wanted him there.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event, reason for the dad's absence, and speaker's sadness are clearly connected."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Uafff1840982b58d62b0b2b3b",
+        "words": 28,
+        "scores": {
+          "opus": {
+            "uid": "Uafff1840982b58d62b0b2b3b",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (father missing the school play), the speaker adds that they had really wanted him there and found his absence disappointing. The account is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow: the father missed the play, and the speaker felt sad and disappointed. References are clear and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uafff1840982b58d62b0b2b3b",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker identifies the father missing the school play and explains wanting him there and feeling disappointed by his absence.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and its connection to the speaker's sadness are clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK12",
+      "topic": "proud",
+      "arm": "base",
+      "full": {
+        "uid": "U759cca91044055d193be3994",
+        "words": 70,
+        "scores": {
+          "opus": {
+            "uid": "U759cca91044055d193be3994",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the mural, the speaker adds details that make the account self-contained: it was for a playground, showed three blue whales along the wall, and a kindergarten class attended the unveiling, which made it feel special.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; referents such as 'they' clearly point to the children, and the closing remark about remembering the feeling more than the details is consistent with the rest."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U759cca91044055d193be3994",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes the playground mural, its three blue whales, and the children at the unveiling, explaining why the speaker felt proud.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between painting the mural, seeing the children, and feeling proud is clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Uecefa17fecdba4af63b7296b",
+        "words": 55,
+        "scores": {
+          "opus": {
+            "uid": "Uecefa17fecdba4af63b7296b",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker goes beyond naming the event (painting a playground mural). They describe looking at it and thinking 'I made that,' the satisfaction of their work becoming part of the place, and their pleasure at children having something cheerful while they played. Visual specifics of the mural are absent, but the account of the proud moment is self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The answer is coherent and easy to follow. References such as 'it' and 'the place' clearly point to the mural and the playground, with no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uecefa17fecdba4af63b7296b",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond identifying painting a playground mural, the speaker describes satisfaction in contributing to the place and providing cheerful surroundings for children.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects pride to creating the mural and its contribution to the playground."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK12",
+      "topic": "proud",
+      "arm": "developed",
+      "full": {
+        "uid": "U84879fc83ddccd1f20c361e8",
+        "words": 51,
+        "scores": {
+          "opus": {
+            "uid": "U84879fc83ddccd1f20c361e8",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the mural, the speaker adds details (three blue whales along the wall, a kindergarten class at the unveiling, feeling of accomplishment) that make the account self-contained.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent: the speaker painted a playground mural, attended its unveiling, and explains why it made them proud; references are clear and there are no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U84879fc83ddccd1f20c361e8",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes the playground mural's three blue whales, the kindergarten class at its unveiling, and why creating it felt like an accomplishment.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects feeling proud with painting the mural and seeing it unveiled in the playground."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "U526193f224a843155ee0a2f5",
+        "words": 42,
+        "scores": {
+          "opus": {
+            "uid": "U526193f224a843155ee0a2f5",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (painting a mural for a playground), the speaker explains why it made them proud: the satisfaction of looking at the finished work and thinking 'I did that.' The account is self-contained for a question about pride.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The meaning is easy to follow. The referents (the mural, the playground) are clear, and the account moves logically from the event to the reason for the feeling, with no contradictions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U526193f224a843155ee0a2f5",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The speaker identifies painting a playground mural and explains the satisfaction and pride of seeing their own work.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The connection between painting the mural, viewing it, and feeling proud is clear."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": "GK12",
+      "topic": "proud",
+      "arm": "short",
+      "full": {
+        "uid": "U9d9a261a597cd1947d6fd310",
+        "words": 34,
+        "scores": {
+          "opus": {
+            "uid": "U9d9a261a597cd1947d6fd310",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "Beyond naming the event (painting a playground mural), the speaker adds details that make the account self-contained: the subject of the mural (three blue whales along the wall), the unveiling attended by a kindergarten class, and why it felt meaningful (having made something for the children).",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The account is coherent and easy to follow; referents are clear ('them' refers to the kindergarten class/children), with no contradictions, word substitutions, or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "U9d9a261a597cd1947d6fd310",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account describes the playground mural as three blue whales, mentions a kindergarten class at the unveiling, and explains why the speaker felt proud.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The event and the speaker's pride in making something for the children are clear."
+              }
+            ]
+          }
+        }
+      },
+      "core": {
+        "uid": "Uec8800c83d1b24991167fc1d",
+        "words": 35,
+        "scores": {
+          "opus": {
+            "uid": "Uec8800c83d1b24991167fc1d",
+            "reader": "opus",
+            "status": "rated",
+            "elaboration": 2,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 2,
+                "elaboration_reason": "The speaker names the event (painting a mural for a playground) and adds some evaluative detail ('nice to make something for that space', 'pleased with how it turned out'). Important information is missing, though: what the mural showed, when or how it was made, and what made it a source of pride. The speaker also says 'I don't remember all the details.'",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The intended meaning is easy to follow. The referents ('a mural', 'that space' = the playground) are clear, and there are no contradictions, word substitutions or abrupt shifts."
+              }
+            ]
+          },
+          "gpt": {
+            "uid": "Uec8800c83d1b24991167fc1d",
+            "reader": "gpt",
+            "status": "rated",
+            "elaboration": 1,
+            "meaning_clarity": 1,
+            "events": [
+              {
+                "elaboration": 1,
+                "elaboration_reason": "The account identifies painting a mural for a playground and explains feeling pleased with the result, providing self-contained detail beyond naming the activity.",
+                "meaning_clarity": 1,
+                "meaning_clarity_reason": "The speaker clearly connects feeling proud to the mural they painted and satisfaction with how it turned out."
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "sources_sha256": {
+    "scores.json": "eefe40457c9b7b46ab63ab1f124453e319433066fb2d90ba24f7f900e3e46c12",
+    "blind.json": "8161403980c64d271d8e7022178a209fc234b84db5c1b72e34928e7d68475829",
+    "reader-verification.json": "3959f21a12e920297c3d4d8f8b9f09d3a7e02dd25673b703adcb61f51afe4d0b",
+    "freeze.json": "1812c21ea0034fc72e835ac51ace72d31a77b385844fb70bf7e7b36395a93cd1",
+    "plan.json": "6842bc038634f681ab5db7aeb3fb1625c45407bfa1123991b635a7b96b5e6cde",
+    "private/schedule.json": "9e1198442d609d6edc26c04bc6a55542e51b4314e80bb6ff53b4bbe58d98de75"
+  }
+}

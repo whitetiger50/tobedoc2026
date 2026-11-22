@@ -1,0 +1,58 @@
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "How long was it out for?",
+    "reason": "Both outages are explicitly raised without specifying which duration is wanted, and their lengths differ substantially.",
+    "alternatives": [
+      {
+        "meaning": "Duration of Monday’s outage.",
+        "answer": "The radio was silent for about ten minutes."
+      },
+      {
+        "meaning": "Duration of Thursday’s outage.",
+        "answer": "The radio was silent for most of the afternoon."
+      },
+      {
+        "meaning": "Duration of each outage.",
+        "answer": "Monday’s silence lasted about ten minutes; Thursday’s lasted most of the afternoon."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Is the medicine kept in the kitchen?",
+    "reason": "The question names both medications but does not distinguish them, and their storage locations support different answers even though a conditional answer could cover both.",
+    "alternatives": [
+      {
+        "meaning": "Whether the eye drops are kept in the kitchen.",
+        "answer": "The eye drops are on the bedside table, not in the kitchen."
+      },
+      {
+        "meaning": "Whether the daily tablets are kept in the kitchen.",
+        "answer": "The tablets are kept in the kitchen cabinet."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "Where do you have it set up?",
+    "reason": "The clarification and immediately preceding exchange establish the bedside speaker as the referent of 'it'.",
+    "alternatives": [
+      {
+        "meaning": "Where the bedside speaker is positioned.",
+        "answer": "The speaker sits on the windowsill beside the bed."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "when in the day do you take it?",
+    "reason": "The immediate discussion establishes the tablet as the referent, and 'when in the day' clearly asks about its daily timing.",
+    "alternatives": [
+      {
+        "meaning": "When Ren takes the daily tablet.",
+        "answer": "Ren takes the tablet after supper."
+      }
+    ]
+  }
+}

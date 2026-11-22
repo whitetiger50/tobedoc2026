@@ -1,0 +1,27 @@
+{
+  "case": "D02",
+  "arm": "T0",
+  "turn": 10,
+  "question": "What do you do if you lose your place in the middle of something?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa9-c5e8-7bf0-b8ef-d60666ca6546",
+  "raw": "“Writing things down helps, like with the shopping list. In conversation it’s harder—sometimes I only notice I’ve lost the point when the other person looks puzzled. It’s frustrating when I can’t hold on to what I was saying.”",
+  "raw_sha256": "700b00a4d2a774256ab2098f898fb847b45fbae2bb617a4e0426a8d5302d643c",
+  "request_sha256": "8093d47e5a2749089a6726207c41802ff0f09948cc89797f493381e5283136d6",
+  "started_utc": "2026-11-20T20:33:12.606475+00:00",
+  "completed_utc": "2026-11-20T20:33:20.223768+00:00",
+  "usage": {
+    "input_tokens": 7445,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 148,
+    "reasoning_output_tokens": 93
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "1970916bce0223b670dfae58e8c543ca2d595f2bc9adaa7caa3b32d3f5a11c54",
+  "trace_sha256": "f9a7e201d427848f120da93c581d5fd9bbb32891da50374c13a4f9001fcfb0e7"
+}

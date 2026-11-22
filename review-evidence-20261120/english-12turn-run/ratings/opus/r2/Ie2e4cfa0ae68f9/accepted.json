@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "Ie2e4cfa0ae68f9",
+  "ended": "2026-11-20T20:47:05.809983+00:00",
+  "session": "8676224d-9c79-4227-9a40-9a7f0ce3da53",
+  "packet_sha256": "08a1133e9d663fba98b532ff1abb895b5784e8f1fae5e1bc75f13775613e1b37",
+  "raw_sha256": "fa78e564b198fb3670da9d3702dd7beab8cb64d3993d788b13357524630ca106",
+  "provider_sha256": "4caab582d76960f0424e143976d711f4df44eed003c2674775df6d4dfe7515fa",
+  "status": "valid",
+  "score": 3,
+  "rationale": "The patient's speech mostly fits a quiet outpatient with low spontaneity and reduced verbal output. Answers are short, concrete and simple, with no elaboration on broad prompts. Asking what the clinician meant by an ambiguous question is realistic and matches the profile's intact comprehension. Brief, unexpanded statements, such as the medication answer, also fit decreased productivity. A few minor problems reduce authenticity. Some answers read as near-verbatim restatements of profile facts with fairly polished phrasing (e.g., 'gather my thoughts' repeated across turns). Turn 6 almost duplicates turn 1. In turn 12 the patient volunteers two points smoothly, which is slightly more fluent and organized than expected given the profile's difficulty starting on broad topics. Overall the dialogue is natural with minor scripted-feeling inconsistencies.",
+  "evidence": [
+    {
+      "turn": 3,
+      "quote": "Do you mean the time the matches are on?"
+    },
+    {
+      "turn": 11,
+      "quote": "I take my medication at night."
+    },
+    {
+      "turn": 6,
+      "quote": "stayed until the end to hear the result"
+    },
+    {
+      "turn": 12,
+      "quote": "I’d like them to give me a little quiet time to gather my thoughts"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "B",
+  "turn": 4,
+  "question": "I see you went to a cooking class and a swimming lesson. Were you done by six that evening?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-b3af-76c3-8e24-ec7016140875",
+  "raw": "Yes, both the cooking class and the swimming lesson were finished by six.",
+  "raw_sha256": "50195294c00a6a88e213d28252ed97084b501310a83680d6fa9651405f3af639",
+  "request_sha256": "47458424ec5a5c17cc17b6c9c4e2a37026029b2bf2b8ec48e84c8791b4932830",
+  "started_utc": "2026-11-21T03:41:21.237811+00:00",
+  "completed_utc": "2026-11-21T03:41:25.573466+00:00",
+  "usage": {
+    "input_tokens": 31526,
+    "cached_input_tokens": 25472,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 86,
+    "reasoning_output_tokens": 13
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "f9d42034e4bc083841ac6cf8794b751a1ad1e775df20cabd92dfa36f6bc7afea",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0ffded8415d5a1431bc8bc7901d21fd4363876ef1af9d6feb38056822b111995"
+}

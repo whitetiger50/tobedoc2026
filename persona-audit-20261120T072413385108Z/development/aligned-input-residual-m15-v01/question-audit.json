@@ -1,0 +1,666 @@
+{
+  "timestamp_utc": "2026-11-19T10:09:35.969150+00:00",
+  "review_source": "M14question-readiness-plan;authorreviewbeforegeneration",
+  "rows": [
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 1,
+      "purpose": "open_symptom_elicitation",
+      "original_question": "오늘 진료에서 가장 이야기하고 싶은 불편은 무엇인가요?",
+      "aligned_question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "changed": true,
+      "declared_scope": "명시된 현재 불편을 말하도록 묻고,미기재된 다른 불편과의 최우선 순위 비교는 요구하지 않음",
+      "required_fact_ids": [
+        "symptom"
+      ],
+      "supporting_facts": [
+        {
+          "id": "symptom",
+          "kind": "subjective_experience",
+          "content": "잠들기 전 조용할 때 누가 자신의 이름을 부르는 듯한 소리를 가끔 듣는 일이 걱정된다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 2,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "집에서는 누구와 함께 지내세요?",
+      "aligned_question": "집에서는 누구와 함께 지내세요?",
+      "changed": false,
+      "declared_scope": "명시된 동거인;전체 가구원 수와 다른 사람 부재는 미정",
+      "required_fact_ids": [
+        "living"
+      ],
+      "supporting_facts": [
+        {
+          "id": "living",
+          "kind": "background",
+          "content": "남편과 함께 산다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [
+        "household exclusivity/number unspecified;quantifier claims remain semanticboundary"
+      ],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 3,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "aligned_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "changed": false,
+      "declared_scope": "현재 명시된 낮 활동/일;특정 날짜나 빈도 추가를 요구하지 않음",
+      "required_fact_ids": [
+        "work"
+      ],
+      "supporting_facts": [
+        {
+          "id": "work",
+          "kind": "background",
+          "content": "동네 꽃집에서 시간제로 일한다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 4,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "오늘 아침에는 무엇을 드셨어요?",
+      "aligned_question": "오늘 아침에는 무엇을 드셨어요?",
+      "changed": false,
+      "declared_scope": "오늘 아침의 명시된 식사;장소/수량 추가 불필요",
+      "required_fact_ids": [
+        "breakfast"
+      ],
+      "supporting_facts": [
+        {
+          "id": "breakfast",
+          "kind": "background",
+          "content": "오늘 아침 집에서 주먹밥을 먹었다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 5,
+      "purpose": "topic_followup",
+      "original_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "aligned_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "changed": false,
+      "declared_scope": "명시된 경험의 발생 상황/경향;빈도 수치/원인/최근 사건을 요구하지 않음",
+      "required_fact_ids": [
+        "pattern"
+      ],
+      "supporting_facts": [
+        {
+          "id": "pattern",
+          "kind": "subjective_experience",
+          "content": "이 소리는 잠들기 전 가끔 경험하며 낮에는 거의 경험하지 않는다. 구체적인 발생 횟수와 시각은 정하지 않았다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 6,
+      "purpose": "topic_followup",
+      "original_question": "그럴 때는 어떻게 지내세요?",
+      "aligned_question": "그럴 때는 어떻게 지내세요?",
+      "changed": false,
+      "declared_scope": "해당 경험 때 명시된 대처;새 행동 추가 불필요",
+      "required_fact_ids": [
+        "coping"
+      ],
+      "supporting_facts": [
+        {
+          "id": "coping",
+          "kind": "background",
+          "content": "그런 소리가 들리면 방의 불을 켜고 잠시 앉아 있는다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 7,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 잠은 어떠세요?",
+      "aligned_question": "요즘 잠은 어떠세요?",
+      "changed": false,
+      "declared_scope": "명시된 현재 수면 경향;진단/인과/특정 어젯밤 사건 추가 불필요",
+      "required_fact_ids": [
+        "sleep"
+      ],
+      "supporting_facts": [
+        {
+          "id": "sleep",
+          "kind": "background",
+          "content": "잠드는 데 시간이 걸리는 날이 있지만 밤중에 자주 깨지는 않는다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-01",
+      "question_index": 8,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "다음 진료 전까지 해 보고 싶은 일이 있나요?",
+      "aligned_question": "다음 진료 전까지 해 보고 싶은 일이 있나요?",
+      "changed": false,
+      "declared_scope": "설정된 목표의 시점과 행동/대화 주제:진료 전 기록 활동",
+      "required_fact_ids": [
+        "goal"
+      ],
+      "supporting_facts": [
+        {
+          "id": "goal",
+          "kind": "background",
+          "content": "다음 진료 전까지 잠드는 시간이 얼마나 걸리는지 적어 보고 싶다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 1,
+      "purpose": "open_symptom_elicitation",
+      "original_question": "오늘 진료에서 가장 이야기하고 싶은 불편은 무엇인가요?",
+      "aligned_question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "changed": true,
+      "declared_scope": "명시된 현재 불편을 말하도록 묻고,미기재된 다른 불편과의 최우선 순위 비교는 요구하지 않음",
+      "required_fact_ids": [
+        "symptom"
+      ],
+      "supporting_facts": [
+        {
+          "id": "symptom",
+          "kind": "subjective_experience",
+          "content": "아파트 엘리베이터의 안내 방송이 자신을 빗대어 말하는 것처럼 느껴져 신경이 쓰인다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 2,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "집에서는 누구와 함께 지내세요?",
+      "aligned_question": "집에서는 누구와 함께 지내세요?",
+      "changed": false,
+      "declared_scope": "명시된 동거인;전체 가구원 수와 다른 사람 부재는 미정",
+      "required_fact_ids": [
+        "living"
+      ],
+      "supporting_facts": [
+        {
+          "id": "living",
+          "kind": "background",
+          "content": "성인 딸과 함께 산다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [
+        "household exclusivity/number unspecified;quantifier claims remain semanticboundary"
+      ],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 3,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "aligned_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "changed": false,
+      "declared_scope": "현재 명시된 낮 활동/일;특정 날짜나 빈도 추가를 요구하지 않음",
+      "required_fact_ids": [
+        "work"
+      ],
+      "supporting_facts": [
+        {
+          "id": "work",
+          "kind": "background",
+          "content": "가족이 운영하는 자전거 수리점에서 부품 정리를 돕는다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 4,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "오늘 아침에는 무엇을 드셨어요?",
+      "aligned_question": "오늘 아침에는 무엇을 드셨어요?",
+      "changed": false,
+      "declared_scope": "오늘 아침의 명시된 식사;장소/수량 추가 불필요",
+      "required_fact_ids": [
+        "breakfast"
+      ],
+      "supporting_facts": [
+        {
+          "id": "breakfast",
+          "kind": "background",
+          "content": "오늘 아침 집에서 된장국과 밥을 먹었다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 5,
+      "purpose": "topic_followup",
+      "original_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "aligned_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "changed": false,
+      "declared_scope": "명시된 경험의 발생 상황/경향;빈도 수치/원인/최근 사건을 요구하지 않음",
+      "required_fact_ids": [
+        "pattern"
+      ],
+      "supporting_facts": [
+        {
+          "id": "pattern",
+          "kind": "subjective_experience",
+          "content": "엘리베이터 안내 방송을 들을 때 가끔 그런 느낌이 들며 집 안에서는 그런 느낌이 없다. 정확한 빈도는 정하지 않았다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 6,
+      "purpose": "topic_followup",
+      "original_question": "그럴 때는 어떻게 지내세요?",
+      "aligned_question": "그럴 때는 어떻게 지내세요?",
+      "changed": false,
+      "declared_scope": "해당 경험 때 명시된 대처;새 행동 추가 불필요",
+      "required_fact_ids": [
+        "coping"
+      ],
+      "supporting_facts": [
+        {
+          "id": "coping",
+          "kind": "background",
+          "content": "그런 느낌이 들면 엘리베이터에서 내려 잠시 쉬었다가 움직인다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 7,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 잠은 어떠세요?",
+      "aligned_question": "요즘 잠은 어떠세요?",
+      "changed": false,
+      "declared_scope": "명시된 현재 수면 경향;진단/인과/특정 어젯밤 사건 추가 불필요",
+      "required_fact_ids": [
+        "sleep"
+      ],
+      "supporting_facts": [
+        {
+          "id": "sleep",
+          "kind": "background",
+          "content": "잠드는 데 큰 어려움은 없고 새벽에 한 번 깬 뒤 다시 잠든다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-02",
+      "question_index": 8,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "다음 진료 전까지 해 보고 싶은 일이 있나요?",
+      "aligned_question": "다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "changed": true,
+      "declared_scope": "설정된 목표의 시점과 행동/대화 주제:진료 때의 대화",
+      "required_fact_ids": [
+        "goal"
+      ],
+      "supporting_facts": [
+        {
+          "id": "goal",
+          "kind": "background",
+          "content": "다음 진료에서 안내 방송 때문에 신경 쓰이는 상황을 더 이야기하고 싶다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 1,
+      "purpose": "open_symptom_elicitation",
+      "original_question": "오늘 진료에서 가장 이야기하고 싶은 불편은 무엇인가요?",
+      "aligned_question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "changed": true,
+      "declared_scope": "명시된 현재 불편을 말하도록 묻고,미기재된 다른 불편과의 최우선 순위 비교는 요구하지 않음",
+      "required_fact_ids": [
+        "symptom"
+      ],
+      "supporting_facts": [
+        {
+          "id": "symptom",
+          "kind": "subjective_experience",
+          "content": "사람이 많은 곳에 다녀온 날 오후에 자신을 탓하는 낮은 목소리가 들리는 때가 있어 걱정된다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 2,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "집에서는 누구와 함께 지내세요?",
+      "aligned_question": "집에서는 누구와 함께 지내세요?",
+      "changed": false,
+      "declared_scope": "명시된 동거인;전체 가구원 수와 다른 사람 부재는 미정",
+      "required_fact_ids": [
+        "living"
+      ],
+      "supporting_facts": [
+        {
+          "id": "living",
+          "kind": "background",
+          "content": "언니와 함께 산다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [
+        "household exclusivity/number unspecified;quantifier claims remain semanticboundary"
+      ],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 3,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "aligned_question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "changed": false,
+      "declared_scope": "현재 명시된 낮 활동/일;특정 날짜나 빈도 추가를 요구하지 않음",
+      "required_fact_ids": [
+        "work"
+      ],
+      "supporting_facts": [
+        {
+          "id": "work",
+          "kind": "background",
+          "content": "작은 문구점에서 재고를 정리하는 일을 시간제로 한다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 4,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "오늘 아침에는 무엇을 드셨어요?",
+      "aligned_question": "오늘 아침에는 무엇을 드셨어요?",
+      "changed": false,
+      "declared_scope": "오늘 아침의 명시된 식사;장소/수량 추가 불필요",
+      "required_fact_ids": [
+        "breakfast"
+      ],
+      "supporting_facts": [
+        {
+          "id": "breakfast",
+          "kind": "background",
+          "content": "오늘 아침 집에서 요구르트와 바나나를 먹었다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 5,
+      "purpose": "topic_followup",
+      "original_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "aligned_question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "changed": false,
+      "declared_scope": "명시된 경험의 발생 상황/경향;빈도 수치/원인/최근 사건을 요구하지 않음",
+      "required_fact_ids": [
+        "pattern"
+      ],
+      "supporting_facts": [
+        {
+          "id": "pattern",
+          "kind": "subjective_experience",
+          "content": "사람이 많은 곳에 다녀온 날 오후에 가끔 들리며 아침에는 들리지 않는 편이다. 정확한 횟수와 시작 시각은 정하지 않았다.",
+          "patient_knows": true,
+          "disclosure": "sensitive"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 6,
+      "purpose": "topic_followup",
+      "original_question": "그럴 때는 어떻게 지내세요?",
+      "aligned_question": "그럴 때는 어떻게 지내세요?",
+      "changed": false,
+      "declared_scope": "해당 경험 때 명시된 대처;새 행동 추가 불필요",
+      "required_fact_ids": [
+        "coping"
+      ],
+      "supporting_facts": [
+        {
+          "id": "coping",
+          "kind": "background",
+          "content": "목소리가 들리면 조용한 방에 들어가 음악을 작게 틀어 놓는다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 7,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "요즘 잠은 어떠세요?",
+      "aligned_question": "요즘 잠은 어떠세요?",
+      "changed": false,
+      "declared_scope": "명시된 현재 수면 경향;진단/인과/특정 어젯밤 사건 추가 불필요",
+      "required_fact_ids": [
+        "sleep"
+      ],
+      "supporting_facts": [
+        {
+          "id": "sleep",
+          "kind": "background",
+          "content": "대체로 잠은 잘 자며 일어날 때 피곤한 날이 있다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    },
+    {
+      "case_id": "DEV-M13-03",
+      "question_index": 8,
+      "purpose": "grounded_fact_elicitation",
+      "original_question": "다음 진료 전까지 해 보고 싶은 일이 있나요?",
+      "aligned_question": "다음 진료 전까지 해 보고 싶은 일이 있나요?",
+      "changed": false,
+      "declared_scope": "설정된 목표의 시점과 행동/대화 주제:진료 전 기록 활동",
+      "required_fact_ids": [
+        "goal"
+      ],
+      "supporting_facts": [
+        {
+          "id": "goal",
+          "kind": "background",
+          "content": "다음 진료 전까지 목소리가 들릴 때 어떻게 지냈는지 간단히 적어 보고 싶다.",
+          "patient_knows": true,
+          "disclosure": "on_topic"
+        }
+      ],
+      "patient_known": true,
+      "subject_time_scope_review": "author reviewed as compatible for intended topic; no claim all hypothetical details determined",
+      "history_policy": "actual prior model replies accumulated; legitimate reconfirmation and relevant spontaneous additions allowed",
+      "answer_leakage_review": "does not supply target factual answer; D05/D06refer to previously introduced experience,notnewexclusivefacts",
+      "open_dimensions": [],
+      "author_checked": true
+    }
+  ],
+  "changed_questions": 4,
+  "profile_facts_or_communication_changed": false,
+  "all_open_dimensions_eliminated": false,
+  "not_clinical_validation": true,
+  "final12_content_read": false,
+  "change_summary": "Remove unsupported most-important comparison inD01(all3profiles);aligncase02D08toappointment-timeconversationgoal;other20questionsunchanged."
+}

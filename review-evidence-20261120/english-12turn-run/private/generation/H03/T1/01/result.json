@@ -1,0 +1,27 @@
+{
+  "case": "H03",
+  "arm": "T1",
+  "turn": 1,
+  "question": "What is one thing you'd like me to know about your week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c6c5-77f2-bfc1-fac81f61c58b",
+  "raw": "I listened to the football on Saturday afternoon. Stayed right to the end to hear the result. I enjoyed that.",
+  "raw_sha256": "28c25361826df14cc8e104aeb85ba62fc6aa3e2406450cf111b36db42dc56262",
+  "request_sha256": "21e0f583715f7e1c202daf27653a3341fe3e18ab78f79509daf734801d4d38b5",
+  "started_utc": "2026-11-20T20:36:29.394953+00:00",
+  "completed_utc": "2026-11-20T20:36:37.731880+00:00",
+  "usage": {
+    "input_tokens": 6863,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "4b60905ea139abcf607876d7a056e55bee294ba4e9ce0dbb822943a7fa1b218b",
+  "trace_sha256": "3b46af4d2672394e0696446735eb9c93bc6014c58ec91c390a198f0e753ca814"
+}

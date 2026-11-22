@@ -1,0 +1,29 @@
+{
+  "case": "C02",
+  "arm": "T2",
+  "turn": 7,
+  "question": "About what time do you usually wake up?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc34-102a-71d2-b43f-5b54b08e7540",
+  "raw": "Usually around six in the morning.",
+  "raw_sha256": "02fdab1d611a7a5e0afc716c1edce02a94f3c3b1fe4411a07e3d6452fb3aa05b",
+  "request_sha256": "aa378c51f966a7f2852f2b94f1f2c813705e186b550b8e917ba29d04d55369ac",
+  "started_utc": "2026-11-21T03:43:52.777251+00:00",
+  "completed_utc": "2026-11-21T03:43:57.036109+00:00",
+  "usage": {
+    "input_tokens": 6246,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "8fbcc17aba0c48cd6ce0fcde73f42ec8b8b2441a3728fdb5c234c7719522a1c6",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "07a15d7a558ded96087ee03b14b91029dec3c915ecd30ed08ab0045b8b6e2926"
+}

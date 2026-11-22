@@ -1,0 +1,109 @@
+{
+  "id": "Vfc74874b24950c617a46ac74",
+  "reader": "opus",
+  "session": "ffe41d42-3f66-4ccd-8a8b-beec8db55c67",
+  "attempt": "attempt-01",
+  "packet_sha256": "f781d009f1da2359e21e8eedf3e42bef9ede3f4699a24e39e552d860b9d4be42",
+  "system_sha256": "d22fc40c34c0815675dbb1cff7be2d5c4dd8b4a2422132d040ca818c05007797",
+  "raw_sha256": "ddce7343818fa715f1973a1c1ef69ee783fe15d7119f9841948cb9408ab421d2",
+  "provider_sha256": "8967dcf524c40875bc3375912f41fd42e289499315b8446e0b7d78fdbd242a7f",
+  "items": {
+    "v1": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "The commentary stops while the music’s playing, even quietly.",
+        "reason": "The reply says the commentary stops while music plays and the ringing continues, which matches both branches.",
+        "A": {
+          "state": "supported",
+          "quote": "The commentary stops while the music’s playing"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "the high ringing in both ears carries on"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v2": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the housing letter or the one from work?",
+        "reason": "The reply only asks which letter is meant and gives no information about either letter's deadline.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    },
+    "v3": {
+      "category": "cover_both",
+      "states": {
+        "A": "supported",
+        "B": "supported"
+      },
+      "evidence": {
+        "quote": "About an hour at the book group, then around three hours with Mom.",
+        "reason": "The reply gives a clearly attributed duration for both the book group and the visit with Mom, and both match the expected answers.",
+        "A": {
+          "state": "supported",
+          "quote": "About an hour at the book group"
+        },
+        "B": {
+          "state": "supported",
+          "quote": "around three hours with Mom"
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": "exact",
+        "B": "exact"
+      }
+    },
+    "v4": {
+      "category": "no_substantive",
+      "states": {
+        "A": "untouched",
+        "B": "untouched"
+      },
+      "evidence": {
+        "quote": "Do you mean the fan or the speaker?",
+        "reason": "The reply only asks which device is meant and says nothing about whether either one stays on all night.",
+        "A": {
+          "state": "untouched",
+          "quote": ""
+        },
+        "B": {
+          "state": "untouched",
+          "quote": ""
+        }
+      },
+      "quote_match": "exact",
+      "branch_quote_match": {
+        "A": null,
+        "B": null
+      }
+    }
+  },
+  "ended": "2026-11-21T03:59:30.902569+00:00"
+}

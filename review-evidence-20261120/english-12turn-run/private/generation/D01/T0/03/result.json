@@ -1,0 +1,27 @@
+{
+  "case": "D01",
+  "arm": "T0",
+  "turn": 3,
+  "question": "When is it most noticeable?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faa8-fc7b-7c82-a5db-8153def81472",
+  "raw": "“It’s been in the evenings—several evenings this past week, at home. I wonder if tiredness plays a part, but it sometimes sounds quite clearly like it’s coming from the hallway.”",
+  "raw_sha256": "a11a8c4e8e4e45ef75758d8cc388888b5b4d622874a64ca23059de8c71cf8c73",
+  "request_sha256": "731d9085ff4a88f5199b42be2e1682b7ecddc2d1e7ad6c4d991de247006d78e4",
+  "started_utc": "2026-11-20T20:32:21.028912+00:00",
+  "completed_utc": "2026-11-20T20:32:24.976529+00:00",
+  "usage": {
+    "input_tokens": 6906,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a2e71bbbd021ad3456a2e6d16815af426ac0194188c9323489f5fc89c4c5c78e",
+  "trace_sha256": "8c06c57bb83edcea996aa499822f877feb3577a3de6ff51db5f9e6c5b1904890"
+}

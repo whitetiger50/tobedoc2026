@@ -1,0 +1,28 @@
+{
+  "attempt": "attempt-01",
+  "reader": "gpt",
+  "round": 1,
+  "id": "I4d49625c27b88facb1",
+  "ended": "2026-11-20T20:58:10.053717+00:00",
+  "session": "01a1fac0-830b-7ed1-be39-8e4c06f24c0e",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "8a275692a2e8d9dc2d0cd7b6c9fd73fc7eb496ccbec49ba61977d816cbe99caa",
+  "provider_sha256": "469feba306c0b4769a66c61a08a1afbc48fe837d59a3364fff78f2e7493d7610",
+  "status": "valid",
+  "score": 2,
+  "rationale": "Most answers are brief, natural, and consistent with reduced conversational initiative and a preference for quiet. However, four identical interviewer-role responses to straightforward questions substantially undermine realism and do not fit the profile.",
+  "evidence": [
+    {
+      "turn": 2,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

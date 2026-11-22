@@ -1,0 +1,29 @@
+{
+  "case": "H03",
+  "arm": "T0",
+  "turn": 8,
+  "question": "How can you tell for yourself that you're enjoying something?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fab1-34dc-7251-9146-6c73dad1a034",
+  "raw": "“I want to keep listening, like with the match. I might not say much, but I’m enjoying it.”",
+  "raw_sha256": "86faaf8190346d91b6fb07ce309e0f99d7465b257d87d380e7828be95e69d461",
+  "request_sha256": "8f1a6e591b73edc8e27761033bfdd8b4532951506449aebc0731f77b22186a6f",
+  "started_utc": "2026-11-20T20:41:19.733709+00:00",
+  "completed_utc": "2026-11-20T20:41:23.339894+00:00",
+  "usage": {
+    "input_tokens": 7085,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a06d230dc32d0ea6a6a7cdae8877bf3c9e46985ab11d323c1629959eb7e55450",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0f51a9b88cba7250761cb3a572d687ead2ad7b3d9e69187c74fb942c0c15247f"
+}

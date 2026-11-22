@@ -1,0 +1,53 @@
+{
+  "realism_score": 3,
+  "realism_reason": "모든 답이 프로필 사실과 맞고 질문에 직접 반응하며, 간결하고 협조적인 일상 화법도 설정과 잘 맞는다. 다만 P05가 P01의 표현을 거의 그대로 반복하는 등 답변이 프로필 문구를 옮겨 적은 듯 정형적인 곳이 있어 완전히 자연스럽다고 보기는 어렵다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P05",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요."
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 저를 탓하는 낮은 목소리가 들려요."
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "증상, 패턴, 대처, 수면, 목표, 배경 사실이 모두 프로필과 일치하며 무근거로 구체화한 내용이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 환자 턴이 직전 의사 질문의 대상(불편, 동거인, 일과, 아침식사, 발생 시점, 대처, 수면, 목표)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 말과 모순이 없다. P05의 반복은 발생 시점을 묻는 직접 질문에 대한 답이라 불필요한 반복으로 보지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": true,
+      "reason": "P05가 P01의 구절을 거의 그대로 되풀이해 프로필 문구를 옮긴 듯한 정형성이 국소적으로 보인다. 다만 같은 경험을 다시 설명한 자연스러운 반복일 가능성도 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "사람이 많은 곳에 다녀온 날 오후에 가끔 들려요."
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D05",
+        "fact:pattern"
+      ]
+    }
+  }
+}

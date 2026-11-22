@@ -1,0 +1,81 @@
+{
+  "id": "P9bb5e7776527d497bd6dddff",
+  "reader": "gpt",
+  "session": "01a1fc3d-2e6c-72b1-87b2-e348840704b2",
+  "attempt": "attempt-01",
+  "packet_sha256": "97f1b11a7a60817655c60b8582f26ad3bf58c317119837b57f50096d1deb7904",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "81f15603270d64c0026c98d95c2639b05eab884548f831f6f00e346edd351482",
+  "raw_sha256": "1d520e6fdc26e9868cbd14f36b8ff025755a1e451d3244e9deb4753172dad6da",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the class",
+        "reason": "Both classes remain live referents and their fees differ, even though a conditional answer could cover both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Jules paid for the cooking class.",
+            "answer": "The cooking class was free."
+          },
+          {
+            "meaning": "Whether Jules paid for the swimming lesson.",
+            "answer": "Jules paid for the swimming lesson."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you have it set up?",
+        "reason": "The explicit clarification and immediately preceding exchange establish the bedside speaker as the referent.",
+        "alternatives": [
+          {
+            "meaning": "Where Taylor keeps the bedside speaker.",
+            "answer": "The speaker sits on the windowsill beside the bed."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "the new one",
+        "reason": "The clarification establishes the ID badge as the topic, and asking what its replacement clips to naturally continues that topic.",
+        "alternatives": [
+          {
+            "meaning": "What Cameron clips the replacement ID badge to.",
+            "answer": "Cameron clips the ID badge to a blue lanyard."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the sound",
+        "reason": "The question explicitly introduces both sounds without selecting one, and music affects them differently.",
+        "alternatives": [
+          {
+            "meaning": "Whether the commentary stops during headphone music.",
+            "answer": "Quiet music through headphones stops the commentary while the music plays."
+          },
+          {
+            "meaning": "Whether the high-pitched ringing stops during headphone music.",
+            "answer": "The ringing continues through the music."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:07.991617+00:00"
+}

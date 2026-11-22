@@ -1,0 +1,27 @@
+{
+  "case": "H02",
+  "arm": "T1",
+  "turn": 3,
+  "question": "When has it felt easiest to keep your attention on one thing this week?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-b011-73f2-ac0f-abe15ca620a9",
+  "raw": "“The first hour at the book exchange, before the other volunteers arrive. I can stay with the sorting more easily then. Once someone interrupts, getting back to where I was takes more effort.”",
+  "raw_sha256": "1dba00519175b0b2da38b1a9b1c58fee5d97ac412ef08fa79688ec706c74f279",
+  "request_sha256": "743499be1e05d44cdfecf9225236bb6e78410110c34dfa23afff8c4fab3d11ba",
+  "started_utc": "2026-11-20T20:37:29.118586+00:00",
+  "completed_utc": "2026-11-20T20:37:33.659005+00:00",
+  "usage": {
+    "input_tokens": 7031,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "48440aa2c5f78d4bc1d2bb191827910015eff01b7bf22e800bcba6d618c0766a",
+  "trace_sha256": "7aabb5a39e64fbdd1e821561ad66af60828e63fd1371242bd7f64f975f4732ae"
+}

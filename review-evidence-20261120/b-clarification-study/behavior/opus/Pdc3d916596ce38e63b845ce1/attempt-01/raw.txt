@@ -1,0 +1,56 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Are you still using the reminder?",
+    "reason": "The question names two reminders, a phone alarm and a door note, then asks about 'the reminder' in the singular, and Morgan still uses the alarm but took the note down last month, so the answer depends on which one is meant.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether Morgan still uses the phone alarm to remember the staff pass.",
+        "answer": "Yes, Morgan still uses the phone alarm at 7:10 in the morning."
+      },
+      {
+        "meaning": "Asking whether Morgan still uses the note on the door to remember the staff pass.",
+        "answer": "No, Morgan took the note on the door down last month."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "Did she come over to your flat?",
+    "reason": "Inez and Pat are both women mentioned in the same sentence, and 'she' could refer to either, and Inez came to the flat while Pat helped only at the café, so the factual answer differs.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether Sam's sister Inez came to the flat.",
+        "answer": "Yes, Inez came to the flat to help last week."
+      },
+      {
+        "meaning": "Asking whether Pat from the repair café came to the flat.",
+        "answer": "No, Pat helped at the repair café and lent Sam small pliers but did not come to the flat."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "When it comes over the speakers",
+    "reason": "The immediately preceding exchange identified the announcement about keeping the doors clear, and only an announcement can come over the speakers, so 'it' clearly refers to that announcement rather than the letters.",
+    "alternatives": [
+      {
+        "meaning": "Asking whom the tram announcement about keeping the doors clear seems to be directed at when Alex hears it over the speakers.",
+        "answer": "On a crowded tram it sometimes feels directed personally at Alex, though Alex can consider that it is a recording meant for every passenger."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "in just one ear or in both?",
+    "reason": "The immediately preceding question and answer were solely about the high-pitched ringing, and asking which ear fits that ear-based sound, so 'it' pragmatically refers to the ringing rather than the commentary.",
+    "alternatives": [
+      {
+        "meaning": "Asking whether the high-pitched ringing is heard in one ear or in both.",
+        "answer": "The high-pitched ringing is in both ears."
+      }
+    ]
+  }
+}
+```

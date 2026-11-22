@@ -1,0 +1,60 @@
+```json
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The immediately preceding exchange narrowed the topic to the swimming lesson, so 'it' clearly refers to swimming, and only the swimming lesson has a known location.",
+    "alternatives": [
+      {
+        "meaning": "Where Jules goes for the swimming lesson.",
+        "answer": "The swimming lesson is at the Willow Street pool."
+      }
+    ]
+  },
+  "v2": {
+    "need": "material",
+    "question_quote": "how do you get home after your shift?",
+    "reason": "The question names both early and late shifts but asks about a singular 'your shift', and Morgan gets home differently after each, so the reply depends on which shift is meant unless Morgan gives a split answer.",
+    "alternatives": [
+      {
+        "meaning": "How Morgan gets home after an early shift.",
+        "answer": "Morgan takes the bus home after an early shift."
+      },
+      {
+        "meaning": "How Morgan gets home after a late shift.",
+        "answer": "A coworker drops Morgan off after a late shift."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "'Him' could mean the brother or Mr. Bell, Ari's earlier request for clarification was never resolved, and the answer differs for each caller.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari called the brother back.",
+        "answer": "Yes, Ari called the brother back."
+      },
+      {
+        "meaning": "Whether Ari called Mr. Bell, the building manager, back.",
+        "answer": "No, Ari has not called Mr. Bell back yet."
+      }
+    ]
+  },
+  "v4": {
+    "need": "material",
+    "question_quote": "Did you hand the old one back?",
+    "reason": "'The old one' could mean the badge or the locker key, and Cameron handed back the cracked badge but could not hand back the lost key.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron handed back the old ID badge.",
+        "answer": "Yes, the old badge cracked and was handed back."
+      },
+      {
+        "meaning": "Whether Cameron handed back the old locker key.",
+        "answer": "No, the old locker key was lost and could not be handed back."
+      }
+    ]
+  }
+}
+```

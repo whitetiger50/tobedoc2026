@@ -1,0 +1,73 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 답변은 프로필과 일치하고 간결하며 자연스러운 환자 말투다. 다만 P02는 거주 상황을 행정 보고서처럼 말해 일상 대화에서 눈에 띄게 어색하다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P02",
+      "quote": "저의 거주 형태는 남편과의 공동 거주에 해당합니다.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다고 생각하는데, 정말 누가 부른 것처럼 느껴질 때도 있어요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 환자 진술이 프로필 사실 및 자기 이해와 일치하고, 구체 횟수나 시각 같은 무근거 확정이 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 응답이 직전 의사 질문의 대상(불편, 동거인, 낮 활동, 아침 식사, 발생 시점, 대처, 수면, 계획)에 직접 답한다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P07에서 자발적으로 꺼낸 목표를 P08에서 D08 질문에 맞춰 다시 짧게 답한 것은 재확인 응답이다. 자기모순이나 문맥 파괴는 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "P02는 동거인 질문에 설정 항목을 보고서식 문장으로 옮긴 듯한 격식 표현을 썼다. 다른 턴은 자연스러워 국소 문제로 판단했지만, 설정 대행으로서 더 무겁게 볼 여지도 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "저의 거주 형태는 남편과의 공동 거주에 해당합니다.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "fact:living"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

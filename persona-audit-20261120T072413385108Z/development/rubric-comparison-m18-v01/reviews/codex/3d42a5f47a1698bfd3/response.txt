@@ -1,0 +1,155 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "질문에 맞는 경험과 정보를 일관되게 답하지만, P03·P06·P07에서 답변을 항목별로 소개하고 완료를 보고하는 메타 서술 틀이 반복된다. 일상적인 경험 질문을 답변 산출물에 대한 보고처럼 처리하는 국소적 표현 부조화로 전체 적합성이 경미하게 낮아진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "turn:P07",
+        "communication.expression"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "직업, 동거인, 경험 양상, 대처와 수면 설명이 제공된 사실 범위에 있다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "낮에 가게에서 일할 때는 거의 안 들리고요."
+        }
+      ],
+      "context_refs": [
+        "fact:pattern",
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문의 직접 대상을 다루며, 메타 표현이 있는 답변에서도 필요한 내용은 빠지지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요."
+        }
+      ],
+      "context_refs": [
+        "turn:D07",
+        "fact:sleep"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 발화와 모순되지 않으며, 동거인 재확인과 대처 방법 재진술은 후속 질문에 맞게 연결된다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "형이랑 같이 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P03·P06·P07에서 경험을 말하기 전후로 항목 소개와 답변 완료 보고를 반복하여, 일상적인 환자 발화에 불필요한 문답 수행 메타 표현이 끼어든다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression",
+        "communication.organization"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "form_repetition",
+      "patient_turn_id": "P06",
+      "quote": "그 부분을 항목별로 말씀드리면, 그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요. 해당 항목에 대한 답변은 이와 같습니다.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "그 부분을 항목별로 말씀드리면, 낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요. 해당 항목에 대한 답변은 이와 같습니다."
+        },
+        {
+          "patient_turn_id": "P07",
+          "quote": "그 부분을 항목별로 말씀드리면, 잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요. 해당 항목에 대한 답변은 이와 같습니다."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "turn:D07",
+        "communication.expression"
+      ],
+      "function": "답변 항목의 소개와 답변 완료 보고",
+      "finding": "supported_issue",
+      "primary_facet": "naturalness",
+      "reason": "항목 소개→경험 답변→완료 보고의 틀이 반복된다. 질문마다 경험을 설명하는 기능은 유지되지만, 단일 일상 질문에 답하면서 이미 수행한 답변을 다시 산출물처럼 지칭·종결 보고하는 부분이 환자 시점의 일상 대화와 국소적으로 어긋난다. 단순한 구조 유사성이나 격식만의 문제는 아니다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P08",
+      "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요. 지금은 라디오를 켜고 다른 소리에 집중하는데, 그 밖에도 도움이 될 만한 방법이 있는지요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요."
+        },
+        {
+          "patient_turn_id": "P06",
+          "quote": "그럴 때는 라디오를 켜고 잠깐 다른 소리에 집중해요."
+        }
+      ],
+      "context_refs": [
+        "turn:D08",
+        "fact:coping",
+        "fact:goal"
+      ],
+      "function": "다음 진료의 목표를 현재 대처 경험과 연결",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "다음 진료에서 다루고 싶은 내용을 묻는 질문에 기존 대처와 추가 도움의 필요를 연결한다. 반복이 새 질문의 대상을 대신하지 않고 목표를 구체화하며, 마친 설명을 무관하게 재시작하지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "case_ids": [
+    "B42",
+    "B37",
+    "B61",
+    "B28",
+    "B83",
+    "B75",
+    "B46",
+    "B19",
+    "B54",
+    "B32",
+    "B92"
+  ],
+  "command_flags": [
+    "--print",
+    "--safe-mode",
+    "--restricted",
+    "--no-session-persistence",
+    "--no-chrome",
+    "--disable-slash-commands",
+    "--setting-sources",
+    "",
+    "--settings",
+    "{\"disableAllHooks\": true, \"autoMemoryEnabled\": false, \"enabledPlugins\": {\"cc-plugin-agents-md@builtin\": false, \"cc-plugin-privacy@builtin\": false, \"cc-plugin-plugin-authoring@builtin\": false, \"cc-plugin-telemetry@builtin\": false}, \"forceLoginMethod\": \"claudeai\"}",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--permission-mode",
+    "dontAsk",
+    "--tools",
+    "",
+    "--system-prompt",
+    "Return the completed form as a single JSON object.",
+    "--model",
+    "claude-opus-5-5",
+    "--prompt-suggestions",
+    "false",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--include-hook-events"
+  ],
+  "account": {
+    "loggedIn": true,
+    "authMethod": "claude.ai",
+    "apiProvider": "firstParty",
+    "subscriptionType": "pro"
+  },
+  "cli_version": "2.1.329 (Claude Code)",
+  "initial_case_runtime": "B14 used the original collection.json flags. Safe mode registered three CLI built-ins, named in its receipt; no tools were exposed. Its first and only response was retained without rescoring. Explicit built-in disables were added for the remaining cases."
+}

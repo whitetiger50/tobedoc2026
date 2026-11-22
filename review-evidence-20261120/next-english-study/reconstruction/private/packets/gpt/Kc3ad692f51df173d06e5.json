@@ -1,0 +1,66 @@
+{
+  "task": "For each item report A, B, insufficient, or both_or_conflicting. Treat the alternatives symmetrically. Do not fill gaps by plausibility, clinical expectation, or what an interviewer may wish to elicit. Keep negation, uncertainty, time and whose experience is described intact. Use insufficient when neither specific alternative is established, and both_or_conflicting only when specific evidence actually supports both. For A/B give evidence for that alternative; for both_or_conflicting give evidence for each alternative, tagging each citation supports=A or supports=B. Quote short exact contiguous substrings and 1-based turn numbers. Provide a short reasoning sentence for each item. Return one JSON object keyed by the two supplied item identifiers. Each value has choice, reason and citations. Each citation has turn (integer), role (patient or interviewer), quote (exact text) and supports (A or B). Use an empty citations array when insufficient.",
+  "evidence_rule": "Only interviewer questions are available. Treat a fact as recoverable only if a question explicitly states or presupposes the specific fact, even without a patient answer. Merely asking which of two things is true, asking whether a fact is true, or mentioning an example/possibility does not establish it. Cite only the interviewer.",
+  "interview": [
+    {
+      "turn": 1,
+      "interviewer": "What have you been doing with your time this month?"
+    },
+    {
+      "turn": 2,
+      "interviewer": "How have listening for pleasure and following conversations been for you?"
+    },
+    {
+      "turn": 3,
+      "interviewer": "Do you miss much of it?"
+    },
+    {
+      "turn": 4,
+      "interviewer": "I was thinking specifically about listening for pleasure. How much can you follow when you put on something you enjoy?"
+    },
+    {
+      "turn": 5,
+      "interviewer": "Can you give me an example of a practical task you did with other people recently?"
+    },
+    {
+      "turn": 6,
+      "interviewer": "What is a typical day like with your current treatment?"
+    },
+    {
+      "turn": 7,
+      "interviewer": "What do you notice about your energy and physical comfort during the afternoon?"
+    },
+    {
+      "turn": 8,
+      "interviewer": "Does that interfere with what you are doing?"
+    },
+    {
+      "turn": 9,
+      "interviewer": "Let me ask about physical discomfort. How does it affect the things you do in the afternoon, if at all?"
+    },
+    {
+      "turn": 10,
+      "interviewer": "What helps you keep track of whether you have taken your medication?"
+    },
+    {
+      "turn": 11,
+      "interviewer": "When you listen to broadcasts now, does anything ever feel as if it was meant especially for you?"
+    },
+    {
+      "turn": 12,
+      "interviewer": "How do you feel about the amount of time you spend helping out in a typical week?"
+    }
+  ],
+  "items": {
+    "item1": {
+      "question": "Physical comfort during a kitchen shift",
+      "A": "Dry mouth is most noticeable toward the end of a kitchen shift.",
+      "B": "Dry mouth is most noticeable around the middle of a kitchen shift."
+    },
+    "item2": {
+      "question": "Preference for time spent helping at the kitchen",
+      "A": "For the coming weeks, the patient would like to keep the current number of shifts.",
+      "B": "For the coming weeks, the patient would like to reduce the current number of shifts."
+    }
+  }
+}

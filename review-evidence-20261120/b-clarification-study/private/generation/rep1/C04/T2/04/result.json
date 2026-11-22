@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "T2",
+  "turn": 4,
+  "question": "When does the housing office need a reply?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc32-2446-7202-a528-cfa58a661335",
+  "raw": "They need a reply by Friday.",
+  "raw_sha256": "d105683e2efc61f0dd2c62db6d21b9bd6f61e5da62e57d1dd799706c1d8ac190",
+  "request_sha256": "4412cba3a0ceeddbb168c6f691aad7fa6abc8f5a93cdc6e18ae144e595b51b46",
+  "started_utc": "2026-11-21T03:41:46.829044+00:00",
+  "completed_utc": "2026-11-21T03:41:50.996265+00:00",
+  "usage": {
+    "input_tokens": 6171,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a95021af23c7fac3d1b0c4277ca49863c0ad3e1bc0d34765cd935322864c55a5",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "2e5ec5e80bd30ed8d1150aa1604a1c829d4af5267f16e4a1371fa75e7ec7d35a"
+}

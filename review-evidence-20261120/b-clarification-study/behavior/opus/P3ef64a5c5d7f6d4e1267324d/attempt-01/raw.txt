@@ -1,0 +1,60 @@
+```json
+{
+  "v1": {
+    "need": "material",
+    "question_quote": "Did you call him back?",
+    "reason": "The question names both the brother and the building manager before asking about 'him', and Ari's earlier request to clarify which man was meant was never answered, so two readings remain with opposite answers: Ari called the brother back but has not yet called Mr. Bell.",
+    "alternatives": [
+      {
+        "meaning": "Whether Ari returned the brother's call from last week.",
+        "answer": "Yes, Ari called the brother back."
+      },
+      {
+        "meaning": "Whether Ari returned the call from Mr. Bell, the building manager, who rang about replacing the hall light.",
+        "answer": "No, Ari has not called the building manager back yet."
+      }
+    ]
+  },
+  "v2": {
+    "need": "same_answer",
+    "question_quote": "Did it come through the post?",
+    "reason": "'It' could refer to either the housing letter or the employer's letter, but both arrived by post, so either reading leads to the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether the housing office letter arrived by post.",
+        "answer": "Yes, the housing letter came through the post."
+      },
+      {
+        "meaning": "Whether the employer's letter arrived by post.",
+        "answer": "Yes, the letter from work also came through the post."
+      }
+    ]
+  },
+  "v3": {
+    "need": "resolved",
+    "question_quote": "What time do you set it for?",
+    "reason": "The previous exchange had already narrowed the reminder to the phone alarm, which is the only reminder that is set for a time, so 'it' clearly refers to the phone alarm.",
+    "alternatives": [
+      {
+        "meaning": "The time Morgan's phone alarm for remembering the staff pass is set for.",
+        "answer": "The phone alarm is set for 7:10 in the morning."
+      }
+    ]
+  },
+  "v4": {
+    "need": "same_answer",
+    "question_quote": "Did you have to pay for the replacement?",
+    "reason": "The singular 'replacement' could mean the ID badge, the locker key, or both together, but neither replacement cost anything, so every reading leads to the same reply.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron paid for the replacement ID badge.",
+        "answer": "No, the replacement badge did not cost anything."
+      },
+      {
+        "meaning": "Whether Cameron paid for the replacement locker key, given that the old key was lost.",
+        "answer": "No, the replacement locker key did not cost anything either."
+      }
+    ]
+  }
+}
+```

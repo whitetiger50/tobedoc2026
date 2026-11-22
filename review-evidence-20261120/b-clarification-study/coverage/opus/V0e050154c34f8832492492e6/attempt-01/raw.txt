@@ -1,0 +1,52 @@
+```json
+{
+  "v1": {
+    "quote": "I called my brother back, but I haven’t called Mr. Bell back yet.",
+    "reason": "The reply says the brother was called back and Mr. Bell, the building manager, has not been called back yet.",
+    "A": {
+      "state": "supported",
+      "quote": "I called my brother back"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I haven’t called Mr. Bell back yet."
+    }
+  },
+  "v2": {
+    "quote": "The cooking class was free, but I paid for the swimming lesson",
+    "reason": "The reply says the cooking class was free and the swimming lesson was paid for.",
+    "A": {
+      "state": "supported",
+      "quote": "The cooking class was free"
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I paid for the swimming lesson"
+    }
+  },
+  "v3": {
+    "quote": "I handed the old badge back.",
+    "reason": "The reply says the old badge was handed back and the old key was lost, so it could not be returned.",
+    "A": {
+      "state": "supported",
+      "quote": "I handed the old badge back."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I’d lost the old key, so I couldn’t hand that back."
+    }
+  },
+  "v4": {
+    "quote": "My sister came to the optician with me.",
+    "reason": "The reply says the sister went to the optician with the patient and the patient went to the care coordinator alone.",
+    "A": {
+      "state": "supported",
+      "quote": "My sister came to the optician with me."
+    },
+    "B": {
+      "state": "supported",
+      "quote": "I went to the care coordinator on my own."
+    }
+  }
+}
+```

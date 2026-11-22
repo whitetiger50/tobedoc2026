@@ -1,0 +1,38 @@
+{
+  "realism_score": 4,
+  "realism_reason": "간결하고 조직적인 답변이 의사소통 설정과 일치하며, 증상에 대한 이해와 약물 정보의 한계도 자연스럽게 표현한다.",
+  "realism_evidence": [],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "모든 환자 발화가 프로필의 사실과 자기 이해에 부합하며 무근거 구체화가 없다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "각 질문에 직접 답하며 약 이름과 용량은 본인이 정확히 모른다는 한계를 적절히 밝힌다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "D02에서 의사가 미공개 증상을 먼저 전제하지만 환자 측 연결 문제는 없으며, 동거인 재확인도 이전 문맥과 일치한다.",
+      "evidence": [],
+      "context_refs": [
+        "turn:D02",
+        "authored_context"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현으로 답하며 보고서식 서술이나 불필요한 메타 표현이 없다.",
+      "evidence": [],
+      "context_refs": []
+    }
+  }
+}

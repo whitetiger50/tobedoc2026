@@ -1,0 +1,29 @@
+{
+  "case": "C01",
+  "arm": "T2",
+  "turn": 11,
+  "question": "What do you like making on your days off?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc36-b3eb-70c3-93f8-2e76b040a51c",
+  "raw": "I like making small clay bowls on my days off.",
+  "raw_sha256": "7882efd8e7ad0193446541ddd3a80cf0c40638267116f3014c02bd5538b1524f",
+  "request_sha256": "ccbcbc89d7871b1c0aec6e13ad91df6a218afeb5515901909848814c35014202",
+  "started_utc": "2026-11-21T03:46:45.736336+00:00",
+  "completed_utc": "2026-11-21T03:46:50.083098+00:00",
+  "usage": {
+    "input_tokens": 6410,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "11ef8f2508b721cc87e78c8f3dae9187f1a54e17c5ddc66bbd9ef54b0f642672",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "0c7d5228a49c1a8850ab336317dac04253a271629a9423d440e158bd06850a5e"
+}

@@ -1,0 +1,67 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "대체로 자연스럽고 프로필과 맞습니다. 일상 질문에는 조직적으로 답하고, 방송 주제에서는 신호 믿음과 연상 흐름이 드러납니다. 다만 P01은 연상을 실제 말의 흐름으로 보여 주기보다 요약해 설명하듯 정리되어 있어 약간 매끈한 인상을 줍니다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "신호 믿음, 연상 경험, 일과, 오늘 활동, 아버지와의 동거가 모두 프로필 사실과 일치하며 새 사실을 확정하지 않았습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문에 직접 답했고, D04의 잘못된 전제는 P04에서 적절히 정정했습니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P02는 이전 문맥의 일과 답과 일관되며 근무 휴직 정보를 자연스럽게 덧붙였습니다. D04의 '따로 산다고 하셨죠'는 의사 쪽 잘못된 전제로, 환자 오류가 아닙니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": true,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 구어 표현으로 볼 수 있습니다. 다만 P01이 연상을 실제로 흘러가는 말로 보여 주기보다 서술적으로 정리하고 있어 약간 설명조로 읽힐 여지가 있습니다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그러다 편의점 안내 문구도 떠오르고, 일할 때 걱정하던 것들도 생각나요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:experience"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

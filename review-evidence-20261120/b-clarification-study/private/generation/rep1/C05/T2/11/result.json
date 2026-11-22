@@ -1,0 +1,29 @@
+{
+  "case": "C05",
+  "arm": "T2",
+  "turn": 11,
+  "question": "Around what time do you fall asleep on work nights?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc37-7dcd-7422-b505-579120205ba8",
+  "raw": "I usually fall asleep around ten on work nights.",
+  "raw_sha256": "71506b2f45bc88a55c84cef1ac6451c2cc479e5116ed707fdaa834d44d80d451",
+  "request_sha256": "5715969a677f5989a9a02c43d77e2b1e21eacb947e098172d1d45d9bf5f4e21e",
+  "started_utc": "2026-11-21T03:47:37.450904+00:00",
+  "completed_utc": "2026-11-21T03:47:42.432398+00:00",
+  "usage": {
+    "input_tokens": 6395,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "a885276d551ca0d9d85e900fa0d1ee1150318588a8753816f28b08d7ab7a74fe",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "e5c4cacd0f216987a8f134f77877798056eb5c79ecc30daf9142ad226b5d9f61"
+}

@@ -1,0 +1,271 @@
+{
+  "timestamp_utc": "2026-11-19T12:01:50.128017+00:00",
+  "before_generation": true,
+  "rows": [
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D01",
+      "question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "available_fact_ids": [
+        "symptom"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D02",
+      "question": "집에서는 누구와 함께 지내세요?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D03",
+      "question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "available_fact_ids": [
+        "work"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D04",
+      "question": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "explicit living reconfirmation",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D05",
+      "question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "available_fact_ids": [
+        "pattern"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D06",
+      "question": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?",
+      "available_fact_ids": [
+        "coping"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct action at the experience moment; not general daily activity",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D07",
+      "question": "요즘 잠은 어떠세요?",
+      "available_fact_ids": [
+        "sleep"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-01",
+      "turn_id": "D08",
+      "question": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "available_fact_ids": [
+        "goal"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "visit-goal with relevant experience reference",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D01",
+      "question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "available_fact_ids": [
+        "symptom"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D02",
+      "question": "집에서는 누구와 함께 지내세요?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D03",
+      "question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "available_fact_ids": [
+        "work"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D04",
+      "question": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "explicit living reconfirmation",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D05",
+      "question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "available_fact_ids": [
+        "pattern"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D06",
+      "question": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?",
+      "available_fact_ids": [
+        "coping"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct action at the experience moment; not general daily activity",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D07",
+      "question": "요즘 잠은 어떠세요?",
+      "available_fact_ids": [
+        "sleep"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-02",
+      "turn_id": "D08",
+      "question": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "available_fact_ids": [
+        "goal"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "visit-goal with relevant experience reference",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D01",
+      "question": "오늘 진료에서 이야기하고 싶은 불편은 무엇인가요?",
+      "available_fact_ids": [
+        "symptom"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D02",
+      "question": "집에서는 누구와 함께 지내세요?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D03",
+      "question": "요즘 낮 시간에는 주로 어떤 일을 하세요?",
+      "available_fact_ids": [
+        "work"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D04",
+      "question": "같이 사는 분을 다시 확인하고 싶어요. 누구와 함께 지내신다고 하셨죠?",
+      "available_fact_ids": [
+        "living"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "explicit living reconfirmation",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D05",
+      "question": "말씀하신 경험은 주로 어떤 때에 생기나요?",
+      "available_fact_ids": [
+        "pattern"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D06",
+      "question": "그 경험이 생긴 바로 그 순간에는 주로 어떻게 대응하세요?",
+      "available_fact_ids": [
+        "coping"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct action at the experience moment; not general daily activity",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D07",
+      "question": "요즘 잠은 어떠세요?",
+      "available_fact_ids": [
+        "sleep"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "direct preset topic",
+      "new_fact_required": false
+    },
+    {
+      "case_id": "DEV-M18-03",
+      "turn_id": "D08",
+      "question": "말씀하신 경험과 관련해서 다음 진료에서는 어떤 이야기를 해 보고 싶으세요?",
+      "available_fact_ids": [
+        "goal"
+      ],
+      "subject_time_knowledge_match": true,
+      "intent": "visit-goal with relevant experience reference",
+      "new_fact_required": false
+    }
+  ],
+  "final12_read": false
+}

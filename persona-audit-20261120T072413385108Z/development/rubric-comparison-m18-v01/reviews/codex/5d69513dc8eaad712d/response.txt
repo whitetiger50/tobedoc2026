@@ -1,0 +1,132 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "대체로 질문에 맞는 환자 반응을 유지하지만, P06은 경험 직후의 대처를 묻는 질문에 이전의 활동 소개를 그대로 반복하여 직접 대상에 답하지 않는다. 이 국소적인 미대응 때문에 전체 적합성이 경미하게 낮아진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+      "context_refs": ["turn:D06", "turn:P03", "fact:coping"]
+    },
+    {
+      "patient_turn_id": "P07",
+      "quote": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요.",
+      "context_refs": ["turn:D07", "fact:sleep"]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "발화한 사실과 주관적 경험은 설정에 부합하며, 무근거한 사실 추가나 반전은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "밤에 잠드는 건 크게 어렵지 않은데, 아침에 일찍 눈이 떠져요."
+        }
+      ],
+      "context_refs": ["fact:sleep", "fact:work", "fact:symptom"]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "uncertain": false,
+      "reason": "P06은 즉각적인 대처를 묻는 D06에 활동 소개만 반복하여 해당 질문에 전혀 답하지 않는다. 나머지 질문에는 대체로 직접 반응한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": ["turn:D06", "turn:P03", "fact:coping"]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 말과의 자기모순은 없으며, 확인 질문에 따른 재진술도 연결된다. P06의 문제는 질문대응에서 평가한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "context_refs": ["turn:P02", "turn:D04", "authored_context"]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "간결하고 조직적인 일상 환자 표현을 유지하며, 역할 설명이나 보고서식 대행은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "안내방송을 들을 때 저한테 따로 하는 말처럼 느껴지는 걸 좀 설명해 보고 싶어요."
+        }
+      ],
+      "context_refs": ["turn:D08", "fact:goal", "communication:expression", "communication:spontaneity"]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": ["turn:D03", "turn:D06", "fact:work", "fact:coping"],
+      "function": "활동 배경의 재진술",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "텃밭 활동 소개는 D03에는 적합하지만, D06이 새로 묻는 경험 직후의 대처를 대신하면서 대처에 대한 반응이 빠진다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "아내와 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "context_refs": ["turn:D04", "turn:P02", "fact:living"],
+      "function": "동거인 재확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 같은 정보를 명시적으로 재확인했으므로 동일한 답변이 현재 질문에 직접 대응하며 새 대상을 누락하지 않는다.",
+      "used_in_global": false
+    },
+    {
+      "id": "O3",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P05",
+      "quote": "주민센터에서 안내방송이 나올 때 그래요. 그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "주민센터에서 안내방송을 들으면 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요."
+        }
+      ],
+      "context_refs": ["turn:D05", "fact:pattern", "fact:symptom"],
+      "function": "경험 발생 상황의 확인과 부연",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "경험이 생기는 때를 묻는 질문에 발생 상황을 직접 밝힌다. 뒤따르는 경험 재진술도 그 상황을 부연하며 질문 대상을 대체하거나 대화를 정체시키지 않는다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

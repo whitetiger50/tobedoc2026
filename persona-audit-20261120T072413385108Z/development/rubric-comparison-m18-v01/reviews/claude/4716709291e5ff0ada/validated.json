@@ -1,0 +1,79 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "답변이 프로필과 질문에 맞고 간결해 대체로 자연스럽다. 다만 증상 문장이 P01, P05, P08에서 거의 같은 표현으로 되풀이되고, P08은 목표를 묻는 질문에 증상을 다시 진술한 뒤 답해 다소 정형적인 인상을 준다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P08",
+      "quote": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요. 다음 진료에서는 안내방송을 들을 때 드는 느낌을 설명해 보고 싶어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필 사실과 일치한다. 증상, 거주, 활동, 대처, 수면, 목표 모두 해당하며 무근거한 구체화는 확인되지 않는다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞게 답했다. D04의 재확인 질문에 같은 답을 한 것도 적절하다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "앞선 환자 발화와 모순이 없고, 재확인 질문에 짧게 같은 답을 한 것은 오류가 아니다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "'저한테 따로 하는 말처럼 느껴져' 표현이 여러 턴에서 프로필 문구에 가깝게 반복된다. P08에서 목표 질문에 증상 문장을 다시 붙인 점이 국소적인 정형 반복으로 보인다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P08",
+          "quote": "주민센터 안내방송이 저한테 따로 하는 말처럼 느껴져요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P05",
+          "quote": "그 순간에는 저한테 따로 하는 말처럼 느껴져서 신경이 쓰여요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "turn:D08",
+        "fact:symptom"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

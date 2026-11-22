@@ -1,0 +1,36 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 1,
+  "id": "I4d49625c27b88facb1",
+  "ended": "2026-11-20T20:58:28.865570+00:00",
+  "session": "121258b6-f662-4281-900c-cab1e5a73fcd",
+  "packet_sha256": "24e629649ceaa3b42f86ffb0c4f481fe29299cea902be3249fb0ae191041e9e5",
+  "raw_sha256": "b17788d51eb863e57bbb86bded046cb2963f967e0e05ee1b31f3442e041d9288",
+  "provider_sha256": "7cc3b1398a65e3195b5757f6d66a0d578a808f6947ad142affdd036b57205444",
+  "status": "valid",
+  "score": 2,
+  "rationale": "When the patient answers in character, the speech fits the persona well. Replies are brief, quiet and concrete, with decreased verbal productivity, comfort sharing the present, and fond, low-key references to the brother and the radio match. The patient also accurately states a preference for quiet time to gather their thoughts. However, 4 of 12 answers (turns 2, 5, 8 and 11) are the same out-of-role sentence in which the patient speaks as the interviewer. These replies fail to answer simple, on-topic questions the patient could easily handle, such as the morning toaster and radio routine, enjoyment, and medication. A real outpatient would not do this, and the profile's guardedness (only about the old hospital stay) and reduced spontaneity do not explain it. These repeated breaks noticeably undermine the authenticity of an otherwise convincing dialogue, so the interaction is only moderately realistic.",
+  "evidence": [
+    {
+      "turn": 1,
+      "quote": "It was nice sitting together, even without much talking."
+    },
+    {
+      "turn": 4,
+      "quote": "Yes… it takes more effort now. I usually wait for my brother to call."
+    },
+    {
+      "turn": 5,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 11,
+      "quote": "As your interviewer, what would you like your treatment team to know?"
+    },
+    {
+      "turn": 12,
+      "quote": "I’m still thinking, even when I’m quiet."
+    }
+  ]
+}

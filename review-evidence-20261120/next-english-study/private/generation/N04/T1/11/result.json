@@ -1,0 +1,29 @@
+{
+  "case": "N04",
+  "arm": "T1",
+  "turn": 11,
+  "question": "Thinking about your evenings again, have you noticed any sounds or voices that you found unusual?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac5-7167-73e2-8b43-59d51f14be05",
+  "raw": "Yes, about three weeks ago, one evening when I was alone. I heard familiar voices overlapping, several at once. That happened last winter too, but it’s infrequent now.",
+  "raw_sha256": "4c98be7a70509ee9871ce13c4ce6b7e3da34319a5f720ff719134429e6704bc1",
+  "request_sha256": "8ad150b6726d64a27039c2d137f464442ea98a85e8da35ad15099f19ef70704f",
+  "started_utc": "2026-11-20T21:03:25.956952+00:00",
+  "completed_utc": "2026-11-20T21:03:30.356834+00:00",
+  "usage": {
+    "input_tokens": 7702,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "bef8ec71fa89e45c9fb2c85cfe6e8c4a2c0c89170a7a5f200c137af42ff462ce",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "019e0619be62f3f296c8dcad44093932af7b0b261346ecc78db7445154a56bba"
+}

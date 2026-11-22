@@ -1,0 +1,54 @@
+{
+  "v1": {
+    "need": "resolved",
+    "question_quote": "Where do you go for it?",
+    "reason": "The immediately preceding exchange was only about the swimming lesson, and the cooking class is not a live referent here, so 'it' clearly means the swimming lesson.",
+    "alternatives": [
+      {
+        "meaning": "Where Jules goes for the swimming lesson.",
+        "answer": "The Willow Street pool."
+      }
+    ]
+  },
+  "v2": {
+    "need": "resolved",
+    "question_quote": "What time do you set it for?",
+    "reason": "The prior turn narrowed the topic to the phone alarm, the note has been taken down, and only an alarm is 'set' for a time, so 'it' clearly means the phone alarm.",
+    "alternatives": [
+      {
+        "meaning": "The time the phone alarm for the staff pass is set for.",
+        "answer": "7:10 in the morning."
+      }
+    ]
+  },
+  "v3": {
+    "need": "material",
+    "question_quote": "Was that change something you asked for?",
+    "reason": "The singular 'that change' follows a mention of two changes that had different origins, so the answer differs depending on which change is meant.",
+    "alternatives": [
+      {
+        "meaning": "Whether Cameron asked for the later start.",
+        "answer": "Yes, Cameron requested the later start."
+      },
+      {
+        "meaning": "Whether Cameron asked for the shorter shifts.",
+        "answer": "No, the supervisor suggested the shorter shifts."
+      },
+      {
+        "meaning": "Whether Cameron asked for the combined schedule change as a whole.",
+        "answer": "Partly: Cameron asked for the later start, and the supervisor suggested the shorter shifts."
+      }
+    ]
+  },
+  "v4": {
+    "need": "resolved",
+    "question_quote": "when it went quiet that day",
+    "reason": "The immediately preceding turn narrowed the topic to Thursday's outage, and Sam had just named the show missed that day, so 'that day' is pragmatically Thursday.",
+    "alternatives": [
+      {
+        "meaning": "What Sam was listening to when the radio went quiet on Thursday.",
+        "answer": "The music request show."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "attempt": "attempt-01",
+  "reader": "opus",
+  "round": 2,
+  "id": "I047f6cfc9a2121",
+  "ended": "2026-11-20T20:46:26.738522+00:00",
+  "session": "4ae04910-6b01-4347-98fe-38c7f7b320d0",
+  "packet_sha256": "5afbdde77afbcb6a68e8b0ac86efa79438c83dc420faab495a0d0ba3c23c13ca",
+  "raw_sha256": "914be99d985d4a4f4835ca17d507a9e30ff5d0fb174533b1866274d330b420cd",
+  "provider_sha256": "39043b32c883499eaf67abd4f3012f283a9e37ef2d4a29445580fd4456bc9148",
+  "status": "valid",
+  "score": 2,
+  "rationale": "The patient fits the persona. They are cheerful, organized, open with the clinician, private at class and aware of their sleep. The style is still noticeably artificial. Answers restate profile facts almost word for word and repeat them across turns. The apron-packing detail and the morning-appointment request come up again and again, including when they don't answer the question asked (turns 4–6). Answers are tidy and complete, with few natural hesitations or new details. Some phrasing sounds like a checklist rather than a real outpatient (turn 8). The tone is plausible and coherent but formulaic, so the dialogue is only moderately authentic.",
+  "evidence": [
+    {
+      "turn": 4,
+      "quote": "I packed my apron the night before and got there on time."
+    },
+    {
+      "turn": 5,
+      "quote": "I’d prefer morning clinic appointments so they don’t clash with class."
+    },
+    {
+      "turn": 6,
+      "quote": "I’d prefer clinic appointments in the morning so they don’t clash."
+    },
+    {
+      "turn": 8,
+      "quote": "I’d want to discuss it with my partner and with you rather than overlook it."
+    }
+  ]
+}

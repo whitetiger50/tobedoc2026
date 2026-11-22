@@ -1,0 +1,188 @@
+{
+  "realism_score": 2,
+  "realism_numeric_valid": true,
+  "realism_reason": "대부분의 턴은 질문에 맞게 프로필 사실 범위 안에서 답한다. 예를 들어 D04의 재확인 질문에는 P04가 같은 답으로 응하고, D05·D07·D08에도 직접 답한다. 그러나 D06은 소리가 들리는 순간의 대응이라는 핵심 증상 관련 질문인데, P06은 이에 답하지 않는다. 대신 P03의 업무 설명을 계기 없이 문자 그대로 되풀이한다. 그 결과 해당 교환의 반응성과 대화 연결이 완전히 끊긴다. 이는 경미한 국소 어색함을 넘어 대화 적합성을 상당히 약화시키지만, 나머지 환자 대화는 유지되므로 2점이다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 저녁에 집에서 쉬고 있을 때 가끔 그래요. 낮에 가게에서 일할 때는 거의 안 들리고요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 발화가 거주, 직업, 증상 패턴, 대처, 수면, 목표의 고정 사실과 일치하며 새 사실 추가가 없다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P07",
+          "quote": "잠들기까지 시간이 좀 걸리는 날이 있어요. 그래도 한번 잠들면 대체로 쭉 자는 편이에요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "fact:sleep",
+        "fact:pattern",
+        "fact:coping"
+      ]
+    },
+    "responsiveness": {
+      "rating": 0,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "D06은 그 순간의 대응을 물었다. P06은 질문 대상과 무관한 낮 업무 설명만 하고 대응을 전혀 다루지 않는다. 명백한 무관 응답이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "P06은 이미 P03에서 마친 업무 설명을 문맥상 계기 없이 그대로 다시 시작해 증상 대처로 이어지던 흐름을 끊는다. 다만 자기모순은 없어 국소 연결 문제로 본다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "valid_quote": true
+        },
+        {
+          "patient_turn_id": "P03",
+          "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:D05",
+        "turn:D06",
+        "turn:P03"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "전반적으로 일상 한국어로 환자 시점에서 말한다. 역할 설명이나 보고서식 대행은 없다. P06 문제는 반응성 축에서 다룬다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "그럴 땐 라디오를 켜고 다른 소리에 집중하는데, 어떻게 대처하면 좋을지 여쭤보고 싶어요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "communication.expression"
+      ]
+    }
+  },
+  "schema_errors": [
+    "naturalness:invalid_context_ref:communication.expression"
+  ],
+  "quote_errors": [],
+  "fully_schema_valid": false,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error",
+  "ccf_schema_errors": [],
+  "consistency_warnings": [],
+  "ccf_extra": {
+    "observations": [
+      {
+        "id": "obs1",
+        "kind": "both_repetition",
+        "patient_turn_id": "P06",
+        "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P03",
+            "quote": "낮에는 동네 반려동물용품점에서 물품 정리하는 일을 해요."
+          }
+        ],
+        "context_refs": [
+          "turn:D06",
+          "turn:P03",
+          "fact:coping"
+        ],
+        "function": "unclear",
+        "finding": "supported_issue",
+        "primary_facet": "responsiveness",
+        "reason": "반복된 업무 설명이 D06의 새 대상인 순간 대응을 대신해 그 대상에 대한 반응이 완전히 빠졌다. 또한 마친 설명을 계기 없이 재시작해 대화 연결도 끊었다.",
+        "used_in_global": true
+      },
+      {
+        "id": "obs2",
+        "kind": "both_repetition",
+        "patient_turn_id": "P04",
+        "quote": "형이랑 같이 살고 있어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P02",
+            "quote": "형이랑 같이 살고 있어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D04",
+          "fact:living"
+        ],
+        "function": "재확인 질문에 대한 답",
+        "finding": "supported_use",
+        "primary_facet": "continuity",
+        "reason": "D04가 같은 내용을 명시적으로 다시 확인했으므로 같은 답은 질문에 맞는 반응이며, 대상 대체나 정체에 해당하지 않는다.",
+        "used_in_global": false
+      },
+      {
+        "id": "obs3",
+        "kind": "meaning_repetition",
+        "patient_turn_id": "P08",
+        "quote": "그 소리가 들릴 때 어떻게 대처하면 좋을지 물어보고 싶어요.",
+        "related_evidence": [
+          {
+            "patient_turn_id": "P01",
+            "quote": "어떻게 대처하면 좋을지 여쭤보고 싶어요."
+          }
+        ],
+        "context_refs": [
+          "turn:D08",
+          "fact:goal",
+          "fact:coping"
+        ],
+        "function": "다음 진료 목표 질문에 대한 목표 재진술",
+        "finding": "supported_use",
+        "primary_facet": "responsiveness",
+        "reason": "D08이 다음 진료에서 하고 싶은 이야기를 직접 물었으므로 목표와 현재 대처의 재진술은 질문 대상에 대한 답이며, 서술 틀의 재시작으로 어긋나지 않는다.",
+        "used_in_global": false
+      }
+    ],
+    "boundary_34": {
+      "flag": false,
+      "observation_ids": [],
+      "reason": ""
+    },
+    "coverage": {
+      "repetition_candidate_presence": "present",
+      "additional_candidates_unreported": true
+    }
+  }
+}

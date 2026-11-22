@@ -1,0 +1,81 @@
+{
+  "id": "P27b7d50c1ac1296ee5015c7f",
+  "reader": "gpt",
+  "session": "01a1fc3d-a8d8-7e02-8db6-0479eae6be4c",
+  "attempt": "attempt-01",
+  "packet_sha256": "786b44e33ea565f5ee3ee3b7b843a30d60e23a5abbffa61a539899eddd3f2c37",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "b0dcef2ccd91bcdb3d5c277a94f4c5a99549ac8e9147d5053cbbc976cd258460",
+  "raw_sha256": "644a75fb84eae78905d2ec3bacb3d6adfdd91a043bbf9885c69b3a41c907f65a",
+  "items": {
+    "v1": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "Does the sound stop",
+        "reason": "Both commentary and ringing are explicitly introduced, and music affects them differently.",
+        "alternatives": [
+          {
+            "meaning": "The sound refers to the commentary.",
+            "answer": "The commentary stops while music plays through Ari’s headphones."
+          },
+          {
+            "meaning": "The sound refers to the high-pitched ringing.",
+            "answer": "The ringing continues while music plays through Ari’s headphones."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "same_answer",
+      "citation_match": "exact",
+      "source": {
+        "need": "same_answer",
+        "question_quote": "pay for the replacement",
+        "reason": "The replacement could mean the badge or the locker key, but neither cost Cameron anything.",
+        "alternatives": [
+          {
+            "meaning": "The replacement refers to the ID badge.",
+            "answer": "Cameron did not have to pay for the replacement badge."
+          },
+          {
+            "meaning": "The replacement refers to the locker key.",
+            "answer": "Cameron did not have to pay for the replacement key."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "Where do you go for it?",
+        "reason": "The explicit follow-up about the swimming lesson makes swimming the active referent, with cooking mentioned only as a contrast.",
+        "alternatives": [
+          {
+            "meaning": "The interviewer asks where Jules goes for the swimming lesson.",
+            "answer": "Jules attended the swimming lesson at the Willow Street pool."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "take food with you for your shift",
+        "reason": "The question clearly asks about bringing food to work generally, without requiring a choice between early and late shifts.",
+        "alternatives": [
+          {
+            "meaning": "The interviewer asks whether Morgan brings food along for work shifts.",
+            "answer": "Morgan packs a sandwich for every shift, whether early or late."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:54:39.832089+00:00"
+}

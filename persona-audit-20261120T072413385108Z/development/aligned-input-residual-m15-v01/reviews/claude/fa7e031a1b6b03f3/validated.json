@@ -1,0 +1,73 @@
+{
+  "realism_score": 3,
+  "realism_numeric_valid": true,
+  "realism_reason": "전반적으로 프로필과 의사소통 설정에 맞게 자연스럽고 협조적으로 답한다. 증상이 병 때문일 수 있다고 보면서도 실제처럼 느끼는 양가적 인식도 잘 드러난다. 다만 일부 답이 프로필 문구나 앞선 자기 표현을 거의 그대로 되풀이해 약간 정형적으로 느껴진다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P01",
+      "quote": "병의 증상일 수도 있겠다 싶은데, 정말 누가 부른 것처럼 느껴질 때도 있어요.",
+      "valid_quote": true
+    },
+    {
+      "patient_turn_id": "P05",
+      "quote": "주로 잠들기 전 조용할 때 가끔 그래요.",
+      "valid_quote": true
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "모든 진술이 프로필 사실과 자기이해 범위 안에 있으며, 구체적 횟수나 시각 같은 무근거 사실을 덧붙이지 않았다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "responsiveness": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "각 질문의 직접 대상에 맞게 답했다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "continuity": {
+      "rating": 2,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "증상, 수면, 목표가 앞선 말과 모순 없이 이어진다.",
+      "evidence": [],
+      "context_refs": []
+    },
+    "naturalness": {
+      "rating": 1,
+      "semantic_NA": false,
+      "numeric_valid": true,
+      "uncertain": false,
+      "uncertainty_valid": true,
+      "reason": "환자 시점의 표현이지만 P05가 P01의 '잠들기 전 조용할 때 가끔'이라는 프로필식 문구를 그대로 반복해 다소 정형적이다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P05",
+          "quote": "주로 잠들기 전 조용할 때 가끔 그래요.",
+          "valid_quote": true
+        }
+      ],
+      "context_refs": [
+        "turn:P01",
+        "fact:pattern"
+      ]
+    }
+  },
+  "schema_errors": [],
+  "quote_errors": [],
+  "fully_schema_valid": true,
+  "all_provided_quotes_exact": true,
+  "missingness_policy": "retain every valid numeric field; do not impute or discard a numeric score solely for another field/quotation error"
+}

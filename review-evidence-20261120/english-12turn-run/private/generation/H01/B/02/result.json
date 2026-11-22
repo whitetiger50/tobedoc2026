@@ -1,0 +1,27 @@
+{
+  "case": "H01",
+  "arm": "B",
+  "turn": 2,
+  "question": "What brought you in for a conversation today?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faad-26e7-7f32-8edc-4b3ebd62e964",
+  "raw": "Um, there’s something about the bus rides home that’s been bothering me these last couple of weeks. Sometimes bits of other people’s conversations feel like they’re meant for me. I wanted to tell my clinician… I’d rather my housemates or people at work didn’t hear about it.",
+  "raw_sha256": "b8b354f7d774a4bee935ffdb1e8b4dc17135184dd7442fbaeee0eb275ba6a0c0",
+  "request_sha256": "81adf63073f61630bc2edfe73d8f34ec5f349a63518f66a9e7d878625ce6f6a6",
+  "started_utc": "2026-11-20T20:37:11.058178+00:00",
+  "completed_utc": "2026-11-20T20:37:15.601003+00:00",
+  "usage": {
+    "input_tokens": 15363,
+    "cached_input_tokens": 11264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 111,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "edd6629122b80151f6748a58d561f41c844fca88a9ea6eaa6545617d6f429fb4",
+  "trace_sha256": "ed661298838661ec8a56dfd0c008b0a19444523ab021cb1d50c763c652eb4e2f"
+}

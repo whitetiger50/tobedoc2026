@@ -1,0 +1,85 @@
+{
+  "id": "P4f360733e2abd9fc71b4f802",
+  "reader": "gpt",
+  "session": "01a1fc3e-b6d6-7d43-b762-51bd7e147c0d",
+  "attempt": "attempt-01",
+  "packet_sha256": "85fe8f3962986c8c355f91cd45ad27da7b61adb361936307ffaf039fb4ce81c4",
+  "system_sha256": "3b1b1a2317dd950d485674de659d6f1c78cc897f4256fc3580d27409b9b54f95",
+  "provider_sha256": "3871e0548395678b5e838549ec260ce2c76c66991e183967341a1b3875f2445d",
+  "raw_sha256": "98012a376bebfb21f0822c24956ea4306c7aadf83b7121ec403386f1e1fe733f",
+  "items": {
+    "v1": {
+      "need": "resolved",
+      "citation_match": "exact",
+      "source": {
+        "need": "resolved",
+        "question_quote": "when in the day do you take it",
+        "reason": "The immediately preceding exchange identifies the tablet and resolves the earlier time-window ambiguity, so this question clearly asks its usual daily timing.",
+        "alternatives": [
+          {
+            "meaning": "The usual time of day Ren takes the prescribed tablet.",
+            "answer": "Ren takes the tablet after supper."
+          }
+        ]
+      }
+    },
+    "v2": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the old one",
+        "reason": "Both replaced objects remain live referents, and the old badge was returned whereas the old locker key was not.",
+        "alternatives": [
+          {
+            "meaning": "Whether Cameron handed back the old ID badge.",
+            "answer": "The cracked old badge was handed back."
+          },
+          {
+            "meaning": "Whether Cameron handed back the old locker key.",
+            "answer": "The old key was lost and could not be handed back."
+          }
+        ]
+      }
+    },
+    "v3": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "still using the reminder",
+        "reason": "The question names two reminders without selecting one, and continued use differs between them even though a direct answer could cover both.",
+        "alternatives": [
+          {
+            "meaning": "Whether Morgan still uses the phone alarm to remember the pass.",
+            "answer": "Morgan still uses the phone alarm at 7:10 in the morning."
+          },
+          {
+            "meaning": "Whether Morgan still uses the note on the door to remember the pass.",
+            "answer": "Morgan took the note down last month and no longer uses it."
+          }
+        ]
+      }
+    },
+    "v4": {
+      "need": "material",
+      "citation_match": "exact",
+      "source": {
+        "need": "material",
+        "question_quote": "the medicine",
+        "reason": "The question explicitly reintroduces both eye drops and tablets without selecting either, and their storage locations differ.",
+        "alternatives": [
+          {
+            "meaning": "Whether the prescribed eye drops are kept in the kitchen.",
+            "answer": "The eye drops are kept on the bedside table, not in the kitchen."
+          },
+          {
+            "meaning": "Whether the daily prescribed tablets are kept in the kitchen.",
+            "answer": "The tablets are kept in the kitchen cabinet."
+          }
+        ]
+      }
+    }
+  },
+  "ended": "2026-11-21T03:55:47.905567+00:00"
+}

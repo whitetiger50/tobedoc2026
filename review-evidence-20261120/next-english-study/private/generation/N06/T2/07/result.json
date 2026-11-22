@@ -1,0 +1,29 @@
+{
+  "case": "N06",
+  "arm": "T2",
+  "turn": 7,
+  "question": "What do you notice about your energy and physical comfort during the afternoon?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-df67-7e93-ae22-8d1d421e41ee",
+  "raw": "I generally feel well enough to get on with things in the afternoon. The dry mouth is what I notice most, especially partway through a kitchen shift. Having my water bottle helps.",
+  "raw_sha256": "cd3683cf07a97e35bbdde55fad58357afe99d1c7f41126c04f7b4d0352b9fb42",
+  "request_sha256": "0aebd1826e43da60281d0ce245967368ac02f7e77bc1e04a35083b5e15a868b1",
+  "started_utc": "2026-11-20T21:01:43.028903+00:00",
+  "completed_utc": "2026-11-20T21:01:48.259355+00:00",
+  "usage": {
+    "input_tokens": 6451,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 41,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d22ac95d478065e05571bc66872eb10770407d1c1ecdd0e7371ccd9416012c1b",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "75253a8eacf2acd6a44f9fd906d150da7262b84c7da444328750e26f60cce7b5"
+}

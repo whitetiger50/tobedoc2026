@@ -1,0 +1,29 @@
+{
+  "case": "C07",
+  "arm": "B",
+  "turn": 8,
+  "question": "The optician visit and the care coordinator visit are both on last week’s calendar. Did somebody go with you to the appointment?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc2f-e2d1-71b2-ae81-347c39b4c76a",
+  "raw": "Which appointment do you mean?",
+  "raw_sha256": "c958b57d237eacb1142042642a8709cebc918ceff5269f2f31ddb2b71b57c1d1",
+  "request_sha256": "34e6e23ffbef7d01f522e13e6e9e4e4621d5412e36fc32006419c8a368d69e3c",
+  "started_utc": "2026-11-21T03:45:03.534042+00:00",
+  "completed_utc": "2026-11-21T03:45:15.812974+00:00",
+  "usage": {
+    "input_tokens": 63496,
+    "cached_input_tokens": 54528,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 114,
+    "reasoning_output_tokens": 24
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "004ea0ff14095837eaaf6f9a576dab281278e540fe88698ccfa9f2327d4c9dba",
+  "https_fallback": true,
+  "websocket_handshake_retries": 4,
+  "trace_sha256": "918e3bf759a431c092273fb802b27ace819054d8759aa365e3334cf631b22e6f"
+}

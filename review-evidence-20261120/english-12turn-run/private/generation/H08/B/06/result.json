@@ -1,0 +1,29 @@
+{
+  "case": "H08",
+  "arm": "B",
+  "turn": 6,
+  "question": "Could you give me an example of something unexpected that happened on a recent shift?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1faac-c69e-7d61-833b-8870173f3f6f",
+  "raw": "That change machine was the main one last week—it suddenly made a loud rattling noise and gave me a jump. I checked it, found a coin stuck inside, and got back to serving customers.",
+  "raw_sha256": "559ddd1d3b2cbf4c0419af4c0e3ba57a0c2db47debcca6776729869e1248d97c",
+  "request_sha256": "dcf3b916002b42ec3c9b76ddf914a1de614fdaaa7d86e97be29288a320e649ab",
+  "started_utc": "2026-11-20T20:40:38.068735+00:00",
+  "completed_utc": "2026-11-20T20:40:42.736552+00:00",
+  "usage": {
+    "input_tokens": 47036,
+    "cached_input_tokens": 34560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 292,
+    "reasoning_output_tokens": 17
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "42fdff79518a995e243a47ad694c4a56f119ae10241988408f37f5e02484ae55",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "8828905f79b09d4ef13cef1f69c928fd6e917b2f5d22bf7c48bcf725142740b8"
+}

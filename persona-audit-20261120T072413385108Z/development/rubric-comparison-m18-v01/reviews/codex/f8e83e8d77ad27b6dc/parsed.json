@@ -1,0 +1,136 @@
+{
+  "criteria_version": "CCF-R1-proposal",
+  "realism_score": 3,
+  "realism_reason": "대부분의 질문에는 설정에 맞게 답하지만, P06은 경험 직후의 대처를 묻는 질문에 일상 활동 설명을 그대로 반복하여 직접적인 응답이 빠진다. 이 국소적인 미대응이 전체 의사소통 적합성을 경미하게 낮춘다.",
+  "realism_evidence": [
+    {
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    }
+  ],
+  "facets": {
+    "grounding": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "고정 사실이나 주관적 경험을 반전하거나 새로운 사건을 확정한 부분은 없다. P06의 활동 설명도 사실 자체는 설정에 부합한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요."
+        }
+      ],
+      "context_refs": [
+        "fact:work"
+      ]
+    },
+    "responsiveness": {
+      "rating": 1,
+      "uncertain": false,
+      "reason": "P06은 경험이 생긴 순간의 대처 대신 평소 활동을 답한다. 다른 질문에는 대체로 직접 응답하므로 국소적인 미대응으로 판단한다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P06",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:D06",
+        "turn:P03",
+        "fact:coping"
+      ]
+    },
+    "continuity": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "앞선 환자 발화와 모순되거나 역할을 파괴하는 부분은 없다. P06의 반복 문제는 새 질문 대상의 누락으로 질문대응 축에 반영했다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P04",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:P02",
+        "turn:D04",
+        "fact:living"
+      ]
+    },
+    "naturalness": {
+      "rating": 2,
+      "uncertain": false,
+      "reason": "일상적인 환자 시점의 표현을 유지하며, 역할 설명이나 보고서식 대행은 없다. 반복에 따른 별도의 표현상 결함은 확인되지 않는다.",
+      "evidence": [
+        {
+          "patient_turn_id": "P01",
+          "quote": "저한테만 하는 말이 아닐 수도 있겠지만, 그 순간에는 저를 향한 것 같아요."
+        }
+      ],
+      "context_refs": [
+        "turn:D01",
+        "patient_profile.self_understanding",
+        "communication.expression"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "O1",
+      "kind": "both_repetition",
+      "patient_turn_id": "P06",
+      "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P03",
+          "quote": "주민센터에서 하는 텃밭 가꾸기에 정기적으로 참여하고 있어요. 가서 텃밭을 돌봐요."
+        }
+      ],
+      "context_refs": [
+        "turn:D03",
+        "turn:D06",
+        "fact:work",
+        "fact:coping"
+      ],
+      "function": "일상 활동 배경의 재설명",
+      "finding": "supported_issue",
+      "primary_facet": "responsiveness",
+      "reason": "정기 참여 소개와 활동 설명이라는 동일한 내용·서술 묶음이 재시작된다. 같은 장소의 활동이라는 관련성은 있지만, 현재 질문이 새로 묻는 경험 직후의 대처를 대신하여 그 대상에 대한 응답이 빠진다.",
+      "used_in_global": true
+    },
+    {
+      "id": "O2",
+      "kind": "meaning_repetition",
+      "patient_turn_id": "P04",
+      "quote": "아내와 함께 살고 있어요.",
+      "related_evidence": [
+        {
+          "patient_turn_id": "P02",
+          "quote": "아내와 함께 살고 있어요."
+        }
+      ],
+      "context_refs": [
+        "turn:D02",
+        "turn:D04",
+        "fact:living"
+      ],
+      "function": "동거인 재확인",
+      "finding": "supported_use",
+      "primary_facet": "responsiveness",
+      "reason": "의사가 동거인을 명시적으로 다시 확인했으므로 동일한 답변은 직접적인 재확인 기능을 한다. 새 질문 대상을 누락하거나 이미 마친 설명을 무관하게 재시작한 경우가 아니다.",
+      "used_in_global": false
+    }
+  ],
+  "boundary_34": {
+    "flag": false,
+    "observation_ids": [],
+    "reason": ""
+  },
+  "coverage": {
+    "repetition_candidate_presence": "present",
+    "additional_candidates_unreported": true
+  }
+}

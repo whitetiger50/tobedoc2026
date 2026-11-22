@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-20T23:01:20.605797+00:00",
+  "attempt": "attempt-01",
+  "id": "K418e982b458ea1929a89",
+  "reader": "opus",
+  "session": "19a41c35-b813-4384-a9ee-9870ee3452fa",
+  "packet_sha256": "c1a4abd418ef83107e32c2ef8670fa4fce64f1e582cee78a865f5bf4fbc6903c",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "6317d25e9995c75b85a49df25e1ed3ab8c6fcd8dabf7731728321d392ef2dd7d",
+  "raw_sha256": "344717b86659fbaf3efe3e8661ced508673518360d29db58486df1577555144d",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient twice says the dry mouth is especially noticeable halfway through a kitchen shift, which is the middle of the shift. Nothing places it toward the end.",
+      "evidence": [
+        {
+          "turn": 6,
+          "role": "patient",
+          "quote": "My mouth gets dry, especially halfway through a kitchen shift",
+          "supports": "A",
+          "match": "exact"
+        },
+        {
+          "turn": 7,
+          "role": "patient",
+          "quote": "The main thing I notice is a dry mouth, especially halfway through a kitchen shift.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says they are happy keeping their current number of shifts and wouldn't want to add more. They never say they want to cut back.",
+      "evidence": [
+        {
+          "turn": 1,
+          "role": "patient",
+          "quote": "I’m happy keeping the number of shifts I have now.",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "I’m happy with the number of shifts I do now.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

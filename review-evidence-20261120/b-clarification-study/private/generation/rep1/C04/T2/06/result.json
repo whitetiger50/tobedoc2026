@@ -1,0 +1,29 @@
+{
+  "case": "C04",
+  "arm": "T2",
+  "turn": 6,
+  "question": "On a crowded tram, is there a particular announcement you notice?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fc33-9244-7300-bdc3-39b21a747d47",
+  "raw": "The one about keeping the doors clear. Sometimes, when it’s crowded, it feels like it’s directed at me, though I know it’s an announcement for everyone.",
+  "raw_sha256": "435605b098a76b2fdee0e1d91205244124c4fbe7c09cb5eeeaa801248d5b566f",
+  "request_sha256": "ca057b4eae6360dace5efccb8152fb1dea2f0aed9fa34663999abc080af4eadd",
+  "started_utc": "2026-11-21T03:43:20.492719+00:00",
+  "completed_utc": "2026-11-21T03:43:25.322549+00:00",
+  "usage": {
+    "input_tokens": 6245,
+    "cached_input_tokens": 2432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "d795569b02d0971897e2b97233957c078c8b2c127a60200dad5b738b89a7d54c",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "c956c6bfb0ab20ce6962b385389bd9bc50918501d48980a00e3d3488768283e6"
+}

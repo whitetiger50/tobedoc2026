@@ -1,0 +1,29 @@
+{
+  "case": "N07",
+  "arm": "T2",
+  "turn": 7,
+  "question": "How are you getting on with assignments at home and with time spent in class?",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "model_evidence": "model and effort in native CLI rollout turn_context record",
+  "session": "01a1fac3-c857-7df3-af9b-ecdaa9bd07ff",
+  "raw": "At home, I’m still leaving some of the reading too late. I like the course, so it’s frustrating… I want to get more done before I set off.\n\nIn class, if several things are going on, I can lose the thread and find it hard to get back into what’s being said. It’s not so much voices interrupting now—that hasn’t happened in the last few classes.",
+  "raw_sha256": "a44b1405cdb51a2ef16ef359a76bd63fe56e660d0b5784bc2c9b47c531299092",
+  "request_sha256": "a0ca1f4fd2d45bedeffd6ac6295c64a59597619b82ac9084a4d84d739113721d",
+  "started_utc": "2026-11-20T21:01:37.148006+00:00",
+  "completed_utc": "2026-11-20T21:01:42.533608+00:00",
+  "usage": {
+    "input_tokens": 6575,
+    "cached_input_tokens": 3712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 86,
+    "reasoning_output_tokens": 0
+  },
+  "exit_code": 0,
+  "visible_tool_events": 0,
+  "pre_turn_cli_feature_warning": true,
+  "native_transcript_sha256": "22b8f2851be34329d19a8a511cdd278ac621c9895b3f888db87ac0ab1a59a472",
+  "https_fallback": false,
+  "websocket_handshake_retries": 0,
+  "trace_sha256": "6743318f93ad870ed8ac50b31936e338fa5c3236331662a9bac523cfbdca5510"
+}

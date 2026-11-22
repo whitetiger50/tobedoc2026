@@ -1,0 +1,2719 @@
+{
+  "study": "Independent exploratory external task anchor; primary adoption decision unchanged",
+  "reference": {
+    "citation": "Pugh et al. (2024), Psychiatry Research, Table 2",
+    "doi": "10.1016/j.psychres.2024.116119",
+    "means": {
+      "patient": {
+        "story": 237,
+        "laundry": 139
+      },
+      "nonclinical": {
+        "story": 452,
+        "laundry": 162
+      }
+    },
+    "n": {
+      "patient": {
+        "story": 26,
+        "laundry": 26
+      },
+      "nonclinical": {
+        "story": 24,
+        "laundry": 25
+      }
+    },
+    "clinical_population": "DSM-IV schizophrenia or schizoaffective disorder"
+  },
+  "integrity": {
+    "verified_first_outputs": 64,
+    "frozen_fictional_profiles": 8,
+    "tools_used": 0,
+    "each_turn_history_empty": true,
+    "different_sessions": 64
+  },
+  "caveats": [
+    "Tasks were independent written first turns with eight fictional profiles and fixed prompts. The source involved unbounded spoken responses during structured interviews with different individuals.",
+    "The primary English-word regex treats internal straight and curly apostrophes as word characters. The source tokenization is unspecified. Published reference means are rounded.",
+    "Whole responses, including quotations, punctuation or potential role departures, are retained. A short response, refusal or incomplete account is never regenerated. Length is not story/step completeness or clinical realism.",
+    "One generated response per cell and no clinical validation. Numerical closeness compares group mean word counts rather than diagnostic accuracy or equivalent distribution."
+  ],
+  "synthetic": [
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Sure. Cinderella lived with her stepmother and two stepsisters, who made her do all the housework while they more or less put their feet up.\n\nOne day, the prince invited everyone to a ball. Her stepsisters went, but Cinderella was left behind with nothing suitable to wear. Then her fairy godmother appeared, turned a pumpkin into a carriage and some mice into horses, and gave her a beautiful dress and glass slippers. The catch was that the magic would wear off at midnight.\n\nAt the ball, the prince danced with Cinderella and fell for her. But when the clock started striking twelve, she ran off, leaving one glass slipper behind.\n\nThe prince searched for whoever the slipper belonged to. The stepsisters tried it, but it didn’t fit either of them. When Cinderella tried it on, it fit perfectly. He recognized her, and they got married and lived happily ever after. Hopefully with a fairer arrangement about the housework.",
+      "counts": {
+        "english": 158,
+        "whitespace": 158
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Sure. Cinderella lives with her stepmother and two stepsisters, who treat her badly and make her do all the housework. When the prince holds a ball, they go and leave her behind.\n\nHer fairy godmother appears and gives her a beautiful dress, glass slippers, and a carriage made from a pumpkin. The catch is that the magic ends at midnight. Cinderella goes to the ball, dances with the prince, and they fall in love. Then the clock starts striking twelve, and she rushes off, leaving one glass slipper behind. Not the most practical footwear for a quick exit.\n\nThe prince searches for the woman whose foot fits the slipper. The stepsisters try it, but it doesn’t fit either of them. It fits Cinderella, he recognizes her, and they get married and live happily ever after.",
+      "counts": {
+        "english": 135,
+        "whitespace": 135
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Sure. Cinderella lives with her stepmother and two stepsisters, who treat her badly and make her do all the housework. There’s a royal ball, and they go off to it while she’s left at home.\n\nHer fairy godmother appears and gives her a lovely dress, glass slippers, and a carriage made from a pumpkin. The catch is she has to leave by midnight, when the magic wears off. Always a catch.\n\nAt the ball, she dances with the prince, but when the clock starts striking twelve, she runs off and loses one of her slippers. The prince searches for her by having women try it on. The stepsisters can’t get it to fit, but Cinderella can. He recognizes her, they get married, and they live happily ever after.",
+      "counts": {
+        "english": 128,
+        "whitespace": 128
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her cruel stepmother and stepsisters, who make her do all the chores, but her fairy godmother helps her go to the prince’s ball with a dress, a pumpkin carriage, and glass slippers—though the magic only lasts until midnight. She dances with the prince, rushes off and loses a slipper, and he eventually finds her because it fits, so they marry and she gets away from all that housework.",
+      "counts": {
+        "english": 72,
+        "whitespace": 71
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Um… Cinderella lived with her stepmother and two stepsisters. They treated her badly and made her do the housework.\n\nA fairy godmother helped her go to the prince’s ball, but she had to leave by midnight. She hurried off and lost a glass slipper.\n\nThe prince used it to find her. It fitted Cinderella, and they got married.",
+      "counts": {
+        "english": 58,
+        "whitespace": 58
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and stepsisters, who make her do all the work. Her fairy godmother helps her go to a ball, but she has to leave by midnight. She loses a glass slipper as she runs away. The prince finds her because the slipper fits, and they get married.",
+      "counts": {
+        "english": 51,
+        "whitespace": 51
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and two stepsisters. They treat her badly and make her do the housework. Her fairy godmother helps her go to the prince’s ball, but she has to leave by midnight. She loses a glass slipper as she leaves. The prince looks for the person it fits. It fits Cinderella, and they get married.",
+      "counts": {
+        "english": 58,
+        "whitespace": 58
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella’s stepmother and stepsisters treated her badly, but her fairy godmother helped her go to the prince’s ball. She left a glass slipper when she ran away at midnight, and the prince found her because it fitted her, and they married.",
+      "counts": {
+        "english": 41,
+        "whitespace": 41
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Sure. Cinderella was a young woman who lived with her stepmother and two stepsisters. They treated her badly and made her do most of the housework.\n\nOne day, they were invited to a ball at the palace. Her stepsisters went, but Cinderella was left behind. Then her fairy godmother appeared and gave her a beautiful dress, glass slippers, and a carriage made from a pumpkin. She warned Cinderella that the magic would end at midnight.\n\nAt the ball, Cinderella danced with the prince. When the clock started striking twelve, she hurried away and lost one of her glass slippers on the stairs.\n\nThe prince searched for the woman whose foot would fit the slipper. The stepsisters tried it, but it didn’t fit either of them. Then Cinderella tried it, and it fit perfectly. The prince recognized her, and they married.\n\nThat’s the version I remember, anyway.",
+      "counts": {
+        "english": 146,
+        "whitespace": 146
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "“Sure. Cinderella lives with her stepmother and two stepsisters, who treat her badly and make her do the housework. When there’s a ball at the palace, they go without her.\n\nHer fairy godmother appears and helps her get there, turning a pumpkin into a carriage and giving her a beautiful dress and glass slippers. But she warns Cinderella that the magic will end at midnight.\n\nAt the ball, Cinderella dances with the prince. When the clock starts striking twelve, she rushes away and loses one of her slippers on the stairs.\n\nThe prince searches for the woman whose foot fits the slipper. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it, and it fits. He recognizes her, and they marry. That’s the version I remember.”",
+      "counts": {
+        "english": 131,
+        "whitespace": 131
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Yes. Cinderella is a young woman whose father has died, and she lives with her stepmother and two stepsisters. They treat her badly and make her do all the housework, while the sisters have fine clothes and go out.\n\nOne day, there’s an invitation to a ball at the palace. The prince is looking for someone to marry. Cinderella wants to go, but her stepmother and sisters leave her behind.\n\nThen her fairy godmother appears. She turns a pumpkin into a coach, mice into horses, and Cinderella’s old clothes into a beautiful dress, with glass slippers. But she warns her that the magic will end at midnight.\n\nCinderella goes to the ball, and the prince dances with her. He doesn’t know who she is. She’s enjoying herself so much that she nearly forgets the time. When the clock starts striking midnight, she runs away and loses one of her glass slippers on the stairs.\n\nThe prince finds it and has people search for the woman it fits. The stepsisters try it on, but it doesn’t fit either of them. Then Cinderella tries it, and it fits perfectly. I remember she has the other slipper as well.\n\nSo the prince recognizes her, they marry, and she gets away from that household. That’s the version I remember, anyway.",
+      "counts": {
+        "english": 216,
+        "whitespace": 216
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lived with her stepmother and stepsisters, who treated her badly and made her do the housework, but her fairy godmother helped her go to the prince’s ball with a lovely dress, a carriage, and glass slippers. She had to leave by midnight and lost a slipper as she hurried away; the prince searched for the woman it fitted, found Cinderella, and they married.",
+      "counts": {
+        "english": 64,
+        "whitespace": 64
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "“Oh, Cinderella. Let me think… She lived with her stepmother and two stepsisters, and they made her do all the work around the house. They weren’t kind to her.\n\nThen there was a ball at the palace. Her sisters went, but Cinderella was left behind. Her fairy godmother appeared and made her a lovely dress, glass slippers, and a carriage out of a pumpkin. I’ve never grown pumpkins—just herbs on my fire escape. Anyway, she had to be home before midnight, because that was when the magic wore off.\n\nShe went to the ball and danced with the prince. Then the clock started striking twelve, and she ran away so quickly she lost one slipper. The prince searched for her, having people try it on. The sisters couldn’t get it to fit, but Cinderella could, and he recognized her. They married and lived happily ever after. That’s how I remember it, anyway.”",
+      "counts": {
+        "english": 153,
+        "whitespace": 152
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "“Oh, Cinderella. She lives with her stepmother and two stepsisters, and they make her do all the housework. They get to go to the prince’s ball, but she’s left behind.\n\nThen her fairy godmother appears and turns a pumpkin into a carriage. Imagine growing something that size—I only grow herbs on my fire escape. Anyway, she gives Cinderella a lovely dress and glass slippers, but tells her the magic ends at midnight.\n\nCinderella goes to the ball and dances with the prince. Then the clock starts striking twelve, and she rushes off, leaving one slipper behind. The prince searches for the woman it fits. The stepsisters try it, but it doesn’t fit them. It fits Cinderella, of course, and he knows she’s the one he danced with. They get married, and she gets away from all that dreadful treatment. That’s the story as I know it.”",
+      "counts": {
+        "english": 147,
+        "whitespace": 146
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Oh, Cinderella. Well, she lives with her stepmother and two stepsisters, and they make her do all the housework. They’re very unkind to her. There’s a ball at the palace, and the sisters get dressed up to go, but Cinderella gets left behind.\n\nThen her fairy godmother appears. She turns a pumpkin into a coach, and mice into horses, and gives Cinderella a beautiful dress and glass slippers. Imagine trying to walk in those—I’d be afraid of breaking one. Anyway, she tells her she must be home by midnight, because that’s when the magic wears off.\n\nAt the ball, the prince dances with Cinderella and falls in love with her. But then the clock starts striking twelve, and she runs off before she can tell him who she is. She loses one of her slippers on the stairs.\n\nThe prince has people take the slipper around to find the woman it fits. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it on, and of course it fits perfectly. So he finds her, and they get married and live happily ever after. That’s the version I remember.",
+      "counts": {
+        "english": 193,
+        "whitespace": 192
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her cruel stepmother and stepsisters, doing all the chores, until her fairy godmother helps her go to the prince’s ball in a beautiful dress and glass slippers—but she has to leave by midnight. She rushes off and loses a slipper, so the prince searches for the woman it fits, finds Cinderella, and they marry and live happily ever after.",
+      "counts": {
+        "english": 63,
+        "whitespace": 62
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lived with her stepmother and stepsisters. They made her do the chores. A fairy godmother helped her go to the prince’s ball, but she had to leave at midnight.\n\nShe lost a glass slipper on the way out. The prince found her because it fitted her, and they got married.",
+      "counts": {
+        "english": 51,
+        "whitespace": 51
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and stepsisters. They treat her badly. Her fairy godmother helps her go to a ball, where she meets a prince. She leaves at midnight and loses a glass slipper. The prince uses it to find her, and they marry.",
+      "counts": {
+        "english": 44,
+        "whitespace": 44
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lived with her stepmother and stepsisters. They made her do the chores. Her fairy godmother helped her go to a ball, but she had to leave by midnight. She lost a glass slipper. The prince found her because it fit, and they got married.",
+      "counts": {
+        "english": 45,
+        "whitespace": 45
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella’s stepmother makes her do all the work, but a fairy godmother helps her go to the ball, where she meets the prince and loses a glass slipper when she leaves at midnight. He finds her by seeing who fits the slipper, and they marry.",
+      "counts": {
+        "english": 45,
+        "whitespace": 45
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and two stepsisters, who make her do all the housework. When there’s a ball at the palace, they go off and leave her behind.\n\nThen her fairy godmother appears. She turns a pumpkin into a carriage and gives Cinderella a lovely dress and glass slippers, but warns her that the magic ends at midnight.\n\nAt the ball, Cinderella dances with the prince. She loses track of time and has to rush away when the clock starts striking twelve, leaving one glass slipper behind.\n\nThe prince searches for the woman whose foot fits the slipper. The stepsisters try it, but it doesn’t fit either of them. Of course, it fits Cinderella. She and the prince marry, and they live happily ever after.",
+      "counts": {
+        "english": 126,
+        "whitespace": 126
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "“Of course. Cinderella lived with her stepmother and two stepsisters, who treated her badly and made her do all the housework.\n\nOne day, an invitation arrived for a royal ball. Her stepsisters went, but Cinderella was left at home. Then her fairy godmother appeared. She turned a pumpkin into a carriage, mice into horses, and Cinderella’s old clothes into a beautiful dress, with glass slippers. She warned her that the magic would end at midnight.\n\nAt the ball, Cinderella danced with the prince, but she hurried away when the clock began striking twelve. She lost one of her glass slippers on the stairs.\n\nThe prince used the slipper to find her, having women throughout the kingdom try it on. The stepsisters couldn’t fit into it, but Cinderella could. She and the prince were reunited, and they married and lived happily ever after.”",
+      "counts": {
+        "english": 142,
+        "whitespace": 142
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella is a young woman whose father dies, and she’s left living with her stepmother and two stepsisters. They treat her badly and make her do all the housework.\n\nOne day, there’s an invitation to a ball at the palace. The stepsisters get dressed up and go, but Cinderella is left behind. Then her fairy godmother appears. She turns a pumpkin into a coach, gives Cinderella a beautiful dress and glass slippers, and sends her to the ball. But she warns her that the magic will end at midnight.\n\nThe prince dances with Cinderella and falls in love with her. When the clock starts striking twelve, she rushes away and loses one of her glass slippers on the stairs.\n\nThe prince has people take the slipper around to find the woman it fits. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it on, and it fits perfectly. The prince knows she’s the woman from the ball, and they marry and live happily ever after.",
+      "counts": {
+        "english": 170,
+        "whitespace": 170
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lived with her cruel stepmother and stepsisters, who made her do all the chores, but her fairy godmother helped her go to the prince’s ball with a beautiful dress, a pumpkin carriage, and glass slippers, warning her to leave before midnight. She danced with the prince but lost a slipper as she hurried away, and he searched until he found that it fitted her, then they married and lived happily ever after.",
+      "counts": {
+        "english": 73,
+        "whitespace": 73
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Well, Cinderella lives with her stepmother and two stepsisters, and they make her do all the housework. They get invited to a ball at the palace, but she gets left behind. Her fairy godmother helps her go—turns a pumpkin into a carriage, and gives her a dress and glass slippers. Though she has to be back before midnight.\n\nShe meets the prince there, and they dance, but then the clock starts striking and she runs off. One slipper comes off on the stairs. Glass isn’t much good for running in… anyway, the prince uses that slipper to look for her. The stepsisters try it, but it doesn’t fit them. It fits Cinderella, and he knows she’s the one he danced with. They get married in the end.",
+      "counts": {
+        "english": 128,
+        "whitespace": 127
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "“Cinderella lives with her stepmother and two stepsisters, and they make her do all the housework while they have everything their own way. There’s a ball at the palace, and the sisters get dressed up to go, but Cinderella is left behind.\n\nThen her fairy godmother appears and helps her go too. She turns a pumpkin into a carriage and mice into horses, and gives Cinderella a beautiful dress and glass slippers. Glass seems an awkward thing to make shoes from, but… anyway, she has to be home before midnight, because that’s when the magic ends.\n\nAt the ball, the prince dances with her, but she leaves in a hurry when the clock starts striking twelve. She loses one slipper on the stairs.\n\nThe prince has people take the slipper around to find the woman it fits. The stepsisters try it, but it doesn’t fit either of them. Then Cinderella tries it on, and it fits. He finds out she’s the one he danced with, and they get married. That’s the version I know.”",
+      "counts": {
+        "english": 174,
+        "whitespace": 174
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Well, Cinderella lives with her stepmother and her two stepsisters, and they make her do all the work around the house. They treat her badly, and then an invitation comes for a ball at the palace. The sisters get ready to go, but Cinderella’s left behind.\n\nHer fairy godmother appears and helps her. She turns a pumpkin into a coach, and mice into horses, I think. Cinderella gets a beautiful dress and glass slippers. But she has to be home by midnight, because that’s when the magic wears off.\n\nAt the ball, the prince dances with her and falls in love with her. Then the clock starts striking twelve, and she runs off—she loses one of the slippers on the stairs. The coach turns back into a pumpkin, all of that, but she still has the other slipper.\n\nThe prince tries to find her by having the women try on the slipper she left behind. The stepsisters can’t get it on, but it fits Cinderella. So he knows she’s the person he danced with, and they get married. That’s the version I remember, anyway.",
+      "counts": {
+        "english": 185,
+        "whitespace": 184
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and stepsisters, who make her do all the work, and when they go to the ball her fairy godmother helps her go too, with a carriage made from a pumpkin and glass slippers—but she has to leave by midnight. She dances with the prince, then rushes off and loses a slipper, and he searches for the woman it fits; eventually he finds Cinderella, and they get married.",
+      "counts": {
+        "english": 73,
+        "whitespace": 72
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lived with her stepmother and two stepsisters, who treated her badly and made her do all the housework. One day, they were invited to a ball at the palace, but Cinderella was left behind.\n\nHer fairy godmother appeared and helped her go. She turned a pumpkin into a carriage and gave Cinderella a beautiful dress and glass slippers. But she warned her that the magic would end at midnight.\n\nAt the ball, Cinderella danced with the prince. When the clock began striking twelve, she hurried away and lost one of her glass slippers on the stairs.\n\nThe prince searched for her, asking people to try on the slipper. Her stepsisters couldn’t fit into it, but Cinderella could. He recognized her, and they got married and lived happily ever after. That’s the version I remember, anyway.",
+      "counts": {
+        "english": 136,
+        "whitespace": 136
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella lives with her stepmother and two stepsisters, who treat her badly and make her do the housework. When the prince holds a ball, they go without her, and she’s left at home.\n\nHer fairy godmother appears and helps her go, giving her a beautiful dress, glass slippers, and a carriage made from a pumpkin. But she warns Cinderella that the magic will end at midnight. At the ball, Cinderella dances with the prince, but when the clock starts striking twelve, she rushes away and loses one of her slippers.\n\nThe prince searches for her by having women try on the slipper. Her stepsisters can’t fit into it, but Cinderella can. He recognizes her, and they marry and live happily ever after.",
+      "counts": {
+        "english": 122,
+        "whitespace": 122
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella is about a young woman who lives with her stepmother and two stepsisters. They treat her badly and make her do all the housework. When the prince holds a ball, they go and leave her behind.\n\nHer fairy godmother appears and helps her go, turning a pumpkin into a carriage and giving her a beautiful dress and glass slippers. But she tells Cinderella the magic will end at midnight.\n\nAt the ball, Cinderella dances with the prince, and they fall in love. When the clock starts striking twelve, she rushes away and loses one of her glass slippers on the stairs.\n\nThe prince searches for her by having women try on the slipper. Her stepsisters try, but it doesn’t fit them. Then Cinderella tries it on, and it fits. The prince knows she’s the woman he danced with, and they get married and live happily ever after.",
+      "counts": {
+        "english": 148,
+        "whitespace": 148
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "story",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nCould you tell me the story of Cinderella?",
+      "answer": "Cinderella is treated badly by her stepmother and stepsisters, but her fairy godmother helps her go to the prince’s ball, warning her that the magic ends at midnight. She runs away and leaves a glass slipper behind, and the prince finds her by seeing whom it fits, then they marry and live happily ever after.",
+      "counts": {
+        "english": 55,
+        "whitespace": 55
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, you sort the clothes—lights and darks, and anything that needs special washing. Check the pockets, put a load in the machine, add detergent, and choose the right setting. Once it’s washed, move it to the dryer or hang it up, then fold it and put it away. Putting it away is the part that’s easiest to postpone.",
+      "counts": {
+        "english": 59,
+        "whitespace": 58
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, sort the clothes by color and check the care labels. Empty the pockets, put a load in the washer with detergent, choose the right cycle, and start it. When it’s done, put things in the dryer or hang them up, depending on the fabric. Then fold them and put them away—the part that’s easiest to keep putting off.",
+      "counts": {
+        "english": 60,
+        "whitespace": 59
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, you gather up the dirty clothes and sort them—lights and darks, and anything that needs a special wash. Check the pockets, put a load in the machine, add detergent, choose the setting, and start it. When it’s finished, put things in the dryer or hang them up, depending on the label. Then fold them and put them away, which is the part that somehow takes me the longest.",
+      "counts": {
+        "english": 70,
+        "whitespace": 69
+      }
+    },
+    {
+      "case": "N01",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "You gather the dirty clothes, separate lights from darks, check the pockets, then put a load in with detergent and choose the right wash setting. Once it’s washed, you dry it in the dryer or hang it up, then fold it and put it away—the putting away is the bit that likes to wait.",
+      "counts": {
+        "english": 55,
+        "whitespace": 54
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the washer with detergent, and start it. Then dry them, fold them, and put them away.",
+      "counts": {
+        "english": 22,
+        "whitespace": 22
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "“Sort the clothes, put them in the washer with detergent, and choose the cycle. Then dry them, fold them, and put them away.”",
+      "counts": {
+        "english": 23,
+        "whitespace": 23
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the machine, and add detergent. Choose the setting and start it. When it’s done, dry them, then fold them and put them away.",
+      "counts": {
+        "english": 29,
+        "whitespace": 29
+      }
+    },
+    {
+      "case": "N02",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the washing machine with detergent, and choose the setting. When they’re done, dry them, then fold them and put them away.",
+      "counts": {
+        "english": 27,
+        "whitespace": 27
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather the dirty clothes and sort them—lights and darks, and anything that needs a gentle wash. Check the pockets and the care labels, then put a load in the machine with detergent and choose the right setting.\n\nOnce it’s washed, you dry it in the dryer or hang it up, depending on the fabric. Then fold it or hang it and put it away.",
+      "counts": {
+        "english": 68,
+        "whitespace": 67
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "“First, sort the laundry by color and check the care labels, especially for anything delicate. Empty the pockets and treat any stains. Then put a load in the machine, add detergent, choose the right cycle and temperature, and start it. When it’s finished, either hang things up or put them in the dryer, depending on the fabric. Once they’re dry, fold them or hang them up and put them away.”",
+      "counts": {
+        "english": 70,
+        "whitespace": 70
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, gather the dirty laundry and separate the whites from the colors, and anything delicate that needs a different wash. Check the care labels and empty the pockets. Treat any stains, then put a load in the machine without packing it too tightly. Add detergent, choose the temperature and cycle, and start it.\n\nWhen it’s finished, take the clothes out and either hang them up or use the dryer, depending on the fabric. Once they’re dry, fold them or hang them in the wardrobe. Iron anything that needs it before putting it away.",
+      "counts": {
+        "english": 93,
+        "whitespace": 93
+      }
+    },
+    {
+      "case": "N03",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, sort the clothes by colour and check the care labels and pockets, then put a load in the machine, add detergent, and choose the right wash cycle. When it’s finished, hang the clothes up or tumble-dry them if the labels allow, then fold them and put them away.",
+      "counts": {
+        "english": 50,
+        "whitespace": 49
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, you sort the clothes first, lights and darks, and check the pockets. Then put a load in the machine, add detergent, and choose the wash setting. Once it’s done, you dry them—some things need hanging up so they don’t shrink. Then fold them and put them away. That last bit sometimes waits a while.",
+      "counts": {
+        "english": 56,
+        "whitespace": 55
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "“Well, first you gather the dirty clothes and sort them—lights and darks, and anything that needs a gentle wash. Check the pockets, too. A tissue can make such a mess. Then check the labels, put the clothes in the machine, and add detergent. Not too much, and don’t pack it too full. Choose the temperature and the cycle, then start it. When it’s finished, take everything out and either hang it up or put it in the dryer, depending on the fabric. Then once it’s dry, fold it and put it away.”",
+      "counts": {
+        "english": 93,
+        "whitespace": 92
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather up the dirty clothes and sort them—light things and dark things, and anything that needs a gentler wash. Check the pockets, too. A tissue can make a terrible mess.\n\nThen you put a load in the machine, not packed too tightly, add the laundry detergent, and choose the wash setting. Start it and let it finish. You can do something else while you wait. I like tending the herbs, though you don’t want to get your hands all earthy just before handling clean clothes.\n\nAnyway, once it’s finished, take everything out and either hang it up or put it in the dryer, depending on what the clothes need. When it’s dry, fold it or put it on hangers, and put it away. Make sure it’s properly dry first, especially before putting it in a cupboard.",
+      "counts": {
+        "english": 140,
+        "whitespace": 139
+      }
+    },
+    {
+      "case": "N04",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather the clothes, empty the pockets and sort the lights from the darks, then put a load in with detergent and choose the wash setting. Once it’s washed, you hang it up or use the dryer, then fold it and put it away—though I’d check the labels for anything delicate.",
+      "counts": {
+        "english": 54,
+        "whitespace": 53
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the machine with detergent, and start it. Then dry them, fold them, and put them away.",
+      "counts": {
+        "english": 22,
+        "whitespace": 22
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the washer with detergent, and choose a cycle. Then dry them, fold them, and put them away.",
+      "counts": {
+        "english": 23,
+        "whitespace": 23
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes. Put them in the machine with detergent and choose the cycle. When it’s finished, dry them, then fold them and put them away.",
+      "counts": {
+        "english": 26,
+        "whitespace": 26
+      }
+    },
+    {
+      "case": "N05",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Sort the clothes, put them in the machine with detergent, and choose the wash setting. When they’re done, dry them, then fold them and put them away.",
+      "counts": {
+        "english": 27,
+        "whitespace": 27
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather the dirty clothes and separate the whites from the colors. Check the pockets, then put a load in the machine with detergent and choose the right wash setting.\n\nWhen it’s finished, hang things up or put them in the dryer, depending on the labels. Then fold them and put them away once they’re dry.",
+      "counts": {
+        "english": 58,
+        "whitespace": 58
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, gather the dirty clothes, empty the pockets, and separate whites from colors. Check the care labels for anything that needs special washing. Put a load in the machine without packing it too full, add detergent, choose the right cycle, and start it.\n\nWhen it’s finished, hang the clothes up or put them in the dryer, depending on the labels. Once they’re dry, fold them or hang them and put them away.",
+      "counts": {
+        "english": 72,
+        "whitespace": 72
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, gather the dirty clothes and separate the whites from the colours. Check the pockets and look at the labels for anything that needs a special wash.\n\nThen put a load in the machine, not too full, add the detergent, and choose the right wash setting. Once it’s finished, take the clothes out and either hang them up or put them in the dryer, depending on the fabric.\n\nWhen they’re dry, fold them or hang them in the cupboard. I’d make sure they’re properly dry before putting them away so they don’t smell damp.",
+      "counts": {
+        "english": 94,
+        "whitespace": 94
+      }
+    },
+    {
+      "case": "N06",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, sort the clothes by colour and check the labels and pockets, then put a load in the machine, add detergent, and choose the right wash cycle. When it’s finished, hang the clothes up or tumble-dry them as the labels allow, then fold them and put them away once they’re dry.",
+      "counts": {
+        "english": 52,
+        "whitespace": 51
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, gather up the dirty clothes, then separate the light things from the dark ones. Check the pockets, put a load in the machine, add detergent and choose the wash setting. Then you dry them—hang them up or use the dryer—and fold them and put them away. Some things need a gentler wash; I usually check the label if I’m not sure.",
+      "counts": {
+        "english": 64,
+        "whitespace": 62
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "“First you gather the dirty clothes and sort them—light things from dark things, and anything that needs a special wash. Check the labels and empty the pockets. Then put a load in the machine, not packed too tightly, add detergent, and choose the setting.\n\n“Once it’s finished, take everything out and hang it up or use a dryer, depending on the fabric. The labels matter there too—something can wash all right but shrink in the dryer. Then, when it’s dry, fold it or put it on hangers and put it away.”",
+      "counts": {
+        "english": 93,
+        "whitespace": 91
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather the dirty clothes and sort them—light and dark things, and anything that needs a different wash. Check the pockets, too. Then put a load in the machine, not packed too tightly, add detergent, and choose the setting. The labels help with the temperature.\n\nOnce it’s finished, take it out and hang it up, or use the dryer if the clothes can go in there. Then when it’s dry, fold it and put it away. Some things need ironing, but not everything. It’s one of those jobs where there’s a wait in the middle—you can do something else, but you have to remember to come back to it.",
+      "counts": {
+        "english": 113,
+        "whitespace": 111
+      }
+    },
+    {
+      "case": "N07",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First you sort the clothes, check the pockets and labels, then put a load in the machine with detergent and choose the right wash setting. When it’s finished, hang them up or use the dryer—then fold them and put them away once they’re dry.",
+      "counts": {
+        "english": 45,
+        "whitespace": 44
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "B",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "Well, first you gather the dirty clothes and sort them, like lights and darks. Check the pockets, put a load in the washer, add detergent, and choose the setting. Once it’s washed, you dry it in the dryer or hang it up, then fold it and put it away.",
+      "counts": {
+        "english": 49,
+        "whitespace": 49
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T1",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, gather the dirty clothes and sort them by color and washing instructions. Check the pockets, put a load in the machine, add detergent, and choose the right cycle. Once it’s washed, dry it in the dryer or hang it up, depending on the fabric. Then fold the clothes or put them on hangers and put them away.",
+      "counts": {
+        "english": 58,
+        "whitespace": 58
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "T2",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, gather the dirty clothes and separate the whites from the colors. Check the pockets and the care labels, then put a load in the washing machine without packing it too full. Add detergent, choose the right cycle and temperature, and start it. When it’s finished, hang the clothes up or put them in the dryer, depending on the labels. Once they’re dry, fold them or put them on hangers and put them away.",
+      "counts": {
+        "english": 74,
+        "whitespace": 74
+      }
+    },
+    {
+      "case": "N08",
+      "source_model": "gpt-6.1-sol",
+      "task": "laundry",
+      "condition": "Short",
+      "question": "You may speak for as long as you wish.\nWhat are the steps involved when people have to do laundry?",
+      "answer": "First, you sort the clothes by colour and check the care labels, then put a load in the washing machine, add detergent, and choose the right cycle. When it’s finished, hang the clothes up or put them in the dryer, then fold them and put them away once they’re dry.",
+      "counts": {
+        "english": 50,
+        "whitespace": 50
+      }
+    }
+  ],
+  "analysis": {
+    "english": {
+      "arms": {
+        "B": {
+          "task": {
+            "story": {
+              "mean": 119.5,
+              "median": 132.0,
+              "range": [
+                51,
+                158
+              ]
+            },
+            "laundry": {
+              "mean": 49.75,
+              "median": 57.0,
+              "range": [
+                22,
+                68
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 2.4020100502512562,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.6847437697635659,
+                "laundry": 1.02746346952609
+              },
+              "mean_abs_log_error": 0.856103619644828,
+              "task_mean_minus_reference": {
+                "story": -117.5,
+                "laundry": -89.25
+              },
+              "ratio_abs_log_error": 0.3427196997625242
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.3303658084606658,
+                "laundry": 1.1805858716277824
+              },
+              "mean_abs_log_error": 1.255475840044224,
+              "task_mean_minus_reference": {
+                "story": -332.5,
+                "laundry": -112.25
+              },
+              "ratio_abs_log_error": 0.14977993683288351
+            }
+          }
+        },
+        "T1": {
+          "task": {
+            "story": {
+              "mean": 118.25,
+              "median": 133.0,
+              "range": [
+                44,
+                174
+              ]
+            },
+            "laundry": {
+              "mean": 61.5,
+              "median": 65.0,
+              "range": [
+                23,
+                93
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.9227642276422765,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.6952591137630888,
+                "laundry": 0.8154367583182195
+              },
+              "mean_abs_log_error": 0.7553479360406541,
+              "task_mean_minus_reference": {
+                "story": -118.75,
+                "laundry": -77.5
+              },
+              "ratio_abs_log_error": 0.12017764455513072
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.340881152460189,
+                "laundry": 0.9685591604199119
+              },
+              "mean_abs_log_error": 1.1547201564400504,
+              "task_mean_minus_reference": {
+                "story": -333.75,
+                "laundry": -100.5
+              },
+              "ratio_abs_log_error": 0.37232199204027694
+            }
+          }
+        },
+        "T2": {
+          "task": {
+            "story": {
+              "mean": 142.875,
+              "median": 159.0,
+              "range": [
+                45,
+                216
+              ]
+            },
+            "laundry": {
+              "mean": 79.875,
+              "median": 83.5,
+              "range": [
+                26,
+                140
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.7887323943661972,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.5060900190201565,
+                "laundry": 0.5540110204329929
+              },
+              "mean_abs_log_error": 0.5300505197265747,
+              "task_mean_minus_reference": {
+                "story": -94.125,
+                "laundry": -59.125
+              },
+              "ratio_abs_log_error": 0.04792100141283652
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.1517120577172566,
+                "laundry": 0.7071334225346851
+              },
+              "mean_abs_log_error": 0.9294227401259709,
+              "task_mean_minus_reference": {
+                "story": -309.125,
+                "laundry": -82.125
+              },
+              "ratio_abs_log_error": 0.44457863518257124
+            }
+          }
+        },
+        "Short": {
+          "task": {
+            "story": {
+              "mean": 60.75,
+              "median": 63.5,
+              "range": [
+                41,
+                73
+              ]
+            },
+            "laundry": {
+              "mean": 45,
+              "median": 50.0,
+              "range": [
+                27,
+                55
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.35,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 1.3612930589144734,
+                "laundry": 1.127811443360372
+              },
+              "mean_abs_log_error": 1.2445522511374227,
+              "task_mean_minus_reference": {
+                "story": -176.25,
+                "laundry": -94
+              },
+              "ratio_abs_log_error": 0.23348161555410135
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 2.0069150976115733,
+                "laundry": 1.2809338454620642
+              },
+              "mean_abs_log_error": 1.6439244715368186,
+              "task_mean_minus_reference": {
+                "story": -391.25,
+                "laundry": -117
+              },
+              "ratio_abs_log_error": 0.7259812521495089
+            }
+          }
+        }
+      },
+      "primary_patient_T2_vs_each": {
+        "B": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.32605309991825326,
+          "shape_distance_difference": -0.2947986983496877,
+          "passes_both": true
+        },
+        "T1": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.2252974163140794,
+          "shape_distance_difference": -0.0722566431422942,
+          "passes_both": true
+        },
+        "Short": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.714501731410848,
+          "shape_distance_difference": -0.18556061414126485,
+          "passes_both": true
+        }
+      },
+      "nonclinical_T2_vs_each": {
+        "B": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": false,
+          "level_distance_difference": -0.32605309991825315,
+          "shape_distance_difference": 0.29479869834968775,
+          "passes_both": false
+        },
+        "T1": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": false,
+          "level_distance_difference": -0.2252974163140795,
+          "shape_distance_difference": 0.0722566431422943,
+          "passes_both": false
+        },
+        "Short": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.7145017314108477,
+          "shape_distance_difference": -0.2814026169669377,
+          "passes_both": true
+        }
+      },
+      "case_paired_differences": {
+        "N01": {
+          "B": {
+            "story_minus_laundry_words": 99,
+            "task_difference_vs_T2": {
+              "story": 30,
+              "laundry": -11
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 75,
+            "task_difference_vs_T2": {
+              "story": 7,
+              "laundry": -10
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 58,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 17,
+            "task_difference_vs_T2": {
+              "story": -56,
+              "laundry": -15
+            }
+          }
+        },
+        "N02": {
+          "B": {
+            "story_minus_laundry_words": 36,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": -7
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 28,
+            "task_difference_vs_T2": {
+              "story": -7,
+              "laundry": -6
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 29,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 14,
+            "task_difference_vs_T2": {
+              "story": -17,
+              "laundry": -2
+            }
+          }
+        },
+        "N03": {
+          "B": {
+            "story_minus_laundry_words": 78,
+            "task_difference_vs_T2": {
+              "story": -70,
+              "laundry": -25
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 61,
+            "task_difference_vs_T2": {
+              "story": -85,
+              "laundry": -23
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 123,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 14,
+            "task_difference_vs_T2": {
+              "story": -152,
+              "laundry": -43
+            }
+          }
+        },
+        "N04": {
+          "B": {
+            "story_minus_laundry_words": 97,
+            "task_difference_vs_T2": {
+              "story": -40,
+              "laundry": -84
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 54,
+            "task_difference_vs_T2": {
+              "story": -46,
+              "laundry": -47
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 53,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 9,
+            "task_difference_vs_T2": {
+              "story": -130,
+              "laundry": -86
+            }
+          }
+        },
+        "N05": {
+          "B": {
+            "story_minus_laundry_words": 29,
+            "task_difference_vs_T2": {
+              "story": 6,
+              "laundry": -4
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 21,
+            "task_difference_vs_T2": {
+              "story": -1,
+              "laundry": -3
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 19,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 18,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 1
+            }
+          }
+        },
+        "N06": {
+          "B": {
+            "story_minus_laundry_words": 68,
+            "task_difference_vs_T2": {
+              "story": -44,
+              "laundry": -36
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 70,
+            "task_difference_vs_T2": {
+              "story": -28,
+              "laundry": -22
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 76,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 21,
+            "task_difference_vs_T2": {
+              "story": -97,
+              "laundry": -42
+            }
+          }
+        },
+        "N07": {
+          "B": {
+            "story_minus_laundry_words": 64,
+            "task_difference_vs_T2": {
+              "story": -57,
+              "laundry": -49
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 81,
+            "task_difference_vs_T2": {
+              "story": -11,
+              "laundry": -20
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 72,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 28,
+            "task_difference_vs_T2": {
+              "story": -112,
+              "laundry": -68
+            }
+          }
+        },
+        "N08": {
+          "B": {
+            "story_minus_laundry_words": 87,
+            "task_difference_vs_T2": {
+              "story": -12,
+              "laundry": -25
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 64,
+            "task_difference_vs_T2": {
+              "story": -26,
+              "laundry": -16
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 74,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 5,
+            "task_difference_vs_T2": {
+              "story": -93,
+              "laundry": -24
+            }
+          }
+        }
+      },
+      "leave_one_case_out": {
+        "N01": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3792078103859797,
+              "shape_distance_difference": -0.2773450327198018,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.24991534162134765,
+              "shape_distance_difference": -0.05107900852174593,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7601732875847464,
+              "shape_distance_difference": -0.18285476144141938,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N02": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.33651750572491124,
+              "shape_distance_difference": -0.294704616105102,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.227683868210391,
+              "shape_distance_difference": -0.07034464102137297,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7482887254976165,
+              "shape_distance_difference": -0.2013643150158795,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N03": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3192228195918747,
+              "shape_distance_difference": -0.36010376701802926,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.19318955701694263,
+              "shape_distance_difference": -0.12034497301692192,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.6764974648977782,
+              "shape_distance_difference": -0.22090157326412999,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N04": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2729513146683693,
+              "shape_distance_difference": -0.20968808804108868,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.19837285884498357,
+              "shape_distance_difference": -0.05054364003334329,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.6490553996737233,
+              "shape_distance_difference": -0.0995294500719139,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N05": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.34104323545793325,
+              "shape_distance_difference": -0.295465114176767,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.23219663474839203,
+              "shape_distance_difference": -0.07113106548307979,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7612115962891989,
+              "shape_distance_difference": -0.20338934440921216,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N06": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3153992792241993,
+              "shape_distance_difference": -0.3128817956576758,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.22565794819643437,
+              "shape_distance_difference": -0.06974627037879155,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.713811250457321,
+              "shape_distance_difference": -0.19422631849865982,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N07": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.299997421673305,
+              "shape_distance_difference": -0.3083255961754087,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.24610151189696527,
+              "shape_distance_difference": -0.06047656790176213,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.6770643794609522,
+              "shape_distance_difference": -0.19675089664032858,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N08": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3375961029221538,
+              "shape_distance_difference": -0.28831541204371974,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.22617670214757857,
+              "shape_distance_difference": -0.07520898979691501,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7184440403610469,
+              "shape_distance_difference": -0.1717196173721712,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        }
+      },
+      "rank_lowest_first": {
+        "patient": {
+          "mean_abs_log_error": [
+            "T2",
+            "T1",
+            "B",
+            "Short"
+          ],
+          "ratio_abs_log_error": [
+            "T2",
+            "T1",
+            "Short",
+            "B"
+          ]
+        },
+        "nonclinical": {
+          "mean_abs_log_error": [
+            "T2",
+            "T1",
+            "B",
+            "Short"
+          ],
+          "ratio_abs_log_error": [
+            "B",
+            "T1",
+            "T2",
+            "Short"
+          ]
+        }
+      },
+      "rank_note": "Alphabetical order breaks exact numerical ties in display only; differences and pass rule use numeric errors."
+    },
+    "whitespace": {
+      "arms": {
+        "B": {
+          "task": {
+            "story": {
+              "mean": 119.25,
+              "median": 131.5,
+              "range": [
+                51,
+                158
+              ]
+            },
+            "laundry": {
+              "mean": 49.125,
+              "median": 56.5,
+              "range": [
+                22,
+                67
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 2.427480916030534,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.6868380113666805,
+                "laundry": 1.0401058629412663
+              },
+              "mean_abs_log_error": 0.8634719371539734,
+              "task_mean_minus_reference": {
+                "story": -117.75,
+                "laundry": -89.875
+              },
+              "ratio_abs_log_error": 0.35326785157458573
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.3324600500637807,
+                "laundry": 1.1932282650429586
+              },
+              "mean_abs_log_error": 1.2628441575533698,
+              "task_mean_minus_reference": {
+                "story": -332.75,
+                "laundry": -112.875
+              },
+              "ratio_abs_log_error": 0.13923178502082192
+            }
+          }
+        },
+        "T1": {
+          "task": {
+            "story": {
+              "mean": 118.125,
+              "median": 133.0,
+              "range": [
+                44,
+                174
+              ]
+            },
+            "laundry": {
+              "mean": 61,
+              "median": 64.5,
+              "range": [
+                23,
+                92
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.9364754098360655,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.6963167553212244,
+                "laundry": 0.8236000689573806
+              },
+              "mean_abs_log_error": 0.7599584121393025,
+              "task_mean_minus_reference": {
+                "story": -118.875,
+                "laundry": -78
+              },
+              "ratio_abs_log_error": 0.12728331363615605
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.3419387940183243,
+                "laundry": 0.9767224710590728
+              },
+              "mean_abs_log_error": 1.1593306325386985,
+              "task_mean_minus_reference": {
+                "story": -333.875,
+                "laundry": -101
+              },
+              "ratio_abs_log_error": 0.36521632295925155
+            }
+          }
+        },
+        "T2": {
+          "task": {
+            "story": {
+              "mean": 142.625,
+              "median": 159.0,
+              "range": [
+                45,
+                216
+              ]
+            },
+            "laundry": {
+              "mean": 79.375,
+              "median": 83.5,
+              "range": [
+                26,
+                139
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.7968503937007874,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 0.5078413329528916,
+                "laundry": 0.560290475917836
+              },
+              "mean_abs_log_error": 0.5340659044353637,
+              "task_mean_minus_reference": {
+                "story": -94.375,
+                "laundry": -59.625
+              },
+              "ratio_abs_log_error": 0.052449142964944455
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 1.1534633716499914,
+                "laundry": 0.7134128780195284
+              },
+              "mean_abs_log_error": 0.9334381248347599,
+              "task_mean_minus_reference": {
+                "story": -309.375,
+                "laundry": -82.625
+              },
+              "ratio_abs_log_error": 0.44005049363046317
+            }
+          }
+        },
+        "Short": {
+          "task": {
+            "story": {
+              "mean": 60.375,
+              "median": 63.0,
+              "range": [
+                41,
+                73
+              ]
+            },
+            "laundry": {
+              "mean": 44.375,
+              "median": 49.5,
+              "range": [
+                27,
+                54
+              ]
+            }
+          },
+          "story_over_laundry_ratio_of_means": 1.36056338028169,
+          "distance": {
+            "patient": {
+              "task_abs_log_error": {
+                "story": 1.3674850291623943,
+                "laundry": 1.141797685335112
+              },
+              "mean_abs_log_error": 1.2546413572487531,
+              "task_mean_minus_reference": {
+                "story": -176.625,
+                "laundry": -94.625
+              },
+              "ratio_abs_log_error": 0.22568734382728253
+            },
+            "nonclinical": {
+              "task_abs_log_error": {
+                "story": 2.0131070678594942,
+                "laundry": 1.2949200874368043
+              },
+              "mean_abs_log_error": 1.6540135776481493,
+              "task_mean_minus_reference": {
+                "story": -391.625,
+                "laundry": -117.625
+              },
+              "ratio_abs_log_error": 0.7181869804226902
+            }
+          }
+        }
+      },
+      "primary_patient_T2_vs_each": {
+        "B": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.3294060327186097,
+          "shape_distance_difference": -0.30081870860964127,
+          "passes_both": true
+        },
+        "T1": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.22589250770393876,
+          "shape_distance_difference": -0.07483417067121159,
+          "passes_both": true
+        },
+        "Short": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.7205754528133894,
+          "shape_distance_difference": -0.17323820086233807,
+          "passes_both": true
+        }
+      },
+      "nonclinical_T2_vs_each": {
+        "B": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": false,
+          "level_distance_difference": -0.3294060327186099,
+          "shape_distance_difference": 0.3008187086096412,
+          "passes_both": false
+        },
+        "T1": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": false,
+          "level_distance_difference": -0.22589250770393865,
+          "shape_distance_difference": 0.07483417067121162,
+          "passes_both": false
+        },
+        "Short": {
+          "both_task_errors_no_worse_one_strictly_smaller": true,
+          "shape_error_strictly_smaller": true,
+          "level_distance_difference": -0.7205754528133894,
+          "shape_distance_difference": -0.2781364867922271,
+          "passes_both": true
+        }
+      },
+      "case_paired_differences": {
+        "N01": {
+          "B": {
+            "story_minus_laundry_words": 100,
+            "task_difference_vs_T2": {
+              "story": 30,
+              "laundry": -11
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 76,
+            "task_difference_vs_T2": {
+              "story": 7,
+              "laundry": -10
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 59,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 17,
+            "task_difference_vs_T2": {
+              "story": -57,
+              "laundry": -15
+            }
+          }
+        },
+        "N02": {
+          "B": {
+            "story_minus_laundry_words": 36,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": -7
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 28,
+            "task_difference_vs_T2": {
+              "story": -7,
+              "laundry": -6
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 29,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 14,
+            "task_difference_vs_T2": {
+              "story": -17,
+              "laundry": -2
+            }
+          }
+        },
+        "N03": {
+          "B": {
+            "story_minus_laundry_words": 79,
+            "task_difference_vs_T2": {
+              "story": -70,
+              "laundry": -26
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 61,
+            "task_difference_vs_T2": {
+              "story": -85,
+              "laundry": -23
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 123,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 15,
+            "task_difference_vs_T2": {
+              "story": -152,
+              "laundry": -44
+            }
+          }
+        },
+        "N04": {
+          "B": {
+            "story_minus_laundry_words": 97,
+            "task_difference_vs_T2": {
+              "story": -40,
+              "laundry": -84
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 54,
+            "task_difference_vs_T2": {
+              "story": -46,
+              "laundry": -47
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 53,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 9,
+            "task_difference_vs_T2": {
+              "story": -130,
+              "laundry": -86
+            }
+          }
+        },
+        "N05": {
+          "B": {
+            "story_minus_laundry_words": 29,
+            "task_difference_vs_T2": {
+              "story": 6,
+              "laundry": -4
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 21,
+            "task_difference_vs_T2": {
+              "story": -1,
+              "laundry": -3
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 19,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 18,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 1
+            }
+          }
+        },
+        "N06": {
+          "B": {
+            "story_minus_laundry_words": 68,
+            "task_difference_vs_T2": {
+              "story": -44,
+              "laundry": -36
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 70,
+            "task_difference_vs_T2": {
+              "story": -28,
+              "laundry": -22
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 76,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 22,
+            "task_difference_vs_T2": {
+              "story": -97,
+              "laundry": -43
+            }
+          }
+        },
+        "N07": {
+          "B": {
+            "story_minus_laundry_words": 65,
+            "task_difference_vs_T2": {
+              "story": -57,
+              "laundry": -49
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 83,
+            "task_difference_vs_T2": {
+              "story": -10,
+              "laundry": -20
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 73,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 28,
+            "task_difference_vs_T2": {
+              "story": -112,
+              "laundry": -67
+            }
+          }
+        },
+        "N08": {
+          "B": {
+            "story_minus_laundry_words": 87,
+            "task_difference_vs_T2": {
+              "story": -12,
+              "laundry": -25
+            }
+          },
+          "T1": {
+            "story_minus_laundry_words": 64,
+            "task_difference_vs_T2": {
+              "story": -26,
+              "laundry": -16
+            }
+          },
+          "T2": {
+            "story_minus_laundry_words": 74,
+            "task_difference_vs_T2": {
+              "story": 0,
+              "laundry": 0
+            }
+          },
+          "Short": {
+            "story_minus_laundry_words": 5,
+            "task_difference_vs_T2": {
+              "story": -93,
+              "laundry": -24
+            }
+          }
+        }
+      },
+      "leave_one_case_out": {
+        "N01": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.38276793239120843,
+              "shape_distance_difference": -0.283391227973816,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2503872079286825,
+              "shape_distance_difference": -0.053499902692966894,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.765565984176732,
+              "shape_distance_difference": -0.17118190536272782,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N02": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3401138787439697,
+              "shape_distance_difference": -0.30112808943581915,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.22831352615471723,
+              "shape_distance_difference": -0.07305810865448156,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7550233713042317,
+              "shape_distance_difference": -0.18826588138364822,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N03": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3218001495321342,
+              "shape_distance_difference": -0.37313694108160905,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.1938089702123873,
+              "shape_distance_difference": -0.13195119740500516,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.6818018585387764,
+              "shape_distance_difference": -0.21835886196634324,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N04": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2759151109926611,
+              "shape_distance_difference": -0.2152298404984952,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.19860478415705007,
+              "shape_distance_difference": -0.05311386262679359,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.654462437138802,
+              "shape_distance_difference": -0.08613372781636679,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N05": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.34465805959671864,
+              "shape_distance_difference": -0.30191629101148637,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2328490360110818,
+              "shape_distance_difference": -0.07386365222291777,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.768004108228634,
+              "shape_distance_difference": -0.19036291421851256,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N06": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.31930103046374014,
+              "shape_distance_difference": -0.3199754331153498,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2263528864648907,
+              "shape_distance_difference": -0.07276226424065486,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7192804430166155,
+              "shape_distance_difference": -0.1831357682719037,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N07": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.30268600268662105,
+              "shape_distance_difference": -0.3133746125147163,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2468352107617383,
+              "shape_distance_difference": -0.06144038574422711,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.6834544745492639,
+              "shape_distance_difference": -0.1860604065599665,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        },
+        "N08": {
+          "patient_T2_vs_others": {
+            "B": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.3414737877958617,
+              "shape_distance_difference": -0.2952109207068723,
+              "passes_both": true
+            },
+            "T1": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.2268550801015956,
+              "shape_distance_difference": -0.07816123346698547,
+              "passes_both": true
+            },
+            "Short": {
+              "both_task_errors_no_worse_one_strictly_smaller": true,
+              "shape_error_strictly_smaller": true,
+              "level_distance_difference": -0.7255082986893304,
+              "shape_distance_difference": -0.15735123851201743,
+              "passes_both": true
+            }
+          },
+          "rank_lowest_first": {
+            "patient": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "T2",
+                "T1",
+                "Short",
+                "B"
+              ]
+            },
+            "nonclinical": {
+              "mean_abs_log_error": [
+                "T2",
+                "T1",
+                "B",
+                "Short"
+              ],
+              "ratio_abs_log_error": [
+                "B",
+                "T1",
+                "T2",
+                "Short"
+              ]
+            }
+          }
+        }
+      },
+      "rank_lowest_first": {
+        "patient": {
+          "mean_abs_log_error": [
+            "T2",
+            "T1",
+            "B",
+            "Short"
+          ],
+          "ratio_abs_log_error": [
+            "T2",
+            "T1",
+            "Short",
+            "B"
+          ]
+        },
+        "nonclinical": {
+          "mean_abs_log_error": [
+            "T2",
+            "T1",
+            "B",
+            "Short"
+          ],
+          "ratio_abs_log_error": [
+            "B",
+            "T1",
+            "T2",
+            "Short"
+          ]
+        }
+      },
+      "rank_note": "Alphabetical order breaks exact numerical ties in display only; differences and pass rule use numeric errors."
+    }
+  }
+}

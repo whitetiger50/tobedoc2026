@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-20T23:00:52.557222+00:00",
+  "attempt": "attempt-01",
+  "id": "K3ae2e7d58d1259ed3b0b",
+  "reader": "opus",
+  "session": "a20a1693-e3f3-4e0a-9062-e1107b8dac69",
+  "packet_sha256": "5ffb03192193f2cde26c883a7db3b061ceae04c62f6de8487eb1184a57196783",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "76f406a8722b1068e9cb3bba82eeda2917d7349679477b3b0bb77e3801c1a005",
+  "raw_sha256": "6f993c87d483bdf60e0840c372b18f0277392c737f377904a6d2a5bd4f58dcbe",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient says their arm sometimes aches on the evening after the injection but is usually fine by morning, so the discomfort usually settles overnight.",
+      "evidence": [
+        {
+          "turn": 7,
+          "role": "patient",
+          "quote": "it’s usually fine by morning",
+          "supports": "B",
+          "match": "exact"
+        },
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "It’s usually fine by morning.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient suggests that choosing where to go the night before might help, which means picking the destination the evening before the trip.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "Maybe choosing where to go the night before would help.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}

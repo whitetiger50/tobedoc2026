@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-20T21:19:24.988347+00:00",
+  "attempt": "attempt-01",
+  "id": "Kfd4f831df29f98bdccc1",
+  "reader": "gpt",
+  "session": "01a1fad3-f11d-71c1-9c9a-2490e82b3535",
+  "packet_sha256": "807b90b2a808c09e503b2e6afd56dac453bc265b61655f5edab651f2808b2b01",
+  "system_sha256": "c9c27af7681c873a7aa3b63c2e28562604f3f4dfed4f4a8ff368495ec9ec83c9",
+  "provider_sha256": "b0eb75ac9cdba6ac8839b9a9d0c54d450a7127e6a2921d844787575a80b1e345",
+  "raw_sha256": "837e0553cb8f74fb4defa3ea37025299c782f3f1b6f3a1b05777a6fdc91f750d",
+  "items": {
+    "item1": {
+      "status": "correct",
+      "choice": "A",
+      "reason": "The patient says the arm discomfort is usually resolved by the next morning.",
+      "evidence": [
+        {
+          "turn": 11,
+          "role": "patient",
+          "quote": "My arm sometimes aches that evening. It’s usually fine the next morning.",
+          "supports": "A",
+          "match": "exact"
+        }
+      ]
+    },
+    "item2": {
+      "status": "correct",
+      "choice": "B",
+      "reason": "The patient tentatively suggests choosing where to go the night before, not after starting the trip.",
+      "evidence": [
+        {
+          "turn": 12,
+          "role": "patient",
+          "quote": "Maybe choose where the night before.",
+          "supports": "B",
+          "match": "exact"
+        }
+      ]
+    }
+  }
+}
